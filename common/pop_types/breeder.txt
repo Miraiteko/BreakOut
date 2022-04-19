@@ -2,14 +2,15 @@
 	texture = "gfx/interface/icons/pops_icons/breeder.dds"
 	color = { 237 75 193 }
 	strata = poor
-	start_quality_of_life = 3
-	wage_weight = 1.0
-	dependent_wage = 0.5	# per year
-	unemployment = yes
+	subsistence_income = yes
+	start_quality_of_life = 5
+	wage_weight = 0.5
+	dependent_wage = 0.5
+	unemployment = no
 
-	# 20% - 70% politically engaged	
+	# 0% - 100% politically engaged	
 	political_engagement_base = 0.0
-	political_engagement_literacy_factor = 2.0
+	political_engagement_literacy_factor = 1.0
 	
 	political_engagement_mult = {
 		value = 1	

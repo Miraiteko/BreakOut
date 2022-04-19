@@ -1,0 +1,11 @@
+﻿# Root = Country
+on_monthly_pulse_country = {
+	on_actions = {
+		breakout_on_monthly_pulse_country
+	}
+}
+breakout_on_monthly_pulse_country = {
+	effect = {
+		breeder_ratio_modifier_check = yes
+	}
+}

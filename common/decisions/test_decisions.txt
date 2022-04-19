@@ -4,26 +4,52 @@
 	}
 
 	possible = {
-		is_ai = no
+		pop_type_percent = {
+			pop_type = breeder
+			percent > 50
+		}
+		any_scope_state = {
+			state_population > 2000
+		}	
+		capital_state.state_population > 1000
 	}
 	
 	when_taken = {
 		every_scope_state = {
-			add_modifier = {
-				name = birth_rate_modifier
-				months = 6
-			}
+			breeder_ratio_modifier_check = yes
 		}	
+	}
+	ai_chance = {
+         base = 0
+	}
+}
+breakout_test_decision2 = {
+	is_shown = {
+		is_ai = no
+	}
+
+	possible = {
+	}
+	
+	when_taken = {
 		every_scope_state = {
-			limit = {
-				pop_type_percent = {	
-					pop_type = breeder
-					percent < 50
+			save_scope_as = checked_state
+			set_variable = {
+				name = breeder_ratio
+				value = 0
+			}
+			every_scope_pop = {
+				limit = { is_pop_type = breeder }
+				scope:checked_state = {
+					change_variable = {
+						name = breeder_ratio
+						add = prev.state_population
+					}
 				}
 			}
-			add_modifier = {
-				name = plague_modifier
-				months = 6
+			change_variable = {
+				name = breeder_ratio
+				divide = state_population
 			}
 		}	
 	}
