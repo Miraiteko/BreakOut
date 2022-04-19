@@ -1,0 +1,129 @@
+﻿ig_wemen_federation = {
+	color = { 237 75 193 }
+	texture = "gfx/interface/icons/ig_icons/wemen_federation.dds"
+	
+	ideologies = {
+		ideology_feminist_breakout
+		ideology_isolationist
+		ideology_populist
+	}
+	
+	enable = {
+		always = yes
+	}
+	
+	traits = {
+		ig_trait_flower_power
+		ig_trait_harmony
+		ig_trait_irrational_fist
+	}	
+	
+	on_enable = {}
+	on_disable = {}
+	
+	pop_potential = {
+		NOR = {
+			is_pop_type = aristocrats
+			is_pop_type = capitalists
+			is_pop_type = shopkeepers
+			is_pop_type = bureaucrats
+			is_pop_type = officers
+		}		
+	}
+	
+	pop_weight = {
+		value = 0
+		
+		add = {
+			desc = "URBAN_POP"
+			if = {
+				limit = { 
+					NOR = {
+						pop_employment_building_group = bg_agriculture
+						pop_employment_building_group = bg_ranching
+						pop_employment_building_group = bg_plantations
+					}
+				}
+				value = 50
+			}
+		}			
+	
+		add = {
+			desc = "POP_BREEDER"
+			if = {
+				limit = { 
+					is_pop_type = breeder
+				}
+				value = 100
+			}
+		}	
+		
+
+		multiply = {
+			desc = "NO_LABOR_MOVEMENT"	
+			value = 1.0
+			
+			if = {
+				limit = { 
+					owner = {
+						NOT = { has_technology_researched = labor_movement }
+					}
+				}
+				value = 0.5
+			}		
+		}		
+
+		multiply = {
+			desc = "HAS_FEMINISM"	
+			value = 1.0
+			
+			if = {
+				limit = { 
+					owner = {
+						has_technology_researched = feminism
+					}
+				}
+				value = 2.0
+			}		
+		}
+
+		multiply = {
+			desc = "decentralized_power"	
+			value = 1.0
+			
+			if = {
+				limit = { 
+					owner = {
+						is_country_type = decentralized
+					}
+				}
+				value = 0.0
+			}		
+		}		
+	}
+	
+	monarch_weight = {
+		value = 0.1
+	}	
+
+	commander_weight = {
+		value = 0.5
+	}	
+	
+	noble_chance = {
+		value = 0.1
+	}
+	
+	female_commander_chance = {	
+		value = 0.9
+	}
+	
+	female_politician_chance = {
+		value = 1.0
+	}
+	
+	# The chance that a commander belonging to this IG takes over leadership when it changes
+	commander_leader_chance = {
+		value = 0.25
+	}	
+}
