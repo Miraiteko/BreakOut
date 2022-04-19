@@ -1,0 +1,10 @@
+﻿breed = {
+	texture = "gfx/interface/icons/goods_icons/breed.dds"
+	cost = 50
+	category = staple
+	tradeable = no
+	
+	prestige_factor = 5
+	
+	obsession_chance = 1.0
+}

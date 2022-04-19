@@ -1,0 +1,33 @@
+﻿breakout_test_decision = {
+	is_shown = {
+		is_ai = no
+	}
+
+	possible = {
+		is_ai = no
+	}
+	
+	when_taken = {
+		every_scope_state = {
+			add_modifier = {
+				name = birth_rate_modifier
+				months = 6
+			}
+		}	
+		every_scope_state = {
+			limit = {
+				pop_type_percent = {	
+					pop_type = breeder
+					percent < 50
+				}
+			}
+			add_modifier = {
+				name = plague_modifier
+				months = 6
+			}
+		}	
+	}
+	ai_chance = {
+         base = 0
+	}
+}

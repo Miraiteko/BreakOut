@@ -1,0 +1,4 @@
+﻿building_output_breed_add = {
+	good = yes
+	percent = no
+}

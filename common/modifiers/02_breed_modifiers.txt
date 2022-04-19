@@ -1,0 +1,12 @@
+﻿birth_rate_modifier_1 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds
+	state_birth_rate_mult = 100
+}
+birth_rate_modifier_2 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds
+	state_birth_rate_mult = 200
+}
+birth_rate_modifier_3 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds
+	state_birth_rate_mult = 300
+}
