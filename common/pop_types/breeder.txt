@@ -4,7 +4,7 @@
 	strata = poor
 	subsistence_income = yes
 	start_quality_of_life = 5
-	wage_weight = 0.5
+	wage_weight = 1.0
 	dependent_wage = 0.5
 	unemployment = no
 
@@ -29,16 +29,16 @@
 		}
 
 		multiply = {
-			desc = "HAS_POLITICAL_AGITATION"	
+			desc = "HAS_FEMINISM"	
 			value = 1.0
 			
 			if = {
 				limit = { 
 					owner = {
-						has_technology_researched = political_agitation
+						has_technology_researched = feminism
 					}
 				}
-				value = 1.5
+				value = 2.0
 			}		
 		}	
 	}
