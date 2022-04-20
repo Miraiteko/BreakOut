@@ -15,43 +15,7 @@
 	}
 	
 	when_taken = {
-		every_scope_state = {
-			breeder_ratio_modifier_check = yes
-		}	
-	}
-	ai_chance = {
-         base = 0
-	}
-}
-breakout_test_decision2 = {
-	is_shown = {
-		is_ai = no
-	}
-
-	possible = {
-	}
-	
-	when_taken = {
-		every_scope_state = {
-			save_scope_as = checked_state
-			set_variable = {
-				name = breeder_ratio
-				value = 0
-			}
-			every_scope_pop = {
-				limit = { is_pop_type = breeder }
-				scope:checked_state = {
-					change_variable = {
-						name = breeder_ratio
-						add = prev.state_population
-					}
-				}
-			}
-			change_variable = {
-				name = breeder_ratio
-				divide = state_population
-			}
-		}	
+		breeder_ratio_modifier_check = yes
 	}
 	ai_chance = {
          base = 0

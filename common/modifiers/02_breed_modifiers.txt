@@ -1,64 +1,64 @@
 ﻿#基础出生为0.1%
 breeder_ratio_modifier_00 = {
-	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_positive.dds
 }
 breeder_ratio_modifier_05 = {
-	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_positive.dds
 	state_birth_rate_mult = 20
 }
 breeder_ratio_modifier_10 = {
-	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_positive.dds
 	state_birth_rate_mult = 40
 }
 breeder_ratio_modifier_15 = {
-	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_positive.dds
 	state_birth_rate_mult = 60
 }
 breeder_ratio_modifier_20 = {
-	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_positive.dds
 	state_birth_rate_mult = 80
 }
 breeder_ratio_modifier_25 = {
-	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_positive.dds
 	state_birth_rate_mult = 100
 }
 breeder_ratio_modifier_30 = {
-	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_positive.dds
 	state_birth_rate_mult = 120
 }
 breeder_ratio_modifier_35 = {
-	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_positive.dds
 	state_birth_rate_mult = 140
 }
 breeder_ratio_modifier_40 = {
-	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_positive.dds
 	state_birth_rate_mult = 160
 }
 breeder_ratio_modifier_45 = {
-	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_positive.dds
 	state_birth_rate_mult = 180
 }
 breeder_ratio_modifier_50 = {
-	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_positive.dds
 	state_birth_rate_mult = 200
 }
 breeder_ratio_modifier_55 = {
-	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_positive.dds
 	state_birth_rate_mult = 220
 }
 breeder_ratio_modifier_60 = {
-	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_positive.dds
 	state_birth_rate_mult = 240
 }
 breeder_ratio_modifier_65 = {
-	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_positive.dds
 	state_birth_rate_mult = 260
 }
 breeder_ratio_modifier_70 = {
-	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_positive.dds
 	state_birth_rate_mult = 280
 }
 breeder_ratio_modifier_75 = {
-	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_positive.dds
 	state_birth_rate_mult = 300
 }
