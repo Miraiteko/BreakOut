@@ -1,0 +1,197 @@
+﻿#基础方式
+pm_tradition_breeder = {
+	texture = "gfx/interface/icons/production_method_icons/scholastic_education.dds"
+		
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_grain_add = 40 #800
+			building_input_clothes_add = 20 #600
+			building_output_breed_add = 30 #1500
+		}	
+		level_scaled = {
+			building_employment_clergymen_add = 250
+			building_employment_breeder_add = 5000
+		}
+		unscaled = {
+		}
+	}		
+	state_modifiers = {
+		workforce_scaled = {
+		}	
+	}	
+}	
+
+pm_elite_breeder = {
+	texture = "gfx/interface/icons/production_method_icons/philosophy_dept.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_groceries_add = 20 #600
+			building_input_paper_add = 10 #300
+			building_input_clothes_add = 20 #600
+			building_output_breed_add = 40 #2000
+		}	
+		level_scaled = {
+			building_employment_academics_add = 500
+			building_employment_clerks_add = 1000
+			building_employment_breeder_add = 3000
+		}
+		unscaled = {
+		}
+	}		
+	state_modifiers = {
+		workforce_scaled = {
+		}	
+	}		
+}
+#楼间空地
+pm_breed_center_park = {
+	texture = "gfx/interface/icons/production_method_icons/scholastic_education.dds"
+		
+	building_modifiers = {
+	}		
+	state_modifiers = {
+		workforce_scaled = {
+			building_output_breed_add = 5
+		}	
+	}	
+}	
+
+pm_breed_center_shop = {
+	texture = "gfx/interface/icons/production_method_icons/philosophy_dept.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_wood_add = 5
+			building_output_services_add = 10
+		}	
+		level_scaled = {
+			building_employment_laborers_add = 350
+			building_employment_clerks_add = 300
+			building_employment_shopkeepers_add = 200
+		}
+		unscaled = {
+		}
+	}		
+	state_modifiers = {
+		workforce_scaled = {
+		}	
+	}		
+}
+
+pm_breed_center_parkinglot = {
+	texture = "gfx/interface/icons/production_method_icons/philosophy_dept.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_transportation_add = 5
+			building_output_services_add = 15
+		}
+		level_scaled = {
+			building_employment_laborers_add = 300
+			building_employment_machinists_add = 200
+		}
+		unscaled = {
+		}
+	}		
+	state_modifiers = {
+		workforce_scaled = {
+		}	
+	}		
+}
+
+#所有制
+pm_privately_owned_building_breed_center = {
+	texture = "gfx/interface/icons/production_method_icons/privately_owned.dds"
+
+	disallowing_laws = {
+		law_command_economy
+		law_council_republic
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_aristocrats_add = 100
+		}
+		unscaled = {
+			building_aristocrats_shares_add = 5 
+			building_academics_shares_add = 2
+			building_clerks_shares_add = 1
+			building_clergymen_shares_add = 2
+		}
+	}
+}
+
+pm_publicly_traded_building_breed_center = {
+	texture = "gfx/interface/icons/production_method_icons/publicly_traded.dds"
+	
+	disallowing_laws = {
+		law_command_economy
+		law_council_republic
+	}
+
+	unlocking_technologies = {
+		mutual_funds
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_aristocrats_add = 100
+			building_employment_capitalists_add = 50
+		}
+		unscaled = {
+			building_aristocrats_shares_add = 5 
+			building_capitalists_shares_add = 5 
+			building_academics_shares_add = 2
+			building_clergymen_shares_add = 2
+			building_shopkeepers_shares_add = 2
+			building_clerks_shares_add = 1
+		}
+	}
+}
+
+pm_government_run_building_breed_center = {
+	texture = "gfx/interface/icons/production_method_icons/government_run.dds"
+	
+	unlocking_laws = {
+		law_command_economy
+	}
+	
+	building_modifiers = {
+		level_scaled = {
+			building_employment_bureaucrats_add = 150
+		}
+		unscaled = {
+			building_bureaucrats_shares_add = 5
+			building_academics_shares_add = 2
+			building_clerks_shares_add = 1
+			building_clergymen_shares_add = 1
+			building_shopkeepers_shares_add = 2
+		}
+	}
+}
+
+pm_worker_cooperative_building_breed_center = {
+	texture = "gfx/interface/icons/production_method_icons/worker_cooperative.dds"
+
+	unlocking_laws = {
+		law_council_republic
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_breeder_add = 200
+			building_clerks_shares_add = 200
+		}
+		unscaled = {
+			building_breeder_shares_add = 1 
+			building_clergymen_shares_add = 1
+			building_academics_shares_add = 1
+			building_clerks_shares_add = 1
+			building_clergymen_shares_add = 1
+			building_laborers_shares_add = 1
+			building_machinists_shares_add = 1
+			building_shopkeepers_shares_add = 1
+		}
+	}
+}

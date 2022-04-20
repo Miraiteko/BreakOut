@@ -1,0 +1,21 @@
+﻿pmg_breed_methods = {
+	production_methods = {
+		pm_tradition_breeder
+		pm_elite_breeder
+	}
+}
+pmg_breed_center_space_use = {
+	production_methods = {
+		pm_breed_center_park
+		pm_breed_center_shop
+		pm_breed_center_parkinglot
+	}
+}
+pmg_breed_center_ownership = {
+	production_methods = {
+		pm_privately_owned_building_breed_center
+		pm_publicly_traded_building_breed_center
+		pm_government_run_building_breed_center
+		pm_worker_cooperative_building_breed_center
+	}
+}
