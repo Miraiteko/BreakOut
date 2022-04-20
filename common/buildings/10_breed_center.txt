@@ -1,0 +1,28 @@
+﻿############ PRIVATE INFRASTRUCTURE
+
+breed_center = {
+	building_group = bg_private_infrastructure	
+	texture = "gfx/interface/icons/building_icons/skyscraper.dds"
+	
+	unlocking_technologies = {
+		urbanization
+	}
+
+	production_method_groups = {
+		pmg_breed_methods
+		pmg_breed_center_space_use
+		pmg_breed_center_ownership
+	}
+
+	required_construction = construction_cost_medium
+	
+	ai_value = 1500
+	
+	should_auto_expand = { 
+		OR = {
+			cash_reserves_ratio > 0.5
+			is_subsidized = yes
+		}
+		occupancy > 0.95
+	}
+}

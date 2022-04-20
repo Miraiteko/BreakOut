@@ -3,7 +3,8 @@
  breeder:0 "$breeder_only_icon$ $breeder_no_icon$"
  breeder_only_icon:0 "@servicemen!"
  breeder_no_icon:0 "抚育者"
- breeder_desc:0 "抚育者是指那些为了下一代的成长而努力劳作的人，包括了孕妇产妇、家庭主妇、保姆看护、幼儿教师等人群。一些传统观念认为这些人并不算是劳动者，而【大秦东出】认为这些人是重要的劳动者，从事的是劳动力再生产的重要社会工作。\n很多人是在从事其他工作的时候兼职这份工作的，但是在【大秦东出】之中，我们抽象地将这部分工作从兼职者身上拆分出来，作为单独的一个职业。例如：假如一位劳工花费一半的精力在照顾家庭上，我们将其视为0.5位劳工和0.5位抚育者。\n\n抚育者在一个地区的人口占比越高，该地区的出生率就越高。"
+ breeder_desc:0 "抚育者是指那些为了下一代的成长而努力劳作的人，主要包括了孕妇产妇、家庭主妇、保姆看护以及幼儿教师。\n很多人是在从事其他工作的时候兼职这份工作的，但是在【大秦东出】之中，我们抽象地将这部分工作从兼职者身上拆分出来，视为单独的一个职业。\n\n抚育者在一个地区的人口占比越高，该地区的出生率就越高。"
+ #breeder_desc:0 "抚育者是指那些为了下一代的成长而努力劳作的人，包括了孕妇产妇、家庭主妇、保姆看护、幼儿教师等人群。一些传统观念认为这些人并不算是劳动者，而【大秦东出】认为这些人是重要的劳动者，从事的是劳动力再生产的重要社会工作。\n很多人是在从事其他工作的时候兼职这份工作的，但是在【大秦东出】之中，我们抽象地将这部分工作从兼职者身上拆分出来，作为单独的一个职业。例如：假如一位劳工花费一半的精力在照顾家庭上，我们将其视为0.5位劳工和0.5位抚育者。\n\n抚育者在一个地区的人口占比越高，该地区的出生率就越高。"
  BREEDER_QUALIFICATIONS_DESC:0 "任何人群都能成为#v $breeder$#!。[concept_wealth]越高，转变潜力就越高。#v $peasants$#!和#v $laborers$#!特别容易成为#v $breeder$#!。"
  HAS_FEMINISM:0 "#v $feminism$#![concept_technology]已解锁"
  POP_BREEDER_STATE_RELIGION:0 "[concept_state_religion]$breeder$"
@@ -36,9 +37,22 @@
  modifier_building_output_breed_add:0 "每级@porcelain!抚育产出"
  modifier_building_output_breed_add_desc:0 "建筑产出的@porcelain!抚育数量"
  #住房建筑相关
- pmg_breed:0 "劳动力再生产"
+ breed_center:0 "居民区"
+ 
+ pmg_breed_methods:0 "劳动力"
  pm_tradition_breeder:0 "多子多福"
  pm_elite_breeder:0 "优生优育"
+ 
+ pmg_breed_center_space_use:0 "楼间空地"
+ pm_breed_center_park:0 "公园"
+ pm_breed_center_shop:0 "小卖部"
+ pm_breed_center_parkinglot:0 "停车场"
+ 
+ pmg_breed_center_ownership:0 "所有制"
+ pm_privately_owned_building_breed_center:0 "房东所有"
+ pm_publicly_traded_building_breed_center:0 "房产流通"
+ pm_government_run_building_breed_center:0 "政府运营"
+ pm_worker_cooperative_building_breed_center:0 "居民委员会"
  #出生率修正相关
  breeder_ratio_modifier_00:0 "抚育者占比0%"
  breeder_ratio_modifier_05:0 "抚育者占比5%"
