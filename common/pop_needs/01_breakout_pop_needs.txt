@@ -3,9 +3,9 @@
 	
 	entry = {
 		goods = breed
-		weight = 3
-		max_weight = 5.0 # Maxes out at 60% of supply share
-		min_weight = 0.1
+		weight = 10
+		max_weight = 15.0
+		min_weight = 5.0
 	}
 	
 	entry = {
@@ -28,7 +28,72 @@
 		goods = opium
 		
 		weight = 1
-		max_weight = 3.0 # Maxes out at 60% of supply share
+		max_weight = 5.0 # Maxes out at 60% of supply share
+		min_weight = 0.0
+	}
+	
+	entry = {
+		goods = electricity
+		
+		weight = 1
+		max_weight = 5.0 # Maxes out at 100% of supply share
+		min_weight = 0.0
+	}
+	
+	entry = {
+		goods = automobiles
+		
+		weight = 1
+		max_weight = 5.0 # Maxes out at 100% of supply share
+		min_weight = 0.0
+	}
+	
+	entry = {
+		goods = steamers
+		
+		weight = 1
+		max_weight = 5.0 # Maxes out at 100% of supply share
+		min_weight = 0.0
+	}
+	
+	entry = {
+		goods = telephones
+		
+		weight = 1
+		max_weight = 10.0 # Maxes out at 100% of supply share
+		min_weight = 0.0
+	}
+	
+	entry = {
+		goods = radios
+		
+		weight = 1
+		max_weight = 10.0 # Maxes out at 100% of supply share
+		min_weight = 0.0
+	}
+	
+	entry = {
+		goods = aeroplanes
+		
+		weight = 1
+		max_weight = 10.0 # Maxes out at 100% of supply share
+		min_weight = 0.0
+	}
+	
+}
+popneed_services = {
+	default = services
+
+	entry = {
+		goods = services
+		weight = 3
+		max_weight = 5.0
+		min_weight = 1
+	}
+	entry = {
+		goods = breed
+		weight = 1
+		max_weight = 3.0
 		min_weight = 0.0
 	}
 }

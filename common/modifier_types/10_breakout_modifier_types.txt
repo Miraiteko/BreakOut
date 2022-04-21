@@ -2,3 +2,7 @@
 	good = yes
 	percent = no
 }
+building_input_services_add = {
+	good = no
+	percent = no
+}

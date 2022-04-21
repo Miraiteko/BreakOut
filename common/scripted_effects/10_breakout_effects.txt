@@ -238,65 +238,16 @@
 		}
 	}
 	
-	# save_scope_as = checked_state
-	# set_variable = {
-		# name = breeder_ratio
-		# value = 0
-	# }
-	# every_scope_pop = {
-		# limit = { is_pop_type = breeder }
-		# scope:checked_state = {
-			# change_variable = {
-				# name = breeder_ratio
-				# add = prev.state_population #这个目前不能用在pop身上
-			# }
-		# }
-	# }
-	# change_variable = {
-		# name = breeder_ratio
-		# divide = state_population
-	# }
-	# if = {
-		# limit = {
-			# #pop_type_percent = { 这个目前不能用在州上
-			# #	pop_type = breeder
-			# #	percent > 10
-			# #}
-			# var:breeder_ratio > 0.5
-		# }
-		# add_modifier = {
-			# name = breeder_ratio_modifier_50
-			# months = 1
-		# }
-	# }
-	# else_if = {
-		# limit = {
-			# var:breeder_ratio > 0.3
-		# }
-		# add_modifier = {
-			# name = breeder_ratio_modifier_30
-			# months = 1
-		# }
-	# }
-	# else_if = {
-		# limit = {
-			# var:breeder_ratio > 0.1
-		# }
-		# add_modifier = {
-			# name = breeder_ratio_modifier_10
-			# months = 1
-		# }
-	# }
 }
 
 breeder_ratio_modifier_check = {
 	every_scope_state = {
-		save_scope_as = checked_state
+		save_scope_as = checked_state		
+		#计算抚养者人口
 		set_variable = {
 			name = breeder_ratio
 			value = 0
 		}
-		#计算抚养者人口
 		every_scope_building = {
 			limit = {
 				OR = { #自给农业
@@ -324,6 +275,38 @@ breeder_ratio_modifier_check = {
 						name = breeder_ratio
 						add = {
 							value = 5000 #自耕农一级提供5000抚养者岗位
+							multiply = prev.occupancy
+							multiply = prev.level
+						}
+					}
+				}
+			}
+		}
+		every_scope_building = {
+			limit = {
+				OR = { #居民区
+					is_building_type = breed_center
+				}
+			}
+			if = {
+				limit = { has_active_production_method = pm_tradition_breeder } #多子多福
+				scope:checked_state = {
+					change_variable = {
+						name = breeder_ratio
+						add = {
+							value = 5000 #多子多福一级提供8000抚养者岗位
+							multiply = prev.occupancy
+							multiply = prev.level
+						}
+					}
+				}
+			}
+			else = {
+				scope:checked_state = {
+					change_variable = {
+						name = breeder_ratio
+						add = {
+							value = 3000 #优生优育一级提供3000抚养者岗位
 							multiply = prev.occupancy
 							multiply = prev.level
 						}
@@ -361,13 +344,13 @@ breeder_ratio_modifier_check = {
 					}
 					add_modifier = {
 						name = breeder_ratio_modifier_00
-						months = 1
+						months = 6
 					}
 				}
 				else = {
 					add_modifier = {
 						name = breeder_ratio_modifier_05
-						months = 1
+						months = 6
 					}
 				}
 			}	
@@ -378,13 +361,13 @@ breeder_ratio_modifier_check = {
 					}
 					add_modifier = {
 						name = breeder_ratio_modifier_10
-						months = 1
+						months = 6
 					}
 				}
 				else = {
 					add_modifier = {
 						name = breeder_ratio_modifier_15
-						months = 1
+						months = 6
 					}
 				}
 			}	
@@ -403,13 +386,13 @@ breeder_ratio_modifier_check = {
 					}
 					add_modifier = {
 						name = breeder_ratio_modifier_20
-						months = 1
+						months = 6
 					}
 				}
 				else = {
 					add_modifier = {
 						name = breeder_ratio_modifier_25
-						months = 1
+						months = 6
 					}
 				}
 			}	
@@ -420,13 +403,13 @@ breeder_ratio_modifier_check = {
 					}
 					add_modifier = {
 						name = breeder_ratio_modifier_30
-						months = 1
+						months = 6
 					}
 				}
 				else = {
 					add_modifier = {
 						name = breeder_ratio_modifier_35
-						months = 1
+						months = 6
 					}
 				}
 			}	
@@ -445,13 +428,13 @@ breeder_ratio_modifier_check = {
 					}
 					add_modifier = {
 						name = breeder_ratio_modifier_40
-						months = 1
+						months = 6
 					}
 				}
 				else = {
 					add_modifier = {
 						name = breeder_ratio_modifier_45
-						months = 1
+						months = 6
 					}
 				}
 			}	
@@ -462,13 +445,13 @@ breeder_ratio_modifier_check = {
 					}
 					add_modifier = {
 						name = breeder_ratio_modifier_50
-						months = 1
+						months = 6
 					}
 				}
 				else = {
 					add_modifier = {
 						name = breeder_ratio_modifier_55
-						months = 1
+						months = 6
 					}
 				}
 			}
@@ -480,7 +463,7 @@ breeder_ratio_modifier_check = {
 				}
 				add_modifier = {
 					name = breeder_ratio_modifier_60
-					months = 1
+					months = 6
 				}
 			}	
 			else_if ={
@@ -489,7 +472,7 @@ breeder_ratio_modifier_check = {
 				}
 				add_modifier = {
 					name = breeder_ratio_modifier_65
-					months = 1
+					months = 6
 				}
 			}	
 			else_if ={
@@ -498,13 +481,13 @@ breeder_ratio_modifier_check = {
 				}
 				add_modifier = {
 					name = breeder_ratio_modifier_70
-					months = 1
+					months = 6
 				}
 			}	
 			else ={
 				add_modifier = {
 					name = breeder_ratio_modifier_75
-					months = 1
+					months = 6
 				}
 			}
 		}

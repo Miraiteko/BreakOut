@@ -3,10 +3,10 @@
 	
 	building_modifiers = {
 		workforce_scaled = {
-			building_output_grain_add = 5
-			building_output_fabric_add = 1
+			building_output_grain_add = 6
+			building_output_fabric_add = 2
 			building_output_wood_add = 1
-			building_output_breed_add = 0.5 #价值25，可以玩球满足一个十级pop的需求
+			building_output_breed_add = 2
 		}
 
 		level_scaled = {
@@ -90,10 +90,10 @@ default_building_subsistence_orchards = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			building_output_fruit_add = 2
-			building_output_grain_add = 2
-			building_output_fabric_add = 2
-			building_output_breed_add = 0.5
+			building_output_fruit_add = 3
+			building_output_grain_add = 3
+			building_output_fabric_add = 3
+			building_output_breed_add = 2
 		}
 
 		level_scaled = {
@@ -145,9 +145,9 @@ default_building_subsistence_pastures = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			building_output_meat_add = 3
-			building_output_fabric_add = 2
-			building_output_breed_add = 0.5
+			building_output_meat_add = 4
+			building_output_fabric_add = 3
+			building_output_breed_add = 2
 		}
 
 		level_scaled = {

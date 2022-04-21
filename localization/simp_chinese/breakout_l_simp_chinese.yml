@@ -36,6 +36,8 @@
  breed:0 "抚育"
  modifier_building_output_breed_add:0 "每级@porcelain!抚育产出"
  modifier_building_output_breed_add_desc:0 "建筑产出的@porcelain!抚育数量"
+ modifier_building_input_services_add:0 "每级@services!服务投入"
+ modifier_building_input_services_add_desc:0 "建筑投入的@services!服务数量"
  #住房建筑相关
  breed_center:0 "居民区"
  

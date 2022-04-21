@@ -1,6 +1,6 @@
 ﻿NPops = {
-	MIN_FERTILITY_RATE = 0.005					# Minimum fertility rate, in percent to avoid rounding errors
-	MAX_FERTILITY_RATE = 0.005						# Maximum fertility rate, in percent to avoid rounding errors
+	MIN_FERTILITY_RATE = 0.008					# Minimum fertility rate, in percent to avoid rounding errors
+	MAX_FERTILITY_RATE = 0.008						# Maximum fertility rate, in percent to avoid rounding errors
 	MORTALITY_COEFFICIENT = 1.8					# The greater the mortality coefficient, the smaller mortality is suffered
 	FERTILITY_DIVISOR = 2						# Fraction of minimum fertility that is the minimum mortality value at max Standard of Living
 	

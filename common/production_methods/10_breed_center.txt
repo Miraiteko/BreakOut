@@ -4,9 +4,10 @@ pm_tradition_breeder = {
 		
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_grain_add = 40 #800
+			building_input_grain_add = 100 #2000
 			building_input_clothes_add = 20 #600
-			building_output_breed_add = 30 #1500
+			building_input_services_add = 50 #1500
+			building_output_breed_add = 100 #5000
 		}	
 		level_scaled = {
 			building_employment_clergymen_add = 250
@@ -24,12 +25,16 @@ pm_tradition_breeder = {
 pm_elite_breeder = {
 	texture = "gfx/interface/icons/production_method_icons/philosophy_dept.dds"
 	
+	unlocking_technologies = {
+		human_rights
+	}
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_groceries_add = 20 #600
-			building_input_paper_add = 10 #300
+			building_input_groceries_add = 60 #1800
+			building_input_paper_add = 40 #1200
 			building_input_clothes_add = 20 #600
-			building_output_breed_add = 40 #2000
+			building_input_services_add = 50 #1500
+			building_output_breed_add = 150 #7500
 		}	
 		level_scaled = {
 			building_employment_academics_add = 500
@@ -46,19 +51,21 @@ pm_elite_breeder = {
 }
 #楼间空地
 pm_breed_center_park = {
-	texture = "gfx/interface/icons/production_method_icons/scholastic_education.dds"
+	texture = "gfx/interface/icons/production_method_icons/gas_streetlights.dds"
 		
 	building_modifiers = {
+		workforce_scaled = {
+		}	
 	}		
 	state_modifiers = {
-		workforce_scaled = {
-			building_output_breed_add = 5
-		}	
 	}	
 }	
 
 pm_breed_center_shop = {
-	texture = "gfx/interface/icons/production_method_icons/philosophy_dept.dds"
+	texture = "gfx/interface/icons/production_method_icons/covered_markets.dds"
+	unlocking_technologies = {
+		steel_frame_buildings
+	}
 	
 	building_modifiers = {
 		workforce_scaled = {
@@ -80,7 +87,11 @@ pm_breed_center_shop = {
 }
 
 pm_breed_center_parkinglot = {
-	texture = "gfx/interface/icons/production_method_icons/philosophy_dept.dds"
+	texture = "gfx/interface/icons/production_method_icons/public_motor_carriages.dds"
+	
+	unlocking_technologies = {
+		combustion_engine
+	}
 	
 	building_modifiers = {
 		workforce_scaled = {

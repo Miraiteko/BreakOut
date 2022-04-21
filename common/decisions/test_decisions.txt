@@ -4,14 +4,6 @@
 	}
 
 	possible = {
-		pop_type_percent = {
-			pop_type = breeder
-			percent > 50
-		}
-		any_scope_state = {
-			state_population > 2000
-		}	
-		capital_state.state_population > 1000
 	}
 	
 	when_taken = {
