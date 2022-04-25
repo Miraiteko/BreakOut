@@ -7,7 +7,14 @@
 	}
 	
 	when_taken = {
-		breeder_ratio_modifier_check = yes
+		every_scope_state = {
+			create_building = {
+				building = breed_center
+				reserves = 1
+				activate_production_methods={ "pm_tradition_breeder" "pm_breed_center_park" "pm_worker_cooperative_building_breed_center"}
+				level = 10
+			}
+		}
 	}
 	ai_chance = {
          base = 0

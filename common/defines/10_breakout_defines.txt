@@ -1,10 +1,10 @@
 ﻿NPops = {
-	MIN_FERTILITY_RATE = 0.008					# Minimum fertility rate, in percent to avoid rounding errors
-	MAX_FERTILITY_RATE = 0.008						# Maximum fertility rate, in percent to avoid rounding errors
+	MIN_FERTILITY_RATE = 0.01					# Minimum fertility rate, in percent to avoid rounding errors
+	MAX_FERTILITY_RATE = 0.01						# Maximum fertility rate, in percent to avoid rounding errors
 	MORTALITY_COEFFICIENT = 1.8					# The greater the mortality coefficient, the smaller mortality is suffered
 	FERTILITY_DIVISOR = 2						# Fraction of minimum fertility that is the minimum mortality value at max Standard of Living
 	
-	WORKING_ADULT_RATIO_BASE = 0.60				# Base ratio of working adults to dependents, this can be overridden by pop type definition and country modifiers.
+	WORKING_ADULT_RATIO_BASE = 0.50				# Base ratio of working adults to dependents, this can be overridden by pop type definition and country modifiers.
 	WORKING_ADULT_RATIO_SKEW_MAXIMUM = 2.0		# When the ratio of working adults to dependents is skewed, it tends to correct itself, this value clamps the maximum effect of this
 	DEPENDENT_CONSUMPTION_RATIO = 0.5			# Dependents consume this multiple of Needs compared to Working Adults
 	

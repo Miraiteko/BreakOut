@@ -1,246 +1,4 @@
-﻿breeder_ratio_modifier_check_2 = {
-	if = {
-		limit = {
-			pop_type_percent_country = {
-				pop_type = breeder
-				percent < 0.2
-			}
-		}
-		if ={
-			limit = {
-				pop_type_percent_country = {
-					pop_type = breeder
-					percent < 0.1
-				}
-			}
-			if ={
-				limit = {
-					pop_type_percent_country = {
-						pop_type = breeder
-						percent < 0.05
-					}
-				}
-				every_scope_state = {
-					add_modifier = {
-						name = breeder_ratio_modifier_00
-						months = 1
-					}
-				}
-			}
-			else = {
-				every_scope_state = {
-					add_modifier = {
-						name = breeder_ratio_modifier_05
-						months = 1
-					}
-				}
-			}
-		}	
-		else ={
-			if ={
-				limit = {
-					pop_type_percent_country = {
-						pop_type = breeder
-						percent < 0.15
-					}
-				}
-				every_scope_state = {
-					add_modifier = {
-						name = breeder_ratio_modifier_10
-						months = 1
-					}
-				}
-			}
-			else = {
-				every_scope_state = {
-					add_modifier = {
-						name = breeder_ratio_modifier_15
-						months = 1
-					}
-				}
-			}
-		}	
-	}
-	else_if = {
-		limit = {
-			pop_type_percent_country = {
-				pop_type = breeder
-				percent < 0.4
-			}
-		}
-		if ={
-			limit = {
-				pop_type_percent_country = {
-					pop_type = breeder
-					percent < 0.3
-				}
-			}
-			if ={
-				limit = {
-					pop_type_percent_country = {
-						pop_type = breeder
-						percent < 0.25
-					}
-				}
-				every_scope_state = {
-					add_modifier = {
-						name = breeder_ratio_modifier_20
-						months = 1
-					}
-				}
-			}
-			else = {
-				every_scope_state = {
-					add_modifier = {
-						name = breeder_ratio_modifier_25
-						months = 1
-					}
-				}
-			}
-		}	
-		else ={
-			if ={
-				limit = {
-					pop_type_percent_country = {
-						pop_type = breeder
-						percent < 0.35
-					}
-				}
-				every_scope_state = {
-					add_modifier = {
-						name = breeder_ratio_modifier_30
-						months = 1
-					}
-				}
-			}
-			else = {
-				every_scope_state = {
-					add_modifier = {
-						name = breeder_ratio_modifier_35
-						months = 1
-					}
-				}
-			}
-		}	
-	}
-	else_if = {
-		limit = {
-			pop_type_percent_country = {
-				pop_type = breeder
-				percent < 0.6
-			}
-		}
-		if ={
-			limit = {
-				pop_type_percent_country = {
-					pop_type = breeder
-					percent < 0.5
-				}
-			}
-			if ={
-				limit = {
-					pop_type_percent_country = {
-						pop_type = breeder
-						percent < 0.45
-					}
-				}
-				every_scope_state = {
-					add_modifier = {
-						name = breeder_ratio_modifier_40
-						months = 1
-					}
-				}
-			}
-			else = {
-				every_scope_state = {
-					add_modifier = {
-						name = breeder_ratio_modifier_45
-						months = 1
-					}
-				}
-			}
-		}	
-		else ={
-			if ={
-				limit = {
-					pop_type_percent_country = {
-						pop_type = breeder
-						percent < 0.55
-					}
-				}
-				every_scope_state = {
-					add_modifier = {
-						name = breeder_ratio_modifier_50
-						months = 1
-					}
-				}
-			}
-			else = {
-				every_scope_state = {
-					add_modifier = {
-						name = breeder_ratio_modifier_55
-						months = 1
-					}
-				}
-			}
-		}
-	}
-	else = {
-		if ={
-			limit = {
-				pop_type_percent_country = {
-					pop_type = breeder
-					percent < 0.65
-				}
-			}
-			every_scope_state = {
-				add_modifier = {
-					name = breeder_ratio_modifier_60
-					months = 1
-				}
-			}
-		}	
-		else_if ={
-			limit = {
-				pop_type_percent_country = {
-					pop_type = breeder
-					percent < 0.70
-				}
-			}
-			every_scope_state = {
-				add_modifier = {
-					name = breeder_ratio_modifier_65
-					months = 1
-				}
-			}
-		}	
-		else_if ={
-			limit = {
-				pop_type_percent_country = {
-					pop_type = breeder
-					percent < 0.75
-				}
-			}
-			every_scope_state = {
-				add_modifier = {
-					name = breeder_ratio_modifier_70
-					months = 1
-				}
-			}
-		}	
-		else ={
-			every_scope_state = {
-				add_modifier = {
-					name = breeder_ratio_modifier_75
-					months = 1
-				}
-			}
-		}
-	}
-	
-}
-
-breeder_ratio_modifier_check = {
+﻿breeder_ratio_modifier_check = {
 	every_scope_state = {
 		save_scope_as = checked_state		
 		#计算抚养者人口
@@ -262,7 +20,7 @@ breeder_ratio_modifier_check = {
 					change_variable = {
 						name = breeder_ratio
 						add = {
-							value = 8000 #农奴制一级提供8000抚养者岗位
+							value = 14000 #农奴制一级提供14000抚养者岗位
 							multiply = prev.occupancy
 							multiply = prev.level
 						}
@@ -274,7 +32,7 @@ breeder_ratio_modifier_check = {
 					change_variable = {
 						name = breeder_ratio
 						add = {
-							value = 5000 #自耕农一级提供5000抚养者岗位
+							value = 9000 #自耕农一级提供9000抚养者岗位
 							multiply = prev.occupancy
 							multiply = prev.level
 						}
@@ -317,7 +75,7 @@ breeder_ratio_modifier_check = {
 		#上面的是岗位数量，要乘上系数，得到抚养者pop总人口
 		change_variable = {
 			name = breeder_ratio
-			divide = 0.6 #默认劳动力人口比例
+			divide = define:NPops|WORKING_ADULT_RATIO_BASE #默认劳动力人口比例
 		}
 		
 		#除以总人口

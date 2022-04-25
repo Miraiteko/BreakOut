@@ -6,3 +6,7 @@ building_input_services_add = {
 	good = no
 	percent = no
 }
+building_input_gold_add = {
+	good = no
+	percent = no
+}
