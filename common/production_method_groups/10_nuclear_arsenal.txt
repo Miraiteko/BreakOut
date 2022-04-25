@@ -1,0 +1,21 @@
+﻿pmg_nuclear_type = {
+	production_methods = {
+		pm_atomic_bomb
+		pm_hydrogen_bomb
+		pm_neutron_bomb
+	}
+}
+pmg_missle_type = {
+	production_methods = {
+		pm_stealth_bomber
+		pm_ballistic_missile
+		pm_hypersonic_gliding_vehicle
+	}
+}
+pmg_arsenal_type = {
+	production_methods = {
+		pm_shelter
+		pm_nuclear_military_train
+		pm_nuclear_submarine
+	}
+}

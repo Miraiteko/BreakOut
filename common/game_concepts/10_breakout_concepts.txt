@@ -1,0 +1,19 @@
+﻿concept_nuclear_weapon = {
+	texture = "gfx/interface/icons/lens_toolbar_icons/military_lens_button.dds"
+}
+concept_nuclear_holdings = {
+	texture = "gfx/interface/icons/lens_toolbar_icons/military_lens_button.dds"
+}
+concept_nuclear_interception = {
+}
+concept_nuclear_penetration = {
+}
+concept_nuclear_impact_wave = {
+}
+concept_nuclear_radiation = {
+}
+concept_nuclear_pollution = {
+}
+concept_nuclear_defence = {
+}
+

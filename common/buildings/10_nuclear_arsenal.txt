@@ -1,0 +1,16 @@
+﻿nuclear_arsenal = {
+	building_group = bg_government	
+	texture = "gfx/interface/icons/building_icons/nuclear_arsenal.dds"
+	
+	unlocking_technologies = {
+		urbanization
+	}
+
+	production_method_groups = {
+		pmg_nuclear_type
+		pmg_missle_type
+		pmg_arsenal_type
+	}
+
+	required_construction = construction_cost_very_low
+}

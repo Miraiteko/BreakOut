@@ -1,0 +1,34 @@
+﻿#仅用于产生新的modifier
+bg_modifier = {
+	category = development
+
+	always_possible = yes
+	
+	is_government_funded = yes
+	
+	lens = military
+	
+	urbanization = 2
+}
+
+bg_nuclear_holdings = {
+	parent_group = bg_modifier
+}
+bg_nuclear_interception = {
+	parent_group = bg_modifier
+}
+bg_nuclear_penetration = {
+	parent_group = bg_modifier
+}
+bg_nuclear_impact_wave = {
+	parent_group = bg_modifier
+}
+bg_nuclear_radiation = {
+	parent_group = bg_modifier
+}
+bg_nuclear_pollution = {
+	parent_group = bg_modifier
+}
+bg_nuclear_defence = {
+	parent_group = bg_modifier
+}

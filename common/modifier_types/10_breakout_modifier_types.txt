@@ -10,3 +10,33 @@ building_input_gold_add = {
 	good = no
 	percent = no
 }
+
+building_group_bg_nuclear_holdings_throughput_mult = {
+	good = yes
+	percent = no
+}
+building_group_bg_nuclear_interception_throughput_mult = {
+	good = yes
+	percent = yes
+}
+building_group_bg_nuclear_penetration_throughput_mult = {
+	good = yes
+	percent = yes
+}
+
+building_group_bg_nuclear_impact_wave_throughput_mult = {
+	good = yes
+	percent = no
+}
+building_group_bg_nuclear_radiation_throughput_mult = {
+	good = yes
+	percent = no
+}
+building_group_bg_nuclear_pollution_throughput_mult = {
+	good = yes
+	percent = no
+}
+building_group_bg_nuclear_defence_throughput_mult = {
+	good = yes
+	percent = no
+}
