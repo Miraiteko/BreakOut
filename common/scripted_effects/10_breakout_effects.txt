@@ -1,7 +1,7 @@
 ﻿breeder_ratio_modifier_check = {
 	every_scope_state = {
 		save_scope_as = checked_state		
-		#计算抚养者人口
+		#计算抚育者人口
 		set_variable = {
 			name = breeder_ratio
 			value = 0
@@ -20,7 +20,7 @@
 					change_variable = {
 						name = breeder_ratio
 						add = {
-							value = 14000 #农奴制一级提供14000抚养者岗位
+							value = 14000 #农奴制一级提供14000抚育者岗位
 							multiply = prev.occupancy
 							multiply = prev.level
 						}
@@ -32,7 +32,7 @@
 					change_variable = {
 						name = breeder_ratio
 						add = {
-							value = 9000 #自耕农一级提供9000抚养者岗位
+							value = 9000 #自耕农一级提供9000抚育者岗位
 							multiply = prev.occupancy
 							multiply = prev.level
 						}
@@ -52,7 +52,7 @@
 					change_variable = {
 						name = breeder_ratio
 						add = {
-							value = 5000 #多子多福一级提供8000抚养者岗位
+							value = 5000 #多子多福一级提供8000抚育者岗位
 							multiply = prev.occupancy
 							multiply = prev.level
 						}
@@ -64,7 +64,7 @@
 					change_variable = {
 						name = breeder_ratio
 						add = {
-							value = 3000 #优生优育一级提供3000抚养者岗位
+							value = 3000 #优生优育一级提供3000抚育者岗位
 							multiply = prev.occupancy
 							multiply = prev.level
 						}
@@ -72,7 +72,7 @@
 				}
 			}
 		}
-		#上面的是岗位数量，要乘上系数，得到抚养者pop总人口
+		#上面的是岗位数量，要乘上系数，得到抚育者pop总人口
 		change_variable = {
 			name = breeder_ratio
 			divide = define:NPops|WORKING_ADULT_RATIO_BASE #默认劳动力人口比例

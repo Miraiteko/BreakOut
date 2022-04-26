@@ -4,10 +4,10 @@ pm_tradition_breeder = {
 		
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_grain_add = 100 #2000
-			building_input_clothes_add = 20 #600
+			building_input_grain_add = 50 #1000
+			building_input_fabric_add = 20 #400
 			building_input_services_add = 50 #1500
-			building_output_breed_add = 100 #5000
+			building_output_breed_add = 60 #3000
 		}	
 		level_scaled = {
 			building_employment_clergymen_add = 250
@@ -30,11 +30,11 @@ pm_elite_breeder = {
 	}
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_groceries_add = 60 #1800
-			building_input_paper_add = 40 #1200
+			building_input_groceries_add = 30 #900
+			building_input_paper_add = 20 #600
 			building_input_clothes_add = 20 #600
 			building_input_services_add = 50 #1500
-			building_output_breed_add = 150 #7500
+			building_output_breed_add = 100 #5000
 		}	
 		level_scaled = {
 			building_employment_academics_add = 500
@@ -126,9 +126,11 @@ pm_privately_owned_building_breed_center = {
 		}
 		unscaled = {
 			building_aristocrats_shares_add = 5 
+			building_capitalists_shares_add = 5 
 			building_academics_shares_add = 2
-			building_clerks_shares_add = 1
 			building_clergymen_shares_add = 2
+			building_shopkeepers_shares_add = 2
+			building_clerks_shares_add = 1
 		}
 	}
 }
@@ -147,14 +149,14 @@ pm_publicly_traded_building_breed_center = {
 
 	building_modifiers = {
 		level_scaled = {
-			building_employment_aristocrats_add = 100
+			building_employment_aristocrats_add = 50
 			building_employment_capitalists_add = 50
 		}
 		unscaled = {
 			building_aristocrats_shares_add = 5 
 			building_capitalists_shares_add = 5 
 			building_academics_shares_add = 2
-			building_clergymen_shares_add = 2
+			building_clergymen_shares_add = 1
 			building_shopkeepers_shares_add = 2
 			building_clerks_shares_add = 1
 		}
@@ -170,10 +172,10 @@ pm_government_run_building_breed_center = {
 	
 	building_modifiers = {
 		level_scaled = {
-			building_employment_bureaucrats_add = 150
+			building_employment_bureaucrats_add = 100
 		}
 		unscaled = {
-			building_bureaucrats_shares_add = 5
+			building_bureaucrats_shares_add = 3
 			building_academics_shares_add = 2
 			building_clerks_shares_add = 1
 			building_clergymen_shares_add = 1
@@ -191,8 +193,7 @@ pm_worker_cooperative_building_breed_center = {
 
 	building_modifiers = {
 		level_scaled = {
-			building_employment_breeder_add = 200
-			building_clerks_shares_add = 200
+			building_employment_clerks_add = 200
 		}
 		unscaled = {
 			building_breeder_shares_add = 1 
