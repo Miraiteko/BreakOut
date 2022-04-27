@@ -201,9 +201,6 @@ pm_trade_center = {
 		unscaled = {
 			state_migration_pull_mult = 0.25
 		}
-		workforce_scaled = {
-			state_infrastructure_add = 10
-		}
 	}
 }
 
