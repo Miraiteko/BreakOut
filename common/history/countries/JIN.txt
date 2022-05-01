@@ -1,8 +1,8 @@
 ﻿#晋六卿
 COUNTRIES = {
 	c:JIN = {
-		add_investment_pool = 50000
-		add_treasury = 5000000
+		add_investment_pool = 50000000
+		add_treasury = 50000000
 		add_era_researched = era_1
 		add_era_researched = era_2
 		add_era_researched = era_3
@@ -14,27 +14,33 @@ COUNTRIES = {
 		}
 	}
 	c:ZHH = {
-		add_investment_pool = 50000
+		add_investment_pool = 5000000
+		add_treasury = 5000000
 		add_era_researched = era_5
 	}
 	c:ZHI = {
-		add_investment_pool = 50000
+		add_investment_pool = 5000000
+		add_treasury = 5000000
 		add_era_researched = era_5
 	}
 	c:FAN = {
-		add_investment_pool = 50000
+		add_investment_pool = 5000000
+		add_treasury = 5000000
 		add_era_researched = era_5
 	}
 	c:ZAO = {
-		add_investment_pool = 50000
+		add_investment_pool = 5000000
+		add_treasury = 5000000
 		add_era_researched = era_5
 	}
 	c:WEI = {
-		add_investment_pool = 50000
+		add_investment_pool = 5000000
+		add_treasury = 5000000
 		add_era_researched = era_5
 	}
 	c:HAN = {
-		add_investment_pool = 50000
+		add_investment_pool = 5000000
+		add_treasury = 5000000
 		add_era_researched = era_5
 	}
 }
