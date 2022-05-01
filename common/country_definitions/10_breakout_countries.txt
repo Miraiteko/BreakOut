@@ -1,0 +1,84 @@
+﻿#晋国
+JIN = {
+	color = { 94  64  163 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { dixie yankee }
+	capital = STATE_DISTRICT_OF_COLUMBIA
+}
+#晋国六卿
+#中行氏
+ZHH = {
+	color = { 30  94  163 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { dixie yankee }
+	capital = STATE_TEXAS
+}
+
+#智氏
+ZHI = {
+	color = { 66  104  165 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { dixie yankee }
+	capital = STATE_FLORIDA
+}
+
+
+#范氏
+FAN = {
+	color = { 66  94  193 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { dixie yankee }
+	capital = STATE_MICHIGAN
+}
+
+#赵氏
+ZAO = {
+	color = { 95  94  166 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { dixie yankee }
+	capital = STATE_CALIFORNIA
+}
+
+#魏氏
+WEI = {
+	color = { 66  144  103 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { dixie yankee }
+	capital = STATE_NEW_YORK
+}
+
+#韩氏
+HAN = {
+	color = { 66  34  248 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { dixie yankee }
+	capital = STATE_MISSISSIPPI
+}

@@ -1,0 +1,28 @@
+﻿DIPLOMACY = {
+	c:JIN = {
+		create_diplomatic_pact = {
+			country = c:ZHH
+			type = minister
+		}
+		create_diplomatic_pact = {
+			country = c:ZHI
+			type = minister
+		}
+		create_diplomatic_pact = {
+			country = c:FAN
+			type = minister
+		}
+		create_diplomatic_pact = {
+			country = c:ZAO
+			type = minister
+		}
+		create_diplomatic_pact = {
+			country = c:WEI
+			type = minister
+		}
+		create_diplomatic_pact = {
+			country = c:HAN
+			type = minister
+		}
+	}
+}

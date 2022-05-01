@@ -62,13 +62,6 @@ GLOBAL = {
 			days = 7
 		}
 	}
-	
-	c:USA = {
-		add_modifier = {
-			name = modifier_overlord
-			days = -1 # permanent until removed
-		}
-	}
 	c:CHI = {
 		set_country_type = recognized
 		add_modifier = {

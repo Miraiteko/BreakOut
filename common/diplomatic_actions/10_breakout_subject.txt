@@ -1,0 +1,47 @@
+﻿minister  = {
+	can_select = no
+
+	potential = {
+		always = no
+	}
+
+	possible = {
+		is_revolutionary = no
+		
+		scope:target_country = {
+			is_revolutionary = no
+		}
+	}
+	
+	pact = {
+		cost = 25
+		has_junior_participant = yes
+		recipient_pays_maintenance = no
+		is_customs_union = yes
+		income_transfer = 0.35
+	
+		target_requires_approval_to_break = yes	
+		
+		subject_type = subject_type_minister
+		
+		break_effect = {
+			change_relations = { country = scope:target_country value = -30 }
+		}
+	}
+	
+	ai = {
+		check_acceptance_for_will_break = no
+	
+		will_break = {
+			always = no
+		}	
+		accept_break_score = {
+			value = 0
+
+			add = {
+				desc = "DIPLOMATIC_ACCEPTANCE_BASE"
+				value = -50
+			}			
+		}
+	}
+}
