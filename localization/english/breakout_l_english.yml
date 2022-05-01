@@ -145,6 +145,9 @@
          pm_nuclear_military_train:0 "核军列"
          pm_nuclear_submarine:0 "核潜艇"
  
+ #外交相关
+ modifier_overlord:0 "方伯"
+ modifier_overlord_desc:0 "这些大国是上次争霸战争的胜利者，享有支配全球的权力。"
  #debug
  breakout_test_decision:0 "【大秦东出】测试用决议"
  breakout_test_decision_desc:0 "开发测试时使用"
