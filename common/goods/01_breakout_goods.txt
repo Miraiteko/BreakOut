@@ -1,4 +1,5 @@
-﻿breed = {
+﻿#抚育
+breed = {
 	texture = "gfx/interface/icons/goods_icons/breed.dds"
 	cost = 50
 	category = staple
@@ -7,4 +8,13 @@
 	prestige_factor = 5
 	
 	obsession_chance = 1.0
+}
+#电力调度
+dispatching = {
+	texture = "gfx/interface/icons/goods_icons/dispatching.dds"
+	cost = 30
+	category = industrial
+	tradeable = no
+	
+	prestige_factor = 1
 }

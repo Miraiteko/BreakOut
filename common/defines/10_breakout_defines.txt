@@ -29,8 +29,15 @@ NEconomy = {
 	GOODS_SHORTAGE_PENALTY_THRESHOLD = 0.25		# If supply / demand is lower than this, start applying output penalties, by default this should ( 1 / BUY_SELL_DIFF_AT_MAX_FACTOR )
 	GOODS_SHORTAGE_PENALTY_DRIFT_SPEED = 0.01   # Goods shortage penalty updates by this amount towards target each day
     GOODS_SHORTAGE_PENALTY_MAX = 0.8			# Goods shortage penalty can't be higher than this
+	
+	MAX_WEEKLY_CONSTRUCTION_PROGRESS = 500				# Max construction progress per week on a single project
 }
 
+NAI = {
+	CONSTRUCTION_MAX_NUM_EXISTING_CONSTRUCTIONS_BASE = 2 # If country has this number of constructions queued, don't add anymore (base)
+	CONSTRUCTION_MAX_NUM_EXISTING_CONSTRUCTIONS_SCALED = 0.1 # If country has this number of constructions queued, don't add anymore (scaled by construction production)
+	CONSTRUCTION_MAX_NUM_EXISTING_CONSTRUCTIONS_SCALED_MAX = 8 # CONSTRUCTION_MAX_NUM_EXISTING_CONSTRUCTIONS_SCALED can't be higher than this	
+}
 #开局镜头位置
 NFrontend = {
 	CAMERA_START_X = 200.0						# Initial position in main menu

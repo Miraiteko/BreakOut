@@ -38,9 +38,8 @@
  modifier_building_output_breed_add_desc:0 "建筑产出的@breed!抚育数量"
  modifier_building_input_services_add:0 "每级@services!服务投入"
  modifier_building_input_services_add_desc:0 "建筑投入的@services!服务数量"
- #住房建筑相关
- breed_center:0 "居民区"
  
+ breed_center:0 "居民区"
  pmg_breed_methods:0 "劳动力"
  pm_tradition_breeder:0 "多子多福"
  pm_elite_breeder:0 "优生优育"
@@ -55,6 +54,19 @@
  pm_publicly_traded_building_breed_center:0 "房产流通"
  pm_government_run_building_breed_center:0 "政府运营"
  pm_worker_cooperative_building_breed_center:0 "居民委员会"
+ 
+ #能源相关
+ dispatching:0 "电力调配"
+ dispatching_desc:0 "电力调配"
+ modifier_building_output_dispatching_add:0 "每级@dispatching!电力调配产出"
+ modifier_building_output_dispatching_add_desc:0 "建筑产出的@dispatching!电力调配数量"
+ modifier_building_input_dispatching_add:0 "每级@dispatching!电力调配投入"
+ modifier_building_input_dispatching_add_desc:0 "建筑投入的@dispatching!电力调配数量"
+ 
+ photovoltaic_plant:0 "光伏电站"
+ pmg_photovoltaic_plant:0 "光伏电站"
+ pm_photovoltaic_plant:0 "光伏发电"
+ 
  #出生率修正相关
  breeder_ratio_modifier_00:0 "抚育者占比0%"
  breeder_ratio_modifier_05:0 "抚育者占比5%"

@@ -1,0 +1,5 @@
+﻿pmg_photovoltaic_plant = {
+	production_methods = {
+		pm_photovoltaic_plant
+	}
+}

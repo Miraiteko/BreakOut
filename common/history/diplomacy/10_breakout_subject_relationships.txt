@@ -24,5 +24,17 @@
 			country = c:HAN
 			type = minister
 		}
+		create_diplomatic_pact = {
+			country = c:JAP
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:EGY
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:MEX
+			type = puppet
+		}
 	}
 }

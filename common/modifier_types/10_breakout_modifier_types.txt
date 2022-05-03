@@ -6,7 +6,11 @@ building_input_services_add = {
 	good = no
 	percent = no
 }
-building_input_gold_add = {
+building_output_dispatching_add = {
+	good = yes
+	percent = no
+}
+building_input_dispatching_add = {
 	good = no
 	percent = no
 }

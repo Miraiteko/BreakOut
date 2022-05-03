@@ -7,3 +7,12 @@ texticon = {
 		fontsize = 18
 	}
 }
+texticon = {
+	icon = dispatching
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/dispatching.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
