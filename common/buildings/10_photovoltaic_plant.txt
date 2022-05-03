@@ -1,6 +1,6 @@
 ﻿photovoltaic_plant = {
 	building_group = bg_power	
-	texture = "gfx/interface/icons/building_icons/power_plant.dds"
+	texture = "gfx/interface/icons/building_icons/photovoltaic_plant.dds"
 	levels_per_mesh = 5
 	
 	unlocking_technologies = { 

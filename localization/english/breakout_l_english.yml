@@ -56,12 +56,11 @@
  pm_worker_cooperative_building_breed_center:0 "居民委员会"
  
  #能源相关
- dispatching:0 "电力调配"
- dispatching_desc:0 "电力调配"
- modifier_building_output_dispatching_add:0 "每级@dispatching!电力调配产出"
- modifier_building_output_dispatching_add_desc:0 "建筑产出的@dispatching!电力调配数量"
- modifier_building_input_dispatching_add:0 "每级@dispatching!电力调配投入"
- modifier_building_input_dispatching_add_desc:0 "建筑投入的@dispatching!电力调配数量"
+ dispatching:0 "蓄电能力"
+ modifier_building_output_dispatching_add:0 "每级@dispatching!蓄电能力产出"
+ modifier_building_output_dispatching_add_desc:0 "建筑产出的@dispatching!蓄电能力数量"
+ modifier_building_input_dispatching_add:0 "每级@dispatching!蓄电能力投入"
+ modifier_building_input_dispatching_add_desc:0 "建筑投入的@dispatching!蓄电能力数量"
  
  photovoltaic_plant:0 "光伏电站"
  pmg_photovoltaic_plant:0 "光伏电站"

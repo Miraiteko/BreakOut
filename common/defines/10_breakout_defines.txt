@@ -35,7 +35,7 @@ NEconomy = {
 
 NAI = {
 	CONSTRUCTION_MAX_NUM_EXISTING_CONSTRUCTIONS_BASE = 2 # If country has this number of constructions queued, don't add anymore (base)
-	CONSTRUCTION_MAX_NUM_EXISTING_CONSTRUCTIONS_SCALED = 0.1 # If country has this number of constructions queued, don't add anymore (scaled by construction production)
+	CONSTRUCTION_MAX_NUM_EXISTING_CONSTRUCTIONS_SCALED = 0.03 # If country has this number of constructions queued, don't add anymore (scaled by construction production)
 	CONSTRUCTION_MAX_NUM_EXISTING_CONSTRUCTIONS_SCALED_MAX = 8 # CONSTRUCTION_MAX_NUM_EXISTING_CONSTRUCTIONS_SCALED can't be higher than this	
 }
 #开局镜头位置
