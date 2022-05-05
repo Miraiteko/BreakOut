@@ -1,4 +1,8 @@
 ﻿l_english:
+ #生产经验相关
+ EXP_BAR:0 "生产经验：#v 50#! / #maximum 100#!"
+ TOOLTIP_BUILDING_EXP:0 "#BOLD #V [Building.GetName] 生产经验#!#!\n生产经验: #variable 50#! / #maximum 100 #! \n$TOOLTIP_DELIMITER$\n[Building.GetEmployeesBreakdown][Building.GetAllEmployeesTransferDesc][Building.GetAllFailedHiresDesc]"
+
  #抚育者相关
  breeder:0 "$breeder_only_icon$ $breeder_no_icon$"
  breeder_only_icon:0 "@servicemen!"
@@ -32,6 +36,7 @@
  modifier_state_breeder_investment_pool_contribution_mult:0 "$breeder$[concept_investment_pool]贡献乘数"
  modifier_state_breeder_investment_pool_contribution_add_desc:0 "$breeder$会将多少收益用于投资"
  modifier_state_breeder_investment_pool_contribution_mult_desc:0 "$breeder$会将多少收益用于投资"
+ 
  #抚育商品相关
  breed:0 "抚育"
  modifier_building_output_breed_add:0 "每级@breed!抚育产出"
@@ -55,16 +60,6 @@
  pm_government_run_building_breed_center:0 "政府运营"
  pm_worker_cooperative_building_breed_center:0 "居民委员会"
  
- #能源相关
- dispatching:0 "蓄电能力"
- modifier_building_output_dispatching_add:0 "每级@dispatching!蓄电能力产出"
- modifier_building_output_dispatching_add_desc:0 "建筑产出的@dispatching!蓄电能力数量"
- modifier_building_input_dispatching_add:0 "每级@dispatching!蓄电能力投入"
- modifier_building_input_dispatching_add_desc:0 "建筑投入的@dispatching!蓄电能力数量"
- 
- photovoltaic_plant:0 "光伏电站"
- pmg_photovoltaic_plant:0 "光伏电站"
- pm_photovoltaic_plant:0 "光伏发电"
  
  #出生率修正相关
  breeder_ratio_modifier_00:0 "抚育者占比0%"
@@ -159,6 +154,19 @@
  #外交相关
  modifier_overlord:0 "方伯"
  modifier_overlord_desc:0 "这些大国是上次争霸战争的胜利者，享有支配全球的权力。"
+ 
+ #能源相关
+ dispatching:0 "蓄电能力"
+ modifier_building_output_dispatching_add:0 "每级@dispatching!蓄电能力产出"
+ modifier_building_output_dispatching_add_desc:0 "建筑产出的@dispatching!蓄电能力数量"
+ modifier_building_input_dispatching_add:0 "每级@dispatching!蓄电能力投入"
+ modifier_building_input_dispatching_add_desc:0 "建筑投入的@dispatching!蓄电能力数量"
+ 
+ photovoltaic_plant:0 "光伏电站"
+ pmg_photovoltaic_plant:0 "光伏电站"
+ pm_photovoltaic_plant:0 "光伏发电"
+ 
+ 
  #debug
  breakout_test_decision:0 "【大秦东出】测试用决议"
  breakout_test_decision_desc:0 "开发测试时使用"
