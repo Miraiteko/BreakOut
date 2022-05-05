@@ -1,0 +1,3 @@
+﻿social_climate = {
+	law_group_category = economy
+}

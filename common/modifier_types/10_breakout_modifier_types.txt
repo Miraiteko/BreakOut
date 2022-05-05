@@ -14,7 +14,10 @@ building_input_dispatching_add = {
 	good = no
 	percent = no
 }
-
+country_institution_social_climate_max_investment_add  = {
+	good = yes
+	percent = no
+}
 building_group_bg_nuclear_holdings_throughput_mult = {
 	good = yes
 	percent = no
