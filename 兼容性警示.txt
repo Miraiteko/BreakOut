@@ -1,1 +1,9 @@
-目前没有修改任何原版文件
+common\buy_packages 修改消费需求
+common\country_definitions 覆盖了几个原版国家(ZHI HAN WEI)
+common\defines 覆盖了一些define
+common\history 这个以后是要大改的
+common\laws 修改了宗教法、文化法、女权法
+common\modifiers 覆盖了规模效益的效果
+common\pop_needs 覆盖了致瘾品需求的内容
+common\production_methods 覆盖了铁路、自给、城镇中心、发电站、港口的生产方式
+gui 覆盖了建筑详情界面
