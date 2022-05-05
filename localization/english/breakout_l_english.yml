@@ -1,8 +1,8 @@
 ﻿l_english:
  #生产经验相关
  EXP_BAR:0 "生产经验：#v 50#! / #maximum 100#!"
- TOOLTIP_BUILDING_EXP:0 "#BOLD #V [Building.GetName] 生产经验#!#!\n生产经验: #variable 50#! / #maximum 100 #! \n$TOOLTIP_DELIMITER$\n[Building.GetEmployeesBreakdown][Building.GetAllEmployeesTransferDesc][Building.GetAllFailedHiresDesc]"
-
+ TOOLTIP_BUILDING_EXP:0 "#BOLD #V [Building.GetName] 生产经验#!#!\n当前生产经验: #variable [ROOT.ScriptValue('building_exp')]#! / #maximum 100 #! \n$TOOLTIP_DELIMITER$\n本季度变化：+10\n$TOOLTIP_DELIMITER$\n提升到下一级所需经验：70"
+ 
  #抚育者相关
  breeder:0 "$breeder_only_icon$ $breeder_no_icon$"
  breeder_only_icon:0 "@servicemen!"
