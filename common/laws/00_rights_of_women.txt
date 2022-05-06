@@ -11,7 +11,7 @@ law_no_womens_rights = {
 	}
 
 	modifier = {
-		country_breeder_pol_str_mult = -0.8
+		country_breeder_pol_str_mult = -0.95
 	}
 	
 	possible_political_movements = {
@@ -28,7 +28,7 @@ law_women_own_property = {
 	}
 
 	modifier = {
-		country_breeder_pol_str_mult = -0.5
+		country_breeder_pol_str_mult = -0.80
 	}
 	
 	possible_political_movements = {
@@ -50,6 +50,7 @@ law_women_in_the_workplace = {
 	}
 
 	modifier = {
+		country_breeder_pol_str_mult = -0.5
 	}
 	
 	possible_political_movements = {
@@ -78,7 +79,6 @@ law_womens_suffrage = {
 	}
 
 	modifier = {
-		country_breeder_pol_str_mult = 0.5
 	}
 	
 	possible_political_movements = {

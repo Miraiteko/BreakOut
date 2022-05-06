@@ -6,7 +6,7 @@
 			building_output_grain_add = 6
 			building_output_fabric_add = 2
 			building_output_wood_add = 1
-			building_output_breed_add = 2
+			building_output_breed_add = 0.1
 		}
 
 		level_scaled = {
@@ -33,6 +33,7 @@ pm_home_workshops_no_building_subsistence_farms = {
 			building_output_grain_add = 1
 			building_output_fabric_add = 1
 			building_output_wood_add = 1
+			building_output_breed_add = 0.1
 		}
 	}				
 }		
@@ -91,7 +92,6 @@ default_building_subsistence_orchards = {
 			building_output_fruit_add = 3
 			building_output_grain_add = 3
 			building_output_fabric_add = 3
-			building_output_breed_add = 2
 		}
 
 		level_scaled = {
@@ -144,7 +144,7 @@ default_building_subsistence_pastures = {
 		workforce_scaled = {
 			building_output_meat_add = 4
 			building_output_fabric_add = 3
-			building_output_breed_add = 2
+			building_output_breed_add = 0.1
 		}
 
 		level_scaled = {

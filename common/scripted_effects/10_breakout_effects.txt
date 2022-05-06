@@ -52,7 +52,7 @@
 					change_variable = {
 						name = breeder_ratio
 						add = {
-							value = 5000 #多子多福一级提供8000抚育者岗位
+							value = 7000 #多子多福一级提供7000抚育者岗位
 							multiply = prev.occupancy
 							multiply = prev.level
 						}
@@ -64,7 +64,7 @@
 					change_variable = {
 						name = breeder_ratio
 						add = {
-							value = 3000 #优生优育一级提供3000抚育者岗位
+							value = 5000 #优生优育一级提供5000抚育者岗位
 							multiply = prev.occupancy
 							multiply = prev.level
 						}
