@@ -97,11 +97,9 @@ popneed_services = {
 		min_weight = 0.0
 	}
 }
-popneed_finance = {
-	default = services
 
 popneed_finance = {
-	default = services
+	default = electricity
 
 	entry = {
 		goods = services
@@ -123,6 +121,18 @@ popneed_finance = {
 		
 		weight = 3
 		max_weight = 5.0 # Maxes out at 100% of supply share
+		min_weight = 0.0
+	}
+}
+
+popneed_art = {
+	default = fine_art
+
+	entry = {
+		goods = fine_art
+		
+		weight = 1
+		max_weight = 3.0 # Maxes out at 60% of supply share
 		min_weight = 0.0
 	}
 }
