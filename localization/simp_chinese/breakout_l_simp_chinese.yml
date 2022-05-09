@@ -1,4 +1,8 @@
 ﻿l_simp_chinese:
+ #生产经验相关
+ EXP_BAR:0 "生产经验：#v 50#! / #maximum 100#!"
+ TOOLTIP_BUILDING_EXP:0 "#BOLD #V [Building.GetName] 生产经验#!#!\n当前生产经验: #variable 50#! / #maximum 100 #! \n$TOOLTIP_DELIMITER$\n本季度变化：+10\n$TOOLTIP_DELIMITER$\n提升到下一级所需经验：70"
+ 
  #抚育者相关
  breeder:0 "$breeder_only_icon$ $breeder_no_icon$"
  breeder_only_icon:0 "@servicemen!"
@@ -32,15 +36,15 @@
  modifier_state_breeder_investment_pool_contribution_mult:0 "$breeder$[concept_investment_pool]贡献乘数"
  modifier_state_breeder_investment_pool_contribution_add_desc:0 "$breeder$会将多少收益用于投资"
  modifier_state_breeder_investment_pool_contribution_mult_desc:0 "$breeder$会将多少收益用于投资"
+ 
  #抚育商品相关
  breed:0 "抚育"
  modifier_building_output_breed_add:0 "每级@breed!抚育产出"
  modifier_building_output_breed_add_desc:0 "建筑产出的@breed!抚育数量"
  modifier_building_input_services_add:0 "每级@services!服务投入"
  modifier_building_input_services_add_desc:0 "建筑投入的@services!服务数量"
- #住房建筑相关
- breed_center:0 "居民区"
  
+ breed_center:0 "居民区"
  pmg_breed_methods:0 "劳动力"
  pm_tradition_breeder:0 "多子多福"
  pm_elite_breeder:0 "优生优育"
@@ -55,6 +59,24 @@
  pm_publicly_traded_building_breed_center:0 "房产流通"
  pm_government_run_building_breed_center:0 "政府运营"
  pm_worker_cooperative_building_breed_center:0 "居民委员会"
+ 
+ #博彩商品相关
+ gambling:0 "博彩"
+ modifier_building_output_gambling_add:0 "每级@gambling!博彩产出"
+ modifier_building_output_gambling_add_desc:0 "建筑产出的@gambling!博彩数量"
+ 
+ casino:0 "赌场"
+ bg_illegal:0 "不法场所"
+ building_group_bg_illegal_throughput_mult:0 "不法场所吞吐量"
+ pmg_casino:0 "赌场"
+ pm_casino:0 "赌场"
+ 
+ #社会风气相关
+ institution_social_climate:0 "风纪监管"
+ modifier_country_institution_social_climate_max_investment_add:0 "最大$institution_social_climate$[concept_institution]投入等级"
+ modifier_country_institution_social_climate_max_investment_add_desc:0 "对$institution_social_climate$[concept_institution]的最大投入等级的修正"
+ 
+ 
  #出生率修正相关
  breeder_ratio_modifier_00:0 "抚育者占比0%"
  breeder_ratio_modifier_05:0 "抚育者占比5%"
@@ -144,6 +166,22 @@
          pm_shelter:0 "核防空洞"
          pm_nuclear_military_train:0 "核军列"
          pm_nuclear_submarine:0 "核潜艇"
+ 
+ #外交相关
+ modifier_overlord:0 "方伯"
+ modifier_overlord_desc:0 "这些大国是上次争霸战争的胜利者，享有支配全球的权力。"
+ 
+ #能源相关
+ dispatching:0 "蓄电能力"
+ modifier_building_output_dispatching_add:0 "每级@dispatching!蓄电能力产出"
+ modifier_building_output_dispatching_add_desc:0 "建筑产出的@dispatching!蓄电能力数量"
+ modifier_building_input_dispatching_add:0 "每级@dispatching!蓄电能力投入"
+ modifier_building_input_dispatching_add_desc:0 "建筑投入的@dispatching!蓄电能力数量"
+ 
+ photovoltaic_plant:0 "光伏电站"
+ pmg_photovoltaic_plant:0 "光伏电站"
+ pm_photovoltaic_plant:0 "光伏发电"
+ 
  
  #debug
  breakout_test_decision:0 "【大秦东出】测试用决议"

@@ -2,6 +2,14 @@
 	good = yes
 	percent = no
 }
+building_output_gambling_add = {
+	good = yes
+	percent = no
+}
+building_group_bg_illegal_throughput_mult = {
+	good = no
+	percent = yes
+}
 building_input_services_add = {
 	good = no
 	percent = no

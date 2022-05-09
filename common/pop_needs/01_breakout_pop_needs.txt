@@ -12,7 +12,7 @@
 		goods = liquor
 		
 		weight = 1
-		max_weight = 3.0 # Maxes out at 60% of supply share
+		max_weight = 5.0
 		min_weight = 0.0
 	}
 	
@@ -20,7 +20,7 @@
 		goods = tobacco
 		
 		weight = 1
-		max_weight = 3.0 # Maxes out at 60% of supply share
+		max_weight = 5.0
 		min_weight = 0.0
 	}
 	
@@ -28,55 +28,15 @@
 		goods = opium
 		
 		weight = 1
-		max_weight = 5.0 # Maxes out at 60% of supply share
+		max_weight = 10.0 # Maxes out at 60% of supply share
 		min_weight = 0.0
 	}
 	
 	entry = {
-		goods = electricity
+		goods = gambling
 		
 		weight = 1
-		max_weight = 5.0 # Maxes out at 100% of supply share
-		min_weight = 0.0
-	}
-	
-	entry = {
-		goods = automobiles
-		
-		weight = 1
-		max_weight = 5.0 # Maxes out at 100% of supply share
-		min_weight = 0.0
-	}
-	
-	entry = {
-		goods = steamers
-		
-		weight = 1
-		max_weight = 5.0 # Maxes out at 100% of supply share
-		min_weight = 0.0
-	}
-	
-	entry = {
-		goods = telephones
-		
-		weight = 1
-		max_weight = 10.0 # Maxes out at 100% of supply share
-		min_weight = 0.0
-	}
-	
-	entry = {
-		goods = radios
-		
-		weight = 1
-		max_weight = 10.0 # Maxes out at 100% of supply share
-		min_weight = 0.0
-	}
-	
-	entry = {
-		goods = aeroplanes
-		
-		weight = 1
-		max_weight = 10.0 # Maxes out at 100% of supply share
+		max_weight = 10.0 # Maxes out at 60% of supply share
 		min_weight = 0.0
 	}
 	

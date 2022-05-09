@@ -1,0 +1,5 @@
+﻿pmg_casino = {
+	production_methods = {
+		pm_casino
+	}
+}

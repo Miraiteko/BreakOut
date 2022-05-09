@@ -1,0 +1,22 @@
+﻿pm_casino = {
+	texture = "gfx/interface/icons/production_method_icons/publicly_traded.dds"
+		
+	building_modifiers = {
+		workforce_scaled = {
+			building_output_gambling_add = 15 #750
+		}	
+		level_scaled = {
+			building_employment_laborers_add = 8000
+			building_employment_shopkeepers_add = 400
+			building_employment_capitalists_add = 100
+		}
+		unscaled = {
+			building_capitalists_shares_add = 5
+		}
+	}		
+	state_modifiers = {
+		workforce_scaled = {
+			state_tax_waste_add = 0.02
+		}	
+	}	
+}	

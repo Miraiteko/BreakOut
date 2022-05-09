@@ -9,6 +9,17 @@ breed = {
 	
 	obsession_chance = 1.0
 }
+#博彩
+gambling = {
+	texture = "gfx/interface/icons/goods_icons/gambling.dds"
+	cost = 50
+	category = staple
+	#tradeable = no
+	
+	prestige_factor = 5
+	
+	obsession_chance = 1.0
+}
 #电力调度
 dispatching = {
 	texture = "gfx/interface/icons/goods_icons/dispatching.dds"

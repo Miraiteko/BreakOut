@@ -1,0 +1,16 @@
+﻿#非法产业
+bg_illegal = {
+	category = urban
+	lens = urban
+	land_usage = urban
+	default_building = casino
+
+	always_possible = yes	
+	auto_place_buildings = yes	
+	
+	economy_of_scale = no
+	cash_reserves_max = 25000
+	
+	can_use_slaves = yes
+	fired_pops_become_radical = no
+}
