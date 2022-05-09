@@ -16,7 +16,7 @@ gambling = {
 	category = staple
 	#tradeable = no
 	
-	prestige_factor = 5
+	prestige_factor = 0
 	
 	obsession_chance = 1.0
 }

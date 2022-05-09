@@ -1,7 +1,7 @@
 ﻿NPops = {
 	MIN_FERTILITY_RATE = 0.01					# Minimum fertility rate, in percent to avoid rounding errors
 	MAX_FERTILITY_RATE = 0.01						# Maximum fertility rate, in percent to avoid rounding errors
-	MORTALITY_COEFFICIENT = 1.2					# The greater the mortality coefficient, the smaller mortality is suffered
+	MORTALITY_COEFFICIENT = 1.15					# The greater the mortality coefficient, the smaller mortality is suffered
 	FERTILITY_DIVISOR = 1.5						# Fraction of minimum fertility that is the minimum mortality value at max Standard of Living
 	
 	WORKING_ADULT_RATIO_BASE = 0.50				# Base ratio of working adults to dependents, this can be overridden by pop type definition and country modifiers.
