@@ -3,11 +3,11 @@
 		
 	building_modifiers = {
 		workforce_scaled = {
-			building_output_gambling_add = 15 #750
+			building_output_gambling_add = 20 #1000
 		}	
 		level_scaled = {
-			building_employment_laborers_add = 8000
-			building_employment_shopkeepers_add = 400
+			building_employment_vagrant_add = 4500
+			building_employment_clerks_add = 400
 			building_employment_capitalists_add = 100
 		}
 		unscaled = {

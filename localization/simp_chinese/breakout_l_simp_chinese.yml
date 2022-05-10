@@ -60,21 +60,6 @@
  pm_government_run_building_breed_center:0 "政府运营"
  pm_worker_cooperative_building_breed_center:0 "居民委员会"
  
- #博彩商品相关
- gambling:0 "博彩"
- modifier_building_output_gambling_add:0 "每级@gambling!博彩产出"
- modifier_building_output_gambling_add_desc:0 "建筑产出的@gambling!博彩数量"
- 
- casino:0 "赌场"
- bg_illegal:0 "不法场所"
- building_group_bg_illegal_throughput_mult:0 "不法场所吞吐量"
- pmg_casino:0 "赌场"
- pm_casino:0 "赌场"
- 
- #社会风气相关
- institution_social_climate:0 "风纪监管"
- modifier_country_institution_social_climate_max_investment_add:0 "最大$institution_social_climate$[concept_institution]投入等级"
- modifier_country_institution_social_climate_max_investment_add_desc:0 "对$institution_social_climate$[concept_institution]的最大投入等级的修正"
  
  
  #出生率修正相关
@@ -113,6 +98,33 @@
  ig_trait_harmony_desc:0 "一个和谐的家庭，足以摆平生活中的诸多压力。"
  ig_trait_irrational_fist:0 "拳法无章"
  ig_trait_irrational_fist_desc:0 "父权主义者把控着社会的方方面面，想尽一切办法压迫我们。作为回应，我们应该时时刻刻准备还击。"
+ 
+ #博彩商品相关
+ gambling:0 "博彩"
+ modifier_building_output_gambling_add:0 "每级@gambling!博彩产出"
+ modifier_building_output_gambling_add_desc:0 "建筑产出的@gambling!博彩数量"
+ 
+ casino:0 "赌场"
+ bg_illegal:0 "不法场所"
+ building_group_bg_illegal_throughput_mult:0 "不法场所吞吐量"
+ pmg_casino:0 "赌场"
+ pm_casino:0 "赌场"
+ 
+ vagrant:0 "$vagrant_only_icon$ $vagrant_no_icon$"
+ vagrant_only_icon:0 "@peasants!"
+ vagrant_no_icon:0 "城市游民"
+ vagrant_desc:0 "这些落魄的城市居民在无人监管的地带从事着不体面的工作。"
+ 
+ POP_VAGRANT_STATE_RELIGION:0 "[concept_state_religion]$vagrant$"
+ modifier_building_employment_vagrant_add:0 "$vagrant$/级"
+ modifier_building_employment_vagrant_add_desc:0 "增加建筑每等级可以容纳的城市游民数量"
+ modifier_building_employment_vagrant_mult:0 "$modifier_building_employment_vagrant_add$"
+ modifier_building_employment_vagrant_mult_desc:0 "修正建筑每等级可以容纳的城市游民数量"
+ 
+ #社会风气相关
+ institution_social_climate:0 "风纪监管"
+ modifier_country_institution_social_climate_max_investment_add:0 "最大$institution_social_climate$[concept_institution]投入等级"
+ modifier_country_institution_social_climate_max_investment_add_desc:0 "对$institution_social_climate$[concept_institution]的最大投入等级的修正"
  
  #核武器相关
  concept_nuclear_weapon:0 "核武器"
