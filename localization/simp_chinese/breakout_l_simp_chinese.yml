@@ -1,6 +1,6 @@
 ﻿l_simp_chinese:
  #生产经验相关
- EXP_BAR:0 "生产经验：#v 50#! / #maximum 100#!"
+ EXP_BAR:0 "生产经验(制作中)：#v 50#! / #maximum 100#!"
  TOOLTIP_BUILDING_EXP:0 "#BOLD #V [Building.GetName] 生产经验#!#!\n当前生产经验: #variable 50#! / #maximum 100 #! \n$TOOLTIP_DELIMITER$\n本季度变化：+10\n$TOOLTIP_DELIMITER$\n提升到下一级所需经验：70"
  
  #抚育者相关
@@ -106,7 +106,8 @@
  
  casino:0 "赌场"
  bg_illegal:0 "不法场所"
- building_group_bg_illegal_throughput_mult:0 "不法场所吞吐量"
+ modifier_building_group_bg_illegal_throughput_mult:0 "不法场所吞吐量"
+ modifier_building_group_bg_illegal_throughput_mult_desc:0 "对不法场所的吞吐量的修正"
  pmg_casino:0 "赌场"
  pm_casino:0 "赌场"
  
@@ -125,6 +126,9 @@
  institution_social_climate:0 "风纪监管"
  modifier_country_institution_social_climate_max_investment_add:0 "最大$institution_social_climate$[concept_institution]投入等级"
  modifier_country_institution_social_climate_max_investment_add_desc:0 "对$institution_social_climate$[concept_institution]的最大投入等级的修正"
+ 
+ #金融相关
+ popneed_finance:0 "金融服务"
  
  #核武器相关
  concept_nuclear_weapon:0 "核武器"
@@ -165,7 +169,7 @@
  modifier_building_group_bg_nuclear_defence_throughput_mult:0 "[concept_nuclear_defence]"
  modifier_building_group_bg_nuclear_defence_throughput_mult_desc:0 "该建筑提供的[concept_nuclear_defence]强度"
  
- nuclear_arsenal:0 "核武库"
+ nuclear_arsenal:0 "核武库(制作中)"
      pmg_nuclear_type:0 "核弹头"
          pm_atomic_bomb:0 "原子弹"
          pm_hydrogen_bomb:0 "氢弹"
