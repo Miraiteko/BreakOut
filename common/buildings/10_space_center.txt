@@ -1,0 +1,39 @@
+﻿rocket_plant = {
+	building_group = bg_heavy_industry	
+	texture = "gfx/interface/icons/building_icons/rocket_plant.dds"
+	
+	unlocking_technologies = {
+	}
+
+	production_method_groups = {
+		pmg_rocket_plant
+	}
+
+	required_construction = construction_cost_medium
+}
+space_center = {
+	building_group = bg_heavy_industry	
+	texture = "gfx/interface/icons/building_icons/space_center.dds"
+	
+	unlocking_technologies = {
+	}
+
+	production_method_groups = {
+		pmg_space_center
+	}
+
+	required_construction = construction_cost_medium
+}
+lunar_mine = {
+	building_group = bg_heavy_industry	
+	texture = "gfx/interface/icons/building_icons/lunar_mine.dds"
+	
+	unlocking_technologies = {
+	}
+
+	production_method_groups = {
+		pmg_lunar_mine
+	}
+
+	required_construction = construction_cost_medium
+}

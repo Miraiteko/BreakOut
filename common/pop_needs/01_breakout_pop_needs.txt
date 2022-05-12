@@ -5,7 +5,7 @@
 		goods = breed
 		weight = 10
 		max_weight = 15.0
-		min_weight = 5.0
+		min_weight = 3.0
 	}
 	
 	entry = {
@@ -81,6 +81,14 @@ popneed_finance = {
 		
 		weight = 3
 		max_weight = 5.0 # Maxes out at 100% of supply share
+		min_weight = 0.0
+	}
+	
+	entry = {
+		goods = gambling
+		
+		weight = 1
+		max_weight = 10.0 # Maxes out at 60% of supply share
 		min_weight = 0.0
 	}
 }

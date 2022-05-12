@@ -2,18 +2,11 @@
 	good = yes
 	percent = no
 }
-building_output_gambling_add = {
-	good = yes
-	percent = no
-}
-building_group_bg_illegal_throughput_mult = {
-	good = no
-	percent = yes
-}
 building_input_services_add = {
 	good = no
 	percent = no
 }
+
 building_output_dispatching_add = {
 	good = yes
 	percent = no
@@ -22,10 +15,57 @@ building_input_dispatching_add = {
 	good = no
 	percent = no
 }
+
+
+building_output_rocket_add = {
+	good = yes
+	percent = no
+}
+building_input_rocket_add = {
+	good = no
+	percent = no
+}
+
+
+building_output_spaceflight_add = {
+	good = yes
+	percent = no
+}
+building_input_spaceflight_add = {
+	good = no
+	percent = no
+}
+
+building_output_gambling_add = {
+	good = yes
+	percent = no
+}
+building_group_bg_illegal_throughput_mult = {
+	good = no
+	percent = yes
+}
+
 country_institution_social_climate_max_investment_add  = {
 	good = yes
 	percent = no
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#凑数显示用buff
 building_group_bg_nuclear_holdings_throughput_mult = {
 	good = yes
 	percent = no

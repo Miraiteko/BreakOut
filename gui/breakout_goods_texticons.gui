@@ -25,4 +25,23 @@ texticon = {
 		fontsize = 18
 	}
 }
+texticon = {
+	icon = rocket
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/rocket.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+texticon = {
+	icon = spaceflight
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/spaceflight.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
 

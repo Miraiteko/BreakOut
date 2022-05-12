@@ -1,0 +1,5 @@
+﻿pmg_hydroponics_farm = {
+	production_methods = {
+		pm_hydroponics_farm
+	}
+}

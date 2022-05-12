@@ -1,0 +1,15 @@
+﻿pmg_rocket_plant = {
+	production_methods = {
+		pm_rocket_plant
+	}
+}
+pmg_space_center = {
+	production_methods = {
+		pm_space_center
+	}
+}
+pmg_lunar_mine = {
+	production_methods = {
+		pm_lunar_mine
+	}
+}

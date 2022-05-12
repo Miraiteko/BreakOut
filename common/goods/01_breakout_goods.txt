@@ -29,3 +29,23 @@ dispatching = {
 	
 	prestige_factor = 1
 }
+
+#火箭
+rocket = {
+	texture = "gfx/interface/icons/goods_icons/rocket.dds"
+	cost = 100
+	category = military
+	tradeable = yes
+	
+	prestige_factor = 10
+}
+
+#航天运力
+spaceflight = {
+	texture = "gfx/interface/icons/goods_icons/spaceflight.dds"
+	cost = 120
+	category = military
+	tradeable = yes
+	
+	prestige_factor = 10
+}

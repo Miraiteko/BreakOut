@@ -93,9 +93,7 @@ pm_ballistic_missile = {
 		
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_aeroplanes_add = 20
-			building_input_radios_add = 50
-			building_input_oil_add = 10
+			building_input_rocket_add = 5
 		}	
 		unscaled = {
 			building_group_bg_nuclear_penetration_throughput_mult = 0.5
@@ -108,9 +106,8 @@ pm_hypersonic_gliding_vehicle = {
 		
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_aeroplanes_add = 50
-			building_input_radios_add = 300
-			building_input_oil_add = 50
+			building_input_rocket_add = 5
+			building_input_radios_add = 15
 		}	
 		unscaled = {
 			building_group_bg_nuclear_penetration_throughput_mult = 0.8
