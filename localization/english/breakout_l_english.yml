@@ -130,6 +130,34 @@
  #金融相关
  popneed_finance:0 "金融服务"
  
+ #航天相关
+ rocket:0 "火箭"
+ modifier_building_output_rocket_add:0 "每级@rocket!火箭产出"
+ modifier_building_output_rocket_add_desc:0 "建筑产出的@rocket!火箭数量"
+ modifier_building_input_rocket_add:0 "每级@rocket!火箭投入"
+ modifier_building_input_rocket_add_desc:0 "建筑投入的@rocket!火箭数量"
+ 
+ spaceflight:0 "航天运力"
+ modifier_building_output_spaceflight_add:0 "每级@spaceflight!航天运力产出"
+ modifier_building_output_spaceflight_add_desc:0 "建筑产出的@spaceflight!航天运力数量"
+ modifier_building_input_spaceflight_add:0 "每级@spaceflight!航天运力投入"
+ modifier_building_input_spaceflight_add_desc:0 "建筑投入的@spaceflight!航天运力数量"
+ 
+ rocket_plant:0 "火箭工厂"
+ pmg_rocket_plant:0 "火箭"
+ pm_rocket_plant:0 "火箭"
+ space_center:0 "航天中心"
+ pmg_space_center:0 "航天"
+ pm_space_center:0 "航天"
+ lunar_mine:0 "月球矿业"
+ pmg_lunar_mine:0 "月球矿业"
+ pm_lunar_mine:0 "月球矿业"
+ 
+ #资源循环相关
+ hydroponics_farm:0 "水培农场"
+ pmg_hydroponics_farm:0 "水培农场"
+ pm_hydroponics_farm:0 "水培农场"
+ 
  #核武器相关
  concept_nuclear_weapon:0 "核武器"
  concept_nuclear_weapon_desc:0 "核武器是利用能自持进行的原子核裂变或核聚变反应瞬时释放的巨大的能量，产生爆炸作用，并具有大规模毁伤破坏效应的武器。使用核武器能够有效地摧毁城市，使敌对国家承受重大损失。"
