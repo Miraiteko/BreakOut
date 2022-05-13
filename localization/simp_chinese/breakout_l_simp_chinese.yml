@@ -153,6 +153,12 @@
  pmg_lunar_mine:0 "月球矿业"
  pm_lunar_mine:0 "月球矿业"
  
+ #资源枯竭相关
+ building_coal_mine_discovered_resource:0 "煤矿"
+ building_gold_mine_discovered_resource:0 "金矿"
+ building_whaling_station_discovered_resource:0 "捕鲸"
+ building_logging_camp_discovered_resource:0 "木材"
+ 
  #资源循环相关
  hydroponics_farm:0 "水培农场"
  pmg_hydroponics_farm:0 "水培农场"

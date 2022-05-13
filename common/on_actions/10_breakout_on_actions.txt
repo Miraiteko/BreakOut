@@ -1,4 +1,4 @@
-﻿# Root = Country
+﻿#出生率结算
 on_half_yearly_pulse_country = {
 	on_actions = {
 		breakout_on_monthly_pulse_country
@@ -8,4 +8,14 @@ breakout_on_monthly_pulse_country = {
 	effect = {
 		breeder_ratio_modifier_check = yes
 	}
+}
+
+#资源枯竭结算
+on_resource_depleted = {
+	on_actions = {
+		breakout_on_resource_depleted
+	}
+}
+
+breakout_on_resource_depleted = {
 }

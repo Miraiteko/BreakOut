@@ -8,12 +8,11 @@
 	
 	when_taken = {
 		every_scope_state = {
-			create_building = {
-				building = breed_center
-				reserves = 1
-				activate_production_methods={ "pm_tradition_breeder" "pm_breed_center_park" "pm_worker_cooperative_building_breed_center"}
-				level = 10
-			}
+			#force_resource_depletion = bg_gold_fields
+			force_resource_depletion = bg_coal_mining
+			force_resource_depletion = bg_logging
+			force_resource_depletion = bg_whaling
+			#remove_building = building_coal_mine
 		}
 	}
 	ai_chance = {

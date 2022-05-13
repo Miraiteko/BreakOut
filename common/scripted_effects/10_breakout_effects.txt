@@ -21,8 +21,8 @@
 						name = breeder_ratio
 						add = {
 							value = 14000 #农奴制一级提供14000抚育者岗位
-							multiply = prev.occupancy
-							multiply = prev.level
+							multiply = PREV.occupancy
+							multiply = PREV.level
 						}
 					}
 				}
@@ -33,8 +33,8 @@
 						name = breeder_ratio
 						add = {
 							value = 9000 #自耕农一级提供9000抚育者岗位
-							multiply = prev.occupancy
-							multiply = prev.level
+							multiply = PREV.occupancy
+							multiply = PREV.level
 						}
 					}
 				}
@@ -53,8 +53,8 @@
 						name = breeder_ratio
 						add = {
 							value = 7000 #多子多福一级提供7000抚育者岗位
-							multiply = prev.occupancy
-							multiply = prev.level
+							multiply = PREV.occupancy
+							multiply = PREV.level
 						}
 					}
 				}
@@ -65,8 +65,8 @@
 						name = breeder_ratio
 						add = {
 							value = 5000 #优生优育一级提供5000抚育者岗位
-							multiply = prev.occupancy
-							multiply = prev.level
+							multiply = PREV.occupancy
+							multiply = PREV.level
 						}
 					}
 				}

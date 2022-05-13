@@ -9,6 +9,7 @@ pm_atomic_bomb = {
 			building_input_electricity_add = 100
 			building_input_sulfur_add = 50
 			building_input_explosives_add = 50
+			
 			building_group_bg_nuclear_holdings_throughput_mult = 1
 		}	
 		level_scaled = {
@@ -22,6 +23,13 @@ pm_atomic_bomb = {
 			building_group_bg_nuclear_pollution_throughput_mult = 100
 		}	
 	}		
+	country_modifiers = {
+		workforce_scaled = {
+			country_navy_power_projection_add = 20
+			country_army_power_projection_add = 20
+		}
+	}
+
 }	
 #氢弹
 pm_hydrogen_bomb = {
@@ -45,6 +53,12 @@ pm_hydrogen_bomb = {
 			building_group_bg_nuclear_radiation_throughput_mult = 300
 			building_group_bg_nuclear_pollution_throughput_mult = 200
 		}	
+	}
+	country_modifiers = {
+		workforce_scaled = {
+			country_navy_power_projection_add = 50
+			country_army_power_projection_add = 50
+		}
 	}		
 }	
 #中子弹
@@ -70,6 +84,12 @@ pm_neutron_bomb = {
 			building_group_bg_nuclear_pollution_throughput_mult = 100
 		}	
 	}		
+	country_modifiers = {
+		workforce_scaled = {
+			country_navy_power_projection_add = 70
+			country_army_power_projection_add = 30
+		}
+	}
 }	
 #载具
 #隐形轰炸机
@@ -99,6 +119,12 @@ pm_ballistic_missile = {
 			building_group_bg_nuclear_penetration_throughput_mult = 0.5
 		}
 	}	
+	country_modifiers = {
+		workforce_scaled = {
+			country_navy_power_projection_add = 10
+			country_army_power_projection_add = 10
+		}
+	}
 }	
 #高超音速滑翔器
 pm_hypersonic_gliding_vehicle = {
@@ -113,6 +139,12 @@ pm_hypersonic_gliding_vehicle = {
 			building_group_bg_nuclear_penetration_throughput_mult = 0.8
 		}
 	}		
+	country_modifiers = {
+		workforce_scaled = {
+			country_navy_power_projection_add = 25
+			country_army_power_projection_add = 25
+		}
+	}
 }	
 #基地
 #核防空洞

@@ -31,6 +31,15 @@ NEconomy = {
     GOODS_SHORTAGE_PENALTY_MAX = 0.95			# Goods shortage penalty can't be higher than this
 	
 	MAX_WEEKLY_CONSTRUCTION_PROGRESS = 500				# Max construction progress per week on a single project
+	
+	
+	BASE_RESOURCE_DISCOVER_CHANCE = 0.02 		# Per day (1.0 = 1%)
+	EMPLOYMENT_RESOURCE_DEPLETE_CHANCE = 0.001	# Multiplied by number of fully employed levels of the building
+	DEFAULT_RESOURCE_DISCOVER_MIN_AMOUNT = 2	# Min amount of resources that will be discovered for each successful roll
+	DEFAULT_RESOURCE_DISCOVER_MAX_AMOUNT = 4	# Max amount of resources that will be discovered for each successful roll	
+	FULLY_DISCOVERED_RESOURCE_DEPLETE_CHANCE_MULT = 1.0 # The chance of a resource depleting is multiplied by this when all of the resource has been discovered
+	DEFAULT_RESOURCE_DEPLETE_MIN_AMOUNT = 2		# Min amount of resources that will be depleted for each successful roll
+	DEFAULT_RESOURCE_DEPLETE_MAX_AMOUNT = 4		# Max amount of resources that will be depleted for each successful roll	
 }
 
 NAI = {
