@@ -15,12 +15,17 @@
 				}
 			}
 			if = {
-				limit = { has_active_production_method = pm_serfdom } #农奴制
+				limit = { 
+					OR = { #农奴制
+						has_active_production_method = pm_serfdom 
+						has_active_production_method = pm_serfdom_building_subsistence_pastures
+					}
+				}
 				scope:checked_state = {
 					change_variable = {
 						name = breeder_ratio
 						add = {
-							value = 14000 #农奴制一级提供14000抚育者岗位
+							value = 12000 #农奴制一级提供12000抚育者岗位
 							multiply = PREV.occupancy
 							multiply = PREV.level
 						}
@@ -32,7 +37,7 @@
 					change_variable = {
 						name = breeder_ratio
 						add = {
-							value = 9000 #自耕农一级提供9000抚育者岗位
+							value = 10000 #自耕农一级提供10000抚育者岗位
 							multiply = PREV.occupancy
 							multiply = PREV.level
 						}

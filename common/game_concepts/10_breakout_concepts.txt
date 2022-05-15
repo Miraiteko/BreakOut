@@ -17,3 +17,7 @@ concept_nuclear_pollution = {
 concept_nuclear_defence = {
 }
 
+concept_breed_power = {
+}
+concept_breed_power_ratio = {
+}

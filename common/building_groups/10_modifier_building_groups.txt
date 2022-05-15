@@ -11,6 +11,9 @@ bg_modifier = {
 	urbanization = 2
 }
 
+bg_breed_power = {
+	parent_group = bg_modifier
+}
 bg_nuclear_holdings = {
 	parent_group = bg_modifier
 }
