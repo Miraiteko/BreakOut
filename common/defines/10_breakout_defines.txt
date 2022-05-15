@@ -2,7 +2,7 @@
 	MIN_FERTILITY_RATE = 0.007					# Minimum fertility rate, in percent to avoid rounding errors
 	MAX_FERTILITY_RATE = 0.007						# Maximum fertility rate, in percent to avoid rounding errors
 	MORTALITY_COEFFICIENT = 1.5					# The greater the mortality coefficient, the smaller mortality is suffered
-	FERTILITY_DIVISOR = 2.0						# Fraction of minimum fertility that is the minimum mortality value at max Standard of Living
+	FERTILITY_DIVISOR = 0.03						# Fraction of minimum fertility that is the minimum mortality value at max Standard of Living
 	
 	WORKING_ADULT_RATIO_BASE = 0.50				# Base ratio of working adults to dependents, this can be overridden by pop type definition and country modifiers.
 	WORKING_ADULT_RATIO_SKEW_MAXIMUM = 2.0		# When the ratio of working adults to dependents is skewed, it tends to correct itself, this value clamps the maximum effect of this

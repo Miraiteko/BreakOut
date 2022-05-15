@@ -1,0 +1,5 @@
+﻿pmg_fund_company = {
+	production_methods = {
+		pm_fund_company
+	}
+}

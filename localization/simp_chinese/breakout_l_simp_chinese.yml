@@ -129,6 +129,9 @@
  
  #金融相关
  popneed_finance:0 "金融服务"
+ fund_company:0 "基金公司"
+ pmg_fund_company:0 "基金"
+ pm_fund_company:0 "基金"
  
  #航天相关
  rocket:0 "火箭"

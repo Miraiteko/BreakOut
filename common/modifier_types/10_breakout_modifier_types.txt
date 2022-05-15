@@ -50,7 +50,10 @@ country_institution_social_climate_max_investment_add  = {
 	percent = no
 }
 
-
+building_breeder_mortality_mult = {
+	good = no
+	percent = yes
+}
 
 
 

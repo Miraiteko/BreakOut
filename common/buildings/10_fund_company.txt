@@ -1,0 +1,13 @@
+﻿fund_company = {
+	building_group = bg_light_industry	
+	texture = "gfx/interface/icons/building_icons/fund_company.dds"
+	
+	unlocking_technologies = {
+	}
+
+	production_method_groups = {
+		pmg_fund_company
+	}
+
+	required_construction = construction_cost_medium
+}
