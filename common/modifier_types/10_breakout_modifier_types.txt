@@ -6,6 +6,10 @@ building_input_services_add = {
 	good = no
 	percent = no
 }
+building_input_liquor_add = {
+	good = no
+	percent = no
+}
 
 building_output_dispatching_add = {
 	good = yes

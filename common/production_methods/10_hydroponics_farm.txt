@@ -4,16 +4,20 @@
 
 	building_modifiers = {
 		workforce_scaled = {					
-			building_input_electricity_add = 30	#30   
+			building_input_electricity_add = 40	#30   
 			building_input_fertilizer_add = 60 #30											   
 			building_output_grain_add = 150	#20
 			building_output_fruit_add = 20 #30
-			building_output_sugar_add = 20 #30		
+			building_output_sugar_add = 10 #30		
 		}
 
 		level_scaled = {								
 			building_employment_farmers_add = 1250
 			building_employment_engineers_add = 250
+			building_employment_capitalists_add = 50
+		}
+		unscaled = {
+			building_capitalists_shares_add = 5
 		}
 	}
 }	

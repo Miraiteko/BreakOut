@@ -173,6 +173,15 @@
  hydroponics_farm:0 "水培农场"
  pmg_hydroponics_farm:0 "水培农场"
  pm_hydroponics_farm:0 "水培农场"
+ carbon_sequestration:0 "人工固碳厂"
+ pmg_carbon_sequestration:0 "固碳"
+ pm_carbon_dioxide:0 "二氧化碳吸收"
+ pm_liquor_carbon:0 "酒精转化"
+ modifier_building_input_liquor_add:0 "每级@liquor!烈酒投入"
+ modifierbuilding_input_liquor_add_desc:0 "建筑投入的@liquor!烈酒数量"
+ pmg_wood_carbonization:0 "碳化"
+ pm_no_wood_carbonization:0 "无硬木碳化"
+ pm_wood_carbonization:0 "硬木碳化"
  
  #核武器相关
  concept_nuclear_weapon:0 "核武器"

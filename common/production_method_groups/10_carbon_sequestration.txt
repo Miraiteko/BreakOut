@@ -1,0 +1,12 @@
+﻿pmg_carbon_sequestration = {
+	production_methods = {
+		pm_carbon_dioxide
+		pm_liquor_carbon
+	}
+}
+pmg_wood_carbonization = {
+	production_methods = {
+		pm_no_wood_carbonization
+		pm_wood_carbonization
+	}
+}
