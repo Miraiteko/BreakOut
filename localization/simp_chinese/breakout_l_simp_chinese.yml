@@ -183,6 +183,21 @@
  pm_no_wood_carbonization:0 "无硬木碳化"
  pm_wood_carbonization:0 "硬木碳化"
  
+ #能源相关
+ dispatching:0 "蓄电能力"
+ modifier_building_output_dispatching_add:0 "每级@dispatching!蓄电能力产出"
+ modifier_building_output_dispatching_add_desc:0 "建筑产出的@dispatching!蓄电能力数量"
+ modifier_building_input_dispatching_add:0 "每级@dispatching!蓄电能力投入"
+ modifier_building_input_dispatching_add_desc:0 "建筑投入的@dispatching!蓄电能力数量"
+ 
+ photovoltaic_plant:0 "光伏电站"
+ pmg_photovoltaic_plant:0 "光伏电站"
+ pm_photovoltaic_plant:0 "光伏发电"
+ 
+ nuclear_fusion:0 "核聚变电站"
+ pmg_nuclear_fusion:0 "核聚变"
+ pm_nuclear_fusion:0 "核聚变"
+ 
  #核武器相关
  concept_nuclear_weapon:0 "核武器"
  concept_nuclear_weapon_desc:0 "核武器是利用能自持进行的原子核裂变或核聚变反应瞬时释放的巨大的能量，产生爆炸作用，并具有大规模毁伤破坏效应的武器。使用核武器能够有效地摧毁城市，使敌对国家承受重大损失。"
@@ -239,17 +254,6 @@
  #外交相关
  modifier_overlord:0 "方伯"
  modifier_overlord_desc:0 "这些大国是上次争霸战争的胜利者，享有支配全球的权力。"
- 
- #能源相关
- dispatching:0 "蓄电能力"
- modifier_building_output_dispatching_add:0 "每级@dispatching!蓄电能力产出"
- modifier_building_output_dispatching_add_desc:0 "建筑产出的@dispatching!蓄电能力数量"
- modifier_building_input_dispatching_add:0 "每级@dispatching!蓄电能力投入"
- modifier_building_input_dispatching_add_desc:0 "建筑投入的@dispatching!蓄电能力数量"
- 
- photovoltaic_plant:0 "光伏电站"
- pmg_photovoltaic_plant:0 "光伏电站"
- pm_photovoltaic_plant:0 "光伏发电"
  
  
  #debug

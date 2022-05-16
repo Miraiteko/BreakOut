@@ -1,0 +1,5 @@
+﻿pmg_nuclear_fusion = {
+	production_methods = {
+		pm_nuclear_fusion
+	}
+}

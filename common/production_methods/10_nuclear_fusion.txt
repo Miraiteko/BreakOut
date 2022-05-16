@@ -1,0 +1,21 @@
+﻿pm_nuclear_fusion = {
+	texture = "gfx/interface/icons/production_method_icons/power_plant.dds"
+	pollution_generation = 10
+	
+	building_modifiers = { 
+		workforce_scaled = {
+			building_input_engines_add = 20
+			building_input_radios_add = 20
+			building_output_electricity_add = 1000
+		}
+
+		level_scaled = {
+			building_employment_machinists_add = 2500
+			building_employment_engineers_add = 1400
+			building_employment_capitalists_add = 100
+		}
+		unscaled = {
+			building_capitalists_shares_add = 5
+		}
+	}
+}	

@@ -58,7 +58,7 @@ pm_wood_carbonization = {
 			building_input_electricity_add = -100 #30
 			building_input_hardwood_add	= 50 #40
 			building_output_oil_add = -10 #40	
-			building_output_coal_add = 50 #30		
+			building_output_coal_add = 65 #30		
 		}
 	}
 }	

@@ -1,0 +1,22 @@
+﻿nuclear_fusion = {
+	building_group = bg_power	
+	texture = "gfx/interface/icons/building_icons/nuclear_fusion.dds"
+	levels_per_mesh = 5
+	
+	can_build = {
+		error_check = {
+			severity = fail
+			has_coast = yes
+		}
+	}
+	
+	unlocking_technologies = { 
+		electrical_generation 
+	}
+
+	production_method_groups = {
+		pmg_nuclear_fusion
+	}
+
+	required_construction = construction_cost_high
+}

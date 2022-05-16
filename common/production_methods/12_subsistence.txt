@@ -60,13 +60,15 @@ pm_serfdom_no = {
 		law_worker_protections
 	}
 	
-	building_modifiers = {		
-		workforce_scaled = {
-			building_group_bg_breed_power_throughput_mult = 10000
-		}				
+	building_modifiers = {					
 		unscaled = {
 			building_subsistence_output_add = 0.5
 		}
+	}
+	state_modifiers = {
+		workforce_scaled = {
+			building_group_bg_breed_power_throughput_mult = 10000
+		}	
 	}
 }
 
@@ -79,12 +81,16 @@ pm_serfdom = {
 		workforce_scaled = {
 			building_output_grain_add = 2
 			building_output_fabric_add = 1
-			building_group_bg_breed_power_throughput_mult = 12000
 		}
 
 		level_scaled = {
 			building_employment_peasants_add = 10000
 		}				
+	}
+	state_modifiers = {
+		workforce_scaled = {
+			building_group_bg_breed_power_throughput_mult = 12000
+		}	
 	}
 }		
 
@@ -202,10 +208,14 @@ pm_serfdom_building_subsistence_pastures = {
 	building_modifiers = {
 		workforce_scaled = {
 			building_output_meat_add = 2
-			building_group_bg_breed_power_throughput_mult = 12000
 		}	
 		level_scaled = {
 			building_employment_peasants_add = 10000
 		}				
+	}
+	state_modifiers = {
+		workforce_scaled = {
+			building_group_bg_breed_power_throughput_mult = 12000
+		}	
 	}
 }
