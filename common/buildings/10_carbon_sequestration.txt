@@ -1,4 +1,5 @@
-﻿carbon_sequestration = {
+﻿#人工固碳
+carbon_sequestration = {
 	building_group = bg_heavy_industry	
 	texture = "gfx/interface/icons/building_icons/carbon_sequestration.dds"
 	
@@ -8,6 +9,21 @@
 	production_method_groups = {
 		pmg_carbon_sequestration
 		pmg_wood_carbonization
+	}
+
+	required_construction = construction_cost_medium
+}
+
+#合成橡胶
+synthetic_rubber = {
+	building_group = bg_heavy_industry	
+	texture = "gfx/interface/icons/building_icons/rubber_lodge.dds"
+	
+	unlocking_technologies = {
+	}
+
+	production_method_groups = {
+		pmg_synthetic_rubber
 	}
 
 	required_construction = construction_cost_medium

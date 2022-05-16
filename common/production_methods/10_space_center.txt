@@ -45,10 +45,10 @@ pm_lunar_mine = {
 		
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_spaceflight_add = 5
-			building_output_iron_add = 50
-			building_output_sulfur_add = 10
-			building_output_gold_add = 5
+			building_input_spaceflight_add = 10 #120
+			building_output_iron_add = 75 #40
+			building_output_sulfur_add = 15 #50
+			building_output_lead_add = 15 #40
 		}	
 		level_scaled = {
 			building_employment_engineers_add = 1000

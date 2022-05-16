@@ -182,6 +182,10 @@
  pmg_wood_carbonization:0 "碳化"
  pm_no_wood_carbonization:0 "无硬木碳化"
  pm_wood_carbonization:0 "硬木碳化"
+ synthetic_rubber:0 "合成橡胶厂"
+ pmg_synthetic_rubber:0 "合成橡胶"
+ pm_synthetic_rubber:0 "合成橡胶"
+ 
  
  #能源相关
  dispatching:0 "蓄电能力"

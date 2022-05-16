@@ -10,3 +10,9 @@ pmg_wood_carbonization = {
 		pm_wood_carbonization
 	}
 }
+
+pmg_synthetic_rubber = {
+	production_methods = {
+		pm_synthetic_rubber
+	}
+}

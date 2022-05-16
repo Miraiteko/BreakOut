@@ -62,3 +62,26 @@ pm_wood_carbonization = {
 		}
 	}
 }	
+
+pm_synthetic_rubber = {
+	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
+		
+
+	building_modifiers = {
+		workforce_scaled = {					
+			building_input_oil_add = 50	#40 	
+			building_input_sulfur_add = 10	#50
+			building_output_rubber_add = 85 #40
+		}
+
+		level_scaled = {						
+			building_employment_laborers_add = 2000	
+			building_employment_machinists_add = 1250
+			building_employment_engineers_add = 250
+			building_employment_capitalists_add = 50
+		}
+		unscaled = {
+			building_capitalists_shares_add = 5
+		}
+	}
+}
