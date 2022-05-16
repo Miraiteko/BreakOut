@@ -3,6 +3,7 @@
 	texture = "gfx/interface/icons/building_icons/fund_company.dds"
 	
 	unlocking_technologies = {
+		modern_financial_instruments
 	}
 
 	production_method_groups = {

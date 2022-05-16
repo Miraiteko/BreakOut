@@ -13,3 +13,8 @@ pmg_lunar_mine = {
 		pm_lunar_mine
 	}
 }
+pmg_space_elevator = {
+	production_methods = {
+		pm_space_elevator
+	}
+}

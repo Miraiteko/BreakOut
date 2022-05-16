@@ -4,6 +4,7 @@ carbon_sequestration = {
 	texture = "gfx/interface/icons/building_icons/carbon_sequestration.dds"
 	
 	unlocking_technologies = {
+		art_silk
 	}
 
 	production_method_groups = {
@@ -20,6 +21,7 @@ synthetic_rubber = {
 	texture = "gfx/interface/icons/building_icons/rubber_lodge.dds"
 	
 	unlocking_technologies = {
+		aniline
 	}
 
 	production_method_groups = {

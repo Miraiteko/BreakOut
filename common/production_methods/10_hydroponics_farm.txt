@@ -21,3 +21,25 @@
 		}
 	}
 }	
+pm_fiber_polymerization = {
+	texture = "gfx/interface/icons/production_method_icons/pulp_pressing.dds"
+	building_modifiers = {
+		workforce_scaled = {														   
+			building_input_grain_add = 60	#20
+			building_input_oil_add = 15 #40
+			building_input_electricity_add = 60 #30
+			building_output_fabric_add = 60 #20
+			building_output_wood_add = 40 #20		
+			building_output_hardwood_add = 30 #40
+		}
+
+		level_scaled = {							
+			building_employment_machinists_add = 1500	
+			building_employment_engineers_add = 250
+			building_employment_capitalists_add = 50
+		}
+		unscaled = {
+			building_capitalists_shares_add = 5
+		}
+	}
+}

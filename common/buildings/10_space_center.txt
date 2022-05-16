@@ -3,6 +3,7 @@
 	texture = "gfx/interface/icons/building_icons/rocket_plant.dds"
 	
 	unlocking_technologies = {
+		oil_turbine
 	}
 
 	production_method_groups = {
@@ -16,6 +17,7 @@ space_center = {
 	texture = "gfx/interface/icons/building_icons/space_center.dds"
 	
 	unlocking_technologies = {
+		military_aviation
 	}
 
 	production_method_groups = {
@@ -29,10 +31,26 @@ lunar_mine = {
 	texture = "gfx/interface/icons/building_icons/lunar_mine.dds"
 	
 	unlocking_technologies = {
+		arc_welding
 	}
 
 	production_method_groups = {
 		pmg_lunar_mine
+	}
+
+	required_construction = construction_cost_medium
+}
+
+space_elevator = {
+	building_group = bg_heavy_industry	
+	texture = "gfx/interface/icons/building_icons/space_elevator.dds"
+	
+	unlocking_technologies = {
+		planetary_carbon_nanotubes
+	}
+
+	production_method_groups = {
+		pmg_space_elevator
 	}
 
 	required_construction = construction_cost_medium

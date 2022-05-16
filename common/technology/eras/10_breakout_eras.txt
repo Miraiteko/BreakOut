@@ -1,0 +1,3 @@
+﻿era_6 = { #2088
+	technology_cost = 300000
+}

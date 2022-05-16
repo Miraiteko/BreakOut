@@ -4,14 +4,10 @@
 	levels_per_mesh = 5
 	
 	can_build = {
-		error_check = {
-			severity = fail
-			has_coast = yes
-		}
 	}
 	
 	unlocking_technologies = { 
-		electrical_generation 
+		controlable_nuclear_fusion 
 	}
 
 	production_method_groups = {

@@ -163,6 +163,12 @@
  pmg_lunar_mine:0 "月球矿业"
  pm_lunar_mine:0 "月球矿业"
  
+ planetary_carbon_nanotubes:0 "行星级碳管"
+ planetary_carbon_nanotubes_desc:0 "通过技术革新，我们获得了将强化碳纳米管无限延长的工艺。在获得这种材料之后，我们能够建造直达同步轨道的超级电梯。"
+ space_elevator:0 "太空电梯"
+ pmg_space_elevator:0 "太空电梯"
+ pm_space_elevator:0 "太空电梯"
+ 
  #资源枯竭相关
  building_coal_mine_discovered_resource:0 "煤矿"
  building_gold_mine_discovered_resource:0 "金矿"
@@ -185,6 +191,9 @@
  synthetic_rubber:0 "合成橡胶厂"
  pmg_synthetic_rubber:0 "合成橡胶"
  pm_synthetic_rubber:0 "合成橡胶"
+ fiber_polymerization:0 "纤维聚合厂"
+ pmg_fiber_polymerization:0 "纤维聚合"
+ pm_fiber_polymerization:0 "纤维聚合"
  
  
  #能源相关
@@ -198,6 +207,8 @@
  pmg_photovoltaic_plant:0 "光伏电站"
  pm_photovoltaic_plant:0 "光伏发电"
  
+ controlable_nuclear_fusion:0 "人造太阳"
+ controlable_nuclear_fusion_desc:0 "通过将核聚变驯化，我们获得了近乎无限的能源。"
  nuclear_fusion:0 "核聚变电站"
  pmg_nuclear_fusion:0 "核聚变"
  pm_nuclear_fusion:0 "核聚变"

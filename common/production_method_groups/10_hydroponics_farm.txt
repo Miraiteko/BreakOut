@@ -3,3 +3,8 @@
 		pm_hydroponics_farm
 	}
 }
+pmg_fiber_polymerization = {
+	production_methods = {
+		pm_fiber_polymerization
+	}
+}

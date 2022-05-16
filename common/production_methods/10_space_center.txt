@@ -45,7 +45,7 @@ pm_lunar_mine = {
 		
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_spaceflight_add = 10 #120
+			building_input_spaceflight_add = 60 #120
 			building_output_iron_add = 75 #40
 			building_output_sulfur_add = 15 #50
 			building_output_lead_add = 15 #40
@@ -58,6 +58,27 @@ pm_lunar_mine = {
 		unscaled = {
 			building_academics_shares_add = 5
 			building_officers_shares_add = 5
+		}
+	}		
+	state_modifiers = {
+	}	
+}	
+pm_space_elevator = {
+	texture = "gfx/interface/icons/production_method_icons/trains_electric.dds"
+		
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_electricity_add = 100 #30   
+			building_output_spaceflight_add = 100 #120
+		}	
+		level_scaled = {
+			building_employment_clerks_add = 1200
+			building_employment_engineers_add = 1000
+			building_employment_capitalists_add = 300
+		}
+		unscaled = {
+			building_engineers_shares_add = 1
+			building_capitalists_shares_add = 5
 		}
 	}		
 	state_modifiers = {
