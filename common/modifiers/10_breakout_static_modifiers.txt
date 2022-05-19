@@ -15,3 +15,13 @@ state_region_devastation = {
 	building_throughput_mult = -1.0
 	state_migration_pull_mult = -1.0
 }
+in_default = {
+	building_throughput_mult = -1.0
+}
+
+declared_bankruptcy = {
+	country_prestige_mult = -0.5
+	country_loan_interest_rate_add = 0.5
+	country_government_wages_mult = -1.0
+	country_military_wages_mult = -1.0
+}
