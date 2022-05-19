@@ -1,4 +1,5 @@
-﻿building_output_breed_add = {
+﻿#商品吞吐
+building_output_breed_add = {
 	good = yes
 	percent = no
 }
@@ -40,10 +41,44 @@ building_input_spaceflight_add = {
 	percent = no
 }
 
+
+building_output_financing_service_add = {
+	good = yes
+	percent = no
+}
+building_input_financing_service_add = {
+	good = no
+	percent = no
+}
+
+building_output_investment_management_add = {
+	good = yes
+	percent = no
+}
+building_input_investment_management_add = {
+	good = no
+	percent = no
+}
+
+building_output_finance_power_add = {
+	good = yes
+	percent = no
+}
+building_input_finance_power_add = {
+	good = no
+	percent = no
+}
+
 building_output_gambling_add = {
 	good = yes
 	percent = no
 }
+building_input_gambling_add = {
+	good = yes
+	percent = no
+}
+
+#其他buff
 building_group_bg_illegal_throughput_mult = {
 	good = no
 	percent = yes

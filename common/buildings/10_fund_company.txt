@@ -1,4 +1,21 @@
-﻿fund_company = {
+﻿#证券交易所
+stock_exchange = {
+	building_group = bg_light_industry	
+	texture = "gfx/interface/icons/building_icons/stock_exchange.dds"
+	
+	unlocking_technologies = {
+		mutual_funds
+	}
+
+	production_method_groups = {
+		pmg_stock_exchange
+	}
+
+	required_construction = construction_cost_medium
+}
+
+#基金公司
+fund_company = {
 	building_group = bg_light_industry	
 	texture = "gfx/interface/icons/building_icons/fund_company.dds"
 	
@@ -8,6 +25,22 @@
 
 	production_method_groups = {
 		pmg_fund_company
+	}
+
+	required_construction = construction_cost_medium
+}
+
+#中央银行
+central_bank = {
+	building_group = bg_government	
+	texture = "gfx/interface/icons/building_icons/central_bank.dds"
+	
+	unlocking_technologies = {
+		central_banking
+	}
+
+	production_method_groups = {
+		pmg_central_bank
 	}
 
 	required_construction = construction_cost_medium

@@ -12,10 +12,6 @@
 		level_scaled = {
 			building_employment_machinists_add = 2500
 			building_employment_engineers_add = 1400
-			building_employment_capitalists_add = 100
-		}
-		unscaled = {
-			building_capitalists_shares_add = 5
 		}
 	}
 }	

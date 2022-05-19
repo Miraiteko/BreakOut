@@ -8,6 +8,7 @@
 
 	production_method_groups = {
 		pmg_hydroponics_farm
+		pmg_ownership_capital
 	}
 
 	required_construction = construction_cost_medium
@@ -23,6 +24,7 @@ fiber_polymerization = {
 
 	production_method_groups = {
 		pmg_fiber_polymerization
+		pmg_ownership_capital
 	}
 
 	required_construction = construction_cost_medium

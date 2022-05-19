@@ -49,3 +49,30 @@ spaceflight = {
 	
 	prestige_factor = 10
 }
+#融资服务
+financing_service = {
+	texture = "gfx/interface/icons/goods_icons/financing_service.dds"
+	cost = 100
+	category = industrial
+	tradeable = yes
+	
+	prestige_factor = 3
+}
+#投资管理
+investment_management = {
+	texture = "gfx/interface/icons/goods_icons/investment_management.dds"
+	cost = 100
+	category = industrial
+	tradeable = yes
+	
+	prestige_factor = 5
+}
+#金融力量
+finance_power = {
+	texture = "gfx/interface/icons/goods_icons/finance_power.dds"
+	cost = 100
+	category = industrial
+	tradeable = no
+	
+	prestige_factor = 15
+}

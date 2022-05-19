@@ -1,12 +1,12 @@
-﻿pm_fund_company = {
-	texture = "gfx/interface/icons/production_method_icons/publicly_traded.dds"
+﻿pm_stock_exchange = {
+	texture = "gfx/interface/icons/production_method_icons/privately_owned.dds"
 		
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_electricity_add = 20 #600
-			building_input_telephones_add = 10 #700
-			building_output_gambling_add = 10 #500
-			building_output_gold_add = 35 #3500
+			building_input_paper_add = 30 # 30
+			building_output_gambling_add = 5 #50
+			building_output_financing_service_add = 10 #100
+			building_output_finance_power_add = 0.2 #100
 		}	
 		level_scaled = {
 			building_employment_clerks_add = 2400
@@ -20,4 +20,99 @@
 		workforce_scaled = {
 		}	
 	}	
+}	
+pm_fundbased_stock_exchange = {
+	texture = "gfx/interface/icons/production_method_icons/publicly_traded.dds"
+		
+	unlocking_technologies = {
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_telephones_add = 10 #70
+			building_input_investment_management_add = 5 #100
+			building_output_gambling_add = 5 #50
+			building_output_financing_service_add = 20 #100
+			building_output_finance_power_add = 2 #100
+		}	
+		level_scaled = {
+			building_employment_clerks_add = 2000
+			building_employment_capitalists_add = 500
+			building_throughput_mult = 0.1 #等级修正，不受throughput影响
+		}
+		unscaled = {
+			building_capitalists_shares_add = 5
+		}
+	}		
+	state_modifiers = {
+		workforce_scaled = {
+		}	
+	}	
+}	
+
+pm_fund_company = {
+	texture = "gfx/interface/icons/production_method_icons/publicly_traded.dds"
+		
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_telephones_add = 10 #70
+			building_output_investment_management_add = 25 #100
+			building_output_finance_power_add = 10 #100
+		}	
+		level_scaled = {
+			building_employment_clerks_add = 2400
+			building_employment_capitalists_add = 100
+		}
+		unscaled = {
+			building_capitalists_shares_add = 5
+		}
+	}		
+	state_modifiers = {
+		workforce_scaled = {
+		}	
+	}	
+}	
+pm_central_bank = { #传统央行，提供地区税收浪费的削减
+	texture = "gfx/interface/icons/production_method_icons/government_run.dds"
+		
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_paper_add = 20# 30
+		}	
+		level_scaled = {
+			building_employment_clerks_add = 3000
+			building_employment_bureaucrats_add = 500
+		}
+	}		
+	state_modifiers = {
+		unscaled = {
+			state_tax_waste_add = -0.1
+		}
+	}	
+}	
+pm_sovereign_currency = { #主权货币，将金融力量变成铸币
+	texture = "gfx/interface/icons/production_method_icons/publicly_traded.dds"
+		
+	unlocking_technologies = {
+		international_exchange_standards
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_telephones_add = 10 #70
+			building_input_finance_power_add = 10 #100
+		}	
+		level_scaled = {
+			building_employment_clerks_add = 3000
+			building_employment_bureaucrats_add = 500
+		}
+	}		
+	state_modifiers = {
+		workforce_scaled = {
+		}	
+	}		
+	country_modifiers = {
+		workforce_scaled = {
+			building_output_gold_add = 30
+			#country_minting_add = 3000
+		}
+	}
 }	

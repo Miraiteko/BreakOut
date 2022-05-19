@@ -44,4 +44,30 @@ texticon = {
 	}
 }
 
-
+texticon = {
+	icon = financing_service
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/financing_service.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+texticon = {
+	icon = investment_management
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/investment_management.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+texticon = {
+	icon = finance_power
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/finance_power.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}

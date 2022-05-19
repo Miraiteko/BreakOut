@@ -1,5 +1,5 @@
 ﻿economy_of_scale = {
-	building_throughput_mult = 0.1
+	building_throughput_mult = 0.05
 }
 
 modifier_overlord = {

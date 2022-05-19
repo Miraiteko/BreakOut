@@ -8,12 +8,8 @@
 			building_output_rocket_add = 20
 		}	
 		level_scaled = {
-			building_employment_engineers_add = 1500
-			building_employment_clerks_add = 400
-			building_employment_capitalists_add = 100
-		}
-		unscaled = {
-			building_capitalists_shares_add = 5
+			building_employment_machinists_add = 2000
+			building_employment_engineers_add = 1000
 		}
 	}		
 	state_modifiers = {
@@ -28,13 +24,8 @@ pm_space_center = {
 			building_output_spaceflight_add = 20
 		}	
 		level_scaled = {
-			building_employment_academics_add = 1000
-			building_employment_soldiers_add = 1000
-			building_employment_officers_add = 500
-		}
-		unscaled = {
-			building_academics_shares_add = 5
-			building_officers_shares_add = 5
+			building_employment_machinists_add = 1500
+			building_employment_engineers_add = 1000
 		}
 	}		
 	state_modifiers = {
@@ -51,13 +42,8 @@ pm_lunar_mine = {
 			building_output_lead_add = 15 #40
 		}	
 		level_scaled = {
+			building_employment_machinists_add = 1500
 			building_employment_engineers_add = 1000
-			building_employment_academics_add = 500
-			building_employment_officers_add = 500
-		}
-		unscaled = {
-			building_academics_shares_add = 5
-			building_officers_shares_add = 5
 		}
 	}		
 	state_modifiers = {
@@ -74,11 +60,6 @@ pm_space_elevator = {
 		level_scaled = {
 			building_employment_clerks_add = 1200
 			building_employment_engineers_add = 1000
-			building_employment_capitalists_add = 300
-		}
-		unscaled = {
-			building_engineers_shares_add = 1
-			building_capitalists_shares_add = 5
 		}
 	}		
 	state_modifiers = {

@@ -10,6 +10,7 @@ carbon_sequestration = {
 	production_method_groups = {
 		pmg_carbon_sequestration
 		pmg_wood_carbonization
+		pmg_ownership_capital
 	}
 
 	required_construction = construction_cost_medium
@@ -26,6 +27,7 @@ synthetic_rubber = {
 
 	production_method_groups = {
 		pmg_synthetic_rubber
+		pmg_ownership_capital
 	}
 
 	required_construction = construction_cost_medium

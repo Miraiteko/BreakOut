@@ -8,6 +8,7 @@
 
 	production_method_groups = {
 		pmg_rocket_plant
+		pmg_ownership_capital
 	}
 
 	required_construction = construction_cost_medium
@@ -22,6 +23,7 @@ space_center = {
 
 	production_method_groups = {
 		pmg_space_center
+		pmg_ownership_capital
 	}
 
 	required_construction = construction_cost_medium
@@ -36,6 +38,7 @@ lunar_mine = {
 
 	production_method_groups = {
 		pmg_lunar_mine
+		pmg_ownership_capital
 	}
 
 	required_construction = construction_cost_medium
@@ -51,6 +54,7 @@ space_elevator = {
 
 	production_method_groups = {
 		pmg_space_elevator
+		pmg_ownership_capital
 	}
 
 	required_construction = construction_cost_medium
