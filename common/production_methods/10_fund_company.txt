@@ -84,6 +84,9 @@ pm_central_bank = { #传统央行，提供地区税收浪费的削减
 		}
 	}		
 	state_modifiers = {
+		workforce_scaled = {
+			state_tax_waste_add = -0.02
+		}	
 		unscaled = {
 			state_tax_waste_add = -0.1
 		}
@@ -105,9 +108,14 @@ pm_sovereign_currency = { #主权货币，将金融力量变成铸币
 			building_employment_bureaucrats_add = 500
 		}
 	}		
+	state_modifiers = {
+		unscaled = {
+			state_tax_waste_add = -0.1
+		}
+	}	
 	country_modifiers = {
 		workforce_scaled = {
-			country_minting_add = 3000
+			country_minting_add = 5000
 		}
 	}
 }	
