@@ -105,14 +105,9 @@ pm_sovereign_currency = { #主权货币，将金融力量变成铸币
 			building_employment_bureaucrats_add = 500
 		}
 	}		
-	state_modifiers = {
-		workforce_scaled = {
-		}	
-	}		
 	country_modifiers = {
 		workforce_scaled = {
-			building_output_gold_add = 30
-			#country_minting_add = 3000
+			country_minting_add = 3000
 		}
 	}
 }	
