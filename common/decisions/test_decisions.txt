@@ -7,13 +7,7 @@
 	}
 	
 	when_taken = {
-		every_scope_state = {
-			#force_resource_depletion = bg_gold_fields
-			#force_resource_depletion = bg_coal_mining
-			#force_resource_depletion = bg_logging
-			#force_resource_depletion = bg_whaling
-			#remove_building = building_coal_mine
-		}
+		liberate_slaves = yes
 	}
 	ai_chance = {
          base = 0

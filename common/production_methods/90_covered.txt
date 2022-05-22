@@ -9,7 +9,6 @@ default_building_subsistence_farms = {
 			building_output_grain_add = 8
 			building_output_fabric_add = 4
 			building_output_wood_add = 2
-			building_output_breed_add = 1
 		}
 
 		level_scaled = {
@@ -106,7 +105,6 @@ default_building_subsistence_orchards = {
 			building_output_grain_add = 4
 			building_output_wood_add = 4
 			building_output_fabric_add = 2
-			building_output_breed_add = 1
 		}
 
 		level_scaled = {
@@ -159,7 +157,6 @@ default_building_subsistence_pastures = {
 		workforce_scaled = {
 			building_output_meat_add = 5
 			building_output_fabric_add = 5
-			building_output_breed_add = 1
 		}
 
 		level_scaled = {
@@ -530,9 +527,10 @@ pm_publicly_traded_building_food_industry = {
 		}
 		level_scaled = {
 			building_employment_capitalists_add = 50
-			building_throughput_mult = 0.10
+			building_throughput_mult = 0.02
 		}
 		unscaled = {
+			building_throughput_mult = 0.20
 			building_capitalists_shares_add = 5
 		}
 	}
@@ -561,9 +559,10 @@ pm_publicly_traded_building_textile_mills = {
 		}
 		level_scaled = {
 			building_employment_capitalists_add = 50
-			building_throughput_mult = 0.10
+			building_throughput_mult = 0.02
 		}
 		unscaled = {
+			building_throughput_mult = 0.20
 			building_capitalists_shares_add = 5
 		}
 	}
@@ -591,9 +590,10 @@ pm_publicly_traded_building_furniture_manufacturies = {
 		}
 		level_scaled = {
 			building_employment_capitalists_add = 50
-			building_throughput_mult = 0.10
+			building_throughput_mult = 0.02
 		}
 		unscaled = {
+			building_throughput_mult = 0.20
 			building_capitalists_shares_add = 5
 		}
 	}
@@ -623,9 +623,10 @@ pm_publicly_traded_building_glassworks = {
 		}
 		level_scaled = {
 			building_employment_capitalists_add = 50
-			building_throughput_mult = 0.10
+			building_throughput_mult = 0.02
 		}
 		unscaled = {
+			building_throughput_mult = 0.20
 			building_capitalists_shares_add = 5
 		}
 	}
@@ -654,9 +655,10 @@ pm_publicly_traded_building_tooling_workshops = {
 		}
 		level_scaled = {
 			building_employment_capitalists_add = 50
-			building_throughput_mult = 0.10
+			building_throughput_mult = 0.02
 		}
 		unscaled = {
+			building_throughput_mult = 0.20
 			building_capitalists_shares_add = 5
 		}
 	}
@@ -685,9 +687,10 @@ pm_publicly_traded_building_paper_mills = {
 		}
 		level_scaled = {
 			building_employment_capitalists_add = 50
-			building_throughput_mult = 0.10
+			building_throughput_mult = 0.02
 		}
 		unscaled = {
+			building_throughput_mult = 0.20
 			building_capitalists_shares_add = 5
 		}
 	}
@@ -716,9 +719,10 @@ pm_publicly_traded_building_shipyards = {
 		}
 		level_scaled = {
 			building_employment_capitalists_add = 50
-			building_throughput_mult = 0.10
+			building_throughput_mult = 0.02
 		}
 		unscaled = {
+			building_throughput_mult = 0.20
 			building_capitalists_shares_add = 5
 		}
 	}
@@ -747,9 +751,10 @@ pm_publicly_traded_building_arms_industry = {
 		}
 		level_scaled = {
 			building_employment_capitalists_add = 50
-			building_throughput_mult = 0.10
+			building_throughput_mult = 0.02
 		}
 		unscaled = {
+			building_throughput_mult = 0.20
 			building_capitalists_shares_add = 5
 		}
 	}
@@ -777,9 +782,10 @@ pm_publicly_traded_building_chemical_plants = {
 		}
 		level_scaled = {
 			building_employment_capitalists_add = 50
-			building_throughput_mult = 0.10
+			building_throughput_mult = 0.02
 		}
 		unscaled = {
+			building_throughput_mult = 0.20
 			building_capitalists_shares_add = 5
 		}
 	}
@@ -803,9 +809,10 @@ pm_publicly_traded_building_synthetic_plants = {
 		}
 		level_scaled = {
 			building_employment_capitalists_add = 50
-			building_throughput_mult = 0.10
+			building_throughput_mult = 0.02
 		}
 		unscaled = {
+			building_throughput_mult = 0.20
 			building_capitalists_shares_add = 5
 		}
 	}
@@ -833,9 +840,10 @@ pm_publicly_traded_building_steel_mills = {
 		}
 		level_scaled = {
 			building_employment_capitalists_add = 50
-			building_throughput_mult = 0.10
+			building_throughput_mult = 0.02
 		}
 		unscaled = {
+			building_throughput_mult = 0.20
 			building_capitalists_shares_add = 5
 		}
 	}
@@ -863,9 +871,10 @@ pm_publicly_traded_building_motor_industries = {
 		}
 		level_scaled = {
 			building_employment_capitalists_add = 50
-			building_throughput_mult = 0.10
+			building_throughput_mult = 0.02
 		}
 		unscaled = {
+			building_throughput_mult = 0.20
 			building_capitalists_shares_add = 5
 		}
 	}
@@ -888,9 +897,10 @@ pm_publicly_traded_building_war_machines_induestries = {
 		}
 		level_scaled = {
 			building_employment_capitalists_add = 50
-			building_throughput_mult = 0.10
+			building_throughput_mult = 0.02
 		}
 		unscaled = {
+			building_throughput_mult = 0.20
 			building_capitalists_shares_add = 5
 		}
 	}
@@ -913,9 +923,10 @@ pm_publicly_traded_building_electrics_industries = {
 		}
 		level_scaled = {
 			building_employment_capitalists_add = 50
-			building_throughput_mult = 0.10
+			building_throughput_mult = 0.02
 		}
 		unscaled = {
+			building_throughput_mult = 0.20
 			building_capitalists_shares_add = 5
 		}
 	}
@@ -943,9 +954,10 @@ pm_publicly_traded_building_munition_plants = {
 		}
 		level_scaled = {
 			building_employment_capitalists_add = 50
-			building_throughput_mult = 0.10
+			building_throughput_mult = 0.02
 		}
 		unscaled = {
+			building_throughput_mult = 0.20
 			building_capitalists_shares_add = 5
 		}
 	}
@@ -968,9 +980,10 @@ pm_publicly_traded = {
 		}
 		level_scaled = {
 			building_employment_capitalists_add = 50
-			building_throughput_mult = 0.10
+			building_throughput_mult = 0.02
 		}
 		unscaled = {
+			building_throughput_mult = 0.20
 			building_capitalists_shares_add = 5
 		}
 	}
@@ -993,9 +1006,10 @@ pm_publicly_traded_building_rice_farm = {
 		}
 		level_scaled = {
 			building_employment_capitalists_add = 50
-			building_throughput_mult = 0.10
+			building_throughput_mult = 0.02
 		}
 		unscaled = {
+			building_throughput_mult = 0.20
 			building_capitalists_shares_add = 5
 		}
 	}
@@ -1025,9 +1039,10 @@ pm_publicly_traded_building_coal_mine = {
 		}
 		level_scaled = {
 			building_employment_capitalists_add = 50
-			building_throughput_mult = 0.10
+			building_throughput_mult = 0.02
 		}
 		unscaled = {
+			building_throughput_mult = 0.20
 			building_capitalists_shares_add = 5
 		}
 	}
@@ -1057,9 +1072,10 @@ pm_publicly_traded_building_iron_mine = {
 		}
 		level_scaled = {
 			building_employment_capitalists_add = 50
-			building_throughput_mult = 0.10
+			building_throughput_mult = 0.02
 		}
 		unscaled = {
+			building_throughput_mult = 0.20
 			building_capitalists_shares_add = 5
 		}
 	}
@@ -1089,9 +1105,10 @@ pm_publicly_traded_building_lead_mine = {
 		}
 		level_scaled = {
 			building_employment_capitalists_add = 50
-			building_throughput_mult = 0.10
+			building_throughput_mult = 0.02
 		}
 		unscaled = {
+			building_throughput_mult = 0.20
 			building_capitalists_shares_add = 5
 		}
 	}
@@ -1121,9 +1138,10 @@ pm_publicly_traded_building_sulfur_mine = {
 		}
 		level_scaled = {
 			building_employment_capitalists_add = 50
-			building_throughput_mult = 0.10
+			building_throughput_mult = 0.02
 		}
 		unscaled = {
+			building_throughput_mult = 0.20
 			building_capitalists_shares_add = 5
 		}
 	}
@@ -1153,13 +1171,14 @@ pm_publicly_traded_building_gold_mine = {
 		}
 		level_scaled = {
 			building_employment_capitalists_add = 50
-			building_throughput_mult = 0.10
+			building_throughput_mult = 0.02
 		}
 		unscaled = {
+			building_throughput_mult = 0.20
 			building_capitalists_shares_add = 5
 		}
 	}
-｝
+}
 pm_publicly_traded_industry = {
 	texture = "gfx/interface/icons/production_method_icons/publicly_traded.dds"
 	
@@ -1171,16 +1190,159 @@ pm_publicly_traded_industry = {
 	unlocking_technologies = {
 		
 	}
-
 	building_modifiers = {
 		workforce_scaled = {
 			building_input_financing_service_add = 1
 		}
 		level_scaled = {
 			building_employment_capitalists_add = 50
-			building_throughput_mult = 0.10
+			building_throughput_mult = 0.02
 		}
 		unscaled = {
+			building_throughput_mult = 0.20
+			building_capitalists_shares_add = 5
+		}
+	}
+}
+pm_publicly_traded_building_logging_camp = {
+	texture = "gfx/interface/icons/production_method_icons/publicly_traded.dds"
+
+	unlocking_production_methods = {
+		pm_saw_mills
+		pm_electric_saw_mills
+	}
+	
+	disallowing_laws = {
+		law_command_economy
+		law_council_republic
+	}
+
+	unlocking_technologies = {
+		
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_financing_service_add = 1
+		}
+		level_scaled = {
+			building_employment_capitalists_add = 50
+			building_throughput_mult = 0.02
+		}
+		unscaled = {
+			building_throughput_mult = 0.20
+			building_capitalists_shares_add = 5
+		}
+	}
+}
+pm_publicly_traded_building_fishing_wharf = {
+	texture = "gfx/interface/icons/production_method_icons/publicly_traded.dds"
+
+	unlocking_production_methods = {
+		pm_steam_trawlers
+	}
+	
+	disallowing_laws = {
+		law_command_economy
+		law_council_republic
+	}
+
+	unlocking_technologies = {
+		
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_financing_service_add = 1
+		}
+		level_scaled = {
+			building_employment_capitalists_add = 50
+			building_throughput_mult = 0.02
+		}
+		unscaled = {
+			building_throughput_mult = 0.20
+			building_capitalists_shares_add = 5
+		}
+	}
+}
+pm_publicly_traded_building_whaling_station = {
+	texture = "gfx/interface/icons/production_method_icons/publicly_traded.dds"
+	
+	unlocking_production_methods = {
+		pm_steam_whaling_ships
+	}				
+	
+	disallowing_laws = {
+		law_command_economy
+		law_council_republic
+	}
+
+	unlocking_technologies = {
+		
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_financing_service_add = 1
+		}
+		level_scaled = {
+			building_employment_capitalists_add = 50
+			building_throughput_mult = 0.02
+		}
+		unscaled = {
+			building_throughput_mult = 0.20
+			building_capitalists_shares_add = 5
+		}
+	}
+}
+pm_publicly_traded_building_power_plant = {
+	texture = "gfx/interface/icons/production_method_icons/publicly_traded.dds"
+
+	unlocking_production_methods = {
+		pm_coal-fired_plant
+		pm_oil-fired_plant
+	}
+	
+	disallowing_laws = {
+		law_command_economy
+		law_council_republic
+	}
+
+	unlocking_technologies = {
+		
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_financing_service_add = 1
+		}
+		level_scaled = {
+			building_employment_capitalists_add = 50
+			building_throughput_mult = 0.02
+		}
+		unscaled = {
+			building_throughput_mult = 0.20
+			building_capitalists_shares_add = 5
+		}
+	}
+}
+pm_publicly_traded_building_oil_rig = {
+	texture = "gfx/interface/icons/production_method_icons/publicly_traded.dds"
+	
+	disallowing_laws = {
+		law_command_economy
+		law_council_republic
+	}
+
+	unlocking_technologies = {
+		
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_financing_service_add = 1
+		}
+		level_scaled = {
+			building_employment_capitalists_add = 50
+			building_throughput_mult = 0.02
+		}
+		unscaled = {
+			building_throughput_mult = 0.20
 			building_capitalists_shares_add = 5
 		}
 	}
@@ -1193,12 +1355,13 @@ pm_worker_cooperative_industry = {
 	}
 
 	building_modifiers = {
-		level_scaled = {
+		workforce_scaled = {
 			building_employment_laborers_add = 100
 			building_employment_machinists_add = 100
 			building_employment_engineers_add = 50
 		}
 		unscaled = {
+			building_throughput_mult = 0.50
 			building_laborers_shares_add = 1
 			building_machinists_shares_add = 1
 			building_engineers_shares_add = 1
