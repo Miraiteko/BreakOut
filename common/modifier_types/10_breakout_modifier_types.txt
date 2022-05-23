@@ -59,7 +59,6 @@ building_input_investment_management_add = {
 	good = no
 	percent = no
 }
-
 building_output_finance_power_add = {
 	good = yes
 	percent = no
@@ -108,6 +107,18 @@ building_group_bg_nuclear_holdings_throughput_mult = {
 	percent = no
 }
 building_group_bg_nuclear_interception_throughput_mult = {
+	good = yes
+	percent = yes
+}
+building_group_bg_government_throughput_mult = {
+	good = yes
+	percent = yes
+}
+building_group_bg_infrastructure_throughput_mult = {
+	good = yes
+	percent = yes
+}
+building_group_bg_military_throughput_mult = {
 	good = yes
 	percent = yes
 }

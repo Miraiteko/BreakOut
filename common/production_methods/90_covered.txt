@@ -227,9 +227,9 @@ pm_steam_trains = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_engines_add = 10
-			building_input_coal_add = 10
-			building_output_transportation_add = 20
+			building_input_engines_add = 2.5 #60
+			building_input_coal_add = 10 #30
+			building_output_transportation_add = 20 #30
 		}
 		level_scaled = {
 			building_employment_laborers_add = 300
@@ -259,7 +259,7 @@ pm_electric_trains = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_engines_add = 15
+			building_input_engines_add = 2.5 #60
 			building_input_electricity_add = 15
 			building_output_transportation_add = 30
 		}
@@ -291,7 +291,7 @@ pm_diesel_trains = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_engines_add = 20
+			building_input_engines_add = 2.5 #60
 			building_input_oil_add = 20
 			building_output_transportation_add = 40
 		}
@@ -526,7 +526,7 @@ pm_publicly_traded_building_food_industry = {
 			building_input_financing_service_add = 1
 		}
 		level_scaled = {
-			building_employment_capitalists_add = 50
+			building_employment_capitalists_add = 5
 			building_throughput_mult = 0.02
 		}
 		unscaled = {
@@ -558,7 +558,7 @@ pm_publicly_traded_building_textile_mills = {
 			building_input_financing_service_add = 1
 		}
 		level_scaled = {
-			building_employment_capitalists_add = 50
+			building_employment_capitalists_add = 5
 			building_throughput_mult = 0.02
 		}
 		unscaled = {
@@ -589,7 +589,7 @@ pm_publicly_traded_building_furniture_manufacturies = {
 			building_input_financing_service_add = 1
 		}
 		level_scaled = {
-			building_employment_capitalists_add = 50
+			building_employment_capitalists_add = 5
 			building_throughput_mult = 0.02
 		}
 		unscaled = {
@@ -622,7 +622,7 @@ pm_publicly_traded_building_glassworks = {
 			building_input_financing_service_add = 1
 		}
 		level_scaled = {
-			building_employment_capitalists_add = 50
+			building_employment_capitalists_add = 5
 			building_throughput_mult = 0.02
 		}
 		unscaled = {
@@ -654,7 +654,7 @@ pm_publicly_traded_building_tooling_workshops = {
 			building_input_financing_service_add = 1
 		}
 		level_scaled = {
-			building_employment_capitalists_add = 50
+			building_employment_capitalists_add = 5
 			building_throughput_mult = 0.02
 		}
 		unscaled = {
@@ -686,7 +686,7 @@ pm_publicly_traded_building_paper_mills = {
 			building_input_financing_service_add = 1
 		}
 		level_scaled = {
-			building_employment_capitalists_add = 50
+			building_employment_capitalists_add = 5
 			building_throughput_mult = 0.02
 		}
 		unscaled = {
@@ -718,7 +718,7 @@ pm_publicly_traded_building_shipyards = {
 			building_input_financing_service_add = 1
 		}
 		level_scaled = {
-			building_employment_capitalists_add = 50
+			building_employment_capitalists_add = 5
 			building_throughput_mult = 0.02
 		}
 		unscaled = {
@@ -750,7 +750,7 @@ pm_publicly_traded_building_arms_industry = {
 			building_input_financing_service_add = 1
 		}
 		level_scaled = {
-			building_employment_capitalists_add = 50
+			building_employment_capitalists_add = 5
 			building_throughput_mult = 0.02
 		}
 		unscaled = {
@@ -781,7 +781,7 @@ pm_publicly_traded_building_chemical_plants = {
 			building_input_financing_service_add = 1
 		}
 		level_scaled = {
-			building_employment_capitalists_add = 50
+			building_employment_capitalists_add = 5
 			building_throughput_mult = 0.02
 		}
 		unscaled = {
@@ -808,7 +808,7 @@ pm_publicly_traded_building_synthetic_plants = {
 			building_input_financing_service_add = 1
 		}
 		level_scaled = {
-			building_employment_capitalists_add = 50
+			building_employment_capitalists_add = 5
 			building_throughput_mult = 0.02
 		}
 		unscaled = {
@@ -839,7 +839,7 @@ pm_publicly_traded_building_steel_mills = {
 			building_input_financing_service_add = 1
 		}
 		level_scaled = {
-			building_employment_capitalists_add = 50
+			building_employment_capitalists_add = 5
 			building_throughput_mult = 0.02
 		}
 		unscaled = {
@@ -870,7 +870,7 @@ pm_publicly_traded_building_motor_industries = {
 			building_input_financing_service_add = 1
 		}
 		level_scaled = {
-			building_employment_capitalists_add = 50
+			building_employment_capitalists_add = 5
 			building_throughput_mult = 0.02
 		}
 		unscaled = {
@@ -896,7 +896,7 @@ pm_publicly_traded_building_war_machines_induestries = {
 			building_input_financing_service_add = 1
 		}
 		level_scaled = {
-			building_employment_capitalists_add = 50
+			building_employment_capitalists_add = 5
 			building_throughput_mult = 0.02
 		}
 		unscaled = {
@@ -922,7 +922,7 @@ pm_publicly_traded_building_electrics_industries = {
 			building_input_financing_service_add = 1
 		}
 		level_scaled = {
-			building_employment_capitalists_add = 50
+			building_employment_capitalists_add = 5
 			building_throughput_mult = 0.02
 		}
 		unscaled = {
@@ -953,7 +953,7 @@ pm_publicly_traded_building_munition_plants = {
 			building_input_financing_service_add = 1
 		}
 		level_scaled = {
-			building_employment_capitalists_add = 50
+			building_employment_capitalists_add = 5
 			building_throughput_mult = 0.02
 		}
 		unscaled = {
@@ -979,7 +979,7 @@ pm_publicly_traded = {
 			building_input_financing_service_add = 1
 		}
 		level_scaled = {
-			building_employment_capitalists_add = 50
+			building_employment_capitalists_add = 5
 			building_throughput_mult = 0.02
 		}
 		unscaled = {
@@ -1005,7 +1005,7 @@ pm_publicly_traded_building_rice_farm = {
 			building_input_financing_service_add = 1
 		}
 		level_scaled = {
-			building_employment_capitalists_add = 50
+			building_employment_capitalists_add = 5
 			building_throughput_mult = 0.02
 		}
 		unscaled = {
@@ -1038,7 +1038,7 @@ pm_publicly_traded_building_coal_mine = {
 			building_input_financing_service_add = 1
 		}
 		level_scaled = {
-			building_employment_capitalists_add = 50
+			building_employment_capitalists_add = 5
 			building_throughput_mult = 0.02
 		}
 		unscaled = {
@@ -1071,7 +1071,7 @@ pm_publicly_traded_building_iron_mine = {
 			building_input_financing_service_add = 1
 		}
 		level_scaled = {
-			building_employment_capitalists_add = 50
+			building_employment_capitalists_add = 5
 			building_throughput_mult = 0.02
 		}
 		unscaled = {
@@ -1104,7 +1104,7 @@ pm_publicly_traded_building_lead_mine = {
 			building_input_financing_service_add = 1
 		}
 		level_scaled = {
-			building_employment_capitalists_add = 50
+			building_employment_capitalists_add = 5
 			building_throughput_mult = 0.02
 		}
 		unscaled = {
@@ -1137,7 +1137,7 @@ pm_publicly_traded_building_sulfur_mine = {
 			building_input_financing_service_add = 1
 		}
 		level_scaled = {
-			building_employment_capitalists_add = 50
+			building_employment_capitalists_add = 5
 			building_throughput_mult = 0.02
 		}
 		unscaled = {
@@ -1170,7 +1170,7 @@ pm_publicly_traded_building_gold_mine = {
 			building_input_financing_service_add = 1
 		}
 		level_scaled = {
-			building_employment_capitalists_add = 50
+			building_employment_capitalists_add = 5
 			building_throughput_mult = 0.02
 		}
 		unscaled = {
@@ -1195,7 +1195,7 @@ pm_publicly_traded_industry = {
 			building_input_financing_service_add = 1
 		}
 		level_scaled = {
-			building_employment_capitalists_add = 50
+			building_employment_capitalists_add = 5
 			building_throughput_mult = 0.02
 		}
 		unscaled = {
@@ -1225,7 +1225,7 @@ pm_publicly_traded_building_logging_camp = {
 			building_input_financing_service_add = 1
 		}
 		level_scaled = {
-			building_employment_capitalists_add = 50
+			building_employment_capitalists_add = 5
 			building_throughput_mult = 0.02
 		}
 		unscaled = {
@@ -1254,7 +1254,7 @@ pm_publicly_traded_building_fishing_wharf = {
 			building_input_financing_service_add = 1
 		}
 		level_scaled = {
-			building_employment_capitalists_add = 50
+			building_employment_capitalists_add = 5
 			building_throughput_mult = 0.02
 		}
 		unscaled = {
@@ -1283,7 +1283,7 @@ pm_publicly_traded_building_whaling_station = {
 			building_input_financing_service_add = 1
 		}
 		level_scaled = {
-			building_employment_capitalists_add = 50
+			building_employment_capitalists_add = 5
 			building_throughput_mult = 0.02
 		}
 		unscaled = {
@@ -1313,7 +1313,7 @@ pm_publicly_traded_building_power_plant = {
 			building_input_financing_service_add = 1
 		}
 		level_scaled = {
-			building_employment_capitalists_add = 50
+			building_employment_capitalists_add = 5
 			building_throughput_mult = 0.02
 		}
 		unscaled = {
@@ -1338,7 +1338,7 @@ pm_publicly_traded_building_oil_rig = {
 			building_input_financing_service_add = 1
 		}
 		level_scaled = {
-			building_employment_capitalists_add = 50
+			building_employment_capitalists_add = 5
 			building_throughput_mult = 0.02
 		}
 		unscaled = {

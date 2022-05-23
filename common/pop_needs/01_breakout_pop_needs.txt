@@ -56,6 +56,13 @@ popneed_services = {
 		max_weight = 3.0
 		min_weight = 0.0
 	}
+	entry = {
+		goods = transportation
+		
+		weight = 1
+		max_weight = 3.0 # Maxes out at 60% of supply share
+		min_weight = 0.0
+	}
 }
 
 popneed_finance = {

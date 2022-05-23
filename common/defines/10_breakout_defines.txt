@@ -12,15 +12,15 @@
 	SUBSISTENCE_MARKET_CONSUMPTION_RATIO = 0.10	# The portion of Peasant buy packages that are added as state region consumption.
 	
 	
-	ECONOMIC_MIGRATION_BASE = 0.02								# Base amount of a pop that wants to move for economic reasons
-	ECONOMIC_MIGRATION_FROM_SOL_DIFFERENCE = 0.05				# Each point of difference of pop SoL to the market's average SoL makes this fraction of the pop want to economically migrate (in %)
+	ECONOMIC_MIGRATION_BASE = 0.1								# Base amount of a pop that wants to move for economic reasons
+	ECONOMIC_MIGRATION_FROM_SOL_DIFFERENCE = 0.1				# Each point of difference of pop SoL to the market's average SoL makes this fraction of the pop want to economically migrate (in %)
 	ECONOMIC_MIGRATION_STATE_POPULATION_THRESHOLD = 1000				# States with less pops than this have reduced economic emigration numbers to avoid total depopulation
 	
 	MIGRATION_PULL_EMPTY_STATE = 10				# If a state has no pops at all, give it a huge migration pull
 	MIGRATION_PULL_FROM_LIVING_STANDARD = 1			# Migration pull from each point of average living standard in target state	
-	MIGRATION_PULL_UNEMPLOYMENT_POPS_MIN = 100000 		# At less than this in number of unemployed pops, do not apply unemployment divisor
+	MIGRATION_PULL_UNEMPLOYMENT_POPS_MIN = 1000000 		# At less than this in number of unemployed pops, do not apply unemployment divisor
 	MIGRATION_PULL_UNEMPLOYMENT_POPS_FOR_MAX_DIV = 5000000 # Num unemployed pops to apply max amount of unemployment divisor
-	MIGRATION_PULL_UNEMPLOYMENT_DIV = 2				# At above max unemployed pops, migration pull is divided by this
+	MIGRATION_PULL_UNEMPLOYMENT_DIV = 5				# At above max unemployed pops, migration pull is divided by this
 } 
 NEconomy = {
 	ECONOMY_OF_SCALE_MAX_MULTIPLIER = 25				# Beyond this many building levels, do not apply further economy of scale bonuses

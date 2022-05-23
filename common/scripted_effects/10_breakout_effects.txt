@@ -107,13 +107,13 @@
 					}
 					add_modifier = {
 						name = breeder_ratio_modifier_00
-						months = 6
+						months = 1
 					}
 				}
 				else = {
 					add_modifier = {
 						name = breeder_ratio_modifier_05
-						months = 6
+						months = 1
 					}
 				}
 			}	
@@ -124,13 +124,13 @@
 					}
 					add_modifier = {
 						name = breeder_ratio_modifier_10
-						months = 6
+						months = 1
 					}
 				}
 				else = {
 					add_modifier = {
 						name = breeder_ratio_modifier_15
-						months = 6
+						months = 1
 					}
 				}
 			}	
@@ -149,13 +149,13 @@
 					}
 					add_modifier = {
 						name = breeder_ratio_modifier_20
-						months = 6
+						months = 1
 					}
 				}
 				else = {
 					add_modifier = {
 						name = breeder_ratio_modifier_25
-						months = 6
+						months = 1
 					}
 				}
 			}	
@@ -166,13 +166,13 @@
 					}
 					add_modifier = {
 						name = breeder_ratio_modifier_30
-						months = 6
+						months = 1
 					}
 				}
 				else = {
 					add_modifier = {
 						name = breeder_ratio_modifier_35
-						months = 6
+						months = 1
 					}
 				}
 			}	
@@ -191,13 +191,13 @@
 					}
 					add_modifier = {
 						name = breeder_ratio_modifier_40
-						months = 6
+						months = 1
 					}
 				}
 				else = {
 					add_modifier = {
 						name = breeder_ratio_modifier_45
-						months = 6
+						months = 1
 					}
 				}
 			}	
@@ -208,13 +208,13 @@
 					}
 					add_modifier = {
 						name = breeder_ratio_modifier_50
-						months = 6
+						months = 1
 					}
 				}
 				else = {
 					add_modifier = {
 						name = breeder_ratio_modifier_55
-						months = 6
+						months = 1
 					}
 				}
 			}
@@ -226,7 +226,7 @@
 				}
 				add_modifier = {
 					name = breeder_ratio_modifier_60
-					months = 6
+					months = 1
 				}
 			}	
 			else_if ={
@@ -235,7 +235,7 @@
 				}
 				add_modifier = {
 					name = breeder_ratio_modifier_65
-					months = 6
+					months = 1
 				}
 			}	
 			else_if ={
@@ -244,13 +244,13 @@
 				}
 				add_modifier = {
 					name = breeder_ratio_modifier_70
-					months = 6
+					months = 1
 				}
 			}	
 			else ={
 				add_modifier = {
 					name = breeder_ratio_modifier_75
-					months = 6
+					months = 1
 				}
 			}
 		}
