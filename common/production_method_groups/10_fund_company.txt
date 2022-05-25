@@ -1,19 +1,7 @@
-﻿
-pmg_stock_exchange = {
+﻿pmg_stock_exchange = {
 	production_methods = {
 		pm_stock_exchange
 		pm_fundbased_stock_exchange
-	}
-}
-pmg_fund_company = {
-	production_methods = {
-		pm_fund_company
-	}
-}
-pmg_central_bank = {
-	production_methods = {
-		pm_central_bank
-		pm_sovereign_currency #主权货币
 	}
 }
 
