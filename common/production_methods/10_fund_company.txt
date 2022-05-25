@@ -100,7 +100,7 @@ pm_sovereign_currency = { #主权货币，将金融力量变成铸币
 		workforce_scaled = {
 			building_input_telephones_add = 10 #70
 			building_input_finance_power_add = 10 #100
-			building_output_gold_add = 25 #100
+			building_output_gold_add = 20 #100
 		}	
 		level_scaled = {
 			building_employment_clerks_add = 3000
@@ -114,7 +114,7 @@ pm_sovereign_currency = { #主权货币，将金融力量变成铸币
 	}	
 	country_modifiers = {
 		workforce_scaled = {
-			country_minting_add = 2500
+			country_minting_add = 1000
 		}
 	}
 }	
