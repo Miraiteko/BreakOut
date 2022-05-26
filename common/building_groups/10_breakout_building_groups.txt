@@ -20,7 +20,7 @@ bg_breed = {
 	
 	category = urban
 	lens = urban
-	land_usage = urban
+	
 	always_possible = yes
 	
 	default_building = breed_center

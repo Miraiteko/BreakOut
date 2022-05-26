@@ -15,7 +15,7 @@ pm_tradition_breeder = {
 			building_employment_breeder_add = 7000
 		}
 		unscaled = {
-			building_breeder_mortality_mult = 0.1
+			#building_breeder_mortality_mult = 0.1
 		}
 	}		
 	state_modifiers = {
