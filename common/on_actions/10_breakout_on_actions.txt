@@ -6,7 +6,7 @@
 breakout_on_monthly_pulse_country = {
 	effect = {
 		#出生率结算
-		breeder_ratio_modifier_check = yes
+		breed_ratio_modifier_check = yes
 		
 		#破产结算
 		if = {

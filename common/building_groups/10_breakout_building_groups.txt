@@ -14,3 +14,24 @@ bg_illegal = {
 	can_use_slaves = yes
 	fired_pops_become_radical = no
 }
+
+bg_breed = {
+	parent_group = bg_manufacturing
+	
+	category = urban
+	lens = urban
+	land_usage = urban
+	always_possible = yes
+	
+	default_building = breed_center
+	
+	economy_of_scale = no
+	cash_reserves_max = 10000
+	
+	urbanization = 20
+	infrastructure_usage_per_level = 2
+	
+	should_auto_expand = { 
+		default_auto_expand_rule = yes
+	}
+}

@@ -20,8 +20,11 @@ pm_tradition_breeder = {
 	}		
 	state_modifiers = {
 		workforce_scaled = {
-			building_group_bg_breed_power_throughput_mult = 7000
+			building_group_bg_breed_power_throughput_mult = 14000
 		}	
+		unscaled = {
+			building_group_bg_base_education_access_throughput_mult = 0.3
+		}
 	}	
 }	
 
@@ -50,8 +53,11 @@ pm_elite_breeder = {
 	}		
 	state_modifiers = {
 		workforce_scaled = {
-			building_group_bg_breed_power_throughput_mult = 5000
+			building_group_bg_breed_power_throughput_mult = 10000
 		}	
+		unscaled = {
+			building_group_bg_base_education_access_throughput_mult = 0.5
+		}
 	}		
 }
 #楼间空地

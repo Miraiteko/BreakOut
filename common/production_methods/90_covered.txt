@@ -69,8 +69,11 @@ pm_serfdom_no = {
 	}
 	state_modifiers = {
 		workforce_scaled = {
-			building_group_bg_breed_power_throughput_mult = 10000
-		}	
+			building_group_bg_breed_power_throughput_mult = 20000
+		}				
+		unscaled = {
+			building_group_bg_base_education_access_throughput_mult = 0.05
+		}
 	}
 }
 
@@ -91,7 +94,7 @@ pm_serfdom = {
 	}
 	state_modifiers = {
 		workforce_scaled = {
-			building_group_bg_breed_power_throughput_mult = 12000
+			building_group_bg_breed_power_throughput_mult = 24000
 		}	
 	}
 }		
@@ -215,7 +218,7 @@ pm_serfdom_building_subsistence_pastures = {
 	}
 	state_modifiers = {
 		workforce_scaled = {
-			building_group_bg_breed_power_throughput_mult = 12000
+			building_group_bg_breed_power_throughput_mult = 24000
 		}	
 	}
 }

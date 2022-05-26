@@ -1,9 +1,13 @@
-﻿breeder_ratio_modifier_check = {
+﻿breed_ratio_modifier_check = {
 	every_scope_state = {
-		save_scope_as = checked_state		
-		#计算抚育者人口
+		save_scope_as = checked_state
+		#计算劳动力再生产能力
 		set_variable = {
-			name = breeder_ratio
+			name = breed_power
+			value = 0
+		}
+		set_variable = {
+			name = breed_quality
 			value = 0
 		}
 		every_scope_building = {
@@ -23,9 +27,9 @@
 				}
 				scope:checked_state = {
 					change_variable = {
-						name = breeder_ratio
+						name = breed_power
 						add = {
-							value = 12000 #农奴制一级提供12000抚育者岗位
+							value = 24000 #农奴制一级提供24000再生产
 							multiply = PREV.occupancy
 							multiply = PREV.level
 						}
@@ -35,9 +39,17 @@
 			else = {
 				scope:checked_state = {
 					change_variable = {
-						name = breeder_ratio
+						name = breed_power
 						add = {
-							value = 10000 #自耕农一级提供10000抚育者岗位
+							value = 20000 #自耕农一级提供20000再生产
+							multiply = PREV.occupancy
+							multiply = PREV.level
+						}
+					}
+					change_variable = {
+						name = breed_quality
+						add = {
+							value = 1000 #自耕农一级提供1000质量
 							multiply = PREV.occupancy
 							multiply = PREV.level
 						}
@@ -55,9 +67,17 @@
 				limit = { has_active_production_method = pm_tradition_breeder } #多子多福
 				scope:checked_state = {
 					change_variable = {
-						name = breeder_ratio
+						name = breed_power
 						add = {
-							value = 7000 #多子多福一级提供7000抚育者岗位
+							value = 14000 #多子多福一级提供14000
+							multiply = PREV.occupancy
+							multiply = PREV.level
+						}
+					}
+					change_variable = {
+						name = breed_quality
+						add = {
+							value = 4200 #多子多福一级提供4200质量
 							multiply = PREV.occupancy
 							multiply = PREV.level
 						}
@@ -67,9 +87,17 @@
 			else = {
 				scope:checked_state = {
 					change_variable = {
-						name = breeder_ratio
+						name = breed_power
 						add = {
-							value = 5000 #优生优育一级提供5000抚育者岗位
+							value = 10000 #优生优育一级提供10000
+							multiply = PREV.occupancy
+							multiply = PREV.level
+						}
+					}
+					change_variable = {
+						name = breed_quality
+						add = {
+							value = 5000 #优生优育一级提供5000质量
 							multiply = PREV.occupancy
 							multiply = PREV.level
 						}
@@ -77,42 +105,106 @@
 				}
 			}
 		}
-		#上面的是岗位数量，要乘上系数，得到抚育者pop总人口
-		change_variable = {
-			name = breeder_ratio
-			divide = define:NPops|WORKING_ADULT_RATIO_BASE #默认劳动力人口比例
+		
+		#计算劳动力再生产能力
+		set_variable = {
+			name = breed_ratio
+			value = var:breed_power
 		}
 		
-		#除以总人口
 		change_variable = {
-			name = breeder_ratio
+			name = breed_ratio
 			divide = {
 				value = state_population
 				min = 1
 			}
 		}
-
-		#按照比例决定生育率
+		#清除旧有buff
+		# if = {
+			# limit = { has_modifier = breed_ratio_modifier_00 }
+			# remove_modifier = breed_ratio_modifier_00
+		# }
+		# else_if = {
+			# limit = { has_modifier = breed_ratio_modifier_05 }
+			# remove_modifier = breed_ratio_modifier_05
+		# }
+		# else_if = {
+			# limit = { has_modifier = breed_ratio_modifier_10 }
+			# remove_modifier = breed_ratio_modifier_10
+		# }
+		# else_if = {
+			# limit = { has_modifier = breed_ratio_modifier_15 }
+			# remove_modifier = breed_ratio_modifier_15
+		# }
+		# else_if = {
+			# limit = { has_modifier = breed_ratio_modifier_20 }
+			# remove_modifier = breed_ratio_modifier_20
+		# }
+		# else_if = {
+			# limit = { has_modifier = breed_ratio_modifier_25 }
+			# remove_modifier = breed_ratio_modifier_25
+		# }
+		# else_if = {
+			# limit = { has_modifier = breed_ratio_modifier_30 }
+			# remove_modifier = breed_ratio_modifier_30
+		# }
+		# else_if = {
+			# limit = { has_modifier = breed_ratio_modifier_35 }
+			# remove_modifier = breed_ratio_modifier_35
+		# }
+		# else_if = {
+			# limit = { has_modifier = breed_ratio_modifier_40 }
+			# remove_modifier = breed_ratio_modifier_40
+		# }
+		# else_if = {
+			# limit = { has_modifier = breed_ratio_modifier_45 }
+			# remove_modifier = breed_ratio_modifier_45
+		# }
+		# else_if = {
+			# limit = { has_modifier = breed_ratio_modifier_50 }
+			# remove_modifier = breed_ratio_modifier_50
+		# }
+		# else_if = {
+			# limit = { has_modifier = breed_ratio_modifier_55 }
+			# remove_modifier = breed_ratio_modifier_55
+		# }
+		# else_if = {
+			# limit = { has_modifier = breed_ratio_modifier_60 }
+			# remove_modifier = breed_ratio_modifier_60
+		# }
+		# else_if = {
+			# limit = { has_modifier = breed_ratio_modifier_65 }
+			# remove_modifier = breed_ratio_modifier_65
+		# }
+		# else_if = {
+			# limit = { has_modifier = breed_ratio_modifier_70 }
+			# remove_modifier = breed_ratio_modifier_70
+		# }
+		# else_if = {
+			# limit = { has_modifier = breed_ratio_modifier_75 }
+			# remove_modifier = breed_ratio_modifier_75
+		# }
+		#按照比例决定生育率buff
 		if = {
 			limit = {
-				var:breeder_ratio < 0.2
+				var:breed_ratio < 0.2
 			}
 			if ={
 				limit = {
-					var:breeder_ratio < 0.1
+					var:breed_ratio < 0.1
 				}
 				if ={
 					limit = {
-						var:breeder_ratio < 0.05
+						var:breed_ratio < 0.05
 					}
 					add_modifier = {
-						name = breeder_ratio_modifier_00
+						name = breed_ratio_modifier_00
 						months = 1
 					}
 				}
 				else = {
 					add_modifier = {
-						name = breeder_ratio_modifier_05
+						name = breed_ratio_modifier_05
 						months = 1
 					}
 				}
@@ -120,16 +212,16 @@
 			else ={
 				if ={
 					limit = {
-						var:breeder_ratio < 0.15
+						var:breed_ratio < 0.15
 					}
 					add_modifier = {
-						name = breeder_ratio_modifier_10
+						name = breed_ratio_modifier_10
 						months = 1
 					}
 				}
 				else = {
 					add_modifier = {
-						name = breeder_ratio_modifier_15
+						name = breed_ratio_modifier_15
 						months = 1
 					}
 				}
@@ -137,24 +229,24 @@
 		}
 		else_if = {
 			limit = {
-				var:breeder_ratio < 0.4
+				var:breed_ratio < 0.4
 			}
 			if ={
 				limit = {
-					var:breeder_ratio < 0.3
+					var:breed_ratio < 0.3
 				}
 				if ={
 					limit = {
-						var:breeder_ratio < 0.25
+						var:breed_ratio < 0.25
 					}
 					add_modifier = {
-						name = breeder_ratio_modifier_20
+						name = breed_ratio_modifier_20
 						months = 1
 					}
 				}
 				else = {
 					add_modifier = {
-						name = breeder_ratio_modifier_25
+						name = breed_ratio_modifier_25
 						months = 1
 					}
 				}
@@ -162,16 +254,16 @@
 			else ={
 				if ={
 					limit = {
-						var:breeder_ratio < 0.35
+						var:breed_ratio < 0.35
 					}
 					add_modifier = {
-						name = breeder_ratio_modifier_30
+						name = breed_ratio_modifier_30
 						months = 1
 					}
 				}
 				else = {
 					add_modifier = {
-						name = breeder_ratio_modifier_35
+						name = breed_ratio_modifier_35
 						months = 1
 					}
 				}
@@ -179,24 +271,24 @@
 		}
 		else_if = {
 			limit = {
-				var:breeder_ratio < 0.6
+				var:breed_ratio < 0.6
 			}
 			if ={
 				limit = {
-					var:breeder_ratio < 0.5
+					var:breed_ratio < 0.5
 				}
 				if ={
 					limit = {
-						var:breeder_ratio < 0.45
+						var:breed_ratio < 0.45
 					}
 					add_modifier = {
-						name = breeder_ratio_modifier_40
+						name = breed_ratio_modifier_40
 						months = 1
 					}
 				}
 				else = {
 					add_modifier = {
-						name = breeder_ratio_modifier_45
+						name = breed_ratio_modifier_45
 						months = 1
 					}
 				}
@@ -204,16 +296,16 @@
 			else ={
 				if ={
 					limit = {
-						var:breeder_ratio < 0.55
+						var:breed_ratio < 0.55
 					}
 					add_modifier = {
-						name = breeder_ratio_modifier_50
+						name = breed_ratio_modifier_50
 						months = 1
 					}
 				}
 				else = {
 					add_modifier = {
-						name = breeder_ratio_modifier_55
+						name = breed_ratio_modifier_55
 						months = 1
 					}
 				}
@@ -222,36 +314,205 @@
 		else = {
 			if ={
 				limit = {
-					var:breeder_ratio < 0.65
+					var:breed_ratio < 0.65
 				}
 				add_modifier = {
-					name = breeder_ratio_modifier_60
+					name = breed_ratio_modifier_60
 					months = 1
 				}
 			}	
 			else_if ={
 				limit = {
-					var:breeder_ratio < 0.70
+					var:breed_ratio < 0.70
 				}
 				add_modifier = {
-					name = breeder_ratio_modifier_65
+					name = breed_ratio_modifier_65
 					months = 1
 				}
 			}	
 			else_if ={
 				limit = {
-					var:breeder_ratio < 0.75
+					var:breed_ratio < 0.75
 				}
 				add_modifier = {
-					name = breeder_ratio_modifier_70
+					name = breed_ratio_modifier_70
 					months = 1
 				}
 			}	
 			else ={
 				add_modifier = {
-					name = breeder_ratio_modifier_75
+					name = breed_ratio_modifier_75
 					months = 1
 				}
+			}
+		}
+		
+		#计算基础受教育机会
+		set_variable = {
+			name = base_education_access
+			value = var:breed_quality
+		}
+		change_variable = {
+			name = base_education_access
+			divide = {
+				value = var:breed_power
+				min = 1
+			}
+		}
+		#清除旧有buff
+		# if = {
+			# limit = { has_modifier = base_education_access_modifier_00 }
+			# remove_modifier = base_education_access_modifier_00
+		# }
+		# else_if = {
+			# limit = { has_modifier = base_education_access_modifier_05 }
+			# remove_modifier = base_education_access_modifier_05
+		# }
+		# else_if = {
+			# limit = { has_modifier = base_education_access_modifier_10 }
+			# remove_modifier = base_education_access_modifier_10
+		# }
+		# else_if = {
+			# limit = { has_modifier = base_education_access_modifier_15 }
+			# remove_modifier = base_education_access_modifier_15
+		# }
+		# else_if = {
+			# limit = { has_modifier = base_education_access_modifier_20 }
+			# remove_modifier = base_education_access_modifier_20
+		# }
+		# else_if = {
+			# limit = { has_modifier = base_education_access_modifier_25 }
+			# remove_modifier = base_education_access_modifier_25
+		# }
+		# else_if = {
+			# limit = { has_modifier = base_education_access_modifier_30 }
+			# remove_modifier = base_education_access_modifier_30
+		# }
+		# else_if = {
+			# limit = { has_modifier = base_education_access_modifier_35 }
+			# remove_modifier = base_education_access_modifier_35
+		# }
+		# else_if = {
+			# limit = { has_modifier = base_education_access_modifier_40 }
+			# remove_modifier = base_education_access_modifier_40
+		# }
+		# else_if = {
+			# limit = { has_modifier = base_education_access_modifier_45 }
+			# remove_modifier = base_education_access_modifier_45
+		# }
+		# else_if = {
+			# limit = { has_modifier = base_education_access_modifier_50 }
+			# remove_modifier = base_education_access_modifier_50
+		# }
+		#按照比例决定受教育机会buff
+		if = {
+			limit = {
+				var:base_education_access < 0.2
+			}
+			if ={
+				limit = {
+					var:base_education_access < 0.1
+				}
+				if ={
+					limit = {
+						var:base_education_access < 0.05
+					}
+					add_modifier = {
+						name = base_education_access_modifier_00
+						months = 1
+					}
+				}
+				else = {
+					add_modifier = {
+						name = base_education_access_modifier_05
+						months = 1
+					}
+				}
+			}	
+			else ={
+				if ={
+					limit = {
+						var:base_education_access < 0.15
+					}
+					add_modifier = {
+						name = base_education_access_modifier_10
+						months = 1
+					}
+				}
+				else = {
+					add_modifier = {
+						name = base_education_access_modifier_15
+						months = 1
+					}
+				}
+			}	
+		}
+		else_if = {
+			limit = {
+				var:base_education_access < 0.4
+			}
+			if ={
+				limit = {
+					var:base_education_access < 0.3
+				}
+				if ={
+					limit = {
+						var:base_education_access < 0.25
+					}
+					add_modifier = {
+						name = base_education_access_modifier_20
+						months = 1
+					}
+				}
+				else = {
+					add_modifier = {
+						name = base_education_access_modifier_25
+						months = 1
+					}
+				}
+			}	
+			else ={
+				if ={
+					limit = {
+						var:base_education_access < 0.35
+					}
+					add_modifier = {
+						name = base_education_access_modifier_30
+						months = 1
+					}
+				}
+				else = {
+					add_modifier = {
+						name = base_education_access_modifier_35
+						months = 1
+					}
+				}
+			}	
+		}
+		else_if = {
+			limit = {
+				var:base_education_access < 0.5
+			}
+			if ={
+				limit = {
+					var:base_education_access < 0.45
+				}
+				add_modifier = {
+					name = base_education_access_modifier_40
+					months = 1
+				}
+			}
+			else = {
+				add_modifier = {
+					name = base_education_access_modifier_45
+					months = 1
+				}
+			}
+		}
+		else = {
+			add_modifier = {
+				name = base_education_access_modifier_50
+				months = 1
 			}
 		}
 	}

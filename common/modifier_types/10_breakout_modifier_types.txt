@@ -97,6 +97,10 @@ building_breeder_mortality_mult = {
 
 
 #凑数显示用buff
+building_group_bg_base_education_access_throughput_mult = {
+	good = yes
+	percent = yes
+}
 building_group_bg_breed_power_throughput_mult = {
 	good = yes
 	percent = no

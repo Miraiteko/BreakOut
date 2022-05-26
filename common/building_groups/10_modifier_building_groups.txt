@@ -14,6 +14,9 @@ bg_modifier = {
 bg_breed_power = {
 	parent_group = bg_modifier
 }
+bg_base_education_access = {
+	parent_group = bg_modifier
+}
 bg_nuclear_holdings = {
 	parent_group = bg_modifier
 }
