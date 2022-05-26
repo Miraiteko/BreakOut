@@ -1,7 +1,7 @@
 ﻿base_values = {
 	country_weekly_innovation_add = 50
 	country_weekly_innovation_max_add = 100
-	country_tech_spread_add = 50
+	country_tech_spread_add = 25
 	
 	country_loan_interest_rate_add = 0.1
 	
@@ -74,6 +74,6 @@ bankruptcy = {
 }
 country_literacy_rate = {
 	country_weekly_innovation_max_add = 500
-	country_tech_spread_add = 100
+	country_tech_spread_add = 300
 	state_colony_growth_creation_mult = 0.2
 }

@@ -16,17 +16,17 @@ bg_illegal = {
 }
 
 bg_breed = {
-	parent_group = bg_manufacturing
+	#parent_group = bg_manufacturing
 	
 	category = urban
 	lens = urban
 	
 	always_possible = yes
 	
-	default_building = breed_center
-	
 	economy_of_scale = no
 	cash_reserves_max = 10000
+	
+	default_building = breed_center
 	
 	urbanization = 20
 	infrastructure_usage_per_level = 2

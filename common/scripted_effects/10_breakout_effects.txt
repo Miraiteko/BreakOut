@@ -187,15 +187,15 @@
 		#按照比例决定生育率buff
 		if = {
 			limit = {
-				var:breed_ratio < 0.2
+				var:breed_ratio <= 0.2
 			}
 			if ={
 				limit = {
-					var:breed_ratio < 0.1
+					var:breed_ratio <= 0.1
 				}
 				if ={
 					limit = {
-						var:breed_ratio < 0.05
+						var:breed_ratio <= 0.05
 					}
 					add_modifier = {
 						name = breed_ratio_modifier_00
@@ -212,7 +212,7 @@
 			else ={
 				if ={
 					limit = {
-						var:breed_ratio < 0.15
+						var:breed_ratio <= 0.15
 					}
 					add_modifier = {
 						name = breed_ratio_modifier_10
@@ -229,15 +229,15 @@
 		}
 		else_if = {
 			limit = {
-				var:breed_ratio < 0.4
+				var:breed_ratio <= 0.4
 			}
 			if ={
 				limit = {
-					var:breed_ratio < 0.3
+					var:breed_ratio <= 0.3
 				}
 				if ={
 					limit = {
-						var:breed_ratio < 0.25
+						var:breed_ratio <= 0.25
 					}
 					add_modifier = {
 						name = breed_ratio_modifier_20
@@ -254,7 +254,7 @@
 			else ={
 				if ={
 					limit = {
-						var:breed_ratio < 0.35
+						var:breed_ratio <= 0.35
 					}
 					add_modifier = {
 						name = breed_ratio_modifier_30
@@ -271,15 +271,15 @@
 		}
 		else_if = {
 			limit = {
-				var:breed_ratio < 0.6
+				var:breed_ratio <= 0.6
 			}
 			if ={
 				limit = {
-					var:breed_ratio < 0.5
+					var:breed_ratio <= 0.5
 				}
 				if ={
 					limit = {
-						var:breed_ratio < 0.45
+						var:breed_ratio <= 0.45
 					}
 					add_modifier = {
 						name = breed_ratio_modifier_40
@@ -296,7 +296,7 @@
 			else ={
 				if ={
 					limit = {
-						var:breed_ratio < 0.55
+						var:breed_ratio <= 0.55
 					}
 					add_modifier = {
 						name = breed_ratio_modifier_50
@@ -314,7 +314,7 @@
 		else = {
 			if ={
 				limit = {
-					var:breed_ratio < 0.65
+					var:breed_ratio <= 0.65
 				}
 				add_modifier = {
 					name = breed_ratio_modifier_60
@@ -323,7 +323,7 @@
 			}	
 			else_if ={
 				limit = {
-					var:breed_ratio < 0.70
+					var:breed_ratio <= 0.70
 				}
 				add_modifier = {
 					name = breed_ratio_modifier_65
@@ -332,7 +332,7 @@
 			}	
 			else_if ={
 				limit = {
-					var:breed_ratio < 0.75
+					var:breed_ratio <= 0.75
 				}
 				add_modifier = {
 					name = breed_ratio_modifier_70
@@ -407,15 +407,15 @@
 		#按照比例决定受教育机会buff
 		if = {
 			limit = {
-				var:base_education_access < 0.2
+				var:base_education_access <= 0.2
 			}
 			if ={
 				limit = {
-					var:base_education_access < 0.1
+					var:base_education_access <= 0.1
 				}
 				if ={
 					limit = {
-						var:base_education_access < 0.05
+						var:base_education_access <= 0.05
 					}
 					add_modifier = {
 						name = base_education_access_modifier_00
@@ -432,7 +432,7 @@
 			else ={
 				if ={
 					limit = {
-						var:base_education_access < 0.15
+						var:base_education_access <= 0.15
 					}
 					add_modifier = {
 						name = base_education_access_modifier_10
@@ -449,15 +449,15 @@
 		}
 		else_if = {
 			limit = {
-				var:base_education_access < 0.4
+				var:base_education_access <= 0.4
 			}
 			if ={
 				limit = {
-					var:base_education_access < 0.3
+					var:base_education_access <= 0.3
 				}
 				if ={
 					limit = {
-						var:base_education_access < 0.25
+						var:base_education_access <= 0.25
 					}
 					add_modifier = {
 						name = base_education_access_modifier_20
@@ -474,7 +474,7 @@
 			else ={
 				if ={
 					limit = {
-						var:base_education_access < 0.35
+						var:base_education_access <= 0.35
 					}
 					add_modifier = {
 						name = base_education_access_modifier_30
@@ -491,11 +491,11 @@
 		}
 		else_if = {
 			limit = {
-				var:base_education_access < 0.5
+				var:base_education_access <= 0.5
 			}
 			if ={
 				limit = {
-					var:base_education_access < 0.45
+					var:base_education_access <= 0.45
 				}
 				add_modifier = {
 					name = base_education_access_modifier_40
