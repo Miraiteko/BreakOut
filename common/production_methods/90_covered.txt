@@ -12,7 +12,7 @@ default_building_subsistence_farms = {
 		}
 
 		level_scaled = {
-			building_employment_peasants_add = 20000
+			building_employment_peasants_add = 10000
 			building_employment_clergymen_add = 500
 			building_employment_aristocrats_add = 500
 		}
@@ -62,7 +62,10 @@ pm_serfdom_no = {
 		law_worker_protections
 	}
 	
-	building_modifiers = {					
+	building_modifiers = {	
+		level_scaled = {
+			building_employment_breeder_add = 10000
+		}				
 		unscaled = {
 			building_subsistence_output_add = 0.5
 		}
@@ -89,8 +92,9 @@ pm_serfdom = {
 		}
 
 		level_scaled = {
-			building_employment_peasants_add = 10000
-		}				
+			building_employment_peasants_add = 5000
+			building_employment_breeder_add = 15000
+		}					
 	}
 	state_modifiers = {
 		workforce_scaled = {
@@ -111,7 +115,7 @@ default_building_subsistence_orchards = {
 		}
 
 		level_scaled = {
-			building_employment_peasants_add = 20000
+			building_employment_peasants_add = 10000
 			building_employment_clergymen_add = 500
 			building_employment_aristocrats_add = 500
 		}
@@ -163,7 +167,7 @@ default_building_subsistence_pastures = {
 		}
 
 		level_scaled = {
-			building_employment_peasants_add = 20000
+			building_employment_peasants_add = 10000
 			building_employment_clergymen_add = 500
 			building_employment_aristocrats_add = 500
 		}
@@ -213,7 +217,8 @@ pm_serfdom_building_subsistence_pastures = {
 			building_output_meat_add = 2
 		}	
 		level_scaled = {
-			building_employment_peasants_add = 10000
+			building_employment_peasants_add = 5000
+			building_employment_breeder_add = 15000
 		}				
 	}
 	state_modifiers = {
