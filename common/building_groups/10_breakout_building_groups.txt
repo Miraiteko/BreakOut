@@ -15,6 +15,7 @@ bg_illegal = {
 	fired_pops_become_radical = no
 }
 
+#居民区
 bg_breed = {
 	#parent_group = bg_manufacturing
 	
@@ -34,4 +35,24 @@ bg_breed = {
 	should_auto_expand = { 
 		default_auto_expand_rule = yes
 	}
+}
+
+bg_village = {
+	category = rural
+	land_usage = rural
+	
+	lens = agriculture
+	
+	parent_group = bg_breed
+
+	always_possible = yes
+	
+	can_use_slaves = yes
+	auto_place_buildings = yes
+	
+	is_subsistence = yes
+	
+	default_building = village_center
+	
+	ignores_hiring_rate = yes
 }

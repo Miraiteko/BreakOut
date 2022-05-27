@@ -24,3 +24,25 @@
 		occupancy > 0.85
 	}
 }
+
+#试图添加村落中心，但是失败。村落中心会把自给农场挤掉，而不能共存
+# village_center = {
+	# building_group = bg_village	
+	# texture = "gfx/interface/icons/building_icons/skyscraper.dds"
+	
+	# unlocking_technologies = {
+		# urbanization
+	# }
+
+	# production_method_groups = {
+		# pmg_breed_methods
+		# pmg_breed_center_space_use
+		# pmg_breed_center_ownership
+	# }
+	
+	# buildable = no
+	# expandable = no
+	# downsizeable = no
+	
+	# slaves_role = breeder
+# }
