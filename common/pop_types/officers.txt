@@ -54,6 +54,7 @@
 					desc = "QUALIFICATIONS_OFFICERS_PEASANT_LEVIES"
 				}
 			}
+
 			#Miraiteko
 			if = {
 				limit = { is_pop_type = breeder }
@@ -64,7 +65,7 @@
 						}
 					}
 					multiply = {
-						value = 0.1
+						value = 0.0
 						desc = "QUALIFICATIONS_GENDER_DISCRIMINATION"
 					}
 				}
@@ -75,7 +76,7 @@
 						}
 					}
 					multiply = {
-						value = 0.2
+						value = 0.1
 						desc = "QUALIFICATIONS_GENDER_DISCRIMINATION"
 					}
 				}
@@ -86,7 +87,7 @@
 						}
 					}
 					multiply = {
-						value = 0.5
+						value = 0.3
 						desc = "QUALIFICATIONS_GENDER_DISCRIMINATION"
 					}
 				}

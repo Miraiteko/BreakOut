@@ -15,43 +15,6 @@
 				desc = "QUALIFICATIONS_BASE"
 			}
 		}
-		#Miraiteko
-		if = {
-			limit = { is_pop_type = breeder }
-			if = {
-				limit = {
-					owner = { 
-						has_law = law_type:law_no_womens_rights
-					}
-				}
-				multiply = {
-					value = 0.1
-					desc = "QUALIFICATIONS_GENDER_DISCRIMINATION"
-				}
-			}
-			else_if = {
-				limit = {
-					owner = { 
-						has_law = law_type:law_women_own_property
-					}
-				}
-				multiply = {
-					value = 0.2
-					desc = "QUALIFICATIONS_GENDER_DISCRIMINATION"
-				}
-			}
-			else_if = {
-				limit = {
-					owner = { 
-						has_law = law_type:law_women_in_the_workplace
-					}
-				}
-				multiply = {
-					value = 0.5
-					desc = "QUALIFICATIONS_GENDER_DISCRIMINATION"
-				}
-			}
-		}
 	}
 	
 	# 0% - 100% politically engaged	
