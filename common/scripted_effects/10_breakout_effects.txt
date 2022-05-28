@@ -1,4 +1,5 @@
-﻿breed_ratio_modifier_check = {
+﻿#出生率结算
+breed_ratio_modifier_check = {
 	every_scope_state = {
 		save_scope_as = checked_state
 		#计算劳动力再生产能力
@@ -515,5 +516,42 @@
 				months = 1
 			}
 		}
+	}
+}
+
+#破产结算
+bankruptcy_check = {
+	if = {
+		limit = {
+			in_default = yes
+			NOT = { has_modifier = bankruptcy }
+		}
+		clear_debt = yes
+		add_modifier = {
+			name = bankruptcy
+			years = 5 
+		}
+	}
+	else_if = {
+		limit = {
+			NOT = { is_country_type = decentralized }
+			has_modifier = bankruptcy
+		}
+		set_country_type = decentralized
+	}
+	else_if = {
+		limit = {
+			is_country_type = decentralized
+			NOT = { has_modifier = bankruptcy }
+		}
+		set_country_type = unrecognized
+	}
+	else_if = {
+		limit = {
+			in_default = yes
+			is_country_type = decentralized
+		}
+		clear_debt = yes
+		set_country_type = unrecognized
 	}
 }

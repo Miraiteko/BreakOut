@@ -9,39 +9,7 @@ breakout_on_monthly_pulse_country = {
 		breed_ratio_modifier_check = yes
 		
 		#破产结算
-		if = {
-			limit = {
-				in_default = yes
-				NOT = { has_modifier = bankruptcy }
-			}
-			clear_debt = yes
-			add_modifier = {
-				name = bankruptcy
-				years = 5 
-			}
-		}
-		else_if = {
-			limit = {
-				NOT = { is_country_type = decentralized }
-				has_modifier = bankruptcy
-			}
-			set_country_type = decentralized
-		}
-		else_if = {
-			limit = {
-				is_country_type = decentralized
-				NOT = { has_modifier = bankruptcy }
-			}
-			set_country_type = unrecognized
-		}
-		else_if = {
-			limit = {
-				in_default = yes
-				is_country_type = decentralized
-			}
-			clear_debt = yes
-			set_country_type = unrecognized
-		}
+		#bankruptcy_check = yes
 	}
 }
 #资源枯竭结算
