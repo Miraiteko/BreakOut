@@ -144,7 +144,10 @@
  vagrant_only_icon:0 "@peasants!"
  vagrant_no_icon:0 "城市游民"
  vagrant_desc:0 "这些落魄的城市居民在无人监管的地带从事着不体面的工作。"
- VAGRANT_QUALIFICATIONS_DESC:0 "失业的人群会逐渐变城市游民。"
+ VAGRANT_QUALIFICATIONS_DESC:0 "失业的人群会逐渐变#v $vagrant$#!。"
+ LABORERS_QUALIFICATIONS_DESC:0 "生活水平较低的人群愿意成为#v $laborers$#!。"
+ PEASANTS_QUALIFICATIONS_DESC:0 "所有人群都可以成为#v $peasant$#!。"
+ SOLDIERS_QUALIFICATIONS_DESC:0 "所有人群都可以成为#v $soldiers$#!，未受歧视的人群更愿意成为#v $soldiers$#!。"
  
  POP_VAGRANT_STATE_RELIGION:0 "[concept_state_religion]$vagrant$"
  modifier_building_employment_vagrant_add:0 "$vagrant$/级"

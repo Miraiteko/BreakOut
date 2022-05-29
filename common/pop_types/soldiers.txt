@@ -8,12 +8,22 @@
 	dependent_wage = 0.5	# per year
 	unemployment = yes
 		
+	qualifications_growth_desc = "SOLDIERS_QUALIFICATIONS_DESC"
 	qualifications = {
 		add = {
-			value = 5
+			value = 3
 			desc = "QUALIFICATIONS_BASE"
 		}
-
+		if = {
+			limit = {
+				culture_accepted = yes
+				religion_accepted = yes
+			}
+			multiply = {
+				value = 3
+				desc = "POTENTIALS_CULTURAL_RELIGIOUS_ACCEPTANCE"
+			}
+		}
 		#Miraiteko
 		if = {
 			limit = { is_pop_type = breeder }
