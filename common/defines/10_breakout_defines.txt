@@ -65,7 +65,9 @@ NEconomy = {
 	DECLARE_BANKRUPTCY_PENALTY_DURATION_YEARS = 10		# How many years does it take for penalties from declaring bankruptcy to fully decay
 	DECLARE_BANKRUPTCY_RADICALIZATION_SHARES_FACTOR = 0.9 # For each per-pop shares in their building, radicalize this percentage of a pop on 
 }
-
+NPolitics = {
+	MIN_RADICALISM_FOR_REVOLUTION = 500
+}
 NAI = {
 	CONSTRUCTION_MAX_NUM_EXISTING_CONSTRUCTIONS_BASE = 3 # If country has this number of constructions queued, don't add anymore (base)
 	CONSTRUCTION_MAX_NUM_EXISTING_CONSTRUCTIONS_SCALED = 0.01 # If country has this number of constructions queued, don't add anymore (scaled by construction production)
