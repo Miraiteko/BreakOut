@@ -7,11 +7,12 @@
 	dependent_wage = 0.0
 	unemployment = no
 
+	qualifications_growth_desc = "VAGRANT_QUALIFICATIONS_DESC"
 	qualifications = {
 		if = {
 			limit = { is_employed = no }
 			add = {
-				value = 5
+				value = 1
 				desc = "QUALIFICATIONS_BASE"
 			}
 		}

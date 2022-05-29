@@ -144,6 +144,7 @@
  vagrant_only_icon:0 "@peasants!"
  vagrant_no_icon:0 "城市游民"
  vagrant_desc:0 "这些落魄的城市居民在无人监管的地带从事着不体面的工作。"
+ VAGRANT_QUALIFICATIONS_DESC:0 "失业的人群会逐渐变城市游民。"
  
  POP_VAGRANT_STATE_RELIGION:0 "[concept_state_religion]$vagrant$"
  modifier_building_employment_vagrant_add:0 "$vagrant$/级"
