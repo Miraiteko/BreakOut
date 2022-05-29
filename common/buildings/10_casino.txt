@@ -1,6 +1,6 @@
 ﻿casino = {
 	building_group = bg_illegal	
-	texture = "gfx/interface/icons/building_icons/urban_center.dds"
+	texture = "gfx/interface/icons/building_icons/white_house.dds"
 	
 	unlocking_technologies = {
 		urbanization
