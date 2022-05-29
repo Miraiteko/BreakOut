@@ -7,7 +7,8 @@
 	}
 	
 	when_taken = {
-		liberate_slaves = yes
+		every_scope_state = {
+		}
 	}
 	ai_chance = {
          base = 0

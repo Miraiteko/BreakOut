@@ -9,11 +9,20 @@
 	dependent_wage = 0.5
 	unemployment = yes
 	
+	qualifications_growth_desc = "BREEDER_QUALIFICATIONS_DESC"
 	qualifications = {
-		#抚育者永远都可以有，但是比较低
-		add = {
-			value = 1
-			desc = "QUALIFICATIONS_BASE"
+		if = {
+			limit = {
+				state = { 
+					has_variable = breed_ratio
+				}
+			}
+			add = {
+				value = 0.50
+				subtract = state.var:breed_ratio
+				multiply = 5
+				desc = "QUALIFICATIONS_BASE"
+			}
 		}
 	}
 	
