@@ -79,8 +79,8 @@ pm_plastics_plant = {
 		workforce_scaled = {					
 			building_input_oil_add = 30	#40 	
 			building_input_sulfur_add = 10	#50
-			building_output_rubber_add = 25 #40
-			building_output_glass_add = 75 #40
+			building_output_rubber_add = 30 #40
+			building_output_glass_add = 85 #40
 		}
 
 		level_scaled = {						
@@ -97,7 +97,7 @@ pm_pharmaceutical_mill = {
 		workforce_scaled = {					
 			building_input_oil_add = 20	#40 	
 			building_input_fertilizer_add = 10	#30
-			building_output_tea_add = 80 #50
+			building_output_tea_add = 100 #50
 		}
 
 		level_scaled = {						
