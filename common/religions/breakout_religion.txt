@@ -1,0 +1,48 @@
+﻿# If you add religions, and use those tags, do not change them without changing everywhere they are used.
+
+# Uses all 'modifiers' possible thats exported as a Modifier.
+
+#自然人
+natural = {
+	texture = "gfx/interface/icons/religion_icons/catholic.dds"
+	traits = {
+		homo
+	}
+	color = { 0.2 0.8 0.2 }
+}
+
+#智人从众者
+homoconformism = {
+	texture = "gfx/interface/icons/religion_icons/protestant.dds"
+	traits = {
+		homo conformism
+	}
+	color = { 0.5 0.5 0 }
+}
+
+#智人立异者
+homoeccentrism = {
+	texture = "gfx/interface/icons/religion_icons/protestant.dds"
+	traits = {
+		homo eccentrism
+	}
+	color = { 0 0.5 0.5 }
+}
+
+#义体人
+prosthesis = {
+	texture = "gfx/interface/icons/religion_icons/coptic.dds"
+	traits = {
+		homo
+	}
+	color = { 0.6 0.8 0.6 }
+}
+
+#强化人
+strengthened = {
+	texture = "gfx/interface/icons/religion_icons/coptic.dds"
+	traits = {
+		homo
+	}
+	color = { 0.4 0.6 0.2 }
+}

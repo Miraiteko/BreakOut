@@ -20,15 +20,40 @@ NPops = {
 	SUBSISTENCE_MARKET_CONSUMPTION_RATIO = 0.10	# The portion of Peasant buy packages that are added as state region consumption.
 	
 	
-	ECONOMIC_MIGRATION_BASE = 0.1								# Base amount of a pop that wants to move for economic reasons
-	ECONOMIC_MIGRATION_FROM_SOL_DIFFERENCE = 0.1				# Each point of difference of pop SoL to the market's average SoL makes this fraction of the pop want to economically migrate (in %)
-	ECONOMIC_MIGRATION_STATE_POPULATION_THRESHOLD = 1000				# States with less pops than this have reduced economic emigration numbers to avoid total depopulation
+	LOW_POP_THRESHOLD = 5000					# If a state has less than this amount of pops per arable land, apply the low pop modifier
+	HIGH_POP_THRESHOLD = 1000000					# If a state has more than this amount of pops per arable land, apply the high pop modifier
 	
-	MIGRATION_PULL_EMPTY_STATE = 10				# If a state has no pops at all, give it a huge migration pull
+	MIGRATION_PULL_EMPTY_STATE = 100				# If a state has no pops at all, give it a huge migration pull
 	MIGRATION_PULL_FROM_LIVING_STANDARD = 1			# Migration pull from each point of average living standard in target state	
 	MIGRATION_PULL_UNEMPLOYMENT_POPS_MIN = 1000000 		# At less than this in number of unemployed pops, do not apply unemployment divisor
 	MIGRATION_PULL_UNEMPLOYMENT_POPS_FOR_MAX_DIV = 5000000 # Num unemployed pops to apply max amount of unemployment divisor
 	MIGRATION_PULL_UNEMPLOYMENT_DIV = 5				# At above max unemployed pops, migration pull is divided by this
+	
+	# The below factors are applied *after* migration pull threshold checks, so they only impact how large a share of migration a state gets
+	MIGRATION_PULL_MULT_FROM_CULTURE_TARGET = 20.0			# Migration pull multiplied by this from target state being a cultural migration target
+	MIGRATION_PULL_MULT_FROM_CULTURE_TARGET_ADJACENCY = 5.0	# Migration pull multiplied by this from target state being next to a cultural migration target
+	MIGRATION_PULL_MULT_FROM_NO_DISCRIMINATION = 1.0		# Migration pull multiplier increased by this if pop is moving from discrimination to no discrimination (not applied to mass migration targets)
+	MIGRATION_PULL_MULT_FROM_HOMELANDS = 0.5				# Migration pull  multiplier increased by this if pop is moving to cultural homelands (not applied to mass migration targets)
+	
+	# General factors for how many pops will migrate
+	MIGRATION_PULL_HIGH_THRESHOLD = 1.25						#	State must have a migration pull of at least market average * this to get economic immigration
+	MIGRATION_PULL_LOW_THRESHOLD = 0.75							# State must have a migration pull of less or equal than market average * this to get full amount of emigration
+	ECONOMIC_MIGRATION_BASE = 0.05								# Base amount of a pop that wants to move for economic reasons
+	ECONOMIC_MIGRATION_FROM_SOL_DIFFERENCE = 0.05				# Each point of difference of pop SoL to the market's average SoL makes this fraction of the pop want to economically migrate (in %)
+	ECONOMIC_MIGRATION_STATE_POPULATION_THRESHOLD = 10000				# States with less pops than this have reduced economic emigration numbers to avoid total depopulation
+	CULTURAL_MIGRATION_BASE = 0.02								# Base amount of a pop that wants to move due to mass migration
+	CULTURAL_MIGRATION_FROM_RADICALS = 0.02						# At 100% radicals, this fraction of the pop wants to mass migrate
+	MIGRATION_UNEMPLOYMENT_MULT = 10.0							# Amount of migration from SoL is increased by this when a pop is unemployed
+	MIGRATION_MIN_STATE_POPS = 2000							# A state with less pops than this will not get emigration
+	MIGRATION_MIN_POP_AMOUNT = 1								# No less than this amount of a pop can migrate each week (if any migration at all should happen)
+	MIGRATION_MAX_POP_AMOUNT = 10000							# No more than this amount of a pop can migrate each week
+	MIGRATION_MAX_PER_STATE_BASE = 1000							# No more than this amount of people can move from or to a state in a single week (base)	
+	MIGRATION_MAX_PER_STATE_INFRASTRUCTURE = 10					# No more than this amount of people can move from or to a state in a single week (scales with infrastructure)
+	MIGRATION_MAX_PER_STATE_UNEMPLOYMENT_ORIGIN_FRACTION = 0.01	# The amount of unemployed workers in a state * this value is added to how many people can move from it
+	MIGRATION_MAX_PER_STATE_UNEMPLOYMENT_TARGET_FRACTION = 0.01	# The amount of unemployed workers in a state * this value is removed from how many people can move to it
+	MIGRATION_MAX_PER_STATE_CULTURAL_MIGRATION_MULT = 5.0		# Weekly migration caps are multiplied by this amount by this for cultural-type migration
+	MIGRATION_AVERAGE_ATTRACTION_EMIGRATION_MULT = 0.25			# States with an average migration attraction gets this multiplier to emigrants
+	
 } 
 NEconomy = {
 	ECONOMY_OF_SCALE_MAX_MULTIPLIER = 25				# Beyond this many building levels, do not apply further economy of scale bonuses

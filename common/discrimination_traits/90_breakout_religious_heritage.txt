@@ -1,0 +1,15 @@
+﻿homo = {
+	heritage = yes
+}
+
+conformism = {
+	heritage = yes
+}
+
+eccentrism = {
+	heritage = yes
+}
+
+robot = {
+	heritage = yes
+}

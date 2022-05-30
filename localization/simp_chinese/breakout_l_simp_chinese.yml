@@ -247,9 +247,6 @@
  pmg_wood_carbonization:0 "碳化"
  pm_no_wood_carbonization:0 "无硬木碳化"
  pm_wood_carbonization:0 "硬木碳化"
- synthetic_rubber:0 "合成橡胶厂"
- pmg_synthetic_rubber:0 "合成橡胶"
- pm_synthetic_rubber:0 "合成橡胶"
  fiber_polymerization:0 "纤维聚合厂"
  pmg_fiber_polymerization:0 "纤维聚合"
  pm_fiber_polymerization:0 "纤维聚合"
@@ -271,6 +268,20 @@
  nuclear_fusion:0 "核聚变电站"
  pmg_nuclear_fusion:0 "核聚变"
  pm_nuclear_fusion:0 "核聚变"
+ 
+ #石化相关
+ crude_oil:0 "原油"
+ refinery:0 "炼油厂"
+ pmg_refinery:0 "炼油"
+ pm_refinery:0 "炼油"
+ 
+ plastics_plant:0 "塑料厂"
+ pmg_plastics_plant:0 "合成树脂"
+ pm_plastics_plant:0 "合成树脂"
+ 
+ pharmaceutical_mill:0 "制药厂"
+ pmg_pharmaceutical_mill:0 "制药"
+ pm_pharmaceutical_mill:0 "制药"
  
  #核武器相关
  concept_nuclear_weapon:0 "核武器"
@@ -329,7 +340,18 @@
  modifier_overlord:0 "方伯"
  modifier_overlord_desc:0 "这些大国是上次争霸战争的胜利者，享有支配全球的权力。"
  
+ #飞升相关
+ religion:0 "自然人"
  
+ natural:0 "自然人"
+ homoconformism:0 "从众智人"
+ homoeccentrism:0 "立异智人"
+ prosthesis:0 "义体人"
+ strengthened:0 "强化人"
+ 
+ homo:0 "智人"
+ conformism:0 "从众者"
+ eccentrism:0 "立异者"
  #debug
  breakout_test_decision:0 "【大秦东出】测试用决议"
  breakout_test_decision_desc:0 "开发测试时使用"

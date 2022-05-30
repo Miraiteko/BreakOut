@@ -1,4 +1,22 @@
-﻿pm_carbon_dioxide = {
+﻿pm_refinery = {
+	texture = "gfx/interface/icons/production_method_icons/condensing_engine_pump.dds"
+		
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_crude_oil_add = 30
+			building_output_oil_add = 30
+		}	
+		level_scaled = {
+			building_employment_laborers_add = 4000
+			building_employment_machinists_add = 750
+			building_employment_engineers_add = 150
+		}
+	}		
+	state_modifiers = {
+	}	
+}	
+
+pm_carbon_dioxide = {
 	texture = "gfx/interface/icons/production_method_icons/pot_stills.dds"
 		
 
@@ -35,8 +53,7 @@ pm_liquor_carbon = {
 
 pm_no_wood_carbonization = {
 	texture = "gfx/interface/icons/production_method_icons/no_hardwood_selection.dds"
-		
-
+	
 	building_modifiers = {
 	}
 }	
@@ -55,20 +72,37 @@ pm_wood_carbonization = {
 	}
 }	
 
-pm_synthetic_rubber = {
+pm_plastics_plant = {
 	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
 		
-
 	building_modifiers = {
 		workforce_scaled = {					
-			building_input_oil_add = 50	#40 	
+			building_input_oil_add = 30	#40 	
 			building_input_sulfur_add = 10	#50
-			building_output_rubber_add = 85 #40
+			building_output_rubber_add = 25 #40
+			building_output_glass_add = 75 #40
 		}
 
 		level_scaled = {						
-			building_employment_laborers_add = 2000	
-			building_employment_machinists_add = 1250
+			building_employment_laborers_add = 1000	
+			building_employment_machinists_add = 750
+			building_employment_engineers_add = 250
+		}
+	}
+}
+pm_pharmaceutical_mill = {
+	texture = "gfx/interface/icons/production_method_icons/fertilization.dds"
+		
+	building_modifiers = {
+		workforce_scaled = {					
+			building_input_oil_add = 20	#40 	
+			building_input_fertilizer_add = 10	#30
+			building_output_tea_add = 80 #50
+		}
+
+		level_scaled = {						
+			building_employment_laborers_add = 1000	
+			building_employment_machinists_add = 750
 			building_employment_engineers_add = 250
 		}
 	}

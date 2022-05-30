@@ -76,3 +76,14 @@ finance_power = {
 	
 	prestige_factor = 15
 }
+
+#原油
+crude_oil = {
+	texture = "gfx/interface/icons/goods_icons/finance_power.dds"
+	cost = 20
+	category = industrial
+	tradeable = yes
+	
+	prestige_factor = 2
+	convoy_shipping_multiplier = 0.5
+}
