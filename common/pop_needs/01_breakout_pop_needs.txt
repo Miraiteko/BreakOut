@@ -96,3 +96,22 @@ popneed_art = {
 		min_weight = 0.0
 	}
 }
+
+popneed_health = {
+	default = medical_care
+
+	entry = {
+		goods = medical_care
+		
+		weight = 3
+		max_weight = 5.0 # Maxes out at 60% of supply share
+		min_weight = 1.0
+	}
+	entry = {
+		goods = medicine
+		
+		weight = 1
+		max_weight = 3.0 # Maxes out at 60% of supply share
+		min_weight = 0.0
+	}
+}

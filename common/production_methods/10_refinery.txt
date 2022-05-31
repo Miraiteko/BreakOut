@@ -90,6 +90,22 @@ pm_plastics_plant = {
 		}
 	}
 }
+pm_fiber_polymerization = {
+	texture = "gfx/interface/icons/production_method_icons/pulp_pressing.dds"
+	building_modifiers = {
+		workforce_scaled = {						
+			building_input_oil_add = 20 #40
+			building_output_fabric_add = 60 #20
+			building_output_silk_add = 10 #40
+			building_output_wood_add = 10 #20		
+		}
+
+		level_scaled = {							
+			building_employment_machinists_add = 1500	
+			building_employment_engineers_add = 250
+		}
+	}
+}
 pm_pharmaceutical_mill = {
 	texture = "gfx/interface/icons/production_method_icons/fertilization.dds"
 		
@@ -97,7 +113,7 @@ pm_pharmaceutical_mill = {
 		workforce_scaled = {					
 			building_input_oil_add = 20	#40 	
 			building_input_fertilizer_add = 10	#30
-			building_output_tea_add = 100 #50
+			building_output_medicine_add = 50 #50
 		}
 
 		level_scaled = {						

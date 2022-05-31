@@ -1474,3 +1474,44 @@ pm_diesel_pump_building_coal_mine = {
 		}
 	}
 }
+
+#小麦农场消耗运力产黄金，用于平衡毫无软用的运力机制
+pm_vineyards = {
+	texture = "gfx/interface/icons/production_method_icons/vineyards.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_transportation_add = 500 #30
+			building_output_gold_add = 150 #100
+		}
+	}
+}
+
+#ai会乱切铁路武装，暂时关闭
+pm_armored_trains = {
+	texture = "gfx/interface/icons/production_method_icons/armored_trains.dds"
+
+	unlocking_technologies = {
+		steel_railway_cars
+	}
+
+	building_modifiers = {
+	}
+	
+	state_modifiers = {
+	}
+}
+
+pm_railway_guns = {
+	texture = "gfx/interface/icons/production_method_icons/railway_guns.dds"
+
+	unlocking_technologies = {
+		breech_loading_artillery
+	}
+
+	building_modifiers = {
+	}
+	
+	state_modifiers = {
+	}
+}

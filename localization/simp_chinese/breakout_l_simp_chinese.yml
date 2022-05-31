@@ -247,9 +247,6 @@
  pmg_wood_carbonization:0 "碳化"
  pm_no_wood_carbonization:0 "无硬木碳化"
  pm_wood_carbonization:0 "硬木碳化"
- fiber_polymerization:0 "纤维聚合厂"
- pmg_fiber_polymerization:0 "纤维聚合"
- pm_fiber_polymerization:0 "纤维聚合"
  
  
  #能源相关
@@ -278,10 +275,31 @@
  plastics_plant:0 "塑料厂"
  pmg_plastics_plant:0 "合成树脂"
  pm_plastics_plant:0 "合成树脂"
+ fiber_polymerization:0 "化纤厂"
+ pmg_fiber_polymerization:0 "合成纤维"
+ pm_fiber_polymerization:0 "合成纤维"
+ 
+ #医疗相关
+ popneed_health:0 "健康"
+ medicine:0 "药物"
+ modifier_building_output_medicine_add:0 "每级@medicine!药物产出"
+ modifier_building_output_medicine_add_desc:0 "建筑产出的@medicine!药物数量"
+ modifier_building_input_medicine_add:0 "每级@medicine!药物投入"
+ modifier_building_input_medicine_add_desc:0 "建筑投入的@medicine!药物数量"
+ medical_care:0 "医疗"
+ modifier_building_output_medical_care_add:0 "每级@medical_care!医疗产出"
+ modifier_building_output_medical_care_add_desc:0 "建筑产出的@medical_care!医疗数量"
+ modifier_building_input_medical_care_add:0 "每级@medical_care!医疗投入"
+ modifier_building_input_medical_care_add_desc:0 "建筑投入的@medical_care!医疗数量"
+ 
  
  pharmaceutical_mill:0 "制药厂"
  pmg_pharmaceutical_mill:0 "制药"
  pm_pharmaceutical_mill:0 "制药"
+ hospital:0 "医院"
+ pmg_hospital:0 "医院"
+ pm_hospital:0 "医院"
+ 
  
  #核武器相关
  concept_nuclear_weapon:0 "核武器"

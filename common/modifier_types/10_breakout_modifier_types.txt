@@ -84,7 +84,25 @@ building_output_gambling_add = {
 	percent = no
 }
 building_input_gambling_add = {
+	good = no
+	percent = no
+}
+
+building_output_medicine_add = {
 	good = yes
+	percent = no
+}
+building_input_medicine_add = {
+	good = no
+	percent = no
+}
+
+building_output_medical_care_add = {
+	good = yes
+	percent = no
+}
+building_input_medical_care_add = {
+	good = no
 	percent = no
 }
 

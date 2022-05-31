@@ -87,3 +87,24 @@ crude_oil = {
 	prestige_factor = 2
 	convoy_shipping_multiplier = 0.5
 }
+
+#药物
+medicine = {
+	texture = "gfx/interface/icons/goods_icons/finance_power.dds"
+	cost = 50
+	category = staple
+	tradeable = yes
+	
+	prestige_factor = 3
+	convoy_shipping_multiplier = 0.5
+}
+#医疗护理
+medical_care = {
+	texture = "gfx/interface/icons/goods_icons/finance_power.dds"
+	cost = 65
+	category = staple
+	tradeable = yes
+	
+	prestige_factor = 2
+	convoy_shipping_multiplier = 2
+}
