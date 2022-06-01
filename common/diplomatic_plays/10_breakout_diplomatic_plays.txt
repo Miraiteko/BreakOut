@@ -1,0 +1,47 @@
+﻿dp_pop_raid = {
+	war_goal = pop_raid
+	
+	texture = "gfx/interface/icons/war_goals/open_market.dds"
+
+	possible = {
+		NOT = { is_country_type = decentralized }
+		aggressive_diplomatic_plays_permitted = yes
+		NOT = { is_subject_of = scope:target }
+		scope:target = {
+			NOT = { is_country_type = decentralized }
+			NOT = { is_subject_of = root }
+		}
+	}
+
+	on_weekly_pulse = {}
+
+	on_war_begins = {}
+
+	on_war_end = {}
+}
+
+
+dp_return_state = {
+	requires_interest_marker = no
+
+	war_goal = return_state
+	
+	texture = "gfx/interface/icons/war_goals/return_state.dds"
+	
+	possible = {
+		NOT = { is_country_type = decentralized }
+		aggressive_diplomatic_plays_permitted = yes
+		NOT = { is_subject_of = scope:target }
+		scope:target = {
+			NOT = { is_country_type = decentralized }
+			NOT = { is_subject_of = root }
+		}			
+	}
+	
+	on_weekly_pulse = {}
+	
+	on_war_begins = {}
+
+	on_war_end = {}
+}
+

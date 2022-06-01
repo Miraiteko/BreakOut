@@ -1,0 +1,15 @@
+﻿#医院
+hospital = {
+	building_group = bg_light_industry	
+	texture = "gfx/interface/icons/building_icons/white_house.dds"
+	
+	unlocking_technologies = {
+	}
+
+	production_method_groups = {
+		pmg_hospital
+		pmg_ownership_capital
+	}
+
+	required_construction = construction_cost_medium
+}

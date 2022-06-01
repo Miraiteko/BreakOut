@@ -1,0 +1,17 @@
+﻿pm_hospital = {
+	texture = "gfx/interface/icons/production_method_icons/condensing_engine_pump.dds"
+		
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_medicine_add = 30 #50
+			building_output_medical_care_add = 30 #80
+		}	
+		level_scaled = {
+			building_employment_laborers_add = 1000
+			building_employment_machinists_add = 800
+			building_employment_engineers_add = 200
+		}
+	}		
+	state_modifiers = {
+	}	
+}	

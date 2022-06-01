@@ -1,0 +1,5 @@
+﻿pmg_hospital = {
+	production_methods = {
+		pm_hospital
+	}
+}
