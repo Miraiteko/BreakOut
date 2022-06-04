@@ -235,14 +235,15 @@ pm_steam_trains = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_engines_add = 2 #60
-			building_input_coal_add = 5 #30
-			building_output_transportation_add = 10 #30
+			building_input_engines_add = 10
+			building_input_coal_add = 10
+			building_output_transportation_add = 50
 		}
 		level_scaled = {
-			building_employment_laborers_add = 250
-			building_employment_machinists_add = 25
-			building_employment_capitalists_add = 25
+			building_employment_laborers_add = 3000
+			building_employment_machinists_add = 1000
+			building_employment_clerks_add = 750
+			building_employment_capitalists_add = 250
 		}
 		unscaled = {
 			building_capitalists_shares_add = 5
@@ -251,7 +252,7 @@ pm_steam_trains = {
 
 	state_modifiers = {
 		workforce_scaled = {
-			state_infrastructure_add = 10
+			state_infrastructure_add = 40
 		}
 	}
 }
@@ -266,14 +267,15 @@ pm_electric_trains = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_engines_add = 2 #60
-			building_input_electricity_add = 5 #30
-			building_output_transportation_add = 20 #30
+			building_input_engines_add = 10
+			building_input_electricity_add = 15
+			building_output_transportation_add = 100
 		}
 		level_scaled = {
-			building_employment_laborers_add = 175
-			building_employment_machinists_add = 100
-			building_employment_capitalists_add = 25
+			building_employment_laborers_add = 2000
+			building_employment_machinists_add = 2000
+			building_employment_clerks_add = 750
+			building_employment_capitalists_add = 250
 		}
 		unscaled = {
 			building_capitalists_shares_add = 5
@@ -282,7 +284,7 @@ pm_electric_trains = {
 
 	state_modifiers = {
 		workforce_scaled = {
-			state_infrastructure_add = 15
+			state_infrastructure_add = 70
 		}
 	}
 }
@@ -297,14 +299,15 @@ pm_diesel_trains = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_engines_add = 2 #60
-			building_input_oil_add = 5 #40
-			building_output_transportation_add = 30 #30
+			building_input_engines_add = 10
+			building_input_oil_add = 20
+			building_output_transportation_add = 150
 		}
 		level_scaled = {
-			building_employment_laborers_add = 100
-			building_employment_machinists_add = 175
-			building_employment_capitalists_add = 25
+			building_employment_laborers_add = 1500
+			building_employment_machinists_add = 2500
+			building_employment_clerks_add = 750
+			building_employment_capitalists_add = 250
 		}
 		unscaled = {
 			building_capitalists_shares_add = 5
@@ -313,7 +316,7 @@ pm_diesel_trains = {
 
 	state_modifiers = {
 		workforce_scaled = {
-			state_infrastructure_add = 20
+			state_infrastructure_add = 100
 		}
 	}
 }
@@ -330,7 +333,7 @@ pm_anchorage = {
 	}
 	state_modifiers = {
 		workforce_scaled = {
-			state_infrastructure_add = 5
+			state_infrastructure_add = 10
 		}
 	}
 	
@@ -352,7 +355,7 @@ pm_basic_port = {
 	}
 	state_modifiers = {
 		workforce_scaled = {
-			state_infrastructure_add = 20
+			state_infrastructure_add = 40
 		}
 	}
 	country_modifiers = {
@@ -384,7 +387,7 @@ pm_industrial_port = {
 
 	state_modifiers = {
 		workforce_scaled = {
-			state_infrastructure_add = 35
+			state_infrastructure_add = 70
 		}
 	}
 	country_modifiers = {
@@ -415,7 +418,7 @@ pm_modern_port = {
 
 	state_modifiers = {
 		workforce_scaled = {
-			state_infrastructure_add = 50
+			state_infrastructure_add = 100
 		}
 	}
 	country_modifiers = {
@@ -1487,7 +1490,55 @@ pm_vineyards = {
 	}
 }
 
-#ai会乱切铁路武装，暂时关闭
+#ai会乱切铁路生产方式，暂时关闭
+pm_no_passenger_trains = {
+	texture = "gfx/interface/icons/production_method_icons/no_passenger_trains.dds"
+}
+pm_wooden_passenger_carriages = {
+	texture = "gfx/interface/icons/production_method_icons/passenger_trains.dds"
+	pollution_generation = 10
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_wood_add = 15
+			building_output_transportation_add = 15
+		}
+		level_scaled = {
+			building_employment_machinists_add = 250
+			building_employment_clerks_add = 250
+		}
+	}
+	
+	state_modifiers = {
+	}				
+}
+pm_steel_passenger_carriages = {
+	texture = "gfx/interface/icons/production_method_icons/passenger_carriages.dds"
+	pollution_generation = 10
+	
+	unlocking_production_methods = {
+		pm_diesel_trains
+		pm_electric_trains
+	}
+
+	unlocking_technologies = {
+		steel_railway_cars
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_steel_add = 15
+			building_output_transportation_add = 30
+		}
+		level_scaled = {
+			building_employment_machinists_add = 500
+			building_employment_clerks_add = 500
+		}
+	}
+	
+	state_modifiers = {
+	}				
+}
 pm_armored_trains = {
 	texture = "gfx/interface/icons/production_method_icons/armored_trains.dds"
 

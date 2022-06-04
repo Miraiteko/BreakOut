@@ -296,6 +296,10 @@
  pharmaceutical_mill:0 "制药厂"
  pmg_pharmaceutical_mill:0 "制药"
  pm_pharmaceutical_mill:0 "制药"
+ pmg_psychedelic_drugs:0 "致幻剂"
+ pm_no_psychedelic_drugs:0 "查禁致幻剂"
+ pm_psychedelic_drugs:0 "致幻剂许可"
+ 
  hospital:0 "医院"
  pmg_hospital:0 "医院"
  pm_hospital:0 "医院"

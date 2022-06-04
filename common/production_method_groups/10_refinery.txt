@@ -27,3 +27,9 @@ pmg_pharmaceutical_mill = {
 		pm_pharmaceutical_mill
 	}
 }
+pmg_psychedelic_drugs = {
+	production_methods = {
+		pm_no_psychedelic_drugs
+		pm_psychedelic_drugs
+	}
+}

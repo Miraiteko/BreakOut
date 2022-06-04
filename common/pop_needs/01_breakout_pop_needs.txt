@@ -27,16 +27,16 @@
 	entry = {
 		goods = opium
 		
-		weight = 1
-		max_weight = 10.0 # Maxes out at 60% of supply share
+		weight = 5
+		max_weight = 10.0
 		min_weight = 0.0
 	}
 	
 	entry = {
 		goods = gambling
 		
-		weight = 1
-		max_weight = 10.0 # Maxes out at 60% of supply share
+		weight = 3
+		max_weight = 10.0
 		min_weight = 0.0
 	}
 	

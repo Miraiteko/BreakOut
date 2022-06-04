@@ -56,3 +56,24 @@ bg_village = {
 	
 	ignores_hiring_rate = yes
 }
+
+#铁路现在占用耕地面积
+bg_private_infrastructure = {
+	parent_group = bg_infrastructure
+	land_usage = rural
+	
+	is_government_funded = no
+	subsidized = yes
+	
+	cash_reserves_max = 10000
+	
+	urbanization = 10
+}
+#港口和地铁不占用，但是需要科技等级
+bg_public_infrastructure = {
+	parent_group = bg_infrastructure
+	
+	is_government_funded = yes
+	
+	urbanization = 10
+}
