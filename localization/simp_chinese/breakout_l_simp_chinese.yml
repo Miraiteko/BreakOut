@@ -38,7 +38,12 @@
  modifier_state_breeder_investment_pool_contribution_mult:0 "$breeder$[concept_investment_pool]贡献乘数"
  modifier_state_breeder_investment_pool_contribution_add_desc:0 "$breeder$会将多少收益用于投资"
  modifier_state_breeder_investment_pool_contribution_mult_desc:0 "$breeder$会将多少收益用于投资"
- 
+ max_breeder_ratio:0 "最大$breeder$比例"
+ modifier_building_group_bg_max_breeder_ratio_throughput_mult:0 "最大$breeder$比例"
+ modifier_building_group_bg_max_breeder_ratio_throughput_mult_desc:0 "当$breeder$人口占比超过这个比例的时候，不会有新的人口获得$breeder$资质。"
+ min_breeder_ratio:0 "最小$breeder$比例"
+ modifier_building_group_bg_min_breeder_ratio_throughput_mult:0 "最小$breeder$比例"
+ modifier_building_group_bg_min_breeder_ratio_throughput_mult_desc:0 "当$breeder$人口占比低于这个比例的时候，$breeder$不能获得其他职业的资质。"
  #抚育商品相关
  breed:0 "抚育"
  modifier_building_output_breed_add:0 "每级@breed!抚育产出"

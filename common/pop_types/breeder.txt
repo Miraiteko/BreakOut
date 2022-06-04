@@ -5,24 +5,16 @@
 	#subsistence_income = yes
 	#can_always_hire = yes
 	start_quality_of_life = 5
-	wage_weight = 1.5
-	dependent_wage = 0.5
+	subsistence_income = yes
+	wage_weight = 1.0
+	dependent_wage = 0.25
 	unemployment = yes
 	
 	qualifications_growth_desc = "BREEDER_QUALIFICATIONS_DESC"
 	qualifications = {
-		if = {
-			limit = {
-				state = { 
-					has_variable = breed_ratio
-				}
-			}
-			add = {
-				value = 0.50
-				subtract = state.var:breed_ratio
-				multiply = 5
-				desc = "QUALIFICATIONS_BASE"
-			}
+		add = {
+			value = owner.var:other_gain_breeder_qualifications_bonus
+			desc = "max_breeder_ratio"
 		}
 	}
 	

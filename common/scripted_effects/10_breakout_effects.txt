@@ -1,5 +1,8 @@
 ﻿#出生率结算
-breed_ratio_modifier_check = {
+breed_ratio_monthly_check = {
+	save_scope_as = checked_country
+	
+	#计算各个地区的劳动力再生产能力
 	every_scope_state = {
 		save_scope_as = checked_state
 		#计算劳动力再生产能力
@@ -515,6 +518,77 @@ breed_ratio_modifier_check = {
 				name = base_education_access_modifier_50
 				months = 1
 			}
+		}
+	}
+	
+	#计算抚育者资质参数
+	#下限
+	if = {
+		limit = { has_law = law_type:law_no_womens_rights }
+		set_variable = {
+			name = min_breeder_ratio
+			value = 0.45
+		}
+	}
+	else_if = {
+		limit = { has_law = law_type:law_women_own_property }
+		set_variable = {
+			name = min_breeder_ratio
+			value = 0.40
+		}
+	}
+	else_if = {
+		limit = { has_law = law_type:law_women_in_the_workplace }
+		set_variable = {
+			name = min_breeder_ratio
+			value = 0.25
+		}
+	}
+	else = {
+		set_variable = {
+			name = min_breeder_ratio
+			value = 0.10
+		}
+	}
+	#上限
+	set_variable = {
+		name = max_breeder_ratio
+		value = 0.5
+	}
+	if = {	
+		limit = {
+			pop_type_percent_country = {
+				pop_type = breeder
+				percent < var:min_breeder_ratio
+			}
+		}
+		set_variable = {
+			name = breeder_gain_other_qualifications_bonus
+			value = -5
+		}
+	}
+	else = {
+		set_variable = {
+			name = breeder_gain_other_qualifications_bonus
+			value = 0
+		}
+	}
+	if = {
+		limit = {
+			pop_type_percent_country = {
+				pop_type = breeder
+				percent > var:max_breeder_ratio
+			}
+		}
+		set_variable = {
+			name = other_gain_breeder_qualifications_bonus
+			value = -2
+		}
+	}
+	else = {
+		set_variable = {
+			name = other_gain_breeder_qualifications_bonus
+			value = 2
 		}
 	}
 }

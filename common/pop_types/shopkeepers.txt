@@ -18,66 +18,41 @@
 	
 	qualifications_growth_desc = "SHOPKEEPERS_QUALIFICATIONS_DESC"
 	qualifications = {
-		# baseline: ( wealth - 5 ) / 2, norm 10 for Clerks with Wealth 15
-		add = {
-			value = wealth
-			subtract = 5
-			min = 0
-			desc = "QUALIFICATIONS_WEALTH_FACTOR"
-		}
-		if = {
-			limit = {
-				is_pop_type = clerks
-			}
-			multiply = {
-				value = 5
-				desc = "QUALIFICATIONS_FAVORED_TYPE"
-			}
-		}
-		if = {
-			limit = {
-				is_pop_type = farmers
-			}
-			multiply = {
-				value = 4
-				desc = "QUALIFICATIONS_FAVORED_TYPE"
-			}
-		}
-
 		#Miraiteko
 		if = {
-			limit = { is_pop_type = breeder }
+			limit = { 
+				is_pop_type = breeder 
+				owner.var:breeder_gain_other_qualifications_bonus < 0
+			}
+			add = {
+				value = -5
+				desc = "min_breeder_ratio"
+			}
+		}
+		else = {
+			# baseline: ( wealth - 5 ) / 2, norm 10 for Clerks with Wealth 15
+			add = {
+				value = wealth
+				subtract = 5
+				min = 0
+				desc = "QUALIFICATIONS_WEALTH_FACTOR"
+			}
 			if = {
 				limit = {
-					owner = { 
-						has_law = law_type:law_no_womens_rights
-					}
+					is_pop_type = clerks
 				}
 				multiply = {
-					value = 0.0
-					desc = "QUALIFICATIONS_GENDER_DISCRIMINATION"
+					value = 5
+					desc = "QUALIFICATIONS_FAVORED_TYPE"
 				}
 			}
-			else_if = {
+			if = {
 				limit = {
-					owner = { 
-						has_law = law_type:law_women_own_property
-					}
+					is_pop_type = farmers
 				}
 				multiply = {
-					value = 0.1
-					desc = "QUALIFICATIONS_GENDER_DISCRIMINATION"
-				}
-			}
-			else_if = {
-				limit = {
-					owner = { 
-						has_law = law_type:law_women_in_the_workplace
-					}
-				}
-				multiply = {
-					value = 0.3
-					desc = "QUALIFICATIONS_GENDER_DISCRIMINATION"
+					value = 4
+					desc = "QUALIFICATIONS_FAVORED_TYPE"
 				}
 			}
 		}

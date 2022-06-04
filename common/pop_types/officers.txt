@@ -18,7 +18,18 @@
 	
 	qualifications_growth_desc = "OFFICERS_QUALIFICATIONS_DESC"
 	qualifications = {
+		#Miraiteko
 		if = {
+			limit = { 
+				is_pop_type = breeder 
+				owner.var:breeder_gain_other_qualifications_bonus < 0
+			}
+			add = {
+				value = -5
+				desc = "min_breeder_ratio"
+			}
+		}
+		else_if = {
 			limit = {
 				OR = {
 					culture_accepted = yes
@@ -52,44 +63,6 @@
 				multiply = {
 					value = 0.1
 					desc = "QUALIFICATIONS_OFFICERS_PEASANT_LEVIES"
-				}
-			}
-
-			#Miraiteko
-			if = {
-				limit = { is_pop_type = breeder }
-				if = {
-					limit = {
-						owner = { 
-							has_law = law_type:law_no_womens_rights
-						}
-					}
-					multiply = {
-						value = 0.0
-						desc = "QUALIFICATIONS_GENDER_DISCRIMINATION"
-					}
-				}
-				else_if = {
-					limit = {
-						owner = { 
-							has_law = law_type:law_women_own_property
-						}
-					}
-					multiply = {
-						value = 0.1
-						desc = "QUALIFICATIONS_GENDER_DISCRIMINATION"
-					}
-				}
-				else_if = {
-					limit = {
-						owner = { 
-							has_law = law_type:law_women_in_the_workplace
-						}
-					}
-					multiply = {
-						value = 0.3
-						desc = "QUALIFICATIONS_GENDER_DISCRIMINATION"
-					}
 				}
 			}
 		}

@@ -38,3 +38,10 @@ bg_nuclear_pollution = {
 bg_nuclear_defence = {
 	parent_group = bg_modifier
 }
+
+bg_min_breeder_ratio = {
+	parent_group = bg_modifier
+}
+bg_max_breeder_ratio = {
+	parent_group = bg_modifier
+}

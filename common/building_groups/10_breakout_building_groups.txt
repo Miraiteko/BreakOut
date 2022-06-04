@@ -9,8 +9,9 @@ bg_illegal = {
 	auto_place_buildings = yes	
 	
 	economy_of_scale = no
-	cash_reserves_max = 25000
+	cash_reserves_max = 1000
 	
+	pays_taxes = no
 	can_use_slaves = yes
 	fired_pops_become_radical = no
 }
