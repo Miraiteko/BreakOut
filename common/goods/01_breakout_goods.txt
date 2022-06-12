@@ -110,7 +110,7 @@ medical_care = {
 }
 #晶圆
 wafer = {
-	texture = "gfx/interface/icons/goods_icons/default.dds"
+	texture = "gfx/interface/icons/goods_icons/wafer.dds"
 	cost = 50
 	category = industrial
 	tradeable = yes
@@ -120,7 +120,7 @@ wafer = {
 }
 #芯片
 chip = {
-	texture = "gfx/interface/icons/goods_icons/default.dds"
+	texture = "gfx/interface/icons/goods_icons/chip.dds"
 	cost = 50
 	category = industrial
 	tradeable = yes
@@ -130,7 +130,7 @@ chip = {
 }
 #软件
 software = {
-	texture = "gfx/interface/icons/goods_icons/default.dds"
+	texture = "gfx/interface/icons/goods_icons/software.dds"
 	cost = 50
 	category = industrial
 	tradeable = yes
@@ -140,7 +140,7 @@ software = {
 }
 #算力
 computation = {
-	texture = "gfx/interface/icons/goods_icons/default.dds"
+	texture = "gfx/interface/icons/goods_icons/computation.dds"
 	cost = 100
 	category = industrial
 	tradeable = yes
