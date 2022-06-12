@@ -7,38 +7,12 @@
 	}
 	
 	when_taken = {
-		set_state_religion = rel:natural
 		every_scope_pop = {
 			random_list = {
 				6 = {
-					change_pop_religion = {
-						target = rel:natural
-						value = 1.0
-					}
-				}
-				3 = {
-					change_pop_religion = {
-						target = rel:prosthesis
-						value = 1.0
-					}
-				}
-				3 = {
-					change_pop_religion = {
-						target = rel:strengthened
-						value = 1.0
-					}
+					change_poptype = breeder
 				}
 				1 = {
-					change_pop_religion = {
-						target = rel:homoconformism
-						value = 1.0
-					}
-				}
-				1 = {
-					change_pop_religion = {
-						target = rel:homoeccentrism
-						value = 1.0
-					}
 				}
 			}
 		}

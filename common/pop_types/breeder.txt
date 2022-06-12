@@ -12,9 +12,21 @@
 	
 	qualifications_growth_desc = "BREEDER_QUALIFICATIONS_DESC"
 	qualifications = {
-		add = {
-			value = owner.var:other_gain_breeder_qualifications_bonus
-			desc = "max_breeder_ratio"
+		#Miraiteko
+		if = {
+			limit = { 
+				owner.var:other_gain_breeder_qualifications_bonus < 0
+			}
+			add = {
+				value = -2
+				desc = "max_breeder_ratio"
+			}
+		}
+		else = {
+			add = {
+				value = 2
+				desc = "max_breeder_ratio"
+			}
 		}
 	}
 	

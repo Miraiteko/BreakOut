@@ -79,7 +79,7 @@ finance_power = {
 
 #原油
 crude_oil = {
-	texture = "gfx/interface/icons/goods_icons/finance_power.dds"
+	texture = "gfx/interface/icons/goods_icons/default.dds"
 	cost = 20
 	category = industrial
 	tradeable = yes
@@ -90,7 +90,7 @@ crude_oil = {
 
 #药物
 medicine = {
-	texture = "gfx/interface/icons/goods_icons/finance_power.dds"
+	texture = "gfx/interface/icons/goods_icons/default.dds"
 	cost = 50
 	category = staple
 	tradeable = yes
@@ -100,7 +100,7 @@ medicine = {
 }
 #医疗护理
 medical_care = {
-	texture = "gfx/interface/icons/goods_icons/finance_power.dds"
+	texture = "gfx/interface/icons/goods_icons/default.dds"
 	cost = 65
 	category = staple
 	tradeable = yes

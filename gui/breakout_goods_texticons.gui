@@ -71,3 +71,30 @@ texticon = {
 		fontsize = 18
 	}
 }
+texticon = {
+	icon = crude_oil
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/default.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+texticon = {
+	icon = medicine
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/default.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+texticon = {
+	icon = medical_care
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/default.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
