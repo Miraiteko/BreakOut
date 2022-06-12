@@ -139,8 +139,8 @@ pm_proportional_integral_control = {
 		workforce_scaled = {
 			building_input_software_add = 5 #50
 		}	
-		level_scaled = {
-			building_employment_laborers_add = -1000
+		unscaled = {
+			building_employment_laborers_mult = -0.5
 		}
 	}	
 }
@@ -150,9 +150,9 @@ pm_reinforcement_learning_control = {
 		workforce_scaled = {
 			building_input_computation_add = 5 #100
 		}	
-		level_scaled = {
-			building_employment_laborers_add = -1500
-			building_employment_machinists_add = -500
+		unscaled = {
+			building_employment_laborers_mult = -0.75
+			building_employment_machinists_mult = -0.25
 		}
 	}	
 }
@@ -162,10 +162,10 @@ pm_quantum_ergodic_control = {
 		workforce_scaled = {
 			building_input_computation_add = 10 #100
 		}	
-		level_scaled = {
-			building_employment_laborers_add = -2000
-			building_employment_machinists_add = -1000
-			building_employment_engineers_add = -500
+		unscaled = {
+			building_employment_laborers_mult = -1.0
+			building_employment_machinists_mult = -0.75
+			building_employment_engineers_mult = -0.25
 		}
 	}	
 }

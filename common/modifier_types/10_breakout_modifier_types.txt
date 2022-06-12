@@ -220,3 +220,15 @@ building_group_bg_max_breeder_ratio_throughput_mult = {
 	good = yes
 	percent = yes
 }
+building_employment_laborers_mult = {
+	good = no
+	percent = yes
+}
+building_employment_machinists_mult = {
+	good = no
+	percent = yes
+}
+building_employment_engineers_mult = {
+	good = no
+	percent = yes
+}
