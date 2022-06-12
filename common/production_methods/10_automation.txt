@@ -75,14 +75,14 @@ pm_lithography = { #光刻
 }	
 
 #软件园
-pm_soft_ware_park = {
+pm_software_park = {
 	texture = "gfx/interface/icons/production_method_icons/trains_electric.dds"
 		
 	building_modifiers = {
 		workforce_scaled = {
 			building_input_chip_add = 30 #50
 			building_input_electricity_add = 30 #30
-			building_output_soft_ware_add = 60 #50
+			building_output_software_add = 60 #50
 		}	
 		level_scaled = {
 			building_employment_laborers_add = 2000
@@ -92,25 +92,7 @@ pm_soft_ware_park = {
 	}		
 	state_modifiers = {
 	}	
-}	
-#软件园
-pm_soft_ware_park = {
-	texture = "gfx/interface/icons/production_method_icons/trains_electric.dds"
-		
-	building_modifiers = {
-		workforce_scaled = {
-			building_input_chip_add = 25 #50
-			building_input_electricity_add = 50 #30
-			building_output_soft_ware_add = 60 #50
-		}	
-		level_scaled = {
-			building_employment_machinists_add = 1000
-			building_employment_engineers_add = 1000
-		}
-	}		
-	state_modifiers = {
-	}	
-}	
+}		
 #数据中心
 pm_internet_data_center = {
 	texture = "gfx/interface/icons/production_method_icons/trains_electric.dds"
@@ -118,7 +100,7 @@ pm_internet_data_center = {
 	building_modifiers = {
 		workforce_scaled = {
 			building_input_chip_add = 30 #50
-			building_input_soft_ware_add = 30 #50
+			building_input_software_add = 30 #50
 			building_input_electricity_add = 50 #30
 			building_output_computation_add = 60 #100
 		}	
@@ -155,10 +137,10 @@ pm_proportional_integral_control = {
 	texture = "gfx/interface/icons/production_method_icons/mechanized_looms.dds"
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_soft_ware_add = 10 #50
+			building_input_software_add = 5 #50
 		}	
 		level_scaled = {
-			building_employment_laborers_add = -1500
+			building_employment_laborers_add = -1000
 		}
 	}	
 }
@@ -166,11 +148,11 @@ pm_reinforcement_learning_control = {
 	texture = "gfx/interface/icons/production_method_icons/automatic_power_looms.dds"
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_computation_add = 10 #100
+			building_input_computation_add = 5 #100
 		}	
 		level_scaled = {
-			building_employment_laborers_add = -1000
-			building_employment_machinists_add = -1000
+			building_employment_laborers_add = -1500
+			building_employment_machinists_add = -500
 		}
 	}	
 }
@@ -178,11 +160,11 @@ pm_quantum_ergodic_control = {
 	texture = "gfx/interface/icons/production_method_icons/automatic_power_looms.dds"
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_computation_add = 20 #100
+			building_input_computation_add = 10 #100
 		}	
 		level_scaled = {
-			building_employment_laborers_add = -500
-			building_employment_machinists_add = -1500
+			building_employment_laborers_add = -2000
+			building_employment_machinists_add = -1000
 			building_employment_engineers_add = -500
 		}
 	}	

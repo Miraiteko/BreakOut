@@ -338,15 +338,15 @@
  modifier_building_input_computer_add:0 "每级@computer!计算机投入"
  modifier_building_input_computer_add_desc:0 "建筑投入的@computer!计算机数量"
  
- soft_ware:0 "软件"
- modifier_building_output_soft_ware_add:0 "每级@soft_ware!软件产出"
- modifier_building_output_soft_ware_add_desc:0 "建筑产出的@soft_ware!软件数量"
- modifier_building_input_soft_ware_add:0 "每级@soft_ware!软件投入"
- modifier_building_input_soft_ware_add_desc:0 "建筑投入的@soft_ware!软件数量"
+ software:0 "软件"
+ modifier_building_output_software_add:0 "每级@software!软件产出"
+ modifier_building_output_software_add_desc:0 "建筑产出的@software!软件数量"
+ modifier_building_input_software_add:0 "每级@software!软件投入"
+ modifier_building_input_software_add_desc:0 "建筑投入的@software!软件数量"
  
- soft_ware_park:0 "软件园"
- pmg_soft_ware_park:0 "软件园"
- pm_soft_ware_park:0 "软件园"
+ software_park:0 "软件园"
+ pmg_software_park:0 "软件园"
+ pm_software_park:0 "软件园"
  
  computation:0 "算力"
  modifier_building_output_computation_add:0 "每级@computation!算力产出"

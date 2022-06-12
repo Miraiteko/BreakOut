@@ -129,7 +129,7 @@ chip = {
 	convoy_shipping_multiplier = 0.5
 }
 #软件
-soft_ware = {
+software = {
 	texture = "gfx/interface/icons/goods_icons/default.dds"
 	cost = 50
 	category = industrial

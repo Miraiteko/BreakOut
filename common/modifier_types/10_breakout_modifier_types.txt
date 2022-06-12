@@ -124,6 +124,24 @@ building_input_chip_add = {
 	percent = no
 }
 
+building_output_software_add = {
+	good = yes
+	percent = no
+}
+building_input_software_add = {
+	good = no
+	percent = no
+}
+
+building_output_computation_add = {
+	good = yes
+	percent = no
+}
+building_input_computation_add = {
+	good = no
+	percent = no
+}
+
 #其他buff
 building_group_bg_illegal_throughput_mult = {
 	good = no

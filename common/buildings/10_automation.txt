@@ -31,15 +31,15 @@ chip_plant = {
 	required_construction = construction_cost_medium
 }
 #软件园
-soft_ware_park = {
+software_park = {
 	building_group = bg_heavy_industry	
-	texture = "gfx/interface/icons/building_icons/soft_ware_park.dds"
+	texture = "gfx/interface/icons/building_icons/software_park.dds"
 	
 	unlocking_technologies = {
 	}
 
 	production_method_groups = {
-		pmg_soft_ware_park
+		pmg_software_park
 		pmg_ownership_capital
 	}
 
