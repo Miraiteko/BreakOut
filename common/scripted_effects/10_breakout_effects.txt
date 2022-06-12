@@ -553,7 +553,7 @@ breed_ratio_monthly_check = {
 	#上限
 	set_variable = {
 		name = max_breeder_ratio
-		value = 0.5
+		value = 0.55
 	}
 	if = {	
 		limit = {

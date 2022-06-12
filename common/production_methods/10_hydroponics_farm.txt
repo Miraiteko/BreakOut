@@ -12,7 +12,7 @@
 		}
 
 		level_scaled = {								
-			building_employment_farmers_add = 1250
+			building_employment_machinists_add = 1250
 			building_employment_engineers_add = 250
 		}
 	}
