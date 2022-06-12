@@ -26,7 +26,8 @@ pm_carbon_dioxide = {
 			building_output_oil_add = 50 #40		
 		}
 
-		level_scaled = {								
+		level_scaled = {					
+			building_employment_laborers_add = 2000			
 			building_employment_machinists_add = 1250
 			building_employment_engineers_add = 250
 		}
@@ -44,7 +45,8 @@ pm_liquor_carbon = {
 			building_output_oil_add = 50 #40		
 		}
 
-		level_scaled = {								
+		level_scaled = {							
+			building_employment_laborers_add = 2000		
 			building_employment_machinists_add = 1250
 			building_employment_engineers_add = 250
 		}
@@ -84,8 +86,8 @@ pm_plastics_plant = {
 		}
 
 		level_scaled = {						
-			building_employment_laborers_add = 1000	
-			building_employment_machinists_add = 750
+			building_employment_laborers_add = 2000	
+			building_employment_machinists_add = 1250
 			building_employment_engineers_add = 250
 		}
 	}
@@ -100,7 +102,8 @@ pm_fiber_polymerization = {
 			building_output_wood_add = 10 #20		
 		}
 
-		level_scaled = {							
+		level_scaled = {						
+			building_employment_laborers_add = 2000	
 			building_employment_machinists_add = 1500	
 			building_employment_engineers_add = 250
 		}
@@ -117,7 +120,7 @@ pm_pharmaceutical_mill = {
 		}
 
 		level_scaled = {						
-			building_employment_laborers_add = 1000	
+			building_employment_laborers_add = 1500	
 			building_employment_machinists_add = 750
 			building_employment_engineers_add = 250
 		}

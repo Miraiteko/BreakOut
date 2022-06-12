@@ -8,6 +8,7 @@ refinery = {
 
 	production_method_groups = {
 		pmg_refinery
+		pmg_automation
 		pmg_ownership_capital
 	}
 
@@ -24,6 +25,7 @@ plastics_plant = {
 
 	production_method_groups = {
 		pmg_plastics_plant
+		pmg_automation
 		pmg_ownership_capital
 	}
 
@@ -40,6 +42,7 @@ pharmaceutical_mill = {
 	production_method_groups = {
 		pmg_pharmaceutical_mill
 		pmg_psychedelic_drugs
+		pmg_automation
 		pmg_ownership_capital
 	}
 
@@ -57,6 +60,7 @@ carbon_sequestration = {
 	production_method_groups = {
 		pmg_carbon_sequestration
 		pmg_wood_carbonization
+		pmg_automation
 		pmg_ownership_capital
 	}
 

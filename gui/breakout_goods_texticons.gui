@@ -98,3 +98,21 @@ texticon = {
 		fontsize = 18
 	}
 }
+texticon = {
+	icon = wafer
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/default.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+texticon = {
+	icon = chip
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/default.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}

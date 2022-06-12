@@ -1,0 +1,35 @@
+﻿pmg_wafer_plant = {
+	production_methods = {
+		pm_wafer_plant
+	}
+}
+pmg_chip_plant = {
+	production_methods = {
+		pm_transistor
+		pm_chemical_etching
+		pm_lithography
+	}
+}
+pmg_soft_ware_park = {
+	production_methods = {
+		pm_soft_ware_park
+	}
+}
+pmg_internet_data_center = {
+	production_methods = {
+		pm_internet_data_center
+	}
+}
+pmg_virtual_mine = {
+	production_methods = {
+		pm_virtual_mine
+	}
+}
+pmg_automation = {
+	production_methods = {
+		pm_manual_control
+		pm_proportional_integral_control
+		pm_reinforcement_learning_control
+		pm_quantum_ergodic_control
+	}
+}

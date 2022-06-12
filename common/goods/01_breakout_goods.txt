@@ -108,3 +108,43 @@ medical_care = {
 	prestige_factor = 2
 	convoy_shipping_multiplier = 2
 }
+#晶圆
+wafer = {
+	texture = "gfx/interface/icons/goods_icons/default.dds"
+	cost = 50
+	category = industrial
+	tradeable = yes
+	
+	prestige_factor = 2
+	convoy_shipping_multiplier = 2
+}
+#芯片
+chip = {
+	texture = "gfx/interface/icons/goods_icons/default.dds"
+	cost = 50
+	category = industrial
+	tradeable = yes
+	
+	prestige_factor = 2
+	convoy_shipping_multiplier = 0.5
+}
+#软件
+soft_ware = {
+	texture = "gfx/interface/icons/goods_icons/default.dds"
+	cost = 50
+	category = industrial
+	tradeable = yes
+	
+	prestige_factor = 5
+	convoy_shipping_multiplier = 0.01
+}
+#算力
+computation = {
+	texture = "gfx/interface/icons/goods_icons/default.dds"
+	cost = 100
+	category = industrial
+	tradeable = yes
+	
+	prestige_factor = 5
+	convoy_shipping_multiplier = 0.01
+}

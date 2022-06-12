@@ -1,0 +1,77 @@
+﻿#晶圆厂
+wafer_plant = {
+	building_group = bg_heavy_industry	
+	texture = "gfx/interface/icons/building_icons/wafer_plant.dds"
+	
+	unlocking_technologies = {
+	}
+
+	production_method_groups = {
+		pmg_wafer_plant
+		pmg_automation
+		pmg_ownership_capital
+	}
+
+	required_construction = construction_cost_medium
+}
+#芯片厂
+chip_plant = {
+	building_group = bg_heavy_industry	
+	texture = "gfx/interface/icons/building_icons/chip_plant.dds"
+	
+	unlocking_technologies = {
+	}
+
+	production_method_groups = {
+		pmg_chip_plant
+		pmg_automation
+		pmg_ownership_capital
+	}
+
+	required_construction = construction_cost_medium
+}
+#软件园
+soft_ware_park = {
+	building_group = bg_heavy_industry	
+	texture = "gfx/interface/icons/building_icons/soft_ware_park.dds"
+	
+	unlocking_technologies = {
+	}
+
+	production_method_groups = {
+		pmg_soft_ware_park
+		pmg_ownership_capital
+	}
+
+	required_construction = construction_cost_medium
+}
+#数据中心
+internet_data_center = {
+	building_group = bg_heavy_industry	
+	texture = "gfx/interface/icons/building_icons/internet_data_center.dds"
+	
+	unlocking_technologies = {
+	}
+
+	production_method_groups = {
+		pmg_internet_data_center
+		pmg_ownership_capital
+	}
+
+	required_construction = construction_cost_medium
+}
+#虚拟矿场
+virtual_mine = {
+	building_group = bg_heavy_industry	
+	texture = "gfx/interface/icons/building_icons/virtual_mine.dds"
+	
+	unlocking_technologies = {
+	}
+
+	production_method_groups = {
+		pmg_virtual_mine
+		pmg_ownership_capital
+	}
+
+	required_construction = construction_cost_medium
+}

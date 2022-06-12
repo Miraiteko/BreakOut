@@ -309,6 +309,65 @@
  pmg_hospital:0 "医院"
  pm_hospital:0 "医院"
  
+ #半导体相关
+ wafer:0 "晶圆"
+ modifier_building_output_wafer_add:0 "每级@wafer!晶圆产出"
+ modifier_building_output_wafer_add_desc:0 "建筑产出的@wafer!晶圆数量"
+ modifier_building_input_wafer_add:0 "每级@wafer!晶圆投入"
+ modifier_building_input_wafer_add_desc:0 "建筑投入的@wafer!晶圆数量"
+ 
+ wafer_plant:0 "晶圆厂"
+ pmg_wafer_plant:0 "晶圆"
+ pm_wafer_plant:0 "晶圆"
+ 
+ chip:0 "芯片"
+ modifier_building_output_chip_add:0 "每级@chip!芯片产出"
+ modifier_building_output_chip_add_desc:0 "建筑产出的@chip!芯片数量"
+ modifier_building_input_chip_add:0 "每级@chip!晶圆投入"
+ modifier_building_input_chip_add_desc:0 "建筑投入的@chip!芯片数量"
+ 
+ chip_plant:0 "芯片厂"
+ pmg_chip_plant:0 "芯片"
+ pm_transistor:0 "晶体管"
+ pm_chemical_etching:0 "化学刻蚀"
+ pm_lithography:0 "光刻"
+ 
+ computer:0 "计算机"
+ modifier_building_output_computer_add:0 "每级@computer!计算机产出"
+ modifier_building_output_computer_add_desc:0 "建筑产出的@computer!计算机数量"
+ modifier_building_input_computer_add:0 "每级@computer!计算机投入"
+ modifier_building_input_computer_add_desc:0 "建筑投入的@computer!计算机数量"
+ 
+ soft_ware:0 "软件"
+ modifier_building_output_soft_ware_add:0 "每级@soft_ware!软件产出"
+ modifier_building_output_soft_ware_add_desc:0 "建筑产出的@soft_ware!软件数量"
+ modifier_building_input_soft_ware_add:0 "每级@soft_ware!软件投入"
+ modifier_building_input_soft_ware_add_desc:0 "建筑投入的@soft_ware!软件数量"
+ 
+ soft_ware_park:0 "软件园"
+ pmg_soft_ware_park:0 "软件园"
+ pm_soft_ware_park:0 "软件园"
+ 
+ computation:0 "算力"
+ modifier_building_output_computation_add:0 "每级@computation!算力产出"
+ modifier_building_output_computation_add_desc:0 "建筑产出的@computation!算力数量"
+ modifier_building_input_computation_add:0 "每级@computation!算力投入"
+ modifier_building_input_computation_add_desc:0 "建筑投入的@computation!算力数量"
+ 
+ internet_data_center:0 "互联网数据中心"
+ pmg_internet_data_center:0 "数据中心"
+ pm_internet_data_center:0 "数据中心"
+ 
+ virtual_mine:0 "虚拟矿厂"
+ pmg_virtual_mine:0 "虚拟矿厂"
+ pm_virtual_mine:0 "虚拟矿厂"
+ 
+ pmg_automation:0 "自动化"
+ pm_manual_control:0 "人工控制"
+ pm_proportional_integral_control:0 "比例积分控制"
+ pm_reinforcement_learning_control:0 "强化学习控制"
+ pm_quantum_ergodic_control:0 "量子遍历控制"
+ 
  
  #核武器相关
  concept_nuclear_weapon:0 "核武器"

@@ -106,6 +106,24 @@ building_input_medical_care_add = {
 	percent = no
 }
 
+building_output_wafer_add = {
+	good = yes
+	percent = no
+}
+building_input_wafer_add = {
+	good = no
+	percent = no
+}
+
+building_output_chip_add = {
+	good = yes
+	percent = no
+}
+building_input_chip_add = {
+	good = no
+	percent = no
+}
+
 #其他buff
 building_group_bg_illegal_throughput_mult = {
 	good = no
