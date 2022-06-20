@@ -123,71 +123,6 @@ breed_ratio_monthly_check = {
 				min = 1
 			}
 		}
-		#清除旧有buff
-		# if = {
-			# limit = { has_modifier = breed_ratio_modifier_00 }
-			# remove_modifier = breed_ratio_modifier_00
-		# }
-		# else_if = {
-			# limit = { has_modifier = breed_ratio_modifier_05 }
-			# remove_modifier = breed_ratio_modifier_05
-		# }
-		# else_if = {
-			# limit = { has_modifier = breed_ratio_modifier_10 }
-			# remove_modifier = breed_ratio_modifier_10
-		# }
-		# else_if = {
-			# limit = { has_modifier = breed_ratio_modifier_15 }
-			# remove_modifier = breed_ratio_modifier_15
-		# }
-		# else_if = {
-			# limit = { has_modifier = breed_ratio_modifier_20 }
-			# remove_modifier = breed_ratio_modifier_20
-		# }
-		# else_if = {
-			# limit = { has_modifier = breed_ratio_modifier_25 }
-			# remove_modifier = breed_ratio_modifier_25
-		# }
-		# else_if = {
-			# limit = { has_modifier = breed_ratio_modifier_30 }
-			# remove_modifier = breed_ratio_modifier_30
-		# }
-		# else_if = {
-			# limit = { has_modifier = breed_ratio_modifier_35 }
-			# remove_modifier = breed_ratio_modifier_35
-		# }
-		# else_if = {
-			# limit = { has_modifier = breed_ratio_modifier_40 }
-			# remove_modifier = breed_ratio_modifier_40
-		# }
-		# else_if = {
-			# limit = { has_modifier = breed_ratio_modifier_45 }
-			# remove_modifier = breed_ratio_modifier_45
-		# }
-		# else_if = {
-			# limit = { has_modifier = breed_ratio_modifier_50 }
-			# remove_modifier = breed_ratio_modifier_50
-		# }
-		# else_if = {
-			# limit = { has_modifier = breed_ratio_modifier_55 }
-			# remove_modifier = breed_ratio_modifier_55
-		# }
-		# else_if = {
-			# limit = { has_modifier = breed_ratio_modifier_60 }
-			# remove_modifier = breed_ratio_modifier_60
-		# }
-		# else_if = {
-			# limit = { has_modifier = breed_ratio_modifier_65 }
-			# remove_modifier = breed_ratio_modifier_65
-		# }
-		# else_if = {
-			# limit = { has_modifier = breed_ratio_modifier_70 }
-			# remove_modifier = breed_ratio_modifier_70
-		# }
-		# else_if = {
-			# limit = { has_modifier = breed_ratio_modifier_75 }
-			# remove_modifier = breed_ratio_modifier_75
-		# }
 		#按照比例决定生育率buff
 		if = {
 			limit = {
@@ -363,51 +298,6 @@ breed_ratio_monthly_check = {
 				min = 1
 			}
 		}
-		#清除旧有buff
-		# if = {
-			# limit = { has_modifier = base_education_access_modifier_00 }
-			# remove_modifier = base_education_access_modifier_00
-		# }
-		# else_if = {
-			# limit = { has_modifier = base_education_access_modifier_05 }
-			# remove_modifier = base_education_access_modifier_05
-		# }
-		# else_if = {
-			# limit = { has_modifier = base_education_access_modifier_10 }
-			# remove_modifier = base_education_access_modifier_10
-		# }
-		# else_if = {
-			# limit = { has_modifier = base_education_access_modifier_15 }
-			# remove_modifier = base_education_access_modifier_15
-		# }
-		# else_if = {
-			# limit = { has_modifier = base_education_access_modifier_20 }
-			# remove_modifier = base_education_access_modifier_20
-		# }
-		# else_if = {
-			# limit = { has_modifier = base_education_access_modifier_25 }
-			# remove_modifier = base_education_access_modifier_25
-		# }
-		# else_if = {
-			# limit = { has_modifier = base_education_access_modifier_30 }
-			# remove_modifier = base_education_access_modifier_30
-		# }
-		# else_if = {
-			# limit = { has_modifier = base_education_access_modifier_35 }
-			# remove_modifier = base_education_access_modifier_35
-		# }
-		# else_if = {
-			# limit = { has_modifier = base_education_access_modifier_40 }
-			# remove_modifier = base_education_access_modifier_40
-		# }
-		# else_if = {
-			# limit = { has_modifier = base_education_access_modifier_45 }
-			# remove_modifier = base_education_access_modifier_45
-		# }
-		# else_if = {
-			# limit = { has_modifier = base_education_access_modifier_50 }
-			# remove_modifier = base_education_access_modifier_50
-		# }
 		#按照比例决定受教育机会buff
 		if = {
 			limit = {
@@ -592,7 +482,213 @@ breed_ratio_monthly_check = {
 		}
 	}
 }
-
+#生产经验结算
+production_exp_monthly_check = {
+	save_scope_as = checked_country
+	
+	every_scope_state = {
+		save_scope_as = checked_state
+		#建筑暂时不能储存变量，储存在地区上进行测试
+	
+		if = {
+			limit = { 
+				NOT = { has_variable = production_exp }
+			}
+			set_variable = {
+				name = production_exp
+				value = 0
+			}
+		}
+		#计算增长
+		set_variable = { #来自于基建的增长
+			name = production_exp_change
+			value = {
+				value = infrastructure
+				multiply = 0.01
+			}
+		}
+		change_variable = { #衰退
+			name = production_exp_change
+			subtract = {
+				value = var:production_exp
+				multiply = 0.05
+			}
+		}
+		change_variable = {
+			name = production_exp
+			add = var:production_exp_change
+		}		
+		
+		
+		
+		#根据生产经验给buff
+		every_scope_building = {
+			limit = { always = yes }
+			#给buff
+			if = {
+				limit = {
+					state = { var:production_exp <= 20 }
+				}
+				if ={
+					limit = {
+						state = { var:production_exp <= 10 }
+					}
+					if ={
+						limit = {
+							state = { var:production_exp <= 05 }
+						}
+						add_modifier = {
+							name = production_exp_modifier_00
+							months = 1
+						}
+					}
+					else = {
+						add_modifier = {
+							name = production_exp_modifier_05
+							months = 1
+						}
+					}
+				}	
+				else ={
+					if ={
+						limit = {
+							state = { var:production_exp <= 15 }
+						}
+						add_modifier = {
+							name = production_exp_modifier_10
+							months = 1
+						}
+					}
+					else = {
+						add_modifier = {
+							name = production_exp_modifier_15
+							months = 1
+						}
+					}
+				}	
+			}
+			else_if = {
+				limit = {
+					state = { var:production_exp <= 40 }
+				}
+				if ={
+					limit = {
+						state = { var:production_exp <= 30 }
+					}
+					if ={
+						limit = {
+							state = { var:production_exp <= 25 }
+						}
+						add_modifier = {
+							name = production_exp_modifier_20
+							months = 1
+						}
+					}
+					else = {
+						add_modifier = {
+							name = production_exp_modifier_25
+							months = 1
+						}
+					}
+				}	
+				else ={
+					if ={
+						limit = {
+							state = { var:production_exp <= 35 }
+						}
+						add_modifier = {
+							name = production_exp_modifier_30
+							months = 1
+						}
+					}
+					else = {
+						add_modifier = {
+							name = production_exp_modifier_35
+							months = 1
+						}
+					}
+				}	
+			}
+			else_if = {
+				limit = {
+					state = { var:production_exp <= 60 }
+				}
+				if ={
+					limit = {
+						state = { var:production_exp <= 50 }
+					}
+					if ={
+						limit = {
+							state = { var:production_exp <= 45 }
+						}
+						add_modifier = {
+							name = production_exp_modifier_40
+							months = 1
+						}
+					}
+					else = {
+						add_modifier = {
+							name = production_exp_modifier_45
+							months = 1
+						}
+					}
+				}	
+				else ={
+					if ={
+						limit = {
+							state = { var:production_exp <= 55 }
+						}
+						add_modifier = {
+							name = production_exp_modifier_50
+							months = 1
+						}
+					}
+					else = {
+						add_modifier = {
+							name = production_exp_modifier_55
+							months = 1
+						}
+					}
+				}
+			}
+			else = {
+				if ={
+					limit = {
+						state = { var:production_exp <= 65 }
+					}
+					add_modifier = {
+						name = production_exp_modifier_60
+						months = 1
+					}
+				}	
+				else_if ={
+					limit = {
+						state = { var:production_exp <= 70 }
+					}
+					add_modifier = {
+						name = production_exp_modifier_65
+						months = 1
+					}
+				}	
+				else_if ={
+					limit = {
+						state = { var:production_exp <= 75 }
+					}
+					add_modifier = {
+						name = production_exp_modifier_70
+						months = 1
+					}
+				}	
+				else ={
+					add_modifier = {
+						name = production_exp_modifier_75
+						months = 1
+					}
+				}
+			}
+		}
+	}
+}
 #破产结算
 bankruptcy_check = {
 	if = {

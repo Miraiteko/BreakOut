@@ -57,7 +57,7 @@ NPops = {
 } 
 NEconomy = {
 	ECONOMY_OF_SCALE_MAX_MULTIPLIER = 25				# Beyond this many building levels, do not apply further economy of scale bonuses
-	ECONOMY_OF_SCALE_START_LEVEL = 6					# Level at which buildings start getting economy of scale bonuses. Levels lower than this value provide no bonus [>=1]
+	ECONOMY_OF_SCALE_START_LEVEL = 11					# Level at which buildings start getting economy of scale bonuses. Levels lower than this value provide no bonus [>=1]
 	
 	
 	POLLUTION_TARGET_DIVISOR_BASE = 1					# Base value to divide total pollution generation by for calculating state region pollution target level
