@@ -1,0 +1,65 @@
+﻿#生产经验
+#基础出生为0.1%
+production_exp_modifier_00 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+}
+production_exp_modifier_05 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+	building_input_mult = -0.05
+}
+production_exp_modifier_10 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+	building_input_mult = -0.10
+}
+production_exp_modifier_15 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+	building_input_mult = -0.15
+}
+production_exp_modifier_20 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+	building_input_mult = -0.20
+}
+production_exp_modifier_25 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+	building_input_mult = -0.25
+}
+production_exp_modifier_30 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+	building_input_mult = -0.30
+}
+production_exp_modifier_35 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+	building_input_mult = -0.35
+}
+production_exp_modifier_40 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+	building_input_mult = -0.40
+}
+production_exp_modifier_45 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+	building_input_mult = -0.45
+}
+production_exp_modifier_50 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+	building_input_mult = -0.50
+}
+production_exp_modifier_55 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+	building_input_mult = -0.55
+}
+production_exp_modifier_60 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+	building_input_mult = -0.60
+}
+production_exp_modifier_65 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+	building_input_mult = -0.65
+}
+production_exp_modifier_70 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+	building_input_mult = -0.70
+}
+production_exp_modifier_75 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+	building_input_mult = -0.75
+}
