@@ -14,6 +14,7 @@ bg_illegal = {
 	pays_taxes = no
 	can_use_slaves = yes
 	fired_pops_become_radical = no
+	hires_unemployed_only = yes
 }
 
 #居民区
@@ -54,8 +55,6 @@ bg_village = {
 	is_subsistence = yes
 	
 	default_building = village_center
-	
-	ignores_hiring_rate = yes
 }
 
 #铁路现在占用耕地面积
