@@ -9,6 +9,13 @@
 @panel_width_plus_30 = 570			# used to be 490
 @panel_width_plus_70 = 610			# used to be 530
 
+template production_exp_tooltip
+{
+	tooltip = "TOOLTIP_BUILDING_EXP"
+	tooltipwidget = {
+		GraphTooltip_CashReserves = {} 
+	}
+}
 types building_panels
 {
 	type building_details_panel = default_block_window_two_lines {
@@ -495,15 +502,15 @@ types building_panels
 
 					widget = {
 						alpha = "[TransparentIfFalse(Building.IsActive)]"
-						visible = "[And(GreaterThan_CFixedPoint(Building.GetMaxCashReserves, '(CFixedPoint)0'), Building.IsActive)]"
+						visible = "[Building.IsActive]"
 						size = { 330 34 }
 						parentanchor = hcenter
-						using = cash_reserves_tooltip_with_graph
+						using = production_exp_tooltip
 
-						gold_progressbar_horizontal = {
+						green_progressbar_horizontal = {
 							size = { 100% 100% }
 							alpha = "[TransparentIfFalse(Building.IsActive)]"
-							visible = "[And(GreaterThan_CFixedPoint(Building.GetMaxCashReserves, '(CFixedPoint)0'), Building.IsActive)]"
+							visible = "[Building.IsActive]"
 
 							blockoverride "glow_size" {
 								size = { 40 100% }
@@ -512,50 +519,8 @@ types building_panels
 							parentanchor = vcenter
 							blockoverride "values" {
 								min = 0
-								max = "[FixedPointToFloat(Building.GetMaxCashReserves)]"
-								value = "[FixedPointToFloat(Building.GetCurrentCashReserves)]"
-							}
-
-							progressbar_highlight = {
-								visible = "[GreaterThanOrEqualTo_CFixedPoint(Building.GetCurrentCashReserves, Building.GetMaxCashReserves)]"
-							}
-						}
-
-						changed_value_decreased_progressbar_horizontal = {
-							size = { 100% 100% }
-							visible = "[GreaterThan_CFixedPoint(GetPrevTrendValue(Building.GetCashReservesTrend), GetTrendValue(Building.GetCashReservesTrend))]"
-
-							blockoverride "second_progressbar" {}
-
-							blockoverride "values" {
-								min = 0
-								max = "[FixedPointToFloat(Building.GetMaxCashReserves)]"
-								value = "[FixedPointToFloat(Building.GetCurrentCashReserves)]"
-							}
-							blockoverride "glow_size" {
-								size = { 40 100% }
-							}
-							blockoverride "arrow_texture_density" {
-								texture_density = 4 #use to match height of progressbar
-							}
-						}
-
-						changed_value_increased_progressbar_horizontal = {
-							size = { 100% 100% }
-							visible = "[GreaterThan_CFixedPoint(GetTrendValue(Building.GetCashReservesTrend), GetPrevTrendValue(Building.GetCashReservesTrend))]"
-
-							blockoverride "second_progressbar" {}
-
-							blockoverride "values" {
-								min = 0
-								max = "[FixedPointToFloat(Building.GetMaxCashReserves)]"
-								value = "[FixedPointToFloat(Building.GetCurrentCashReserves)]"
-							}
-							blockoverride "glow_size" {
-								size = { 40 100% }
-							}
-							blockoverride "arrow_texture_density" {
-								texture_density = 4 #use to match height of progressbar
+								max = 1
+								value = "[Building.GetModifier.GetInvertedValueFor('building_input_mult')]"
 							}
 						}
 
@@ -564,14 +529,6 @@ types building_panels
 							textbox = {
 								text = EXP_BAR
 								margin_left = 10
-								align = hcenter|nobaseline
-								autoresize = yes
-								parentanchor = vcenter
-							}
-
-							textbox = {
-								text = "TOOLTIP_BUILDING_EXP"
-								visible = "[LessThan_CFixedPoint(Building.GetCurrentCashReserves, Building.GetMaxCashReserves)]"
 								align = hcenter|nobaseline
 								autoresize = yes
 								parentanchor = vcenter

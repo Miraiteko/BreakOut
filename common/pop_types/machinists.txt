@@ -63,7 +63,7 @@
 				is_pop_type = breeder 
 				trigger_if = {
 					limit = {
-						owner = { exists = var:breeder_gain_other_qualifications_bonus }
+						owner = { has_variable =breeder_gain_other_qualifications_bonus }
 					}
 					owner.var:breeder_gain_other_qualifications_bonus < 0
 				}

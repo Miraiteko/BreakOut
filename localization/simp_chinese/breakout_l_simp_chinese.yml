@@ -1,9 +1,10 @@
 ﻿l_simp_chinese:
  #生产经验相关
- concept_production_exp:0 "工艺水平"
- concept_production_exp_desc:0 "工艺水平能够减少原料的耗费。\n它会在生产实践中不断积累，直到达到由科技所决定的上限。"
- EXP_BAR:0 "[concept_production_exp](制作中)：#v ???#! / #maximum ???#!"
- TOOLTIP_BUILDING_EXP:0 "#BOLD #V [Building.GetName] 工艺水平#!#!\n当前工艺水平: #variable ???#! / #maximum ??? #! \n$TOOLTIP_DELIMITER$\n本季度变化：+???\n$TOOLTIP_DELIMITER$\n提升到下一级所需经验：???"
+ concept_production_exp:0 "生产经验"
+ concept_production_exp_desc:0 "生产经验能够减少原料的耗费。\n它会在生产实践中不断积累，直到达到由科技所决定的上限。"
+ EXP_BAR:0 "[concept_production_exp](制作中)：[Building.GetModifier.GetInvertedValueFor('building_input_mult')|0v%]" 
+#[Building.GetModifier.GetInvertedValueFor('building_input_mult')|0v%]
+ TOOLTIP_BUILDING_EXP:0 "#header [concept_production_exp]#!\n数值：#variable [Building.GetCurrentCashReserves|D]#![GetTrendIcon(Building.GetCashReservesTrend)]/#maximum [Building.GetMaxCashReserves|k]#!\n\n[concept_cash_reserves_desc]"
  production_exp_modifier_00:0 "[concept_production_exp]#variable 0%#!"
  production_exp_modifier_05:0 "[concept_production_exp]#variable 5%#!"
  production_exp_modifier_10:0 "[concept_production_exp]#variable 10%#!"
