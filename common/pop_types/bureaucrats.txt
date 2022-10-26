@@ -34,7 +34,12 @@
 		if = {
 			limit = { 
 				is_pop_type = breeder 
-				owner.var:breeder_gain_other_qualifications_bonus < 0
+				trigger_if = {
+					limit = {
+						owner = { has_variable =breeder_gain_other_qualifications_bonus }
+					}
+					owner.var:breeder_gain_other_qualifications_bonus < 0
+				}
 			}
 			add = {
 				value = -5
