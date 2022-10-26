@@ -21,6 +21,7 @@ law_state_religion = {
 	modifier = {
 		interest_group_ig_devout_pol_str_mult = 0.3
 		country_authority_add = 200
+		state_bureaucracy_population_base_cost_factor_mult = -0.2
 	}
 	
 	possible_political_movements = {
@@ -61,7 +62,6 @@ law_freedom_of_conscience = {
 	modifier = {
 		interest_group_ig_devout_pol_str_mult = 0.15
 		country_authority_add = 100
-		state_bureaucracy_population_base_cost_factor_mult = 0.25
 	}
 	
 	possible_political_movements = {
@@ -116,7 +116,7 @@ law_total_separation = {
 	}
 	
 	modifier = {
-		state_bureaucracy_population_base_cost_factor_mult = 0.50
+		state_bureaucracy_population_base_cost_factor_mult = 0.20
 	}
 	possible_political_movements = {
 		law_freedom_of_conscience

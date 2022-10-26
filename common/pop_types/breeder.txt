@@ -15,8 +15,15 @@
 		#Miraiteko
 		if = {
 			limit = { 
-				owner = { has_variable =other_gain_breeder_qualifications_bonus }
-				owner.var:other_gain_breeder_qualifications_bonus < 0
+				trigger_if = {
+					limit = {
+						owner = { has_variable = other_gain_breeder_qualifications_bonus }
+					}
+					owner.var:other_gain_breeder_qualifications_bonus < 0
+				}
+				trigger_else = {
+					always = yes
+				}
 			}
 			add = {
 				value = -2

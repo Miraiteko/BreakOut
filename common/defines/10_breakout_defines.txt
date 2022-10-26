@@ -15,32 +15,32 @@ NPops = {
 	POP_GROWTH_BIRTHRATE_REDUCTION_PER_SOL = 0
 	#出生率下降斜率
 
-	POP_GROWTH_MAX_MORTALITY = 0.00833 #10%，平均寿命10		
+	POP_GROWTH_MAX_MORTALITY = 0.01666 #20%，平均寿命5		
 	#基础死亡率
 
-	POP_GROWTH_STARVING_SLOPE = -0.000625
+	POP_GROWTH_STARVING_SLOPE = -0.00125
 	#平衡点前死亡率斜率
 
-	POP_GROWTH_SOL_EQUILIBRIUM = 8
+	POP_GROWTH_SOL_EQUILIBRIUM = 10
 	#平衡点
-	POP_GROWTH_MORTALITY_AT_EQUILIBRIUM = 0.00333 #4%，平均寿命25
+	POP_GROWTH_MORTALITY_AT_EQUILIBRIUM = 0.004166 #5%，平均寿命20
 	#平衡点死亡率
 	
-	POP_GROWTH_IMPROVING_SLOPE = -0.0001388
+	POP_GROWTH_IMPROVING_SLOPE = -0.00016666
 	#拐点前死亡率斜率
-	POP_GROWTH_IMPROVING_INTERCEPT = 0.00444
+	POP_GROWTH_IMPROVING_INTERCEPT = 0.005833
 	#拐点前死亡率截距
 
-	POP_GROWTH_SOL_DELTA_CAP = 20		
+	POP_GROWTH_SOL_DELTA_CAP = 25		
 	#拐点
 	#拐点死亡率 0.001666 #2%，平均寿命50
 
 	POP_GROWTH_FIXED_DELTA_SLOPE = -0.00001666
 	#末端死亡率斜率
-	POP_GROWTH_FIXED_DELTA_INTERCEPT = 0.002
+	POP_GROWTH_FIXED_DELTA_INTERCEPT = 0.002083
 	#末端死亡率截距	
 
-	POP_GROWTH_SOL_CAP = 60					
+	POP_GROWTH_SOL_CAP = 65					
 	#饱和点
 	POP_GROWTH_MIN_MORTALITY = 0.001 #1.2%,平均寿命83					
 	#保和点死亡率
@@ -98,6 +98,9 @@ NPops = {
 	
 } 
 NEconomy = {
+		COUNTRY_MIN_CREDIT_BASE = 10000			# Added to the total Building Cash Reserves to determine credit limit (base)
+	COUNTRY_MIN_CREDIT_SCALED = 0.00 			# Added to the total Building Cash Reserves to determine credit limit (multiplied by GDP)
+
 	ECONOMY_OF_SCALE_MAX_MULTIPLIER = 25				# Beyond this many building levels, do not apply further economy of scale bonuses
 	ECONOMY_OF_SCALE_START_LEVEL = 11					# Level at which buildings start getting economy of scale bonuses. Levels lower than this value provide no bonus [>=1]
 	

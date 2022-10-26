@@ -33,17 +33,3 @@ on_resource_depleted = {
 
 breakout_on_resource_depleted = {
 }
-
-
-on_diplo_play_war_start = {
-	effect = {
-		post_notification = diplo_play_war_start_notification
-		post_notification = diplo_play_war_start_third_party_notification
-		
-		every_scope_play_involved = {
-			every_scope_state = {
-				activate_building = { building = building_conscription_center }
-			}
-		}
-	}
-}
