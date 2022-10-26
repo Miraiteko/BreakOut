@@ -1,35 +1,12 @@
 ﻿laborers = {
 	texture = "gfx/interface/icons/pops_icons/laborers.dds"
-	color = { 70 36 29 }
+	color = hsv{ 0.02 0.38 0.37 }
 	strata = poor
 	unemployment = yes
+	can_always_hire = yes
 	start_quality_of_life = 5
 	wage_weight = 1
 	dependent_wage = 0.5	# per year
-	
-	qualifications_growth_desc = "LABORERS_QUALIFICATIONS_DESC"
-	qualifications = {
-		#Miraiteko
-		if = {
-			limit = { 
-				is_pop_type = breeder 
-				owner.var:breeder_gain_other_qualifications_bonus < 0
-			}
-			add = {
-				value = -5
-				desc = "min_breeder_ratio"
-			}
-		}
-		else = {
-			add = {
-				value = 15
-				subtract = wealth
-				min = 0
-				multiply = 0.5
-				desc = "QUALIFICATIONS_WEALTH_FACTOR"
-			}
-		}
-	}
 	
 	# 0% - 50% politically engaged	
 	political_engagement_base = 0.0
@@ -37,6 +14,17 @@
 	
 	political_engagement_mult = {
 		value = 1.0
+
+		add = {
+			desc = "POP_STARVATION"	
+			
+			if = {
+				limit = { 
+					standard_of_living < 5
+				}
+				value = 1
+			}		
+		}
 
 		multiply = {
 			desc = "NO_LABOR_MOVEMENT"	

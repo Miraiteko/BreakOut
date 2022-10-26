@@ -1,6 +1,6 @@
 ﻿slaves = {
 	texture = "gfx/interface/icons/pops_icons/slaves.dds"
-	color = { 200 187 157 }
+	color = hsv{ 0.11 0.21 0.68 }
 	strata = poor
 	is_slave = yes
 	unemployment = yes
@@ -10,12 +10,23 @@
 	wage_weight = 0
 	dependent_wage = 0.0	# per year
 	
-	# Not allowed to join IGs
+	# 0% - 50% politically engaged - can still join movements	
 	political_engagement_base = 0.0
-	political_engagement_literacy_factor = 0.0
+	political_engagement_literacy_factor = 0.5	
 	
 	political_engagement_mult = {
 		value = 1		
+		
+		add = {
+			desc = "POP_STARVATION"	
+			
+			if = {
+				limit = { 
+					standard_of_living < 5
+				}
+				value = 1
+			}		
+		}
 	}
 	
 	portrait_age = {

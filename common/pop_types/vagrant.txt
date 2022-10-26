@@ -9,7 +9,23 @@
 
 	qualifications_growth_desc = "VAGRANT_QUALIFICATIONS_DESC"
 	qualifications = {
+		#Miraiteko
 		if = {
+			limit = { 
+				is_pop_type = breeder 
+				trigger_if = {
+					limit = {
+						owner = { exists = var:breeder_gain_other_qualifications_bonus }
+					}
+					owner.var:breeder_gain_other_qualifications_bonus < 0
+				}
+			}
+			add = {
+				value = -5
+				desc = "min_breeder_ratio"
+			}
+		}
+		else_if = {
 			limit = { is_employed = no }
 			add = {
 				value = 1

@@ -1,10 +1,10 @@
 ﻿aristocrats = {
 	texture = "gfx/interface/icons/pops_icons/aristocrats.dds"
-	color = { 11 40 93 }
+	color = hsv{ 0.60 0.58 0.46 }
 	strata = rich
 	start_quality_of_life = 20
 	working_adult_ratio = 0.2
-	wage_weight = 20
+	wage_weight = 6
 	literacy_target = 0.60
 	dependent_wage = 0.0	# per year
 	unemployment = yes
@@ -15,6 +15,18 @@
 	
 	political_engagement_mult = {
 		value = 1		
+		
+		add = {
+			desc = "POP_STARVATION"	
+			
+			if = {
+				limit = { 
+					standard_of_living < 5
+				}
+				value = 1
+			}		
+		}
+		
 	}	
 	
 	qualifications_growth_desc = "ARISTOCRATS_QUALIFICATIONS_DESC"
@@ -23,7 +35,12 @@
 		if = {
 			limit = { 
 				is_pop_type = breeder 
-				owner.var:breeder_gain_other_qualifications_bonus < 0
+				trigger_if = {
+					limit = {
+						owner = { exists = var:breeder_gain_other_qualifications_bonus }
+					}
+					owner.var:breeder_gain_other_qualifications_bonus < 0
+				}
 			}
 			add = {
 				value = -5
@@ -32,6 +49,7 @@
 		}
 		else_if = {
 			limit = {
+				is_peasant_under_serfdom = no
 				wealth > 10
 			}
 			# baseline: ( wealth - 10 ) / 10 + literacy, norm 1.5 for Wealth 20 and Literacy 50%
@@ -71,6 +89,15 @@
 					value = 0.1
 					desc = "QUALIFICATIONS_CULTURAL_DISCRIMINATION"
 				}
+			}
+		}
+		else_if = {
+			limit = { 
+				is_peasant_under_serfdom = yes 
+			}
+			value = {
+				desc = "QUALIFICATIONS_PEASANTS_UNDER_SERFDOM"
+				value = 0
 			}
 		}
 		else = {		

@@ -1,6 +1,6 @@
 ﻿officers = {
 	texture = "gfx/interface/icons/pops_icons/officers.dds"
-	color = { 119 98 34 }
+	color = hsv{ 0.12 0.51 0.36 }
 	strata = middle
 	start_quality_of_life = 10
 	wage_weight = 5
@@ -13,7 +13,18 @@
 	political_engagement_literacy_factor = 0.3
 	
 	political_engagement_mult = {
-		value = 1		
+		value = 1	
+
+		add = {
+			desc = "POP_STARVATION"	
+			
+			if = {
+				limit = { 
+					standard_of_living < 5
+				}
+				value = 1
+			}		
+		}	
 	}
 	
 	qualifications_growth_desc = "OFFICERS_QUALIFICATIONS_DESC"
@@ -22,7 +33,12 @@
 		if = {
 			limit = { 
 				is_pop_type = breeder 
-				owner.var:breeder_gain_other_qualifications_bonus < 0
+				trigger_if = {
+					limit = {
+						owner = { exists = var:breeder_gain_other_qualifications_bonus }
+					}
+					owner.var:breeder_gain_other_qualifications_bonus < 0
+				}
 			}
 			add = {
 				value = -5
@@ -31,6 +47,7 @@
 		}
 		else_if = {
 			limit = {
+				is_peasant_under_serfdom = no
 				OR = {
 					culture_accepted = yes
 					is_pop_type = soldiers
@@ -64,6 +81,15 @@
 					value = 0.1
 					desc = "QUALIFICATIONS_OFFICERS_PEASANT_LEVIES"
 				}
+			}
+		}
+		else_if = {
+			limit = {
+				is_peasant_under_serfdom = yes 
+			}
+			value = {
+				desc = "QUALIFICATIONS_PEASANTS_UNDER_SERFDOM"
+				value = 0
 			}
 		}
 	}
