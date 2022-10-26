@@ -27,8 +27,10 @@ types building_panels
 
 		blockoverride "goto_button" {
 			button_icon_goto = {
+				datacontext = "[Building.GetState]"
 				size = { 30 30 }
 				onclick = "[InformationPanelBar.OpenStatePanel(Building.AccessState)]"
+				tooltip = "GO_TO_BUTTON_STATE"
 			}
 		}
 
@@ -218,11 +220,13 @@ types building_panels
 
 						### DOWNSIZE
 						button_icon_minus_action = {
+							name = "tutorial_highlight_downsize"
 							size = { 35 35 }
 							parentanchor = vcenter
 							tooltip = "[Building.GetDownsizeTooltip]"
-							onclick = "[Execute( Building.Downsize )]"
 							visible = "[IsValid( Building.Downsize )]"
+							onclick = "[Execute( Building.Downsize )]"
+							enabled = "[IsValid( Building.Downsize )]"
 							using = tooltip_below
 						}
 
@@ -245,6 +249,7 @@ types building_panels
 							}
 
 							textbox = {
+								name = "tutorial_higlight_expansion_level"
 								text = "[Building.GetExpansionLevelDesc]"
 								align = hcenter|nobaseline
 								using = fontsize_large
@@ -390,12 +395,11 @@ types building_panels
 						size = { 330 25 }
 						visible = "[Building.IsMilitaryBuilding]"
 						hbox = {
-							spacing = 10
+							spacing = 5
 							textbox = {
-								text = Status:
+								text = "BUILDING_STATUS"
 								align = left|nobaseline
 								autoresize = yes
-
 								elide = right
 							}
 							textbox = {
@@ -413,6 +417,10 @@ types building_panels
 								size = { 0 25 }
 							}
 						}
+					}
+
+					widget = {
+						size = { 3 3 }
 					}
 
 					widget = {
@@ -464,7 +472,16 @@ types building_panels
 						}
 
 						icon = {
-							visible = "[And(And(And(Not(Building.IsSubsistenceBuilding), Not(Building.HasFailedHires)), Building.IsActive), LessThan_int32(Building.GetNoOfEmployed, Building.GetEmployeeCap))]"
+							visible = "[And(And(And(Not(Building.IsGovernmentFunded), Not(GreaterThan_CFixedPoint(Building.GetAverageAnnualEarningsPerEmployee, '(CFixedPoint)0'))) , Not(Building.IsSubsidized)), EqualTo_CFixedPoint(Building.GetCurrentCashReserves, '(CFixedPoint)0'))]"
+							size = { 30 30 }
+							texture = "gfx/interface/icons/generic_icons/employment_not_full.dds"
+							parentanchor = right|vcenter
+							tooltip = "NOT_HIRING"
+							position = { -7 0 }
+						}
+
+						icon = {
+							visible = "[And(And(And(And(Not(Building.IsSubsistenceBuilding), Not(Building.HasFailedHires)), Building.IsActive), LessThan_int32(Building.GetNoOfEmployed, Building.GetEmployeeCap)), GreaterThan_CFixedPoint(Building.GetAverageAnnualEarningsPerEmployee, '(CFixedPoint)0'))]"
 							size = { 30 30 }
 							parentanchor = right|vcenter
 							texture = "gfx/interface/icons/generic_icons/employment_not_full_hiring.dds"
@@ -472,52 +489,26 @@ types building_panels
 							position = { -7 0 }
 						}
 					}
-
 					widget = {
-						size = { 3 3 }
-					}
-					widget = {
-						size = { 330 40 }
-						parentanchor = hcenter
-						green_progressbar_horizontal = {
-							tooltip = "TOOLTIP_BUILDING_EXP"
-							size = { 100% 34 }
-							parentanchor = vcenter
-
-							blockoverride "values" {
-								min = 0
-								max = 100
-								value = 50
-							}
-						}
-
-						flowcontainer = {
-							parentanchor = vcenter
-							textbox = {
-								text = EXP_BAR
-								margin_left = 10
-								margin_bottom = 5
-								margin_top = 5
-								align = hcenter|nobaseline
-								autoresize = yes
-								parentanchor = vcenter
-								widgetanchor = vcenter
-							}
-						}
+						size = { 3 8 }
 					}
 
 					widget = {
-						size = { 3 3 }
-					}
-					
-					widget = {
+						alpha = "[TransparentIfFalse(Building.IsActive)]"
 						visible = "[And(GreaterThan_CFixedPoint(Building.GetMaxCashReserves, '(CFixedPoint)0'), Building.IsActive)]"
-						size = { 330 40 }
+						size = { 330 34 }
 						parentanchor = hcenter
 						using = cash_reserves_tooltip_with_graph
 
 						gold_progressbar_horizontal = {
-							size = { 100% 34 }
+							size = { 100% 100% }
+							alpha = "[TransparentIfFalse(Building.IsActive)]"
+							visible = "[And(GreaterThan_CFixedPoint(Building.GetMaxCashReserves, '(CFixedPoint)0'), Building.IsActive)]"
+
+							blockoverride "glow_size" {
+								size = { 40 100% }
+							}
+
 							parentanchor = vcenter
 							blockoverride "values" {
 								min = 0
@@ -527,6 +518,134 @@ types building_panels
 
 							progressbar_highlight = {
 								visible = "[GreaterThanOrEqualTo_CFixedPoint(Building.GetCurrentCashReserves, Building.GetMaxCashReserves)]"
+							}
+						}
+
+						changed_value_decreased_progressbar_horizontal = {
+							size = { 100% 100% }
+							visible = "[GreaterThan_CFixedPoint(GetPrevTrendValue(Building.GetCashReservesTrend), GetTrendValue(Building.GetCashReservesTrend))]"
+
+							blockoverride "second_progressbar" {}
+
+							blockoverride "values" {
+								min = 0
+								max = "[FixedPointToFloat(Building.GetMaxCashReserves)]"
+								value = "[FixedPointToFloat(Building.GetCurrentCashReserves)]"
+							}
+							blockoverride "glow_size" {
+								size = { 40 100% }
+							}
+							blockoverride "arrow_texture_density" {
+								texture_density = 4 #use to match height of progressbar
+							}
+						}
+
+						changed_value_increased_progressbar_horizontal = {
+							size = { 100% 100% }
+							visible = "[GreaterThan_CFixedPoint(GetTrendValue(Building.GetCashReservesTrend), GetPrevTrendValue(Building.GetCashReservesTrend))]"
+
+							blockoverride "second_progressbar" {}
+
+							blockoverride "values" {
+								min = 0
+								max = "[FixedPointToFloat(Building.GetMaxCashReserves)]"
+								value = "[FixedPointToFloat(Building.GetCurrentCashReserves)]"
+							}
+							blockoverride "glow_size" {
+								size = { 40 100% }
+							}
+							blockoverride "arrow_texture_density" {
+								texture_density = 4 #use to match height of progressbar
+							}
+						}
+
+						flowcontainer = {
+							parentanchor = vcenter
+							textbox = {
+								text = EXP_BAR
+								margin_left = 10
+								align = hcenter|nobaseline
+								autoresize = yes
+								parentanchor = vcenter
+							}
+
+							textbox = {
+								text = "TOOLTIP_BUILDING_EXP"
+								visible = "[LessThan_CFixedPoint(Building.GetCurrentCashReserves, Building.GetMaxCashReserves)]"
+								align = hcenter|nobaseline
+								autoresize = yes
+								parentanchor = vcenter
+							}
+						}
+					}
+
+					widget = {
+						size = { 3 8 }
+					}
+
+					widget = {
+						alpha = "[TransparentIfFalse(Building.IsActive)]"
+						visible = "[And(GreaterThan_CFixedPoint(Building.GetMaxCashReserves, '(CFixedPoint)0'), Building.IsActive)]"
+						size = { 330 34 }
+						parentanchor = hcenter
+						using = cash_reserves_tooltip_with_graph
+
+						gold_progressbar_horizontal = {
+							size = { 100% 100% }
+							alpha = "[TransparentIfFalse(Building.IsActive)]"
+							visible = "[And(GreaterThan_CFixedPoint(Building.GetMaxCashReserves, '(CFixedPoint)0'), Building.IsActive)]"
+
+							blockoverride "glow_size" {
+								size = { 40 100% }
+							}
+
+							parentanchor = vcenter
+							blockoverride "values" {
+								min = 0
+								max = "[FixedPointToFloat(Building.GetMaxCashReserves)]"
+								value = "[FixedPointToFloat(Building.GetCurrentCashReserves)]"
+							}
+
+							progressbar_highlight = {
+								visible = "[GreaterThanOrEqualTo_CFixedPoint(Building.GetCurrentCashReserves, Building.GetMaxCashReserves)]"
+							}
+						}
+
+						changed_value_decreased_progressbar_horizontal = {
+							size = { 100% 100% }
+							visible = "[GreaterThan_CFixedPoint(GetPrevTrendValue(Building.GetCashReservesTrend), GetTrendValue(Building.GetCashReservesTrend))]"
+
+							blockoverride "second_progressbar" {}
+
+							blockoverride "values" {
+								min = 0
+								max = "[FixedPointToFloat(Building.GetMaxCashReserves)]"
+								value = "[FixedPointToFloat(Building.GetCurrentCashReserves)]"
+							}
+							blockoverride "glow_size" {
+								size = { 40 100% }
+							}
+							blockoverride "arrow_texture_density" {
+								texture_density = 4 #use to match height of progressbar
+							}
+						}
+
+						changed_value_increased_progressbar_horizontal = {
+							size = { 100% 100% }
+							visible = "[GreaterThan_CFixedPoint(GetTrendValue(Building.GetCashReservesTrend), GetPrevTrendValue(Building.GetCashReservesTrend))]"
+
+							blockoverride "second_progressbar" {}
+
+							blockoverride "values" {
+								min = 0
+								max = "[FixedPointToFloat(Building.GetMaxCashReserves)]"
+								value = "[FixedPointToFloat(Building.GetCurrentCashReserves)]"
+							}
+							blockoverride "glow_size" {
+								size = { 40 100% }
+							}
+							blockoverride "arrow_texture_density" {
+								texture_density = 4 #use to match height of progressbar
 							}
 						}
 
@@ -555,32 +674,9 @@ types building_panels
 						size = { 10 10 }
 					}
 
-					### government expenses
-					widget = {
-						size = { 330 25 }
-						enabled = "[Not(EqualTo_CFixedPoint(Building.GetGovernmentExpenses, '(CFixedPoint)0'))]"
-						tooltip = "[Building.GetGovernmentExpensesDesc]"
-						hbox = {
-
-							textbox = {
-								text = "BUILDING_GOVERNMENT_EXPENSES"
-								align = left|nobaseline
-								layoutpolicy_horizontal = expanding
-								size = { 0 25 }
-								elide = right
-							}
-							textbox = {
-								text = "#variable @money! [Negate_CFixedPoint(Building.GetGovernmentExpenses)|+=K]#!"
-								align = nobaseline
-								autoresize = yes
-							}
-						}
-					}
-
 					### TIMED MODIFIERS
 					flowcontainer = {
 						parentanchor = left
-#						widgetanchor = left
 
 						datamodel = "[Building.GetTimedModifiers]"
 						spacing = 5
@@ -603,10 +699,10 @@ types building_panels
 
 					### battalions mobilized
 					widget = {
-						visible = "[Building.IsMilitaryBuilding]"
+						visible = "[Building.GetHQ.IsLandHQ]"
 
 						size = { 330 25 }
-						tooltip = "[Building.GetGovernmentExpensesDesc]" #TODO Add actual battle tooltip
+						tooltip = "BUILDING_MOBILIZED_BATTALIONS_TOOLTIP"
 						hbox = {
 							textbox = {
 								text = "BUILDING_BATTALIONS_MOBILIZED"
@@ -616,7 +712,7 @@ types building_panels
 								elide = right
 							}
 							textbox = {
-								text = "#v [Building.GetNumberOfFullyMobilizedBattalions]#! / [Building.GetNumberOfCombatUnits] (#v [Building.GetMobilizationRatio|%]#!)"
+								text = "@battalions! #v [Building.GetNumberOfFullyMobilizedBattalions]#! / [Building.GetNumberOfCombatUnits] (#v [Building.GetMobilizationRatio|%]#!)"
 								align = nobaseline
 								autoresize = yes
 							}
@@ -797,6 +893,7 @@ types building_panels
 
 
 				button = {
+					name = "tutorial_highlight_subsidize_button_building_details"
 					parentanchor = top|right
 					visible = "[And(Building.GetBuildingType.CanBeSubsidized, Not(Building.IsSubsidized))]"
 					tooltip = SUBSIDIZED_NO
@@ -827,7 +924,7 @@ types building_panels
 
 			default_header_2texts = {
 				blockoverride "text1" {
-					text = "BATTALIONS"
+					text = "COMBAT_UNITS_BUILDING_HEADER"
 				}
 			}
 
@@ -837,10 +934,18 @@ types building_panels
 
 				# Troop image on the left
 				widget = {
-					size = { 200 150 }
+					size = { 175 131 }
+					visible = "[GreaterThan_int32(Building.GetNumberOfCombatUnits, '(int32)0')]"
 
 					background = {
 						texture = "[Building.GetCombatUnitTexture]"
+						modify_texture = {
+							using = simple_frame_mask
+						}
+					}
+					icon = {
+						using = simple_frame
+						size = { 100% 100% }
 					}
 				}
 
@@ -876,6 +981,7 @@ types building_panels
 								button = {
 									visible = "[NotEqualTo_int32( GetDataModelSize( ProductionMethodGroup.AccessBuildingProductionMethods( Building.Self ) ), '(int32)1' )]"
 									using = expand_button_bg_no_fade
+									enabled = "[Building.IsOwner( GetPlayer.Self )]"
 									size = { 100% 100% }
 									onclick = "[RightClickMenuManager.ToggleSwitchProductionMethodMenu(Building.AccessSelf, ProductionMethodGroup.AccessSelf, PdxGuiWidget.Self)]"
 								}
@@ -949,7 +1055,7 @@ types building_panels
 			}
 
 			widget = { size = { 10 10 }}
-			
+
 			dynamicgridbox = {
 				datamodel = "[Building.AccessPlayerTradeRoutes]"
 				ignoreinvisible = yes
@@ -965,7 +1071,7 @@ types building_panels
 							datacontext = "[TradeRoute.GetImportingMarket.GetOwner]"
 						}
 						blockoverride "arrow_texture" {
-							texture = "gfx/interface/icons/generic_icons/arrow_inbound.dds"
+							texture = "gfx/interface/icons/trade_icons/arrow_inbound.dds"
 							size = { 30 30 }
 						}
 					}
@@ -986,12 +1092,12 @@ types building_panels
 							datacontext = "[TradeRoute.GetImportingMarket.GetOwner]"
 						}
 						blockoverride "arrow_texture" {
-							texture = "gfx/interface/icons/generic_icons/arrow_inbound.dds"
+							texture = "gfx/interface/icons/trade_icons/arrow_inbound.dds"
 							size = { 30 30 }
 						}
 					}
 				}
-			}				
+			}
 		}
 
 		### PROCESS
@@ -1020,7 +1126,7 @@ types building_panels
 						}
 
 						textbox = {
-							name = tutorial_highlight_weekly_balance
+							name = "tutorial_highlight_weekly_balance_building"
 							text = "@money!#v [Building.GetBalance|D+=]#!"
 							tooltip = "[Building.GetBalanceDesc]"
 							autoresize = yes
@@ -1174,7 +1280,7 @@ types building_panels
 							tooltip = "[Building.GetLastSlaveUpkeepDesc]"
 						}
 					}
-					
+
 					### tariffs
 					building_process_entry = {
 						blockoverride "visible" {
@@ -1186,8 +1292,8 @@ types building_panels
 						blockoverride "text_right" {
 							text = "#variable @money![Building.GetTariffsPaid|K]#!"
 						}
-					}				
-					
+					}
+
 					### infrastructure
 					building_process_entry = {
 						blockoverride "visible" {
@@ -1284,7 +1390,7 @@ types building_panels
 								}
 
 								textbox = {
-									text = "#BOLD @money![FixedPointToInt(Building.GetProductionValue(Goods.Self)))|*1]#! ([Goods.GetCompareIconAgainstBasePriceNoFormatting( Goods.GetStatePrice ) ])"
+									text = "#BOLD @money![FixedPointToInt(Building.GetProductionValue(Goods.Self))|*1]#! ([Goods.GetCompareIconAgainstBasePriceNoFormatting( Goods.GetStatePrice ) ])"
 									position = { -10 0 }
 									autoresize = yes
 									align = right|nobaseline
@@ -1344,7 +1450,7 @@ types building_panels
 
 								icon = {
 									size = { 25 25 }
-									visible = "[And(Building.HasAnyInputShortage,GreaterThan_CFixedPoint(Building.GetInputShortagePenalty, '(CFixedPoint)0'))]"
+									visible = "[And(Building.CanBeAffectedByInputShortage(ModifierEntry.Self),And(Building.HasAnyInputShortage,GreaterThan_CFixedPoint(Building.GetInputShortagePenalty, '(CFixedPoint)0')))]"
 									texture = "gfx/interface/icons/generic_icons/goods_shortage.dds"
 									tooltip = "GOODS_OUTPUT_PENALTY_TOOLTIP"
 									position = { -8 -10 }
@@ -1353,7 +1459,7 @@ types building_panels
 
 								icon = {
 									size = { 25 25 }
-									visible = "[And(Not(Building.HasAnyInputShortage),GreaterThan_CFixedPoint(Building.GetInputShortagePenalty, '(CFixedPoint)0'))]"
+									visible = "[And(Building.CanBeAffectedByInputShortage(ModifierEntry.Self),And(Not(Building.HasAnyInputShortage),GreaterThan_CFixedPoint(Building.GetInputShortagePenalty, '(CFixedPoint)0')))]"
 									texture = "gfx/interface/icons/generic_icons/goods_shortage.dds"
 									tooltip = "GOODS_OUTPUT_PENALTY_LINGERING_TOOLTIP"
 									position = { -8 -10 }
@@ -1369,12 +1475,12 @@ types building_panels
 							visible = "[Building.HasTradeRouteRevenue]"
 						}
 						blockoverride "text" {
-							text = "[concept_trade_route_value]"
+							text = "[concept_trade_revenue]"
 						}
 						blockoverride "text_right" {
 							text = "#variable @money![Building.GetTradeRouteRevenue|K]#!"
 						}
-					}						
+					}
 
 					building_process_entry = {
 						blockoverride "visible" {
@@ -1422,41 +1528,6 @@ types building_panels
 				using = fontsize_large
 				parentanchor = right|vcenter
 				align = right|nobaseline
-			}
-		}
-
-
-		### CONSTRUCTION QUEUE
-		widget = {
-			scissor = yes
-			visible = "[Or(Building.HasConstructionQueued, Building.IsBuildingType('building_construction_sector'))]"
-
-			state = {
-				name = _show
-				on_start = "[PdxGuiWidget.AccessChild('construction_queue').TriggerAnimation('show')]"
-			}
-			state = {
-				name = _hide
-				on_start = "[PdxGuiWidget.AccessChild('construction_queue').TriggerAnimation('hide')]"
-			}
-
-			construction_queue = {
-				name = construction_queue
-				position = { 0 0 }
-				margin_top = 20
-				resizeparent = yes
-				datacontext = "[Building.AccessState.AccessOwner]"
-
-				state = {
-					name = show
-					position = { 0 0 }
-					using = default_show_properties
-				}
-				state = {
-					name = hide
-					position = { -100 0 }
-					using = default_hide_properties
-				}
 			}
 		}
 
