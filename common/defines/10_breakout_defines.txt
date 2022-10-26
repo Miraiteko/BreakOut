@@ -2,8 +2,50 @@
 	START_DATE = "2036.1.1" 
 	END_DATE = "2236.1.1" 
 }
-
+		
 NPops = {
+	#以下数值的单位均为月，而游戏中显示的是年
+
+	POP_GROWTH_MAX_BIRTHRATE = 0.0001					
+	#基础出生率
+	POP_GROWTH_BIRTHRATE_AT_DELTA_CAP = 0.000095
+	#拐点出生率
+	POP_GROWTH_MIN_BIRTHRATE = 0.00009					
+	#饱和点出生率
+	POP_GROWTH_BIRTHRATE_REDUCTION_PER_SOL = 0
+	#出生率下降斜率
+
+	POP_GROWTH_MAX_MORTALITY = 0.00833 #10%，平均寿命10		
+	#基础死亡率
+
+	POP_GROWTH_STARVING_SLOPE = -0.000625
+	#平衡点前死亡率斜率
+
+	POP_GROWTH_SOL_EQUILIBRIUM = 8
+	#平衡点
+	POP_GROWTH_MORTALITY_AT_EQUILIBRIUM = 0.00333 #4%，平均寿命25
+	#平衡点死亡率
+	
+	POP_GROWTH_IMPROVING_SLOPE = -0.0001388
+	#拐点前死亡率斜率
+	POP_GROWTH_IMPROVING_INTERCEPT = 0.00444
+	#拐点前死亡率截距
+
+	POP_GROWTH_SOL_DELTA_CAP = 20		
+	#拐点
+	#拐点死亡率 0.001666 #2%，平均寿命50
+
+	POP_GROWTH_FIXED_DELTA_SLOPE = -0.00001666
+	#末端死亡率斜率
+	POP_GROWTH_FIXED_DELTA_INTERCEPT = 0.002
+	#末端死亡率截距	
+
+	POP_GROWTH_SOL_CAP = 60					
+	#饱和点
+	POP_GROWTH_MIN_MORTALITY = 0.001 #1.2%,平均寿命83					
+	#保和点死亡率
+	
+	
 	CONVERSION_RATE = 0.0						# Percentage of pops who will Convert into a different Religion each month, if eligible
 	MIN_CONVERSION = 0							# If there is any conversion at least this many people will convert
 	
@@ -70,21 +112,23 @@ NEconomy = {
 	MIN_GOODS_PRICE	= 0.1							# A good cannot have a lower base price than this
 	PRICE_RANGE = 0.99   						# min price of a good is base * (1 - PRICE_RANGE), Max price is base * (1 + PRICE_RANGE), PRICE_RANGE is locked to [0-1]
 	BUY_SELL_DIFF_AT_MAX_FACTOR = 3				# the difference between buy/consumption and sell/production at min/max pricing, e.g. if set to 4 then if buy orders are 4x sell orders price is maxed
-	GOODS_SHORTAGE_PENALTY_THRESHOLD = 0.20		# If supply / demand is lower than this, start applying output penalties, by default this should ( 1 / BUY_SELL_DIFF_AT_MAX_FACTOR )
-	GOODS_SHORTAGE_PENALTY_DRIFT_SPEED = 0.02   # Goods shortage penalty updates by this amount towards target each day
-    GOODS_SHORTAGE_PENALTY_MAX = 0.95			# Goods shortage penalty can't be higher than this
-	
-	MAX_WEEKLY_CONSTRUCTION_PROGRESS = 500				# Max construction progress per week on a single project
-	
+	GOODS_SHORTAGE_PENALTY_THRESHOLD = 0.30		# If supply / demand is lower than this, start applying output penalties, by default this should be ( 1 / BUY_SELL_DIFF_AT_MAX_FACTOR )
+	GOODS_SHORTAGE_PENALTY_INCREASE_SPEED = 0.01  	# Goods shortage penalty increases by this fraction of the target each day
+    GOODS_SHORTAGE_PENALTY_DECREASE_SPEED = 0.02  	# Goods shortage penalty goes down by this fraction of GOODS_SHORTAGE_PENALTY_MAX each day
+    GOODS_SHORTAGE_PENALTY_MIN = 0.05			# Goods shortage penalty can't be lower than this if there is any shortage
+	GOODS_SHORTAGE_PENALTY_MAX = 0.90			# Goods shortage penalty can't be higher than this
 	
 	BUILDING_INITIAL_WAGE_WEEKS = 2				# A building will not adjust its wages for the first this many weeks of its existence
 	MAX_WAGE_STEP_CHANGE = 0.1					# Wage rates can change at most this much each week
 	SUBSIDIES_MIN_GAIN = 100						# If a building is subsidized, it will always collect enough subsidies to ensure at least this weekly cash reserve growth
-	HIRING_RATE = 3000 							# Max number of laborers we’re allowed a building to hire or fire each market update
-	MIN_PROFIT_FOR_HIRING = 0.2					# Minimum % income a building wants to have as profit before considering hiring more employees ( and raising wages )
-	MIN_WAGE_RATE = 1							# The wage rate can never drop below this, no matter what (weekly £ per POP_SIZE_PACKAGE employees)
-	MIN_RAISE_TO_HIRE = 0.05					# The minimum required increase in wages for an employee to switch jobs (1.0 = +100% = x2)
-	
+	HIRING_RATE = 0.1 							# Max number of laborers we’re allowed a building to hire or fire each market update
+	EMPLOYMENT_PROPORTIONALITY_LIMIT = 0.05		# A building cannot have a difference of ratio of full employment between any two professions greater than this limit
+	BUILDING_INIT_PROFIT_TARGET_MIN = 0.10 		# Minimum % income a building wants to have as profit during initialization (will decrease wages towards this)
+	BUILDING_INIT_PROFIT_TARGET_MAX = 0.20 		# Maximum % income a building wants to have as profit during initialization (will increase wages towards this)
+	BUILDING_PROFIT_TARGET_TO_RAISE_WAGES = 0.2	# Required profit margin raise wages no matter what, with BUILDING_WEEKS_BETWEEN_PAY_RAISES weeks cooldown
+	BUILDING_WEEKS_BETWEEN_PAY_RAISES = 26		# Cooldown between pay raises no matter what
+	MIN_RAISE_TO_HIRE = 0.10					# The minimum required increase in wages for an employee to switch jobs (1.0 = +100% = x2)
+
 	BASE_RESOURCE_DISCOVER_CHANCE = 0.02 		# Per day (1.0 = 1%)
 	EMPLOYMENT_RESOURCE_DEPLETE_CHANCE = 0.001	# Multiplied by number of fully employed levels of the building
 	DEFAULT_RESOURCE_DISCOVER_MIN_AMOUNT = 2	# Min amount of resources that will be discovered for each successful roll
@@ -97,14 +141,6 @@ NEconomy = {
 	IN_DEFAULT_DAYS_TO_FULL_PENALTY = 60				# How many days of being in default does it take to get the full throughput penalty
 	DECLARE_BANKRUPTCY_PENALTY_DURATION_YEARS = 10		# How many years does it take for penalties from declaring bankruptcy to fully decay
 	DECLARE_BANKRUPTCY_RADICALIZATION_SHARES_FACTOR = 0.9 # For each per-pop shares in their building, radicalize this percentage of a pop on 
-}
-NPolitics = {
-	MIN_RADICALISM_FOR_REVOLUTION = 500
-}
-NAI = {
-	CONSTRUCTION_MAX_NUM_EXISTING_CONSTRUCTIONS_BASE = 3 # If country has this number of constructions queued, don't add anymore (base)
-	CONSTRUCTION_MAX_NUM_EXISTING_CONSTRUCTIONS_SCALED = 0.01 # If country has this number of constructions queued, don't add anymore (scaled by construction production)
-	CONSTRUCTION_MAX_NUM_EXISTING_CONSTRUCTIONS_SCALED_MAX = 5 # CONSTRUCTION_MAX_NUM_EXISTING_CONSTRUCTIONS_SCALED can't be higher than this	
 }
 #开局镜头位置
 NFrontend = {
