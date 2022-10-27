@@ -34,3 +34,9 @@ on_resource_depleted = {
 
 breakout_on_resource_depleted = {
 }
+
+on_country_default = {
+}
+
+on_country_no_longer_default = {
+}

@@ -200,5 +200,6 @@ decentralized_power = {
 		country_diplomatic_play_maneuvers_add = 30
 		building_throughput_mult = -0.33
 		state_tax_waste_add = 1
+		state_mortality_mult = -5
 	}
 }
