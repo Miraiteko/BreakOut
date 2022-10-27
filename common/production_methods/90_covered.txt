@@ -65,7 +65,7 @@ pm_serfdom_no = {
 			building_employment_breeder_add = 10000
 		}			
 		workforce_scaled = {
-			building_output_breed_add = 2
+			building_output_breed_add = 1
 		}	
 		unscaled = {
 			building_subsistence_output_add = 0.5
@@ -90,7 +90,7 @@ pm_serfdom = {
 		workforce_scaled = {
 			building_output_fabric_add = 1
 			building_output_wood_add = 0.5
-			building_output_breed_add = 2.4
+			building_output_breed_add = 1.2
 		}
 
 		level_scaled = {
@@ -213,7 +213,7 @@ pm_serfdom_building_subsistence_pastures = {
 	building_modifiers = {
 		workforce_scaled = {
 			building_output_meat_add = 1
-			building_output_breed_add = 2.4
+			building_output_breed_add = 1.2
 		}	
 		level_scaled = {
 			building_employment_peasants_add = 5000
