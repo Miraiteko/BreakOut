@@ -52,7 +52,13 @@
  concept_urban_center_desc:0 "城镇化建筑是[concept_urbanization]创建的一种特殊[concept_building]，主要包括了#v $building_urban_center$#!与#v $bg_illegal$#!。"
  building_urban_center:0 "集市"
  TOTAL_URBAN_CENTERS:0 "#v $building_urban_center$#!规模："
- 
+ declared_bankruptcy:0 "宣布破产"
+ modifier_building_group_bg_government_throughput_mult:0 "政府建筑吞吐量" 
+ modifier_building_group_bg_government_throughput_mult_desc:0 "对政府建筑的吞吐量的修正"
+ modifier_building_group_bg_infrastructure_throughput_mult:0 "基础设施吞吐量"
+ modifier_building_group_bg_infrastructure_throughput_mult_desc:0 "对基础设施的吞吐量的修正"
+ modifier_building_group_bg_military_throughput_mult:0 "军事建筑吞吐量"
+ modifier_building_group_bg_military_throughput_mult_desc:0 "对军事建筑的吞吐量的修正"
  
  #暂时的国家位置构思
  

@@ -5,63 +5,63 @@ breed_ratio_modifier_00 = {
 }
 breed_ratio_modifier_05 = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_positive.dds
-	state_birth_rate_mult = 20
+	state_birth_rate_mult = 10
 }
 breed_ratio_modifier_10 = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_positive.dds
-	state_birth_rate_mult = 40
+	state_birth_rate_mult = 20
 }
 breed_ratio_modifier_15 = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_positive.dds
-	state_birth_rate_mult = 60
+	state_birth_rate_mult = 30
 }
 breed_ratio_modifier_20 = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_positive.dds
-	state_birth_rate_mult = 80
+	state_birth_rate_mult = 40
 }
 breed_ratio_modifier_25 = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_positive.dds
-	state_birth_rate_mult = 100
+	state_birth_rate_mult = 50
 }
 breed_ratio_modifier_30 = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_positive.dds
-	state_birth_rate_mult = 120
+	state_birth_rate_mult = 60
 }
 breed_ratio_modifier_35 = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_positive.dds
-	state_birth_rate_mult = 140
+	state_birth_rate_mult = 70
 }
 breed_ratio_modifier_40 = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_positive.dds
-	state_birth_rate_mult = 160
+	state_birth_rate_mult = 80
 }
 breed_ratio_modifier_45 = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_positive.dds
-	state_birth_rate_mult = 180
+	state_birth_rate_mult = 90
 }
 breed_ratio_modifier_50 = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_positive.dds
-	state_birth_rate_mult = 200
+	state_birth_rate_mult = 100
 }
 breed_ratio_modifier_55 = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_positive.dds
-	state_birth_rate_mult = 220
+	state_birth_rate_mult = 110
 }
 breed_ratio_modifier_60 = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_positive.dds
-	state_birth_rate_mult = 240
+	state_birth_rate_mult = 120
 }
 breed_ratio_modifier_65 = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_positive.dds
-	state_birth_rate_mult = 260
+	state_birth_rate_mult = 130
 }
 breed_ratio_modifier_70 = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_positive.dds
-	state_birth_rate_mult = 280
+	state_birth_rate_mult = 140
 }
 breed_ratio_modifier_75 = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_positive.dds
-	state_birth_rate_mult = 300
+	state_birth_rate_mult = 150
 }
 
 #受教育机会

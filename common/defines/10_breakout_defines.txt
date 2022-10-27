@@ -6,11 +6,11 @@
 NPops = {
 	#以下数值的单位均为月，而游戏中显示的是年
 
-	POP_GROWTH_MAX_BIRTHRATE = 0.0001					
+	POP_GROWTH_MAX_BIRTHRATE = 0.00015					
 	#基础出生率
-	POP_GROWTH_BIRTHRATE_AT_DELTA_CAP = 0.000095
+	POP_GROWTH_BIRTHRATE_AT_DELTA_CAP = 0.00014
 	#拐点出生率
-	POP_GROWTH_MIN_BIRTHRATE = 0.00009					
+	POP_GROWTH_MIN_BIRTHRATE = 0.00013					
 	#饱和点出生率
 	POP_GROWTH_BIRTHRATE_REDUCTION_PER_SOL = 0
 	#出生率下降斜率
@@ -98,8 +98,8 @@ NPops = {
 	
 } 
 NEconomy = {
-		COUNTRY_MIN_CREDIT_BASE = 10000			# Added to the total Building Cash Reserves to determine credit limit (base)
-	COUNTRY_MIN_CREDIT_SCALED = 0.00 			# Added to the total Building Cash Reserves to determine credit limit (multiplied by GDP)
+	COUNTRY_MIN_CREDIT_BASE = 10000			# Added to the total Building Cash Reserves to determine credit limit (base)
+	COUNTRY_MIN_CREDIT_SCALED = 0.00001 			# Added to the total Building Cash Reserves to determine credit limit (multiplied by GDP)
 
 	ECONOMY_OF_SCALE_MAX_MULTIPLIER = 25				# Beyond this many building levels, do not apply further economy of scale bonuses
 	ECONOMY_OF_SCALE_START_LEVEL = 11					# Level at which buildings start getting economy of scale bonuses. Levels lower than this value provide no bonus [>=1]
@@ -140,8 +140,8 @@ NEconomy = {
 	DEFAULT_RESOURCE_DEPLETE_MIN_AMOUNT = 2		# Min amount of resources that will be depleted for each successful roll
 	DEFAULT_RESOURCE_DEPLETE_MAX_AMOUNT = 4		# Max amount of resources that will be depleted for each successful roll	
 		
-	IN_DEFAULT_MINIMUM_PENALTY_SCALE = 0.5				# This amount of the 'in default' throughput penalty is applied right away
-	IN_DEFAULT_DAYS_TO_FULL_PENALTY = 60				# How many days of being in default does it take to get the full throughput penalty
+	IN_DEFAULT_MINIMUM_PENALTY_SCALE = 0.05				# This amount of the 'in default' throughput penalty is applied right away
+	IN_DEFAULT_DAYS_TO_FULL_PENALTY = 365				# How many days of being in default does it take to get the full throughput penalty
 	DECLARE_BANKRUPTCY_PENALTY_DURATION_YEARS = 10		# How many years does it take for penalties from declaring bankruptcy to fully decay
 	DECLARE_BANKRUPTCY_RADICALIZATION_SHARES_FACTOR = 0.9 # For each per-pop shares in their building, radicalize this percentage of a pop on 
 }
