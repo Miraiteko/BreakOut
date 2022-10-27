@@ -1,415 +1,6 @@
-﻿#出生率结算
-breed_ratio_monthly_check = {
+﻿#出生抚育者比例结算
+breeder_ratio_monthly_check = {
 	save_scope_as = checked_country
-	
-	#计算各个地区的劳动力再生产能力
-	every_scope_state = {
-		save_scope_as = checked_state
-		#计算劳动力再生产能力
-		set_variable = {
-			name = breed_power
-			value = 0
-		}
-		set_variable = {
-			name = breed_quality
-			value = 0
-		}
-		every_scope_building = {
-			limit = {
-				OR = { #自给农业
-					is_building_type = building_subsistence_farms
-					is_building_type = building_subsistence_orchards
-					is_building_type = building_subsistence_pastures
-				}
-			}
-			if = {
-				limit = { 
-					OR = { #农奴制
-						has_active_production_method = pm_serfdom 
-						has_active_production_method = pm_serfdom_building_subsistence_pastures
-					}
-				}
-				scope:checked_state = {
-					change_variable = {
-						name = breed_power
-						add = {
-							value = 24000 #农奴制一级提供24000再生产
-							multiply = PREV.occupancy
-							multiply = PREV.level
-						}
-					}
-				}
-			}
-			else = {
-				scope:checked_state = {
-					change_variable = {
-						name = breed_power
-						add = {
-							value = 20000 #自耕农一级提供20000再生产
-							multiply = PREV.occupancy
-							multiply = PREV.level
-						}
-					}
-					change_variable = {
-						name = breed_quality
-						add = {
-							value = 1000 #自耕农一级提供1000质量
-							multiply = PREV.occupancy
-							multiply = PREV.level
-						}
-					}
-				}
-			}
-		}
-		every_scope_building = {
-			limit = {
-				OR = { #居民区
-					is_building_type = breed_center
-				}
-			}
-			if = {
-				limit = { has_active_production_method = pm_tradition_breeder } #多子多福
-				scope:checked_state = {
-					change_variable = {
-						name = breed_power
-						add = {
-							value = 14000 #多子多福一级提供14000
-							multiply = PREV.occupancy
-							multiply = PREV.level
-						}
-					}
-					change_variable = {
-						name = breed_quality
-						add = {
-							value = 4200 #多子多福一级提供4200质量
-							multiply = PREV.occupancy
-							multiply = PREV.level
-						}
-					}
-				}
-			}
-			else = {
-				scope:checked_state = {
-					change_variable = {
-						name = breed_power
-						add = {
-							value = 10000 #优生优育一级提供10000
-							multiply = PREV.occupancy
-							multiply = PREV.level
-						}
-					}
-					change_variable = {
-						name = breed_quality
-						add = {
-							value = 5000 #优生优育一级提供5000质量
-							multiply = PREV.occupancy
-							multiply = PREV.level
-						}
-					}
-				}
-			}
-		}
-		
-		#计算劳动力再生产能力
-		set_variable = {
-			name = breed_ratio
-			value = var:breed_power
-		}
-		
-		change_variable = {
-			name = breed_ratio
-			divide = {
-				value = state_population
-				min = 1
-			}
-		}
-		#按照比例决定生育率buff
-		if = {
-			limit = {
-				var:breed_ratio <= 0.18
-			}
-			if ={
-				limit = {
-					var:breed_ratio <= 0.08
-				}
-				if ={
-					limit = {
-						var:breed_ratio <= 0.03
-					}
-					add_modifier = {
-						name = breed_ratio_modifier_00
-						months = 1
-					}
-				}
-				else = {
-					add_modifier = {
-						name = breed_ratio_modifier_05
-						months = 1
-					}
-				}
-			}	
-			else ={
-				if ={
-					limit = {
-						var:breed_ratio <= 0.13
-					}
-					add_modifier = {
-						name = breed_ratio_modifier_10
-						months = 1
-					}
-				}
-				else = {
-					add_modifier = {
-						name = breed_ratio_modifier_15
-						months = 1
-					}
-				}
-			}	
-		}
-		else_if = {
-			limit = {
-				var:breed_ratio <= 0.38
-			}
-			if ={
-				limit = {
-					var:breed_ratio <= 0.28
-				}
-				if ={
-					limit = {
-						var:breed_ratio <= 0.23
-					}
-					add_modifier = {
-						name = breed_ratio_modifier_20
-						months = 1
-					}
-				}
-				else = {
-					add_modifier = {
-						name = breed_ratio_modifier_25
-						months = 1
-					}
-				}
-			}	
-			else ={
-				if ={
-					limit = {
-						var:breed_ratio <= 0.33
-					}
-					add_modifier = {
-						name = breed_ratio_modifier_30
-						months = 1
-					}
-				}
-				else = {
-					add_modifier = {
-						name = breed_ratio_modifier_35
-						months = 1
-					}
-				}
-			}	
-		}
-		else_if = {
-			limit = {
-				var:breed_ratio <= 0.58
-			}
-			if ={
-				limit = {
-					var:breed_ratio <= 0.48
-				}
-				if ={
-					limit = {
-						var:breed_ratio <= 0.43
-					}
-					add_modifier = {
-						name = breed_ratio_modifier_40
-						months = 1
-					}
-				}
-				else = {
-					add_modifier = {
-						name = breed_ratio_modifier_45
-						months = 1
-					}
-				}
-			}	
-			else ={
-				if ={
-					limit = {
-						var:breed_ratio <= 0.53
-					}
-					add_modifier = {
-						name = breed_ratio_modifier_50
-						months = 1
-					}
-				}
-				else = {
-					add_modifier = {
-						name = breed_ratio_modifier_55
-						months = 1
-					}
-				}
-			}
-		}
-		else = {
-			if ={
-				limit = {
-					var:breed_ratio <= 0.63
-				}
-				add_modifier = {
-					name = breed_ratio_modifier_60
-					months = 1
-				}
-			}	
-			else_if ={
-				limit = {
-					var:breed_ratio <= 0.68
-				}
-				add_modifier = {
-					name = breed_ratio_modifier_65
-					months = 1
-				}
-			}	
-			else_if ={
-				limit = {
-					var:breed_ratio <= 0.73
-				}
-				add_modifier = {
-					name = breed_ratio_modifier_70
-					months = 1
-				}
-			}	
-			else ={
-				add_modifier = {
-					name = breed_ratio_modifier_75
-					months = 1
-				}
-			}
-		}
-		
-		#计算基础受教育机会
-		set_variable = {
-			name = base_education_access
-			value = var:breed_quality
-		}
-		change_variable = {
-			name = base_education_access
-			divide = {
-				value = var:breed_power
-				min = 1
-			}
-		}
-		#按照比例决定受教育机会buff
-		if = {
-			limit = {
-				var:base_education_access <= 0.18
-			}
-			if ={
-				limit = {
-					var:base_education_access <= 0.08
-				}
-				if ={
-					limit = {
-						var:base_education_access <= 0.03
-					}
-					add_modifier = {
-						name = base_education_access_modifier_00
-						months = 1
-					}
-				}
-				else = {
-					add_modifier = {
-						name = base_education_access_modifier_05
-						months = 1
-					}
-				}
-			}	
-			else ={
-				if ={
-					limit = {
-						var:base_education_access <= 0.13
-					}
-					add_modifier = {
-						name = base_education_access_modifier_10
-						months = 1
-					}
-				}
-				else = {
-					add_modifier = {
-						name = base_education_access_modifier_15
-						months = 1
-					}
-				}
-			}	
-		}
-		else_if = {
-			limit = {
-				var:base_education_access <= 0.38
-			}
-			if ={
-				limit = {
-					var:base_education_access <= 0.28
-				}
-				if ={
-					limit = {
-						var:base_education_access <= 0.23
-					}
-					add_modifier = {
-						name = base_education_access_modifier_20
-						months = 1
-					}
-				}
-				else = {
-					add_modifier = {
-						name = base_education_access_modifier_25
-						months = 1
-					}
-				}
-			}	
-			else ={
-				if ={
-					limit = {
-						var:base_education_access <= 0.33
-					}
-					add_modifier = {
-						name = base_education_access_modifier_30
-						months = 1
-					}
-				}
-				else = {
-					add_modifier = {
-						name = base_education_access_modifier_35
-						months = 1
-					}
-				}
-			}	
-		}
-		else_if = {
-			limit = {
-				var:base_education_access <= 0.48
-			}
-			if ={
-				limit = {
-					var:base_education_access <= 0.43
-				}
-				add_modifier = {
-					name = base_education_access_modifier_40
-					months = 1
-				}
-			}
-			else = {
-				add_modifier = {
-					name = base_education_access_modifier_45
-					months = 1
-				}
-			}
-		}
-		else = {
-			add_modifier = {
-				name = base_education_access_modifier_50
-				months = 1
-			}
-		}
-	}
 	
 	#计算抚育者资质参数
 	#下限
@@ -482,208 +73,613 @@ breed_ratio_monthly_check = {
 		}
 	}
 }
-#生产经验结算
-production_exp_monthly_check = {
-	save_scope_as = checked_country
-	
-	every_scope_state = {
-		save_scope_as = checked_state
-		#建筑暂时不能储存变量，储存在地区上进行测试
-	
+#出生率结算
+state_breed_monthly_check = {
+	#计算各个地区的劳动力再生产能力
+	save_scope_as = checked_state
+	#计算劳动力再生产能力
+	set_variable = {
+		name = breed_power
+		value = 0
+	}
+	set_variable = {
+		name = breed_quality
+		value = 0
+	}
+	every_scope_building = {
+		limit = {
+			OR = { #自给农业
+				is_building_type = building_subsistence_farms
+				is_building_type = building_subsistence_orchards
+				is_building_type = building_subsistence_pastures
+			}
+		}
 		if = {
 			limit = { 
-				NOT = { has_variable = production_exp }
+				OR = { #农奴制
+					has_active_production_method = pm_serfdom 
+					has_active_production_method = pm_serfdom_building_subsistence_pastures
+				}
 			}
-			set_variable = {
-				name = production_exp
-				value = 0
+			scope:checked_state = {
+				change_variable = {
+					name = breed_power
+					add = {
+						value = 24000 #农奴制一级提供24000再生产
+						multiply = PREV.occupancy
+						multiply = PREV.level
+					}
+				}
 			}
 		}
-		#计算增长
-		set_variable = { #来自于基建的增长
-			name = production_exp_change
-			value = {
-				value = infrastructure
-				multiply = 0.01
+		else = {
+			scope:checked_state = {
+				change_variable = {
+					name = breed_power
+					add = {
+						value = 20000 #自耕农一级提供20000再生产
+						multiply = PREV.occupancy
+						multiply = PREV.level
+					}
+				}
+				change_variable = {
+					name = breed_quality
+					add = {
+						value = 1000 #自耕农一级提供1000质量
+						multiply = PREV.occupancy
+						multiply = PREV.level
+					}
+				}
 			}
 		}
-		change_variable = { #衰退
-			name = production_exp_change
-			subtract = {
-				value = var:production_exp
-				multiply = 0.05
+	}
+	every_scope_building = {
+		limit = {
+			OR = { #居民区
+				is_building_type = breed_center
 			}
 		}
-		change_variable = {
-			name = production_exp
-			add = var:production_exp_change
-		}		
-		
-		
-		
-		#根据生产经验给buff
-		every_scope_building = {
-			limit = { always = yes }
-			#给buff
-			if = {
-				limit = {
-					state = { var:production_exp <= 20 }
+		if = {
+			limit = { has_active_production_method = pm_tradition_breeder } #多子多福
+			scope:checked_state = {
+				change_variable = {
+					name = breed_power
+					add = {
+						value = 14000 #多子多福一级提供14000
+						multiply = PREV.occupancy
+						multiply = PREV.level
+					}
 				}
-				if ={
-					limit = {
-						state = { var:production_exp <= 10 }
+				change_variable = {
+					name = breed_quality
+					add = {
+						value = 4200 #多子多福一级提供4200质量
+						multiply = PREV.occupancy
+						multiply = PREV.level
 					}
-					if ={
-						limit = {
-							state = { var:production_exp <= 05 }
-						}
-						add_modifier = {
-							name = production_exp_modifier_00
-							months = 1
-						}
-					}
-					else = {
-						add_modifier = {
-							name = production_exp_modifier_05
-							months = 1
-						}
-					}
-				}	
-				else ={
-					if ={
-						limit = {
-							state = { var:production_exp <= 15 }
-						}
-						add_modifier = {
-							name = production_exp_modifier_10
-							months = 1
-						}
-					}
-					else = {
-						add_modifier = {
-							name = production_exp_modifier_15
-							months = 1
-						}
-					}
-				}	
+				}
 			}
-			else_if = {
-				limit = {
-					state = { var:production_exp <= 40 }
+		}
+		else = {
+			scope:checked_state = {
+				change_variable = {
+					name = breed_power
+					add = {
+						value = 10000 #优生优育一级提供10000
+						multiply = PREV.occupancy
+						multiply = PREV.level
+					}
 				}
-				if ={
-					limit = {
-						state = { var:production_exp <= 30 }
+				change_variable = {
+					name = breed_quality
+					add = {
+						value = 5000 #优生优育一级提供5000质量
+						multiply = PREV.occupancy
+						multiply = PREV.level
 					}
-					if ={
-						limit = {
-							state = { var:production_exp <= 25 }
-						}
-						add_modifier = {
-							name = production_exp_modifier_20
-							months = 1
-						}
-					}
-					else = {
-						add_modifier = {
-							name = production_exp_modifier_25
-							months = 1
-						}
-					}
-				}	
-				else ={
-					if ={
-						limit = {
-							state = { var:production_exp <= 35 }
-						}
-						add_modifier = {
-							name = production_exp_modifier_30
-							months = 1
-						}
-					}
-					else = {
-						add_modifier = {
-							name = production_exp_modifier_35
-							months = 1
-						}
-					}
-				}	
+				}
 			}
-			else_if = {
+		}
+	}
+	
+	#计算劳动力再生产能力
+	set_variable = {
+		name = breed_ratio
+		value = var:breed_power
+	}
+	
+	change_variable = {
+		name = breed_ratio
+		divide = {
+			value = state_population
+			min = 1
+		}
+	}
+	#按照比例决定生育率buff
+	if = {
+		limit = {
+			var:breed_ratio <= 0.18
+		}
+		if ={
+			limit = {
+				var:breed_ratio <= 0.08
+			}
+			if ={
 				limit = {
-					state = { var:production_exp <= 60 }
+					var:breed_ratio <= 0.03
 				}
-				if ={
-					limit = {
-						state = { var:production_exp <= 50 }
-					}
-					if ={
-						limit = {
-							state = { var:production_exp <= 45 }
-						}
-						add_modifier = {
-							name = production_exp_modifier_40
-							months = 1
-						}
-					}
-					else = {
-						add_modifier = {
-							name = production_exp_modifier_45
-							months = 1
-						}
-					}
-				}	
-				else ={
-					if ={
-						limit = {
-							state = { var:production_exp <= 55 }
-						}
-						add_modifier = {
-							name = production_exp_modifier_50
-							months = 1
-						}
-					}
-					else = {
-						add_modifier = {
-							name = production_exp_modifier_55
-							months = 1
-						}
-					}
+				add_modifier = {
+					name = breed_ratio_modifier_00
+					months = 1
 				}
 			}
 			else = {
+				add_modifier = {
+					name = breed_ratio_modifier_05
+					months = 1
+				}
+			}
+		}	
+		else ={
+			if ={
+				limit = {
+					var:breed_ratio <= 0.13
+				}
+				add_modifier = {
+					name = breed_ratio_modifier_10
+					months = 1
+				}
+			}
+			else = {
+				add_modifier = {
+					name = breed_ratio_modifier_15
+					months = 1
+				}
+			}
+		}	
+	}
+	else_if = {
+		limit = {
+			var:breed_ratio <= 0.38
+		}
+		if ={
+			limit = {
+				var:breed_ratio <= 0.28
+			}
+			if ={
+				limit = {
+					var:breed_ratio <= 0.23
+				}
+				add_modifier = {
+					name = breed_ratio_modifier_20
+					months = 1
+				}
+			}
+			else = {
+				add_modifier = {
+					name = breed_ratio_modifier_25
+					months = 1
+				}
+			}
+		}	
+		else ={
+			if ={
+				limit = {
+					var:breed_ratio <= 0.33
+				}
+				add_modifier = {
+					name = breed_ratio_modifier_30
+					months = 1
+				}
+			}
+			else = {
+				add_modifier = {
+					name = breed_ratio_modifier_35
+					months = 1
+				}
+			}
+		}	
+	}
+	else_if = {
+		limit = {
+			var:breed_ratio <= 0.58
+		}
+		if ={
+			limit = {
+				var:breed_ratio <= 0.48
+			}
+			if ={
+				limit = {
+					var:breed_ratio <= 0.43
+				}
+				add_modifier = {
+					name = breed_ratio_modifier_40
+					months = 1
+				}
+			}
+			else = {
+				add_modifier = {
+					name = breed_ratio_modifier_45
+					months = 1
+				}
+			}
+		}	
+		else ={
+			if ={
+				limit = {
+					var:breed_ratio <= 0.53
+				}
+				add_modifier = {
+					name = breed_ratio_modifier_50
+					months = 1
+				}
+			}
+			else = {
+				add_modifier = {
+					name = breed_ratio_modifier_55
+					months = 1
+				}
+			}
+		}
+	}
+	else = {
+		if ={
+			limit = {
+				var:breed_ratio <= 0.63
+			}
+			add_modifier = {
+				name = breed_ratio_modifier_60
+				months = 1
+			}
+		}	
+		else_if ={
+			limit = {
+				var:breed_ratio <= 0.68
+			}
+			add_modifier = {
+				name = breed_ratio_modifier_65
+				months = 1
+			}
+		}	
+		else_if ={
+			limit = {
+				var:breed_ratio <= 0.73
+			}
+			add_modifier = {
+				name = breed_ratio_modifier_70
+				months = 1
+			}
+		}	
+		else ={
+			add_modifier = {
+				name = breed_ratio_modifier_75
+				months = 1
+			}
+		}
+	}
+	
+	#计算基础受教育机会
+	set_variable = {
+		name = base_education_access
+		value = var:breed_quality
+	}
+	change_variable = {
+		name = base_education_access
+		divide = {
+			value = var:breed_power
+			min = 1
+		}
+	}
+	#按照比例决定受教育机会buff
+	if = {
+		limit = {
+			var:base_education_access <= 0.18
+		}
+		if ={
+			limit = {
+				var:base_education_access <= 0.08
+			}
+			if ={
+				limit = {
+					var:base_education_access <= 0.03
+				}
+				add_modifier = {
+					name = base_education_access_modifier_00
+					months = 1
+				}
+			}
+			else = {
+				add_modifier = {
+					name = base_education_access_modifier_05
+					months = 1
+				}
+			}
+		}	
+		else ={
+			if ={
+				limit = {
+					var:base_education_access <= 0.13
+				}
+				add_modifier = {
+					name = base_education_access_modifier_10
+					months = 1
+				}
+			}
+			else = {
+				add_modifier = {
+					name = base_education_access_modifier_15
+					months = 1
+				}
+			}
+		}	
+	}
+	else_if = {
+		limit = {
+			var:base_education_access <= 0.38
+		}
+		if ={
+			limit = {
+				var:base_education_access <= 0.28
+			}
+			if ={
+				limit = {
+					var:base_education_access <= 0.23
+				}
+				add_modifier = {
+					name = base_education_access_modifier_20
+					months = 1
+				}
+			}
+			else = {
+				add_modifier = {
+					name = base_education_access_modifier_25
+					months = 1
+				}
+			}
+		}	
+		else ={
+			if ={
+				limit = {
+					var:base_education_access <= 0.33
+				}
+				add_modifier = {
+					name = base_education_access_modifier_30
+					months = 1
+				}
+			}
+			else = {
+				add_modifier = {
+					name = base_education_access_modifier_35
+					months = 1
+				}
+			}
+		}	
+	}
+	else_if = {
+		limit = {
+			var:base_education_access <= 0.48
+		}
+		if ={
+			limit = {
+				var:base_education_access <= 0.43
+			}
+			add_modifier = {
+				name = base_education_access_modifier_40
+				months = 1
+			}
+		}
+		else = {
+			add_modifier = {
+				name = base_education_access_modifier_45
+				months = 1
+			}
+		}
+	}
+	else = {
+		add_modifier = {
+			name = base_education_access_modifier_50
+			months = 1
+		}
+	}
+}
+#生产经验结算
+production_exp_monthly_check = {
+	save_scope_as = checked_state
+	#建筑暂时不能储存变量，储存在地区上进行测试
+
+	if = {
+		limit = { 
+			NOT = { has_variable = production_exp }
+		}
+		set_variable = {
+			name = production_exp
+			value = 0
+		}
+	}
+	#计算增长
+	set_variable = { #来自于基建的增长
+		name = production_exp_change
+		value = {
+			value = infrastructure
+			multiply = 0.01
+		}
+	}
+	change_variable = { #衰退
+		name = production_exp_change
+		subtract = {
+			value = var:production_exp
+			multiply = 0.05
+		}
+	}
+	change_variable = {
+		name = production_exp
+		add = var:production_exp_change
+	}		
+	
+	
+	
+	#根据生产经验给buff
+	every_scope_building = {
+		limit = { always = yes }
+		#给buff
+		if = {
+			limit = {
+				state = { var:production_exp <= 20 }
+			}
+			if ={
+				limit = {
+					state = { var:production_exp <= 10 }
+				}
 				if ={
 					limit = {
-						state = { var:production_exp <= 65 }
+						state = { var:production_exp <= 05 }
 					}
 					add_modifier = {
-						name = production_exp_modifier_60
+						name = production_exp_modifier_00
 						months = 1
 					}
-				}	
-				else_if ={
+				}
+				else = {
+					add_modifier = {
+						name = production_exp_modifier_05
+						months = 1
+					}
+				}
+			}	
+			else ={
+				if ={
 					limit = {
-						state = { var:production_exp <= 70 }
+						state = { var:production_exp <= 15 }
 					}
 					add_modifier = {
-						name = production_exp_modifier_65
+						name = production_exp_modifier_10
 						months = 1
 					}
-				}	
-				else_if ={
+				}
+				else = {
+					add_modifier = {
+						name = production_exp_modifier_15
+						months = 1
+					}
+				}
+			}	
+		}
+		else_if = {
+			limit = {
+				state = { var:production_exp <= 40 }
+			}
+			if ={
+				limit = {
+					state = { var:production_exp <= 30 }
+				}
+				if ={
 					limit = {
-						state = { var:production_exp <= 75 }
+						state = { var:production_exp <= 25 }
 					}
 					add_modifier = {
-						name = production_exp_modifier_70
+						name = production_exp_modifier_20
 						months = 1
 					}
-				}	
-				else ={
+				}
+				else = {
 					add_modifier = {
-						name = production_exp_modifier_75
+						name = production_exp_modifier_25
 						months = 1
 					}
+				}
+			}	
+			else ={
+				if ={
+					limit = {
+						state = { var:production_exp <= 35 }
+					}
+					add_modifier = {
+						name = production_exp_modifier_30
+						months = 1
+					}
+				}
+				else = {
+					add_modifier = {
+						name = production_exp_modifier_35
+						months = 1
+					}
+				}
+			}	
+		}
+		else_if = {
+			limit = {
+				state = { var:production_exp <= 60 }
+			}
+			if ={
+				limit = {
+					state = { var:production_exp <= 50 }
+				}
+				if ={
+					limit = {
+						state = { var:production_exp <= 45 }
+					}
+					add_modifier = {
+						name = production_exp_modifier_40
+						months = 1
+					}
+				}
+				else = {
+					add_modifier = {
+						name = production_exp_modifier_45
+						months = 1
+					}
+				}
+			}	
+			else ={
+				if ={
+					limit = {
+						state = { var:production_exp <= 55 }
+					}
+					add_modifier = {
+						name = production_exp_modifier_50
+						months = 1
+					}
+				}
+				else = {
+					add_modifier = {
+						name = production_exp_modifier_55
+						months = 1
+					}
+				}
+			}
+		}
+		else = {
+			if ={
+				limit = {
+					state = { var:production_exp <= 65 }
+				}
+				add_modifier = {
+					name = production_exp_modifier_60
+					months = 1
+				}
+			}	
+			else_if ={
+				limit = {
+					state = { var:production_exp <= 70 }
+				}
+				add_modifier = {
+					name = production_exp_modifier_65
+					months = 1
+				}
+			}	
+			else_if ={
+				limit = {
+					state = { var:production_exp <= 75 }
+				}
+				add_modifier = {
+					name = production_exp_modifier_70
+					months = 1
+				}
+			}	
+			else ={
+				add_modifier = {
+					name = production_exp_modifier_75
+					months = 1
 				}
 			}
 		}

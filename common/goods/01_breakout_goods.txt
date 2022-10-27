@@ -85,7 +85,7 @@ crude_oil = {
 	tradeable = yes
 	
 	prestige_factor = 2
-	convoy_shipping_multiplier = 0.5
+	convoy_cost_multiplier = 0.5
 }
 
 #药物
@@ -96,7 +96,7 @@ medicine = {
 	tradeable = yes
 	
 	prestige_factor = 3
-	convoy_shipping_multiplier = 0.5
+	convoy_cost_multiplier = 0.5
 }
 #医疗护理
 medical_care = {
@@ -106,7 +106,7 @@ medical_care = {
 	tradeable = yes
 	
 	prestige_factor = 2
-	convoy_shipping_multiplier = 2
+	convoy_cost_multiplier = 2
 }
 #晶圆
 wafer = {
@@ -116,7 +116,7 @@ wafer = {
 	tradeable = yes
 	
 	prestige_factor = 2
-	convoy_shipping_multiplier = 2
+	convoy_cost_multiplier = 2
 }
 #芯片
 chip = {
@@ -126,7 +126,7 @@ chip = {
 	tradeable = yes
 	
 	prestige_factor = 2
-	convoy_shipping_multiplier = 0.5
+	convoy_cost_multiplier = 0.5
 }
 #软件
 software = {
@@ -136,7 +136,7 @@ software = {
 	tradeable = yes
 	
 	prestige_factor = 5
-	convoy_shipping_multiplier = 0.01
+	convoy_cost_multiplier = 0.01
 }
 #算力
 computation = {
@@ -146,5 +146,5 @@ computation = {
 	tradeable = yes
 	
 	prestige_factor = 5
-	convoy_shipping_multiplier = 0.01
+	convoy_cost_multiplier = 0.01
 }

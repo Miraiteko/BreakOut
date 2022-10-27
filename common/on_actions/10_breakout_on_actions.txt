@@ -5,12 +5,9 @@
 }
 breakout_on_monthly_pulse_country = {
 	effect = {
-		#出生率结算
-		breed_ratio_monthly_check = yes
-		
-		#生产经验结算
-		production_exp_monthly_check = yes
-		
+		#出生抚育者比例结算
+		breeder_ratio_monthly_check = yes
+
 		#破产结算
 		#bankruptcy_check = yes
 	}
@@ -22,6 +19,10 @@ on_monthly_pulse_state = {
 }
 breakout_on_monthly_pulse_state = {
 	effect = {
+		#出生率结算
+		state_breed_monthly_check = yes
+		#生产经验结算
+		production_exp_monthly_check = yes
 	}
 }
 #资源枯竭结算
