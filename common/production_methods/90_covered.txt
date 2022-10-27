@@ -1461,7 +1461,6 @@ pm_vineyards = {
 	}
 }
 
-#ai会乱切铁路生产方式，暂时关闭
 pm_no_passenger_trains = {
 	texture = "gfx/interface/icons/production_method_icons/no_passenger_trains.dds"
 }
@@ -1509,33 +1508,6 @@ pm_steel_passenger_carriages = {
 	
 	state_modifiers = {
 	}				
-}
-pm_armored_trains = {
-	texture = "gfx/interface/icons/production_method_icons/armored_trains.dds"
-
-	unlocking_technologies = {
-		steel_railway_cars
-	}
-
-	building_modifiers = {
-	}
-	
-	state_modifiers = {
-	}
-}
-
-pm_railway_guns = {
-	texture = "gfx/interface/icons/production_method_icons/railway_guns.dds"
-
-	unlocking_technologies = {
-		breech_loading_artillery
-	}
-
-	building_modifiers = {
-	}
-	
-	state_modifiers = {
-	}
 }
 
 #电子厂
