@@ -28,7 +28,7 @@
 		else_if = {
 			limit = { is_employed = no }
 			add = {
-				value = 1
+				value = 2
 				desc = "QUALIFICATIONS_BASE"
 			}
 		}

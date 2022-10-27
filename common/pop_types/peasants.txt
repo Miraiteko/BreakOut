@@ -10,7 +10,7 @@
 	dependent_wage = 0.25	# per year
 	unemployment = no
 
-	qualifications_growth_desc = "PEASANTS_QUALIFICATIONS_DESC"	
+	qualifications_growth_desc = "BK_PEASANTS_QUALIFICATIONS_DESC"	
 	qualifications = {
 		#Miraiteko
 		if = {
