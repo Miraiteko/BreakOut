@@ -1,4 +1,20 @@
 ﻿#商品吞吐
+building_output_liquor_mult = {
+	good = yes
+	percent = yes
+}
+building_output_tobacco_mult = {
+	good = yes
+	percent = yes
+}
+building_output_gambling_mult = {
+	good = yes
+	percent = yes
+}
+building_output_opium_mult = {
+	good = yes
+	percent = yes
+}
 building_output_breed_add = {
 	good = yes
 	percent = no

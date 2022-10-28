@@ -8,13 +8,6 @@
 	
 	when_taken = {
 		every_scope_pop = {
-			random_list = {
-				6 = {
-					change_poptype = breeder
-				}
-				1 = {
-				}
-			}
 		}
 	}
 	ai_chance = {

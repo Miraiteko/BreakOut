@@ -1,4 +1,7 @@
 1.劳动力再生产系统
+is_banning_goods = g:liquor
+add_banned_goods = g:liquor
+remove_banned_goods = g:liquor
 2.生产经验系统
 3.资源枯竭系统与画地图
 4.核战争系统

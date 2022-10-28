@@ -165,6 +165,14 @@
  bg_illegal:0 "不法场所"
  modifier_building_group_bg_illegal_throughput_mult:0 "不法场所吞吐量"
  modifier_building_group_bg_illegal_throughput_mult_desc:0 "对不法场所的吞吐量的修正"
+ modifier_building_output_liquor_mult:0 "建筑@liquor!烈酒产出"
+ modifier_building_output_liquor_mult_desc:0 "对建筑产出的@liquor!烈酒数量的增益或惩罚"
+ modifier_building_output_tobacco_mult:0 "建筑@tobacco!烟草产出"
+ modifier_building_output_tobacco_mult_desc:0 "对建筑产出的@tobacco!烟草数量的增益或惩罚"
+ modifier_building_output_gambling_mult:0 "建筑@gambling!博彩产出"
+ modifier_building_output_gambling_mult_desc:0 "对建筑产出的@gambling!博彩数量的增益或惩罚"
+ modifier_building_output_opium_mult:0 "建筑@opium!鸦片产出"
+ modifier_building_output_opium_mult_desc:0 "对建筑产出的@opium!鸦片数量的增益或惩罚"
  pmg_casino:0 "赌场"
  pm_casino:0 "赌场"
  
@@ -186,7 +194,7 @@
  modifier_building_employment_vagrant_mult_desc:0 "修正建筑每等级可以容纳的城市游民数量"
  
  #社会风气相关
- institution_social_climate:0 "风纪监管"
+ institution_social_climate:0 "社会监管"
  modifier_country_institution_social_climate_max_investment_add:0 "最大$institution_social_climate$[concept_institution]投入等级"
  modifier_country_institution_social_climate_max_investment_add_desc:0 "对$institution_social_climate$[concept_institution]的最大投入等级的修正"
  

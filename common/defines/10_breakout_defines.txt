@@ -6,11 +6,11 @@
 NPops = {
 	#以下数值的单位均为月，而游戏中显示的是年
 
-	POP_GROWTH_MAX_BIRTHRATE = 0.00015					
+	POP_GROWTH_MAX_BIRTHRATE = 0.00012					
 	#基础出生率
-	POP_GROWTH_BIRTHRATE_AT_DELTA_CAP = 0.00014
+	POP_GROWTH_BIRTHRATE_AT_DELTA_CAP = 0.00011
 	#拐点出生率
-	POP_GROWTH_MIN_BIRTHRATE = 0.00013					
+	POP_GROWTH_MIN_BIRTHRATE = 0.00010					
 	#饱和点出生率
 	POP_GROWTH_BIRTHRATE_REDUCTION_PER_SOL = 0
 	#出生率下降斜率
@@ -119,7 +119,7 @@ NEconomy = {
 	GOODS_SHORTAGE_PENALTY_INCREASE_SPEED = 0.01  	# Goods shortage penalty increases by this fraction of the target each day
     GOODS_SHORTAGE_PENALTY_DECREASE_SPEED = 0.02  	# Goods shortage penalty goes down by this fraction of GOODS_SHORTAGE_PENALTY_MAX each day
     GOODS_SHORTAGE_PENALTY_MIN = 0.05			# Goods shortage penalty can't be lower than this if there is any shortage
-	GOODS_SHORTAGE_PENALTY_MAX = 0.90			# Goods shortage penalty can't be higher than this
+	GOODS_SHORTAGE_PENALTY_MAX = 0.99			# Goods shortage penalty can't be higher than this
 	
 	BUILDING_INITIAL_WAGE_WEEKS = 2				# A building will not adjust its wages for the first this many weeks of its existence
 	MAX_WAGE_STEP_CHANGE = 0.1					# Wage rates can change at most this much each week

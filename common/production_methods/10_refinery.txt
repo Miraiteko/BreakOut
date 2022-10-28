@@ -134,8 +134,8 @@ pm_psychedelic_drugs = {
 		
 	building_modifiers = {
 		workforce_scaled = {					
-			building_output_medicine_add = -20 #50
-			building_output_opium_add = 30 #50
+			building_output_medicine_add = -25 #50
+			building_output_opium_add = 100 #50
 		}
 	}
 }

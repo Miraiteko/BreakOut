@@ -2,6 +2,5 @@
 	icon = "gfx/interface/icons/institution_icons/home_affairs.dds"
 	background_texture = "gfx/interface/illustrations/institutions/schools.dds"
 	modifier = {
-		building_group_bg_illegal_throughput_mult = -0.15
 	}
 }

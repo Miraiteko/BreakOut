@@ -3,9 +3,9 @@
 	
 	entry = {
 		goods = breed
-		weight = 10
+		weight = 5
 		max_weight = 15.0
-		min_weight = 3.0
+		min_weight = 0.0
 	}
 	
 	entry = {
@@ -25,6 +25,14 @@
 	}
 	
 	entry = {
+		goods = gambling
+		
+		weight = 2
+		max_weight = 5.0
+		min_weight = 0.0
+	}
+	
+	entry = {
 		goods = opium
 		
 		weight = 5
@@ -33,9 +41,9 @@
 	}
 	
 	entry = {
-		goods = gambling
+		goods = radios
 		
-		weight = 3
+		weight = 5
 		max_weight = 10.0
 		min_weight = 0.0
 	}
@@ -109,6 +117,27 @@ popneed_health = {
 	}
 	entry = {
 		goods = medicine
+		
+		weight = 1
+		max_weight = 3.0 # Maxes out at 60% of supply share
+		min_weight = 0.0
+	}
+	entry = {
+		goods = wine
+		
+		weight = 1
+		max_weight = 3.0 # Maxes out at 60% of supply share
+		min_weight = 0.0
+	}
+	entry = {
+		goods = tea
+		
+		weight = 1
+		max_weight = 3.0 # Maxes out at 60% of supply share
+		min_weight = 0.0
+	}
+	entry = {
+		goods = coffee
 		
 		weight = 1
 		max_weight = 3.0 # Maxes out at 60% of supply share
