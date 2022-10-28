@@ -3,7 +3,7 @@
 		
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_crude_oil_add = 30
+			building_input_coal_add = 30
 			building_output_oil_add = 30
 		}	
 		level_scaled = {

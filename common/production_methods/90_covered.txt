@@ -1358,7 +1358,6 @@ pm_picks_and_shovels_building_coal_mine = {
 			
 			# output goods
 			building_output_coal_add = 25
-			building_output_crude_oil_add = 5
 		}
 
 		level_scaled = {
@@ -1382,7 +1381,6 @@ pm_atmospheric_engine_pump_building_coal_mine = {
 			
 			# output goods
 			building_output_coal_add = 40
-			building_output_crude_oil_add = 10
 		}
 
 		level_scaled = {
@@ -1408,7 +1406,6 @@ pm_condensing_engine_pump_building_coal_mine = {
 			
 			# output goods
 			building_output_coal_add = 60
-			building_output_crude_oil_add = 20
 		}
 
 		level_scaled = {
@@ -1435,7 +1432,6 @@ pm_diesel_pump_building_coal_mine = {
 			
 			# output goods
 			building_output_coal_add = 90
-			building_output_crude_oil_add = 45
 		}
 
 		level_scaled = {
