@@ -102,7 +102,7 @@ pm_internet_data_center = {
 			building_input_chip_add = 30 #50
 			building_input_software_add = 30 #50
 			building_input_electricity_add = 50 #30
-			building_output_computation_add = 60 #100
+			building_output_computation_add = 75 #100
 		}	
 		level_scaled = {
 			building_employment_machinists_add = 1000

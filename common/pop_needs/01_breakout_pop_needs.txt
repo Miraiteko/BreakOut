@@ -41,7 +41,15 @@
 	}
 	
 	entry = {
-		goods = radios
+		goods = software
+		
+		weight = 5
+		max_weight = 10.0
+		min_weight = 0.0
+	}
+	
+	entry = {
+		goods = computation
 		
 		weight = 5
 		max_weight = 10.0

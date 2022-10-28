@@ -1516,7 +1516,6 @@ pm_telephones = {
 			building_input_rubber_add = 20
 			
 			building_output_telephones_add = 50
-			building_output_radios_add = 10
 		}
 
 		level_scaled = {
