@@ -71,9 +71,9 @@ decentralized = {
 	has_events = yes
 
 	has_military = yes
-	has_economy = yes
+	has_economy = no
 	has_politics = no
-	can_research = no
+	can_research = yes
 	
 	default_rank = decentralized_power
 }

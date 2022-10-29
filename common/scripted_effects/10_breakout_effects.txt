@@ -739,4 +739,13 @@ bankruptcy_check = {
 		set_country_type = unrecognized
 		clear_debt = yes
 	}
+	
+	#松散部落实现集权
+	if = {
+		limit = {
+			is_country_type = decentralized
+			has_technology_researched = centralization
+		}
+		set_country_type = unrecognized
+	}
 }
