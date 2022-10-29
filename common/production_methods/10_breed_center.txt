@@ -12,16 +12,13 @@ pm_tradition_breeder = {
 			building_employment_breeder_add = 7000
 		}
 		unscaled = {
-			#building_breeder_mortality_mult = 0.1
+			building_group_bg_base_education_access_throughput_mult = 0.3
 		}
 	}		
 	state_modifiers = {
 		workforce_scaled = {
-			building_group_bg_breed_power_throughput_mult = 14000
+			building_group_bg_breed_power_throughput_mult = 42000
 		}	
-		unscaled = {
-			building_group_bg_base_education_access_throughput_mult = 0.3
-		}
 	}	
 }	
 
@@ -44,15 +41,13 @@ pm_elite_breeder = {
 			building_employment_breeder_add = 5000
 		}
 		unscaled = {
+			building_group_bg_base_education_access_throughput_mult = 0.5
 		}
 	}		
 	state_modifiers = {
 		workforce_scaled = {
-			building_group_bg_breed_power_throughput_mult = 10000
+			building_group_bg_breed_power_throughput_mult = 30000
 		}	
-		unscaled = {
-			building_group_bg_base_education_access_throughput_mult = 0.5
-		}
 	}		
 }
 #楼间空地

@@ -68,19 +68,17 @@ pm_serfdom_no = {
 			building_employment_breeder_add = 10000
 		}			
 		workforce_scaled = {
-			building_output_breed_add = 1.0
+			building_output_breed_add = 0.5
 		}	
 		unscaled = {
 			building_subsistence_output_add = 0.5
+			building_group_bg_base_education_access_throughput_mult = 0.05
 		}
 	}
 	state_modifiers = {
 		workforce_scaled = {
-			building_group_bg_breed_power_throughput_mult = 20000
-		}				
-		unscaled = {
-			building_group_bg_base_education_access_throughput_mult = 0.05
-		}
+			building_group_bg_breed_power_throughput_mult = 60000
+		}	
 	}
 }
 
@@ -93,17 +91,20 @@ pm_serfdom = {
 		workforce_scaled = {
 			building_output_fabric_add = 1
 			building_output_wood_add = 0.5
-			building_output_breed_add = 1.5
+			building_output_breed_add = 0.6
 		}
 
 		level_scaled = {
 			building_employment_peasants_add = 5000
 			building_employment_breeder_add = 15000
-		}					
+		}			
+		unscaled = {
+			building_group_bg_base_education_access_throughput_mult = 0.01
+		}		
 	}
 	state_modifiers = {
 		workforce_scaled = {
-			building_group_bg_breed_power_throughput_mult = 24000
+			building_group_bg_breed_power_throughput_mult = 85000
 		}	
 	}
 }		
@@ -164,17 +165,20 @@ pm_serfdom_building_subsistence_orchards = {
 		workforce_scaled = {
 			building_output_fruit_add = 0.5
 			building_output_wood_add = 0.5
-			building_output_breed_add = 1.5
+			building_output_breed_add = 0.6
 		}
 
 		level_scaled = {
 			building_employment_peasants_add = 5000
 			building_employment_breeder_add = 15000
-		}					
+		}			
+		unscaled = {
+			building_group_bg_base_education_access_throughput_mult = 0.01
+		}				
 	}
 	state_modifiers = {
 		workforce_scaled = {
-			building_group_bg_breed_power_throughput_mult = 24000
+			building_group_bg_breed_power_throughput_mult = 85000
 		}	
 	}
 }		
@@ -234,16 +238,19 @@ pm_serfdom_building_subsistence_pastures = {
 	building_modifiers = {
 		workforce_scaled = {
 			building_output_meat_add = 1
-			building_output_breed_add = 1.5
+			building_output_breed_add = 0.6
 		}	
 		level_scaled = {
 			building_employment_peasants_add = 5000
 			building_employment_breeder_add = 15000
-		}				
+		}			
+		unscaled = {
+			building_group_bg_base_education_access_throughput_mult = 0.01
+		}			
 	}
 	state_modifiers = {
 		workforce_scaled = {
-			building_group_bg_breed_power_throughput_mult = 24000
+			building_group_bg_breed_power_throughput_mult = 85000
 		}	
 	}
 }

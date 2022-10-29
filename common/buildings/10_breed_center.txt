@@ -14,7 +14,7 @@
 
 	required_construction = construction_cost_very_low
 	
-	ai_value = 1500
+	ai_value = 2500
 	
 	should_auto_expand = { 
 		OR = {

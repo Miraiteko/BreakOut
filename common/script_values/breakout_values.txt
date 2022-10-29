@@ -1,4 +1,12 @@
 ﻿building_exp = 70
-breed_ratio = {
+breed_ratio_mod = { 
     value = var:breed_ratio
+    subtract = 1
+}
+base_education_access_mod = {
+    value = var:breed_quality
+    divide = {
+        value = var:breed_power
+        add = 1
+    }
 }

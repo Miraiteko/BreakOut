@@ -19,10 +19,10 @@ bg_illegal = {
 
 #居民区
 bg_breed = {
-	#parent_group = bg_manufacturing
+	parent_group = bg_plantations
 	
 	category = urban
-	lens = urban
+	lens = plantation
 	
 	always_possible = yes
 	
@@ -33,10 +33,7 @@ bg_breed = {
 	
 	urbanization = 20
 	infrastructure_usage_per_level = 2
-	
-	should_auto_expand = { 
-		default_auto_expand_rule = yes
-	}
+
 }
 
 bg_village = {

@@ -105,7 +105,15 @@ state_breed_monthly_check = {
 				change_variable = {
 					name = breed_power
 					add = {
-						value = 24000 #农奴制一级提供24000再生产
+						value = 85000 #农奴制一级提供85000再生产
+						multiply = PREV.occupancy
+						multiply = PREV.level
+					}
+				}
+				change_variable = {
+					name = breed_quality
+					add = {
+						value = 851 #农奴制一级提供850质量，为了避免显示为0，设定成851
 						multiply = PREV.occupancy
 						multiply = PREV.level
 					}
@@ -117,7 +125,7 @@ state_breed_monthly_check = {
 				change_variable = {
 					name = breed_power
 					add = {
-						value = 20000 #自耕农一级提供20000再生产
+						value = 60000 #自耕农一级提供60000再生产
 						multiply = PREV.occupancy
 						multiply = PREV.level
 					}
@@ -125,7 +133,7 @@ state_breed_monthly_check = {
 				change_variable = {
 					name = breed_quality
 					add = {
-						value = 1000 #自耕农一级提供1000质量
+						value = 3001 #自耕农一级提供3000质量
 						multiply = PREV.occupancy
 						multiply = PREV.level
 					}
@@ -145,7 +153,7 @@ state_breed_monthly_check = {
 				change_variable = {
 					name = breed_power
 					add = {
-						value = 14000 #多子多福一级提供14000
+						value = 42000 #多子多福一级提供42000
 						multiply = PREV.occupancy
 						multiply = PREV.level
 					}
@@ -153,7 +161,7 @@ state_breed_monthly_check = {
 				change_variable = {
 					name = breed_quality
 					add = {
-						value = 4200 #多子多福一级提供4200质量
+						value = 12600 #多子多福一级提供12600质量
 						multiply = PREV.occupancy
 						multiply = PREV.level
 					}
@@ -165,7 +173,7 @@ state_breed_monthly_check = {
 				change_variable = {
 					name = breed_power
 					add = {
-						value = 10000 #优生优育一级提供10000
+						value = 30000 #优生优育一级提供30000
 						multiply = PREV.occupancy
 						multiply = PREV.level
 					}
@@ -173,7 +181,7 @@ state_breed_monthly_check = {
 				change_variable = {
 					name = breed_quality
 					add = {
-						value = 5000 #优生优育一级提供5000质量
+						value = 15000 #优生优育一级提供15000质量
 						multiply = PREV.occupancy
 						multiply = PREV.level
 					}
@@ -195,11 +203,12 @@ state_breed_monthly_check = {
 			min = 1
 		}
 	}
+
 	#按照比例决定生育率buff
 	remove_modifier = breed_ratio_modifier
 	add_modifier = {
 		name = breed_ratio_modifier
-		multiplier = breed_ratio
+		multiplier = breed_ratio_mod
 	}
 	#计算基础受教育机会
 	set_variable = {
@@ -208,18 +217,15 @@ state_breed_monthly_check = {
 	}
 	change_variable = {
 		name = base_education_access
-		divide = {
-			value = var:breed_power
-			min = 1
-		}
+		divide = var:breed_ratio
 	}
 	remove_modifier = base_education_access_modifier
 	add_modifier = {
 		name = base_education_access_modifier
-		multiplier = base_education_access
+		multiplier = base_education_access_mod
 	}
-	remove_modifier = base_education_access_modifier
 }
+
 #生产经验结算
 production_exp_monthly_check = {
 	save_scope_as = checked_state
