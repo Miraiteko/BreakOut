@@ -197,167 +197,169 @@ state_breed_monthly_check = {
 	}
 	#按照比例决定生育率buff
 	if = {
-		limit = {
-			var:breed_ratio <= 0.18
-		}
-		if ={
+		limit = { always = yes }
+		if = {
 			limit = {
-				var:breed_ratio <= 0.08
+				var:breed_ratio <= 0.18
 			}
 			if ={
 				limit = {
-					var:breed_ratio <= 0.03
+					var:breed_ratio <= 0.08
 				}
-				add_modifier = {
-					name = breed_ratio_modifier_00
-					months = 1
+				if ={
+					limit = {
+						var:breed_ratio <= 0.03
+					}
+					add_modifier = {
+						name = breed_ratio_modifier_00
+						months = 1
+					}
 				}
+				else = {
+					add_modifier = {
+						name = breed_ratio_modifier_05
+						months = 1
+					}
+				}
+			}	
+			else ={
+				if ={
+					limit = {
+						var:breed_ratio <= 0.13
+					}
+					add_modifier = {
+						name = breed_ratio_modifier_10
+						months = 1
+					}
+				}
+				else = {
+					add_modifier = {
+						name = breed_ratio_modifier_15
+						months = 1
+					}
+				}
+			}	
+		}
+		else_if = {
+			limit = {
+				var:breed_ratio <= 0.38
 			}
-			else = {
-				add_modifier = {
-					name = breed_ratio_modifier_05
-					months = 1
-				}
-			}
-		}	
-		else ={
 			if ={
 				limit = {
-					var:breed_ratio <= 0.13
+					var:breed_ratio <= 0.28
+				}
+				if ={
+					limit = {
+						var:breed_ratio <= 0.23
+					}
+					add_modifier = {
+						name = breed_ratio_modifier_20
+						months = 1
+					}
+				}
+				else = {
+					add_modifier = {
+						name = breed_ratio_modifier_25
+						months = 1
+					}
+				}
+			}	
+			else ={
+				if ={
+					limit = {
+						var:breed_ratio <= 0.33
+					}
+					add_modifier = {
+						name = breed_ratio_modifier_30
+						months = 1
+					}
+				}
+				else = {
+					add_modifier = {
+						name = breed_ratio_modifier_35
+						months = 1
+					}
+				}
+			}	
+		}
+		else_if = {
+			limit = {
+				var:breed_ratio <= 0.58
+			}
+			if ={
+				limit = {
+					var:breed_ratio <= 0.48
+				}
+				if ={
+					limit = {
+						var:breed_ratio <= 0.43
+					}
+					add_modifier = {
+						name = breed_ratio_modifier_40
+						months = 1
+					}
+				}
+				else = {
+					add_modifier = {
+						name = breed_ratio_modifier_45
+						months = 1
+					}
+				}
+			}	
+			else ={
+				if ={
+					limit = {
+						var:breed_ratio <= 0.53
+					}
+					add_modifier = {
+						name = breed_ratio_modifier_50
+						months = 1
+					}
+				}
+				else = {
+					add_modifier = {
+						name = breed_ratio_modifier_55
+						months = 1
+					}
+				}
+			}
+		}
+		else = {
+			if ={
+				limit = {
+					var:breed_ratio <= 0.63
 				}
 				add_modifier = {
-					name = breed_ratio_modifier_10
+					name = breed_ratio_modifier_60
+					months = 1
+				}
+			}	
+			else_if ={
+				limit = {
+					var:breed_ratio <= 0.68
+				}
+				add_modifier = {
+					name = breed_ratio_modifier_65
+					months = 1
+				}
+			}	
+			else_if ={
+				limit = {
+					var:breed_ratio <= 0.73
+				}
+				add_modifier = {
+					name = breed_ratio_modifier_70
+					months = 1
+				}
+			}	
+			else ={
+				add_modifier = {
+					name = breed_ratio_modifier_75
 					months = 1
 				}
 			}
-			else = {
-				add_modifier = {
-					name = breed_ratio_modifier_15
-					months = 1
-				}
-			}
-		}	
+		}
 	}
-	else_if = {
-		limit = {
-			var:breed_ratio <= 0.38
-		}
-		if ={
-			limit = {
-				var:breed_ratio <= 0.28
-			}
-			if ={
-				limit = {
-					var:breed_ratio <= 0.23
-				}
-				add_modifier = {
-					name = breed_ratio_modifier_20
-					months = 1
-				}
-			}
-			else = {
-				add_modifier = {
-					name = breed_ratio_modifier_25
-					months = 1
-				}
-			}
-		}	
-		else ={
-			if ={
-				limit = {
-					var:breed_ratio <= 0.33
-				}
-				add_modifier = {
-					name = breed_ratio_modifier_30
-					months = 1
-				}
-			}
-			else = {
-				add_modifier = {
-					name = breed_ratio_modifier_35
-					months = 1
-				}
-			}
-		}	
-	}
-	else_if = {
-		limit = {
-			var:breed_ratio <= 0.58
-		}
-		if ={
-			limit = {
-				var:breed_ratio <= 0.48
-			}
-			if ={
-				limit = {
-					var:breed_ratio <= 0.43
-				}
-				add_modifier = {
-					name = breed_ratio_modifier_40
-					months = 1
-				}
-			}
-			else = {
-				add_modifier = {
-					name = breed_ratio_modifier_45
-					months = 1
-				}
-			}
-		}	
-		else ={
-			if ={
-				limit = {
-					var:breed_ratio <= 0.53
-				}
-				add_modifier = {
-					name = breed_ratio_modifier_50
-					months = 1
-				}
-			}
-			else = {
-				add_modifier = {
-					name = breed_ratio_modifier_55
-					months = 1
-				}
-			}
-		}
-	}
-	else = {
-		if ={
-			limit = {
-				var:breed_ratio <= 0.63
-			}
-			add_modifier = {
-				name = breed_ratio_modifier_60
-				months = 1
-			}
-		}	
-		else_if ={
-			limit = {
-				var:breed_ratio <= 0.68
-			}
-			add_modifier = {
-				name = breed_ratio_modifier_65
-				months = 1
-			}
-		}	
-		else_if ={
-			limit = {
-				var:breed_ratio <= 0.73
-			}
-			add_modifier = {
-				name = breed_ratio_modifier_70
-				months = 1
-			}
-		}	
-		else ={
-			add_modifier = {
-				name = breed_ratio_modifier_75
-				months = 1
-			}
-		}
-	}
-	
 	#计算基础受教育机会
 	set_variable = {
 		name = base_education_access

@@ -4,11 +4,11 @@ bg_modifier = {
 
 	always_possible = yes
 	
-	is_government_funded = yes
+	is_government_funded = no
 	
 	lens = military
 	
-	urbanization = 2
+	urbanization = 0
 }
 
 bg_breed_power = {

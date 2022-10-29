@@ -1,0 +1,7 @@
+﻿pmg_breed_modifier = {
+	production_methods = {
+		pm_breed_00_modifier
+		pm_breed_05_modifier
+		pm_breed_10_modifier
+	}
+}

@@ -117,6 +117,9 @@
  breed_ratio_modifier_70:0 "[concept_breed_power_ratio]#variable 70%#!"
  breed_ratio_modifier_75:0 "[concept_breed_power_ratio]#variable 75%#!"
  
+ breed_modifier:0 "[concept_breed_power_ratio]"
+ pmg_breed_modifier:0 "[concept_breed_power_ratio]"
+ pm_breed_modifier:0 "[concept_breed_power]"
  #教育相关
  concept_education_access:0 "受教育机会"
  concept_education_access_desc:0 "这是衡量[concept_pop]中的人们能够使他们孩子接受教育的程度。随着新一代人的出生和成长，人群的[concept_literacy]也会逐渐变得与其受教育机会一致。"
