@@ -198,6 +198,22 @@ state_breed_monthly_check = {
 	#按照比例决定生育率buff
 	if = {
 		limit = { always = yes }
+		remove_modifier = breed_ratio_modifier_00
+		remove_modifier = breed_ratio_modifier_05
+		remove_modifier = breed_ratio_modifier_10
+		remove_modifier = breed_ratio_modifier_15
+		remove_modifier = breed_ratio_modifier_20
+		remove_modifier = breed_ratio_modifier_25
+		remove_modifier = breed_ratio_modifier_30
+		remove_modifier = breed_ratio_modifier_35
+		remove_modifier = breed_ratio_modifier_40
+		remove_modifier = breed_ratio_modifier_45
+		remove_modifier = breed_ratio_modifier_50
+		remove_modifier = breed_ratio_modifier_55
+		remove_modifier = breed_ratio_modifier_60
+		remove_modifier = breed_ratio_modifier_65
+		remove_modifier = breed_ratio_modifier_70
+		remove_modifier = breed_ratio_modifier_75
 		if = {
 			limit = {
 				var:breed_ratio <= 0.18
@@ -212,13 +228,13 @@ state_breed_monthly_check = {
 					}
 					add_modifier = {
 						name = breed_ratio_modifier_00
-						months = 1
+						is_decaying = no
 					}
 				}
 				else = {
 					add_modifier = {
 						name = breed_ratio_modifier_05
-						months = 1
+						is_decaying = no
 					}
 				}
 			}	
@@ -229,13 +245,13 @@ state_breed_monthly_check = {
 					}
 					add_modifier = {
 						name = breed_ratio_modifier_10
-						months = 1
+						is_decaying = no
 					}
 				}
 				else = {
 					add_modifier = {
 						name = breed_ratio_modifier_15
-						months = 1
+						is_decaying = no
 					}
 				}
 			}	
@@ -254,13 +270,13 @@ state_breed_monthly_check = {
 					}
 					add_modifier = {
 						name = breed_ratio_modifier_20
-						months = 1
+						is_decaying = no
 					}
 				}
 				else = {
 					add_modifier = {
 						name = breed_ratio_modifier_25
-						months = 1
+						is_decaying = no
 					}
 				}
 			}	
@@ -271,13 +287,13 @@ state_breed_monthly_check = {
 					}
 					add_modifier = {
 						name = breed_ratio_modifier_30
-						months = 1
+						is_decaying = no
 					}
 				}
 				else = {
 					add_modifier = {
 						name = breed_ratio_modifier_35
-						months = 1
+						is_decaying = no
 					}
 				}
 			}	
@@ -296,13 +312,13 @@ state_breed_monthly_check = {
 					}
 					add_modifier = {
 						name = breed_ratio_modifier_40
-						months = 1
+						is_decaying = no
 					}
 				}
 				else = {
 					add_modifier = {
 						name = breed_ratio_modifier_45
-						months = 1
+						is_decaying = no
 					}
 				}
 			}	
@@ -313,13 +329,13 @@ state_breed_monthly_check = {
 					}
 					add_modifier = {
 						name = breed_ratio_modifier_50
-						months = 1
+						is_decaying = no
 					}
 				}
 				else = {
 					add_modifier = {
 						name = breed_ratio_modifier_55
-						months = 1
+						is_decaying = no
 					}
 				}
 			}
@@ -331,7 +347,7 @@ state_breed_monthly_check = {
 				}
 				add_modifier = {
 					name = breed_ratio_modifier_60
-					months = 1
+					is_decaying = no
 				}
 			}	
 			else_if ={
@@ -340,7 +356,7 @@ state_breed_monthly_check = {
 				}
 				add_modifier = {
 					name = breed_ratio_modifier_65
-					months = 1
+					is_decaying = no
 				}
 			}	
 			else_if ={
@@ -349,13 +365,13 @@ state_breed_monthly_check = {
 				}
 				add_modifier = {
 					name = breed_ratio_modifier_70
-					months = 1
+					is_decaying = no
 				}
 			}	
 			else ={
 				add_modifier = {
 					name = breed_ratio_modifier_75
-					months = 1
+					is_decaying = no
 				}
 			}
 		}
@@ -372,6 +388,17 @@ state_breed_monthly_check = {
 			min = 1
 		}
 	}
+	remove_modifier = base_education_access_modifier_00
+	remove_modifier = base_education_access_modifier_05
+	remove_modifier = base_education_access_modifier_10
+	remove_modifier = base_education_access_modifier_15
+	remove_modifier = base_education_access_modifier_20
+	remove_modifier = base_education_access_modifier_25
+	remove_modifier = base_education_access_modifier_30
+	remove_modifier = base_education_access_modifier_35
+	remove_modifier = base_education_access_modifier_40
+	remove_modifier = base_education_access_modifier_45
+	remove_modifier = base_education_access_modifier_50
 	#按照比例决定受教育机会buff
 	if = {
 		limit = {
@@ -387,13 +414,13 @@ state_breed_monthly_check = {
 				}
 				add_modifier = {
 					name = base_education_access_modifier_00
-					months = 1
+					is_decaying = no
 				}
 			}
 			else = {
 				add_modifier = {
 					name = base_education_access_modifier_05
-					months = 1
+					is_decaying = no
 				}
 			}
 		}	
@@ -404,13 +431,13 @@ state_breed_monthly_check = {
 				}
 				add_modifier = {
 					name = base_education_access_modifier_10
-					months = 1
+					is_decaying = no
 				}
 			}
 			else = {
 				add_modifier = {
 					name = base_education_access_modifier_15
-					months = 1
+					is_decaying = no
 				}
 			}
 		}	
@@ -429,13 +456,13 @@ state_breed_monthly_check = {
 				}
 				add_modifier = {
 					name = base_education_access_modifier_20
-					months = 1
+					is_decaying = no
 				}
 			}
 			else = {
 				add_modifier = {
 					name = base_education_access_modifier_25
-					months = 1
+					is_decaying = no
 				}
 			}
 		}	
@@ -446,13 +473,13 @@ state_breed_monthly_check = {
 				}
 				add_modifier = {
 					name = base_education_access_modifier_30
-					months = 1
+					is_decaying = no
 				}
 			}
 			else = {
 				add_modifier = {
 					name = base_education_access_modifier_35
-					months = 1
+					is_decaying = no
 				}
 			}
 		}	
@@ -467,20 +494,20 @@ state_breed_monthly_check = {
 			}
 			add_modifier = {
 				name = base_education_access_modifier_40
-				months = 1
+				is_decaying = no
 			}
 		}
 		else = {
 			add_modifier = {
 				name = base_education_access_modifier_45
-				months = 1
+				is_decaying = no
 			}
 		}
 	}
 	else = {
 		add_modifier = {
 			name = base_education_access_modifier_50
-			months = 1
+			is_decaying = no
 		}
 	}
 }
@@ -538,13 +565,13 @@ production_exp_monthly_check = {
 					}
 					add_modifier = {
 						name = production_exp_modifier_00
-						months = 1
+						is_decaying = no
 					}
 				}
 				else = {
 					add_modifier = {
 						name = production_exp_modifier_05
-						months = 1
+						is_decaying = no
 					}
 				}
 			}	
@@ -555,13 +582,13 @@ production_exp_monthly_check = {
 					}
 					add_modifier = {
 						name = production_exp_modifier_10
-						months = 1
+						is_decaying = no
 					}
 				}
 				else = {
 					add_modifier = {
 						name = production_exp_modifier_15
-						months = 1
+						is_decaying = no
 					}
 				}
 			}	
@@ -580,13 +607,13 @@ production_exp_monthly_check = {
 					}
 					add_modifier = {
 						name = production_exp_modifier_20
-						months = 1
+						is_decaying = no
 					}
 				}
 				else = {
 					add_modifier = {
 						name = production_exp_modifier_25
-						months = 1
+						is_decaying = no
 					}
 				}
 			}	
@@ -597,13 +624,13 @@ production_exp_monthly_check = {
 					}
 					add_modifier = {
 						name = production_exp_modifier_30
-						months = 1
+						is_decaying = no
 					}
 				}
 				else = {
 					add_modifier = {
 						name = production_exp_modifier_35
-						months = 1
+						is_decaying = no
 					}
 				}
 			}	
@@ -622,13 +649,13 @@ production_exp_monthly_check = {
 					}
 					add_modifier = {
 						name = production_exp_modifier_40
-						months = 1
+						is_decaying = no
 					}
 				}
 				else = {
 					add_modifier = {
 						name = production_exp_modifier_45
-						months = 1
+						is_decaying = no
 					}
 				}
 			}	
@@ -639,13 +666,13 @@ production_exp_monthly_check = {
 					}
 					add_modifier = {
 						name = production_exp_modifier_50
-						months = 1
+						is_decaying = no
 					}
 				}
 				else = {
 					add_modifier = {
 						name = production_exp_modifier_55
-						months = 1
+						is_decaying = no
 					}
 				}
 			}
@@ -657,7 +684,7 @@ production_exp_monthly_check = {
 				}
 				add_modifier = {
 					name = production_exp_modifier_60
-					months = 1
+					is_decaying = no
 				}
 			}	
 			else_if ={
@@ -666,7 +693,7 @@ production_exp_monthly_check = {
 				}
 				add_modifier = {
 					name = production_exp_modifier_65
-					months = 1
+					is_decaying = no
 				}
 			}	
 			else_if ={
@@ -675,13 +702,13 @@ production_exp_monthly_check = {
 				}
 				add_modifier = {
 					name = production_exp_modifier_70
-					months = 1
+					is_decaying = no
 				}
 			}	
 			else ={
 				add_modifier = {
 					name = production_exp_modifier_75
-					months = 1
+					is_decaying = no
 				}
 			}
 		}

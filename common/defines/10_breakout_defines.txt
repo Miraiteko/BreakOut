@@ -2,47 +2,56 @@
 	START_DATE = "2036.1.1" 
 	END_DATE = "2236.1.1" 
 }
-		
+
+@breakout_pop_growth = 0.00007	#基础出生率
+@breakout_max_mortality = 0.004166 #基础死亡率 #5%，成人平均寿命20	
+
+#各分段关键点死亡率
+@breakout_sol_equilibrium = 8
+@breakout_mortality_at_equilibrium = 0.001666  #2%，成人平均寿命50
+
+@breakout_sol_delta_cap = 25
+@breakout_mortality_at_delta_cap = 0.0011905 #1.428%，成人平均寿命70
+
+@breakout_sol_cap = 60
+@breakout_mortality_at_cap = 0.001 #1.2%,平均寿命83	
+
 NPops = {
 	#以下数值的单位均为月，而游戏中显示的是年
 
-	POP_GROWTH_MAX_BIRTHRATE = 0.00012					
+	POP_GROWTH_MAX_BIRTHRATE = @breakout_pop_growth				
 	#基础出生率
-	POP_GROWTH_BIRTHRATE_AT_DELTA_CAP = 0.00011
+	POP_GROWTH_BIRTHRATE_AT_DELTA_CAP = @[breakout_pop_growth*0.99]
 	#拐点出生率
-	POP_GROWTH_MIN_BIRTHRATE = 0.00010					
+	POP_GROWTH_MIN_BIRTHRATE = @[breakout_pop_growth*0.98]			
 	#饱和点出生率
 	POP_GROWTH_BIRTHRATE_REDUCTION_PER_SOL = 0
 	#出生率下降斜率
 
-	POP_GROWTH_MAX_MORTALITY = 0.01666 #20%，平均寿命5		
+	POP_GROWTH_MAX_MORTALITY = @breakout_max_mortality
 	#基础死亡率
 
-	POP_GROWTH_STARVING_SLOPE = -0.00125
+	POP_GROWTH_STARVING_SLOPE = @[(breakout_mortality_at_equilibrium-breakout_max_mortality)/breakout_sol_equilibrium]
 	#平衡点前死亡率斜率
-
-	POP_GROWTH_SOL_EQUILIBRIUM = 10
+	POP_GROWTH_SOL_EQUILIBRIUM = @breakout_sol_equilibrium
 	#平衡点
-	POP_GROWTH_MORTALITY_AT_EQUILIBRIUM = 0.004166 #5%，平均寿命20
+	POP_GROWTH_MORTALITY_AT_EQUILIBRIUM = @breakout_mortality_at_equilibrium
 	#平衡点死亡率
 	
-	POP_GROWTH_IMPROVING_SLOPE = -0.00016666
+	POP_GROWTH_IMPROVING_SLOPE = @[(breakout_mortality_at_delta_cap-breakout_mortality_at_equilibrium)/(breakout_sol_delta_cap-breakout_sol_equilibrium)]
 	#拐点前死亡率斜率
-	POP_GROWTH_IMPROVING_INTERCEPT = 0.005833
+	POP_GROWTH_IMPROVING_INTERCEPT = @[breakout_mortality_at_delta_cap-(breakout_mortality_at_delta_cap-breakout_mortality_at_equilibrium)/(breakout_sol_delta_cap-breakout_sol_equilibrium)*breakout_sol_delta_cap]
 	#拐点前死亡率截距
-
-	POP_GROWTH_SOL_DELTA_CAP = 25		
+	POP_GROWTH_SOL_DELTA_CAP = @breakout_sol_delta_cap	
 	#拐点
-	#拐点死亡率 0.001666 #2%，平均寿命50
 
-	POP_GROWTH_FIXED_DELTA_SLOPE = -0.00001666
+	POP_GROWTH_FIXED_DELTA_SLOPE = @[(breakout_mortality_at_cap-breakout_mortality_at_delta_cap)/(breakout_sol_cap-breakout_sol_delta_cap)]
 	#末端死亡率斜率
-	POP_GROWTH_FIXED_DELTA_INTERCEPT = 0.002083
+	POP_GROWTH_FIXED_DELTA_INTERCEPT = @[breakout_mortality_at_cap-(breakout_mortality_at_cap-breakout_mortality_at_delta_cap)/(breakout_sol_cap-breakout_sol_delta_cap)*breakout_sol_cap]
 	#末端死亡率截距	
-
-	POP_GROWTH_SOL_CAP = 65					
+	POP_GROWTH_SOL_CAP = @breakout_sol_cap			
 	#饱和点
-	POP_GROWTH_MIN_MORTALITY = 0.001 #1.2%,平均寿命83					
+	POP_GROWTH_MIN_MORTALITY = @breakout_mortality_at_cap				
 	#保和点死亡率
 	
 	
