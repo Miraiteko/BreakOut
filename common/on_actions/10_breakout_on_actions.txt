@@ -9,7 +9,7 @@ breakout_on_monthly_pulse_country = {
 		breeder_ratio_monthly_check = yes
 
 		#破产结算
-		#bankruptcy_check = yes
+		bankruptcy_check = yes
 	}
 }
 on_monthly_pulse_state = {
@@ -36,7 +36,13 @@ breakout_on_resource_depleted = {
 }
 
 on_country_default = {
+	on_actions = {
+		breakout_country_default
+	}
 }
-
+breakout_country_default = {
+	effect = {
+	}
+}
 on_country_no_longer_default = {
 }

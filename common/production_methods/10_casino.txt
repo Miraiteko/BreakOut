@@ -3,12 +3,12 @@
 		
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_services_add = 15 #30
-			building_output_gambling_add = 15 #50
+			building_input_services_add = 30 #30
+			building_output_gambling_add = 30 #50
 		}	
 		level_scaled = {
-			building_employment_vagrant_add = 7000
-			#building_employment_breeder_add = 1000
+			building_employment_vagrant_add = 4000
+			building_employment_breeder_add = 1500
 			building_employment_clerks_add = 400
 			building_employment_capitalists_add = 100
 		}
@@ -19,7 +19,7 @@
 	state_modifiers = {
 		workforce_scaled = {
 			#state_tax_waste_add = 0.02
-			state_turmoil_effects_mult = 0.05
+			#state_turmoil_effects_mult = 0.01
 			#state_infrastructure_add = -2
 		}	
 	}	

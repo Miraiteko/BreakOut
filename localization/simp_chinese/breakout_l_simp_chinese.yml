@@ -456,7 +456,8 @@
  #外交相关
  modifier_overlord:0 "方伯"
  modifier_overlord_desc:0 "这些大国是上次争霸战争的胜利者，享有支配全球的权力。"
- 
+ bankrupted:0 "破产国家"
+
  #飞升相关
  religion:0 "自然人"
  
