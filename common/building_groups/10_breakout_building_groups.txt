@@ -19,7 +19,7 @@ bg_illegal = {
 
 #居民区
 bg_breed = {
-	parent_group = bg_plantations
+	parent_group = bg_infrastructure
 	
 	category = urban
 	lens = plantation
