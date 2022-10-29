@@ -1,1 +1,4 @@
 ﻿building_exp = 70
+breed_ratio = {
+    value = var:breed_ratio
+}
