@@ -149,7 +149,8 @@ land_battle_size = {
 		desc = "BATTLE_SIZE_COMBAT_WIDTH"	
 	}
 
-    #进攻方优势兵力碾压，五倍总兵力的时候，会有两倍的投入兵力；九倍总兵力的时候，会有三倍的投入兵力
+
+    #进攻方优势兵力碾压，1+(A-D)/(A+D)
     if = {
         limit = {
             exists = scope:own_commander
@@ -158,10 +159,14 @@ land_battle_size = {
             "scope:front.num_total_battalions(root)" > "scope:front.num_total_battalions(scope:enemy_country)"
         }
         multiply = {
-            add = "scope:front.num_total_battalions(root)"
-            divide = "scope:front.num_total_battalions(scope:enemy_country)"
-            add = -1
-            multiply = 0.25
+            value = {
+                value = "scope:front.num_total_battalions(root)"
+                subtract = "scope:front.num_total_battalions(scope:enemy_country)"
+            }
+            divide = {
+                value = "scope:front.num_total_battalions(root)"
+                add = "scope:front.num_total_battalions(scope:enemy_country)"
+            }
             add = 1
         }
     }
