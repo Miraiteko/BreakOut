@@ -55,25 +55,22 @@ NPops = {
 	#保和点死亡率
 	
 	
+	#物种改造系统暂时取消
 	CONVERSION_RATE = 0.0						# Percentage of pops who will Convert into a different Religion each month, if eligible
 	MIN_CONVERSION = 0							# If there is any conversion at least this many people will convert
 	
-	MIN_FERTILITY_RATE = 0.01					# Minimum fertility rate, in percent to avoid rounding errors
-	MAX_FERTILITY_RATE = 0.01						# Maximum fertility rate, in percent to avoid rounding errors
-	MORTALITY_COEFFICIENT = 1.5					# The greater the mortality coefficient, the smaller mortality is suffered
-	FERTILITY_DIVISOR = 0.03						# Fraction of minimum fertility that is the minimum mortality value at max Standard of Living
-	
+	#劳动力比例
 	WORKING_ADULT_RATIO_BASE = 0.50				# Base ratio of working adults to dependents, this can be overridden by pop type definition and country modifiers.
 	WORKING_ADULT_RATIO_SKEW_MAXIMUM = 2.0		# When the ratio of working adults to dependents is skewed, it tends to correct itself, this value clamps the maximum effect of this
 	DEPENDENT_CONSUMPTION_RATIO = 0.8			# Dependents consume this multiple of Needs compared to Working Adults
-	
 	SUBSISTENCE_DIVIDENDS_MULT = 0.5
 	SUBSISTENCE_MARKET_CONSUMPTION_RATIO = 0.10	# The portion of Peasant buy packages that are added as state region consumption.
 	
-	
+	#移除人口过多或过少的修正
 	LOW_POP_THRESHOLD = 5000					# If a state has less than this amount of pops per arable land, apply the low pop modifier
 	HIGH_POP_THRESHOLD = 1000000					# If a state has more than this amount of pops per arable land, apply the high pop modifier
 	
+	#移民相关修正，鼓励经济移民
 	MIGRATION_PULL_EMPTY_STATE = 100				# If a state has no pops at all, give it a huge migration pull
 	MIGRATION_PULL_FROM_LIVING_STANDARD = 1			# Migration pull from each point of average living standard in target state	
 	MIGRATION_PULL_UNEMPLOYMENT_POPS_MIN = 1000000 		# At less than this in number of unemployed pops, do not apply unemployment divisor
@@ -107,20 +104,14 @@ NPops = {
 	
 } 
 NEconomy = {
+	#减少GDP波动带来的信贷额修正
 	COUNTRY_MIN_CREDIT_BASE = 10000			# Added to the total Building Cash Reserves to determine credit limit (base)
 	COUNTRY_MIN_CREDIT_SCALED = 0.00001 			# Added to the total Building Cash Reserves to determine credit limit (multiplied by GDP)
 
-	ECONOMY_OF_SCALE_MAX_MULTIPLIER = 25				# Beyond this many building levels, do not apply further economy of scale bonuses
-	ECONOMY_OF_SCALE_START_LEVEL = 11					# Level at which buildings start getting economy of scale bonuses. Levels lower than this value provide no bonus [>=1]
+	#规模效应
+	ECONOMY_OF_SCALE_START_LEVEL = 6
 	
-	
-	POLLUTION_TARGET_DIVISOR_BASE = 1					# Base value to divide total pollution generation by for calculating state region pollution target level
-	POLLUTION_TARGET_DIVISOR_ARABLE_LAND_MULT = 0.1		# Amount per arable land to add to pollution divisor
-	POLLUTION_CHANGE_SPEED = 0.5						# Each day, pollution in state region changes by this amount towards target
-	POLLUTION_MAX = 255
-	POLLUTION_SPREAD_TO_NEIGHBOR = 0.25					# Adjacent state regions always have at least this much of their neighbor's pollution level
-	
-	
+	#商品供需系统	
 	MIN_GOODS_PRICE	= 0.1							# A good cannot have a lower base price than this
 	PRICE_RANGE = 0.99   						# min price of a good is base * (1 - PRICE_RANGE), Max price is base * (1 + PRICE_RANGE), PRICE_RANGE is locked to [0-1]
 	BUY_SELL_DIFF_AT_MAX_FACTOR = 3				# the difference between buy/consumption and sell/production at min/max pricing, e.g. if set to 4 then if buy orders are 4x sell orders price is maxed
@@ -130,17 +121,23 @@ NEconomy = {
     GOODS_SHORTAGE_PENALTY_MIN = 0.05			# Goods shortage penalty can't be lower than this if there is any shortage
 	GOODS_SHORTAGE_PENALTY_MAX = 0.99			# Goods shortage penalty can't be higher than this
 	
+	#尝试修改工资系统，没有成功
 	BUILDING_INITIAL_WAGE_WEEKS = 2				# A building will not adjust its wages for the first this many weeks of its existence
 	MAX_WAGE_STEP_CHANGE = 0.1					# Wage rates can change at most this much each week
 	SUBSIDIES_MIN_GAIN = 100						# If a building is subsidized, it will always collect enough subsidies to ensure at least this weekly cash reserve growth
 	HIRING_RATE = 0.1 							# Max number of laborers we’re allowed a building to hire or fire each market update
 	EMPLOYMENT_PROPORTIONALITY_LIMIT = 0.02		# A building cannot have a difference of ratio of full employment between any two professions greater than this limit
-	BUILDING_INIT_PROFIT_TARGET_MIN = 0.10 		# Minimum % income a building wants to have as profit during initialization (will decrease wages towards this)
-	BUILDING_INIT_PROFIT_TARGET_MAX = 0.20 		# Maximum % income a building wants to have as profit during initialization (will increase wages towards this)
+	BUILDING_INIT_PROFIT_TARGET_MIN = 0.01 		# Minimum % income a building wants to have as profit during initialization (will decrease wages towards this)
+	BUILDING_INIT_PROFIT_TARGET_MAX = 0.50 		# Maximum % income a building wants to have as profit during initialization (will increase wages towards this)
 	BUILDING_PROFIT_TARGET_TO_RAISE_WAGES = 0.2	# Required profit margin raise wages no matter what, with BUILDING_WEEKS_BETWEEN_PAY_RAISES weeks cooldown
 	BUILDING_WEEKS_BETWEEN_PAY_RAISES = 26		# Cooldown between pay raises no matter what
 	MIN_RAISE_TO_HIRE = 0.10					# The minimum required increase in wages for an employee to switch jobs (1.0 = +100% = x2)
-
+	STARTING_WAGE_RATE_MULTIPLIER = 2.0			# Starting wage rate is multiplied by this (for easy balancing)
+	NORMAL_WAGE_RATE_FALLBACK = 500.0			# If it's impossible to compute a normal wage rate (e.g. if every incorporated pop works in government buildings) set it to this (weekly £ per POP_SIZE_PACKAGE employees)
+	MINIMUM_WAGE_RATE = 1.0					# The wage rate can never drop below this, no matter what (weekly £ per POP_SIZE_PACKAGE employees)
+	MAXIMUM_WAGE_RATE = 100000.0				# The absolute maximum that a building's wage rate can be increased to.
+	
+	#资源系统
 	BASE_RESOURCE_DISCOVER_CHANCE = 0.02 		# Per day (1.0 = 1%)
 	EMPLOYMENT_RESOURCE_DEPLETE_CHANCE = 0.001	# Multiplied by number of fully employed levels of the building
 	DEFAULT_RESOURCE_DISCOVER_MIN_AMOUNT = 2	# Min amount of resources that will be discovered for each successful roll
@@ -149,14 +146,28 @@ NEconomy = {
 	DEFAULT_RESOURCE_DEPLETE_MIN_AMOUNT = 2		# Min amount of resources that will be depleted for each successful roll
 	DEFAULT_RESOURCE_DEPLETE_MAX_AMOUNT = 4		# Max amount of resources that will be depleted for each successful roll	
 		
+	#债务违约相关
 	IN_DEFAULT_MINIMUM_PENALTY_SCALE = 0.05				# This amount of the 'in default' throughput penalty is applied right away
 	IN_DEFAULT_DAYS_TO_FULL_PENALTY = 365				# How many days of being in default does it take to get the full throughput penalty
 	DECLARE_BANKRUPTCY_PENALTY_DURATION_YEARS = 10		# How many years does it take for penalties from declaring bankruptcy to fully decay
 	DECLARE_BANKRUPTCY_RADICALIZATION_SHARES_FACTOR = 0.9 # For each per-pop shares in their building, radicalize this percentage of a pop on 
-}
-#开局镜头位置
+
+	#参考了licy18的《贸易收入下降时贸易路线不会升级》，为贸易路线等级添加了阻尼
+	TRADE_ROUTE_AUTO_INCREASE_ACCEPTABLE_REVENUE_DIFFERENCE = 0.95 # Multiply revenue of new trade route level by this for the purpose of considering whether it's OK to auto-increase level
+	TRADE_ROUTE_AUTO_REDUCTION_ACCEPTABLE_REVENUE_DIFFERENCE = 1.0 # Multiply revenue of current trade route level by this for the purpose of considering whether we should auto-decrease level 
+
+#开局镜头位置，指向西太平洋
 NFrontend = {
 	CAMERA_START_X = 200.0						# Initial position in main menu
 	CAMERA_START_Y = 2400							# Y is height
 	CAMERA_START_Z = 2000.0
+}
+
+NAI = {
+	#修改托福20分的蠢驴的英语拼写错误导致的bug
+	UNIFICATION_AGGRESSION_MULT_HIGHER_TIR = 20
+	UNIFICATION_AGGRESSION_MULT_SAME_TIER = 0.1
+	HQ_DEFENSE_MIN_WANTED_GARRISON = 0.15
+	PRODUCTION_BUILDING_OUTPUT_NEEDED_INDUSTRIAL_GOODS_FACTOR = 0.5
+	
 }
