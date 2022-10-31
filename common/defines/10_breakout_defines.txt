@@ -3,14 +3,14 @@
 	END_DATE = "2236.1.1" 
 }
 
-@breakout_pop_growth = 0.0025	#基础出生率
+@breakout_pop_growth = 0.0020	#基础出生率
 @breakout_max_mortality = 0.00333 #基础死亡率 #4%，成人平均寿命25
 
 #各分段关键点死亡率
-@breakout_sol_equilibrium = 8
+@breakout_sol_equilibrium = 10
 @breakout_mortality_at_equilibrium = 0.00208  #2.5%，成人平均寿命40
 
-@breakout_sol_delta_cap = 25
+@breakout_sol_delta_cap = 30
 @breakout_mortality_at_delta_cap = 0.00119 #1.428%，成人平均寿命70
 
 @breakout_sol_cap = 60

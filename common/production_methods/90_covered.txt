@@ -9,6 +9,7 @@ default_building_subsistence_farms = {
 			building_output_grain_add = 5
 			building_output_fabric_add = 3
 			building_output_wood_add = 3
+			building_output_services_add = 0.1 # 15
 		}
 
 		level_scaled = {
@@ -60,7 +61,6 @@ pm_serfdom_no = {
 	}
 	country_modifiers = {
 		workforce_scaled = {
-			country_construction_add = 0.1
 		}
 	}
 	building_modifiers = {	
@@ -91,7 +91,7 @@ pm_serfdom = {
 		workforce_scaled = {
 			building_output_fabric_add = 1
 			building_output_wood_add = 0.5
-			building_output_breed_add = 0.6
+			building_output_breed_add = 0.7
 		}
 
 		level_scaled = {
@@ -118,6 +118,7 @@ default_building_subsistence_orchards = {
 			building_output_grain_add = 3
 			building_output_wood_add = 3
 			building_output_fabric_add = 1
+			building_output_services_add = 0.1 # 15
 		}
 
 		level_scaled = {
@@ -165,7 +166,7 @@ pm_serfdom_building_subsistence_orchards = {
 		workforce_scaled = {
 			building_output_fruit_add = 0.5
 			building_output_wood_add = 0.5
-			building_output_breed_add = 0.6
+			building_output_breed_add = 0.7
 		}
 
 		level_scaled = {
@@ -190,6 +191,7 @@ default_building_subsistence_pastures = {
 		workforce_scaled = {
 			building_output_meat_add = 3
 			building_output_fabric_add = 5
+			building_output_services_add = 0.1 # 15
 		}
 
 		level_scaled = {
@@ -238,7 +240,7 @@ pm_serfdom_building_subsistence_pastures = {
 	building_modifiers = {
 		workforce_scaled = {
 			building_output_meat_add = 1
-			building_output_breed_add = 0.6
+			building_output_breed_add = 0.7
 		}	
 		level_scaled = {
 			building_employment_peasants_add = 5000
@@ -254,6 +256,28 @@ pm_serfdom_building_subsistence_pastures = {
 		}	
 	}
 }
+
+#基础市场
+pm_market_stalls = {
+	texture = "gfx/interface/icons/production_method_icons/market_stalls.dds"
+	
+	building_modifiers = { 
+		workforce_scaled = {
+			building_output_services_add = 20
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 3500
+			building_employment_clerks_add = 900
+			building_employment_shopkeepers_add = 400
+		}
+		
+		unscaled = {
+			building_shopkeepers_shares_add = 5
+		}
+	}
+}	
+
 #电力
 pm_electric_streetlights = {
 	texture = "gfx/interface/icons/production_method_icons/electric_streetlights.dds"

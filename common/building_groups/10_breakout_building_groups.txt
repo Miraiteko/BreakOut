@@ -31,8 +31,8 @@ bg_breed = {
 	
 	default_building = breed_center
 	
-	urbanization = 20
-	infrastructure_usage_per_level = 2
+	urbanization = 50
+	infrastructure_usage_per_level = 1
 
 }
 
@@ -64,7 +64,7 @@ bg_private_infrastructure = {
 	
 	cash_reserves_max = 10000
 	
-	urbanization = 10
+	urbanization = 20
 }
 #港口和地铁不占用，但是需要科技等级
 bg_public_infrastructure = {
@@ -72,5 +72,5 @@ bg_public_infrastructure = {
 	
 	is_government_funded = yes
 	
-	urbanization = 10
+	urbanization = 20
 }
