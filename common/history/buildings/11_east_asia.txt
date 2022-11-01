@@ -1228,7 +1228,7 @@
 				level=1
 			}
 		}
-		region_state:CAM={
+		region_state:DAI={
 			create_building={
 				building="building_rice_farm"
 				level=1
@@ -1380,7 +1380,7 @@
 		}
 	}
 	s:STATE_LAOS={
-		region_state:LUA={
+		region_state:SIA={
 			create_building={
 				building="building_opium_plantation"
 				level=2
@@ -1408,7 +1408,7 @@
 				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
 		}
-		region_state:CHP={
+		region_state:DAI={
 			create_building={
 				building="building_barracks"
 				level=3
@@ -1418,7 +1418,7 @@
 		}
 	}
 	s:STATE_CHIANG_MAI={
-		region_state:CMI={
+		region_state:SIA={
 			create_building={
 				building="building_livestock_ranch"
 				level=1
@@ -1486,7 +1486,7 @@
 		}
 	}
 	s:STATE_KACHIN={
-		region_state:BUR={
+		region_state:HND={
 			create_building={
 				building="building_rice_farm"
 				level=1
@@ -1508,7 +1508,7 @@
 		}
 	}
 	s:STATE_SHAN_STATES={
-		region_state:BUR={
+		region_state:HND={
 			create_building={
 				building="building_opium_plantation"
 				level=1
@@ -1524,7 +1524,7 @@
 		}
 	}
 	s:STATE_BURMA={
-		region_state:BUR={
+		region_state:HND={
 			create_building={
 				building="building_government_administration"
 				level=2
@@ -1558,7 +1558,7 @@
 		}
 	}
 	s:STATE_PEGU={
-		region_state:BUR={
+		region_state:HND={
 			create_building={
 				building="building_rice_farm"
 				level=1
@@ -1600,7 +1600,7 @@
 		}
 	}
 	s:STATE_SAKHALIN={
-		region_state:SKH={
+		region_state:RUS={
 		}
 	}
 	s:STATE_HOKKAIDO={

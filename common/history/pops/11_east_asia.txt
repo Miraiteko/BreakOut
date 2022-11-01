@@ -791,7 +791,7 @@
 				size = 3992
 			}
 		}
-		region_state:CAM = {
+		region_state:DAI = {
 			create_pop = {
 				culture = khmer
 				size = 623202
@@ -935,7 +935,7 @@
 		}
 	}
 	s:STATE_LAOS = {
-		region_state:LUA = {
+		region_state:SIA = {
 			create_pop = {
 				culture = lao
 				size = 240024
@@ -978,7 +978,7 @@
 				size = 16000
 			}
 		}
-		region_state:CHP = {
+		region_state:DAI = {
 			create_pop = {
 				culture = lao
 				size = 86720
@@ -999,7 +999,7 @@
 		}
 	}
 	s:STATE_CHIANG_MAI = {
-		region_state:CMI = {
+		region_state:SIA = {
 			create_pop = {
 				culture = thai
 				size = 526096
@@ -1106,7 +1106,7 @@
 		}
 	}
 	s:STATE_KACHIN = {
-		region_state:BUR = {
+		region_state:HND = {
 			create_pop = {
 				culture = kachin
 				size = 408000
@@ -1132,7 +1132,7 @@
 		}
 	}
 	s:STATE_SHAN_STATES = {
-		region_state:BUR = {
+		region_state:HND = {
 			create_pop = {
 				culture = shan
 				size = 553996
@@ -1150,7 +1150,7 @@
 	}
 
 	s:STATE_BURMA = {
-		region_state:BUR = {
+		region_state:HND = {
 			create_pop = {
 				culture = burmese
 				size = 1059596
@@ -1167,7 +1167,7 @@
 		}
 	}
 	s:STATE_PEGU = {
-		region_state:BUR = {
+		region_state:HND = {
 			create_pop = {
 				culture = burmese
 				size = 787900
@@ -1212,7 +1212,7 @@
 		}
 	}
 	s:STATE_SAKHALIN = {
-		region_state:SKH = {
+		region_state:RUS = {
 			create_pop = {
 				culture = ainu
 				size = 24004
@@ -1224,7 +1224,7 @@
 		}
 	}
 	s:STATE_HOKKAIDO = {
-		region_state:AIN = {
+		region_state:JAP = {
 			create_pop = {
 				culture = ainu
 				size = 707500

@@ -108,8 +108,8 @@ GLOBAL = {
 	#Luxurious Luxembourg
 	every_country = {
 		limit = {
-			exists = c:LUX
-			this = c:LUX
+			exists = c:NET
+			this = c:NET
 		}
 		set_variable = luxurious_luxembourg_ach_possible
 	}

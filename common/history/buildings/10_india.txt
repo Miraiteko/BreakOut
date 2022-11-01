@@ -288,7 +288,7 @@
 				activate_production_methods={ "pm_irregular_infantry" "pm_wound_dressing" "pm_cavalry_scouts" "pm_no_specialists" "pm_no_artillery" }
 			}
 		}
-		region_state:KUT={
+		region_state:HND={
 			create_building={
 				building="building_fishing_wharf"
 				level=1
@@ -338,7 +338,7 @@
 				activate_production_methods={ "pm_irregular_infantry" "pm_wound_dressing" "pm_cavalry_scouts" "pm_no_specialists" "pm_no_artillery" }
 			}
 		}
-		region_state:GWA={
+		region_state:HND={
 			create_building={
 				building="building_cotton_plantation"
 				level=1
@@ -358,7 +358,7 @@
 				activate_production_methods={ "pm_irregular_infantry" "pm_wound_dressing" "pm_cavalry_scouts" "pm_no_specialists" "pm_no_artillery" }
 			}
 		}
-		region_state:BHO={
+		region_state:HND={
 			create_building={
 				building="building_opium_plantation"
 				level=2
@@ -560,7 +560,7 @@
 				activate_production_methods={ "pm_irregular_infantry" "pm_wound_dressing" "pm_cavalry_scouts" "pm_no_specialists" "pm_no_artillery" }
 			}
 		}
-		region_state:BAS={
+		region_state:HND={
 			create_building={
 				building="building_textile_mills"
 				level=1
@@ -698,7 +698,7 @@
 		}
 	}
 	s:STATE_RAJPUTANA={
-		region_state:BIK={
+		region_state:HND={
 			create_building={
 				building="building_barracks"
 				level=10
@@ -706,7 +706,7 @@
 				activate_production_methods={ "pm_irregular_infantry" "pm_wound_dressing" "pm_cavalry_scouts" "pm_no_specialists" "pm_no_artillery" }
 			}
 		}
-		region_state:JAS={
+		region_state:HND={
 			create_building={
 				building="building_barracks"
 				level=5
@@ -714,7 +714,7 @@
 				activate_production_methods={ "pm_irregular_infantry" "pm_wound_dressing" "pm_cavalry_scouts" "pm_no_specialists" "pm_no_artillery" }
 			}
 		}
-		region_state:MEW={
+		region_state:HND={
 			create_building={
 				building="building_opium_plantation"
 				level=4
@@ -728,7 +728,7 @@
 				activate_production_methods={ "pm_irregular_infantry" "pm_wound_dressing" "pm_cavalry_scouts" "pm_no_specialists" "pm_no_artillery" }
 			}
 		}
-		region_state:JOD={
+		region_state:HND={
 			create_building={
 				building="building_barracks"
 				level=15
@@ -896,7 +896,7 @@
 		}
 	}
 	s:STATE_MYSORE={
-		region_state:MYS={
+		region_state:HND={
 			create_building={
 				building="building_textile_mills"
 				level=3
@@ -950,7 +950,7 @@
 		}
 	}
 	s:STATE_TRAVANCORE={
-		region_state:TRA={
+		region_state:HND={
 			create_building={
 				building="building_tea_plantation"
 				level=3

@@ -29,7 +29,7 @@
 	}
 
 	s:STATE_TASMANIA = {
-		region_state:TAS = {
+		region_state:AST = {
 			create_pop = {
 				culture = aborigine
 				size = 12208
@@ -75,7 +75,7 @@
 				size = 3004
 			}
 		}
-		region_state:NNG = {
+		region_state:AST = {
 			create_pop = {
 				culture = aborigine
 				size = 21100

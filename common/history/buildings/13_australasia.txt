@@ -44,7 +44,7 @@
 		}
 	}
 	s:STATE_TASMANIA={
-		region_state:TAS={
+		region_state:AST={
 			create_building={
 				building="building_barracks"
 				level=1

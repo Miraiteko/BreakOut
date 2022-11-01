@@ -310,7 +310,7 @@
 				size = 4000
 			}
 		}
-		region_state:PWN = {
+		region_state:USA = {
 			create_pop = {
 				culture = caddoan
 				size = 10000
@@ -328,7 +328,7 @@
 				size = 12000
 			}
 		}
-		region_state:PWN = {
+		region_state:USA = {
 			create_pop = {
 				culture = caddoan
 				size = 8000
@@ -961,7 +961,7 @@
 		}
 	}
 	s:STATE_HAWAIIAN_ISLANDS = {
-		region_state:HAW = {
+		region_state:USA = {
 			create_pop = {
 				pop_type = clergy
 				culture = yankee

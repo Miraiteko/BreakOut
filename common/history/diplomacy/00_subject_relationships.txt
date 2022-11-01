@@ -72,7 +72,7 @@
 			type = protectorate
 		}
 		create_diplomatic_pact = {
-			country = c:BEL
+			country = c:NET
 			type = protectorate
 		}
 		create_diplomatic_pact = {
@@ -80,7 +80,7 @@
 			type = protectorate
 		}
 		create_diplomatic_pact = {
-			country = c:LUX
+			country = c:NET
 			type = customs_union
 		}
 		create_diplomatic_pact = {

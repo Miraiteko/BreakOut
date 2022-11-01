@@ -1,6 +1,6 @@
 ﻿BUILDINGS={
 	s:STATE_LOMBARDY={
-		region_state:AUS={
+		region_state:ITA={
 			create_building={
 				building="building_government_administration"
 				level=3
@@ -1666,7 +1666,7 @@
 		}
 	}
 	s:STATE_ALBANIA={
-		region_state:TUR={
+		region_state:GRE={
 			create_building={
 				building="building_textile_mills"
 				level=1
@@ -1694,7 +1694,7 @@
 		}
 	}
 	s:STATE_BOSNIA={
-		region_state:TUR={
+		region_state:CRO={
 			create_building={
 				building="building_tooling_workshops"
 				level=2
@@ -1824,7 +1824,7 @@
 		}
 	}
 	s:STATE_DALMATIA={
-		region_state:AUS={
+		region_state:CRO={
 			create_building={
 				building="building_fishing_wharf"
 				level=3
@@ -1852,7 +1852,7 @@
 		}
 	}
 	s:STATE_CROATIA={
-		region_state:AUS={
+		region_state:CRO={
 			create_building={
 				building="building_government_administration"
 				level=3
@@ -1898,7 +1898,7 @@
 		}
 	}
 	s:STATE_SLAVONIA={
-		region_state:AUS={
+		region_state:CRO={
 			create_building={
 				building="building_government_administration"
 				level=2
@@ -1926,7 +1926,7 @@
 		}
 	}
 	s:STATE_ISTRIA={
-		region_state:AUS={
+		region_state:CRO={
 			create_building={
 				building="building_tooling_workshops"
 				level=3
@@ -1960,15 +1960,13 @@
 		}
 	}
 	s:STATE_MONTENEGRO={
-		region_state:TUR={
+		region_state:SER={
 			create_building={
 				building="building_livestock_ranch"
 				level=1
 				reserves=1
 				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
 			}
-		}
-		region_state:MON={
 			create_building={
 				building="building_livestock_ranch"
 				level=1
@@ -2006,7 +2004,7 @@
 		}
 	}
 	s:STATE_SOUTHERN_SERBIA={
-		region_state:TUR={
+		region_state:SER={
 			create_building={
 				building="building_livestock_ranch"
 				level=3
@@ -2028,7 +2026,7 @@
 		}
 	}
 	s:STATE_CRETE={
-		region_state:EGY={
+		region_state:GRE={
 			create_building={
 				building="building_cotton_plantation"
 				level=1
@@ -2224,7 +2222,7 @@
 		}
 	}
 	s:STATE_IONIAN_ISLANDS={
-		region_state:ION={
+		region_state:GRE={
 			create_building={
 				building="building_wheat_farm"
 				level=1

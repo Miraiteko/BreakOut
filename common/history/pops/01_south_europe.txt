@@ -1,6 +1,6 @@
 ﻿POPS = {
 	s:STATE_LOMBARDY = {
-		region_state:AUS = {
+		region_state:ITA = {
 			create_pop = {
 				culture = north_italian
 				size = 2376996
@@ -496,7 +496,7 @@
 		}
 	}
 	s:STATE_ALBANIA = {
-		region_state:TUR = {
+		region_state:GRE = {
 			create_pop = {
 				culture = albanian
 				size = 1004808
@@ -518,7 +518,7 @@
 		}
 	}
 	s:STATE_BOSNIA = {
-		region_state:TUR = {
+		region_state:CRO = {
 			create_pop = {
 				culture = bosniak
 				size = 304908
@@ -591,7 +591,7 @@
 		}
 	}
 	s:STATE_DALMATIA = {
-		region_state:AUS = {
+		region_state:CRO = {
 			create_pop = {
 				culture = croat
 				size = 297796
@@ -607,7 +607,7 @@
 		}
 	}
 	s:STATE_CROATIA = {
-		region_state:AUS = {
+		region_state:CRO = {
 			create_pop = {
 				culture = croat
 				size = 563592
@@ -632,7 +632,7 @@
 		}
 	}
 	s:STATE_SLAVONIA = {
-		region_state:AUS = {
+		region_state:CRO = {
 			create_pop = {
 				culture = croat
 				size = 282048
@@ -652,7 +652,7 @@
 		}
 	}
 	s:STATE_ISTRIA = {
-		region_state:AUS = {
+		region_state:CRO = {
 			create_pop = {
 				culture = north_italian
 				size = 197800
@@ -676,7 +676,7 @@
 		}
 	}
 	s:STATE_MONTENEGRO = {
-		region_state:TUR = {
+		region_state:SER = {
 			create_pop = {
 				culture = bosniak
 				size = 43196
@@ -689,8 +689,6 @@
 				culture = albanian
 				size = 21000
 			}
-		}
-		region_state:MON = {
 			create_pop = {
 				culture = serb
 				size = 104396
@@ -710,7 +708,7 @@
 		}
 	}
 	s:STATE_SOUTHERN_SERBIA = {
-		region_state:TUR = {
+		region_state:SER = {
 			create_pop = {
 				culture = turkish
 				size = 124400
@@ -738,7 +736,7 @@
 		}
 	}
 	s:STATE_CRETE = {
-		region_state:EGY = {
+		region_state:GRE = {
 			create_pop = {
 				culture = turkish
 				size = 59992
@@ -889,7 +887,7 @@
 		}
 	}
 	s:STATE_IONIAN_ISLANDS = {
-		region_state:ION = {
+		region_state:GRE = {
 			create_pop = {
 				culture = greek
 				size = 186404

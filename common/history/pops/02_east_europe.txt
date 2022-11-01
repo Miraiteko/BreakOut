@@ -45,7 +45,7 @@
 		}
 	}
 	s:STATE_BREST = {
-		region_state:RUS = {
+		region_state:BYE = {
 			create_pop = {
 				culture = polish
 				size = 143992
@@ -79,7 +79,7 @@
 		}
 	}
 	s:STATE_VOLHYNIA = {
-		region_state:RUS = {
+		region_state:UKR = {
 			create_pop = {
 				culture = polish
 				size = 140004
@@ -99,7 +99,7 @@
 		}
 	}
 	s:STATE_KIEV = {
-		region_state:RUS = {
+		region_state:UKR = {
 			create_pop = {
 				culture = ukrainian
 				size = 3923992
@@ -516,7 +516,7 @@
 		}
 	}
 	s:STATE_MAZOVIA = {
-		region_state:RUS = {
+		region_state:POL = {
 			create_pop = {
 				culture = polish
 				size = 1676000
@@ -541,7 +541,7 @@
 		}
 	}
 	s:STATE_SILESIA = {
-		region_state:GER = {
+		region_state:POL = {
 			create_pop = {
 				culture = north_german
 				size = 1319008
@@ -567,7 +567,7 @@
 		}
 	}
 	s:STATE_GREATER_POLAND = {
-		region_state:RUS = {
+		region_state:POL = {
 			create_pop = {
 				culture = polish
 				size = 897396
@@ -588,7 +588,7 @@
 		}
 	}
 	s:STATE_LESSER_POLAND = {
-		region_state:RUS = {
+		region_state:POL = {
 			create_pop = {
 				culture = polish
 				size = 1057396
@@ -613,7 +613,7 @@
 		}
 	}
 	s:STATE_WEST_PRUSSIA = {
-		region_state:GER = {
+		region_state:POL = {
 			create_pop = {
 				culture = north_german
 				size = 452400
@@ -639,7 +639,7 @@
 		}
 	}
 	s:STATE_EAST_PRUSSIA = {
-		region_state:GER = {
+		region_state:POL = {
 			create_pop = {
 				culture = north_german
 				size = 629796
@@ -666,7 +666,7 @@
 		}
 	}
 	s:STATE_POSEN = {
-		region_state:GER = {
+		region_state:POL = {
 			create_pop = {
 				culture = north_german
 				size = 540400
@@ -687,7 +687,7 @@
 		}
 	}
 	s:STATE_WEST_GALICIA = {
-		region_state:AUS = {
+		region_state:POL = {
 			create_pop = {
 				culture = polish
 				size = 1740004
@@ -704,8 +704,6 @@
 				culture = ashkenazi
 				size = 136000
 			}
-		}
-		region_state:KRA = {
 			create_pop = {
 				culture = polish
 				size = 172396
@@ -725,7 +723,7 @@
 		}
 	}
 	s:STATE_EAST_GALICIA = {
-		region_state:AUS = {
+		region_state:UKR = {
 			create_pop = {
 				culture = polish
 				size = 832800
@@ -745,7 +743,7 @@
 		}
 	}
 	s:STATE_CENTRAL_HUNGARY = {
-		region_state:AUS = {
+		region_state:HUN = {
 			create_pop = {
 				culture = hungarian
 				size = 989200
@@ -771,7 +769,7 @@
 		}
 	}
 	s:STATE_BEKES = {
-		region_state:AUS = {
+		region_state:ROM = {
 			create_pop = {
 				culture = hungarian
 				size = 189292
@@ -809,7 +807,7 @@
 		}
 	}
 	s:STATE_TRANSDANUBIA = {
-		region_state:AUS = {
+		region_state:HUN = {
 			create_pop = {
 				culture = hungarian
 				size = 1375796
@@ -848,7 +846,7 @@
 		}
 	}
 	s:STATE_DELVIDEK = {
-		region_state:AUS = {
+		region_state:SER = {
 			create_pop = {
 				culture = south_german
 				size = 197200
@@ -876,7 +874,7 @@
 		}
 	}
 	s:STATE_BANAT = {
-		region_state:AUS = {
+		region_state:SER = {
 			create_pop = {
 				culture = south_german
 				size = 312640
@@ -914,7 +912,7 @@
 		}
 	}
 	s:STATE_WEST_SLOVAKIA = {
-		region_state:AUS = {
+		region_state:HUN = {
 			create_pop = {
 				culture = hungarian
 				size = 237000
@@ -947,7 +945,7 @@
 		}
 	}
 	s:STATE_EAST_SLOVAKIA = {
-		region_state:AUS = {
+		region_state:HUN = {
 			create_pop = {
 				culture = hungarian
 				size = 150848
@@ -984,7 +982,7 @@
 		}
 	}
 	s:STATE_SOUTHERN_TRANSYLVANIA = {
-		region_state:AUS = {
+		region_state:ROM = {
 			create_pop = {
 				culture = hungarian
 				religion = protestant
@@ -1042,7 +1040,8 @@
 		}
 	}
 	s:STATE_MOLDAVIA = {
-		region_state:AUS = {
+		region_state:		region_state:ROM={
+ = {
 			create_pop = {
 				culture = polish
 				size = 20008
@@ -1068,7 +1067,7 @@
 				size = 32000
 			}
 		}
-		region_state:MOL = {
+		region_state:ROM = {
 			create_pop = {
 				culture = romanian
 				size = 1393304
@@ -1081,7 +1080,7 @@
 		}
 	}
 	s:STATE_WALLACHIA = {
-		region_state:WAL = {
+		region_state:ROM = {
 			create_pop = {
 				culture = romanian
 				size = 1094208

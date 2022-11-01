@@ -1197,7 +1197,7 @@
 		}
 	}
 	s:STATE_HAWAIIAN_ISLANDS={
-		region_state:HAW={
+		region_state:USA={
 			create_building={ # Iolani Palace
 				building="building_government_administration"
 				level=1
