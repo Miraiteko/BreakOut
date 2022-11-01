@@ -276,7 +276,7 @@ GBR = { #周
 		
 		trigger = {
 			exists = scope:actor
-			scope:actor = { country_rank >= rank_value:major_power }
+			scope:actor = { country_rank >= rank_value:great_power }
 		}
 	}
 	dynamic_country_name = {
@@ -324,7 +324,7 @@ CHI = { #秦
 		
 		trigger = {
 			exists = scope:actor
-			scope:actor = { country_rank >= rank_value:major_power }
+			scope:actor = { country_rank >= rank_value:great_power }
 		}
 	}
 	dynamic_country_name = {
@@ -348,7 +348,7 @@ FRA = { #齐
 		
 		trigger = {
 			exists = scope:actor
-			scope:actor = { country_rank >= rank_value:major_power }
+			scope:actor = { country_rank >= rank_value:great_power }
 		}
 	}
 	dynamic_country_name = {
@@ -372,7 +372,7 @@ RUS = { #楚
 		
 		trigger = {
 			exists = scope:actor
-			scope:actor = { country_rank >= rank_value:major_power }
+			scope:actor = { country_rank >= rank_value:great_power }
 		}
 	}
 	dynamic_country_name = {
@@ -398,7 +398,7 @@ GER = { #郑
 		
 		trigger = {
 			exists = scope:actor
-			scope:actor = { country_rank >= rank_value:major_power }
+			scope:actor = { country_rank >= rank_value:great_power }
 		}
 	}
 	dynamic_country_name = {
@@ -422,7 +422,7 @@ ITA = { #卫
 		
 		trigger = {
 			exists = scope:actor
-			scope:actor = { country_rank >= rank_value:major_power }
+			scope:actor = { country_rank >= rank_value:great_power }
 		}
 	}
 	dynamic_country_name = {
@@ -446,7 +446,7 @@ SPA = { #宋
 		
 		trigger = {
 			exists = scope:actor
-			scope:actor = { country_rank >= rank_value:major_power }
+			scope:actor = { country_rank >= rank_value:great_power }
 		}
 	}
 	dynamic_country_name = {
@@ -470,7 +470,7 @@ POR = { #滕
 		
 		trigger = {
 			exists = scope:actor
-			scope:actor = { country_rank >= rank_value:major_power }
+			scope:actor = { country_rank >= rank_value:great_power }
 		}
 	}
 	dynamic_country_name = {
@@ -494,7 +494,7 @@ NET = { #鲁
 		
 		trigger = {
 			exists = scope:actor
-			scope:actor = { country_rank >= rank_value:major_power }
+			scope:actor = { country_rank >= rank_value:great_power }
 		}
 	}
 	dynamic_country_name = {
@@ -518,7 +518,7 @@ SWI = { #邢
 		
 		trigger = {
 			exists = scope:actor
-			scope:actor = { country_rank >= rank_value:major_power }
+			scope:actor = { country_rank >= rank_value:great_power }
 		}
 	}
 	dynamic_country_name = {
@@ -542,7 +542,7 @@ NOR = { #黎
 		
 		trigger = {
 			exists = scope:actor
-			scope:actor = { country_rank >= rank_value:major_power }
+			scope:actor = { country_rank >= rank_value:great_power }
 		}
 	}
 	dynamic_country_name = {
@@ -566,7 +566,7 @@ DEN = { #郭
 		
 		trigger = {
 			exists = scope:actor
-			scope:actor = { country_rank >= rank_value:major_power }
+			scope:actor = { country_rank >= rank_value:great_power }
 		}
 	}
 	dynamic_country_name = {
@@ -590,7 +590,7 @@ SWE = { #曹
 		
 		trigger = {
 			exists = scope:actor
-			scope:actor = { country_rank >= rank_value:major_power }
+			scope:actor = { country_rank >= rank_value:great_power }
 		}
 	}
 	dynamic_country_name = {
@@ -614,7 +614,7 @@ AUS = { #应
 		
 		trigger = {
 			exists = scope:actor
-			scope:actor = { country_rank >= rank_value:major_power }
+			scope:actor = { country_rank >= rank_value:great_power }
 		}
 	}
 	dynamic_country_name = {
@@ -640,7 +640,7 @@ POL = { #蔡
 		
 		trigger = {
 			exists = scope:actor
-			scope:actor = { country_rank >= rank_value:major_power }
+			scope:actor = { country_rank >= rank_value:great_power }
 		}
 	}
 	dynamic_country_name = {
@@ -664,7 +664,7 @@ HUN = { #陈
 		
 		trigger = {
 			exists = scope:actor
-			scope:actor = { country_rank >= rank_value:major_power }
+			scope:actor = { country_rank >= rank_value:great_power }
 		}
 	}
 	dynamic_country_name = {
@@ -688,7 +688,7 @@ UKR = { #曾
 		
 		trigger = {
 			exists = scope:actor
-			scope:actor = { country_rank >= rank_value:major_power }
+			scope:actor = { country_rank >= rank_value:great_power }
 		}
 	}
 	dynamic_country_name = {
@@ -712,7 +712,7 @@ BYE = { #唐
 		
 		trigger = {
 			exists = scope:actor
-			scope:actor = { country_rank >= rank_value:major_power }
+			scope:actor = { country_rank >= rank_value:great_power }
 		}
 	}
 	dynamic_country_name = {
@@ -736,7 +736,7 @@ GRE = { #杞
 		
 		trigger = {
 			exists = scope:actor
-			scope:actor = { country_rank >= rank_value:major_power }
+			scope:actor = { country_rank >= rank_value:great_power }
 		}
 	}
 	dynamic_country_name = {
@@ -760,7 +760,7 @@ ROM = { #申
 		
 		trigger = {
 			exists = scope:actor
-			scope:actor = { country_rank >= rank_value:major_power }
+			scope:actor = { country_rank >= rank_value:great_power }
 		}
 	}
 	dynamic_country_name = {
@@ -784,7 +784,7 @@ SER = { #胡
 		
 		trigger = {
 			exists = scope:actor
-			scope:actor = { country_rank >= rank_value:major_power }
+			scope:actor = { country_rank >= rank_value:great_power }
 		}
 	}
 	dynamic_country_name = {
@@ -808,7 +808,7 @@ CRO = { #蓼
 		
 		trigger = {
 			exists = scope:actor
-			scope:actor = { country_rank >= rank_value:major_power }
+			scope:actor = { country_rank >= rank_value:great_power }
 		}
 	}
 	dynamic_country_name = {
@@ -832,7 +832,7 @@ FIN = { #邓
 		
 		trigger = {
 			exists = scope:actor
-			scope:actor = { country_rank >= rank_value:major_power }
+			scope:actor = { country_rank >= rank_value:great_power }
 		}
 	}
 	dynamic_country_name = {
@@ -858,7 +858,7 @@ ISR = { #吴
 		
 		trigger = {
 			exists = scope:actor
-			scope:actor = { country_rank >= rank_value:major_power }
+			scope:actor = { country_rank >= rank_value:great_power }
 		}
 	}
 	dynamic_country_name = {
@@ -882,7 +882,7 @@ PER = { #徐
 		
 		trigger = {
 			exists = scope:actor
-			scope:actor = { country_rank >= rank_value:major_power }
+			scope:actor = { country_rank >= rank_value:great_power }
 		}
 	}
 	dynamic_country_name = {
@@ -906,7 +906,7 @@ TUR = { #越
 		
 		trigger = {
 			exists = scope:actor
-			scope:actor = { country_rank >= rank_value:major_power }
+			scope:actor = { country_rank >= rank_value:great_power }
 		}
 	}
 	dynamic_country_name = {
@@ -930,7 +930,7 @@ EGY = { #钟吾
 		
 		trigger = {
 			exists = scope:actor
-			scope:actor = { country_rank >= rank_value:major_power }
+			scope:actor = { country_rank >= rank_value:great_power }
 		}
 	}
 	dynamic_country_name = {
@@ -954,7 +954,7 @@ IRQ = { #莒
 		
 		trigger = {
 			exists = scope:actor
-			scope:actor = { country_rank >= rank_value:major_power }
+			scope:actor = { country_rank >= rank_value:great_power }
 		}
 	}
 	dynamic_country_name = {
@@ -978,7 +978,7 @@ TUN = { #莱
 		
 		trigger = {
 			exists = scope:actor
-			scope:actor = { country_rank >= rank_value:major_power }
+			scope:actor = { country_rank >= rank_value:great_power }
 		}
 	}
 	dynamic_country_name = {
@@ -1004,7 +1004,7 @@ JAP = { #犬戎
 		
 		trigger = {
 			exists = scope:actor
-			scope:actor = { country_rank >= rank_value:major_power }
+			scope:actor = { country_rank >= rank_value:great_power }
 		}
 	}
 	dynamic_country_name = {
@@ -1028,7 +1028,7 @@ KOR = { #虢
 		
 		trigger = {
 			exists = scope:actor
-			scope:actor = { country_rank >= rank_value:major_power }
+			scope:actor = { country_rank >= rank_value:great_power }
 		}
 	}
 	dynamic_country_name = {
@@ -1052,7 +1052,7 @@ AST = { #燕
 		
 		trigger = {
 			exists = scope:actor
-			scope:actor = { country_rank >= rank_value:major_power }
+			scope:actor = { country_rank >= rank_value:great_power }
 		}
 	}
 	dynamic_country_name = {
@@ -1076,7 +1076,7 @@ NZL = { #蓟
 		
 		trigger = {
 			exists = scope:actor
-			scope:actor = { country_rank >= rank_value:major_power }
+			scope:actor = { country_rank >= rank_value:great_power }
 		}
 	}
 	dynamic_country_name = {
@@ -1100,7 +1100,7 @@ HND = { #蜀
 		
 		trigger = {
 			exists = scope:actor
-			scope:actor = { country_rank >= rank_value:major_power }
+			scope:actor = { country_rank >= rank_value:great_power }
 		}
 	}
 	dynamic_country_name = {
@@ -1124,7 +1124,7 @@ DAI = { #褒
 		
 		trigger = {
 			exists = scope:actor
-			scope:actor = { country_rank >= rank_value:major_power }
+			scope:actor = { country_rank >= rank_value:great_power }
 		}
 	}
 	dynamic_country_name = {
@@ -1148,7 +1148,7 @@ MGL = { #陆浑戎
 		
 		trigger = {
 			exists = scope:actor
-			scope:actor = { country_rank >= rank_value:major_power }
+			scope:actor = { country_rank >= rank_value:great_power }
 		}
 	}
 	dynamic_country_name = {
@@ -1172,7 +1172,7 @@ SIA = { #乌氏
 		
 		trigger = {
 			exists = scope:actor
-			scope:actor = { country_rank >= rank_value:major_power }
+			scope:actor = { country_rank >= rank_value:great_power }
 		}
 	}
 	dynamic_country_name = {
@@ -1198,7 +1198,7 @@ CAN = { #梁
 		
 		trigger = {
 			exists = scope:actor
-			scope:actor = { country_rank >= rank_value:major_power }
+			scope:actor = { country_rank >= rank_value:great_power }
 		}
 	}
 	dynamic_country_name = {
@@ -1222,7 +1222,7 @@ MEX = { #中山
 		
 		trigger = {
 			exists = scope:actor
-			scope:actor = { country_rank >= rank_value:major_power }
+			scope:actor = { country_rank >= rank_value:great_power }
 		}
 	}
 	dynamic_country_name = {
@@ -1246,7 +1246,7 @@ BRZ = { #鲜虞
 		
 		trigger = {
 			exists = scope:actor
-			scope:actor = { country_rank >= rank_value:major_power }
+			scope:actor = { country_rank >= rank_value:great_power }
 		}
 	}
 	dynamic_country_name = {
