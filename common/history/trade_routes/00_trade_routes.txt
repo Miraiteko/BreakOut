@@ -9,22 +9,21 @@
 		}			
 		create_trade_route = {
 			goods = silk
-			level = 18
+			level = 5
 			direction = import
 			target = c:CHI.market
 		}	
 		create_trade_route = {
 			goods = porcelain
-			level = 15
+			level = 5
 			direction = import
 			target = c:CHI.market
 		}		
 		create_trade_route = {
 			goods = tea
-			level = 25
+			level = 5
 			direction = import
 			target = c:CHI.market
-		}rget = c:BRZ.market
 		}		
 	}	
 }

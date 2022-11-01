@@ -1,7 +1,6 @@
 ﻿# This is executed last among all history
 GLOBAL = {
 	every_state = {
-		state_breed_monthly_check = yes
 		if = {
 			limit = {
 				total_urbanization > 500
