@@ -35,6 +35,7 @@
  SER_ADJ:0 "胡"
  CRO_ADJ:0 "蓼"
  FIN_ADJ:0 "邓"
+ BUL_ADJ:0 "?"
  
  #征服东夷
  ISR_ADJ:0 "吴"
@@ -43,6 +44,8 @@
  EGY_ADJ:0 "钟吾"
  IRQ_ADJ:0 "莒"
  TUN_ADJ:0 "莱"
+ SYR_ADJ:0 "?"
+ NEJ_ADJ:0 "?"
  
  #秦包围网
  JAP_ADJ:0 "犬戎"

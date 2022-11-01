@@ -1054,7 +1054,7 @@
 		}
 	}
 	s:STATE_TENASSERIM = {
-		region_state:HND = {
+		region_state:SIA = {
 			create_pop = {
 				culture = karen
 				size = 180800
@@ -1080,8 +1080,6 @@
 				culture = karen
 				size = 20000
 			}
-		}
-		region_state:SIA = {
 			create_pop = {
 				culture = burmese
 				size = 36000

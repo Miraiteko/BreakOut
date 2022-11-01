@@ -11,14 +11,4 @@
 			type = alliance
 		}
 	}
-	c:CHI = {	
-		create_diplomatic_pact = {
-			country = c:PER
-			type = customs_union
-		}
-		create_diplomatic_pact = {
-			country = c:PAN
-			type = customs_union
-		}
-	}
 }

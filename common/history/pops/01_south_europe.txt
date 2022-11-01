@@ -119,14 +119,10 @@
 				culture = north_italian
 				size = 472004
 			}
-		}
-		region_state:ITA = {
 			create_pop = {
 				culture = north_italian
 				size = 108408
 			}
-		}
-		region_state:ITA = {
 			create_pop = {
 				culture = north_italian
 				size = 648400
@@ -168,7 +164,7 @@
 		}
 	}
 	s:STATE_VENETIA = {
-		region_state:AUS = {
+		region_state:ITA = {
 			create_pop = {
 				culture = north_italian
 				size = 1855196
@@ -450,7 +446,7 @@
 		}
 	}
 	s:STATE_DOBRUDJA = {
-		region_state:TUR = {
+		region_state:BUL = {
 			create_pop = {
 				culture = turkish
 				size = 59044
@@ -471,8 +467,6 @@
 				culture = romanian
 				size = 76000
 			}
-		}
-		region_state:RUS = {
 			create_pop = {
 				culture = turkish
 				size = 2560
@@ -538,7 +532,7 @@
 		}
 	}
 	s:STATE_NORTHERN_THRACE = {
-		region_state:TUR = {
+		region_state:BUL = {
 			create_pop = {
 				culture = turkish
 				size = 273408
@@ -563,7 +557,7 @@
 		}
 	}
 	s:STATE_BULGARIA = {
-		region_state:TUR = {
+		region_state:BUL = {
 			create_pop = {
 				culture = turkish
 				size = 210404
@@ -652,7 +646,7 @@
 		}
 	}
 	s:STATE_ISTRIA = {
-		region_state:CRO = {
+		region_state:ITA = {
 			create_pop = {
 				culture = north_italian
 				size = 197800
@@ -757,7 +751,7 @@
 	}
 
 	s:STATE_EAST_AEGEAN_ISLANDS = {
-		region_state:TUR = {
+		region_state:GRE = {
 			create_pop = {
 				culture = turkish
 				size = 8992
@@ -781,7 +775,7 @@
 		}
 	}
 	s:STATE_THESSALIA = {
-		region_state:TUR = {
+		region_state:GRE = {
 			create_pop = {
 				culture = turkish
 				size = 76208
@@ -806,7 +800,7 @@
 		}
 	}
 	s:STATE_SKOPIA = {
-		region_state:TUR = {
+		region_state:GRE = {
 			create_pop = {
 				culture = turkish
 				size = 157296
@@ -830,7 +824,7 @@
 		}
 	}
 	s:STATE_MACEDONIA = {
-		region_state:TUR = {
+		region_state:GRE = {
 			create_pop = {
 				culture = turkish
 				size = 84000
@@ -860,7 +854,7 @@
 		}
 	}
 	s:STATE_WESTERN_THRACE = {
-		region_state:TUR = {
+		region_state:GRE = {
 			create_pop = {
 				culture = turkish
 				size = 274808

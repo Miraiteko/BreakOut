@@ -12,16 +12,28 @@
 			country = c:MEX
 			type = protectorate
 		}
+		create_diplomatic_pact = {
+			country = c:POL
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:FIN
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:HUN
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:ROM
+			type = protectorate
+		}
 	}
 	c:GBR = {
-		###北美
-		# Hudson Bay Company has a weird autonomous charter
 		create_diplomatic_pact = {
 			country = c:CAN
 			type = protectorate
 		}
-
-		### 太平洋
 		create_diplomatic_pact = {
 			country = c:AST
 			type = protectorate
@@ -30,14 +42,25 @@
 			country = c:NZL
 			type = protectorate
 		}
-
-		#南亚
 		create_diplomatic_pact = {
 			country = c:HND
 			type = protectorate
 		}
 	}
-	#中原
+	c:RUS = {
+		create_diplomatic_pact = {
+			country = c:UKR
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:BYE
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:BUK
+			type = protectorate
+		}
+	}
 	c:FRA = {	
 		create_diplomatic_pact = {
 			country = c:GER
@@ -76,20 +99,38 @@
 			type = protectorate
 		}
 		create_diplomatic_pact = {
-			country = c:NET
+			country = c:DEN
 			type = protectorate
 		}
 		create_diplomatic_pact = {
-			country = c:NET
-			type = customs_union
-		}
-		create_diplomatic_pact = {
-			country = c:DEN
-			type = customs_union
-		}
-		create_diplomatic_pact = {
 			country = c:GRE
-			type = customs_union
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:CRO
+			type = protectorate
+		}
+	}
+	c:CHI = {
+		create_diplomatic_pact = {
+			country = c:DAI
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:SER
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:PAN
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:PER
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:SIA
+			type = protectorate
 		}
 	}
 }

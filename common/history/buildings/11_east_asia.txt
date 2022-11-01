@@ -301,10 +301,6 @@
 				reserves=1
 				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
-			create_building={
-				building="building_forbidden_city"
-				level=1
-			}
 		}
 	}
 	s:STATE_OUTER_MANCHURIA={
@@ -470,6 +466,10 @@
 				level=15
 				reserves=1
 				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
+			}
+			create_building={
+				building="building_forbidden_city"
+				level=1
 			}
 		}
 	}
@@ -1468,7 +1468,7 @@
 		}
 	}
 	s:STATE_TENASSERIM={
-		region_state:HND={
+		region_state:SIA={
 			create_building={
 				building="building_dye_plantation"
 				level=2
@@ -1481,8 +1481,6 @@
 				reserves=1
 				activate_production_methods={ "pm_anchorage" }
 			}
-		}
-		region_state:SIA={
 		}
 	}
 	s:STATE_KACHIN={

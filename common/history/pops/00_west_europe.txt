@@ -496,13 +496,11 @@
 		}
 	}
 	s:STATE_PROVENCE = {
-		region_state:ITA = {
+		region_state:FRA = {
 			create_pop = {
 				culture = north_italian
 				size = 171200
 			}
-		}
-		region_state:FRA = {
 			create_pop = {
 				culture = occitan
 				size = 1362200

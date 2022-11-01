@@ -100,7 +100,7 @@ AUS = {
 }
 
 USA = {
-	color = { 66  94  193 }
+	color = { 185  46  145 }
 	
 	country_type = colonial
 	
@@ -1764,14 +1764,14 @@ CAM = {
 }
 
 CHI = {
-	color = { 252 185 61 }
+	color = { 40 50 60 }
 	
 	country_type = recognized
 	
 	tier = empire
 	
 	cultures = { manchu han } 
-	capital = STATE_BEIJING
+	capital = STATE_XIAN
 }
 
 DAI = {

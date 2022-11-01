@@ -368,7 +368,7 @@
 		}
 	}
 	s:STATE_TRANSJORDAN = {
-		region_state:EGY = {
+		region_state:ISR = {
 			create_pop = {
 				culture = bedouin
 				religion = sunni
@@ -407,7 +407,7 @@
 		}
 	}
 	s:STATE_PALESTINE = {
-		region_state:EGY = {
+		region_state:ISR = {
 			create_pop = {
 				culture = mashriqi
 				religion = sunni
@@ -455,7 +455,7 @@
 		}
 	}
 	s:STATE_LEBANON = {
-		region_state:EGY = {
+		region_state:SYR = {
 			create_pop = {
 				culture = mashriqi
 				religion = sunni
@@ -512,7 +512,7 @@
 		}
 	}
 	s:STATE_SYRIA = {
-		region_state:EGY = {
+		region_state:SYR = {
 			create_pop = {
 				culture = mashriqi
 				religion = shiite
@@ -555,7 +555,7 @@
 		}
 	}
 	s:STATE_ALEPPO = {
-		region_state:EGY = {
+		region_state:SYR = {
 			create_pop = {
 				culture = mashriqi
 				religion = sunni
@@ -617,7 +617,7 @@
 		}
 	}
 	s:STATE_BAGHDAD = {
-		region_state:TUR = {
+		region_state:IRQ = {
 			create_pop = {
 				culture = mashriqi
 				religion = sunni
@@ -667,7 +667,7 @@
 		}
 	}
 	s:STATE_MOSUL = {
-		region_state:TUR = {
+		region_state:IRQ = {
 			create_pop = {
 				culture = kurdish
 				size = 203004
@@ -703,7 +703,7 @@
 		}
 	}
 	s:STATE_DEIR_EZ_ZOR = {
-		region_state:TUR = {
+		region_state:IRQ = {
 			create_pop = {
 				culture = mashriqi
 				religion = sunni
@@ -735,7 +735,7 @@
 		}
 	}
 	s:STATE_BASRA = {
-		region_state:TUR = {
+		region_state:IRQ = {
 			create_pop = {
 				culture = mashriqi
 				size = 272000
@@ -1204,7 +1204,7 @@
 		}
 	}
 	s:STATE_ADANA = {
-		region_state:EGY = {
+		region_state:TUR = {
 			create_pop = {
 				culture = turkish
 				size = 270062
@@ -1236,8 +1236,6 @@
 				culture = lacustrine_bantu
 				size = 1000
 			}
-		}
-		region_state:TUR = {
 			create_pop = {
 				culture = turkish
 				size = 30012
@@ -1385,8 +1383,6 @@
 				culture = georgian
 				size = 1400
 			}
-		}
-		region_state:RUS = {
 			create_pop = {
 				culture = azerbaijani
 				size = 17000

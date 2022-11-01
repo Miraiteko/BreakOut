@@ -51,11 +51,11 @@ economy_of_scale = {
 
 modifier_emperor = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
-	country_prestige_add = 3000
+	country_prestige_add = 2000
 }
 modifier_overlord = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
-	country_prestige_add = 2500
+	country_prestige_add = 1500
 }
 country_gdp = {
 	country_minting_add = 0.01

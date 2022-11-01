@@ -254,7 +254,7 @@
 		}
 	}
 	s:STATE_ORSHA={
-		region_state:RUS={
+		region_state:BYE={
 			create_building={
 				building="building_paper_mills"
 				level=3
@@ -348,7 +348,7 @@
 		}
 	}
 	s:STATE_CRIMEA={
-		region_state:RUS={
+		region_state:UKR={
 			create_building={
 				building="building_naval_base"
 				level=10
@@ -370,7 +370,7 @@
 		}
 	}
 	s:STATE_LUHANSK={
-		region_state:RUS={
+		region_state:UKR={
 			create_building={
 				building="building_livestock_ranch"
 				level=5
@@ -398,7 +398,7 @@
 		}
 	}
 	s:STATE_KURSK={
-		region_state:RUS={
+		region_state:UKR={
 			create_building={
 				building="building_rye_farm"
 				level=3
@@ -442,7 +442,7 @@
 		}
 	}
 	s:STATE_CHERSON={
-		region_state:RUS={
+		region_state:UKR={
 			create_building={
 				building="building_shipyards"
 				level=4
@@ -498,7 +498,7 @@
 		}
 	}
 	s:STATE_MINSK={
-		region_state:RUS={
+		region_state:BYE={
 			create_building={
 				building="building_government_administration"
 				level=5
@@ -532,7 +532,7 @@
 		}
 	}
 	s:STATE_ROSTOV={
-		region_state:RUS={
+		region_state:UKR={
 			create_building={
 				building="building_livestock_ranch"
 				level=1
@@ -1270,7 +1270,7 @@
 		}
 	}
 	s:STATE_BESSARABIA={
-		region_state:RUS={
+		region_state:UKR={
 			create_building={
 				building="building_fishing_wharf"
 				level=1

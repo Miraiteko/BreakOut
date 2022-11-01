@@ -1,7 +1,7 @@
 ﻿# This is an example of all the ways in which create_pop can now be used
 POPS = {
 	#s:STATE_MINSK = {
-	#	region_state:RUS = {
+	#	region_state:BYE = {
 	#		create_pop = {
 	#			culture = byelorussian
 	#			size = 176925

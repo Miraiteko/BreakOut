@@ -1416,7 +1416,7 @@
 		}
 	}
 	s:STATE_PROVENCE={
-		region_state:ITA={
+		region_state:FRA={
 			create_building={
 				building="building_fishing_wharf"
 				level=1
@@ -1429,8 +1429,6 @@
 				reserves=1
 				activate_production_methods={ "pm_simple_farming" "pm_privately_owned" "pm_tools_disabled" "pm_vineyards" }
 			}
-		}
-		region_state:FRA={
 			create_building={
 				building="building_textile_mills"
 				level=3
