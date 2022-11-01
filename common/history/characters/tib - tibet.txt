@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	c:TIB = {
+	c:CHI = {
 		create_character = {
 			# 10th Dalai Lama
 			#role = politician # Remove this line

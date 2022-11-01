@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	c:MOD = {
+	c:ITA = {
 		create_character = {
 			# Francis IV, Duke of Modena
 			#role = politician # Remove this line

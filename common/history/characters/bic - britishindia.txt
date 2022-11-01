@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	c:BIC = {
+	c:HND = {
 		create_character = {
 			# George Eden, 1st Earl of Auckland
 			#role = politician # Remove this line

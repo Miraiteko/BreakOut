@@ -1258,7 +1258,7 @@
 		}
 	}
 	s:STATE_ONTARIO={
-		region_state:HBC={
+		region_state:CAN={
 			create_building={
 				building="building_logging_camp"
 				level=1
@@ -1392,7 +1392,7 @@
 				activate_production_methods={ "pm_basic_port" }
 			}
 		}
-		region_state:HBC={
+		region_state:CAN={
 			create_building={
 				building="building_logging_camp"
 				level=1
@@ -1412,7 +1412,7 @@
 		}
 	}
 	s:STATE_ALBERTA={
-		region_state:HBC={
+		region_state:CAN={
 			create_building={
 				building="building_logging_camp"
 				level=1
@@ -1440,13 +1440,13 @@
 		}
 	}
 	s:STATE_SASKATCHEWAN={
-		region_state:HBC={
+		region_state:CAN={
 		}
 		region_state:IRC={
 		}
 	}
 	s:STATE_MANITOBA={
-		region_state:HBC={
+		region_state:CAN={
 			create_building={
 				building="building_barracks"
 				level=2
@@ -1464,15 +1464,15 @@
 		}
 	}
 	s:STATE_YUKON_TERRITORY={
-		region_state:HBC={
+		region_state:CAN={
 		}
 	}
 	s:STATE_NORTHWEST_TERRITORIES={
-		region_state:HBC={
+		region_state:CAN={
 		}
 	}
 	s:STATE_NUNAVUT={
-		region_state:HBC={
+		region_state:CAN={
 		}
 	}
 	s:STATE_BERMUDA={

@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	c:QUE = {
+	c:CAN = {
 		create_character = {
 			#role = politician # Remove this line
 			first_name = "Archibald"

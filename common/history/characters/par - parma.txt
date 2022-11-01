@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	c:PAR = {
+	c:ITA = {
 		create_character = {
 			# Marie Louise, Duchess of Parma
 			#role = politician # Remove this line

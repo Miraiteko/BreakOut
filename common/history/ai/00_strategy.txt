@@ -10,7 +10,7 @@
 			50 = { set_strategy = ai_strategy_progressive_agenda }
 		}
 	}	
-	c:SAR = {
+	c:ITA = {
 		set_strategy = ai_strategy_industrial_expansion		
 		set_strategy = ai_strategy_maintain_power_balance
 		set_strategy = ai_strategy_progressive_agenda
@@ -37,7 +37,7 @@
 			25 = { set_strategy = ai_strategy_progressive_agenda }
 		}
 	}		
-	c:SIC = {
+	c:ITA = {
 		random_list = {	
 			75 = { set_strategy = ai_strategy_resource_expansion }
 			25 = { set_strategy = ai_strategy_industrial_expansion }
@@ -80,7 +80,7 @@
 			50 = { set_strategy = ai_strategy_conservative_agenda }	
 		}				
 	}	
-	c:PRU = {
+	c:GER = {
 		random_list = {	
 			65 = { set_strategy = ai_strategy_industrial_expansion }
 			35 = { set_strategy = ai_strategy_resource_expansion }

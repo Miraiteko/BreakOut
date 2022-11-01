@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	c:IND = {
+	c:HND = {
 		create_character = {
 			# Hari Rao Holkar IX
 			#role = politician # Remove this line

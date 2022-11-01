@@ -1,5 +1,5 @@
 ﻿COUNTRIES = {
-	c:SAR = {
+	c:ITA = {
 
 		ig:ig_devout = {
 			add_ruling_interest_group = yes

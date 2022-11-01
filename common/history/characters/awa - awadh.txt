@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	c:AWA = {
+	c:HND = {
 		create_character = {
 			# Nasir-ud-Din Haidar Shah
 			#role = politician # Remove this line

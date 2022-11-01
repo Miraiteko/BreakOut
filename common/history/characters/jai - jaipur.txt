@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	c:JAI = {
+	c:HND = {
 		create_character = {
 			# Ram Singh of Jaipur
 			#role = politician # Remove this line

@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	c:SAS = {
+	c:AST = {
 		create_character = {
 			# John Hindmarsh
 			#role = politician # Remove this line

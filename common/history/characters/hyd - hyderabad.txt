@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	c:HYD = {
+	c:HND = {
 		create_character = {
 			# Nasir-ud-Daulah
 			#role = politician # Remove this line

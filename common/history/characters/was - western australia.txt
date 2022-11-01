@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	c:WAS = {
+	c:AST = {
 		create_character = {
 			# Admiral Sir James Stirling
 			#role = politician # Remove this line

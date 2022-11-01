@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	c:TUS = {
+	c:ITA = {
 		create_character = {
 			# Leopold II, Grand Duke of Tuscany
 			#role = politician # Remove this line

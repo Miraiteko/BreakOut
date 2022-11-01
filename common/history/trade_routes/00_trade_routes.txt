@@ -3,27 +3,9 @@
 	c:GBR = {
 		create_trade_route = {
 			goods = opium
-			level = 30
+			level = 10
 			direction = export
 			target = c:CHI.market
-		}			
-		create_trade_route = {
-			goods = silk
-			level = 5
-			direction = import
-			target = c:CHI.market
-		}	
-		create_trade_route = {
-			goods = porcelain
-			level = 5
-			direction = import
-			target = c:CHI.market
-		}		
-		create_trade_route = {
-			goods = tea
-			level = 5
-			direction = import
-			target = c:CHI.market
-		}		
+		}				
 	}	
 }

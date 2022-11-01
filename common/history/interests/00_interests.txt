@@ -18,12 +18,12 @@
 		add_declared_interest = region_persia
 		add_declared_interest = region_indonesia
 	}
-	c:BIC = {
+	c:HND = {
 		add_declared_interest = region_persia
 		add_declared_interest = region_himalayas
 		add_declared_interest = region_south_china
 	}
-	c:BAV = {
+	c:GER = {
 		add_declared_interest = region_north_germany	
 	}
 	c:WUR = {
@@ -32,7 +32,7 @@
 	c:BAD = {
 		add_declared_interest = region_north_germany	
 	}
-	c:HAN = {
+	c:GER = {
 		add_declared_interest = region_south_germany	
 	}	
 	c:SAX = {
@@ -55,7 +55,7 @@
 		add_declared_interest = region_manchuria
 		add_declared_interest = region_rhine
 	}
-	c:SIC = {
+	c:ITA = {
 		add_declared_interest = region_occitania
 		add_declared_interest = region_balkans
 	}	
@@ -131,7 +131,7 @@
 		add_declared_interest = region_france
 		add_declared_interest = region_england
 	}
-	c:PRU = {
+	c:GER = {
 		add_declared_interest = region_baltic
 		add_declared_interest = region_france	
 	}	

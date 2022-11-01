@@ -1,6 +1,6 @@
 ﻿BUILDINGS={
 	s:STATE_BIHAR={
-		region_state:BIC={
+		region_state:HND={
 			create_building={
 				building="building_arms_industry"
 				level=1
@@ -46,7 +46,7 @@
 		}
 	}
 	s:STATE_NORTH_BENGAL={
-		region_state:BIC={
+		region_state:HND={
 			create_building={
 				building="building_government_administration"
 				level=5
@@ -92,7 +92,7 @@
 		}
 	}
 	s:STATE_ASSAM={
-		region_state:BIC={
+		region_state:HND={
 			create_building={
 				building="building_government_administration"
 				level=2
@@ -120,7 +120,7 @@
 		}
 	}
 	s:STATE_DELHI={
-		region_state:BIC={
+		region_state:HND={
 			create_building={
 				building="building_government_administration"
 				level=8
@@ -216,7 +216,7 @@
 				activate_production_methods={ "pm_irregular_infantry" "pm_wound_dressing" "pm_cavalry_scouts" "pm_no_specialists" "pm_no_artillery" }
 			}
 		}
-		region_state:BIC={
+		region_state:HND={
 			create_building={
 				building="building_furniture_manufacturies"
 				level=3
@@ -372,7 +372,7 @@
 				activate_production_methods={ "pm_irregular_infantry" "pm_wound_dressing" "pm_cavalry_scouts" "pm_no_specialists" "pm_no_artillery" }
 			}
 		}
-		region_state:BIC={
+		region_state:HND={
 			create_building={
 				building="building_cotton_plantation"
 				level=1
@@ -514,7 +514,7 @@
 				activate_production_methods={ "pm_line_infantry" "pm_cannon_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
 		}
-		region_state:BIC={
+		region_state:HND={
 		}
 	}
 	s:STATE_NAGPUR={
@@ -588,7 +588,7 @@
 		}
 	}
 	s:STATE_SOUTH_BENGAL={
-		region_state:BIC={
+		region_state:HND={
 			create_building={
 				building="building_government_administration"
 				level=10
@@ -762,7 +762,7 @@
 		}
 	}
 	s:STATE_CEYLON={
-		region_state:BIC={
+		region_state:HND={
 			create_building={
 				building="building_fishing_wharf"
 				level=2
@@ -840,11 +840,11 @@
 				activate_production_methods={ "default_building_sugar_plantation" "pm_road_carts" "pm_privately_owned" }
 			}
 		}
-		region_state:BIC={
+		region_state:HND={
 		}
 	}
 	s:STATE_CIRCARS={
-		region_state:BIC={
+		region_state:HND={
 			create_building={
 				building="building_government_administration"
 				level=5
@@ -928,7 +928,7 @@
 				activate_production_methods={ "pm_irregular_infantry" "pm_wound_dressing" "pm_cavalry_scouts" "pm_no_specialists" "pm_no_artillery" }
 			}
 		}
-		region_state:BIC={
+		region_state:HND={
 			create_building={
 				building="building_coffee_plantation"
 				level=1
@@ -964,7 +964,7 @@
 				activate_production_methods={ "pm_irregular_infantry" "pm_wound_dressing" "pm_cavalry_scouts" "pm_no_specialists" "pm_no_artillery" }
 			}
 		}
-		region_state:BIC={
+		region_state:HND={
 			create_building={
 				building="building_coffee_plantation"
 				level=2
@@ -994,7 +994,7 @@
 				activate_production_methods={ "pm_basic_port" }
 			}
 		}
-		region_state:BIC={
+		region_state:HND={
 			create_building={
 				building="building_government_administration"
 				level=8
@@ -1124,7 +1124,7 @@
 				activate_production_methods={ "pm_basic_port" }
 			}
 		}
-		region_state:BIC={
+		region_state:HND={
 			create_building={
 				building="building_government_administration"
 				level=8

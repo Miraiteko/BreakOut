@@ -1,23 +1,17 @@
 ﻿DIPLOMACY = {
-	c:SWE = {
+	c:USA = {
 		create_diplomatic_pact = {
-			country = c:PRU
-			type = trade_agreement
-		}
-	}	
-	c:TUS = {
-		create_diplomatic_pact = {
-			country = c:SIC
+			country = c:FRA
 			type = trade_agreement
 		}
 	}	
 	c:GBR = {
 		create_diplomatic_pact = {
-			country = c:POR
+			country = c:USA
 			type = trade_agreement
 		}		
 		create_diplomatic_pact = {
-			country = c:BEL
+			country = c:FRA
 			type = trade_agreement
 		}		
 	}	

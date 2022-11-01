@@ -1,5 +1,8 @@
 ﻿COUNTRIES = {
 	c:GBR = {
+		add_modifier = {
+			name = modifier_overlord
+		}
 		set_next_election_date = 1836.2.1
 		
 		ig:ig_intelligentsia = {

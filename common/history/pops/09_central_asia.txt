@@ -673,7 +673,7 @@
 		}
 	}
 	s:STATE_LHASA = {
-		region_state:TIB = {
+		region_state:CHI = {
 			create_pop = {
 				culture = tibetan
 				size = 1820000
@@ -690,7 +690,7 @@
 		}
 	}
 	s:STATE_NGARI = {
-		region_state:TIB = {
+		region_state:CHI = {
 			create_pop = {
 				culture = tibetan
 				size = 824000

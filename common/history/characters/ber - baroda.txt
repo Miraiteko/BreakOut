@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	c:BER = {
+	c:HND = {
 		create_character = {
 			# Sayaji Rao II Gaewad
 			#role = politician # Remove this line

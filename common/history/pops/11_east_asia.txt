@@ -1054,7 +1054,7 @@
 		}
 	}
 	s:STATE_TENASSERIM = {
-		region_state:BIC = {
+		region_state:HND = {
 			create_pop = {
 				culture = karen
 				size = 180800
@@ -1186,7 +1186,7 @@
 				size = 40000
 			}
 		}
-		region_state:BIC = {
+		region_state:HND = {
 			create_pop = {
 				culture = burmese
 				size = 100888

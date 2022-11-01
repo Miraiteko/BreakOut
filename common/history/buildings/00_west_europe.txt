@@ -2744,7 +2744,7 @@
 		}
 	}
 	s:STATE_POMERANIA={
-		region_state:PRU={
+		region_state:GER={
 			create_building={
 				building="building_fishing_wharf"
 				level=3
@@ -2932,7 +2932,7 @@
 		}
 	}
 	s:STATE_WESTPHALIA={
-		region_state:PRU={
+		region_state:GER={
 			create_building={
 				building="building_government_administration"
 				level=2
@@ -2992,7 +2992,7 @@
 		}		
 	}
 	s:STATE_ANHALT={
-		region_state:PRU={
+		region_state:GER={
 			create_building={
 				building="building_furniture_manufacturies"
 				level=3
@@ -3040,7 +3040,7 @@
 		}
 	}
 	s:STATE_RHINELAND={
-		region_state:PRU={
+		region_state:GER={
 			create_building={
 				building="building_government_administration"
 				level=5
@@ -3094,7 +3094,7 @@
 		}
 	}
 	s:STATE_NORTH_RHINE={
-		region_state:PRU={
+		region_state:GER={
 			create_building={
 				building="building_arms_industry"
 				level=8
@@ -3140,7 +3140,7 @@
 		}
 	}
 	s:STATE_BRANDENBURG={
-		region_state:PRU={
+		region_state:GER={
 			create_building={
 				building="building_government_administration"
 				level=13
@@ -3460,7 +3460,7 @@
 				activate_production_methods={ "pm_wound_dressing" "pm_cannon_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_line_infantry" }
 			}
 		}
-		region_state:PRU={
+		region_state:GER={
 		}
 	}
 	s:STATE_BAVARIA={

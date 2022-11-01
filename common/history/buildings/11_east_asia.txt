@@ -1468,7 +1468,7 @@
 		}
 	}
 	s:STATE_TENASSERIM={
-		region_state:BIC={
+		region_state:HND={
 			create_building={
 				building="building_dye_plantation"
 				level=2
@@ -1590,7 +1590,7 @@
 				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
 		}
-		region_state:BIC={
+		region_state:HND={
 			create_building={
 				building="building_opium_plantation"
 				level=1

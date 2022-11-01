@@ -38,8 +38,8 @@ GLOBAL = {
 	#The Berlin Conference
 	every_country = {
 		limit = {
-			exists = c:PRU
-			this = c:PRU
+			exists = c:GER
+			this = c:GER
 		}
 		set_variable = the_berlin_conference_ach_possible
 	}
@@ -90,8 +90,8 @@ GLOBAL = {
 	#Peccavi
 	every_country = {
 		limit = {
-			exists = c:BIC
-			this = c:BIC
+			exists = c:HND
+			this = c:HND
 		}
 		set_variable = peccavi_ach_possible
 	}

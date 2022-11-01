@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	c:PAP = {
+	c:ITA = {
 		create_character = {
 			# Gregory XVI
 			first_name = "Gregorius"
