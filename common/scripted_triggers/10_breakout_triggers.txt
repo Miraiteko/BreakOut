@@ -1,0 +1,9 @@
+﻿is_true_subject = {
+	is_subject = yes
+	OR = {
+		is_subject_type = subject_type_dominion
+		is_subject_type = subject_type_protectorate
+		is_subject_type = subject_type_puppet
+		is_subject_type = subject_type_vassal
+	}
+}

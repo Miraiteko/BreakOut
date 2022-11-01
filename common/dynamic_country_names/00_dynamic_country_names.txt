@@ -1,0 +1,1263 @@
+﻿### Try to keep tags in alphabetical order if it's not too far gone, please.
+
+################################################################
+## DEFAULT COUNTRY NAMES EXAMPLE CAN BE USED WITH ANY COUNTRY ##
+################################################################
+
+# Uncomment when need a dynamic_country_name for any country
+DEFAULT = {
+	# Important ideologies
+	dynamic_country_name = {
+		name = generic_revolt_communist
+		adjective = generic_revolt_communist_adj
+		
+		is_revolutionary = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				is_secessionist = no
+				any_interest_group = {
+					is_in_government = yes
+					is_powerful = yes
+					leader = {
+						OR = {
+							has_ideology = ideology_communist
+							has_ideology = ideology_anarchist
+							has_ideology = ideology_vanguardist
+						}
+					}
+				}
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = generic_revolt_fascist
+		adjective = generic_revolt_fascist_adj
+		
+		is_revolutionary = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				is_secessionist = no
+				any_interest_group = {
+					is_in_government = yes
+					leader = {
+						OR = {
+							has_ideology = ideology_fascist
+							has_ideology = ideology_ethno_nationalist
+						}
+					}
+				}
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = generic_revolt_radical
+		adjective = generic_revolt_radical_adj
+		
+		is_revolutionary = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				is_secessionist = no
+				any_interest_group = {
+					is_in_government = yes
+					leader = {
+						has_ideology = ideology_radical
+					}
+				}
+			}
+		}
+	}
+	# Powerful interest groups
+	dynamic_country_name = {
+		name = generic_revolt_peasant
+		adjective = generic_revolt_peasant_adj
+		
+		is_revolutionary = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				is_secessionist = no
+				ig:ig_rural_folk = {
+					is_powerful = yes
+					is_in_government = yes
+				}
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = generic_revolt_landowner
+		adjective = generic_revolt_landowner_adj
+		
+		is_revolutionary = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				is_secessionist = no
+				ig:ig_landowners = {
+					is_powerful = yes
+					is_in_government = yes
+				}
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = generic_revolt_intelligentsia
+		adjective = generic_revolt_intelligentsia_adj
+		
+		is_revolutionary = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				is_secessionist = no
+				ig:ig_intelligentsia = {
+					is_powerful = yes
+					is_in_government = yes
+				}
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = generic_revolt_industrialists
+		adjective = generic_revolt_industrialists_adj
+		
+		is_revolutionary = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				is_secessionist = no
+				ig:ig_industrialists = {
+					is_powerful = yes
+					is_in_government = yes
+				}
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = generic_revolt_military
+		adjective = generic_revolt_military_adj
+		
+		is_revolutionary = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				is_secessionist = no
+				ig:ig_armed_forces = {
+					is_powerful = yes
+					is_in_government = yes
+				}
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = generic_revolt_religious
+		adjective = generic_revolt_religious_adj
+		
+		is_revolutionary = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				is_secessionist = no
+				ig:ig_devout = {
+					is_powerful = yes
+					is_in_government = yes
+				}
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = generic_revolt_bourgeoisie
+		adjective = generic_revolt_bourgeoisie_adj
+		
+		is_revolutionary = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				is_secessionist = no
+				ig:ig_petty_bourgeoisie = {
+					is_powerful = yes
+					is_in_government = yes
+				}
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = generic_revolt_unions
+		adjective = generic_revolt_unions_adj
+		
+		is_revolutionary = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				is_secessionist = no
+				ig:ig_trade_unions = {
+					is_powerful = yes
+					is_in_government = yes
+				}
+			}
+		}
+	}
+	# Generic fallbacks
+	dynamic_country_name = {
+		name = generic_revolt_1
+		adjective = generic_revolt_1_adj
+		
+		is_revolutionary = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				is_secessionist = no
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = generic_revolt_2
+		adjective = generic_revolt_2_adj
+		
+		is_revolutionary = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				is_secessionist = no
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = generic_revolt_3
+		adjective = generic_revolt_3_adj
+		
+		is_revolutionary = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				is_secessionist = no
+			}
+		}
+	}
+}
+
+#动态国名，X国，X家，大X
+#五大列强
+GBR = { #周
+	dynamic_country_name = {
+		name = GREAT_GBR
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { country_rank >= rank_value:major_power }
+		}
+	}
+	dynamic_country_name = {
+		name = SUBJECT_GBR
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { is_true_subject = yes }
+		}
+	}
+}
+USA = { #晋
+	dynamic_country_name = {
+		name = GREAT_USA
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { country_rank >= rank_value:great_power }
+		}
+	}
+	dynamic_country_name = {
+		name = SUBJECT_USA
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { is_true_subject = yes }
+		}
+	}
+}
+CHI = { #秦
+	dynamic_country_name = {
+		name = GREAT_CHI
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { country_rank >= rank_value:major_power }
+		}
+	}
+	dynamic_country_name = {
+		name = SUBJECT_CHI
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { is_true_subject = yes }
+		}
+	}
+}
+FRA = { #齐
+	dynamic_country_name = {
+		name = GREAT_FRA
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { country_rank >= rank_value:major_power }
+		}
+	}
+	dynamic_country_name = {
+		name = SUBJECT_FRA
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { is_true_subject = yes }
+		}
+	}
+}
+RUS = { #楚
+	dynamic_country_name = {
+		name = GREAT_RUS
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { country_rank >= rank_value:major_power }
+		}
+	}
+	dynamic_country_name = {
+		name = SUBJECT_RUS
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { is_true_subject = yes }
+		}
+	}
+}
+ 
+#中原
+GER = { #郑
+	dynamic_country_name = {
+		name = GREAT_GER
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { country_rank >= rank_value:major_power }
+		}
+	}
+	dynamic_country_name = {
+		name = SUBJECT_GER
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { is_true_subject = yes }
+		}
+	}
+}
+ITA = { #卫
+	dynamic_country_name = {
+		name = GREAT_ITA
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { country_rank >= rank_value:major_power }
+		}
+	}
+	dynamic_country_name = {
+		name = SUBJECT_ITA
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { is_true_subject = yes }
+		}
+	}
+}
+SPA = { #宋
+	dynamic_country_name = {
+		name = GREAT_SPA
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { country_rank >= rank_value:major_power }
+		}
+	}
+	dynamic_country_name = {
+		name = SUBJECT_SPA
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { is_true_subject = yes }
+		}
+	}
+}
+POR = { #滕
+	dynamic_country_name = {
+		name = GREAT_POR
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { country_rank >= rank_value:major_power }
+		}
+	}
+	dynamic_country_name = {
+		name = SUBJECT_POR
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { is_true_subject = yes }
+		}
+	}
+}
+NET = { #鲁
+	dynamic_country_name = {
+		name = GREAT_NET
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { country_rank >= rank_value:major_power }
+		}
+	}
+	dynamic_country_name = {
+		name = SUBJECT_NET
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { is_true_subject = yes }
+		}
+	}
+}
+SWI = { #邢
+	dynamic_country_name = {
+		name = GREAT_SWI
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { country_rank >= rank_value:major_power }
+		}
+	}
+	dynamic_country_name = {
+		name = SUBJECT_SWI
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { is_true_subject = yes }
+		}
+	}
+}
+NOR = { #黎
+	dynamic_country_name = {
+		name = GREAT_NOR
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { country_rank >= rank_value:major_power }
+		}
+	}
+	dynamic_country_name = {
+		name = SUBJECT_NOR
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { is_true_subject = yes }
+		}
+	}
+}
+DEN = { #郭
+	dynamic_country_name = {
+		name = GREAT_DEN
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { country_rank >= rank_value:major_power }
+		}
+	}
+	dynamic_country_name = {
+		name = SUBJECT_DEN
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { is_true_subject = yes }
+		}
+	}
+}
+SWE = { #曹
+	dynamic_country_name = {
+		name = GREAT_SWE
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { country_rank >= rank_value:major_power }
+		}
+	}
+	dynamic_country_name = {
+		name = SUBJECT_SWE
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { is_true_subject = yes }
+		}
+	}
+}
+AUS = { #应
+	dynamic_country_name = {
+		name = GREAT_AUS
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { country_rank >= rank_value:major_power }
+		}
+	}
+	dynamic_country_name = {
+		name = SUBJECT_AUS
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { is_true_subject = yes }
+		}
+	}
+}
+ 
+#晋楚争霸
+POL = { #蔡
+	dynamic_country_name = {
+		name = GREAT_POL
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { country_rank >= rank_value:major_power }
+		}
+	}
+	dynamic_country_name = {
+		name = SUBJECT_POL
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { is_true_subject = yes }
+		}
+	}
+}
+HUN = { #陈
+	dynamic_country_name = {
+		name = GREAT_HUN
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { country_rank >= rank_value:major_power }
+		}
+	}
+	dynamic_country_name = {
+		name = SUBJECT_HUN
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { is_true_subject = yes }
+		}
+	}
+}
+UKR = { #曾
+	dynamic_country_name = {
+		name = GREAT_UKR
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { country_rank >= rank_value:major_power }
+		}
+	}
+	dynamic_country_name = {
+		name = SUBJECT_UKR
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { is_true_subject = yes }
+		}
+	}
+}
+BYE = { #唐
+	dynamic_country_name = {
+		name = GREAT_BYE
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { country_rank >= rank_value:major_power }
+		}
+	}
+	dynamic_country_name = {
+		name = SUBJECT_BYE
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { is_true_subject = yes }
+		}
+	}
+}
+GRE = { #杞
+	dynamic_country_name = {
+		name = GREAT_GRE
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { country_rank >= rank_value:major_power }
+		}
+	}
+	dynamic_country_name = {
+		name = SUBJECT_GRE
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { is_true_subject = yes }
+		}
+	}
+}
+ROM = { #申
+	dynamic_country_name = {
+		name = GREAT_ROM
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { country_rank >= rank_value:major_power }
+		}
+	}
+	dynamic_country_name = {
+		name = SUBJECT_ROM
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { is_true_subject = yes }
+		}
+	}
+}
+SER = { #胡
+	dynamic_country_name = {
+		name = GREAT_SER
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { country_rank >= rank_value:major_power }
+		}
+	}
+	dynamic_country_name = {
+		name = SUBJECT_SER
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { is_true_subject = yes }
+		}
+	}
+}
+CRO = { #蓼
+	dynamic_country_name = {
+		name = GREAT_CRO
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { country_rank >= rank_value:major_power }
+		}
+	}
+	dynamic_country_name = {
+		name = SUBJECT_CRO
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { is_true_subject = yes }
+		}
+	}
+}
+FIN = { #邓
+	dynamic_country_name = {
+		name = GREAT_FIN
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { country_rank >= rank_value:major_power }
+		}
+	}
+	dynamic_country_name = {
+		name = SUBJECT_FIN
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { is_true_subject = yes }
+		}
+	}
+}
+ 
+ #征服东夷
+ISR = { #吴
+	dynamic_country_name = {
+		name = GREAT_ISR
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { country_rank >= rank_value:major_power }
+		}
+	}
+	dynamic_country_name = {
+		name = SUBJECT_ISR
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { is_true_subject = yes }
+		}
+	}
+}
+PER = { #徐
+	dynamic_country_name = {
+		name = GREAT_PER
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { country_rank >= rank_value:major_power }
+		}
+	}
+	dynamic_country_name = {
+		name = SUBJECT_PER
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { is_true_subject = yes }
+		}
+	}
+}
+TUR = { #越
+	dynamic_country_name = {
+		name = GREAT_TUR
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { country_rank >= rank_value:major_power }
+		}
+	}
+	dynamic_country_name = {
+		name = SUBJECT_TUR
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { is_true_subject = yes }
+		}
+	}
+}
+EGY = { #钟吾
+	dynamic_country_name = {
+		name = GREAT_EGY
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { country_rank >= rank_value:major_power }
+		}
+	}
+	dynamic_country_name = {
+		name = SUBJECT_EGY
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { is_true_subject = yes }
+		}
+	}
+}
+IRQ = { #莒
+	dynamic_country_name = {
+		name = GREAT_IRQ
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { country_rank >= rank_value:major_power }
+		}
+	}
+	dynamic_country_name = {
+		name = SUBJECT_IRQ
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { is_true_subject = yes }
+		}
+	}
+}
+TUN = { #莱
+	dynamic_country_name = {
+		name = GREAT_TUN
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { country_rank >= rank_value:major_power }
+		}
+	}
+	dynamic_country_name = {
+		name = SUBJECT_TUN
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { is_true_subject = yes }
+		}
+	}
+}
+ 
+#秦包围网
+JAP = { #犬戎
+	dynamic_country_name = {
+		name = GREAT_JAP
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { country_rank >= rank_value:major_power }
+		}
+	}
+	dynamic_country_name = {
+		name = SUBJECT_JAP
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { is_true_subject = yes }
+		}
+	}
+}
+KOR = { #虢
+	dynamic_country_name = {
+		name = GREAT_KOR
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { country_rank >= rank_value:major_power }
+		}
+	}
+	dynamic_country_name = {
+		name = SUBJECT_KOR
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { is_true_subject = yes }
+		}
+	}
+}
+AST = { #燕
+	dynamic_country_name = {
+		name = GREAT_AST
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { country_rank >= rank_value:major_power }
+		}
+	}
+	dynamic_country_name = {
+		name = SUBJECT_AST
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { is_true_subject = yes }
+		}
+	}
+}
+NZL = { #蓟
+	dynamic_country_name = {
+		name = GREAT_NZL
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { country_rank >= rank_value:major_power }
+		}
+	}
+	dynamic_country_name = {
+		name = SUBJECT_NZL
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { is_true_subject = yes }
+		}
+	}
+}
+HND = { #蜀
+	dynamic_country_name = {
+		name = GREAT_HND
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { country_rank >= rank_value:major_power }
+		}
+	}
+	dynamic_country_name = {
+		name = SUBJECT_HND
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { is_true_subject = yes }
+		}
+	}
+}
+DAI = { #褒
+	dynamic_country_name = {
+		name = GREAT_DAI
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { country_rank >= rank_value:major_power }
+		}
+	}
+	dynamic_country_name = {
+		name = SUBJECT_DAI
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { is_true_subject = yes }
+		}
+	}
+}
+MGL = { #陆浑戎
+	dynamic_country_name = {
+		name = GREAT_MGL
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { country_rank >= rank_value:major_power }
+		}
+	}
+	dynamic_country_name = {
+		name = SUBJECT_MGL
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { is_true_subject = yes }
+		}
+	}
+}
+SIA = { #乌氏
+	dynamic_country_name = {
+		name = GREAT_SIA
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { country_rank >= rank_value:major_power }
+		}
+	}
+	dynamic_country_name = {
+		name = SUBJECT_SIA
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { is_true_subject = yes }
+		}
+	}
+}
+ 
+#戎狄支配
+CAN = { #梁
+	dynamic_country_name = {
+		name = GREAT_CAN
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { country_rank >= rank_value:major_power }
+		}
+	}
+	dynamic_country_name = {
+		name = SUBJECT_CAN
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { is_true_subject = yes }
+		}
+	}
+}
+MEX = { #中山
+	dynamic_country_name = {
+		name = GREAT_MEX
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { country_rank >= rank_value:major_power }
+		}
+	}
+	dynamic_country_name = {
+		name = SUBJECT_MEX
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { is_true_subject = yes }
+		}
+	}
+}
+BRZ = { #鲜虞
+	dynamic_country_name = {
+		name = GREAT_BRZ
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { country_rank >= rank_value:major_power }
+		}
+	}
+	dynamic_country_name = {
+		name = SUBJECT_BRZ
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { is_true_subject = yes }
+		}
+	}
+}
