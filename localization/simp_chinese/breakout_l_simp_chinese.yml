@@ -138,6 +138,8 @@
  gambling:0 "博彩"
  modifier_building_output_gambling_add:0 "每级@gambling!博彩产出"
  modifier_building_output_gambling_add_desc:0 "建筑产出的@gambling!博彩数量"
+ modifier_building_input_gambling_add:0 "每级@gambling!博彩投入"
+ modifier_building_input_gambling_add_desc:0 "建筑投入的@gambling!博彩数量"
  
  casino:0 "地下赌场"
  bg_illegal:0 "不法场所"
@@ -175,7 +177,8 @@
  institution_social_climate:0 "社会监管"
  modifier_country_institution_social_climate_max_investment_add:0 "最大$institution_social_climate$[concept_institution]投入等级"
  modifier_country_institution_social_climate_max_investment_add_desc:0 "对$institution_social_climate$[concept_institution]的最大投入等级的修正"
- 
+ modifier_building_input_liquor_add_desc:0 "社会监管"
+
  #金融相关
  popneed_finance:0 "金融服务"
  pmg_ownership_capital:0 "所有权"
@@ -257,7 +260,7 @@
  pm_carbon_dioxide:0 "二氧化碳吸收"
  pm_liquor_carbon:0 "酒精转化"
  modifier_building_input_liquor_add:0 "每级@liquor!烈酒投入"
- modifierbuilding_input_liquor_add_desc:0 "建筑投入的@liquor!烈酒数量"
+ modifier_building_input_liquor_add_desc:0 "建筑投入的@liquor!烈酒数量"
  pmg_wood_carbonization:0 "碳化"
  pm_no_wood_carbonization:0 "无硬木碳化"
  pm_wood_carbonization:0 "硬木碳化"
@@ -285,6 +288,10 @@
  refinery:0 "炼油厂"
  pmg_refinery:0 "炼油"
  pm_refinery:0 "炼油"
+ modifier_building_output_crude_oil_add:0 "每级@crude_oil!原油产出"
+ modifier_building_output_crude_oil_add_desc:0 "建筑产出的@crude_oil!原油数量"
+ modifier_building_input_crude_oil_add:0 "每级@crude_oil!原油投入"
+ modifier_building_input_crude_oil_add_desc:0 "建筑投入的@crude_oil!原油数量"
  
  plastics_plant:0 "塑料厂"
  pmg_plastics_plant:0 "合成树脂"
@@ -434,8 +441,10 @@
  #战役相关
  MAJOR_BATTLE_SIZE_COMBAT_WIDTH:0 "已达到最大战场宽度"
  #外交相关
+ modifier_emperor:0 "天子"
+ modifier_emperor_desc:0 "这个大国是周朝的天子，名义上统治着全天下的权力。"
  modifier_overlord:0 "方伯"
- modifier_overlord_desc:0 "这些大国是上次争霸战争的胜利者，享有支配全球的权力。"
+ modifier_overlord_desc:0 "这些大国是上次争霸战争的胜利者，享有支配全天下的权力。"
  bankrupted:0 "破产国家"
 
  #飞升相关

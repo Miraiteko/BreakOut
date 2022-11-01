@@ -496,7 +496,7 @@
 		}
 	}
 	s:STATE_PROVENCE = {
-		region_state:SAR = {
+		region_state:ITA = {
 			create_pop = {
 				culture = north_italian
 				size = 171200
@@ -924,7 +924,7 @@
 				size = 8000
 			}
 		}
-		region_state:HAN = {
+		region_state:GER = {
 			create_pop = {
 				culture = north_german
 				size = 512788
@@ -1040,7 +1040,7 @@
 				size = 323992
 			}
 		}
-		region_state:BAV = {
+		region_state:GER = {
 			create_pop = {
 				culture = south_german
 				size = 251600
@@ -1193,7 +1193,7 @@
 				size = 38000
 			}
 		}
-		region_state:HAN = {
+		region_state:GER = {
 			create_pop = {
 				culture = north_german
 				size = 942208
@@ -1214,7 +1214,7 @@
 		}
 	}
 	s:STATE_BRUNSWICK = {
-		region_state:HAN = {
+		region_state:GER = {
 			create_pop = {
 				culture = north_german
 				size = 180000
@@ -1244,7 +1244,7 @@
 		}
 	}
 	s:STATE_BAVARIA = {
-		region_state:BAV = {
+		region_state:GER = {
 			create_pop = {
 				culture = south_german
 				size = 1682000
@@ -1261,7 +1261,7 @@
 		}
 	}
 	s:STATE_FRANCONIA = {
-		region_state:BAV = {
+		region_state:GER = {
 			create_pop = {
 				culture = south_german
 				size = 1051792

@@ -8,6 +8,10 @@
 			country = c:KOR
 			type = protectorate
 		}
+		create_diplomatic_pact = {
+			country = c:MEX
+			type = protectorate
+		}
 	}
 	c:GBR = {
 		###北美
@@ -31,6 +35,61 @@
 		create_diplomatic_pact = {
 			country = c:HND
 			type = protectorate
+		}
+	}
+	#中原
+	c:FRA = {	
+		create_diplomatic_pact = {
+			country = c:GER
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:AUS
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:DEN
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:ITA
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:SWE
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:NOR
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:DEN
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:SWI
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:BEL
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:NET
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:LUX
+			type = customs_union
+		}
+		create_diplomatic_pact = {
+			country = c:DEN
+			type = customs_union
+		}
+		create_diplomatic_pact = {
+			country = c:GRE
+			type = customs_union
 		}
 	}
 }

@@ -1,7 +1,7 @@
 ﻿COUNTRIES = {
 	c:GBR = {
 		add_modifier = {
-			name = modifier_overlord
+			name = modifier_emperor
 		}
 		set_next_election_date = 1836.2.1
 		

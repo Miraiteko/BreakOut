@@ -13,7 +13,7 @@
 		}
 	}
 	s:STATE_PIEDMONT = {
-		region_state:SAR = {
+		region_state:ITA = {
 			create_pop = {
 				culture = north_italian
 				size = 2367188
@@ -30,7 +30,7 @@
 		}
 	}
 	s:STATE_SARDINIA = {
-		region_state:SAR = {
+		region_state:ITA = {
 			create_pop = {
 				culture = south_italian
 				size = 524084
@@ -50,7 +50,7 @@
 		}
 	}
 	s:STATE_UMBRIA = {
-		region_state:PAP = {
+		region_state:ITA = {
 			create_pop = {
 				culture = south_italian
 				size = 451000
@@ -70,7 +70,7 @@
 		}
 	}
 	s:STATE_CAMPANIA = {
-		region_state:SIC = {
+		region_state:ITA = {
 			create_pop = {
 				culture = south_italian
 				size = 2557396
@@ -78,7 +78,7 @@
 		}
 	}
 	s:STATE_CALABRIA = {
-		region_state:SIC = {
+		region_state:ITA = {
 			create_pop = {
 				culture = south_italian
 				size = 882848
@@ -86,7 +86,7 @@
 		}
 	}
 	s:STATE_APULIA = {
-		region_state:SIC = {
+		region_state:ITA = {
 			create_pop = {
 				culture = south_italian
 				size = 1284392
@@ -94,7 +94,7 @@
 		}
 	}
 	s:STATE_ABRUZZO = {
-		region_state:SIC = {
+		region_state:ITA = {
 			create_pop = {
 				culture = south_italian
 				size = 660448
@@ -102,7 +102,7 @@
 		}
 	}
 	s:STATE_SAVOY = {
-		region_state:SAR = {
+		region_state:ITA = {
 			create_pop = {
 				culture = french
 				size = 287600
@@ -114,19 +114,19 @@
 		}
 	}
 	s:STATE_EMILIA = {
-		region_state:PAR = {
+		region_state:ITA = {
 			create_pop = {
 				culture = north_italian
 				size = 472004
 			}
 		}
-		region_state:LUC = {
+		region_state:ITA = {
 			create_pop = {
 				culture = north_italian
 				size = 108408
 			}
 		}
-		region_state:MOD = {
+		region_state:ITA = {
 			create_pop = {
 				culture = north_italian
 				size = 648400
@@ -147,7 +147,7 @@
 		}
 	}
 	s:STATE_ROMAGNA = {
-		region_state:PAP = {
+		region_state:ITA = {
 			create_pop = {
 				culture = north_italian
 				size = 803600
@@ -155,7 +155,7 @@
 		}
 	}
 	s:STATE_LAZIO = {
-		region_state:PAP = {
+		region_state:ITA = {
 			create_pop = {
 				culture = south_italian
 				size = 1333868
@@ -181,7 +181,7 @@
 		}
 	}
 	s:STATE_SICILY = {
-		region_state:SIC = {
+		region_state:ITA = {
 			create_pop = {
 				culture = south_italian
 				size = 1647596

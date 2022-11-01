@@ -217,7 +217,10 @@ state_breed_monthly_check = {
 	}
 	change_variable = {
 		name = base_education_access
-		divide = var:breed_ratio
+		divide = {
+			value = var:breed_power
+			min = 1
+		}
 	}
 	remove_modifier = base_education_access_modifier
 	add_modifier = {

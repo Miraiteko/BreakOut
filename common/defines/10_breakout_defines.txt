@@ -153,8 +153,8 @@ NEconomy = {
 	DECLARE_BANKRUPTCY_RADICALIZATION_SHARES_FACTOR = 0.9 # For each per-pop shares in their building, radicalize this percentage of a pop on 
 
 	#参考了licy18的《贸易收入下降时贸易路线不会升级》，为贸易路线等级添加了阻尼
-	TRADE_ROUTE_AUTO_INCREASE_ACCEPTABLE_REVENUE_DIFFERENCE = 0.95 # Multiply revenue of new trade route level by this for the purpose of considering whether it's OK to auto-increase level
-	TRADE_ROUTE_AUTO_REDUCTION_ACCEPTABLE_REVENUE_DIFFERENCE = 1.0 # Multiply revenue of current trade route level by this for the purpose of considering whether we should auto-decrease level 
+	TRADE_ROUTE_AUTO_INCREASE_ACCEPTABLE_REVENUE_DIFFERENCE = 1.0 # Multiply revenue of new trade route level by this for the purpose of considering whether it's OK to auto-increase level
+	TRADE_ROUTE_AUTO_REDUCTION_ACCEPTABLE_REVENUE_DIFFERENCE = 1.01 # Multiply revenue of current trade route level by this for the purpose of considering whether we should auto-decrease level 
 
 #开局镜头位置，指向西太平洋
 NFrontend = {

@@ -1115,6 +1115,30 @@ HND = { #蜀
 		}
 	}
 }
+PAN = { #巴
+	dynamic_country_name = {
+		name = GREAT_PAN
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { country_rank >= rank_value:great_power }
+		}
+	}
+	dynamic_country_name = {
+		name = SUBJECT_PAN
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { is_true_subject = yes }
+		}
+	}
+}
 DAI = { #褒
 	dynamic_country_name = {
 		name = GREAT_DAI

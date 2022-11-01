@@ -225,8 +225,8 @@ GLOBAL = {
 	#American Territory
 	every_country = {
 		limit = {
-			exists = c:SEQ
-			this = c:SEQ
+			exists = c:USA
+			this = c:USA
 		}
 		set_variable = american_territory_ach_possible
 	}

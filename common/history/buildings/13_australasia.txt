@@ -88,22 +88,12 @@
 				activate_production_methods={ "pm_wound_dressing" "pm_line_infantry" "pm_cavalry_scouts" "pm_no_specialists" "pm_mobile_artillery" }
 			}		
 		}
-		region_state:NNG={
-		}
 	}
 	s:STATE_NORTHERN_TERRITORY={
 		region_state:AST={
 		}
 	}
 	s:STATE_NORTH_ISLAND={
-		region_state:UNT={
-			create_building={
-				building="building_barracks"
-				level=3
-				reserves=1
-				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
-			}
-		}
 		region_state:AST={
 			create_building={
 				building="building_port"
@@ -111,15 +101,15 @@
 				reserves=1
 				activate_production_methods={ "pm_anchorage" }
 			}
-		}
-		region_state:NTO={
+			create_building={
+				building="building_barracks"
+				level=3
+				reserves=1
+				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
+			}
 		}
 	}
 	s:STATE_SOUTH_ISLAND={
-		region_state:NTO={
-		}
-		region_state:NTU={
-		}
 	}
 }
 

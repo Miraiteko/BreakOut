@@ -40,7 +40,7 @@
 		}
 	}
 	s:STATE_PIEDMONT={
-		region_state:SAR={
+		region_state:ITA={
 			create_building={
 				building="building_government_administration"
 				level=5
@@ -140,7 +140,7 @@
 		}
 	}
 	s:STATE_SARDINIA={
-		region_state:SAR={
+		region_state:ITA={
 			create_building={
 				building="building_iron_mine"
 				level=2
@@ -208,7 +208,7 @@
 		}
 	}
 	s:STATE_UMBRIA={
-		region_state:PAP={
+		region_state:ITA={
 			create_building={
 				building="building_fishing_wharf"
 				level=2
@@ -258,7 +258,7 @@
 		}
 	}
 	s:STATE_CAMPANIA={
-		region_state:SIC={
+		region_state:ITA={
 			create_building={
 				building="building_government_administration"
 				level=6
@@ -346,7 +346,7 @@
 		}
 	}
 	s:STATE_CALABRIA={
-		region_state:SIC={
+		region_state:ITA={
 			create_building={
 				building="building_food_industry"
 				level=3
@@ -392,7 +392,7 @@
 		}
 	}
 	s:STATE_APULIA={
-		region_state:SIC={
+		region_state:ITA={
 			create_building={
 				building="building_sugar_plantation"
 				level=2
@@ -426,7 +426,7 @@
 		}
 	}
 	s:STATE_ABRUZZO={
-		region_state:SIC={
+		region_state:ITA={
 			create_building={
 				building="building_furniture_manufacturies"
 				level=2
@@ -460,7 +460,7 @@
 		}
 	}
 	s:STATE_SAVOY={
-		region_state:SAR={
+		region_state:ITA={
 			create_building={
 				building="building_wheat_farm"
 				level=3
@@ -488,7 +488,7 @@
 		}
 	}
 	s:STATE_EMILIA={
-		region_state:PAR={
+		region_state:ITA={
 			create_building={
 				building="building_wheat_farm"
 				level=1
@@ -508,7 +508,7 @@
 				activate_production_methods={ "pm_wound_dressing" "pm_line_infantry" "pm_cavalry_scouts" "pm_no_specialists" "pm_cannon_artillery" }
 			}
 		}
-		region_state:LUC={
+		region_state:ITA={
 			create_building={
 				building="building_textile_mills"
 				level=1
@@ -528,7 +528,7 @@
 				activate_production_methods={ "pm_wound_dressing" "pm_line_infantry" "pm_cavalry_scouts" "pm_no_specialists" "pm_cannon_artillery" }
 			}			
 		}
-		region_state:MOD={
+		region_state:ITA={
 			create_building={
 				building="building_wheat_farm"
 				level=3
@@ -626,7 +626,7 @@
 		}
 	}
 	s:STATE_ROMAGNA={
-		region_state:PAP={
+		region_state:ITA={
 			create_building={
 				building="building_textile_mills"
 				level=1
@@ -654,7 +654,7 @@
 		}
 	}
 	s:STATE_LAZIO={
-		region_state:PAP={
+		region_state:ITA={
 			create_building={
 				building="building_arts_academy"
 				level=1
@@ -762,7 +762,7 @@
 		}
 	}
 	s:STATE_SICILY={
-		region_state:SIC={
+		region_state:ITA={
 			create_building={
 				building="building_government_administration"
 				level=3

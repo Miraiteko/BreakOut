@@ -1416,7 +1416,7 @@
 		}
 	}
 	s:STATE_PROVENCE={
-		region_state:SAR={
+		region_state:ITA={
 			create_building={
 				building="building_fishing_wharf"
 				level=1
@@ -2824,7 +2824,7 @@
 				activate_production_methods={ "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_irregular_infantry" }
 			}			
 		}
-		region_state:HAN={
+		region_state:GER={
 			create_building={
 				building="building_rye_farm"
 				level=2
@@ -3072,7 +3072,7 @@
 				activate_production_methods={ "pm_skirmish_infantry" "pm_mobile_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
 		}
-		region_state:BAV={
+		region_state:GER={
 			create_building={
 				building="building_wheat_farm"
 				level=1
@@ -3386,7 +3386,7 @@
 				activate_production_methods={ "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_irregular_infantry" }
 			}
 		}
-		region_state:HAN={
+		region_state:GER={
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -3432,7 +3432,7 @@
 		}
 	}
 	s:STATE_BRUNSWICK={
-		region_state:HAN={
+		region_state:GER={
 			create_building={
 				building="building_livestock_ranch"
 				level=1
@@ -3464,7 +3464,7 @@
 		}
 	}
 	s:STATE_BAVARIA={
-		region_state:BAV={
+		region_state:GER={
 			create_building={
 				building="building_government_administration"
 				level=3
@@ -3528,7 +3528,7 @@
 		}
 	}
 	s:STATE_FRANCONIA={
-		region_state:BAV={
+		region_state:GER={
 			create_building={
 				building="building_government_administration"
 				level=3

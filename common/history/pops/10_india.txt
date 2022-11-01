@@ -171,7 +171,7 @@
 		}
 	}
 	s:STATE_AWADH = {
-		region_state:AWA = {
+		region_state:HND = {
 			create_pop = {
 				culture = avadhi
 				religion = hindu
@@ -245,7 +245,7 @@
 		}
 	}
 	s:STATE_GUJARAT = {
-		region_state:BER = {
+		region_state:HND = {
 			create_pop = {
 				culture = gujarati
 				size = 6634412
@@ -280,7 +280,7 @@
 				size = 30088
 			}
 		}
-		region_state:KUT = {
+		region_state:HND = {
 			create_pop = {
 				culture = gujarati
 				size = 200208
@@ -302,7 +302,7 @@
 		}
 	}
 	s:STATE_CENTRAL_INDIA = {
-		region_state:IND = {
+		region_state:HND = {
 			create_pop = {
 				culture = marathi
 				size = 951959
@@ -322,7 +322,7 @@
 				size = 2000
 			}
 		}
-		region_state:BUN = {
+		region_state:HND = {
 			create_pop = {
 				culture = kanauji
 				size = 845004
@@ -353,7 +353,7 @@
 				size = 3000 
 			}
 		}
-		region_state:GWA = {
+		region_state:HND = {
 			create_pop = {
 				culture = marathi
 				size = 1060992
@@ -373,7 +373,7 @@
 				size = 5002
 			}
 		}
-		region_state:BHO = {
+		region_state:HND = {
 			create_pop = {
 				culture = marathi
 				size = 770000
@@ -505,7 +505,7 @@
 		}
 	}
 	s:STATE_NAGPUR = {
-		region_state:BUN = {
+		region_state:HND = {
 			create_pop = {
 				culture = kanauji
 				size = 480220
@@ -527,7 +527,7 @@
 				size = 11000
 			}
 		}
-		region_state:HYD = {
+		region_state:HND = {
 			create_pop = {
 				culture = marathi
 				size = 1351630
@@ -547,7 +547,7 @@
 				size = 6000
 			}
 		}
-		region_state:NAG = {
+		region_state:HND = {
 			create_pop = {
 				culture = marathi
 				size = 2404314
@@ -578,7 +578,7 @@
 				size = 50071
 			}
 		}
-		region_state:BAS = {
+		region_state:HND = {
 			create_pop = {
 				culture = telegu
 				size = 310070
@@ -652,7 +652,7 @@
 		}
 	}
 	s:STATE_SINDH = {
-		region_state:SIN = {
+		region_state:HND = {
 			create_pop = {
 				culture = sindi
 				size = 1644600
@@ -680,7 +680,7 @@
 		}
 	}
 	s:STATE_RAJPUTANA = {
-		region_state:BIK = {
+		region_state:HND = {
 			create_pop = {
 				culture = rajput
 				size = 1001004
@@ -700,7 +700,7 @@
 				size = 1000
 			}
 		}
-		region_state:JAS = {
+		region_state:HND = {
 			create_pop = {
 				culture = rajput
 				size = 387096
@@ -720,7 +720,7 @@
 				size = 3000
 			}
 		}
-		region_state:MEW = {
+		region_state:HND = {
 			create_pop = {
 				culture = rajput
 				size = 1903300
@@ -740,7 +740,7 @@
 				size = 2100
 			}
 		}
-		region_state:JOD = {
+		region_state:HND = {
 			create_pop = {
 				culture = rajput
 				size = 1667504
@@ -760,7 +760,7 @@
 				size = 4000
 			}
 		}
-		region_state:JAI = {
+		region_state:HND = {
 			create_pop = {
 				culture = rajput
 				size = 2300217
@@ -880,7 +880,7 @@
 		}
 	}
 	s:STATE_ORISSA = {
-		region_state:ORI = {
+		region_state:HND = {
 			create_pop = {
 				culture = oriya
 				size = 436212
@@ -957,7 +957,7 @@
 		}
 	}
 	s:STATE_MYSORE = {
-		region_state:MYS = {
+		region_state:HND = {
 			create_pop = {
 				culture = kannada
 				religion = hindu
@@ -991,7 +991,7 @@
 		}
 	}
 	s:STATE_TRAVANCORE = {
-		region_state:TRA = {
+		region_state:HND = {
 			create_pop = {
 				culture = malayalam
 				size = 704000
@@ -1106,7 +1106,7 @@
 		}
 	}
 	s:STATE_HYDERABAD = {
-		region_state:HYD = {
+		region_state:HND = {
 			create_pop = {
 				culture = telegu
 				size = 4724685

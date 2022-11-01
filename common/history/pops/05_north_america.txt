@@ -182,7 +182,7 @@
 				size = 800
 			}
 		}
-		region_state:ARP = {
+		region_state:USA = {
 			create_pop = {
 				culture = siouan
 				size = 10000
@@ -226,7 +226,7 @@
 				size = 6000
 			}
 		}
-		region_state:ARP = {
+		region_state:USA = {
 			create_pop = {
 				culture = siouan
 				size = 4000
@@ -244,7 +244,7 @@
 				size = 2000
 			}
 		}
-		region_state:ABS = {
+		region_state:USA = {
 			create_pop = {
 				culture = siouan
 				size = 28000

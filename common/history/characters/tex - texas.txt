@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	c:TEX = {
+	c:USA = {
 		create_character = {
 			#role = politician # Remove this line
 			first_name = "David"

@@ -265,7 +265,7 @@
 	s:STATE_COLORADO={
 		region_state:MEX={
 		}
-		region_state:ARP={
+		region_state:USA={
 		}
 	}
 	s:STATE_WYOMING={
@@ -273,13 +273,13 @@
 		}
 		region_state:LKT={
 		}
-		region_state:ARP={
+		region_state:USA={
 		}
 	}
 	s:STATE_MONTANA={
 		region_state:USA={
 		}
-		region_state:ABS={
+		region_state:USA={
 		}
 		region_state:LKT={
 		}
