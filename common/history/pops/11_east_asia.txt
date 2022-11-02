@@ -935,7 +935,7 @@
 		}
 	}
 	s:STATE_LAOS = {
-		region_state:SIA = {
+		region_state:DAI = {
 			create_pop = {
 				culture = lao
 				size = 240024
@@ -958,8 +958,6 @@
 				culture = khmu
 				size = 4000
 			}
-		}
-		region_state:SIA = {
 			create_pop = {
 				culture = lao
 				size = 123996
@@ -977,8 +975,6 @@
 				culture = lao
 				size = 16000
 			}
-		}
-		region_state:DAI = {
 			create_pop = {
 				culture = lao
 				size = 86720
@@ -1183,8 +1179,6 @@
 				culture = burmese
 				size = 40000
 			}
-		}
-		region_state:HND = {
 			create_pop = {
 				culture = burmese
 				size = 100888

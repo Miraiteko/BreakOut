@@ -847,7 +847,30 @@ FIN = { #邓
 		}
 	}
 }
- 
+BUL = { #州来
+	dynamic_country_name = {
+		name = GREAT_BUL
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { country_rank >= rank_value:great_power }
+		}
+	}
+	dynamic_country_name = {
+		name = SUBJECT_BUL
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { is_true_subject = yes }
+		}
+	}
+}
  #征服东夷
 ISR = { #吴
 	dynamic_country_name = {
@@ -993,7 +1016,78 @@ TUN = { #莱
 		}
 	}
 }
- 
+SYR = { #巢
+	dynamic_country_name = {
+		name = GREAT_SYR
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { country_rank >= rank_value:great_power }
+		}
+	}
+	dynamic_country_name = {
+		name = SUBJECT_SYR
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { is_true_subject = yes }
+		}
+	}
+}
+NEJ = { #钟吾
+	dynamic_country_name = {
+		name = GREAT_NEJ
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { country_rank >= rank_value:great_power }
+		}
+	}
+	dynamic_country_name = {
+		name = SUBJECT_NEJ
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { is_true_subject = yes }
+		}
+	}
+}
+OMA = { #钟离
+	dynamic_country_name = {
+		name = GREAT_OMA
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { country_rank >= rank_value:great_power }
+		}
+	}
+	dynamic_country_name = {
+		name = SUBJECT_OMA
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { is_true_subject = yes }
+		}
+	}
+} 
 #秦包围网
 JAP = { #犬戎
 	dynamic_country_name = {

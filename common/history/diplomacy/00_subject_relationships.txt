@@ -28,6 +28,14 @@
 			country = c:ROM
 			type = protectorate
 		}
+		create_diplomatic_pact = {
+			country = c:BUL
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:ISR
+			type = protectorate
+		}
 	}
 	c:GBR = {
 		create_diplomatic_pact = {
@@ -71,7 +79,7 @@
 			type = protectorate
 		}
 		create_diplomatic_pact = {
-			country = c:DEN
+			country = c:SPA
 			type = protectorate
 		}
 		create_diplomatic_pact = {
@@ -99,16 +107,16 @@
 			type = protectorate
 		}
 		create_diplomatic_pact = {
-			country = c:DEN
-			type = protectorate
-		}
-		create_diplomatic_pact = {
 			country = c:GRE
 			type = protectorate
 		}
 		create_diplomatic_pact = {
 			country = c:CRO
 			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:CRO
+			type = POR
 		}
 	}
 	c:CHI = {

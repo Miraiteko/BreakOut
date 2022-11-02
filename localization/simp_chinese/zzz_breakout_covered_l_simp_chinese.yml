@@ -1,5 +1,7 @@
 ﻿l_simp_chinese:
  
+ modifier_administrative_overburden:0 "行政超负荷"
+ modifier_administrative_overburden_desc:0 "行政负担过重会导致征税效率下降"
  NEVER:0 "#N 永不#!"
  DATE_AD_YEAR:0 "羲和$YEAR$"
  DATE_BC_YEAR:0 "羲和前$YEAR$"

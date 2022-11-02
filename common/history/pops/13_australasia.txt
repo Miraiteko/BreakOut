@@ -74,8 +74,6 @@
 				culture = australian
 				size = 3004
 			}
-		}
-		region_state:AST = {
 			create_pop = {
 				culture = aborigine
 				size = 21100

@@ -1,6 +1,6 @@
 ﻿POPS = {
 	s:STATE_MALAYA = {
-		region_state:JOH = {
+		region_state:SIA = {
 			create_pop = {
 				culture = malay
 				size = 399600
@@ -14,8 +14,6 @@
 				culture = yue
 				size = 27404
 			}
-		}
-		region_state:SEL = {
 			create_pop = {
 				culture = malay
 				size = 209000
@@ -29,8 +27,6 @@
 				culture = yue
 				size = 22000
 			}
-		}
-		region_state:PRK = {
 			create_pop = {
 				culture = malay
 				size = 136000
@@ -44,8 +40,6 @@
 				culture = yue
 				size = 9000
 			}
-		}
-		region_state:SIA = {
 			create_pop = {
 				culture = malay
 				size = 248000
@@ -60,7 +54,7 @@
 				size = 4000
 			}
 		}
-		region_state:HND = {
+		region_state:USA = {
 			create_pop = {
 				culture = malay
 				size = 60000
@@ -77,8 +71,6 @@
 				culture = british
 				size = 600
 			}
-		}
-		region_state:GBR = {
 			create_pop = {
 				culture = malay
 				size = 40000
