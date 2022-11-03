@@ -1200,22 +1200,3 @@ pm_worker_cooperative_industry = {
 		}
 	}
 }
-
-#电子厂
-pm_telephones = {
-	texture = "gfx/interface/icons/production_method_icons/telephones.dds"
-	building_modifiers = {
-		workforce_scaled = {
-			building_input_chip_add = 40
-			building_input_rubber_add = 20
-			
-			building_output_telephones_add = 50
-		}
-
-		level_scaled = {
-			building_employment_laborers_add = 2000
-			building_employment_machinists_add = 2000
-			building_employment_engineers_add = 900
-		}
-	}
-}

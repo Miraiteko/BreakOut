@@ -1,4 +1,12 @@
-﻿pmg_wafer_plant = {
+﻿pmg_telephones_category = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_transistor
+		pm_chemical_etching
+		pm_lithography
+	}
+}
+pmg_wafer_plant = {
 	production_methods = {
 		pm_wafer_plant
 	}

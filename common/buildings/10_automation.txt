@@ -4,26 +4,11 @@ wafer_plant = {
 	texture = "gfx/interface/icons/building_icons/wafer_plant.dds"
 	
 	unlocking_technologies = {
+		telephone
 	}
 
 	production_method_groups = {
 		pmg_wafer_plant
-		pmg_automation
-		pmg_ownership_capital
-	}
-
-	required_construction = construction_cost_medium
-}
-#芯片厂
-chip_plant = {
-	building_group = bg_heavy_industry	
-	texture = "gfx/interface/icons/building_icons/chip_plant.dds"
-	
-	unlocking_technologies = {
-	}
-
-	production_method_groups = {
-		pmg_chip_plant
 		pmg_automation
 		pmg_ownership_capital
 	}
@@ -36,6 +21,7 @@ software_park = {
 	texture = "gfx/interface/icons/building_icons/software_park.dds"
 	
 	unlocking_technologies = {
+		radio
 	}
 
 	production_method_groups = {
@@ -51,6 +37,7 @@ internet_data_center = {
 	texture = "gfx/interface/icons/building_icons/internet_data_center.dds"
 	
 	unlocking_technologies = {
+		radio
 	}
 
 	production_method_groups = {
@@ -66,6 +53,7 @@ virtual_mine = {
 	texture = "gfx/interface/icons/building_icons/virtual_mine.dds"
 	
 	unlocking_technologies = {
+		radio
 	}
 
 	production_method_groups = {

@@ -18,15 +18,16 @@ pm_wafer_plant = {
 	state_modifiers = {
 	}	
 }	
-#芯片厂
+#电子厂
 pm_transistor = { #晶体管
 	texture = "gfx/interface/icons/production_method_icons/trains_electric.dds"
 		
 	building_modifiers = {
 		workforce_scaled = {
+			building_input_tools_add = 10 #40
 			building_input_glass_add = 30 #40
-			building_input_lead_add = 25 #40
-			building_output_chip_add = 50 #50
+			building_input_lead_add = 15 #40
+			building_output_telephones_add = 50 #70
 		}	
 		level_scaled = {
 			building_employment_laborers_add = 2000
@@ -44,7 +45,9 @@ pm_chemical_etching = { #化学刻
 		workforce_scaled = {
 			building_input_wafer_add = 30 #50
 			building_input_fertilizer_add = 15 #30
-			building_output_chip_add = 60 #50
+			building_input_glass_add = 15 #40
+			building_input_rubber_add = 15 #40
+			building_output_telephones_add = 70 #70
 		}	
 		level_scaled = {
 			building_employment_laborers_add = 2000
@@ -61,8 +64,9 @@ pm_lithography = { #光刻
 	building_modifiers = {
 		workforce_scaled = {
 			building_input_wafer_add = 30 #50
-			building_input_electricity_add = 30 #30
-			building_output_chip_add = 85 #50
+			building_input_electricity_add = 40 #30
+			building_input_rubber_add = 10 #40
+			building_output_telephones_add = 90 #50
 		}	
 		level_scaled = {
 			building_employment_laborers_add = 2000
@@ -80,13 +84,12 @@ pm_software_park = {
 		
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_chip_add = 30 #50
+			building_input_telephones_add = 20 #70
 			building_input_electricity_add = 30 #30
-			building_output_software_add = 60 #50
+			building_output_software_add = 70 #50
 		}	
 		level_scaled = {
-			building_employment_laborers_add = 2000
-			building_employment_machinists_add = 2000
+			building_employment_machinists_add = 5000
 			building_employment_engineers_add = 1000
 		}
 	}		
@@ -99,7 +102,7 @@ pm_internet_data_center = {
 		
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_chip_add = 30 #50
+			building_input_telephones_add = 20 #70
 			building_input_software_add = 30 #50
 			building_input_electricity_add = 50 #30
 			building_output_computation_add = 75 #100
@@ -139,8 +142,8 @@ pm_proportional_integral_control = {
 		workforce_scaled = {
 			building_input_software_add = 5 #50
 		}	
-		unscaled = {
-			building_employment_laborers_mult = -0.5
+		level_scaled = {
+			building_employment_laborers_add = -750
 		}
 	}	
 }
@@ -150,9 +153,9 @@ pm_reinforcement_learning_control = {
 		workforce_scaled = {
 			building_input_computation_add = 5 #100
 		}	
-		unscaled = {
-			building_employment_laborers_mult = -0.75
-			building_employment_machinists_mult = -0.25
+		level_scaled = {
+			building_employment_laborers_add = -1000
+			building_employment_machinists_add = -500
 		}
 	}	
 }
@@ -161,11 +164,11 @@ pm_quantum_ergodic_control = {
 	building_modifiers = {
 		workforce_scaled = {
 			building_input_computation_add = 10 #100
-		}	
-		unscaled = {
-			building_employment_laborers_mult = -1.0
-			building_employment_machinists_mult = -0.75
-			building_employment_engineers_mult = -0.25
 		}
+		level_scaled = {
+			building_employment_laborers_add = -1250
+			building_employment_machinists_add = -750
+			building_employment_engineers_add = -250
+		}	
 	}	
 }
