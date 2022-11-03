@@ -109,7 +109,11 @@ NEconomy = {
 	COUNTRY_MIN_CREDIT_SCALED = 0.00001 			# Added to the total Building Cash Reserves to determine credit limit (multiplied by GDP)
 
 	#规模效应
-	ECONOMY_OF_SCALE_START_LEVEL = 6
+	ECONOMY_OF_SCALE_START_LEVEL = 2					# Level at which buildings start getting economy of scale bonuses. Levels lower than this value provide no bonus [>=1]
+	GOVERNMENT_BUILDING_STATE_ECONOMY_OF_SCALE_MULT = 1.25 # Multiply score by this if building uses economy of scale and it's already present in the state
+	PRODUCTION_BUILDING_ECONOMY_OF_SCALE_MULT = 1.25 # Multiply score by this if building uses economy of scale and it's already present in the state
+	TRADE_ROUTE_ECONOMY_OF_SCALE = 0.25					# Each level of trade route after the first adds this % to desired trade quantity
+	TRADE_ROUTE_ECONOMY_OF_SCALE_MAX_LEVEL = 20			# After this level, trade route economy of scale no longer increases the amount per level
 	
 	#商品供需系统	
 	MIN_GOODS_PRICE	= 0.1							# A good cannot have a lower base price than this
@@ -155,7 +159,14 @@ NEconomy = {
 	#参考了licy18的《贸易收入下降时贸易路线不会升级》，为贸易路线等级添加了阻尼
 	TRADE_ROUTE_AUTO_INCREASE_ACCEPTABLE_REVENUE_DIFFERENCE = 1.0 # Multiply revenue of new trade route level by this for the purpose of considering whether it's OK to auto-increase level
 	TRADE_ROUTE_AUTO_REDUCTION_ACCEPTABLE_REVENUE_DIFFERENCE = 1.01 # Multiply revenue of current trade route level by this for the purpose of considering whether we should auto-decrease level 
+}
 
+NPolitics = {
+	STATE_BUREAUCRACY_BASE_COST = 10		# The base cost per incorporated state
+	STATE_BUREAUCRACY_POP_BASE_COST = 2		# The base BUR multiplier per population multiple
+	STATE_BUREAUCRACY_POP_MULTIPLE = 100000	# Number of people BUR cost is based on
+	MINIMUM_INVESTMENT_COST = 10			# The absolute minimum cost in BUR per investment level
+}
 #开局镜头位置，指向西太平洋
 NFrontend = {
 	CAMERA_START_X = 200.0						# Initial position in main menu
