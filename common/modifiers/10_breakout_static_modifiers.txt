@@ -58,7 +58,7 @@ modifier_overlord = {
 	country_prestige_add = 1500
 }
 country_gdp = {
-	country_minting_add = 0.01
+	country_minting_add = 0.5
 }
 state_region_devastation = {
 	state_infrastructure_mult = -1.0
@@ -68,8 +68,8 @@ state_region_devastation = {
 }
 in_default = {
 	building_throughput_mult = -1.0
-	unit_offense_mult = -0.5
-	unit_defense_mult = -0.5
+	unit_offense_mult = -1.0
+	unit_defense_mult = -1.0
 	
 	interest_group_approval_add = -15
 	country_government_wages_mult = -1.0
@@ -78,24 +78,17 @@ in_default = {
 }
 
 declared_bankruptcy = {
-	building_group_bg_government_throughput_mult = -2.0
-	building_group_bg_infrastructure_throughput_mult = -2.0
-	building_group_bg_military_throughput_mult = -2.0
+	building_throughput_mult = -1.0
+	unit_offense_mult = -1.0
+	unit_defense_mult = -1.0
+	
 	interest_group_approval_add = -15
-	country_loan_interest_rate_add = -2.0
-	country_government_wages_mult = -2.0
-	country_military_wages_mult = -2.0
-	state_welfare_payments_add = -2.0
+	country_government_wages_mult = -1.0
+	country_military_wages_mult = -1.0
+	state_welfare_payments_add = -1.0
 }
 bankruptcy = {
-	building_group_bg_government_throughput_mult = -2.0
-	building_group_bg_infrastructure_throughput_mult = -2.0
-	building_group_bg_military_throughput_mult = -2.0
-	country_government_wages_mult = -2.0
-	country_military_wages_mult = -2.0
-	unit_offense_mult = -2.0
-	unit_defense_mult = -2.0
-	state_conscription_rate_add = -2.0
+	country_infamy_decay_mult = -1.0
 }
 country_literacy_rate = {
 	country_weekly_innovation_max_add = 500

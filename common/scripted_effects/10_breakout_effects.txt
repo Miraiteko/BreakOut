@@ -436,25 +436,22 @@ production_exp_monthly_check = {
 bankruptcy_check = {
 	if = {
 		limit = {
-			NOT = { is_country_type = bankrupted }
+			NOT = { has_modifier = bankruptcy }
 			has_modifier = declared_bankruptcy
 		}
-		set_country_type = bankrupted
 		every_scope_state = {
 			remove_building = building_barracks
 			remove_building = building_naval_base
-			remove_building = building_government_administration
 			remove_building = building_port
 			remove_building = building_university
 			remove_building = building_construction_sector
 		}
-	}
-	else_if = {
-		limit = {
-			is_country_type = bankrupted
-			NOT = { has_modifier = declared_bankruptcy }
+		add_modifier = {
+			name = bankruptcy
+			years = 10
+			is_decaying = yes
 		}
-		set_country_type = unrecognized
+		change_infamy = 300
 	}
 	
 	#松散部落实现集权
