@@ -30,7 +30,7 @@
 		}
 	}
 	s:STATE_SARDINIA = {
-		region_state:ITA = {
+		region_state:FRA = {
 			create_pop = {
 				culture = south_italian
 				size = 524084
@@ -275,7 +275,7 @@
 		}
 	}
 	s:STATE_BALEARES = {
-		region_state:SPA = {
+		region_state:FRA = {
 			create_pop = {
 				culture = catalan
 				size = 145244
@@ -361,7 +361,7 @@
 		}
 	}
 	s:STATE_CAPE_VERDE = {
-		region_state:POR = {
+		region_state:GBR = {
 			create_pop = {
 				culture = portuguese
 				size = 103532
@@ -387,7 +387,7 @@
 	}
 
 	s:STATE_CANARY_ISLANDS = {
-		region_state:SPA = {
+		region_state:GBR = {
 			create_pop = {
 				culture = spanish
 				size = 208004
@@ -396,7 +396,7 @@
 	}
 
 	s:STATE_AZORES = {
-		region_state:POR = {
+		region_state:GBR = {
 			create_pop = {
 				culture = portuguese
 				size = 103532
@@ -573,7 +573,7 @@
 		}
 	}
 	s:STATE_SLOVENIA = {
-		region_state:AUS = {
+		region_state:ITA = {
 			create_pop = {
 				culture = slovene
 				size = 464400

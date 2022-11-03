@@ -1,6 +1,6 @@
 ﻿BUILDINGS={
 	s:STATE_ECUADOR={
-		region_state:ECU={
+		region_state:CLM={
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -84,7 +84,7 @@
 		}
 	}
 	s:STATE_ZULIA={
-		region_state:VNZ={
+		region_state:CLM={
 			create_building={
 				building="building_coffee_plantation"
 				level=1
@@ -106,7 +106,7 @@
 		}
 	}
 	s:STATE_MIRANDA={
-		region_state:VNZ={
+		region_state:CLM={
 			create_building={
 				building="building_fishing_wharf"
 				level=1
@@ -140,7 +140,7 @@
 		}
 	}
 	s:STATE_BOLIVAR={
-		region_state:VNZ={
+		region_state:CLM={
 			create_building={
 				building="building_livestock_ranch"
 				level=1
@@ -299,8 +299,6 @@
 		}
 	}
 	s:STATE_PASTAZA={
-		region_state:PEU={
-		}
 		region_state:ECU={
 		}
 	}
@@ -315,7 +313,7 @@
 		}
 	}
 	s:STATE_ANTOFAGASTA={
-		region_state:BOL={
+		region_state:PEU={
 			create_building={
 				building="building_fishing_wharf"
 				level=1
@@ -331,7 +329,7 @@
 		}
 	}
 	s:STATE_SANTA_CRUZ={
-		region_state:BOL={
+		region_state:PEU={
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -359,7 +357,7 @@
 		}
 	}
 	s:STATE_LA_PAZ={
-		region_state:BOL={
+		region_state:PEU={
 			create_building={
 				building="building_government_administration"
 				level=2
@@ -418,7 +416,7 @@
 		}
 	}
 	s:STATE_POTOSI={
-		region_state:BOL={
+		region_state:PEU={
 			create_building={
 				building="building_tobacco_plantation"
 				level=2
@@ -621,7 +619,7 @@
 		}
 	}
 	s:STATE_URUGUAY={
-		region_state:URU={
+		region_state:ARG={
 			create_building={
 				building="building_livestock_ranch"
 				level=1
@@ -643,17 +641,15 @@
 		}
 	}
 	s:STATE_JUJUY={
-		region_state:BOL={
-		}
 		region_state:ARG={
 		}
 	}
 	s:STATE_ALTO_PARAGUAY={
-		region_state:GNI={
+		region_state:ARG={
 		}
 	}
 	s:STATE_BAJO_PARAGUAY={
-		region_state:PRG={
+		region_state:ARG={
 			create_building={
 				building="building_arms_industry"
 				level=1
@@ -757,11 +753,9 @@
 				activate_production_methods={ "pm_wound_dressing" "pm_line_infantry" "pm_cavalry_scouts" "pm_no_specialists" "pm_cannon_artillery" }
 			}
 		}
-		region_state:PAT={
-		}
 	}
 	s:STATE_PATAGONIA={
-		region_state:PAT={
+		region_state:ARG={
 		}
 	}
 	s:STATE_RIO_NEGRO={
@@ -851,11 +845,11 @@
 		}
 	}
 	s:STATE_CHACO={
-		region_state:GNI={
+		region_state:ARG={
 		}
 	}
 	s:STATE_SANTIAGO={
-		region_state:CHL={
+		region_state:ARG={
 			create_building={
 				building="building_government_administration"
 				level=2
@@ -913,7 +907,7 @@
 		}
 	}
 	s:STATE_LOS_RIOS={
-		region_state:CHL={
+		region_state:ARG={
 			create_building={
 				building="building_livestock_ranch"
 				level=1
@@ -941,9 +935,7 @@
 		}
 	}
 	s:STATE_ARAUCANIA={
-		region_state:CHL={
-		}
-		region_state:PAT={
+		region_state:ARG={
 		}
 	}
 	s:STATE_SOUTH_ATLANTIC_ISLANDS={
@@ -957,19 +949,11 @@
 		}
 	}
 	s:STATE_ACRE={
-		region_state:BOL={
-		}
 	}
 	s:STATE_AMAZONAS={
-		region_state:CLM={
-		}
-		region_state:PRA={
-		}
-		region_state:BOL={
-		}
 	}
 	s:STATE_MATO_GROSSO={
-		region_state:PRG={
+		region_state:ARG={
 			create_building={
 				building="building_logging_camp"
 				level=1
@@ -993,7 +977,7 @@
 		}
 	}
 	s:STATE_RIO_GRANDE_DO_SUL={
-		region_state:PNI={
+		region_state:ARG={
 			create_building={
 				building="building_livestock_ranch"
 				level=2
@@ -1435,7 +1419,7 @@
 		}
 	}
 	s:STATE_PARA={
-		region_state:PRA={
+		region_state:BRZ={
 			create_building={
 				building="building_logging_camp"
 				level=1

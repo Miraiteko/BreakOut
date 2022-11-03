@@ -458,21 +458,6 @@
 				size = 148000
 			}
 		}
-		region_state:POR = {
-			create_pop = {
-				culture = yue
-				size = 336000
-			}
-			create_pop = {
-				culture = portuguese
-				size = 996
-			}
-			create_pop = {
-				culture = yue
-				religion = catholic
-				size = 5000
-			}
-		}
 	}
 	s:STATE_FUJIAN = {
 		region_state:CHI = {
@@ -1220,12 +1205,6 @@
 			create_pop = {
 				culture = ainu
 				size = 707500
-			}
-		}
-		region_state:JAP = {
-			create_pop = {
-				culture = ainu
-				size = 60020
 			}
 			create_pop = {
 				culture = japanese

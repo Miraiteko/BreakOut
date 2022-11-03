@@ -57,12 +57,16 @@
  PAN_ADJ:0 "巴"
  DAI_ADJ:0 "褒"
  BUK_ADJ:0 "庸"
- MGL_ADJ:0 "陆浑戎"
  SIA_ADJ:0 "乌氏"
+ PHI_ADJ:0 "陆浑戎"
+ DEI_ADJ:0 "义渠"
  
  #戎狄支配
  CAN_ADJ:0 "梁"
  MEX_ADJ:0 "中山"
  BRZ_ADJ:0 "鲜虞"
+ GCO_ADJ:0 "白狄"
+ PEU_ADJ:0 "赤狄"
+ ARG_ADJ:0 "仇由"
 
 

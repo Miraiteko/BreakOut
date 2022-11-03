@@ -1,15 +1,5 @@
 ﻿DIPLOMACY = {
-	c:USA = {
-		create_diplomatic_pact = {
-			country = c:FRA
-			type = trade_agreement
-		}
-	}	
 	c:GBR = {
-		create_diplomatic_pact = {
-			country = c:USA
-			type = trade_agreement
-		}		
 		create_diplomatic_pact = {
 			country = c:FRA
 			type = trade_agreement

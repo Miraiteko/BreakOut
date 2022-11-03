@@ -32,7 +32,7 @@
 		}
 	}
 	s:STATE_SCANIA = {
-		region_state:SWE = {
+		region_state:DEN = {
 			create_pop = {
 				culture = swedish
 				size = 512860
@@ -68,7 +68,7 @@
 		}
 	}
 	s:STATE_JUTLAND = {
-		region_state:DEN = {
+		region_state:GER = {
 			create_pop = {
 				culture = danish
 				size = 548908
@@ -128,7 +128,7 @@
 		}
 	}
 	s:STATE_ICELAND = {
-		region_state:DEN = {
+		region_state:GBR = {
 			create_pop = {
 				culture = icelandic
 				size = 63200
@@ -140,7 +140,7 @@
 		}
 	}
 	s:STATE_GREENLAND = {
-		region_state:DEN = {
+		region_state:GBR = {
 			create_pop = {
 				culture = danish
 				size = 410
@@ -178,7 +178,7 @@
 		}
 	}
 	s:STATE_WEST_KARELIA = {
-		region_state:FIN = {
+		region_state:RUS = {
 			create_pop = {
 				culture = finnish
 				size = 177000
@@ -810,7 +810,7 @@
 		}
 	}
 	s:STATE_BOHEMIA = {
-		region_state:AUS = {
+		region_state:GER = {
 			create_pop = {
 				culture = south_german
 				size = 1499608
@@ -860,7 +860,7 @@
 		}
 	}
 	s:STATE_TYROL = {
-		region_state:AUS = {
+		region_state:GER = {
 			create_pop = {
 				culture = south_german
 				size = 559304
@@ -1023,7 +1023,7 @@
 		}
 	}
 	s:STATE_RHINELAND = {
-		region_state:GER = {
+		region_state:NET = {
 			create_pop = {
 				culture = north_german
 				religion = catholic
@@ -1055,7 +1055,7 @@
 		}
 	}
 	s:STATE_NORTH_RHINE = {
-		region_state:GER = {
+		region_state:NET = {
 			create_pop = {
 				culture = north_german
 				religion = catholic
@@ -1115,8 +1115,6 @@
 				culture = danish
 				size = 20000
 			}
-		}
-		region_state:GER = {
 			create_pop = {
 				culture = north_german
 				size = 82396
@@ -1126,8 +1124,6 @@
 				religion = catholic
 				size = 2000
 			}
-		}
-		region_state:DEN = {
 			create_pop = {
 				culture = north_german
 				size = 200000

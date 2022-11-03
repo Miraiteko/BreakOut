@@ -140,7 +140,7 @@
 		}
 	}
 	s:STATE_SARDINIA={
-		region_state:ITA={
+		region_state:FRA={
 			create_building={
 				building="building_iron_mine"
 				level=2
@@ -1120,7 +1120,7 @@
 		}
 	}
 	s:STATE_BALEARES={
-		region_state:SPA={
+		region_state:FRA={
 			create_building={
 				building="building_fishing_wharf"
 				level=2
@@ -1460,7 +1460,7 @@
 		}
 	}
 	s:STATE_CAPE_VERDE={
-		region_state:POR={
+		region_state:GBR={
 			create_building={
 				building="building_coffee_plantation"
 				level=1
@@ -1482,7 +1482,7 @@
 		}
 	}
 	s:STATE_CANARY_ISLANDS={
-		region_state:SPA={
+		region_state:GBR={
 			create_building={
 				building="building_tobacco_plantation"
 				level=2
@@ -1510,7 +1510,7 @@
 		}
 	}
 	s:STATE_AZORES={
-		region_state:POR={
+		region_state:GBR={
 			create_building={
 				building="building_sugar_plantation"
 				level=1
@@ -1792,7 +1792,7 @@
 		}
 	}
 	s:STATE_SLOVENIA={
-		region_state:AUS={
+		region_state:ITA={
 			create_building={
 				building="building_wheat_farm"
 				level=3
@@ -1974,6 +1974,12 @@
 				level=3
 				reserves=1
 				activate_production_methods={ "pm_wound_dressing" "pm_irregular_infantry" "pm_cavalry_scouts" "pm_no_specialists" "pm_no_artillery" }
+			}
+			create_building={
+				building="building_port"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
 			}
 		}
 	}

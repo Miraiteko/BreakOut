@@ -1,6 +1,6 @@
 ﻿POPS = {
 	s:STATE_SAN_SALVADOR = {
-		region_state:UCA = {
+		region_state:MEX = {
 			create_pop = {
 				culture = central_american
 				size = 428204
@@ -8,7 +8,7 @@
 		}
 	}
 	s:STATE_GUATEMALA = {
-		region_state:UCA = {
+		region_state:MEX = {
 			create_pop = {
 				culture = central_american
 				size = 164404
@@ -17,8 +17,6 @@
 				culture = mayan
 				size = 312000
 			}
-		}
-		region_state:GBR = {
 			create_pop = {
 				culture = afro_caribbean
 				size = 7104
@@ -30,7 +28,7 @@
 		}
 	}
 	s:STATE_HONDURAS = {
-		region_state:UCA = {
+		region_state:MEX = {
 			create_pop = {
 				culture = central_american
 				size = 385204
@@ -42,7 +40,7 @@
 		}
 	}
 	s:STATE_NICARAGUA = {
-		region_state:UCA = {
+		region_state:MEX = {
 			create_pop = {
 				culture = central_american
 				size = 284000
@@ -52,37 +50,9 @@
 				size = 4000
 			}
 		}
-		region_state:MKT = {
-			create_pop = {
-				culture = miskito # Tawira Miskito
-				size = 30000
-			}
-			create_pop = {
-				culture = miskito
-				religion = protestant
-				size = 10000
-			}
-			create_pop = {
-				culture = afro_caribbean # Miskito Sambu
-				size = 20000
-			}
-			create_pop = {
-				culture = afro_caribeno
-				size = 500
-			}
-			create_pop = {
-				culture = british
-				size = 500
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = afro_caribeno
-				size = 1000
-			}
-		}
 	}
 	s:STATE_COSTA_RICA = {
-		region_state:UCA = {
+		region_state:MEX = {
 			create_pop = {
 				culture = central_american
 				size = 83992
@@ -90,7 +60,7 @@
 		}
 	}
 	s:STATE_PANAMA = {
-		region_state:CLM = {
+		region_state:USA = {
 			create_pop = {
 				culture = central_american
 				size = 87792
@@ -115,7 +85,7 @@
 		}
 	}
 	s:STATE_HAITI = {
-		region_state:HAI = {
+		region_state:GBR = {
 			create_pop = {
 				culture = afro_antillean
 				size = 316808
@@ -131,7 +101,7 @@
 		}
 	}
 	s:STATE_SANTO_DOMINGO = {
-		region_state:HAI = {
+		region_state:GBR = {
 			create_pop = {
 				culture = afro_antillean
 				size = 226020
@@ -147,7 +117,7 @@
 		}
 	}
 	s:STATE_PUERTO_RICO = {
-		region_state:SPA = {
+		region_state:USA = {
 			create_pop = {
 				culture = caribeno
 				size = 182500
@@ -180,26 +150,6 @@
 		}
 	}
 	s:STATE_WEST_INDIES = {
-		region_state:FRA = {
-			create_pop = {
-				culture = french
-				size = 22200
-			}
-			create_pop = {
-				culture = afro_antillean
-				size = 216104
-			}
-		}
-		region_state:DEN = {
-			create_pop = {
-				culture = danish
-				size = 3992
-			}
-			create_pop = {
-				culture = afro_caribbean
-				size = 39996
-			}
-		}
 		region_state:GBR = {
 			create_pop = {
 				culture = british
@@ -228,7 +178,7 @@
 		}
 	}
 	s:STATE_CUBA = {
-		region_state:CUB = {
+		region_state:USA = {
 			# 896400
 			create_pop = {
 				culture = caribeno

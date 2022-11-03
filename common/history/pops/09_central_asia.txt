@@ -700,7 +700,7 @@
 		}
 	}
 	s:STATE_HIMALAYAS = {
-		region_state:SIK = {
+		region_state:HND = {
 			create_pop = {
 				culture = tibetan
 				size = 60301
@@ -709,8 +709,6 @@
 				culture = nepali
 				size = 24091
 			}
-		}
-		region_state:BHU = {
 			create_pop = {
 				culture = tibetan
 				size = 140396
@@ -719,8 +717,6 @@
 				culture = nepali
 				size = 16004
 			}
-		}
-		region_state:NEP = {
 			create_pop = {
 				culture = nepali
 				size = 619204

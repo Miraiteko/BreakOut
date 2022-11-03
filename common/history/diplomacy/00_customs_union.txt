@@ -5,7 +5,7 @@
 			type = alliance
 		}
 	}
-	c:GBR = {	
+	c:USA = {	
 		create_diplomatic_pact = {
 			country = c:FRA
 			type = alliance

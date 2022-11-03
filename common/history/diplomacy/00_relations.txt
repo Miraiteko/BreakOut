@@ -1,8 +1,14 @@
 DIPLOMACY = {
-	c:AUS = { 
-		set_relations = { country = c:ITA value = 30 }
+	c:GBR = { 
+		set_relations = { country = c:FRA value = 100 }
+		set_relations = { country = c:USA value = 200 }
+	}
+	c:FRA = { 
+		set_relations = { country = c:USA value = 100 }
+		set_relations = { country = c:GBR value = 100 }
 	}
 	c:USA = { 
-		set_relations = { country = c:GBR value = 30 }
+		set_relations = { country = c:FRA value = 100 }
+		set_relations = { country = c:GBR value = 200 }
 	}
 }

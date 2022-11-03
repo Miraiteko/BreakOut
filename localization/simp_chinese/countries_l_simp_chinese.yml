@@ -141,12 +141,15 @@
  BUK:0 "庸国"
  GREAT_BUK:0 "大庸"
  SUBJECT_BUK:0 "庸家"
- MGL:0 "陆浑戎国"
- GREAT_MGL:0 "大陆浑戎"
- SUBJECT_MGL:0 "陆浑戎家"
+ PHI:0 "陆浑戎国"
+ GREAT_PHI:0 "大陆浑戎"
+ SUBJECT_PHI:0 "陆浑戎家"
  SIA:0 "乌氏国"
  GREAT_SIA:0 "大乌氏"
  SUBJECT_SIA:0 "乌氏家"
+ DEI:0 "义渠国"
+ GREAT_DEI:0 "大义渠"
+ SUBJECT_DEI:0 "义渠家"
  
  #戎狄支配
  CAN:0 "梁国"
@@ -158,5 +161,14 @@
  BRZ:0 "鲜虞国"
  GREAT_BRZ:0 "大鲜虞"
  SUBJECT_BRZ:0 "鲜虞家"
+ GCO:0 "白狄国"
+ GREAT_GCO:0 "大白狄"
+ SUBJECT_GCO:0 "白狄家"
+ PEU:0 "赤狄国"
+ GREAT_PEU:0 "大赤狄"
+ SUBJECT_PEU:0 "赤狄家"
+ ARG:0 "仇由国"
+ GREAT_ARG:0 "大仇由"
+ SUBJECT_ARG:0 "仇由家"
 
 

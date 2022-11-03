@@ -62,7 +62,7 @@
 		}
 	}
 	s:STATE_ABU_DHABI = {
-		region_state:ABU = {
+		region_state:PER = {
 			create_pop = {
 				culture = bedouin
 				religion = sunni

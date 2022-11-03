@@ -1281,9 +1281,9 @@ DAI = { #褒
 		}
 	}
 }
-MGL = { #陆浑戎
+PHI = { #陆浑戎
 	dynamic_country_name = {
-		name = GREAT_MGL
+		name = GREAT_PHI
 
 		is_main_tag_only = yes
 		priority = 0
@@ -1294,7 +1294,7 @@ MGL = { #陆浑戎
 		}
 	}
 	dynamic_country_name = {
-		name = SUBJECT_MGL
+		name = SUBJECT_PHI
 
 		is_main_tag_only = yes
 		priority = 0
@@ -1319,6 +1319,30 @@ SIA = { #乌氏
 	}
 	dynamic_country_name = {
 		name = SUBJECT_SIA
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { is_true_subject = yes }
+		}
+	}
+}
+DEI = { #义渠
+	dynamic_country_name = {
+		name = GREAT_DEI
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { country_rank >= rank_value:great_power }
+		}
+	}
+	dynamic_country_name = {
+		name = SUBJECT_DEI
 
 		is_main_tag_only = yes
 		priority = 0
@@ -1393,6 +1417,78 @@ BRZ = { #鲜虞
 	}
 	dynamic_country_name = {
 		name = SUBJECT_BRZ
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { is_true_subject = yes }
+		}
+	}
+}
+GCO = { #白狄
+	dynamic_country_name = {
+		name = GREAT_GCO
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { country_rank >= rank_value:great_power }
+		}
+	}
+	dynamic_country_name = {
+		name = SUBJECT_GCO
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { is_true_subject = yes }
+		}
+	}
+}
+PEU = { #赤狄
+	dynamic_country_name = {
+		name = GREAT_PEU
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { country_rank >= rank_value:great_power }
+		}
+	}
+	dynamic_country_name = {
+		name = SUBJECT_PEU
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { is_true_subject = yes }
+		}
+	}
+}
+ARG = { #仇由
+	dynamic_country_name = {
+		name = GREAT_ARG
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { country_rank >= rank_value:great_power }
+		}
+	}
+	dynamic_country_name = {
+		name = SUBJECT_ARG
 
 		is_main_tag_only = yes
 		priority = 0

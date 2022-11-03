@@ -586,26 +586,6 @@
 				activate_production_methods={ "pm_basic_port" }
 			}
 		}
-		region_state:POR={
-			create_building={
-				building="building_rice_farm"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_privately_owned" "pm_tools_disabled" "pm_fig_orchards" }
-			}
-			create_building={
-				building="building_dye_plantation"
-				level=2
-				reserves=1
-				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts" "pm_privately_owned" }
-			}
-			create_building={
-				building="building_port"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-		}
 	}
 	s:STATE_FUJIAN={
 		region_state:CHI={
@@ -1593,6 +1573,12 @@
 	}
 	s:STATE_SAKHALIN={
 		region_state:RUS={
+			create_building={
+				building="building_port"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_anchorage" }
+			}
 		}
 	}
 	s:STATE_HOKKAIDO={

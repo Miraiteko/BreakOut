@@ -2,7 +2,7 @@
 
 POPS = {
 	s:STATE_ECUADOR = {
-		region_state:ECU = {
+		region_state:CLM = {
 			create_pop = {
 				culture = north_andean
 				size = 332100
@@ -76,7 +76,7 @@ POPS = {
 		}
 	}
 	s:STATE_ZULIA = {
-		region_state:VNZ = {
+		region_state:CLM = {
 			create_pop = {
 				culture = north_andean
 				size = 325608
@@ -103,7 +103,7 @@ POPS = {
 		}
 	}
 	s:STATE_MIRANDA = {
-		region_state:VNZ = {
+		region_state:CLM = {
 			create_pop = {
 				culture = north_andean
 				size = 266908
@@ -125,7 +125,7 @@ POPS = {
 		}
 	}
 	s:STATE_BOLIVAR = {
-		region_state:VNZ = {
+		region_state:CLM = {
 			create_pop = {
 				culture = north_andean
 				size = 144392
@@ -241,21 +241,7 @@ POPS = {
 		}
 	}
 	s:STATE_PASTAZA = {
-		region_state:PEU = {
-			create_pop = {
-				culture = amazonian
-				size = 40000
-			}
-			create_pop = {
-				culture = south_andean
-				size = 11996
-			}
-			create_pop = {
-				culture = quechua
-				size = 4004
-			}
-		}
-		region_state:ECU = {
+		region_state:CLM = {
 			create_pop = {
 				culture = amazonian
 				size = 32000
@@ -292,7 +278,7 @@ POPS = {
 		}
 	}
 	s:STATE_ANTOFAGASTA = {
-		region_state:BOL = {
+		region_state:PEU = {
 			create_pop = {
 				culture = south_andean
 				size = 43996
@@ -312,7 +298,7 @@ POPS = {
 		}
 	}
 	s:STATE_SANTA_CRUZ = {
-		region_state:BOL = {
+		region_state:PEU = {
 			create_pop = {
 				culture = south_andean
 				size = 28200
@@ -332,7 +318,7 @@ POPS = {
 		}
 	}
 	s:STATE_LA_PAZ = {
-		region_state:BOL = {
+		region_state:PEU = {
 			create_pop = {
 				culture = south_andean
 				size = 220792
@@ -356,7 +342,7 @@ POPS = {
 		}
 	}
 	s:STATE_POTOSI = {
-		region_state:BOL = {
+		region_state:PEU = {
 			create_pop = {
 				culture = south_andean
 				size = 24000
@@ -472,7 +458,7 @@ POPS = {
 		}
 	}
 	s:STATE_URUGUAY = {
-		region_state:URU = {
+		region_state:ARG = {
 			create_pop = {
 				culture = platinean
 				size = 95192
@@ -493,20 +479,6 @@ POPS = {
 		}
 	}
 	s:STATE_JUJUY = {
-		region_state:BOL = {
-			create_pop = {
-				culture = south_andean
-				size = 4000
-			}
-			create_pop = {
-				culture = quechua
-				size = 48000
-			}
-			create_pop = {
-				culture = platinean
-				size = 4000
-			}
-		}
 		region_state:ARG = {
 			create_pop = {
 				culture = platinean
@@ -519,7 +491,7 @@ POPS = {
 		}
 	}
 	s:STATE_ALTO_PARAGUAY = {
-		region_state:GNI = {
+		region_state:ARG = {
 			create_pop = {
 				culture = guarani
 				size = 11000
@@ -531,7 +503,7 @@ POPS = {
 		}
 	}
 	s:STATE_BAJO_PARAGUAY = {
-		region_state:PRG = {
+		region_state:ARG = {
 			create_pop = {
 				culture = platinean
 				size = 308396
@@ -576,21 +548,9 @@ POPS = {
 				size = 2000
 			}
 		}
-		region_state:PAT = {
-			create_pop = {
-				culture = patagonian
-				size = 30000
-			}		
-		}
 	}
 	s:STATE_PATAGONIA = {
-		region_state:THL = {
-			create_pop = {
-				culture = patagonian
-				size = 25100
-			}
-		}
-		region_state:PAT = {
+		region_state:ARG = {
 			create_pop = {
 				culture = patagonian
 				size = 31100
@@ -603,25 +563,6 @@ POPS = {
 	}
 	s:STATE_RIO_NEGRO = {
 		region_state:ARG = {
-			create_pop = {
-				culture = patagonian
-				size = 6880
-			}
-			create_pop = {
-				culture = platinean
-				size = 6096
-			}
-			create_pop = {
-				culture = afro_caribeno
-				size = 100
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = afro_caribeno
-				size = 20
-			}
-		}
-		region_state:PAT = {
 			create_pop = {
 				culture = patagonian
 				size = 17000
@@ -668,12 +609,6 @@ POPS = {
 				culture = afro_caribeno
 				size = 450
 			}
-		}
-		region_state:GNI = {
-			create_pop = {
-				culture = guarani
-				size = 8000
-			}		
 		}
 	}
 	s:STATE_CORRIENTES = {
@@ -723,16 +658,6 @@ POPS = {
 		}
 	}
 	s:STATE_CHACO = {
-		region_state:GNI = {
-			create_pop = {
-				culture = guarani
-				size = 9000
-			}
-			create_pop = {
-				culture = quechua # Santiagueño Quechua
-				size = 400
-			}
-		}
 		region_state:ARG = {
 			create_pop = {
 				culture = platinean
@@ -749,7 +674,7 @@ POPS = {
 		}
 	}
 	s:STATE_SANTIAGO = {
-		region_state:CHL = {
+		region_state:ARG = {
 			create_pop = {
 				culture = south_andean
 				size = 655608
@@ -761,7 +686,7 @@ POPS = {
 		}
 	}
 	s:STATE_LOS_RIOS = {
-		region_state:CHL = {
+		region_state:ARG = {
 			create_pop = {
 				culture = south_andean
 				size = 204892
@@ -773,7 +698,7 @@ POPS = {
 		}
 	}
 	s:STATE_ARAUCANIA = {
-		region_state:CHL = {
+		region_state:ARG = {
 			create_pop = {
 				culture = south_andean
 				size = 52004
@@ -781,18 +706,6 @@ POPS = {
 			create_pop = {
 				culture = patagonian
 				size = 3200
-			}
-		}
-		region_state:THL = {
-			create_pop = {
-				culture = patagonian
-				size = 28200
-			}
-		}
-		region_state:SLK = {
-			create_pop = {
-				culture = patagonian
-				size = 12000
 			}
 		}
 	}
@@ -805,7 +718,7 @@ POPS = {
 		}
 	}
 	s:STATE_ACRE={
-		region_state:BOL = {
+		region_state:PEU = {
 			create_pop = {
 				culture = amazonian
 				size = 15750
@@ -821,17 +734,7 @@ POPS = {
 		}
 	}
 	s:STATE_AMAZONAS = {
-		region_state:CLM = {
-			create_pop = {
-				culture = amazonian
-				size = 12000
-			}
-			create_pop = {
-				culture = north_andean
-				size = 210
-			}
-		}
-		region_state:PRA = {
+		region_state:BRZ = {
 			create_pop = {
 				culture = amazonian
 				size = 36800
@@ -849,16 +752,10 @@ POPS = {
 				culture = afro_brazilian
 				size = 1980 # 1840 Amazonas Census
 			}
-		}
-		region_state:BOL = { # I have literally no idea what number to put here.
-			create_pop = {
-				culture = amazonian
-				size = 10000
-			}
-		}		
+		}	
 	}
 	s:STATE_MATO_GROSSO = {
-		region_state:PRG = {
+		region_state:ARG = {
 			create_pop = {
 				culture = guarani
 				size = 38000
@@ -893,7 +790,7 @@ POPS = {
 		}
 	}
 	s:STATE_RIO_GRANDE_DO_SUL = {
-		region_state:PNI = {
+		region_state:ARG = {
 			create_pop = {
 				culture = brazilian
 				size = 116681
@@ -1168,7 +1065,7 @@ POPS = {
 	}
 	s:STATE_PARA = {
 
-		region_state:PRA = {
+		region_state:BRZ = {
 			create_pop = {
 				culture = brazilian
 				size = 111297

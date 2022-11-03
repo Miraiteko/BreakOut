@@ -398,7 +398,7 @@
 		}
 	}
 	s:STATE_KURSK={
-		region_state:UKR={
+		region_state:RUS={
 			create_building={
 				building="building_rye_farm"
 				level=3
@@ -532,7 +532,7 @@
 		}
 	}
 	s:STATE_ROSTOV={
-		region_state:UKR={
+		region_state:RUS={
 			create_building={
 				building="building_livestock_ranch"
 				level=1
@@ -638,7 +638,7 @@
 		}
 	}
 	s:STATE_LITHUANIA={
-		region_state:RUS={
+		region_state:BYE={
 			create_building={
 				building="building_rye_farm"
 				level=4
@@ -694,7 +694,7 @@
 		}
 	}
 	s:STATE_SILESIA={
-		region_state:POL={
+		region_state:GER={
 			create_building={
 				building="building_textile_mills"
 				level=8
@@ -831,6 +831,12 @@
 				reserves=1
 				activate_production_methods={ "pm_skirmish_infantry" "pm_mobile_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
+			create_building={
+				building="building_port"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
 		}
 	}
 	s:STATE_POSEN={
@@ -908,7 +914,7 @@
 		}
 	}
 	s:STATE_EAST_GALICIA={
-		region_state:UKR={
+		region_state:POL={
 			create_building={
 				building="building_government_administration"
 				level=3

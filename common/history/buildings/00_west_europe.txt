@@ -128,7 +128,7 @@
 		}
 	}
 	s:STATE_SCANIA={
-		region_state:SWE={
+		region_state:DEN={
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -230,7 +230,7 @@
 		}
 	}
 	s:STATE_JUTLAND={
-		region_state:DEN={
+		region_state:GER={
 			create_building={
 				building="building_rye_farm"
 				level=8
@@ -448,7 +448,7 @@
 		}
 	}
 	s:STATE_ICELAND={
-		region_state:DEN={
+		region_state:GBR={
 			create_building={
 				building="building_fishing_wharf"
 				level=1
@@ -464,7 +464,13 @@
 		}
 	}
 	s:STATE_GREENLAND={
-		region_state:DEN={
+		region_state:GBR={
+			create_building={
+				building="building_port"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_anchorage" }
+			}
 		}
 	}
 	s:STATE_SOUTHERN_FINLAND={
@@ -514,7 +520,7 @@
 		}
 	}
 	s:STATE_WEST_KARELIA={
-		region_state:FIN={
+		region_state:RUS={
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -2560,7 +2566,7 @@
 		}
 	}
 	s:STATE_BOHEMIA={
-		region_state:AUS={
+		region_state:GER={
 			create_building={
 				building="building_government_administration"
 				level=10
@@ -2704,7 +2710,7 @@
 		}
 	}
 	s:STATE_TYROL={
-		region_state:AUS={
+		region_state:GER={
 			create_building={
 				building="building_iron_mine"
 				level=2
@@ -3038,7 +3044,7 @@
 		}
 	}
 	s:STATE_RHINELAND={
-		region_state:GER={
+		region_state:NET={
 			create_building={
 				building="building_government_administration"
 				level=5
@@ -3092,7 +3098,7 @@
 		}
 	}
 	s:STATE_NORTH_RHINE={
-		region_state:GER={
+		region_state:NET={
 			create_building={
 				building="building_arms_industry"
 				level=8
@@ -3221,8 +3227,6 @@
 				reserves=1
 				activate_production_methods={ "pm_mobile_artillery" "pm_wound_dressing" "pm_cavalry_scouts" "pm_no_specialists" "pm_line_infantry" }
 			}
-		}
-		region_state:GER={
 			create_building={
 				building="building_port"
 				level=1
@@ -3235,8 +3239,6 @@
 				reserves=1
 				activate_production_methods={ "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_irregular_infantry" }
 			}			
-		}
-		region_state:DEN={
 			create_building={
 				building="building_government_administration"
 				level=1

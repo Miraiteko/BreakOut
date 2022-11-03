@@ -455,7 +455,6 @@ bankruptcy_check = {
 			NOT = { has_modifier = declared_bankruptcy }
 		}
 		set_country_type = unrecognized
-		clear_debt = yes
 	}
 	
 	#松散部落实现集权

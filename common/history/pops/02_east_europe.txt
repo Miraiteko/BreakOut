@@ -280,7 +280,7 @@
 		}
 	}
 	s:STATE_KURSK = {
-		region_state:UKR = {
+		region_state:RUS = {
 			create_pop = {
 				culture = russian
 				size = 2295600
@@ -394,7 +394,7 @@
 		}
 	}
 	s:STATE_ROSTOV = {
-		region_state:UKR = {
+		region_state:RUS = {
 			create_pop = {
 				culture = ukrainian
 				size = 356600
@@ -492,7 +492,7 @@
 		}
 	}
 	s:STATE_LITHUANIA = {
-		region_state:RUS = {
+		region_state:BYE = {
 			create_pop = {
 				culture = polish
 				size = 111796
@@ -541,7 +541,7 @@
 		}
 	}
 	s:STATE_SILESIA = {
-		region_state:POL = {
+		region_state:GER = {
 			create_pop = {
 				culture = north_german
 				size = 1319008
@@ -723,7 +723,7 @@
 		}
 	}
 	s:STATE_EAST_GALICIA = {
-		region_state:UKR = {
+		region_state:POL = {
 			create_pop = {
 				culture = polish
 				size = 832800
