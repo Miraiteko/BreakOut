@@ -181,11 +181,11 @@ ai_strategy_resource_expansion = {
 	}
 	
 	subsidies = {
-		refinery = wants_to_have
-		plastics_plant = wants_to_have
+		refinery = nice_to_have
+		plastics_plant = nice_to_have
 		
-		building_tooling_workshops = wants_to_have
-		building_chemical_plants = wants_to_have
+		building_tooling_workshops = nice_to_have
+		building_chemical_plants = nice_to_have
 	}
 	
 	goods_stances = {
@@ -279,26 +279,26 @@ ai_strategy_industrial_expansion = {
 	max_tax_level = very_high
 	
 	subsidies = {
-		hospital = wants_to_have
-		stock_exchange = wants_to_have
-		hydroponics_farm = wants_to_have
-		photovoltaic_plant = wants_to_have
-		refinery = wants_to_have
-		plastics_plant = wants_to_have
-		pharmaceutical_mill = wants_to_have
-		carbon_sequestration = wants_to_have
-		rocket_plant = wants_to_have
-		space_center = wants_to_have
-		lunar_mine = wants_to_have
-		space_elevator = wants_to_have
+		hospital = nice_to_have
+		stock_exchange = nice_to_have
+		hydroponics_farm = nice_to_have
+		photovoltaic_plant = nice_to_have
+		refinery = nice_to_have
+		plastics_plant = nice_to_have
+		pharmaceutical_mill = nice_to_have
+		carbon_sequestration = nice_to_have
+		rocket_plant = nice_to_have
+		space_center = nice_to_have
+		lunar_mine = nice_to_have
+		space_elevator = nice_to_have
 
-		building_tooling_workshops = wants_to_have
-		building_coal_mine = wants_to_have
-		building_iron_mine = wants_to_have
-		building_steel_mills = wants_to_have
-		building_lead_mine = wants_to_have
-		building_sulfur_mine = wants_to_have
-		building_chemical_plants = wants_to_have
+		building_tooling_workshops = nice_to_have
+		building_coal_mine = nice_to_have
+		building_iron_mine = nice_to_have
+		building_steel_mills = nice_to_have
+		building_lead_mine = nice_to_have
+		building_sulfur_mine = nice_to_have
+		building_chemical_plants = nice_to_have
 	}
 	
 	goods_stances = {

@@ -462,4 +462,28 @@ bankruptcy_check = {
 		}
 		set_country_type = unrecognized
 	}
+	#ai在资金过多的时候扩建建造部门
+	if = {
+		limit = {
+			is_ai = yes
+			OR = {
+				gold_reserves > gold_reserves_limit
+				AND = {
+					investment_pool >= gold_reserves_limit
+					NOR = {
+						has_law = law_type:law_command_economy
+						has_law = law_type:law_traditionalism
+					}
+				}
+			}
+			weekly_net_fixed_income >= 10000
+			construction_queue_duration > 16
+		}
+		random_scope_state = {
+			limit = {
+				is_incorporated = yes
+			}
+			start_building_construction = building_construction_sector
+		}
+	}
 }

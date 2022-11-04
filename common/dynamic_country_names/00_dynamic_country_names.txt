@@ -1427,9 +1427,9 @@ BRZ = { #鲜虞
 		}
 	}
 }
-GCO = { #白狄
+CLM = { #白狄
 	dynamic_country_name = {
-		name = GREAT_GCO
+		name = GREAT_CLM
 
 		is_main_tag_only = yes
 		priority = 0
@@ -1440,7 +1440,7 @@ GCO = { #白狄
 		}
 	}
 	dynamic_country_name = {
-		name = SUBJECT_GCO
+		name = SUBJECT_CLM
 
 		is_main_tag_only = yes
 		priority = 0

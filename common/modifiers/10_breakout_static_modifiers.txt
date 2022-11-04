@@ -28,7 +28,7 @@
 	
 	character_health_add = 1
 	
-	country_construction_add = 5
+	country_construction_add = 10
 	
 	building_mobilization_cost_mult = 0.6
 	

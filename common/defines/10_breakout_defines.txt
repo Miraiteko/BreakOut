@@ -173,3 +173,19 @@ NFrontend = {
 	CAMERA_START_Y = 2400							# Y is height
 	CAMERA_START_Z = 2000.0
 }
+
+NAI = {
+	CONSTRUCTION_MAX_NUM_NON_GOVERNMENT_CONSTRUCTIONS_BASE = 1 # If country has this number of non-government building constructions queued, don't add anymore (base)
+	CONSTRUCTION_MAX_NUM_NON_GOVERNMENT_CONSTRUCTIONS_SCALED = 0.05 # If country has this number of non-government building constructions queued, don't add anymore (scaled by construction production)
+	CONSTRUCTION_MAX_NUM_NON_GOVERNMENT_CONSTRUCTIONS_SCALED_MAX = 19 # CONSTRUCTION_MAX_NUM_NON_GOVERNMENT_CONSTRUCTIONS_SCALED can't be higher than this	
+	CONSTRUCTION_MAX_NUM_GOVERNMENT_CONSTRUCTIONS_BASE = 1 # If country has this number of government building constructions queued, don't add anymore (base)
+	CONSTRUCTION_MAX_NUM_GOVERNMENT_CONSTRUCTIONS_SCALED = 0.05 # If country has this number of government building constructions queued, don't add anymore (scaled by construction production)
+	CONSTRUCTION_MAX_NUM_GOVERNMENT_CONSTRUCTIONS_SCALED_MAX = 19 # CONSTRUCTION_MAX_NUM_GOVERNMENT_CONSTRUCTIONS_SCALED can't be higher than this	
+	CONSTRUCTION_WANTED_SUPPLY_OF_CONSTRUCTION_GOODS = 1.0 # Try to import construction goods if supply-to-demand ratio is below this
+
+	CONSTRUCTION_RESERVES_NEW_CONSTRUCTIONS = 0.01 # If gold reserves are less than this after adding the cost of a new construction, don't queue it
+	CONSTRUCTION_DEBT_RESUME = 0.2 # If constructions are paused, resume once debt is this low relative to ceiling
+	CONSTRUCTION_DEBT_PAUSE = 0.4 # If in this much relative debt to debt ceiling, pause all non-critical constructions 	
+	CONSTRUCTION_DEBT_RESUME_CRITICAL_CONSTRUCTION = 0.6 # If critical constructions are paused, resume once debt is this low relative to ceiling
+	CONSTRUCTION_DEBT_PAUSE_CRITICAL_CONSTRUCTION = 0.8 # If in this much relative debt to debt ceiling, pause all critical constructions 	
+}
