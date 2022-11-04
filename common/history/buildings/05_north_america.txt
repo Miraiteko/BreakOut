@@ -58,6 +58,36 @@
 	s:STATE_NEW_YORK={
 		region_state:USA={
 			create_building={
+				building="building_power_plant"
+				level=10
+				reserves=1
+			}
+			create_building={
+				building="wafer_plant"
+				level=6
+				reserves=1
+			}
+			create_building={
+				building="building_electrics_industry"
+				level=6
+				reserves=1
+			}
+			create_building={
+				building="software_park"
+				level=6
+				reserves=1
+			}
+			create_building={
+				building="internet_data_center"
+				level=6
+				reserves=1
+			}
+			create_building={
+				building="virtual_mine"
+				level=6
+				reserves=1
+			}
+			create_building={
 				building="building_government_administration"
 				level=6
 				reserves=1

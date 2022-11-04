@@ -468,10 +468,10 @@ bankruptcy_check = {
 			is_ai = yes
 			OR = {
 				gold_reserves > gold_reserves_limit
-				investment_pool >= gold_reserves_limit
+				investment_pool > gold_reserves_limit
 			}
 			weekly_net_fixed_income >= 10000
-			construction_queue_duration > 20
+			construction_queue_duration > 30
 		}
 		random_scope_state = {
 			limit = {

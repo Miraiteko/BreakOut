@@ -370,7 +370,7 @@
  modifier_building_input_computation_add:0 "每级@computation!算力投入"
  modifier_building_input_computation_add_desc:0 "建筑投入的@computation!算力数量"
  
- internet_data_center:0 "互联网数据中心"
+ internet_data_center:0 "数据中心"
  pmg_internet_data_center:0 "数据中心"
  pm_internet_data_center:0 "数据中心"
  
@@ -379,10 +379,10 @@
  pm_virtual_mine:0 "虚拟矿厂"
  
  pmg_automation:0 "自动化"
- pm_manual_control:0 "人工控制"
- pm_proportional_integral_control:0 "比例积分控制"
- pm_reinforcement_learning_control:0 "强化学习控制"
- pm_quantum_ergodic_control:0 "量子遍历控制"
+ pm_manual_control:0 "手工操作"
+ pm_proportional_integral_control:0 "控制电路"
+ pm_reinforcement_learning_control:0 "数字化控制"
+ pm_quantum_ergodic_control:0 "人工智能"
  
  
  #核武器相关

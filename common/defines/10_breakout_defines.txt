@@ -173,7 +173,16 @@ NFrontend = {
 	CAMERA_START_Y = 2400							# Y is height
 	CAMERA_START_Z = 2000.0
 }
+#防止AI一直不议和
+NWar = {
+	DEVASTATION_MAX = 100.0
+	DEVASTATION_INCREASE_RATE = 0 # Per day, scales with level of occupation
+	DEVASTATION_DECAY_RATE = -0.1 # Per day, when there are no occupations
+	DEVASTATION_FROM_BATTLES = 0.5 # For each battle
 
+	AUTO_CAPITULATE_WAR_SUPPORT = 0 # When war support is this low, the country will auto capitulate
+	DAYS_BETWEEN_WAR_EXHAUSTION = 20 # Every this many days war support will be reduced by the war exhaustion formula
+}
 NAI = {
 	CONSTRUCTION_MAX_NUM_NON_GOVERNMENT_CONSTRUCTIONS_BASE = 1 # If country has this number of non-government building constructions queued, don't add anymore (base)
 	CONSTRUCTION_MAX_NUM_NON_GOVERNMENT_CONSTRUCTIONS_SCALED = 0.05 # If country has this number of non-government building constructions queued, don't add anymore (scaled by construction production)

@@ -3367,8 +3367,8 @@
  WARGOAL_INFAMY_TOOLTIP:0 "#header [concept_war_goal][concept_infamy]：[WarGoal.GetInfamyAmount|-1]#!\n$TOOLTIP_DELIMITER$\n[WarGoal.GetInfamyDesc]"
  WARGOAL_INFAMY:0 "@infamy![WarGoal.GetInfamyAmount|-1]"
 
- WAR_SUPPORT_CANNOT_BE_NEGATIVE:0 "[concept_war_support]无法降到#variable 0#!以下，因为他们还控制着首都，且下列战争目标未被占领："
- WAR_SUPPORT_CANNOT_BE_NEGATIVE_WAR_GOAL_ENTRY:0 "——[WAR_GOAL.GetName]"
+ WAR_SUPPORT_CANNOT_BE_NEGATIVE:0 "一旦战争支持度降到#v 0#!,国家就会立刻投降。"
+ WAR_SUPPORT_CANNOT_BE_NEGATIVE_WAR_GOAL_ENTRY:0 ""
 
  WAR_PANEL_CURRENT_PEACE_DEAL_PROPOSER:0 "由[WarPanel.GetWar.GetCountryProposingPeace.GetName]提出"
  WAR_PANEL_NO_CURRENT_PEACE_DEAL:0 "无当前[concept_peace_deal]"
@@ -3412,7 +3412,7 @@
  WAR_PANEL_LEFT_LEADER_TOOLTIP:0 "[WarPanel.AccessWar.AccessParticipant(WarPanel.GetLeftLeader).GetWarSupportDesc]\n$TOOLTIP_DELIMITER$\n[WarPanel.AccessWar.AccessParticipant(WarPanel.GetLeftLeader).GetWarSupportDescDelayed]\n[WarPanel.AccessWar.AccessParticipant(WarPanel.GetLeftLeader).GetExhaustionDesc]"
 
  WAR_PANEL_WAR_SUPPORT_DESC:0 "#HEADER 战争支持度#!（$COUNTRY_NAME$）\n当前值：#variable $SUPPORT|1+=$#!"
- WAR_PANEL_WAR_SUPPORT_DESC_INITIAL:0 "初始[concept_war_support]：#variable $INITIAL|+=1$#!"
+ WAR_PANEL_WAR_SUPPORT_DESC_INITIAL:0 "初始[concept_war_support]：#variable 100#!"
  WAR_PANEL_WAR_SUPPORT_DESC_BATTLES:0 "\n来自战斗：#variable $BATTLES|1+=$#!"
  WAR_PANEL_WAR_SUPPORT_DESC_EXHAUSTION:0 "\n来自厌战度：#variable $EXHAUSTION|1+=$#!"
  WAR_PANEL_WAR_SUPPORT_DESC_SITUATIONS:1 "\n来自事件：#variable $SITUATIONS|1+=$#!"

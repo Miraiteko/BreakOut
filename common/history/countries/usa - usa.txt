@@ -7,7 +7,10 @@
 
 		set_tax_level = low
 		
-		effect_starting_technology_tier_1_tech = yes
+		add_era_researched = era_1
+		add_era_researched = era_2
+		add_era_researched = era_3
+		add_era_researched = era_4
 		
 		set_market_capital = STATE_NEW_YORK
 		
