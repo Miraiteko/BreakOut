@@ -3,7 +3,7 @@
 	
 	type = administrative
 
-	wanted_construction_ratio = 1000000
+	wanted_construction_ratio = 1200000
 
 	building_group_weights = {
 		bg_agriculture = 2.0
@@ -103,7 +103,7 @@ ai_strategy_plantation_economy = {
 	
 	type = administrative
 
-	wanted_construction_ratio = 1000000
+	wanted_construction_ratio = 1200000
 	
 	goods_stances = {
 		fruit = { stance = wants_export }
@@ -171,7 +171,7 @@ ai_strategy_resource_expansion = {
 	
 	type = administrative	
 
-	wanted_construction_ratio = 700000
+	wanted_construction_ratio = 1000000
 	
 	building_group_weights = {
 		bg_rubber = 1.5
@@ -273,7 +273,7 @@ ai_strategy_industrial_expansion = {
 	
 	type = administrative
 	
-	wanted_construction_ratio = 500000
+	wanted_construction_ratio = 800000
 	
 	desired_tax_level = high
 	max_tax_level = very_high
