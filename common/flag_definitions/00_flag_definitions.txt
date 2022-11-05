@@ -1,0 +1,443 @@
+﻿# FLAG_DEFINITION_LIST = {		# countries search for a list with the same name as their tag, the DEFAULT list is always included, if no flag definition is applicable for a country then its tag is used a COA_KEY
+# 	includes = ANOTHER_LIST		# includes another list in this list, can be repeated
+# 
+# 	flag_definition = {			# the flag definitions that make up this list, can be repeated
+# 		coa = [list] COA_KEY	# main flag, optional list keyword denotes a coa template
+# 		allow_overlord_canton = yes				# default no
+# 		coa_with_overlord_canton = <[list] coa>	# flag where a canton can be placed, optional list keyword same as above, defaults to coa
+# 		overlord_canton_offset = { x y }		# canton placement offset, default { 0 0 }
+# 		overlord_canton_scale = { x y }			# canton placement scale, default { 0.5 0.5 }
+# 		subject_canton = [list] COA_KEY	# canton applied to subjects by this country, optional list keyword same as above
+# 
+# 		priority = value		# valid flag definition with the highest priority applies
+# 		trigger = {}			# a trigger that determines if this flag definition is valid, see below for scope
+#       allow_revolutionary_indicator = no      # Default = yes. If yes, a temporary revolutionary indicator will appear while the country is revolutionary
+#       revolutionary_canton = [list] COA_KEY   # Optional. Default = default_revolutionary_canton. Defines which flag should be used as canton while this country is revolutionary
+# 	}
+# }
+
+#            | existing country | releasing a country | country formation |
+# |==========|==================|=====================|===================|
+# |root      | definition       | definition          | definition        |
+# |----------|------------------|---------------------|-------------------|
+# |target    | country          | N/A                 | N/A               |
+# |----------|------------------|---------------------|-------------------|
+# |initiator | N/A              | player              | player            |
+# |----------|------------------|---------------------|-------------------|
+# |actor     | country          | player              | player            |
+# |----------|------------------|---------------------|-------------------|
+# |          | country's        |                     | player's          |
+# |overlord  | direct overlord  | player              | direct overlord   |
+# |          | if it exists     |                     | if it exists      |
+# |----------|------------------|---------------------|-------------------|
+
+# common variables
+@coa_width = 768
+@coa_height = 512
+@canton_scale_cross_x = @[ ( 333 / coa_width ) + 0.001 ]
+@canton_scale_cross_y = @[ ( 205 / coa_height ) + 0.001 ]
+@canton_scale_sweden_x = @[ ( 255 / coa_width ) + 0.001 ]
+@canton_scale_sweden_y = @[ ( 204 / coa_height ) + 0.001 ]
+@canton_scale_norway_x = @[ ( 192 / coa_width ) + 0.001 ]
+@canton_scale_norway_y = @[ ( 192 / coa_height ) + 0.001 ]
+@canton_scale_denmark_x = @[ ( 220 / coa_width ) + 0.001 ]
+@canton_scale_denmark_y = @[ ( 220 / coa_height ) + 0.001 ]
+@third = @[1/3]
+
+
+
+DEFAULT = {
+	flag_definition = {
+		coa = list "anarchy"
+		priority = 500
+		trigger = {
+			coa_def_anarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = list "communist"
+		priority = 1000
+		trigger = {
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+}
+
+ABS = { # Absaroka
+	flag_definition = {
+		coa = ABS
+		subject_canton = ABS
+		priority = 1
+	}
+}
+ 
+ #([A-Z]{3})_ADJ:0 "([\u4e00-\u9fa5]*)"\n
+
+ #五大列强
+GBR = { # 周
+	flag_definition = {
+		coa = GBR
+		subject_canton = GBR
+		priority = 1
+	}
+}
+USA = { # 晋
+	flag_definition = {
+		coa = USA
+		subject_canton = USA
+		priority = 1
+	}
+}
+CHI = { # 秦
+	flag_definition = {
+		coa = CHI
+		subject_canton = CHI
+		priority = 1
+	}
+}
+FRA = { # 齐
+	flag_definition = {
+		coa = FRA
+		subject_canton = FRA
+		priority = 1
+	}
+}
+RUS = { # 楚
+	flag_definition = {
+		coa = RUS
+		subject_canton = RUS
+		priority = 1
+	}
+}
+ 
+ #中原
+GER = { # 郑
+	flag_definition = {
+		coa = GER
+		subject_canton = GER
+		priority = 1
+	}
+}
+ITA = { # 卫
+	flag_definition = {
+		coa = ITA
+		subject_canton = ITA
+		priority = 1
+	}
+}
+SPA = { # 宋
+	flag_definition = {
+		coa = SPA
+		subject_canton = SPA
+		priority = 1
+	}
+}
+POR = { # 滕
+	flag_definition = {
+		coa = POR
+		subject_canton = POR
+		priority = 1
+	}
+}
+NET = { # 鲁
+	flag_definition = {
+		coa = NET
+		subject_canton = NET
+		priority = 1
+	}
+}
+SWI = { # 邢
+	flag_definition = {
+		coa = SWI
+		subject_canton = SWI
+		priority = 1
+	}
+}
+NOR = { # 黎
+	flag_definition = {
+		coa = NOR
+		subject_canton = NOR
+		priority = 1
+	}
+}
+DEN = { # 郭
+	flag_definition = {
+		coa = DEN
+		subject_canton = DEN
+		priority = 1
+	}
+}
+SWE = { # 曹
+	flag_definition = {
+		coa = SWE
+		subject_canton = SWE
+		priority = 1
+	}
+}
+AUS = { # 应
+	flag_definition = {
+		coa = AUS
+		subject_canton = AUS
+		priority = 1
+	}
+}
+ 
+ #晋楚争霸
+POL = { # 蔡
+	flag_definition = {
+		coa = POL
+		subject_canton = POL
+		priority = 1
+	}
+}
+HUN = { # 陈
+	flag_definition = {
+		coa = HUN
+		subject_canton = HUN
+		priority = 1
+	}
+}
+UKR = { # 曾
+	flag_definition = {
+		coa = UKR
+		subject_canton = UKR
+		priority = 1
+	}
+}
+BYE = { # 唐
+	flag_definition = {
+		coa = BYE
+		subject_canton = BYE
+		priority = 1
+	}
+}
+GRE = { # 杞
+	flag_definition = {
+		coa = GRE
+		subject_canton = GRE
+		priority = 1
+	}
+}
+ROM = { # 申
+	flag_definition = {
+		coa = ROM
+		subject_canton = ROM
+		priority = 1
+	}
+}
+SER = { # 胡
+	flag_definition = {
+		coa = SER
+		subject_canton = SER
+		priority = 1
+	}
+}
+CRO = { # 蓼
+	flag_definition = {
+		coa = CRO
+		subject_canton = CRO
+		priority = 1
+	}
+}
+FIN = { # 邓
+	flag_definition = {
+		coa = FIN
+		subject_canton = FIN
+		priority = 1
+	}
+}
+BUL = { # 州来
+	flag_definition = {
+		coa = BUL
+		subject_canton = BUL
+		priority = 1
+	}
+}
+ 
+ #征服东夷
+ISR = { # 吴
+	flag_definition = {
+		coa = ISR
+		subject_canton = ISR
+		priority = 1
+	}
+}
+PER = { # 徐
+	flag_definition = {
+		coa = PER
+		subject_canton = PER
+		priority = 1
+	}
+}
+TUR = { # 越
+	flag_definition = {
+		coa = TUR
+		subject_canton = TUR
+		priority = 1
+	}
+}
+EGY = { # 钟吾
+	flag_definition = {
+		coa = EGY
+		subject_canton = EGY
+		priority = 1
+	}
+}
+IRQ = { # 莒
+	flag_definition = {
+		coa = IRQ
+		subject_canton = IRQ
+		priority = 1
+	}
+}
+TUN = { # 莱
+	flag_definition = {
+		coa = TUN
+		subject_canton = TUN
+		priority = 1
+	}
+}
+SYR = { # 巢
+	flag_definition = {
+		coa = SYR
+		subject_canton = SYR
+		priority = 1
+	}
+}
+NEJ = { # 钟离
+	flag_definition = {
+		coa = NEJ
+		subject_canton = NEJ
+		priority = 1
+	}
+}
+OMA = { # 邗
+	flag_definition = {
+		coa = OMA
+		subject_canton = OMA
+		priority = 1
+	}
+}
+ 
+ #秦包围网
+JAP = { # 犬戎
+	flag_definition = {
+		coa = JAP
+		subject_canton = JAP
+		priority = 1
+	}
+}
+KOR = { # 虢
+	flag_definition = {
+		coa = KOR
+		subject_canton = KOR
+		priority = 1
+	}
+}
+AST = { # 燕
+	flag_definition = {
+		coa = AST
+		subject_canton = AST
+		priority = 1
+	}
+}
+NZL = { # 蓟
+	flag_definition = {
+		coa = NZL
+		subject_canton = NZL
+		priority = 1
+	}
+}
+HND = { # 蜀
+	flag_definition = {
+		coa = HND
+		subject_canton = HND
+		priority = 1
+	}
+}
+PAN = { # 巴
+	flag_definition = {
+		coa = PAN
+		subject_canton = PAN
+		priority = 1
+	}
+}
+DAI = { # 褒
+	flag_definition = {
+		coa = DAI
+		subject_canton = DAI
+		priority = 1
+	}
+}
+BUK = { # 庸
+	flag_definition = {
+		coa = BUK
+		subject_canton = BUK
+		priority = 1
+	}
+}
+SIA = { # 乌氏
+	flag_definition = {
+		coa = SIA
+		subject_canton = SIA
+		priority = 1
+	}
+}
+PHI = { # 陆浑戎
+	flag_definition = {
+		coa = PHI
+		subject_canton = PHI
+		priority = 1
+	}
+}
+DEI = { # 义渠
+	flag_definition = {
+		coa = DEI
+		subject_canton = DEI
+		priority = 1
+	}
+}
+ 
+ #戎狄支配
+CAN = { # 梁
+	flag_definition = {
+		coa = CAN
+		subject_canton = CAN
+		priority = 1
+	}
+}
+MEX = { # 中山
+	flag_definition = {
+		coa = MEX
+		subject_canton = MEX
+		priority = 1
+	}
+}
+BRZ = { # 鲜虞
+	flag_definition = {
+		coa = BRZ
+		subject_canton = BRZ
+		priority = 1
+	}
+}
+CLM = { # 白狄
+	flag_definition = {
+		coa = CLM
+		subject_canton = CLM
+		priority = 1
+	}
+}
+PEU = { # 赤狄
+	flag_definition = {
+		coa = PEU
+		subject_canton = PEU
+		priority = 1
+	}
+}
+ARG = { # 仇由
+	flag_definition = {
+		coa = ARG
+		subject_canton = ARG
+		priority = 1
+	}
+}

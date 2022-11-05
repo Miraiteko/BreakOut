@@ -443,14 +443,14 @@ resource_deplete_monthly_check = {
 		}
 		#初始化
 		if = {
-			NOT = { has_variable = base_coal_resource }
+			limit = { NOT = { has_variable = base_coal_resource }}
 			set_variable = {
 				name = base_coal_resource
-				value = 1000000
+				value = 100000
 			}
 		}
 		if = {
-			NOT = { has_variable = depleted_coal_resource }
+			limit = { NOT = { has_variable = depleted_coal_resource }}
 			set_variable = {
 				name = depleted_coal_resource
 				value = 0
