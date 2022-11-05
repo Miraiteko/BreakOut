@@ -1,7 +1,1 @@
-﻿COUNTRIES = {
-	c:SLK = {
-		
-		
-		effect_native_conscription_12 = yes
-	}
-}
+﻿

@@ -1,0 +1,49 @@
+﻿COUNTRIES = {
+	c:JAP = { #犬戎
+		add_era_researched = era_1
+		add_era_researched = era_2
+		add_era_researched = era_3
+	}
+	c:KOR = { #虢
+		add_era_researched = era_1
+		add_era_researched = era_2
+	}
+	c:AST = { #燕
+		add_era_researched = era_1
+		add_era_researched = era_2
+		add_era_researched = era_3
+	}
+	c:NZL = { #蓟
+		add_era_researched = era_1
+		add_era_researched = era_2
+		add_era_researched = era_3
+	}
+	c:HND = { #蜀
+		add_era_researched = era_1
+		add_era_researched = era_2
+	}
+	c:PAN = { #巴
+		add_era_researched = era_1
+		add_era_researched = era_2
+	}
+	c:DAI = { #褒
+		add_era_researched = era_1
+		add_era_researched = era_2
+	}
+	c:BUK = { #庸
+		add_era_researched = era_1
+		add_era_researched = era_2
+	}
+	c:SIA = { #乌氏
+		add_era_researched = era_1
+		add_era_researched = era_2
+	}
+	c:PHI = { #陆浑戎
+		add_era_researched = era_1
+		add_era_researched = era_2
+	}
+	c:DEI = { #义渠
+		add_era_researched = era_1
+		add_era_researched = era_2
+	}
+}

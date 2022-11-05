@@ -1,12 +1,1 @@
-﻿COUNTRIES = {
-	c:SIL = {
-		
-		 # Sierra Leone was subject to the British crown but wasn't itself a monarchy
-		
-		
-		
-		
-				
-		
-	}
-}
+﻿

@@ -1,7 +1,1 @@
-﻿COUNTRIES = {
-	c:SKH	= {
-		
-		
-		effect_native_conscription_10 = yes
-	}
-}
+﻿

@@ -1,13 +1,1 @@
-﻿COUNTRIES = {
-	c:MAD = {
-		
-
-			
-		
-		
-
-		add_modifier = {
-			name = modifier_tangena_ordeal
-		}	
-	}
-}
+﻿

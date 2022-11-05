@@ -1,0 +1,47 @@
+﻿COUNTRIES = {
+	c:POL = { #蔡
+		add_era_researched = era_1
+		add_era_researched = era_2
+	}
+	c:HUN = { #陈
+		add_era_researched = era_1
+		add_era_researched = era_2
+	}
+	c:UKR = { #曾
+		add_era_researched = era_1
+		add_era_researched = era_2
+	}
+	c:BYE = { #唐
+		add_era_researched = era_1
+		add_era_researched = era_2
+	}
+	c:GRE = { #杞
+		add_era_researched = era_1
+		add_era_researched = era_2
+	}
+	c:ROM = { #申
+		add_era_researched = era_1
+		add_era_researched = era_2
+	}
+	c:SER = { #胡
+		add_era_researched = era_1
+		add_era_researched = era_2
+	}
+	c:CRO = { #蓼
+		add_era_researched = era_1
+		add_era_researched = era_2
+	}
+	c:FIN = { #邓
+		add_era_researched = era_1
+		add_era_researched = era_2
+	}
+	c:BUL = { #州来
+		add_era_researched = era_1
+		add_era_researched = era_2
+	}
+	c:AUS = { 应
+		add_era_researched = era_1
+		add_era_researched = era_2
+		add_era_researched = era_3
+	}
+}

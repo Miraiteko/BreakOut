@@ -1,0 +1,32 @@
+﻿COUNTRIES = {
+	c:ISR = { #吴
+		add_era_researched = era_1
+		add_era_researched = era_2
+		add_era_researched = era_3
+		add_era_researched = era_4
+	}
+	c:PER = { #徐
+		add_era_researched = era_1
+	}
+	c:TUR = { #越
+		add_era_researched = era_1
+	}
+	c:EGY = { #钟吾
+		add_era_researched = era_1
+	}
+	c:IRQ = { #莒
+		add_era_researched = era_1
+	}
+	c:TUN = { #莱
+		add_era_researched = era_1
+	}
+	c:SYR = { #巢
+		add_era_researched = era_1
+	}
+	c:NEJ = { #钟离
+		add_era_researched = era_1
+	}
+	c:OMA = { #邗
+		add_era_researched = era_1
+	}
+}

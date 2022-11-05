@@ -1,14 +1,1 @@
-﻿COUNTRIES = {
-	c:SEQ = {
-		
-		 # the Indian Territory was, at least, not a monarchy
-		 # Opens up the territory to potential migration and settlement by non-indigenous people
-		 # turns out the Cherokee and other nations also had slaves
-		
-		
-		
-		
-
-		
-	}
-}
+﻿

@@ -1,9 +1,1 @@
-﻿COUNTRIES = {
-	c:MOD = {
-		
-		
-		effect_starting_politics_reactionary = yes
-
-		
-	}
-}
+﻿

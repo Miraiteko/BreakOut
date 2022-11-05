@@ -1,0 +1,45 @@
+﻿COUNTRIES = {
+	c:USA = {
+		add_modifier = {
+			name = modifier_overlord
+		}
+		add_era_researched = era_1
+		add_era_researched = era_2
+		add_era_researched = era_3
+		add_era_researched = era_4
+		
+		set_market_capital = STATE_NEW_YORK
+	}
+	c:FRA = {
+		add_modifier = {
+			name = modifier_overlord
+		}
+		add_era_researched = era_1
+		add_era_researched = era_2
+		add_era_researched = era_3
+	}	
+	c:CHI = {
+		add_modifier = {
+			name = modifier_overlord
+		}
+		add_era_researched = era_1
+		add_era_researched = era_2
+		
+		set_market_capital = STATE_SUZHOU
+	}
+	c:GBR = {
+		add_modifier = {
+			name = modifier_emperor
+		}
+		add_era_researched = era_1
+		add_era_researched = era_2
+		add_era_researched = era_3
+	}
+	c:RUS = {
+		add_modifier = {
+			name = modifier_overlord
+		}
+		add_era_researched = era_1
+		add_era_researched = era_2
+	}
+}

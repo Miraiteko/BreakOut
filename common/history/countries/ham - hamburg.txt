@@ -1,15 +1,1 @@
-﻿COUNTRIES = {
-	c:HAM = {
-		# set_next_election_date = ???
-		
-		
-		
-		
-		
-		
-		
-		
-
-		
-	}
-}
+﻿

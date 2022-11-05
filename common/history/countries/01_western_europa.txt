@@ -1,65 +1,50 @@
 ﻿COUNTRIES = {
-	c:GER = {
+	c:GER = { #郑
 		add_era_researched = era_1
 		add_era_researched = era_2
 		add_era_researched = era_3
 	}
-	
-	c:POL = {
-		add_era_researched = era_1
-		add_era_researched = era_2
-	}
-	c:BYE = {
-		add_era_researched = era_1
-		add_era_researched = era_2
-	}
-	c:ROM = {
-		add_era_researched = era_1
-		add_era_researched = era_2
-	}
-	c:HUN = {
-		add_era_researched = era_1
-		add_era_researched = era_2
-	}
-	c:CRO = {
-		add_era_researched = era_1
-		add_era_researched = era_2
-	}
-	c:SER = {
-		add_era_researched = era_1
-		add_era_researched = era_2
-	}
-	c:BUL = {
-		add_era_researched = era_1
-		add_era_researched = era_2
-	}
-	c:IRQ = {
-		add_era_researched = era_1
-	}
-	c:ISR = {
-		add_era_researched = era_1
-		add_era_researched = era_2
-		add_era_researched = era_3
-		add_era_researched = era_4
-	}
-	c:SRY = {
-		add_era_researched = era_1
-	}
-	c:HND = {
-		add_era_researched = era_1
-		add_era_researched = era_2
-	}
-	c:AST = {
+	c:ITA = { #卫
 		add_era_researched = era_1
 		add_era_researched = era_2
 		add_era_researched = era_3
 	}
-	c:NZL = {
+	c:SPA = { #宋
 		add_era_researched = era_1
 		add_era_researched = era_2
 		add_era_researched = era_3
 	}
-	c:CAN = {
+	c:POR = { #滕
+		add_era_researched = era_1
+		add_era_researched = era_2
+		add_era_researched = era_3
+	}
+	c:NET = { #鲁
+		add_era_researched = era_1
+		add_era_researched = era_2
+		add_era_researched = era_3
+	}
+	c:SWI = { #邢
+		add_era_researched = era_1
+		add_era_researched = era_2
+		add_era_researched = era_3
+	}
+	c:NOR = { #黎
+		add_era_researched = era_1
+		add_era_researched = era_2
+		add_era_researched = era_3
+	}
+	c:DEN = { #郭
+		add_era_researched = era_1
+		add_era_researched = era_2
+		add_era_researched = era_3
+	}
+	c:SWE = { #曹
+		add_era_researched = era_1
+		add_era_researched = era_2
+		add_era_researched = era_3
+	}
+	c:AUS = { #应
 		add_era_researched = era_1
 		add_era_researched = era_2
 		add_era_researched = era_3

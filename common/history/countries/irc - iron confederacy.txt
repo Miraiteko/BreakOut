@@ -1,7 +1,1 @@
-﻿COUNTRIES = {
-	c:IRC = {
-		
-		
-		effect_native_conscription_10 = yes
-	}
-}
+﻿

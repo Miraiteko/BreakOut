@@ -1,7 +1,1 @@
-﻿COUNTRIES = {
-	c:BLF = {
-				
-		
-		effect_native_conscription_11 = yes
-	}
-}
+﻿

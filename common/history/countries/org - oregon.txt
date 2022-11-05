@@ -1,16 +1,1 @@
-﻿COUNTRIES = {
-	c:ORG = {
-
-		ig:ig_industrialists = { # effectively dominated by the HBC
-			
-		}
-		
-		
-		effect_starting_politics_liberal = yes
-		
-		
-		
-
-		
-	}
-}
+﻿

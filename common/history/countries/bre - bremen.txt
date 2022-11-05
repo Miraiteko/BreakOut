@@ -1,15 +1,1 @@
-﻿COUNTRIES = {
-	c:BRE = {	
-		# set_next_election_date = ???
-		
-		
-		
-		
-		
-		
-		
-		
-
-		
-	}
-}
+﻿
