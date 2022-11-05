@@ -1,5 +1,4 @@
-﻿INTERESTS = {
-}	
+﻿INTERESTS =  { }	
 
 
 
