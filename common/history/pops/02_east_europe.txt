@@ -1040,8 +1040,7 @@
 		}
 	}
 	s:STATE_MOLDAVIA = {
-		region_state:		region_state:ROM={
- = {
+		region_state:ROM ={
 			create_pop = {
 				culture = polish
 				size = 20008

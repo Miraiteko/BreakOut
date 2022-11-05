@@ -827,8 +827,8 @@ STATES = {
 		create_state = {
 			country = c:GBR
 			owned_provinces = { xC6C663 x2FC1FC x0E35C0 x4FE008 xB0B001 x1A20A4 xEA2C2D }
+			state_type = unincorporated
 		}
-		state_type = unincorporated
 		
 		add_homeland = afro_antillean
 	}
@@ -1102,7 +1102,7 @@ STATES = {
 		create_state = {
 			country = c:NZL
 			owned_provinces = { x8749DD x50F19B x232E1F xA18C1B xD040B0 x733DDF  xE353A8 xDFB440 xE7C924 xA1C4D2 xD51A40 x5A7F48 x396221 x8EE07C x6A5DDE xC5AD14 x92A994 x9CAE58 x96DD26 x60236D x3FE668 x51B446 x3B56F3 x050D8E x21E8F0 x50C0B0 x8385E4 xFF586D x1C59CC x102244 x738A48 x586231 x0C69F3 xA1D52F x2B0CF4 xD0FA16 x0E784F x6F5B60 x86A979 x4122F8 x071CF7 x561832 xE2064F xD8C27E x1D5F99 x998BCA x5040B0 }
-		
+		}
 		add_homeland = australian
 		add_homeland = maori		
 	}

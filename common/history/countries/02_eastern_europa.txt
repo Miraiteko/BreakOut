@@ -39,7 +39,7 @@
 		add_era_researched = era_1
 		add_era_researched = era_2
 	}
-	c:AUS = { 应
+	c:AUS = { #应
 		add_era_researched = era_1
 		add_era_researched = era_2
 		add_era_researched = era_3
