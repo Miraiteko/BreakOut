@@ -149,15 +149,11 @@ pm_publicly_traded_building_breed_center = {
 
 	building_modifiers = {
 		level_scaled = {
-			building_employment_aristocrats_add = 25
-			building_employment_capitalists_add = 25
+			building_input_investment_management_add = 1
+			building_employment_capitalists_add = 5
 		}
 		unscaled = {
-			building_aristocrats_shares_add = 5 
-			building_capitalists_shares_add = 5 
-			building_academics_shares_add = 2
-			building_shopkeepers_shares_add = 2
-			building_clerks_shares_add = 1
+			building_capitalists_shares_add = 5
 		}
 	}
 }
@@ -174,7 +170,7 @@ pm_government_run_building_breed_center = {
 			building_employment_bureaucrats_add = 50
 		}
 		unscaled = {
-			building_bureaucrats_shares_add = 3
+			building_bureaucrats_shares_add = 5
 			building_academics_shares_add = 2
 			building_clerks_shares_add = 1
 			building_shopkeepers_shares_add = 2
