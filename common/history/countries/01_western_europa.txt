@@ -1,60 +1,60 @@
 ﻿COUNTRIES = {
 	c:GER = { #郑
-		effect_starting_politics_traditional = yes
+		effect_starting_politics_reactionary = yes
 		add_era_researched = era_1
 		add_era_researched = era_2
 		add_era_researched = era_3
 	}
 	c:ITA = { #卫
-		effect_starting_politics_traditional = yes
+		effect_starting_politics_reactionary = yes
 		add_era_researched = era_1
 		add_era_researched = era_2
 		add_era_researched = era_3
 	}
 	c:SPA = { #宋
-		effect_starting_politics_traditional = yes
+		effect_starting_politics_reactionary = yes
 		add_era_researched = era_1
 		add_era_researched = era_2
 		add_era_researched = era_3
 	}
 	c:POR = { #滕
-		effect_starting_politics_traditional = yes
+		effect_starting_politics_reactionary = yes
 		add_era_researched = era_1
 		add_era_researched = era_2
 		add_era_researched = era_3
 	}
 	c:NET = { #鲁
-		effect_starting_politics_traditional = yes
+		effect_starting_politics_reactionary = yes
 		add_era_researched = era_1
 		add_era_researched = era_2
 		add_era_researched = era_3
 	}
 	c:SWI = { #邢
-		effect_starting_politics_traditional = yes
+		effect_starting_politics_reactionary = yes
 		add_era_researched = era_1
 		add_era_researched = era_2
 		add_era_researched = era_3
 	}
 	c:NOR = { #黎
-		effect_starting_politics_traditional = yes
+		effect_starting_politics_reactionary = yes
 		add_era_researched = era_1
 		add_era_researched = era_2
 		add_era_researched = era_3
 	}
 	c:DEN = { #郭
-		effect_starting_politics_traditional = yes
+		effect_starting_politics_reactionary = yes
 		add_era_researched = era_1
 		add_era_researched = era_2
 		add_era_researched = era_3
 	}
 	c:SWE = { #曹
-		effect_starting_politics_traditional = yes
+		effect_starting_politics_reactionary = yes
 		add_era_researched = era_1
 		add_era_researched = era_2
 		add_era_researched = era_3
 	}
 	c:AUS = { #应
-		effect_starting_politics_traditional = yes
+		effect_starting_politics_reactionary = yes
 		add_era_researched = era_1
 		add_era_researched = era_2
 		add_era_researched = era_3
