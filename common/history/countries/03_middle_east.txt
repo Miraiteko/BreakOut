@@ -1,32 +1,41 @@
 ﻿COUNTRIES = {
 	c:ISR = { #吴
+		effect_starting_politics_traditional = yes
 		add_era_researched = era_1
 		add_era_researched = era_2
 		add_era_researched = era_3
 		add_era_researched = era_4
 	}
 	c:PER = { #徐
+		effect_starting_politics_traditional = yes
 		add_era_researched = era_1
 	}
 	c:TUR = { #越
+		effect_starting_politics_traditional = yes
 		add_era_researched = era_1
 	}
 	c:EGY = { #钟吾
+		effect_starting_politics_traditional = yes
 		add_era_researched = era_1
 	}
 	c:IRQ = { #莒
+		effect_starting_politics_traditional = yes
 		add_era_researched = era_1
 	}
 	c:TUN = { #莱
+		effect_starting_politics_traditional = yes
 		add_era_researched = era_1
 	}
 	c:SYR = { #巢
+		effect_starting_politics_traditional = yes
 		add_era_researched = era_1
 	}
 	c:NEJ = { #钟离
+		effect_starting_politics_traditional = yes
 		add_era_researched = era_1
 	}
 	c:OMA = { #邗
+		effect_starting_politics_traditional = yes
 		add_era_researched = era_1
 	}
 }

@@ -1,45 +1,56 @@
 ﻿COUNTRIES = {
 	c:POL = { #蔡
+		effect_starting_politics_traditional = yes
 		add_era_researched = era_1
 		add_era_researched = era_2
 	}
 	c:HUN = { #陈
+		effect_starting_politics_traditional = yes
 		add_era_researched = era_1
 		add_era_researched = era_2
 	}
 	c:UKR = { #曾
+		effect_starting_politics_traditional = yes
 		add_era_researched = era_1
 		add_era_researched = era_2
 	}
 	c:BYE = { #唐
+		effect_starting_politics_traditional = yes
 		add_era_researched = era_1
 		add_era_researched = era_2
 	}
 	c:GRE = { #杞
+		effect_starting_politics_traditional = yes
 		add_era_researched = era_1
 		add_era_researched = era_2
 	}
 	c:ROM = { #申
+		effect_starting_politics_traditional = yes
 		add_era_researched = era_1
 		add_era_researched = era_2
 	}
 	c:SER = { #胡
+		effect_starting_politics_traditional = yes
 		add_era_researched = era_1
 		add_era_researched = era_2
 	}
 	c:CRO = { #蓼
+		effect_starting_politics_traditional = yes
 		add_era_researched = era_1
 		add_era_researched = era_2
 	}
 	c:FIN = { #邓
+		effect_starting_politics_traditional = yes
 		add_era_researched = era_1
 		add_era_researched = era_2
 	}
 	c:BUL = { #州来
+		effect_starting_politics_traditional = yes
 		add_era_researched = era_1
 		add_era_researched = era_2
 	}
 	c:AUS = { #应
+		effect_starting_politics_traditional = yes
 		add_era_researched = era_1
 		add_era_researched = era_2
 		add_era_researched = era_3

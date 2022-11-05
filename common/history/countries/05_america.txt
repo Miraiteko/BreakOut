@@ -1,24 +1,30 @@
 ﻿COUNTRIES = {
 	c:CAN = { #梁
+		effect_starting_politics_traditional = yes
 		add_era_researched = era_1
 		add_era_researched = era_2
 		add_era_researched = era_3
 	}
 	c:MEX = { #中山
+		effect_starting_politics_traditional = yes
 		add_era_researched = era_1
 		add_era_researched = era_2
 	}
 	c:BRZ = { #鲜虞
+		effect_starting_politics_traditional = yes
 		add_era_researched = era_1
 		add_era_researched = era_2
 	}
 	c:CLM = { #白狄
+		effect_starting_politics_traditional = yes
 		add_era_researched = era_1
 	}
 	c:PEU = { #赤狄
+		effect_starting_politics_traditional = yes
 		add_era_researched = era_1
 	}
 	c:ARG = { #仇由
+		effect_starting_politics_traditional = yes
 		add_era_researched = era_1
 	}
 }

@@ -1,48 +1,59 @@
 ﻿COUNTRIES = {
 	c:JAP = { #犬戎
+		effect_starting_politics_traditional = yes
 		add_era_researched = era_1
 		add_era_researched = era_2
 		add_era_researched = era_3
 	}
 	c:KOR = { #虢
+		effect_starting_politics_traditional = yes
 		add_era_researched = era_1
 		add_era_researched = era_2
 	}
 	c:AST = { #燕
+		effect_starting_politics_traditional = yes
 		add_era_researched = era_1
 		add_era_researched = era_2
 		add_era_researched = era_3
 	}
 	c:NZL = { #蓟
+		effect_starting_politics_traditional = yes
 		add_era_researched = era_1
 		add_era_researched = era_2
 		add_era_researched = era_3
 	}
 	c:HND = { #蜀
+		effect_starting_politics_traditional = yes
 		add_era_researched = era_1
 		add_era_researched = era_2
 	}
 	c:PAN = { #巴
+		effect_starting_politics_traditional = yes
 		add_era_researched = era_1
 		add_era_researched = era_2
 	}
 	c:DAI = { #褒
+		effect_starting_politics_traditional = yes
 		add_era_researched = era_1
 		add_era_researched = era_2
 	}
 	c:BUK = { #庸
+		effect_starting_politics_traditional = yes
 		add_era_researched = era_1
 		add_era_researched = era_2
 	}
 	c:SIA = { #乌氏
+		effect_starting_politics_traditional = yes
 		add_era_researched = era_1
 		add_era_researched = era_2
 	}
 	c:PHI = { #陆浑戎
+		effect_starting_politics_traditional = yes
 		add_era_researched = era_1
 		add_era_researched = era_2
 	}
 	c:DEI = { #义渠
+		effect_starting_politics_traditional = yes
 		add_era_researched = era_1
 		add_era_researched = era_2
 	}
