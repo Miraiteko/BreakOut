@@ -108,15 +108,15 @@
 		}
 		create_diplomatic_pact = {
 			country = c:NET
-			type = dominion
+			type = protectorate
 		}
 		create_diplomatic_pact = {
 			country = c:POR
-			type = dominion
+			type = protectorate
 		}
 		create_diplomatic_pact = {
 			country = c:SPA
-			type = dominion
+			type = protectorate
 		}
 	}
 	c:CHI = {
