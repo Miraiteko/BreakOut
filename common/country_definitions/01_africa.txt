@@ -15,7 +15,7 @@ EGY = {
 	
 	country_type = unrecognized
 	
-	tier = kingdom
+	tier = principality
 	
 	cultures = { misri }
 	capital = STATE_LOWER_EGYPT
@@ -26,7 +26,7 @@ ETH = {
 	
 	country_type = unrecognized
 	
-	tier = empire
+	tier = principality
 	
 	cultures = { amhara oromo tigray }
 	capital = STATE_GONDER
@@ -37,7 +37,7 @@ MAD = {
 	
 	country_type = unrecognized
 	
-	tier = kingdom
+	tier = principality
 	
 	cultures = { malagasy }
 	capital = STATE_NORTH_MADAGASCAR
@@ -60,7 +60,7 @@ MOR = {
 	
 	country_type = unrecognized
 	
-	tier = kingdom
+	tier = principality
 	
 	cultures = { maghrebi berber }
 	capital = STATE_FEZ
@@ -94,7 +94,7 @@ SAF = {
 	
 	country_type = colonial
 	
-	tier = kingdom
+	tier = principality
 	
 	cultures = { british boer }
 	capital = STATE_CAPE_COLONY
@@ -105,7 +105,7 @@ SOK = {
 	
 	country_type = unrecognized
 	
-	tier = kingdom
+	tier = principality
 	
 	cultures = { hausa fulbe }
 	capital = STATE_HAUSALAND
@@ -140,7 +140,7 @@ TUN = {
 	
 	country_type = unrecognized
 	
-	tier = kingdom
+	tier = principality
 	
 	cultures = { maghrebi }
 	capital = STATE_TUNISIA
@@ -419,7 +419,7 @@ ASH = {
 	
 	country_type = unrecognized
 	
-	tier = kingdom
+	tier = principality
 	
 	cultures = { akan }
 	capital = STATE_GHANA
@@ -1385,7 +1385,7 @@ SUD = { # Sudanese
 	
 	country_type = decentralized
 	
-	tier = kingdom
+	tier = principality
 	
 	cultures = { sudanese beja bedouin }
 	capital = STATE_BLUE_NILE
@@ -1484,7 +1484,7 @@ ZIM = {
 	
 	country_type = unrecognized
 	
-	tier = kingdom
+	tier = principality
 	
 	cultures = { shona nguni}
 	capital = STATE_ZAMBEZIA
@@ -1493,7 +1493,7 @@ ZIM = {
 MAL = {
 	color = { 75 179 27}
 	country_type = unrecognized
-	tier = kingdom
+	tier = principality
 	cultures = { bambara fulbe}
 	capital = STATE_WESTERN_MALI
 }

@@ -3,7 +3,7 @@
 	
 	country_type = recognized
 
-	tier = empire
+	tier = principality
 	
 	cultures = { north_german south_german }
 	capital = STATE_BRANDENBURG
@@ -14,7 +14,7 @@ GBR = {
 
 	country_type = recognized
 
-	tier = empire	
+	tier = kingdom	
 	
 	cultures = { british scottish }
 	capital = STATE_HOME_COUNTIES
@@ -25,7 +25,7 @@ SCA = {
 
 	country_type = recognized
 
-	tier = empire
+	tier = principality
 	
 	cultures = { swedish norwegian danish icelandic }
 	capital = STATE_SVEALAND
@@ -36,7 +36,7 @@ RUS = {
 
 	country_type = recognized
 
-	tier = empire
+	tier = principality
 	
 	cultures = { russian }
 	capital = STATE_INGRIA
@@ -47,7 +47,7 @@ FRA = {
 
 	country_type = recognized
 
-	tier = empire
+	tier = principality
 	
 	cultures = { french }
 	capital = STATE_ILE_DE_FRANCE
@@ -58,7 +58,7 @@ PRU = {
 	
 	country_type = recognized
 
-	tier = kingdom
+	tier = principality
 	
 	cultures = { north_german }
 	capital = STATE_BRANDENBURG
@@ -93,7 +93,7 @@ AUS = {
 
 	country_type = recognized
 
-	tier = empire
+	tier = principality
 	
 	cultures = { south_german }
 	capital = STATE_AUSTRIA
@@ -104,7 +104,7 @@ USA = {
 	
 	country_type = colonial
 	
-	tier = empire
+	tier = principality
 	
 	cultures = { dixie yankee }
 	capital = STATE_DISTRICT_OF_COLUMBIA
@@ -115,7 +115,7 @@ CSA = {
 	
 	country_type = colonial
 	
-	tier = kingdom
+	tier = principality
 	
 	cultures = { dixie }
 	capital = STATE_VIRGINIA
@@ -126,7 +126,7 @@ FSA = {
 	
 	country_type = colonial
 	
-	tier = kingdom
+	tier = principality
 	
 	cultures = { yankee }
 	capital = STATE_NEW_YORK
@@ -137,7 +137,7 @@ ASA = {
 	
 	country_type = colonial
 	
-	tier = kingdom
+	tier = principality
 	
 	cultures = { afro_american }
 	capital = STATE_GEORGIA
@@ -159,7 +159,7 @@ AGJ = {
 	
 	country_type = colonial
 	
-	tier = kingdom
+	tier = principality
 	
 	cultures = { afro_brazilian }
 	capital = STATE_PERNAMBUCO
@@ -170,7 +170,7 @@ AMZ = {
 	
 	country_type = recognized
 	
-	tier = kingdom
+	tier = principality
 	
 	cultures = { amazonian }
 	capital = STATE_AMAZONAS
@@ -181,7 +181,7 @@ GRI = {
 	
 	country_type = recognized
 	
-	tier = kingdom
+	tier = principality
 	
 	cultures = { guarani }
 	capital = STATE_AMAZONAS
@@ -191,7 +191,7 @@ JAP = {
 	color = { 194 53 60 }
 	country_type = recognized
 	
-	tier = empire
+	tier = principality
 	
 	cultures = { japanese }
 	capital = STATE_KANSAI
@@ -202,7 +202,7 @@ ITA = {
 	
 	country_type = recognized
 
-	tier = empire
+	tier = principality
 	
 	cultures = { north_italian south_italian }
 	capital = STATE_LAZIO
@@ -213,7 +213,7 @@ KUK = {
 	
 	country_type = recognized
 
-	tier = empire
+	tier = principality
 	
 	capital = STATE_CENTRAL_HUNGARY
 	cultures = { hungarian romanian croat czech slovak slovene }
@@ -224,7 +224,7 @@ DEN = {
 	
 	country_type = recognized
 
-	tier = kingdom
+	tier = principality
 	
 	cultures = { danish }
 	capital = STATE_ZEALAND
@@ -235,7 +235,7 @@ FIN = {
 	
 	country_type = recognized
 
-	tier = grand_principality
+	tier = principality
 	
 	cultures = { finnish }
 	capital = STATE_SOUTHERN_FINLAND
@@ -246,7 +246,7 @@ NOR = {
 	
 	country_type = recognized
 
-	tier = kingdom
+	tier = principality
 	
 	cultures= { norwegian }
 	capital = STATE_EASTERN_NORWAY
@@ -257,7 +257,7 @@ SWE = {
 	
 	country_type = recognized
 
-	tier = kingdom
+	tier = principality
 	
 	cultures = { swedish }
 	capital = STATE_SVEALAND
@@ -280,7 +280,7 @@ BEL = {
 	
 	country_type = recognized
 
-	tier = kingdom
+	tier = principality
 	
 	cultures = { flemish wallonian }	
 	capital = STATE_FLANDERS
@@ -315,7 +315,7 @@ IRE = {
 	
 	country_type = recognized
 
-	tier = kingdom
+	tier = principality
 	
 	cultures = { irish }
 	capital = STATE_LEINSTER
@@ -326,7 +326,7 @@ NET = {
 	
 	country_type = recognized
 
-	tier = kingdom
+	tier = principality
 	
 	cultures = { dutch }
 	capital = STATE_HOLLAND
@@ -337,7 +337,7 @@ POR = {
 	
 	country_type = recognized
 
-	tier = kingdom
+	tier = principality
 	
 	cultures = { portuguese }
 	capital = STATE_ESTREMADURA
@@ -348,7 +348,7 @@ SCO = {
 	
 	country_type = recognized
 
-	tier = kingdom
+	tier = principality
 	
 	cultures = { scottish }
 	capital = STATE_LOWLANDS
@@ -359,7 +359,7 @@ ENG = {
 	
 	country_type = recognized
 
-	tier = kingdom
+	tier = principality
 	
 	cultures = { british }
 	capital = STATE_HOME_COUNTIES
@@ -395,7 +395,7 @@ NAV = {
 	
 	country_type = recognized
 
-	tier = kingdom
+	tier = principality
 	
 	cultures = { basque }
 	capital = STATE_NAVARRA
@@ -407,7 +407,7 @@ SPA = {
 	
 	country_type = recognized
 
-	tier = kingdom
+	tier = principality
 	
 	cultures = { spanish }
 	capital = STATE_TOLEDO
@@ -442,7 +442,7 @@ BAD = {
 	
 	country_type = recognized
 
-	tier = grand_principality
+	tier = principality
 	
 	cultures = { south_german }
 	capital = STATE_BADEN
@@ -454,7 +454,7 @@ BAV = {
 	
 	country_type = recognized
 
-	tier = kingdom
+	tier = principality
 	
 	cultures = { south_german }
 	capital = STATE_BAVARIA
@@ -478,7 +478,7 @@ BRE = {
 	
 	country_type = recognized
 
-	tier = city_state
+	tier = principality
 	
 	cultures = { north_german }
 	capital = STATE_ELBE
@@ -489,7 +489,7 @@ DZG = {
 	
 	country_type = recognized
 
-	tier = city_state
+	tier = principality
 	
 	cultures = { north_german }
 	capital = STATE_WEST_PRUSSIA
@@ -500,7 +500,7 @@ FRM = {
 	
 	country_type = recognized
 
-	tier = city_state
+	tier = principality
 	
 	cultures = { north_german }
 	capital = STATE_HESSE
@@ -511,7 +511,7 @@ HAM = {
 	
 	country_type = recognized
 
-	tier = city_state
+	tier = principality
 	
 	cultures = { north_german }
 	capital = STATE_ELBE
@@ -522,7 +522,7 @@ HAN = {
 	
 	country_type = recognized
 
-	tier = kingdom
+	tier = principality
 	
 	cultures = { north_german }
 	capital = STATE_HANNOVER
@@ -534,7 +534,7 @@ HES = {
 	
 	country_type = recognized
 
-	tier = grand_principality
+	tier = principality
 	
 	cultures = { north_german }
 	capital = STATE_HESSE
@@ -558,7 +558,7 @@ LUB = {
 	
 	country_type = recognized
 
-	tier = city_state
+	tier = principality
 	
 	cultures = { north_german }
 	capital = STATE_SCHLESWIG_HOLSTEIN
@@ -569,7 +569,7 @@ LUX = {
 	
 	country_type = recognized
 
-	tier = grand_principality
+	tier = principality
 	
 	cultures = { wallonian north_german }
 	capital = STATE_WALLONIA
@@ -580,7 +580,7 @@ MEC = {
 	
 	country_type = recognized
 
-	tier = grand_principality
+	tier = principality
 	
 	cultures = { north_german }
 	capital = STATE_MECKLENBURG
@@ -603,7 +603,7 @@ OLD = {
 	
 	country_type = recognized
 
-	tier = grand_principality
+	tier = principality
 	
 	cultures = { north_german }
 	capital = STATE_HANNOVER
@@ -614,7 +614,7 @@ SAX = {
 	
 	country_type = recognized
 
-	tier = kingdom
+	tier = principality
 	
 	cultures = { north_german }
 	capital = STATE_SAXONY
@@ -626,7 +626,7 @@ WUR = {
 	
 	country_type = recognized
 
-	tier = kingdom
+	tier = principality
 	
 	cultures = { south_german }
 	religion = protestant	
@@ -673,7 +673,7 @@ PAP = {
 	
 	country_type = recognized
 
-	tier = kingdom
+	tier = principality
 	
 	cultures = { south_italian north_italian }
 	capital = STATE_LAZIO
@@ -707,7 +707,7 @@ SAR = {
 	
 	country_type = recognized
 
-	tier = kingdom
+	tier = principality
 	
 	cultures = { north_italian }
 	capital = STATE_PIEDMONT
@@ -719,7 +719,7 @@ SIC = {
 	
 	country_type = recognized
 
-	tier = kingdom
+	tier = principality
 	
 	cultures = { south_italian }
 	capital = STATE_CAMPANIA
@@ -765,7 +765,7 @@ BOH = {
 	
 	country_type = recognized
 
-	tier = kingdom
+	tier = principality
 	
 	cultures = { czech }	
 	capital = STATE_BOHEMIA
@@ -777,7 +777,7 @@ KRA = {
 	
 	country_type = recognized
 
-	tier = city_state
+	tier = principality
 	
 	capital = STATE_WEST_GALICIA
 	cultures = { polish }
@@ -812,7 +812,7 @@ HUN = {
 	
 	country_type = recognized
 
-	tier = kingdom
+	tier = principality
 	
 	cultures = { hungarian }
 	capital = STATE_CENTRAL_HUNGARY
@@ -847,7 +847,7 @@ POL = {
 	
 	country_type = recognized
 
-	tier = kingdom
+	tier = principality
 	
 	cultures = { polish }
 	capital = STATE_MAZOVIA
@@ -880,7 +880,7 @@ SWI = {
 	
 	country_type = recognized
 
-	tier = kingdom
+	tier = principality
 	
 	capital = STATE_WEST_SWITZERLAND
 	cultures = { swiss }
@@ -902,7 +902,7 @@ UKR = {
 	
 	country_type = recognized
 
-	tier = kingdom
+	tier = principality
 	
 	cultures = { ukrainian }
 	capital = STATE_KIEV
@@ -913,7 +913,7 @@ CZH = {
 	
 	country_type = recognized
 
-	tier = kingdom
+	tier = principality
 	
 	cultures = { czech slovak }
 	capital = STATE_BOHEMIA
@@ -948,7 +948,7 @@ BUL = {
 	
 	country_type = recognized
 
-	tier = kingdom
+	tier = principality
 	
 	cultures = { bulgarian }	
 	capital = STATE_NORTHERN_THRACE
@@ -971,7 +971,7 @@ CRO = {
 	
 	country_type = recognized
 
-	tier = kingdom
+	tier = principality
 	
 	cultures = { croat }
 	capital = STATE_CROATIA
@@ -995,7 +995,7 @@ GRE = {
 	
 	country_type = recognized
 
-	tier = kingdom
+	tier = principality
 	
 	cultures = { greek }	
 	capital = STATE_ATTICA
@@ -1042,7 +1042,7 @@ ROM = {
 	
 	country_type = recognized
 
-	tier = kingdom
+	tier = principality
 	
 	capital = STATE_WALLACHIA
 	cultures = { romanian }
@@ -1053,7 +1053,7 @@ SER = {
 	
 	country_type = recognized
 
-	tier = kingdom
+	tier = principality
 	
 	cultures = { serb }
 	capital = STATE_NORTHERN_SERBIA
@@ -1076,7 +1076,7 @@ TUR = {
 	
 	country_type = recognized
 
-	tier = empire
+	tier = principality
 	
 	cultures = { turkish }
 	capital = STATE_EASTERN_THRACE
@@ -1099,7 +1099,7 @@ YUG = {
 	
 	country_type = recognized
 
-	tier = empire
+	tier = principality
 	
 	capital = STATE_NORTHERN_SERBIA 
 	cultures = { serb croat slovene bosniak }
@@ -1133,7 +1133,7 @@ ARM = {
 	
 	country_type = recognized
 
-	tier = kingdom
+	tier = principality
 	
 	cultures = { armenian }
 	capital = STATE_ARMENIA
@@ -1145,7 +1145,7 @@ DAG = {
 	
 	country_type = recognized
 
-	tier = kingdom
+	tier = principality
 	
 	cultures = { north_caucasian }
 	capital = STATE_DAGESTAN
@@ -1157,7 +1157,7 @@ AZB = {
 	
 	country_type = recognized
 
-	tier = kingdom
+	tier = principality
 	
 	cultures = { azerbaijani }
 	capital = STATE_AZERBAIJAN
@@ -1180,7 +1180,7 @@ GEO = {
 	
 	country_type = recognized
 
-	tier = kingdom
+	tier = principality
 	
 	cultures = { georgian }
 	capital = STATE_GREATER_CAUCASUS
@@ -1204,7 +1204,7 @@ IRQ = {
 	
 	country_type = recognized
 	
-	tier = kingdom
+	tier = principality
 	
 	cultures = { mashriqi }
 	capital = STATE_BAGHDAD
@@ -1248,7 +1248,7 @@ MUG = {
 	
 	country_type = recognized
 	
-	tier = empire
+	tier = principality
 	
 	cultures = { avadhi sindi kannada bengali }
 	capital = STATE_DELHI
@@ -1284,7 +1284,7 @@ PER = {
 	
 	country_type = recognized
 	
-	tier = empire
+	tier = principality
 	
 	cultures = { persian azerbaijani}
 	capital = STATE_IRAKAJEMI
@@ -1375,7 +1375,7 @@ HND = {
 	
 	country_type = recognized
 	
-	tier = empire
+	tier = principality
 	
 	cultures = { kanauji marathi bihari tamil oriya gujarati }
 	capital = STATE_DELHI
@@ -1620,7 +1620,7 @@ NEP = {
 	
 	country_type = recognized
 	
-	tier = kingdom
+	tier = principality
 	
 	cultures = { nepali }
 	capital = STATE_HIMALAYAS
@@ -1643,7 +1643,7 @@ PAN = {
 	
 	country_type = recognized
 	
-	tier = kingdom
+	tier = principality
 	
 	cultures = { panjabi }
 	capital = STATE_PUNJAB
@@ -1746,7 +1746,7 @@ BUR = {
 	
 	country_type = recognized
 	
-	tier = kingdom
+	tier = principality
 	
 	cultures = { burmese }
 	capital = STATE_BURMA
@@ -1757,7 +1757,7 @@ CAM = {
 	
 	country_type = recognized
 	
-	tier = kingdom
+	tier = principality
 	
 	cultures = { khmer }
 	capital = STATE_CAMBODIA
@@ -1768,7 +1768,7 @@ CHI = {
 	
 	country_type = recognized
 	
-	tier = empire
+	tier = principality
 	
 	cultures = { manchu han } 
 	capital = STATE_XIAN
@@ -1779,7 +1779,7 @@ DAI = {
 	
 	country_type = recognized
 	
-	tier = kingdom
+	tier = principality
 	
 	cultures = { vietnamese }
 	capital = STATE_TONKIN
@@ -1802,7 +1802,7 @@ KOR = {
 	
 	country_type = recognized
 	
-	tier = kingdom
+	tier = principality
 	
 	cultures = { korean }
 	capital = STATE_SEOUL
@@ -1813,7 +1813,7 @@ LAO = {
 	
 	country_type = recognized
 	
-	tier = kingdom
+	tier = principality
 	
 	cultures = { lao }
 	capital = STATE_LAOS
@@ -1870,7 +1870,7 @@ SIA = {
 	
 	country_type = recognized
 	
-	tier = kingdom
+	tier = principality
 	
 	cultures = { thai }
 	capital = STATE_BANGKOK
@@ -1892,7 +1892,7 @@ TIB = {
 	
 	country_type = recognized
 	
-	tier = kingdom
+	tier = principality
 	
 	cultures = { tibetan }
 	capital = STATE_LHASA
@@ -1903,7 +1903,7 @@ MGL = {
 	
 	country_type = recognized
 	
-	tier = kingdom
+	tier = principality
 	
 	cultures = { mongol }
 	capital = STATE_URGA
@@ -1914,7 +1914,7 @@ XIN = {
 	
 	country_type = recognized
 	
-	tier = kingdom
+	tier = principality
 	
 	cultures = { uighur }
 	capital = STATE_TIANSHAN
@@ -1925,7 +1925,7 @@ PHI = {
 	
 	country_type = colonial
 	
-	tier = kingdom
+	tier = principality
 	
 	cultures = { filipino spanish }
 	capital = STATE_LUZON
@@ -1936,7 +1936,7 @@ MCH = {
 	
 	country_type = recognized
 	
-	tier = kingdom
+	tier = principality
 	
 	cultures = { manchu }
 	capital = STATE_SOUTHERN_MANCHURIA
@@ -1959,7 +1959,7 @@ CAN = {
 	
 	country_type = colonial
 	
-	tier = kingdom
+	tier = principality
 	
 	cultures = { anglo_canadian franco_canadian }
 	capital = STATE_ONTARIO
@@ -2087,7 +2087,7 @@ MEX = {
 	
 	#173  242  175
 
-	tier = kingdom
+	tier = principality
 	
 	cultures = { mexican }
 	capital = STATE_MEXICO
@@ -2122,7 +2122,7 @@ NEN = {
 	
 	country_type = colonial
 	
-	tier = grand_principality
+	tier = principality
 	
 	cultures = { yankee }
 	capital = STATE_MASSACHUSETTS
@@ -2239,7 +2239,7 @@ UCA = {
 	
 	country_type = colonial
 	
-	tier = kingdom
+	tier = principality
 	
 	capital = STATE_SAN_SALVADOR
 	cultures = { central_american }
@@ -2250,7 +2250,7 @@ ARG = {
 	
 	country_type = colonial
 	
-	tier = kingdom
+	tier = principality
 	
 	cultures = { platinean }
 	capital = STATE_BUENOS_AIRES
@@ -2261,7 +2261,7 @@ BOL = {
 	
 	country_type = colonial
 	
-	tier = kingdom
+	tier = principality
 	
 	cultures = { south_andean }
 	capital = STATE_LA_PAZ
@@ -2272,7 +2272,7 @@ BRZ = {
 	
 	country_type = colonial
 	
-	tier = empire
+	tier = principality
 	
 	cultures = { brazilian }
 	capital = STATE_RIO_DE_JANEIRO
@@ -2283,7 +2283,7 @@ CHL = {
 	
 	country_type = colonial
 	
-	tier = kingdom
+	tier = principality
 	
 	cultures = { south_andean }
 	capital = STATE_SANTIAGO
@@ -2294,7 +2294,7 @@ CLM = {
 	
 	country_type = colonial
 	
-	tier = kingdom
+	tier = principality
 	
 	cultures = { north_andean }
 	capital = STATE_CUNDINAMARCA
@@ -2317,7 +2317,7 @@ PEU = {
 	
 	country_type = colonial
 	
-	tier = kingdom
+	tier = principality
 	
 	cultures = { south_andean }
 	capital = STATE_LIMA
@@ -2351,7 +2351,7 @@ VNZ = {
 	
 	country_type = colonial
 	
-	tier = kingdom
+	tier = principality
 	
 	cultures = { north_andean }
 	capital = STATE_MIRANDA
@@ -2376,7 +2376,7 @@ BYZ = {
 	
 	country_type = recognized
 
-	tier = empire
+	tier = principality
 	
 	cultures = { greek }	
 	capital = STATE_EASTERN_THRACE
@@ -2399,7 +2399,7 @@ ARA = {
 	
 	country_type = recognized
 	
-	tier = empire
+	tier = principality
 	
 	cultures = { mashriqi bedouin misri yemenite }
 	capital = STATE_HEDJAZ
@@ -2410,7 +2410,7 @@ UBD = {
 	
 	country_type = recognized
 
-	tier = kingdom
+	tier = principality
 	
 	cultures = { latvian estonian lithuanian }
 	capital = STATE_LATVIA
@@ -2421,7 +2421,7 @@ BYE = {
 	
 	country_type = recognized
 
-	tier = kingdom
+	tier = principality
 	
 	cultures = { byelorussian }
 	capital = STATE_MINSK
@@ -2432,7 +2432,7 @@ PLC = {
 	
 	country_type = recognized
 
-	tier = empire
+	tier = principality
 	
 	cultures = { polish lithuanian }
 	capital = STATE_WEST_GALICIA
@@ -2443,7 +2443,7 @@ GCO = {
 	
 	country_type = recognized
 
-	tier = empire
+	tier = principality
 	
 	cultures = { north_andean }
 	capital = STATE_CUNDINAMARCA
@@ -2454,7 +2454,7 @@ JAN = {
 	
 	country_type = recognized
 
-	tier = city_state
+	tier = principality
 
 	capital = STATE_NORTHERN_NORWAY
 	cultures = { norwegian }
@@ -2532,7 +2532,7 @@ WIN = {
 	
 	country_type = colonial
 	
-	tier = kingdom
+	tier = principality
 	
 	cultures = { afro_caribbean }
 	capital = STATE_WEST_INDIES
@@ -2543,7 +2543,7 @@ MAY = {
 	
 	country_type = recognized
 	
-	tier = kingdom
+	tier = principality
 	
 	cultures = { mayan }
 	capital = STATE_YUCATAN
@@ -2554,7 +2554,7 @@ IBE = {
 	
 	country_type = recognized
 
-	tier = empire
+	tier = principality
 	
 	cultures = { spanish catalan portuguese basque galician }
 	capital = STATE_TOLEDO
@@ -2756,7 +2756,7 @@ CAS = {
 	
 	country_type = recognized
 
-	tier = kingdom
+	tier = principality
 	
 	cultures = { spanish }
 	capital = STATE_TOLEDO
@@ -2768,7 +2768,7 @@ SMI = { # Sapmi
 	
 	country_type = recognized
 	
-	tier = city_state
+	tier = principality
 	
 	cultures = { sami }
 	
@@ -2780,7 +2780,7 @@ MLT = { # Malta
 	
 	country_type = recognized
 	
-	tier = city_state
+	tier = principality
 	
 	cultures = { maltese }
 	
@@ -2828,7 +2828,7 @@ SIB = { # Siberia
 	
 	country_type = recognized
 
-	tier = kingdom
+	tier = principality
 	cultures = { yakut siberian inuit }
 	capital = STATE_TOMSK
 }
@@ -3325,7 +3325,7 @@ BLH = {
 	
 	country_type = recognized
 
-	tier = kingdom
+	tier = principality
 
 	cultures = { baluchi }
 	capital = STATE_BALUCHISTAN
@@ -3336,7 +3336,7 @@ NGF = {
 	
 	country_type = recognized
 
-	tier = kingdom
+	tier = principality
 
 	cultures = { north_german}
 	capital = STATE_BRANDENBURG
@@ -3347,7 +3347,7 @@ SGF = {
 	
 	country_type = recognized
 
-	tier = kingdom
+	tier = principality
 
 	cultures = { south_german}
 	capital = STATE_BAVARIA
@@ -3447,7 +3447,7 @@ LEB = {
 HNA = { #Hunan	
 	color = { 126 164 224 }
 	country_type = recognized
-	tier = kingdom
+	tier = principality
 	cultures = { han }
 	capital = STATE_HUNAN
 }
@@ -3455,7 +3455,7 @@ HNA = { #Hunan
 AHU = { #Anhui
 	color = { 187 126 224 }
 	country_type = recognized
-	tier = kingdom
+	tier = principality
 	cultures = { han }
 	capital = STATE_SOUTHERN_ANHUI
 }
@@ -3463,7 +3463,7 @@ AHU = { #Anhui
 ZHI = { #Zhili
 	color = { 207 64 88 }
 	country_type = recognized
-	tier = kingdom
+	tier = principality
 	cultures = { han }
 	capital = STATE_ZHILI
 }
@@ -3471,7 +3471,7 @@ ZHI = { #Zhili
 SHN = { #Shanxi
 	color = { 94 209 94 }
 	country_type = recognized
-	tier = kingdom
+	tier = principality
 	cultures = { han }
 	capital = STATE_SHANXI
 }
@@ -3479,7 +3479,7 @@ SHN = { #Shanxi
 GUI = { #Guizhou
 	color = { 37 102 37 }
 	country_type = recognized
-	tier = kingdom
+	tier = principality
 	cultures = { han}
 	capital = STATE_GUIZHOU
 }
@@ -3487,7 +3487,7 @@ GUI = { #Guizhou
 GNG = { #Guangxi
 	color = { 133 56 8 }
 	country_type = recognized
-	tier = kingdom
+	tier = principality
 	cultures = { han yue zhuang}
 	capital = STATE_GUANGXI
 }
@@ -3495,7 +3495,7 @@ GNG = { #Guangxi
 SIH = { #Sichuan
 	color = { 42 189 68 }
 	country_type = recognized
-	tier = kingdom
+	tier = principality
 	cultures = { han }
 	capital = STATE_SICHUAN
 }
@@ -3503,7 +3503,7 @@ SIH = { #Sichuan
 SHA = { #Shandong
 	color = { 189 113 42 }
 	country_type = recognized
-	tier = kingdom
+	tier = principality
 	cultures = { han }
 	capital = STATE_SHANDONG
 }
@@ -3511,7 +3511,7 @@ SHA = { #Shandong
 XIB = {
 	color = { 68 144 212 }
 	country_type = recognized
-	tier = kingdom
+	tier = principality
 	cultures = { han tibetan }
 	capital = STATE_NINGXIA
 }
@@ -3519,7 +3519,7 @@ XIB = {
 TPG = {
 	color = { 100 150 20 }
 	country_type = recognized
-	tier = kingdom
+	tier = principality
 	cultures = { han }
 	religion = protestant
 	capital = STATE_NANJING
@@ -3541,7 +3541,7 @@ KUR = {
 	
 	country_type = recognized
 	
-	tier = kingdom
+	tier = principality
 	
 	cultures = { kurdish }
 	capital = STATE_MOSUL
@@ -3575,7 +3575,7 @@ TRH = { # Turkestan
 	
 	country_type = recognized
 
-	tier = empire
+	tier = principality
 	
 	cultures = { uzbek kirgiz kazak turkmen tajik uighur }
 	capital = STATE_UZBEKIA
@@ -3611,7 +3611,7 @@ WEI = {
 	
 	country_type = recognized
 	
-	tier = grand_principality
+	tier = principality
 	
 	cultures = { north_german }
 	capital = STATE_SAXONY
@@ -3671,7 +3671,7 @@ MST = {
 	
 	country_type = recognized
 
-	tier = grand_principality
+	tier = principality
 	
 	cultures = { north_german }
 	capital = STATE_MECKLENBURG
@@ -3707,7 +3707,7 @@ BHT = {
 	
 	country_type = recognized
 
-	tier = hegemony
+	tier = principality
 	
 	cultures = { assamese avadhi baluchi bengali bihari gujarati kanauji kannada malayalam marathi oriya panjabi pashtun rajput sindi tamil telegu }
 	capital = STATE_DELHI
@@ -3757,7 +3757,7 @@ ASS = {
 	
 	country_type = recognized
 	
-	tier = kingdom
+	tier = principality
 	
 	cultures = { assyrian }
 	capital = STATE_MOSUL

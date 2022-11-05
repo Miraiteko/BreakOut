@@ -1,7 +1,7 @@
 ﻿HAW = {
 	color = { 48  169  96 }
 	
-	tier = kingdom
+	tier = principality
 	
 	country_type = unrecognized
 	
@@ -172,7 +172,7 @@ AOT = { # Aotearoa
 	
 	country_type = unrecognized
 
-	tier = empire
+	tier = principality
 	
 	cultures = { maori }
 	capital = STATE_NORTH_ISLAND
@@ -264,7 +264,7 @@ AST = {
 	
 	country_type = colonial
 	
-	tier = kingdom
+	tier = principality
 	
 	capital = STATE_NEW_SOUTH_WALES
 	cultures = { australian }
@@ -477,7 +477,7 @@ IDN = {
 	
 	country_type = recognized
 
-	tier = empire
+	tier = principality
 	
 	cultures = { balinese batak bornean dayak javan malay moluccan sumatran }
 	capital = STATE_WEST_JAVA

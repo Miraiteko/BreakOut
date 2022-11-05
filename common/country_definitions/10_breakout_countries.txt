@@ -4,7 +4,7 @@ JIN = {
 	
 	country_type = recognized
 	
-	tier = empire
+	tier = principality
 	
 	cultures = { dixie yankee }
 	capital = STATE_DISTRICT_OF_COLUMBIA
@@ -16,7 +16,7 @@ ZHH = {
 	
 	country_type = recognized
 	
-	tier = kingdom
+	tier = principality
 	
 	cultures = { dixie yankee }
 	capital = STATE_TEXAS
@@ -28,7 +28,7 @@ ZHI = {
 	
 	country_type = recognized
 	
-	tier = kingdom
+	tier = principality
 	
 	cultures = { dixie yankee }
 	capital = STATE_FLORIDA
@@ -41,7 +41,7 @@ FAN = {
 	
 	country_type = recognized
 	
-	tier = kingdom
+	tier = principality
 	
 	cultures = { dixie yankee }
 	capital = STATE_MICHIGAN
@@ -53,7 +53,7 @@ Zhao = {
 	
 	country_type = recognized
 	
-	tier = kingdom
+	tier = principality
 	
 	cultures = { dixie yankee }
 	capital = STATE_EAST_ANGLIA
@@ -65,7 +65,7 @@ WEI = {
 	
 	country_type = recognized
 	
-	tier = kingdom
+	tier = principality
 	
 	cultures = { dixie yankee }
 	capital = STATE_NEW_YORK
@@ -77,7 +77,7 @@ HAN = {
 	
 	country_type = recognized
 	
-	tier = kingdom
+	tier = principality
 	
 	cultures = { dixie yankee }
 	capital = STATE_MISSISSIPPI
