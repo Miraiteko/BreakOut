@@ -1,0 +1,84 @@
+﻿l_simp_chinese:
+ #生产经验相关
+ concept_production_exp:0 "生产经验"
+ concept_production_exp_desc:0 "生产经验能够减少原料的耗费。\n它会在生产实践中不断积累，直到达到由科技所决定的上限。"
+ EXP_BAR:0 "[concept_production_exp](制作中)：[Building.GetModifier.GetInvertedValueFor('building_input_mult')|0v%]" 
+#[Building.GetModifier.GetInvertedValueFor('building_input_mult')|0v%]
+ TOOLTIP_BUILDING_EXP:0 "#header [concept_production_exp]#!\n数值：#v [Building.GetCurrentCashReserves|D]#![GetTrendIcon(Building.GetCashReservesTrend)]/#maximum [Building.GetMaxCashReserves|k]#!\n\n[concept_cash_reserves_desc]"
+ production_exp_modifier_00:0 "[concept_production_exp]#v 0%#!"
+ production_exp_modifier_05:0 "[concept_production_exp]#v 5%#!"
+ production_exp_modifier_10:0 "[concept_production_exp]#v 10%#!"
+ production_exp_modifier_15:0 "[concept_production_exp]#v 15%#!"
+ production_exp_modifier_20:0 "[concept_production_exp]#v 20%#!"
+ production_exp_modifier_25:0 "[concept_production_exp]#v 25%#!"
+ production_exp_modifier_30:0 "[concept_production_exp]#v 30%#!"
+ production_exp_modifier_35:0 "[concept_production_exp]#v 35%#!"
+ production_exp_modifier_40:0 "[concept_production_exp]#v 40%#!"
+ production_exp_modifier_45:0 "[concept_production_exp]#v 45%#!"
+ production_exp_modifier_50:0 "[concept_production_exp]#v 50%#!"
+ production_exp_modifier_55:0 "[concept_production_exp]#v 55%#!"
+ production_exp_modifier_60:0 "[concept_production_exp]#v 60%#!"
+ production_exp_modifier_65:0 "[concept_production_exp]#v 65%#!"
+ production_exp_modifier_70:0 "[concept_production_exp]#v 70%#!"
+ production_exp_modifier_75:0 "[concept_production_exp]#v 75%#!"
+
+ 
+ #半导体相关
+ wafer:0 "晶圆"
+ modifier_building_output_wafer_add:0 "每级@wafer!晶圆产出"
+ modifier_building_output_wafer_add_desc:0 "建筑产出的@wafer!晶圆数量"
+ modifier_building_input_wafer_add:0 "每级@wafer!晶圆投入"
+ modifier_building_input_wafer_add_desc:0 "建筑投入的@wafer!晶圆数量"
+ 
+ wafer_plant:0 "晶圆厂"
+ pmg_wafer_plant:0 "晶圆"
+ pm_wafer_plant:0 "晶圆"
+ 
+ chip:0 "芯片"
+ modifier_building_output_chip_add:0 "每级@chip!芯片产出"
+ modifier_building_output_chip_add_desc:0 "建筑产出的@chip!芯片数量"
+ modifier_building_input_chip_add:0 "每级@chip!晶圆投入"
+ modifier_building_input_chip_add_desc:0 "建筑投入的@chip!芯片数量"
+ 
+ chip_plant:0 "芯片厂"
+ pmg_chip_plant:0 "芯片"
+ pm_transistor:0 "晶体管"
+ pm_chemical_etching:0 "化学刻蚀"
+ pm_lithography:0 "光刻"
+ 
+ computer:0 "计算机"
+ modifier_building_output_computer_add:0 "每级@computer!计算机产出"
+ modifier_building_output_computer_add_desc:0 "建筑产出的@computer!计算机数量"
+ modifier_building_input_computer_add:0 "每级@computer!计算机投入"
+ modifier_building_input_computer_add_desc:0 "建筑投入的@computer!计算机数量"
+ 
+ software:0 "软件"
+ modifier_building_output_software_add:0 "每级@software!软件产出"
+ modifier_building_output_software_add_desc:0 "建筑产出的@software!软件数量"
+ modifier_building_input_software_add:0 "每级@software!软件投入"
+ modifier_building_input_software_add_desc:0 "建筑投入的@software!软件数量"
+ 
+ software_park:0 "软件园"
+ pmg_software_park:0 "软件园"
+ pm_software_park:0 "软件园"
+ 
+ computation:0 "算力"
+ modifier_building_output_computation_add:0 "每级@computation!算力产出"
+ modifier_building_output_computation_add_desc:0 "建筑产出的@computation!算力数量"
+ modifier_building_input_computation_add:0 "每级@computation!算力投入"
+ modifier_building_input_computation_add_desc:0 "建筑投入的@computation!算力数量"
+ 
+ internet_data_center:0 "数据中心"
+ pmg_internet_data_center:0 "数据中心"
+ pm_internet_data_center:0 "数据中心"
+ 
+ virtual_mine:0 "虚拟矿厂"
+ pmg_virtual_mine:0 "虚拟矿厂"
+ pm_virtual_mine:0 "虚拟矿厂"
+ 
+ pmg_automation:0 "自动化"
+ pm_manual_control:0 "手工操作"
+ pm_proportional_integral_control:0 "控制电路"
+ pm_reinforcement_learning_control:0 "数字化控制"
+ pm_quantum_ergodic_control:0 "人工智能"
+ 

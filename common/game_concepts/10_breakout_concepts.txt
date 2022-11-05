@@ -25,3 +25,8 @@ concept_base_education_access = {
 }
 concept_production_exp = {
 }
+
+concept_coal_mining_deplete = {
+}
+concept_oil_extraction_deplete = {
+}

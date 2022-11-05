@@ -1,0 +1,61 @@
+﻿l_simp_chinese:
+
+ #金融相关
+ popneed_finance:0 "金融服务"
+ pmg_ownership_capital:0 "所有权"
+ pm_publicly_traded_industry:0 "公开交易"
+ 
+ financing_service:0 "融资服务"
+ modifier_building_output_financing_service_add:0 "每级@financing_service!融资服务产出"
+ modifier_building_output_financing_service_add_desc:0 "建筑产出的@financing_service!融资服务数量"
+ modifier_building_input_financing_service_add:0 "每级@financing_service!融资服务投入"
+ modifier_building_input_financing_service_add_desc:0 "建筑投入的@financing_service!融资服务数量"
+ 
+ investment_management:0 "投资管理"
+ modifier_building_output_investment_management_add:0 "每级@investment_management!投资管理产出"
+ modifier_building_output_investment_management_add_desc:0 "建筑产出的@investment_management!投资管理数量"
+ modifier_building_input_investment_management_add:0 "每级@investment_management!投资管理投入"
+ modifier_building_input_investment_management_add_desc:0 "建筑投入的@investment_management!投资管理数量"
+ 
+ finance_power:0 "金融力量"
+ modifier_building_output_finance_power_add:0 "每级@finance_power!金融力量产出"
+ modifier_building_output_finance_power_add_desc:0 "建筑产出的@finance_power!金融力量数量"
+ modifier_building_input_finance_power_add:0 "每级@finance_power!金融力量投入"
+ modifier_building_input_finance_power_add_desc:0 "建筑投入的@finance_power!金融力量数量"
+ 
+ stock_exchange:0 "证券交易所"
+ pmg_stock_exchange:0 "证券交易"
+ pm_stock_exchange:0 "散户交易"
+ pm_fundbased_stock_exchange:0 "基金交易"
+ 
+ fund_company:0 "基金公司"
+ pmg_fund_company:0 "基金"
+ pm_fund_company:0 "基金"
+ 
+ central_bank:0 "中央银行"
+ pmg_central_bank:0 "中央银行"
+ pm_central_bank:0 "财政监管"
+ pm_sovereign_currency:0 "主权货币发行"
+ 
+ #外交相关
+ modifier_emperor:0 "天子"
+ modifier_emperor_desc:0 "这个大国是周朝的天子，名义上统治着全天下的权力。"
+ modifier_overlord:0 "方伯"
+ modifier_overlord_desc:0 "这些大国是上次争霸战争的胜利者，享有支配全天下的权力。"
+ bankrupted:0 "破产国家"
+
+ #飞升相关
+ religion:0 "自然人"
+ 
+ natural:0 "自然人"
+ homoconformism:0 "从众智人"
+ homoeccentrism:0 "立异智人"
+ prosthesis:0 "义体人"
+ strengthened:0 "强化人"
+ 
+ homo:0 "智人"
+ conformism:0 "从众者"
+ eccentrism:0 "立异者"
+ #debug
+ breakout_test_decision:0 "【大秦东出】测试用决议"
+ breakout_test_decision_desc:0 "开发测试时使用"

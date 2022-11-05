@@ -1,0 +1,86 @@
+﻿l_simp_chinese:
+ 
+ #航天相关
+ rocket:0 "火箭"
+ modifier_building_output_rocket_add:0 "每级@rocket!火箭产出"
+ modifier_building_output_rocket_add_desc:0 "建筑产出的@rocket!火箭数量"
+ modifier_building_input_rocket_add:0 "每级@rocket!火箭投入"
+ modifier_building_input_rocket_add_desc:0 "建筑投入的@rocket!火箭数量"
+ 
+ spaceflight:0 "航天运力"
+ modifier_building_output_spaceflight_add:0 "每级@spaceflight!航天运力产出"
+ modifier_building_output_spaceflight_add_desc:0 "建筑产出的@spaceflight!航天运力数量"
+ modifier_building_input_spaceflight_add:0 "每级@spaceflight!航天运力投入"
+ modifier_building_input_spaceflight_add_desc:0 "建筑投入的@spaceflight!航天运力数量"
+ 
+ rocket_plant:0 "火箭工厂"
+ pmg_rocket_plant:0 "火箭"
+ pm_rocket_plant:0 "火箭"
+ space_center:0 "航天中心"
+ pmg_space_center:0 "航天"
+ pm_space_center:0 "航天"
+ lunar_mine:0 "月球矿业"
+ pmg_lunar_mine:0 "月球矿业"
+ pm_lunar_mine:0 "月球矿业"
+ 
+ planetary_carbon_nanotubes:0 "行星级碳管"
+ planetary_carbon_nanotubes_desc:0 "通过技术革新，我们获得了将强化碳纳米管无限延长的工艺。在获得这种材料之后，我们能够建造直达同步轨道的超级电梯。"
+ space_elevator:0 "太空电梯"
+ pmg_space_elevator:0 "太空电梯"
+ pm_space_elevator:0 "太空电梯"
+ 
+ #核武器相关
+ concept_nuclear_weapon:0 "核武器"
+ concept_nuclear_weapon_desc:0 "核武器是利用能自持进行的原子核裂变或核聚变反应瞬时释放的巨大的能量，产生爆炸作用，并具有大规模毁伤破坏效应的武器。使用核武器能够有效地摧毁城市，使敌对国家承受重大损失。"
+ 
+ concept_nuclear_holdings:0 "核储备"
+ concept_nuclear_holdings_desc:0 "核储备代表了一个国家可用的[concept_nuclear_weapon]的规模。每消耗1个单位的核储备，该国家便可以进行一次核打击。"
+ modifier_building_group_bg_nuclear_holdings_throughput_mult:0 "[concept_nuclear_holdings]"
+ modifier_building_group_bg_nuclear_holdings_throughput_mult_desc:0 "该建筑提供的[concept_nuclear_holdings]规模"
+ 
+ concept_nuclear_interception:0 "核拦截"
+ concept_nuclear_interception_desc:0 "核拦截用于使敌方的[concept_nuclear_weapon]攻击失效。\n当敌方进行核打击的时候，你在该战略区域的每个具有核拦截能力的建筑，都会增加拦截的成功率。如果成功拦截，这次核打击就不会对你的国土造成伤害。"
+ modifier_building_group_bg_nuclear_interception_throughput_mult:0 "[concept_nuclear_interception]"
+ modifier_building_group_bg_nuclear_interception_throughput_mult_desc:0 "该建筑提供的[concept_nuclear_interception]能力"
+ 
+ concept_nuclear_penetration:0 "核突防"
+ concept_nuclear_penetration_desc:0 "核突防用于使敌方的[concept_nuclear_interception]失效。\n当你进行核打击的时候，该[concept_nuclear_weapon]的核突防能力将使敌方的拦截成功率下降。"
+ modifier_building_group_bg_nuclear_penetration_throughput_mult:0 "[concept_nuclear_penetration]"
+ modifier_building_group_bg_nuclear_penetration_throughput_mult_desc:0 "该建筑的核武器具备的[concept_nuclear_interception]能力"
+ 
+ concept_nuclear_impact_wave:0 "核冲击伤害"
+ concept_nuclear_impact_wave_desc:0 "核冲击是核武器伤害中最强大的一种。急剧爆炸引发的强大冲击波，足以摧毁目标区域内的所有建筑与人口。"
+ modifier_building_group_bg_nuclear_impact_wave_throughput_mult:0 "[concept_nuclear_impact_wave]"
+ modifier_building_group_bg_nuclear_impact_wave_throughput_mult_desc:0 "该建筑的核武器造成的[concept_nuclear_impact_wave]"
+ 
+ concept_nuclear_radiation:0 "核辐照伤害"
+ concept_nuclear_radiation_desc:0 "核辐照是核武器伤害中最致命的一种。核反应施放出的高能射线将会迅速穿透建筑，对建筑内的人员造成致命的杀伤。"
+ modifier_building_group_bg_nuclear_radiation_throughput_mult:0 "[concept_nuclear_radiation]"
+ modifier_building_group_bg_nuclear_radiation_throughput_mult_desc:0 "该建筑的核武器造成的[concept_nuclear_radiation]"
+ 
+ concept_nuclear_pollution:0 "核污染伤害"
+ concept_nuclear_pollution_desc:0 "核污染是核武器伤害中最恐怖的一种。核反应残留的同位素将弥漫在目标区域，并向周围扩展，造成缓慢但持久的损害。"
+ modifier_building_group_bg_nuclear_pollution_throughput_mult:0 "[concept_nuclear_pollution]"
+ modifier_building_group_bg_nuclear_pollution_throughput_mult_desc:0 "该建筑的核武器造成的[concept_nuclear_pollution]"
+ 
+ concept_nuclear_defence:0 "核防护"
+ concept_nuclear_defence_desc:0 "核防护设施能够有效地削弱敌方核打击造成的伤害。"
+ modifier_building_group_bg_nuclear_defence_throughput_mult:0 "[concept_nuclear_defence]"
+ modifier_building_group_bg_nuclear_defence_throughput_mult_desc:0 "该建筑提供的[concept_nuclear_defence]强度"
+ 
+ nuclear_arsenal:0 "核武库(制作中)"
+     pmg_nuclear_type:0 "核弹头"
+         pm_atomic_bomb:0 "原子弹"
+         pm_hydrogen_bomb:0 "氢弹"
+         pm_neutron_bomb:0 "中子弹"
+     pmg_missle_type:0 "载具"
+         pm_stealth_bomber:0 "隐形轰炸机"
+         pm_ballistic_missile:0 "弹道导弹"
+         pm_hypersonic_gliding_vehicle:0 "高超音速滑翔器"
+     pmg_arsenal_type:0 "基地类型"
+         pm_shelter:0 "核防空洞"
+         pm_nuclear_military_train:0 "核军列"
+         pm_nuclear_submarine:0 "核潜艇"
+ 
+ #战役相关
+ MAJOR_BATTLE_SIZE_COMBAT_WIDTH:0 "已达到最大战场宽度"
