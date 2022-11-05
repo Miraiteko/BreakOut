@@ -567,7 +567,81 @@ resource_deplete_monthly_check = {
 	}
 	
 	#石油
-	#has_potential_resource = bg_oil_extraction
+		if = {
+		limit = {
+			has_potential_resource = bg_oil_extraction
+		}
+		#初始化
+		if = {
+			limit = { NOT = { has_variable = base_oil_resource }}
+			set_variable = {
+				name = base_oil_resource
+				value = 1000000
+			}
+		}
+		if = {
+			limit = { NOT = { has_variable = depleted_oil_resource }}
+			set_variable = {
+				name = depleted_oil_resource
+				value = 0
+			}
+		}
+		#计算每月采掘量
+		set_variable = {
+			name = new_depleted_oil_resource
+			value = 0
+		}
+		every_scope_building = {
+			limit = {
+				is_building_type = building_oil_rig
+			}
+			#基础方式
+			if = {
+				limit = { has_active_production_method = pm_steam_derricks } 
+				scope:checked_state = {
+					change_variable = {
+						name = new_depleted_oil_resource
+						add = {
+							value = 120
+							multiply = PREV.occupancy
+							multiply = PREV.level
+						}
+					}
+				}
+			}
+			else_if = {
+				limit = { has_active_production_method = pm_combustion_derricks } 
+				scope:checked_state = {
+					change_variable = {
+						name = new_depleted_oil_resource
+						add = {
+							value = 200
+							multiply = PREV.occupancy
+							multiply = PREV.level
+						}
+					}
+				}
+			}
+		}
+		change_variable = {
+			name = new_depleted_oil_resource
+			multiply = {
+				value = 1
+				subtract = oil_resource_difficulty
+			}
+		}
+		#更新采掘量
+		change_variable = {
+			name = depleted_oil_resource
+			add = var:new_depleted_oil_resource
+		}
+		#调整buff
+		remove_modifier = oil_extraction_deplete_modifier
+		add_modifier = {
+			name = oil_extraction_deplete_modifier
+			multiplier = oil_resource_difficulty
+		}
+	}
 }
 
 #破产结算

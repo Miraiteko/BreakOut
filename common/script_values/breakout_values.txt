@@ -18,3 +18,11 @@ coal_resource_difficulty = {
         add = 1
     }
 }
+oil_resource_difficulty = {
+    value = var:depleted_oil_resource
+    divide = {
+        value = var:base_oil_resource
+        add = var:depleted_oil_resource
+        add = 1
+    }
+}
