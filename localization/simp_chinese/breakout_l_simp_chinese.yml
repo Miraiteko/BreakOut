@@ -250,7 +250,8 @@
  building_gold_mine_discovered_resource:0 "金矿"
  building_whaling_station_discovered_resource:0 "捕鲸"
  building_logging_camp_discovered_resource:0 "木材"
- 
+ coal_mining_deplete_modifier:0 "煤矿开采深度"
+ oil_mining_deplete_modifier :0 "石油开采深度"
  #资源循环相关
  hydroponics_farm:0 "水培农场"
  pmg_hydroponics_farm:0 "水培农场"

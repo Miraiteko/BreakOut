@@ -10,3 +10,11 @@ base_education_access_mod = {
         add = 1
     }
 }
+coal_resource_difficulty = {
+    value = var:depleted_coal_resource
+    divide = {
+        value = var:base_coal_resource
+        add = var:depleted_coal_resource
+        add = 1
+    }
+}

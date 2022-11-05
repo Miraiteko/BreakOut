@@ -1,4 +1,14 @@
-﻿#生产经验
+﻿#煤矿枯竭
+coal_mining_deplete_modifier = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_negative.dds
+	building_output_coal_mult = -1
+}
+#油井枯竭
+oil_extraction_deplete_modifier = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_negative.dds
+	building_output_oil_mult = -1
+}
+#生产经验
 #基础出生为0.1%
 production_exp_modifier_00 = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds

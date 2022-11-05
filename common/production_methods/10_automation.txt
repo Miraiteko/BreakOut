@@ -122,7 +122,7 @@ pm_virtual_mine = {
 	building_modifiers = {
 		workforce_scaled = {
 			building_input_computation_add = 35 #100
-			building_output_gold_add = 50 #100
+			building_output_gold_add = 70 #100
 		}	
 		level_scaled = {
 			building_employment_machinists_add = 1000

@@ -117,7 +117,7 @@ NEconomy = {
 	
 	#商品供需系统	
 	MIN_GOODS_PRICE	= 0.1							# A good cannot have a lower base price than this
-	PRICE_RANGE = 0.80   						# min price of a good is base * (1 - PRICE_RANGE), Max price is base * (1 + PRICE_RANGE), PRICE_RANGE is locked to [0-1]
+	PRICE_RANGE = 0.90   						# min price of a good is base * (1 - PRICE_RANGE), Max price is base * (1 + PRICE_RANGE), PRICE_RANGE is locked to [0-1]
 	BUY_SELL_DIFF_AT_MAX_FACTOR = 3				# the difference between buy/consumption and sell/production at min/max pricing, e.g. if set to 4 then if buy orders are 4x sell orders price is maxed
 	GOODS_SHORTAGE_PENALTY_THRESHOLD = 0.30		# If supply / demand is lower than this, start applying output penalties, by default this should be ( 1 / BUY_SELL_DIFF_AT_MAX_FACTOR )
 	GOODS_SHORTAGE_PENALTY_INCREASE_SPEED = 0.01  	# Goods shortage penalty increases by this fraction of the target each day
@@ -176,9 +176,9 @@ NFrontend = {
 #防止AI一直不议和
 NWar = {
 	DEVASTATION_MAX = 100.0
-	DEVASTATION_INCREASE_RATE = 0 # Per day, scales with level of occupation
+	DEVASTATION_INCREASE_RATE = 0.01 # Per day, scales with level of occupation
 	DEVASTATION_DECAY_RATE = -0.1 # Per day, when there are no occupations
-	DEVASTATION_FROM_BATTLES = 0.5 # For each battle
+	DEVASTATION_FROM_BATTLES = 1.0 # For each battle
 
 	AUTO_CAPITULATE_WAR_SUPPORT = 0 # When war support is this low, the country will auto capitulate
 	DAYS_BETWEEN_WAR_EXHAUSTION = 20 # Every this many days war support will be reduced by the war exhaustion formula
