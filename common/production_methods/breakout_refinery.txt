@@ -131,7 +131,10 @@ pm_no_psychedelic_drugs = {
 }
 pm_psychedelic_drugs = {
 	texture = "gfx/interface/icons/production_method_icons/pot_stills.dds"
-		
+	disallowing_laws = {
+		law_outlawed_dissent
+		law_censorship
+	}	
 	building_modifiers = {
 		workforce_scaled = {					
 			building_output_medicine_add = -25 #50
