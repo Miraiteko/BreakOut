@@ -6,7 +6,9 @@
  building_logging_camp_discovered_resource:0 "木材"
 
  coal_mining_deplete_modifier:0 "[concept_coal_mining_deplete]"
+ coal_mining_deplete_modifier_desc:0 "$concept_coal_mining_deplete_desc"
  oil_extraction_deplete_modifier:0 "[concept_oil_extraction_deplete]"
+ oil_extraction_deplete_modifier_desc:0 "$concept_oil_extraction_deplete_desc$"
  modifier_building_output_coal_mult:0 "建筑@coal!煤炭产出"
  modifier_building_output_coal_mult_desc:0 "对建筑产出的@coal!煤炭数量的增益或惩罚"
  modifier_building_output_oil_mult:0 "建筑@oil!石油产出"

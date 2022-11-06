@@ -35,7 +35,7 @@ pm_default_building_angkor_wat = {
 #		}
 
 		level_scaled = {
-			building_employment_clergymen_add = 500
+			building_employment_clerks_add = 500
 		}
 	}
 }
@@ -82,7 +82,7 @@ pm_default_building_forbidden_city = {
 
 		level_scaled = {
 			building_employment_bureaucrats_add = 800
-			building_employment_clergymen_add = 200
+			building_employment_clerks_add = 200
 		}
 	}
 }
@@ -102,7 +102,7 @@ pm_default_building_hagia_sophia = {
 		#}
 
 		level_scaled = {
-			building_employment_clergymen_add = 200
+			building_employment_clerks_add = 200
 		}
 	}
 }
@@ -122,7 +122,7 @@ pm_default_building_mosque_of_djenne = {
 		#}
 
 		level_scaled = {
-			building_employment_clergymen_add = 500
+			building_employment_clerks_add = 500
 		}
 	}
 }
@@ -142,7 +142,7 @@ pm_default_building_saint_basils_cathedral = {
 		#}
 
 		level_scaled = {
-			building_employment_clergymen_add = 200
+			building_employment_clerks_add = 200
 		}
 	}
 }
@@ -204,7 +204,7 @@ pm_default_building_vatican_city = {
 		#}
 
 		level_scaled = {
-			building_employment_clergymen_add = 500
+			building_employment_clerks_add = 500
 		}
 	}
 }

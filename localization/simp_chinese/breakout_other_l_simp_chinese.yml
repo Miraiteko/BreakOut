@@ -37,6 +37,10 @@
  pm_central_bank:0 "财政监管"
  pm_sovereign_currency:0 "主权货币发行"
  
+#资本家降薪
+ sacrifice_festival:0 "举办祭典"
+ sacrifice_festival_desc:0 "这个国家正在举办盛大的祭典，贵族与人民都在享受欢乐的假期。"
+
  #外交相关
  modifier_emperor:0 "天子"
  modifier_emperor_desc:0 "这个大国是周朝的天子，名义上统治着全天下的权力。"

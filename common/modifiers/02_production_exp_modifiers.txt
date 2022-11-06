@@ -1,4 +1,11 @@
-﻿#煤矿枯竭
+﻿#举行祭祀
+sacrifice_festival = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_positive.dds
+	state_radicals_from_sol_change_mult = -1
+	building_throughput_mult = -1
+}
+
+#煤矿枯竭
 coal_mining_deplete_modifier = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_negative.dds
 	building_output_coal_mult = -1

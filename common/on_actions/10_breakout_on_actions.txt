@@ -12,6 +12,16 @@ breakout_on_monthly_pulse_country = {
 		bankruptcy_check = yes
 	}
 }
+on_yearly_pulse_country = {
+	on_actions = {
+		breakout_on_yearly_pulse_country
+	}
+}
+breakout_on_yearly_pulse_country = {
+	effect = {
+	}
+}
+
 on_monthly_pulse_state = {
 	on_actions = {
 		breakout_on_monthly_pulse_state

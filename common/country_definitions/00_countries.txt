@@ -5,7 +5,7 @@
 
 	tier = principality
 	
-	cultures = { north_german south_german }
+	cultures = { north_german }
 	capital = STATE_BRANDENBURG
 }
 
@@ -27,7 +27,7 @@ SCA = {
 
 	tier = principality
 	
-	cultures = { swedish norwegian danish icelandic }
+	cultures = { swedish }
 	capital = STATE_SVEALAND
 }
 
@@ -150,7 +150,7 @@ LOU = {
 	
 	tier = principality
 	
-	cultures = { cajun afro_antillean }
+	cultures = { cajun}
 	capital = STATE_LOUISIANA
 }
 
@@ -204,7 +204,7 @@ ITA = {
 
 	tier = principality
 	
-	cultures = { north_italian south_italian }
+	cultures = { north_italian}
 	capital = STATE_LAZIO
 }
 
@@ -216,7 +216,7 @@ KUK = {
 	tier = principality
 	
 	capital = STATE_CENTRAL_HUNGARY
-	cultures = { hungarian romanian croat czech slovak slovene }
+	cultures = { hungarian}
 }
 
 DEN = {
@@ -282,7 +282,7 @@ BEL = {
 
 	tier = principality
 	
-	cultures = { flemish wallonian }	
+	cultures = { flemish }	
 	capital = STATE_FLANDERS
 }
 
@@ -571,7 +571,7 @@ LUX = {
 
 	tier = principality
 	
-	cultures = { wallonian north_german }
+	cultures = { wallonian }
 	capital = STATE_WALLONIA
 }
 
@@ -675,7 +675,7 @@ PAP = {
 
 	tier = principality
 	
-	cultures = { south_italian north_italian }
+	cultures = { south_italian }
 	capital = STATE_LAZIO
 }
 
@@ -860,7 +860,7 @@ GAL = {
 
 	tier = principality
 	
-	cultures = { ukrainian polish }
+	cultures = { ukrainian }
 	capital = STATE_EAST_GALICIA
 }
 
@@ -893,7 +893,7 @@ TRS = {
 
 	tier = principality
 	
-	cultures = { hungarian romanian }
+	cultures = { hungarian }
 	capital = STATE_SOUTHERN_TRANSYLVANIA
 }
 
@@ -1102,7 +1102,7 @@ YUG = {
 	tier = principality
 	
 	capital = STATE_NORTHERN_SERBIA 
-	cultures = { serb croat slovene bosniak }
+	cultures = { serb }
 }
 
 ABU = {
@@ -1250,7 +1250,7 @@ MUG = {
 	
 	tier = principality
 	
-	cultures = { avadhi sindi kannada bengali }
+	cultures = { avadhi }
 	capital = STATE_DELHI
 }
 
@@ -1308,7 +1308,7 @@ YEM = {
 	
 	tier = principality
 	
-	cultures = { yemenite bedouin }
+	cultures = { yemenite  }
 	capital = STATE_YEMEN
 	is_named_from_capital = yes
 }
@@ -1320,7 +1320,7 @@ MAH = {
 	
 	tier = principality
 	
-	cultures = { bedouin yemenite }
+	cultures = { bedouin  }
 	capital = STATE_YEMEN
 }
 
@@ -1331,7 +1331,7 @@ KAT = {
 	
 	tier = principality
 	
-	cultures = { bedouin yemenite }
+	cultures = { bedouin  }
 	capital = STATE_YEMEN
 }
 
@@ -1342,7 +1342,7 @@ ZAI = {
 	
 	tier = principality
 	
-	cultures = { yemenite bedouin }
+	cultures = { yemenite }
 #   religion = Technically Sunni at game start, but if it re-emerges, it should be Shiite
 	capital = STATE_YEMEN
 }
@@ -1354,7 +1354,7 @@ LAH = {
 	
 	tier = principality
 	
-	cultures = { bedouin yemenite }
+	cultures = { bedouin }
 	religion = sunni
 	capital = STATE_YEMEN
 }
@@ -1377,7 +1377,7 @@ HND = {
 	
 	tier = principality
 	
-	cultures = { kanauji marathi bihari tamil oriya gujarati }
+	cultures = { kanauji }
 	capital = STATE_DELHI
 }
 
@@ -1477,7 +1477,7 @@ BGL = {
 	
 	tier = principality
 	
-	cultures = { bengali bihari }
+	cultures = { bengali }
 	capital = STATE_SOUTH_BENGAL
 }
 
@@ -1704,7 +1704,7 @@ BAL = {
 	
 	tier = principality
 	
-	cultures = { balinese moluccan }
+	cultures = { balinese }
 	capital = STATE_SUNDA_ISLANDS
 }
 
@@ -1770,7 +1770,7 @@ CHI = {
 	
 	tier = principality
 	
-	cultures = { manchu han } 
+	cultures = { han } 
 	capital = STATE_XIAN
 }
 
@@ -1927,7 +1927,7 @@ PHI = {
 	
 	tier = principality
 	
-	cultures = { filipino spanish }
+	cultures = { filipino }
 	capital = STATE_LUZON
 }
 
@@ -1950,7 +1950,7 @@ CAL = {
 	
 	tier = principality
 	
-	cultures = { yankee mexican }
+	cultures = { yankee }
 	capital = STATE_CALIFORNIA
 }
 
@@ -1961,7 +1961,7 @@ CAN = {
 	
 	tier = principality
 	
-	cultures = { anglo_canadian franco_canadian }
+	cultures = { anglo_canadian }
 	capital = STATE_ONTARIO
 }
 
@@ -2076,7 +2076,7 @@ HAI = {
 	
 	tier = principality
 	
-	cultures = { afro_antillean caribeno afro_caribeno }
+	cultures = { afro_antillean  }
 	capital = STATE_HAITI
 }
 
@@ -2207,7 +2207,7 @@ NBS = {
 	
 	tier = principality
 	
-	cultures = { anglo_canadian franco_canadian }
+	cultures = { anglo_canadian }
 	capital = STATE_NEW_BRUNSWICK
 }
 
@@ -2364,7 +2364,7 @@ ISR = {
 	
 	tier = principality
 	
-	cultures = { ashkenazi sephardic }
+	cultures = { ashkenazi }
 	religion = jewish
 	capital = STATE_PALESTINE
 }
@@ -2401,7 +2401,7 @@ ARA = {
 	
 	tier = principality
 	
-	cultures = { mashriqi bedouin misri yemenite }
+	cultures = { mashriqi }
 	capital = STATE_HEDJAZ
 }
 
@@ -2412,7 +2412,7 @@ UBD = {
 
 	tier = principality
 	
-	cultures = { latvian estonian lithuanian }
+	cultures = { latvian}
 	capital = STATE_LATVIA
 }
 
@@ -2556,7 +2556,7 @@ IBE = {
 
 	tier = principality
 	
-	cultures = { spanish catalan portuguese basque galician }
+	cultures = { spanish }
 	capital = STATE_TOLEDO
 }
 
@@ -2567,7 +2567,7 @@ ORG = {
 	
 	tier = principality
 	
-	cultures = { yankee anglo_canadian }
+	cultures = { yankee }
 	capital = STATE_OREGON
 }
 
@@ -2589,7 +2589,7 @@ SEQ = {
 
 	tier = principality
 	
-	cultures = { cherokee siouan }
+	cultures = { cherokee }
 	capital = STATE_OKLAHOMA
 }
 
@@ -2712,7 +2712,7 @@ MKT = {
 	
 	tier = principality
 	
-	cultures = { miskito afro_caribbean }
+	cultures = { miskito }
 	capital = STATE_NICARAGUA
 }
 
@@ -2723,7 +2723,7 @@ NAH = {
 	
 	tier = principality
 	
-	cultures = { nahua mixtec zapotec tarascan }
+	cultures = { nahua }
 	capital = STATE_MEXICO
 }
 

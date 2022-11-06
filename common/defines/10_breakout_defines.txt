@@ -132,14 +132,14 @@ NEconomy = {
 	HIRING_RATE = 0.1 							# Max number of laborers we’re allowed a building to hire or fire each market update
 	EMPLOYMENT_PROPORTIONALITY_LIMIT = 0.02		# A building cannot have a difference of ratio of full employment between any two professions greater than this limit
 	BUILDING_INIT_PROFIT_TARGET_MIN = 0.01 		# Minimum % income a building wants to have as profit during initialization (will decrease wages towards this)
-	BUILDING_INIT_PROFIT_TARGET_MAX = 0.50 		# Maximum % income a building wants to have as profit during initialization (will increase wages towards this)
-	BUILDING_PROFIT_TARGET_TO_RAISE_WAGES = 0.2	# Required profit margin raise wages no matter what, with BUILDING_WEEKS_BETWEEN_PAY_RAISES weeks cooldown
+	BUILDING_INIT_PROFIT_TARGET_MAX = 0.02 		# Maximum % income a building wants to have as profit during initialization (will increase wages towards this)
+	BUILDING_PROFIT_TARGET_TO_RAISE_WAGES = 0.1	# Required profit margin raise wages no matter what, with BUILDING_WEEKS_BETWEEN_PAY_RAISES weeks cooldown
 	BUILDING_WEEKS_BETWEEN_PAY_RAISES = 26		# Cooldown between pay raises no matter what
-	MIN_RAISE_TO_HIRE = 0.10					# The minimum required increase in wages for an employee to switch jobs (1.0 = +100% = x2)
+	MIN_RAISE_TO_HIRE = 0.05					# The minimum required increase in wages for an employee to switch jobs (1.0 = +100% = x2)
 	STARTING_WAGE_RATE_MULTIPLIER = 2.0			# Starting wage rate is multiplied by this (for easy balancing)
 	NORMAL_WAGE_RATE_FALLBACK = 500.0			# If it's impossible to compute a normal wage rate (e.g. if every incorporated pop works in government buildings) set it to this (weekly £ per POP_SIZE_PACKAGE employees)
 	MINIMUM_WAGE_RATE = 1.0					# The wage rate can never drop below this, no matter what (weekly £ per POP_SIZE_PACKAGE employees)
-	MAXIMUM_WAGE_RATE = 100000.0				# The absolute maximum that a building's wage rate can be increased to.
+	MAXIMUM_WAGE_RATE = 10000.0				# The absolute maximum that a building's wage rate can be increased to.
 	
 	#资源系统
 	BASE_RESOURCE_DISCOVER_CHANCE = 0.02 		# Per day (1.0 = 1%)
