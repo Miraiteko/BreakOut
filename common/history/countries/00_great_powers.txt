@@ -8,6 +8,7 @@
 		add_era_researched = era_2
 		add_era_researched = era_3
 		add_era_researched = era_4
+		add_era_researched = era_5
 		
 		set_market_capital = STATE_NEW_YORK
 	}
