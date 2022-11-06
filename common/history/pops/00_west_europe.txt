@@ -747,8 +747,6 @@
 				religion = catholic
 				size = 71996
 			}
-		}
-		region_state:NET = {
 			create_pop = {
 				culture = wallonian
 				size = 1462000

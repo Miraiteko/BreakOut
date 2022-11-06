@@ -86,7 +86,7 @@
 		}
 	}
 	s:STATE_NORTH_BORNEO = {
-		region_state:BRU = {
+		region_state:DEI = {
 			create_pop = {
 				culture = dayak
 				size = 75000

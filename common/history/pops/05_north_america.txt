@@ -258,7 +258,7 @@
 		}
 	}
 	s:STATE_SOUTH_DAKOTA = {
-		region_state:LKT = {
+		region_state:USA = {
 			create_pop = {
 				culture = dakota
 				size = 34000
