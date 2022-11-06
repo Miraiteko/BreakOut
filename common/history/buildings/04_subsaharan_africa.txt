@@ -912,13 +912,7 @@
 		}
 	}
 	s:STATE_EQUATORIA={
-		region_state:DNK={
-		}
-		region_state:NUE={
-		}
-		region_state:DFT={
-		}
-		region_state:TPS={
+		region_state:EGY={
 		}
 	}
 	s:STATE_MOCAMBIQUE={
@@ -1014,29 +1008,11 @@
 		}
 	}
 	s:STATE_CONGO={
-		region_state:BOB={
-		}
-		region_state:LNG={
-		}
-		region_state:TKE={
-		}
 	}
 	s:STATE_CONGO_ORIENTALE={
-		region_state:MNB={
-		}
-		region_state:ZND={
-		}
-		region_state:LGA={
-		}
-		region_state:HMB={
-		}
-		region_state:LBA={
-		}
 	}
 	s:STATE_KASAI={
-		region_state:KBA={
-		}
-		region_state:LBA={
+		region_state:KON={
 		}
 	}
 	s:STATE_BAS_CONGO={
@@ -1058,13 +1034,9 @@
 		}
 	}
 	s:STATE_EQUATEUR={
-		region_state:BNG={
-		}
-		region_state:BOB={
-		}
 	}
 	s:STATE_NORTH_ANGOLA={
-		region_state:POR={
+		region_state:KON={
 			create_building={
 				building="building_millet_farm"
 				level=1
@@ -1098,7 +1070,7 @@
 		}
 	}
 	s:STATE_SOUTH_ANGOLA={
-		region_state:POR={
+		region_state:KON={
 			create_building={
 				building="building_coffee_plantation"
 				level=1
@@ -1112,18 +1084,8 @@
 				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" "pm_privately_owned" }
 			}
 		}
-		region_state:OVM={
-		}
 	}
 	s:STATE_EAST_ANGOLA={
-		region_state:CHK={
-		}
-		region_state:LND={
-		}
-		region_state:KSN={
-		}
-		region_state:LZO={
-		}
 	}
 	s:STATE_KATANGA={
 		region_state:KZM={
@@ -1136,7 +1098,7 @@
 	s:STATE_GABON={
 		region_state:FNG={
 		}
-		region_state:LNG={
+		region_state:KON={
 		}
 	}
 	s:STATE_ZAMBIA={
