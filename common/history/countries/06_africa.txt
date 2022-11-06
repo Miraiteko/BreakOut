@@ -1,6 +1,6 @@
 ﻿COUNTRIES = {
  #开拓南蛮
-	c:MOR = { #淮
+	c:MOR = { #田
 		effect_starting_politics_reactionary = yes
 		add_era_researched = era_1
 	}

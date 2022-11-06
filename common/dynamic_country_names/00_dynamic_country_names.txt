@@ -1501,7 +1501,7 @@ ARG = { #仇由
 }
 
  #开拓南蛮
-MOR = { #淮
+MOR = { #田
 	dynamic_country_name = {
 		name = GREAT_MOR
 

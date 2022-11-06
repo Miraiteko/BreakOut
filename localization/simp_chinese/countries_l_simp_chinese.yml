@@ -172,9 +172,9 @@
  SUBJECT_ARG:0 "仇由家"
  
  #开拓南蛮
- MOR:0 "淮国"
- GREAT_MOR:0 "大淮"
- SUBJECT_MOR:0 "淮家"
+ MOR:0 "田国"
+ GREAT_MOR:0 "大田"
+ SUBJECT_MOR:0 "田家"
  SIL:0 "舒鲍国"
  GREAT_SIL:0 "大舒鲍"
  SUBJECT_SIL:0 "舒鲍家"
