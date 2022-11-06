@@ -163,6 +163,10 @@
 			country = c:SER
 			type = dominion
 		}
+		create_diplomatic_pact = {
+			country = c:TUN
+			type = dominion
+		}
 	}
 
 	#东夷
@@ -173,6 +177,26 @@
 		}
 		create_diplomatic_pact = {
 			country = c:SYR
+			type = dominion
+		}
+	}
+	c:ISR = {
+		create_diplomatic_pact = {
+			country = c:NEJ
+			type = dominion
+		}
+	}
+
+	#西土
+	c:AST = {
+		create_diplomatic_pact = {
+			country = c:DEI
+			type = dominion
+		}
+	}
+	c:JAP = {
+		create_diplomatic_pact = {
+			country = c:PHI
 			type = dominion
 		}
 	}
