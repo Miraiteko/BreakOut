@@ -214,7 +214,7 @@ POPS = {
 		}
 	}
 	s:STATE_VOLTA = {
-		region_state:HAU = {
+		region_state:DAH = {
 			create_pop = {
 				culture = mossi
 				size = 828400

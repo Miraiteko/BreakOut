@@ -581,7 +581,7 @@
 		}
 	}
 	s:STATE_SINDH = {
-		region_state:HND = {
+		region_state:PAN = {
 			create_pop = {
 				culture = sindi
 				size = 1644600

@@ -231,7 +231,7 @@
 		}
 	}
 	s:STATE_DARFUR={
-		region_state:WAD={
+		region_state:EGY={
 			create_building={
 				building="building_livestock_ranch"
 				level=1

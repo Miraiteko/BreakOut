@@ -283,7 +283,7 @@
 		}
 	}
 	s:STATE_DARFUR = {
-		region_state:WAD = {
+		region_state:EGY = {
 			create_pop = {
 				culture = fur
 				size = 199192

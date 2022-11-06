@@ -644,7 +644,7 @@
 		}
 	}
 	s:STATE_SINDH={
-		region_state:SIN={
+		region_state:PAN={
 			create_building={
 				building="building_fishing_wharf"
 				level=1

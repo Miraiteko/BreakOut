@@ -60,7 +60,7 @@
 		}
 	}
 	s:STATE_VOLTA={
-		region_state:HAU={
+		region_state:DAH={
 		}
 	}
 	s:STATE_LIBERIA={

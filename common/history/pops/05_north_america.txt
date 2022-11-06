@@ -307,7 +307,7 @@
 		}
 	}
 	s:STATE_OKLAHOMA = {
-		region_state:SEQ = {
+		region_state:USA = {
 			create_pop = {
 				culture = siouan
 				size = 2000
@@ -860,23 +860,7 @@
 		}
 	}
 	s:STATE_UTAH = {
-		region_state:MEX = {
-			create_pop = {
-				culture = paiute
-				size = 3000
-			}
-		}
-		region_state:NVJ = {
-			create_pop = {
-				culture = paiute
-				size = 2000
-			}
-			create_pop = {
-				culture = navajo
-				size = 4000
-			}
-		}
-		region_state:UTE = {
+		region_state:USA = {
 			create_pop = {
 				culture = paiute
 				size = 11000
