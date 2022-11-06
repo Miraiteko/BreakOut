@@ -67,6 +67,10 @@
 			type = puppet
 		}
 		create_diplomatic_pact = {
+			country = c:SWI
+			type = dominion
+		}
+		create_diplomatic_pact = {
 			country = c:GER
 			type = protectorate
 		}
@@ -80,7 +84,7 @@
 		}
 		create_diplomatic_pact = {
 			country = c:NET
-			type = protectorate
+			type = dominion
 		}
 		create_diplomatic_pact = {
 			country = c:SPA
@@ -115,71 +119,49 @@
 	c:SWE = {	
 		create_diplomatic_pact = {
 			country = c:NOR
-			type = protectorate
+			type = dominion
 		}
 		create_diplomatic_pact = {
 			country = c:DEN
-			type = protectorate
+			type = dominion
 		}
 	}
 	c:SPA = {
 		create_diplomatic_pact = {
-			country = c:KON
-			type = protectorate
-		}
-		create_diplomatic_pact = {
 			country = c:POR
-			type = protectorate
+			type = dominion
 		}
 	}
 	c:GER = {
 		create_diplomatic_pact = {
-			country = c:MJT
-			type = protectorate
-		}
-		create_diplomatic_pact = {
 			country = c:AUS
-			type = protectorate
+			type = dominion
 		}
 		create_diplomatic_pact = {
 			country = c:POL
-			type = protectorate
+			type = dominion
 		}
 		create_diplomatic_pact = {
 			country = c:HUN
-			type = protectorate
+			type = dominion
 		}
 		create_diplomatic_pact = {
 			country = c:ROM
-			type = protectorate
-		}
-	}
-	c:NET = {
-		create_diplomatic_pact = {
-			country = c:SOK
-			type = protectorate
+			type = dominion
 		}
 	}
 	c:ITA = {
 		create_diplomatic_pact = {
-			country = c:DAH
-			type = protectorate
-		}
-		create_diplomatic_pact = {
-			country = c:SWI
-			type = protectorate
-		}
-		create_diplomatic_pact = {
 			country = c:GRE
-			type = protectorate
+			type = dominion
 		}
 		create_diplomatic_pact = {
 			country = c:CRO
-			type = protectorate
+			type = dominion
 		}
 		create_diplomatic_pact = {
 			country = c:BUL
-			type = protectorate
+			type = dominion
 		}
 	}
 }

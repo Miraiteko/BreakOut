@@ -130,7 +130,7 @@
 		}
 	}
 	s:STATE_TUSCANY = {
-		region_state:TUS = {
+		region_state:ITA = {
 			create_pop = {
 				culture = north_italian
 				size = 1625400
