@@ -734,9 +734,7 @@
 		}
 	}
 	s:STATE_KAZEMBE={
-		region_state:BMB={
-		}
-		region_state:KZM={
+		region_state:ZUL={
 		}
 	}
 	s:STATE_SOMALILAND={
@@ -998,9 +996,7 @@
 				activate_production_methods={ "pm_anchorage" }
 			}
 		}
-		region_state:FNG={
-		}
-		region_state:DLA={
+		region_state:SOK={
 		}
 	}
 	s:STATE_UBANGI_SHARI={
@@ -1029,8 +1025,6 @@
 				reserves=1
 				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
-		}
-		region_state:YKA={
 		}
 	}
 	s:STATE_EQUATEUR={
@@ -1088,23 +1082,15 @@
 	s:STATE_EAST_ANGOLA={
 	}
 	s:STATE_KATANGA={
-		region_state:KZM={
-		}
-		region_state:LND={
-		}
-		region_state:LBA={
+		region_state:ZUL={
 		}
 	}
 	s:STATE_GABON={
-		region_state:FNG={
-		}
 		region_state:KON={
 		}
 	}
 	s:STATE_ZAMBIA={
-		region_state:LZO={
-		}
-		region_state:BMB={
+		region_state:ZUL={
 		}
 	}
 	s:STATE_ZAMBEZIA={
@@ -1130,15 +1116,15 @@
 		}
 	}
 	s:STATE_NAMAQUALAND={
-		region_state:NAM={
+		region_state:SAF={
 		}
 	}
 	s:STATE_HEREROLAND={
-		region_state:HRO={
+		region_state:SAF={
 		}
 	}
 	s:STATE_ZULULAND={
-		region_state:ZUL={
+		region_state:SAF={
 			create_building={
 				building="building_livestock_ranch"
 				level=2
@@ -1152,11 +1138,9 @@
 				activate_production_methods={ "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_irregular_infantry" }
 			}
 		}
-		region_state:BST={
-		}
 	}
 	s:STATE_VRYSTAAT={
-		region_state:ORA={
+		region_state:SAF={
 			create_building={
 				building="building_livestock_ranch"
 				level=1
@@ -1172,7 +1156,7 @@
 		}
 	}
 	s:STATE_TRANSVAAL={
-		region_state:TRN={
+		region_state:SAF={
 			create_building={
 				building="building_millet_farm"
 				level=1
@@ -1258,15 +1242,9 @@
 				activate_production_methods={ "pm_privately_owned" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated" "pm_open_air_stockyards" }
 			}
 		}
-		region_state:TSW={
-		}
-		region_state:WBL={
-		}
 	}
 	s:STATE_BOTSWANA={
-		region_state:TSW={
-		}
-		region_state:LZO={
+		region_state:SAF={
 		}
 	}
 	s:STATE_LOURENCO_MARQUES={

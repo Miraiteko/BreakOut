@@ -1281,7 +1281,7 @@ POPS = {
 		}
 	}
 	s:STATE_KAZEMBE = {
-		region_state:BMB = {
+		region_state:ZUL = {
 			create_pop = {
 				culture = lunda
 				size = 27204
@@ -1306,21 +1306,6 @@ POPS = {
 			create_pop = {
 				culture = nguni
 				size = 20000
-			}
-		}
-		region_state:KZM = {
-			create_pop = {
-				culture = lunda
-				size = 100000
-			}
-			create_pop = {
-				culture = chewa
-				size = 26000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = chewa
-				size = 6000
 			}
 		}
 	}
@@ -1719,7 +1704,7 @@ POPS = {
 				size = 6400
 			}
 		}
-		region_state:FNG = {
+		region_state:SOK = {
 			create_pop = {
 				culture = fang
 				size = 388000
@@ -1737,17 +1722,6 @@ POPS = {
 				pop_type = slaves
 				culture = equatorial_bantu
 				size = 13000
-			}
-		}
-		region_state:DLA = {
-			create_pop = {
-				culture = equatorial_bantu
-				size = 600000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = equatorial_bantu
-				size = 80000
 			}
 		}
 	}
@@ -1864,26 +1838,6 @@ POPS = {
 				size = 30000
 			}
 		}
-		region_state:YKA = {
-			create_pop = {
-				culture = bakongo
-				size = 165000
-			}
-			create_pop = {
-				culture = lunda
-				size = 157500
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = bakongo
-				size = 15000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = lunda
-				size = 10500
-			}
-		}
 	}
 	s:STATE_EQUATEUR = {
 		region_state:KON = {
@@ -1962,7 +1916,7 @@ POPS = {
 		}
 	}
 	s:STATE_KATANGA = {
-		region_state:KZM = {
+		region_state:ZUL = {
 			create_pop = {
 				culture = lunda
 				size = 120400
@@ -1977,51 +1931,9 @@ POPS = {
 				size = 15604
 			}
 		}
-		region_state:LND = {
-			create_pop = {
-				culture = lunda
-				size = 268400
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = lunda
-				size = 12000
-			}
-		}
-		region_state:LBA = {
-			create_pop = {
-				culture = luba
-				size = 2404
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = luba
-				size = 16000
-			}
-		}
 	}
 	s:STATE_GABON = {
-		region_state:FNG = {
-			create_pop = {
-				culture = fang
-				size = 56000
-			}
-			create_pop = {
-				culture = equatorial_bantu
-				size = 60800
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = fang
-				size = 15000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = equatorial_bantu
-				size = 20000
-			}
-		}
-		region_state:KON = {
+		region_state:SOK = {
 			create_pop = {
 				culture = bakongo
 				size = 32000
@@ -2056,7 +1968,7 @@ POPS = {
 		}
 	}
 	s:STATE_ZAMBIA = {
-		region_state:LZO = {
+		region_state:ZUL = {
 			create_pop = {
 				culture = lunda
 				size = 28092
@@ -2223,7 +2135,7 @@ POPS = {
 		}
 	}
 	s:STATE_NAMAQUALAND = {
-		region_state:NAM = {
+		region_state:SAF = {
 			create_pop = {
 				culture = khoisan
 				size = 56000
@@ -2240,7 +2152,7 @@ POPS = {
 		}
 	}
 	s:STATE_HEREROLAND = {
-		region_state:HRO = {
+		region_state:SAF = {
 			create_pop = {
 				culture = herero
 				size = 83996
@@ -2275,7 +2187,7 @@ POPS = {
 		}
 	}
 	s:STATE_ZULULAND = {
-		region_state:ZUL = {
+		region_state:SAF = {
 			create_pop = {
 				culture = zulu
 				size = 567996
@@ -2294,20 +2206,9 @@ POPS = {
 				size = 16000
 			}
 		}
-		region_state:BST = {
-			create_pop = {
-				culture = sotho
-				size = 120096
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = sotho
-				size = 7900
-			}
-		}
 	}
 	s:STATE_VRYSTAAT = {
-		region_state:ORA = {
+		region_state:SAF = {
 			create_pop = {
 				culture = sotho
 				size = 353400
@@ -2328,7 +2229,7 @@ POPS = {
 		}
 	}
 	s:STATE_TRANSVAAL = {
-		region_state:TRN = {
+		region_state:SAF = {
 			create_pop = {
 				culture = sotho
 				size = 271804
@@ -2424,35 +2325,9 @@ POPS = {
 				size = 12000
 			}
 		}
-		region_state:TSW = {
-			create_pop = {
-				culture = tswana
-				size = 120004
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = tswana
-				size = 12000
-			}
-		}
-		region_state:WBL = {
-			create_pop = {
-				culture = khoisan
-				size = 20000
-			}
-			create_pop = {
-				culture = tswana
-				size = 38000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = tswana
-				size = 6000
-			}
-		}
 	}
 	s:STATE_BOTSWANA = {
-		region_state:TSW = {
+		region_state:SAF = {
 			create_pop = {
 				culture = tswana
 				size = 60000
@@ -2469,12 +2344,6 @@ POPS = {
 			create_pop = {
 				culture = nguni
 				size = 4000
-			}
-		}
-		region_state:LZO = {
-			create_pop = {
-				culture = kavango_bantu
-				size = 14560
 			}
 		}
 	}
