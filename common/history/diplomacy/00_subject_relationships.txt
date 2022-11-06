@@ -64,6 +64,10 @@
 			country = c:FIN
 			type = protectorate
 		}
+		create_diplomatic_pact = {
+			country = c:PAN
+			type = protectorate
+		}
 	}
 	c:FRA = {	
 		create_diplomatic_pact = {
@@ -98,10 +102,6 @@
 	c:CHI = {
 		create_diplomatic_pact = {
 			country = c:DAI
-			type = protectorate
-		}
-		create_diplomatic_pact = {
-			country = c:PAN
 			type = protectorate
 		}
 		create_diplomatic_pact = {
@@ -183,6 +183,10 @@
 	c:ISR = {
 		create_diplomatic_pact = {
 			country = c:NEJ
+			type = dominion
+		}
+		create_diplomatic_pact = {
+			country = c:EGY
 			type = dominion
 		}
 	}
