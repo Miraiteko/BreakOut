@@ -8,23 +8,11 @@
 				activate_production_methods={ "pm_anchorage" }
 			}
 		}
-		region_state:BLE={
-		}
-		region_state:KNG={
-		}
-		region_state:AYI={
-		}
 	}
 	s:STATE_WINDWARD_COAST={
-		region_state:KBD={
-		}
-		region_state:BLE={
-		}
-		region_state:KRU={
-		}
 	}
 	s:STATE_SENEGAL={
-		region_state:FRA={
+		region_state:MOR={
 			create_building={
 				building="building_sugar_plantation"
 				level=2
@@ -38,27 +26,9 @@
 				activate_production_methods={ "pm_anchorage" }
 			}
 		}
-		region_state:JLF={
-		}
-		region_state:CAY={
-		}
-		region_state:FTR={
-			create_building={
-				building="building_millet_farm"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" "pm_privately_owned" }
-			}
-			create_building={
-				building="building_barracks"
-				level=5
-				reserves=1
-				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
-			}
-		}
 	}
 	s:STATE_GAMBIA={
-		region_state:POR={
+		region_state:SIL={
 			create_building={
 				building="building_millet_farm"
 				level=2
@@ -71,14 +41,6 @@
 				reserves=1
 				activate_production_methods={ "pm_anchorage" }
 			}
-		}
-		region_state:GBR={
-		}
-		region_state:SRR={
-		}
-		region_state:BND={
-		}
-		region_state:KBU={
 		}
 	}
 	s:STATE_SIERRA_LEONE={
@@ -98,13 +60,11 @@
 		}
 	}
 	s:STATE_VOLTA={
-		region_state:MOS={
-		}
-		region_state:KNG={
+		region_state:HAU={
 		}
 	}
 	s:STATE_LIBERIA={
-		region_state:LIB={
+		region_state:SIL={
 			create_building={
 				building="building_millet_farm"
 				level=1
@@ -166,7 +126,7 @@
 		}
 	}
 	s:STATE_BENIN={
-		region_state:BEN={
+		region_state:SOK={
 			create_building={
 				building="building_millet_farm"
 				level=2
@@ -188,7 +148,7 @@
 		}
 	}
 	s:STATE_YORUBA_STATES={
-		region_state:OYO={
+		region_state:DAH={
 			create_building={
 				building="building_millet_farm"
 				level=2
@@ -210,11 +170,11 @@
 		}
 	}
 	s:STATE_NIGER_DELTA={
-		region_state:IBO={
+		region_state:SOK={
 		}
 	}
 	s:STATE_OUTER_HAUSALAND={
-		region_state:HAU={
+		region_state:SOK={
 			create_building={
 				building="building_livestock_ranch"
 				level=2
@@ -228,7 +188,7 @@
 				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
 		}
-		region_state:BOR={
+		region_state:WAD={
 			create_building={
 				building="building_livestock_ranch"
 				level=1
@@ -238,7 +198,7 @@
 		}
 	}
 	s:STATE_BORNU={
-		region_state:BOR={
+		region_state:WAD={
 			create_building={
 				building="building_millet_farm"
 				level=2
@@ -310,11 +270,7 @@
 		}
 	}
 	s:STATE_GUINEA={
-		region_state:MDK={
-		}
-		region_state:SSU={
-		}
-		region_state:FTJ={
+		region_state:SIL={
 			create_building={
 				building="building_millet_farm"
 				level=1
@@ -346,7 +302,7 @@
 				activate_production_methods={ "pm_anchorage" }
 			}
 		}
-		region_state:ASH={
+		region_state:DAH={
 			create_building={
 				building="building_livestock_ranch"
 				level=1
@@ -362,7 +318,7 @@
 		}
 	}
 	s:STATE_TOGO={
-		region_state:DEN={
+		region_state:DAH={
 			create_building={
 				building="building_dye_plantation"
 				level=1
@@ -375,16 +331,12 @@
 				reserves=1
 				activate_production_methods={ "pm_basic_port" }
 			}
-		}
-		region_state:ASH={
 			create_building={
 				building="building_barracks"
 				level=15
 				reserves=1
 				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}		
-		}
-		region_state:EWE={
 		}
 	}
 	s:STATE_DAHOMEY={
@@ -1018,7 +970,7 @@
 				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
 		}
-		region_state:BGI={
+		region_state:WAD={
 			create_building={
 				building="building_barracks"
 				level=2
@@ -1058,9 +1010,7 @@
 		}
 	}
 	s:STATE_UBANGI_SHARI={
-		region_state:DAK={
-		}
-		region_state:ZND={
+		region_state:WAD={
 		}
 	}
 	s:STATE_CONGO={

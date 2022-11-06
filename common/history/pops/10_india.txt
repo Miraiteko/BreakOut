@@ -453,8 +453,6 @@
 				religion = hindu
 				size = 2656912
 			}
-		}
-		region_state:HND = {
 			create_pop = {
 				culture = nepali
 				size = 405027

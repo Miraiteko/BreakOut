@@ -1,4 +1,4 @@
-﻿POPS = {
+POPS = {
 	s:STATE_IVORY_COAST = {
 		region_state:FRA = {
 			create_pop = {
@@ -6,16 +6,14 @@
 				size = 88000
 			}
 		}
-		region_state:BLE = {
-			create_pop = {
-				culture = akan
-				size = 40000
-			}
-		}
-		region_state:KNG = {
+		region_state:DAH = {
 			create_pop = {
 				culture = akan
 				size = 52004
+			}
+			create_pop = {
+				culture = akan
+				size = 40000
 			}
 			create_pop = {
 				culture = senufo
@@ -30,8 +28,6 @@
 				culture = akan
 				size = 20004
 			}
-		}
-		region_state:AYI = {
 			create_pop = {
 				culture = akan
 				size = 79200
@@ -44,7 +40,7 @@
 		}
 	}
 	s:STATE_WINDWARD_COAST = {
-		region_state:KBD = {
+		region_state:SIL = {
 			create_pop = {
 				culture = mande
 				size = 70000
@@ -63,8 +59,6 @@
 				culture = dyula
 				size = 5000
 			}
-		}
-		region_state:BLE = {
 			create_pop = {
 				culture = akan
 				size = 99996
@@ -78,8 +72,6 @@
 				culture = mande
 				size = 11100
 			}
-		}
-		region_state:KRU = {
 			create_pop = {
 				culture = kru
 				size = 215004
@@ -92,7 +84,7 @@
 		}
 	}
 	s:STATE_SENEGAL = {
-		region_state:FRA = {
+		region_state:MOR = {
 			create_pop = {
 				culture = fulbe
 				size = 95992
@@ -105,8 +97,6 @@
 				culture = wolof
 				size = 32000
 			}
-		}
-		region_state:JLF = {
 			create_pop = {
 				culture = wolof
 				size = 107600
@@ -116,8 +106,6 @@
 				culture = wolof
 				size = 6000
 			}
-		}
-		region_state:CAY = {
 			create_pop = {
 				culture = wolof
 				size = 82000
@@ -127,8 +115,6 @@
 				culture = wolof
 				size = 8000
 			}
-		}
-		region_state:FTR = {
 			create_pop = {
 				culture = fulbe
 				size = 80004
@@ -150,7 +136,7 @@
 		}
 	}
 	s:STATE_GAMBIA = {
-		region_state:POR = {
+		region_state:SIL = {
 			create_pop = {
 				culture = fulbe
 				size = 552304
@@ -159,8 +145,6 @@
 				culture = mande
 				size = 127996
 			}
-		}
-		region_state:GBR = {
 			create_pop = {
 				culture = mande
 				size = 91540
@@ -173,8 +157,6 @@
 				culture = wolof
 				size = 22860
 			}
-		}
-		region_state:SRR = {
 			create_pop = {
 				culture = mande
 				religion = animist
@@ -190,8 +172,6 @@
 				culture = mande
 				size = 8000
 			}
-		}
-		region_state:BND = {
 			create_pop = {
 				culture = mande
 				size = 96000
@@ -209,8 +189,6 @@
 				culture = bambara
 				size = 10000
 			}
-		}
-		region_state:KBU = {
 			create_pop = {
 				culture = mande
 				religion = animist
@@ -249,7 +227,7 @@
 		}
 	}
 	s:STATE_VOLTA = {
-		region_state:MOS = {
+		region_state:HAU = {
 			create_pop = {
 				culture = mossi
 				size = 828400
@@ -277,8 +255,6 @@
 				religion = animist
 				size = 18000
 			}
-		}
-		region_state:KNG = {
 			create_pop = {
 				culture = dyula
 				size = 19996
@@ -301,7 +277,7 @@
 		}
 	}
 	s:STATE_LIBERIA = {
-		region_state:LIB = {
+		region_state:SIL = {
 			create_pop = {
 				culture = kru
 				size = 414200
@@ -390,7 +366,7 @@
 		}
 	}
 	s:STATE_BENIN = {
-		region_state:BEN = {
+		region_state:SOK = {
 			create_pop = {
 				culture = edo
 				size = 493792
@@ -419,7 +395,7 @@
 		}
 	}
 	s:STATE_YORUBA_STATES = {
-		region_state:OYO = {
+		region_state:DAH = {
 			create_pop = {
 				culture = yoruba
 				size = 1548008
@@ -432,7 +408,7 @@
 		}
 	}
 	s:STATE_NIGER_DELTA = {
-		region_state:IBO = {
+		region_state:SOK = {
 			create_pop = {
 				culture = ibo
 				size = 1048000
@@ -463,7 +439,7 @@
 		}
 	}
 	s:STATE_OUTER_HAUSALAND = {
-		region_state:HAU = {
+		region_state:SOK = {
 			create_pop = {
 				culture = hausa
 				size = 296400
@@ -504,7 +480,7 @@
 				size = 15000
 			}
 		}
-		region_state:BOR = {
+		region_state:WAD = {
 			create_pop = {
 				culture = kanuri
 				size = 88000
@@ -521,7 +497,7 @@
 		}
 	}
 	s:STATE_BORNU = {
-		region_state:BOR = {
+		region_state:WAD = {
 			create_pop = {
 				culture = kanuri
 				size = 423988
@@ -640,7 +616,7 @@
 		}
 	}
 	s:STATE_GUINEA = {
-		region_state:MDK = {
+		region_state:SIL = {
 			create_pop = {
 				culture = mande
 				size = 158836
@@ -663,8 +639,6 @@
 				culture = fulbe
 				size = 1000
 			}
-		}
-		region_state:SSU = {
 			create_pop = {
 				culture = mande
 				size = 316000
@@ -678,8 +652,6 @@
 				culture = fulbe
 				size = 8000
 			}
-		}
-		region_state:FTJ = {
 			create_pop = {
 				culture = fulbe
 				size = 296360
@@ -725,7 +697,7 @@
 				size = 4220
 			}
 		}
-		region_state:ASH = {
+		region_state:DAH = {
 			create_pop = {
 				culture = akan
 				size = 436308
@@ -746,21 +718,7 @@
 		}
 	}
 	s:STATE_TOGO = {
-		region_state:DEN = {
-			create_pop = {
-				culture = akan
-				size = 116308
-			}
-			create_pop = {
-				culture = ewe
-				size = 115996
-			}
-			create_pop = {
-				culture = mossi
-				size = 47996
-			}
-		}
-		region_state:ASH = {
+		region_state:DAH = {
 			create_pop = {
 				culture = ewe
 				size = 20000
@@ -781,17 +739,6 @@
 				pop_type = slaves
 				culture = fon
 				size = 64004
-			}
-		}
-		region_state:EWE = {
-			create_pop = {
-				culture = ewe
-				size = 355996
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = ewe
-				size = 28000
 			}
 		}
 	}
@@ -1765,8 +1712,6 @@
 				culture = equatorial_bantu
 				size = 15000
 			}
-		}
-		region_state:BGI = {
 			create_pop = {
 				culture = baguirmi
 				size = 31992
@@ -1865,7 +1810,7 @@
 		}
 	}
 	s:STATE_UBANGI_SHARI = {
-		region_state:DAK = {
+		region_state:WAD = {
 			create_pop = {
 				culture = equatorial_bantu
 				size = 283400
@@ -1884,8 +1829,6 @@
 				culture = baguirmi
 				size = 4000
 			}
-		}
-		region_state:ZND = {
 			create_pop = {
 				culture = equatorial_bantu
 				size = 18000
