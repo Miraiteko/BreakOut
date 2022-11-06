@@ -1992,21 +1992,6 @@ POPS = {
 				size = 3000
 			}
 		}
-		region_state:BMB = {
-			create_pop = {
-				culture = lacustrine_bantu
-				size = 48136
-			}
-			create_pop = {
-				culture = lunda
-				size = 5000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = lunda
-				size = 3000
-			}
-		}
 	}
 	s:STATE_ZAMBEZIA = {
 		region_state:POR = {
@@ -2031,7 +2016,7 @@ POPS = {
 				size = 12004
 			}
 		}
-		region_state:MSK = {
+		region_state:ZUL = {
 			create_pop = {
 				culture = shona
 				size = 196400
@@ -2050,33 +2035,9 @@ POPS = {
 				size = 5000
 			}
 		}
-		region_state:MNC = {
-			create_pop = {
-				culture = shona
-				size = 200000
-			}
-			create_pop = {
-				culture = sena
-				size = 22000
-			}
-			create_pop = {
-				culture = lacustrine_bantu
-				size = 6000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = sena
-				size = 8000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = lacustrine_bantu
-				size = 2000
-			}
-		}
 	}
 	s:STATE_ZAMBEZI = {
-		region_state:MTB = {
+		region_state:ZUL = {
 			create_pop = {
 				culture = shona
 				size = 120000
@@ -2101,36 +2062,6 @@ POPS = {
 				pop_type = slaves
 				culture = lacustrine_bantu
 				size = 15000
-			}
-		}
-		region_state:MSH = {
-			create_pop = {
-				culture = shona
-				size = 120000
-			}
-			create_pop = {
-				culture = lacustrine_bantu
-				size = 10000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = lacustrine_bantu
-				size = 10000
-			}
-		}
-		region_state:MNC = {
-			create_pop = {
-				culture = shona
-				size = 56000
-			}
-			create_pop = {
-				culture = lacustrine_bantu
-				size = 28000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = lacustrine_bantu
-				size = 8000
 			}
 		}
 	}
