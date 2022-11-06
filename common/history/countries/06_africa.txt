@@ -1,0 +1,75 @@
+﻿COUNTRIES = {
+ #开拓南蛮
+	c:MOR = { #淮
+		effect_starting_politics_reactionary = yes
+		add_era_researched = era_1
+	}
+	c:SIL = { #舒鲍
+		effect_starting_politics_reactionary = yes
+		add_era_researched = era_1
+	}
+	c:DAH = { #舒庸
+		effect_starting_politics_reactionary = yes
+		add_era_researched = era_1
+	}
+	c:SOK = { #舒龙
+		effect_starting_politics_reactionary = yes
+		add_era_researched = era_1
+	}
+	c:WAD = { #舒鸠
+		effect_starting_politics_reactionary = yes
+		add_era_researched = era_1
+	}
+	c:KON = { #西瓯
+		effect_starting_politics_reactionary = yes
+		add_era_researched = era_1
+	}
+	c:ZUL = { #夜郎
+		effect_starting_politics_reactionary = yes
+		add_era_researched = era_1
+	}
+	c:SAF = { #南瓯
+		effect_starting_politics_reactionary = yes
+		add_era_researched = era_1
+	}
+	c:BUG = { #百濮
+		effect_starting_politics_reactionary = yes
+		add_era_researched = era_1
+	}
+	c:SHW = { #英
+		effect_starting_politics_reactionary = yes
+		add_era_researched = era_1
+	}
+	c:MJT = { #轸
+		effect_starting_politics_reactionary = yes
+		add_era_researched = era_1
+	}
+	c:CAN = { #梁
+		effect_starting_politics_reactionary = yes
+		add_era_researched = era_1
+		add_era_researched = era_2
+		add_era_researched = era_3
+	}
+	c:MEX = { #中山
+		effect_starting_politics_reactionary = yes
+		add_era_researched = era_1
+		add_era_researched = era_2
+	}
+	c:BRZ = { #鲜虞
+		effect_starting_politics_reactionary = yes
+		add_era_researched = era_1
+		add_era_researched = era_2
+	}
+	c:CLM = { #白狄
+		effect_starting_politics_reactionary = yes
+		add_era_researched = era_1
+	}
+	c:PEU = { #赤狄
+		effect_starting_politics_reactionary = yes
+		add_era_researched = era_1
+	}
+	c:ARG = { #仇由
+		effect_starting_politics_reactionary = yes
+		add_era_researched = era_1
+	}
+}

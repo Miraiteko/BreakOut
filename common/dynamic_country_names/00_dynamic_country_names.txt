@@ -1499,3 +1499,269 @@ ARG = { #仇由
 		}
 	}
 }
+
+ #开拓南蛮
+MOR = { #淮
+	dynamic_country_name = {
+		name = GREAT_MOR
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { country_rank >= rank_value:great_power }
+		}
+	}
+	dynamic_country_name = {
+		name = SUBJECT_MOR
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { is_true_subject = yes }
+		}
+	}
+}
+SIL = { #舒鲍
+	dynamic_country_name = {
+		name = GREAT_SIL
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { country_rank >= rank_value:great_power }
+		}
+	}
+	dynamic_country_name = {
+		name = SUBJECT_SIL
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { is_true_subject = yes }
+		}
+	}
+}
+DAH = { #舒庸
+	dynamic_country_name = {
+		name = GREAT_DAH
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { country_rank >= rank_value:great_power }
+		}
+	}
+	dynamic_country_name = {
+		name = SUBJECT_DAH
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { is_true_subject = yes }
+		}
+	}
+}
+SOK = { #舒龙
+	dynamic_country_name = {
+		name = GREAT_SOK
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { country_rank >= rank_value:great_power }
+		}
+	}
+	dynamic_country_name = {
+		name = SUBJECT_SOK
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { is_true_subject = yes }
+		}
+	}
+}
+WAD = { #舒鸠
+	dynamic_country_name = {
+		name = GREAT_WAD
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { country_rank >= rank_value:great_power }
+		}
+	}
+	dynamic_country_name = {
+		name = SUBJECT_WAD
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { is_true_subject = yes }
+		}
+	}
+}
+KON = { #西瓯
+	dynamic_country_name = {
+		name = GREAT_KON
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { country_rank >= rank_value:great_power }
+		}
+	}
+	dynamic_country_name = {
+		name = SUBJECT_KON
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { is_true_subject = yes }
+		}
+	}
+}
+ZUL = { #夜郎
+	dynamic_country_name = {
+		name = GREAT_ZUL
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { country_rank >= rank_value:great_power }
+		}
+	}
+	dynamic_country_name = {
+		name = SUBJECT_ZUL
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { is_true_subject = yes }
+		}
+	}
+}
+SAF = { #南瓯
+	dynamic_country_name = {
+		name = GREAT_SAF
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { country_rank >= rank_value:great_power }
+		}
+	}
+	dynamic_country_name = {
+		name = SUBJECT_SAF
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { is_true_subject = yes }
+		}
+	}
+}
+BUG = { #百濮
+	dynamic_country_name = {
+		name = GREAT_BUG
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { country_rank >= rank_value:great_power }
+		}
+	}
+	dynamic_country_name = {
+		name = SUBJECT_BUG
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { is_true_subject = yes }
+		}
+	}
+}
+SHW = { #英
+	dynamic_country_name = {
+		name = GREAT_SHW
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { country_rank >= rank_value:great_power }
+		}
+	}
+	dynamic_country_name = {
+		name = SUBJECT_SHW
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { is_true_subject = yes }
+		}
+	}
+}
+MJT = { #轸
+	dynamic_country_name = {
+		name = GREAT_MJT
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { country_rank >= rank_value:great_power }
+		}
+	}
+	dynamic_country_name = {
+		name = SUBJECT_MJT
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = { is_true_subject = yes }
+		}
+	}
+}

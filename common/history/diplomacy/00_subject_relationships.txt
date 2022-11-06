@@ -28,6 +28,10 @@
 			country = c:ISR
 			type = protectorate
 		}
+		create_diplomatic_pact = {
+			country = c:SIL
+			type = protectorate
+		}
 	}
 	c:GBR = {
 		create_diplomatic_pact = {
@@ -44,6 +48,10 @@
 		}
 		create_diplomatic_pact = {
 			country = c:HND
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:SAF
 			type = protectorate
 		}
 	}
@@ -70,6 +78,10 @@
 		}
 	}
 	c:FRA = {	
+		create_diplomatic_pact = {
+			country = c:MOR
+			type = puppet
+		}
 		create_diplomatic_pact = {
 			country = c:GER
 			type = protectorate
@@ -138,6 +150,30 @@
 		}
 		create_diplomatic_pact = {
 			country = c:SIA
+			type = protectorate
+		}
+	}
+	c:SPA = {
+		create_diplomatic_pact = {
+			country = c:KON
+			type = protectorate
+		}
+	}
+	c:GER = {
+		create_diplomatic_pact = {
+			country = c:MJT
+			type = protectorate
+		}
+	}
+	c:NET = {
+		create_diplomatic_pact = {
+			country = c:SOK
+			type = protectorate
+		}
+	}
+	c:ITA = {
+		create_diplomatic_pact = {
+			country = c:DAH
 			type = protectorate
 		}
 	}
