@@ -1574,7 +1574,7 @@ POPS = {
 		}
 	}
 	s:STATE_GABON = {
-		region_state:SOK = {
+		region_state:KON = {
 			create_pop = {
 				culture = bakongo
 				size = 32000
