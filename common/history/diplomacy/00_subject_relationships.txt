@@ -13,18 +13,6 @@
 			type = dominion
 		}
 		create_diplomatic_pact = {
-			country = c:POL
-			type = protectorate
-		}
-		create_diplomatic_pact = {
-			country = c:HUN
-			type = protectorate
-		}
-		create_diplomatic_pact = {
-			country = c:ROM
-			type = protectorate
-		}
-		create_diplomatic_pact = {
 			country = c:ISR
 			type = protectorate
 		}
@@ -72,10 +60,6 @@
 			country = c:FIN
 			type = protectorate
 		}
-		create_diplomatic_pact = {
-			country = c:BUL
-			type = protectorate
-		}
 	}
 	c:FRA = {	
 		create_diplomatic_pact = {
@@ -87,10 +71,6 @@
 			type = protectorate
 		}
 		create_diplomatic_pact = {
-			country = c:AUS
-			type = protectorate
-		}
-		create_diplomatic_pact = {
 			country = c:ITA
 			type = protectorate
 		}
@@ -99,31 +79,7 @@
 			type = protectorate
 		}
 		create_diplomatic_pact = {
-			country = c:NOR
-			type = protectorate
-		}
-		create_diplomatic_pact = {
-			country = c:DEN
-			type = protectorate
-		}
-		create_diplomatic_pact = {
-			country = c:SWI
-			type = protectorate
-		}
-		create_diplomatic_pact = {
-			country = c:GRE
-			type = protectorate
-		}
-		create_diplomatic_pact = {
-			country = c:CRO
-			type = protectorate
-		}
-		create_diplomatic_pact = {
 			country = c:NET
-			type = protectorate
-		}
-		create_diplomatic_pact = {
-			country = c:POR
 			type = protectorate
 		}
 		create_diplomatic_pact = {
@@ -153,15 +109,48 @@
 			type = protectorate
 		}
 	}
+
+
+	#中原大国
+	c:SWE = {	
+		create_diplomatic_pact = {
+			country = c:NOR
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:DEN
+			type = protectorate
+		}
+	}
 	c:SPA = {
 		create_diplomatic_pact = {
 			country = c:KON
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:POR
 			type = protectorate
 		}
 	}
 	c:GER = {
 		create_diplomatic_pact = {
 			country = c:MJT
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:AUS
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:POL
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:HUN
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:ROM
 			type = protectorate
 		}
 	}
@@ -174,6 +163,22 @@
 	c:ITA = {
 		create_diplomatic_pact = {
 			country = c:DAH
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:SWI
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:GRE
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:CRO
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:BUL
 			type = protectorate
 		}
 	}
