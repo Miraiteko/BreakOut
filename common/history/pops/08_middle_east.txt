@@ -11,7 +11,6 @@
 				size = 22000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = sudanese
 				religion = animist
 				size = 7000
@@ -49,13 +48,11 @@
 				size = 400
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = sudanese
 				religion = animist
 				size = 7000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = lacustrine_bantu
 				size = 9000
 			}
@@ -69,7 +66,6 @@
 				size = 52900
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = sudanese
 				religion = animist
 				size = 3200
@@ -112,7 +108,6 @@
 				size = 230
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = sudanese
 				religion = animist
 				size = 100
@@ -135,7 +130,6 @@
 				size = 5200
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = sudanese
 				religion = animist
 				size = 2430
@@ -150,7 +144,6 @@
 	s:STATE_YEMEN = {
 		region_state:OMA = {
 			create_pop = {
-				pop_type = slaves
 				culture = sudanese
 				religion = animist
 				size = 32800
@@ -176,7 +169,6 @@
 				size = 16000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = sudanese
 				religion = animist
 				size = 8200
@@ -206,7 +198,6 @@
 				size = 33000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = sudanese
 				religion = animist
 				size = 3200
@@ -221,13 +212,11 @@
 				size = 142000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = sudanese
 				religion = animist
 				size = 28000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = north_caucasian
 				size = 3000
 			}
@@ -260,12 +249,10 @@
 				size = 5000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = north_caucasian
 				size = 100
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = sudanese
 				size = 2300
 			}
@@ -279,12 +266,10 @@
 				size = 38040
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = north_caucasian
 				size = 200
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = sudanese
 				size = 3600
 			}
@@ -311,12 +296,10 @@
 				size = 859
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = north_caucasian
 				size = 360
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = lacustrine_bantu
 				size = 3000
 			}
@@ -350,12 +333,10 @@
 				size = 1600
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = north_caucasian
 				size = 100
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = lacustrine_bantu
 				size = 300
 			}
@@ -398,12 +379,10 @@
 				size = 1400
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = north_caucasian
 				size = 1200
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = lacustrine_bantu
 				size = 2300
 			}
@@ -455,12 +434,10 @@
 				size = 6000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = north_caucasian
 				size = 2000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = lacustrine_bantu
 				size = 3000
 			}
@@ -498,12 +475,10 @@
 				size = 8000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = north_caucasian
 				size = 3000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = lacustrine_bantu
 				size = 4000
 			}
@@ -560,12 +535,10 @@
 				size = 12000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = north_caucasian
 				size = 4000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = lacustrine_bantu
 				size = 9000
 			}
@@ -610,12 +583,10 @@
 				size = 16004
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = north_caucasian
 				size = 5000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = lacustrine_bantu
 				size = 10000
 			}
@@ -646,12 +617,10 @@
 				size = 16000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = north_caucasian
 				size = 3200
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = lacustrine_bantu
 				size = 1300
 			}
@@ -678,12 +647,10 @@
 				size = 16000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = north_caucasian
 				size = 300
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = lacustrine_bantu
 				size = 200
 			}
@@ -710,12 +677,10 @@
 				size = 52004
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = north_caucasian
 				size = 2000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = lacustrine_bantu
 				size = 13000
 			}
@@ -738,7 +703,6 @@
 			create_pop = {
 				culture = sephardic
 				size = 25650
-				pop_type = slaves
 			}
 		}
 	}
@@ -755,12 +719,10 @@
 			create_pop = {
 				culture = somali
 				size = 8920
-				pop_type = slaves
 			}
 			create_pop = {
 				culture = bambara
 				size = 8720
-				pop_type = slaves
 			}
 		}
 		region_state:OMA = {
@@ -775,12 +737,10 @@
 			create_pop = {
 				culture = somali
 				size = 2000
-				pop_type = slaves
 			}
 			create_pop = {
 				culture = bambara
 				size = 2200
-				pop_type = slaves
 			}
 		}
 	}
@@ -797,7 +757,6 @@
 			create_pop = {
 				culture = somali
 				size = 9750
-				pop_type = slaves
 			}
 		}
 	}
@@ -818,7 +777,6 @@
 			create_pop = {
 				culture = sephardic
 				size = 22444
-				pop_type = slaves
 			}
 		}
 	}
@@ -839,7 +797,6 @@
 			create_pop = {
 				culture = sephardic
 				size = 20400
-				pop_type = slaves
 			}
 		}
 	}
@@ -860,7 +817,6 @@
 			create_pop = {
 				culture = armenian
 				size = 39648
-				pop_type = slaves
 			}
 		}
 	}
@@ -877,7 +833,6 @@
 			create_pop = {
 				culture = azerbaijani
 				size = 33600
-				pop_type = slaves
 			}
 		}
 	}
@@ -898,12 +853,10 @@
 			create_pop = {
 				culture = armenian
 				size = 25887
-				pop_type = slaves
 			}
 			create_pop = {
 				culture = sephardic
 				size = 12943
-				pop_type = slaves
 			}
 		}
 	}
@@ -942,7 +895,6 @@
 			create_pop = {
 				culture = azerbaijani
 				size = 132207
-				pop_type = slaves
 			}
 			create_pop = {
 				culture = assyrian
@@ -976,7 +928,6 @@
 			create_pop = {
 				culture = armenian
 				size = 23848
-				pop_type = slaves
 			}
 		}
 	}
@@ -1008,12 +959,10 @@
 				size = 2100
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = north_caucasian
 				size = 2000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = lacustrine_bantu
 				size = 3000
 			}
@@ -1051,12 +1000,10 @@
 				size = 240
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = north_caucasian
 				size = 2400
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = lacustrine_bantu
 				size = 6100
 			}
@@ -1085,12 +1032,10 @@
 				size = 50948
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = north_caucasian
 				size = 100
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = lacustrine_bantu
 				size = 1200
 			}
@@ -1111,12 +1056,10 @@
 				size = 404
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = north_caucasian
 				size = 3000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = lacustrine_bantu
 				size = 1200
 			}
@@ -1147,12 +1090,10 @@
 				size = 219482
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = north_caucasian
 				size = 5000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = lacustrine_bantu
 				size = 1000
 			}
@@ -1182,12 +1123,10 @@
 				size = 801
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = north_caucasian
 				size = 400
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = lacustrine_bantu
 				size = 1000
 			}
@@ -1204,12 +1143,10 @@
 				size = 1003
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = north_caucasian
 				size = 100
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = lacustrine_bantu
 				size = 400
 			}
@@ -1240,17 +1177,14 @@
 				size = 40320
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = north_caucasian
 				size = 8732
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = lacustrine_bantu
 				size = 291
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = georgian
 				size = 4341
 			}
@@ -1284,17 +1218,14 @@
 				size = 4010
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = north_caucasian
 				size = 4300
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = lacustrine_bantu
 				size = 500
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = georgian
 				size = 700
 			}
@@ -1329,12 +1260,10 @@
 				size = 15000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = north_caucasian
 				size = 2300
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = georgian
 				size = 1400
 			}
@@ -1380,17 +1309,14 @@
 				size = 230
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = north_caucasian
 				size = 1000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = lacustrine_bantu
 				size = 300
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = georgian
 				size = 400
 			}

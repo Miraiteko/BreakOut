@@ -1072,7 +1072,6 @@
 				size = 1393304
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = romanian
 				size = 10000
 			}
@@ -1085,7 +1084,6 @@
 				size = 1094208
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = romanian
 				size = 10000
 			}

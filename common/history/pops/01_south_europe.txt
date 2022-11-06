@@ -434,12 +434,10 @@
 				size = 50004
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = north_caucasian
 				size = 6000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = lacustrine_bantu
 				size = 16000
 			}
@@ -842,12 +840,10 @@
 				size = 57204
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = north_caucasian
 				size = 200
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = lacustrine_bantu
 				size = 700
 			}
@@ -868,12 +864,10 @@
 				size = 80000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = north_caucasian
 				size = 300
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = lacustrine_bantu
 				size = 1500
 			}

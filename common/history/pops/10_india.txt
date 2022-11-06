@@ -15,12 +15,10 @@
 				size = 1210301
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = bihari
 				size = 120300
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = bihari
 				religion = sunni
 				size = 50091
@@ -39,13 +37,11 @@
 				size = 8644162
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = bengali
 				religion = hindu
 				size = 420100
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = bengali
 				size = 210002
 			}
@@ -80,24 +76,20 @@
 				size = 210000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = assamese
 				religion = hindu
 				size = 60400
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = thai
 				religion = animist
 				size = 50200
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = manipuri
 				size = 30004
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = bengali
 				size = 10000
 			}
@@ -141,30 +133,25 @@
 				size = 82020
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = avadhi
 				religion = hindu
 				size = 100200
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = kanauji
 				size = 130000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = kanauji
 				religion = sunni
 				size = 40000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = panjabi
 				religion = sunni
 				size = 70300
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = nepali
 				size = 10000
 			}
@@ -187,13 +174,11 @@
 				size = 382000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = avadhi
 				religion = hindu
 				size = 104000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = avadhi
 				size = 34000
 			}
@@ -220,23 +205,19 @@
 				size = 201404
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = avadhi
 				religion = hindu
 				size = 50008
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = nepali
 				size = 10000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = kanauji
 				size = 32000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = avadhi
 				size = 24000
 			}
@@ -262,18 +243,15 @@
 				size = 318300
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = gujarati
 				size = 110000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = gujarati
 				religion = animist
 				size = 6000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = sindi
 				size = 30088
 			}
@@ -286,12 +264,10 @@
 				size = 26200
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = gujarati
 				size = 20000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = sindi
 				size = 2200
 			}
@@ -308,12 +284,10 @@
 				size = 26000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = marathi
 				size = 68033 
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = avadhi
 				size = 2000
 			}
@@ -331,18 +305,15 @@
 				size = 466800
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = kanauji
 				size = 40200 
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = kanauji
 				religion = animist
 				size = 30000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = avadhi
 				size = 3000 
 			}
@@ -355,12 +326,10 @@
 				size = 55002
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = marathi
 				size = 63000 
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = marathi
 				size = 5002
 			}
@@ -373,12 +342,10 @@
 				size = 11000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = marathi
 				size = 30000 
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = avadhi
 				size = 1000 
 			}
@@ -395,12 +362,10 @@
 				size = 139908
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = marathi
 				size = 100900 
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = avadhi
 				size = 20080 
 			}
@@ -472,18 +437,15 @@
 				size = 3072
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = nepali
 				size = 21000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = panjabi
 				religion = sunni
 				size = 3000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = panjabi
 				religion = hindu
 				size = 30200
@@ -502,12 +464,10 @@
 				size = 144737
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = kanauji
 				size = 20020
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = kanauji
 				religion = animist
 				size = 11000
@@ -521,12 +481,10 @@
 				size = 88386
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = marathi
 				size = 50000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = avadhi
 				size = 6000
 			}
@@ -544,17 +502,14 @@
 				size = 1214700
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = marathi
 				size = 50200
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = avadhi
 				size = 20700
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = kanauji
 				religion = animist
 				size = 50071
@@ -574,19 +529,16 @@
 				size = 150301
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = telegu
 				religion = animist
 				size = 20070
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = telegu
 				religion = sunni
 				size = 2000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = telegu
 				size = 25070
 			}
@@ -613,19 +565,16 @@
 				size = 18520
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = bengali
 				religion = hindu
 				size = 200310
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = bengali
 				religion = animist
 				size = 10007
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = bengali
 				size = 60063
 			}
@@ -648,12 +597,10 @@
 				size = 248000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = lacustrine_bantu
 				size = 31000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = sindi
 				size = 12000
 			}
@@ -670,12 +617,10 @@
 				size = 31000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = rajput
 				size = 31000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = avadhi
 				size = 1000
 			}
@@ -688,12 +633,10 @@
 				size = 29000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = rajput
 				size = 20900
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = avadhi
 				size = 3000
 			}
@@ -706,12 +649,10 @@
 				size = 16042
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = rajput
 				size = 50050
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = avadhi
 				size = 2100
 			}
@@ -724,12 +665,10 @@
 				size = 80665
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = rajput
 				size = 50000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = avadhi
 				size = 4000
 			}
@@ -746,12 +685,10 @@
 				size = 48
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = rajput
 				size = 22000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = avadhi
 				size = 30010
 			}
@@ -801,12 +738,10 @@
 				size = 12000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = tamil
 				size = 21000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = sinhala
 				size = 6400
 			}
@@ -867,7 +802,6 @@
 				size = 176396
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = oriya
 				size = 20200
 			}
@@ -884,7 +818,6 @@
 				size = 4400
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = oriya
 				size = 30900
 			}
@@ -915,12 +848,10 @@
 				size = 8598
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = telegu
 				size = 50000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = kannada
 				size = 10000
 			}
@@ -938,7 +869,6 @@
 				size = 133290
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = kannada
 				size = 20000
 			}
@@ -952,7 +882,6 @@
 				size = 127438
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = kannada
 				size = 60000
 			}
@@ -985,7 +914,6 @@
 				size = 84400
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = malayalam
 				size = 90000
 			}
@@ -1009,7 +937,6 @@
 				size = 148004
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = malayalam
 				size = 40000
 			}
@@ -1060,12 +987,10 @@
 				size = 109374
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = tamil
 				size = 250000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = kannada
 				size = 34000
 			}
@@ -1096,22 +1021,18 @@
 				size = 1164904
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = telegu
 				size = 40000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = avadhi
 				size = 33000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = marathi
 				size = 30000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = kannada
 				size = 60000
 			}
@@ -1176,7 +1097,6 @@
 				size = 45504
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = marathi
 				size = 41000
 			}

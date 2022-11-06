@@ -20,7 +20,6 @@ POPS = {
 				size = 12000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = afro_caribeno
 				size = 84429
 			}		
@@ -91,7 +90,6 @@ POPS = {
 				size = 72200
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = afro_caribeno
 				size = 25300
 			}
@@ -118,7 +116,6 @@ POPS = {
 				size = 60208
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = afro_caribeno
 				size = 24004
 			}
@@ -131,12 +128,10 @@ POPS = {
 				size = 144392
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = afro_caribeno
 				size = 21140
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = afro_caribeno
 				size = 4630
 			}
@@ -161,7 +156,6 @@ POPS = {
 				size = 162004
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = afro_caribeno
 				size = 62000
 			}
@@ -183,7 +177,6 @@ POPS = {
 				size = 9996
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = afro_caribeno
 				size = 2400
 			}
@@ -204,7 +197,6 @@ POPS = {
 				size = 17000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = afro_caribeno
 				size = 3000
 			}
@@ -234,7 +226,6 @@ POPS = {
 				size = 32000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = afro_caribeno
 				size = 8000
 			}
@@ -271,7 +262,6 @@ POPS = {
 				size = 1200
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = afro_caribeno
 				size = 300
 			}
@@ -368,7 +358,6 @@ POPS = {
 				size = 12000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = afro_caribeno
 				size = 4000
 			}
@@ -397,7 +386,6 @@ POPS = {
 				size = 21900
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = afro_caribeno
 				size = 6200
 			}
@@ -418,7 +406,6 @@ POPS = {
 				size = 3350
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = afro_caribeno
 				size = 650
 			}
@@ -451,7 +438,6 @@ POPS = {
 				size = 2000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = afro_caribeno
 				size = 500
 			}
@@ -472,7 +458,6 @@ POPS = {
 				size = 16000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = afro_caribeno
 				size = 8678
 			}
@@ -518,7 +503,6 @@ POPS = {
 				size = 282240
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = afro_caribeno
 				size = 14560
 			}
@@ -539,7 +523,6 @@ POPS = {
 				size = 20800
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = afro_caribeno
 				size = 13200
 			}
@@ -584,7 +567,6 @@ POPS = {
 				size = 200
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = afro_caribeno
 				size = 60
 			}
@@ -605,7 +587,6 @@ POPS = {
 				size = 900
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = afro_caribeno
 				size = 450
 			}
@@ -630,7 +611,6 @@ POPS = {
 				size = 2100
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = afro_caribeno
 				size = 630
 			}
@@ -647,7 +627,6 @@ POPS = {
 				size = 250
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = afro_caribeno
 				size = 80
 			}
@@ -744,7 +723,6 @@ POPS = {
 				size = 14325 # 1840 Amazonas Census
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = afro_brazilian
 				size = 940 # 1840 Amazonas Census
 			}
@@ -771,7 +749,6 @@ POPS = {
 				size = 4278 # 1828 census
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = afro_brazilian
 				size = 10122 # 1828 census
 			}
@@ -796,7 +773,6 @@ POPS = {
 				size = 116681
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = afro_brazilian
 				size = 42176
 			}
@@ -817,7 +793,6 @@ POPS = {
 				size = 20444
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = afro_brazilian
 				size = 6125
 			}
@@ -834,7 +809,6 @@ POPS = {
 				size = 35582
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = afro_brazilian
 				size = 13012
 			}
@@ -851,7 +825,6 @@ POPS = {
 				size = 172879 # 1836 census
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = afro_brazilian
 				size = 86933 # 1836 census
 			}
@@ -872,7 +845,6 @@ POPS = {
 				size = 367304
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = afro_brazilian
 				size = 181300
 			}
@@ -889,7 +861,6 @@ POPS = {
 				size = 647988
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = afro_brazilian
 				size = 238908
 			}
@@ -906,7 +877,6 @@ POPS = {
 				size = 335500
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = afro_brazilian
 				size = 147263
 			}
@@ -927,7 +897,6 @@ POPS = {
 				size = 4944
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = afro_brazilian
 				size = 10242
 			}
@@ -948,7 +917,6 @@ POPS = {
 				size = 2000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = afro_brazilian
 				size = 25402
 			}
@@ -969,7 +937,6 @@ POPS = {
 				size = 3000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = afro_brazilian
 				size = 23547
 			}
@@ -990,7 +957,6 @@ POPS = {
 				size = 29920
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = afro_brazilian
 				size = 182445
 			}
@@ -1011,7 +977,6 @@ POPS = {
 				size = 7445
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = afro_brazilian
 				size = 21960
 			}
@@ -1032,7 +997,6 @@ POPS = {
 				size = 7294
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = afro_brazilian
 				size = 37276
 			}
@@ -1053,7 +1017,6 @@ POPS = {
 				size = 994 # 1825 estimate
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = afro_brazilian
 				size = 12108
 			}
@@ -1071,7 +1034,6 @@ POPS = {
 				size = 111297
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = afro_brazilian
 				size = 65737
 			}

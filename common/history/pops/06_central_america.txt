@@ -70,7 +70,6 @@
 				size = 28300
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = afro_caribeno
 				size = 4100
 			}
@@ -131,7 +130,6 @@
 				size = 5904
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = afro_caribeno
 				size = 42000
 			}		
@@ -189,7 +187,6 @@
 				size = 152011
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = afro_caribeno
 				size = 288786
 			}			

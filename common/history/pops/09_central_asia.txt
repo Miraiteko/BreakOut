@@ -264,12 +264,10 @@
 				size = 50500
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = kazak
 				size = 42000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = russian
 				size = 5000
 			}
@@ -282,7 +280,6 @@
 				size = 13000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = persian
 				size = 3000
 			}
@@ -311,17 +308,14 @@
 				size = 10204
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = tajik
 				size = 30000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = mashriqi
 				size = 3500
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = uighur
 				size = 6700
 			}
@@ -347,12 +341,10 @@
 				size = 160000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = tajik
 				size = 25000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = uighur
 				size = 5000
 			}
@@ -373,17 +365,14 @@
 				size = 160196
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = uzbek
 				size = 20000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = uighur
 				size = 5000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = russian
 				size = 3500
 			}
@@ -444,12 +433,10 @@
 				size = 220000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = turkmen
 				size = 54000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = russian
 				size = 6000
 			}
@@ -458,12 +445,10 @@
 				size = 31004
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = tajik
 				size = 5000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = persian
 				size = 10000
 			}
@@ -566,12 +551,10 @@
 				size = 265004
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = hazara
 				size = 75000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = persian
 				size = 21000
 			}
@@ -596,17 +579,14 @@
 				size = 140996
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = hazara
 				size = 45000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = panjabi
 				size = 32000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = uzbek
 				size = 21000
 			}
@@ -619,12 +599,10 @@
 				size = 440296
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = lacustrine_bantu
 				size = 14800
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = baluchi
 				size = 7000
 			}

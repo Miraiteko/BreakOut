@@ -763,7 +763,6 @@
 				size = 176400
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = khmer
 				size = 5000
 			}
@@ -795,7 +794,6 @@
 				size = 13002
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = khmer
 				size = 40204
 			}
@@ -816,7 +814,6 @@
 				size = 154400
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = yue
 				size = 30000
 			}
@@ -846,7 +843,6 @@
 				size = 16000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = vietnamese
 				size = 20100
 			}
@@ -872,7 +868,6 @@
 				size = 216000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = vietnamese
 				size = 30063
 			}
@@ -907,12 +902,10 @@
 				size = 11996
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = vietnamese
 				size = 60000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = vietnamese
 				religion = animist
 				size = 10000
@@ -934,12 +927,10 @@
 				size = 69000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = lao
 				size = 11004
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = khmu
 				size = 4000
 			}
@@ -956,7 +947,6 @@
 				size = 54560
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = lao
 				size = 16000
 			}
@@ -973,7 +963,6 @@
 				size = 35744
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = lao
 				size = 5000
 			}
@@ -998,7 +987,6 @@
 				size = 88400
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = shan
 				size = 30200
 			}
@@ -1015,7 +1003,6 @@
 				size = 33000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = yue
 				size = 15000
 			}
@@ -1028,7 +1015,6 @@
 				size = 39000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = khmer
 				size = 13000
 			}
@@ -1057,7 +1043,6 @@
 				size = 36004
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = karen
 				size = 20000
 			}
@@ -1074,7 +1059,6 @@
 				size = 60800
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = karen
 				size = 20000
 			}
@@ -1104,7 +1088,6 @@
 				size = 128400
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = kachin
 				size = 40000
 			}
@@ -1121,7 +1104,6 @@
 				size = 68000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = shan
 				size = 30000
 			}
@@ -1139,7 +1121,6 @@
 				size = 68000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = burmese
 				size = 50000
 			}
@@ -1160,7 +1141,6 @@
 				size = 415600
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = burmese
 				size = 40000
 			}
@@ -1182,7 +1162,6 @@
 				size = 7996
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = burmese
 				size = 19000
 			}

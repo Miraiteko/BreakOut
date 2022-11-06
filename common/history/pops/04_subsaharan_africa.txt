@@ -24,7 +24,6 @@ POPS = {
 				size = 64004
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = akan
 				size = 20004
 			}
@@ -33,7 +32,6 @@ POPS = {
 				size = 79200
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = akan
 				size = 8800
 			}
@@ -50,12 +48,10 @@ POPS = {
 				size = 27000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = mande
 				size = 7800
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = dyula
 				size = 5000
 			}
@@ -68,7 +64,6 @@ POPS = {
 				size = 11100
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = mande
 				size = 11100
 			}
@@ -77,7 +72,6 @@ POPS = {
 				size = 215004
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = kru
 				size = 17000
 			}
@@ -102,7 +96,6 @@ POPS = {
 				size = 107600
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = wolof
 				size = 6000
 			}
@@ -111,7 +104,6 @@ POPS = {
 				size = 82000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = wolof
 				size = 8000
 			}
@@ -124,12 +116,10 @@ POPS = {
 				size = 6396
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = fulbe
 				size = 8000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = wolof
 				size = 6000
 			}
@@ -168,7 +158,6 @@ POPS = {
 				size = 4000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = mande
 				size = 8000
 			}
@@ -185,7 +174,6 @@ POPS = {
 				size = 34000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = bambara
 				size = 10000
 			}
@@ -195,7 +183,6 @@ POPS = {
 				size = 204000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = mande
 				religion = animist
 				size = 20000
@@ -250,7 +237,6 @@ POPS = {
 				size = 80400
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = mande
 				religion = animist
 				size = 18000
@@ -269,7 +255,6 @@ POPS = {
 				size = 33000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = mande
 				religion = animist
 				size = 15000
@@ -291,12 +276,10 @@ POPS = {
 				size = 79200
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = bassa
 				size = 13300
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = kissi
 				size = 8800
 			}
@@ -343,23 +326,19 @@ POPS = {
 				size = 112400
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = hausa
 				size = 63169
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = hausa
 				religion = animist
 				size = 40000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = yoruba
 				size = 20000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = equatorial_bantu
 				size = 20000
 			}
@@ -388,7 +367,6 @@ POPS = {
 				size = 186000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = tiv
 				size = 186000
 			}
@@ -401,7 +379,6 @@ POPS = {
 				size = 1548008
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = fon
 				size = 27996
 			}
@@ -422,17 +399,14 @@ POPS = {
 				size = 420000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = ibo
 				size = 100000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = equatorial_bantu
 				size = 20000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = ibibio
 				size = 30000
 			}
@@ -465,17 +439,14 @@ POPS = {
 				size = 42992
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = tuareg
 				size = 20000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = songhai
 				size = 15000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = fulbe
 				size = 15000
 			}
@@ -490,7 +461,6 @@ POPS = {
 				size = 20304
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = equatorial_bantu
 				size = 3302
 			}
@@ -507,7 +477,6 @@ POPS = {
 				size = 119000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = hausa
 				size = 13000
 			}
@@ -550,28 +519,23 @@ POPS = {
 				size = 47004
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = tiv
 				size = 10000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = hausa
 				religion = animist
 				size = 4000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = hausa
 				size = 5000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = equatorial_bantu
 				size = 30000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = fulbe
 				size = 10000
 			}
@@ -593,23 +557,19 @@ POPS = {
 				size = 376796
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = hausa
 				size = 100190
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = hausa
 				size = 200190
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = hausa
 				religion = animist
 				size = 100050
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = fulbe
 				size = 20000
 			}
@@ -630,12 +590,10 @@ POPS = {
 				size = 3000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = dyula
 				size = 11000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = fulbe
 				size = 1000
 			}
@@ -644,7 +602,6 @@ POPS = {
 				size = 316000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = dyula
 				size = 16000
 			}
@@ -661,12 +618,10 @@ POPS = {
 				size = 100000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = fulbe
 				size = 5000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = mande
 				size = 20000
 			}
@@ -711,7 +666,6 @@ POPS = {
 				size = 88996
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = ewe
 				size = 15000
 			}
@@ -736,7 +690,6 @@ POPS = {
 				size = 64004
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = fon
 				size = 64004
 			}
@@ -753,7 +706,6 @@ POPS = {
 				size = 54472
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = yoruba
 				size = 30000
 			}
@@ -770,7 +722,6 @@ POPS = {
 				size = 51924
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = fulbe
 				size = 20000
 			}
@@ -800,22 +751,18 @@ POPS = {
 				size = 16004
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = yao
 				size = 10000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = chewa
 				size = 2000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = unyamwezi
 				size = 5000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = makua
 				size = 5000
 			}
@@ -859,12 +806,10 @@ POPS = {
 				size = 92000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = swahili
 				size = 30000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = lacustrine_bantu
 				size = 45000
 			}
@@ -890,13 +835,11 @@ POPS = {
 				size = 175300
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = sukuma
 				religion = animist
 				size = 25000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = lacustrine_bantu
 				size = 25000
 			}
@@ -930,7 +873,6 @@ POPS = {
 				size = 16004
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = lacustrine_bantu
 				size = 30000
 			}
@@ -943,7 +885,6 @@ POPS = {
 				size = 49000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = maasai
 				size = 3000
 			}
@@ -956,12 +897,10 @@ POPS = {
 				size = 28396
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = nilotic
 				size = 13000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = kikuyu
 				size = 4000
 			}
@@ -985,7 +924,6 @@ POPS = {
 			create_pop = {
 				culture = kikuyu
 				size = 36234
-				pop_type = slaves
 			}
 		}
 	}
@@ -1025,7 +963,6 @@ POPS = {
 			create_pop = {
 				culture = kikuyu 
 				size = 77040
-				pop_type = slaves
 			}
 			create_pop = {
 				culture = amhara
@@ -1037,13 +974,11 @@ POPS = {
 				size = 206000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = oromo
 				religion = animist
 				size = 50000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = amhara
 				size = 26000
 			}
@@ -1063,7 +998,6 @@ POPS = {
 			create_pop = {
 				culture = kikuyu 
 				size = 6694
-				pop_type = slaves
 			}
 			create_pop = {
 				culture = amhara
@@ -1081,7 +1015,6 @@ POPS = {
 			create_pop = {
 				culture = kikuyu
 				size = 64287
-				pop_type = slaves
 			}
 			create_pop = {
 				culture = amhara
@@ -1099,7 +1032,6 @@ POPS = {
 			create_pop = {
 				culture = kikuyu
 				size = 70400
-				pop_type = slaves
 			}
 		}
 	}
@@ -1122,7 +1054,6 @@ POPS = {
 				size = 45000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = chewa
 				size = 15000
 			}
@@ -1148,18 +1079,15 @@ POPS = {
 				size = 44400
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = somali
 				size = 25000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = oromo
 				religion = animist
 				size = 2000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = swahili
 				size = 4000
 			}
@@ -1177,12 +1105,10 @@ POPS = {
 				size = 72604
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = malagasy
 				size = 15000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = malagasy
 				religion = sunni
 				size = 5000
@@ -1211,7 +1137,6 @@ POPS = {
 				size = 12000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = malagasy
 				size = 30000
 			}
@@ -1224,7 +1149,6 @@ POPS = {
 				size = 455500
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = lacustrine_bantu
 				size = 19500
 			}
@@ -1237,7 +1161,6 @@ POPS = {
 				size = 200000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = baganda
 				size = 10000
 			}
@@ -1246,7 +1169,6 @@ POPS = {
 				size = 34000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = lacustrine_bantu
 				size = 2000
 			}
@@ -1255,7 +1177,6 @@ POPS = {
 				size = 171000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = baganda
 				size = 9000
 			}
@@ -1292,32 +1213,26 @@ POPS = {
 				size = 19000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = nilotic
 				size = 4000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = sudanese
 				size = 2000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = luo
 				size = 2000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = dinka
 				size = 8000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = fur
 				size = 2000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = nuba
 				size = 1000
 			}
@@ -1379,7 +1294,6 @@ POPS = {
 				size = 63996
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = equatorial_bantu
 				size = 15000
 			}
@@ -1396,7 +1310,6 @@ POPS = {
 				size = 68000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = sara
 				size = 8000
 			}
@@ -1421,12 +1334,10 @@ POPS = {
 				size = 20000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = equatorial_bantu
 				size = 100200
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = fulbe
 				size = 10000
 			}
@@ -1458,12 +1369,10 @@ POPS = {
 				size = 149992
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = fang
 				size = 28000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = equatorial_bantu
 				size = 13000
 			}
@@ -1480,12 +1389,10 @@ POPS = {
 				size = 4000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = sara
 				size = 12000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = baguirmi
 				size = 4000
 			}
@@ -1498,7 +1405,6 @@ POPS = {
 				size = 28000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = equatorial_bantu
 				size = 6000
 			}
@@ -1515,7 +1421,6 @@ POPS = {
 				size = 19000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = fluvian_bantu
 				size = 9000
 			}
@@ -1528,7 +1433,6 @@ POPS = {
 				size = 433500
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = fluvian_bantu
 				size = 34500
 			}
@@ -1545,12 +1449,10 @@ POPS = {
 				size = 6000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = fluvian_bantu
 				size = 72000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = lunda
 				size = 6000
 			}
@@ -1572,12 +1474,10 @@ POPS = {
 				size = 184000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = fluvian_bantu
 				size = 20000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = bakongo
 				size = 30000
 			}
@@ -1590,7 +1490,6 @@ POPS = {
 				size = 595200
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = mongo
 				size = 30000
 			}
@@ -1641,7 +1540,6 @@ POPS = {
 				size = 90000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = kavango_bantu
 				size = 10000
 			}
@@ -1670,7 +1568,6 @@ POPS = {
 				size = 200000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = fluvian_bantu
 				size = 15604
 			}
@@ -1695,17 +1592,14 @@ POPS = {
 				size = 6000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = wolof
 				size = 1000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = equatorial_bantu
 				size = 15000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = fang
 				size = 2000
 			}
@@ -1726,12 +1620,10 @@ POPS = {
 				size = 9264
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = lunda
 				size = 4000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = chewa
 				size = 3000
 			}
@@ -1774,7 +1666,6 @@ POPS = {
 				size = 58996
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = lacustrine_bantu
 				size = 5000
 			}
@@ -1803,7 +1694,6 @@ POPS = {
 				size = 12000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = lacustrine_bantu
 				size = 15000
 			}
@@ -1820,7 +1710,6 @@ POPS = {
 				size = 4000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = tswana
 				size = 4000
 			}
@@ -1845,17 +1734,14 @@ POPS = {
 				size = 38000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = lunda
 				size = 2000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = kavango_bantu
 				size = 10000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = khoisan
 				size = 10000
 			}
@@ -1876,7 +1762,6 @@ POPS = {
 				size = 15900
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = xhosa
 				size = 16000
 			}
@@ -1897,7 +1782,6 @@ POPS = {
 				size = 10000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = nguni
 				size = 10000
 			}
@@ -1930,7 +1814,6 @@ POPS = {
 				size = 10000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = khoisan
 				size = 10000
 			}
@@ -2012,7 +1895,6 @@ POPS = {
 				size = 4000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = herero
 				size = 8000
 			}
