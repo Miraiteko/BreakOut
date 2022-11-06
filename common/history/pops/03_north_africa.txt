@@ -211,7 +211,7 @@
 		}
 	}
 	s:STATE_ERITREA = {
-		region_state:EGY = {
+		region_state:USA = {
 			create_pop = {
 				culture = tigray
 				size = 75764
@@ -237,26 +237,6 @@
 				pop_type = slaves
 				culture = sudanese
 				size = 4200
-			}
-		}
-		region_state:AWS = {
-			create_pop = {
-				culture = tigray
-				religion = sunni
-				size = 8000
-			}
-			create_pop = {
-				culture = afar
-				size = 8000
-			}
-			create_pop = {
-				culture = somali
-				size = 9000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = somali
-				size = 3000
 			}
 		}
 	}

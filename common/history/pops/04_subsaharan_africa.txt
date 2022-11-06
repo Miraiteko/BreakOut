@@ -903,7 +903,7 @@ POPS = {
 		}
 	}
 	s:STATE_KENYA = {
-		region_state:KKY = {
+		region_state:MJT = {
 			create_pop = {
 				culture = lacustrine_bantu
 				size = 282600
@@ -968,26 +968,6 @@ POPS = {
 		}
 	}
 	s:STATE_OROMIA = {
-		region_state:HAR = {
-			create_pop = {
-				culture = amhara
-				size = 99636
-			}
-			create_pop = {
-				culture = oromo
-				religion = sunni
-				size = 136004
-			}
-			create_pop = {
-				culture = somali
-				size = 485604
-			}
-			create_pop = {
-				culture = somali
-				size = 28849
-				pop_type = slaves
-			}
-		}
 		region_state:SHW = {
 			create_pop = {
 				culture = amhara
@@ -1010,26 +990,6 @@ POPS = {
 		}
 	}
 	s:STATE_AMHARA = {
-		region_state:WLG = {
-			create_pop = {
-				culture = amhara
-				size = 90000
-			}
-			create_pop = {
-				culture = oromo
-				size = 120004
-			}
-			create_pop = {
-				culture = oromo
-				religion = animist
-				size = 145600
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = amhara
-				size = 48000
-			}
-		}
 		region_state:SHW = {
 			create_pop = {
 				culture = amhara
@@ -1043,56 +1003,6 @@ POPS = {
 				culture = oromo
 				religion = animist
 				size = 132396
-			}
-		}
-		region_state:BRN = {
-			create_pop = {
-				culture = oromo
-				religion = animist
-				size = 140000
-			}
-			create_pop = {
-				culture = sidama
-				size = 80004
-			}
-			create_pop = {
-				culture = oromo
-				size = 200000
-			}
-			create_pop = {
-				culture = kikuyu
-				size = 12600
-				pop_type = slaves
-			}
-		}
-		region_state:KFA = {
-			create_pop = {
-				culture = oromo
-				size = 320400
-			}
-			create_pop = {
-				culture = amhara
-				size = 160400
-			}
-			create_pop = {
-				culture = sidama
-				size = 156000
-			}
-			create_pop = {
-				culture = kikuyu
-				size = 19856
-				pop_type = slaves
-			}
-		}
-		region_state:SDM = {
-			create_pop = {
-				culture = sidama
-				size = 240000
-			}
-			create_pop = {
-				culture = kikuyu
-				size = 8600
-				pop_type = slaves
 			}
 		}
 	}
@@ -1231,70 +1141,6 @@ POPS = {
 		}
 	}
 	s:STATE_SOMALILAND = {
-		region_state:ISQ = {
-			create_pop = {
-				culture = somali
-				size = 109000
-			}
-			create_pop = {
-				culture = oromo
-				religion = animist
-				size = 3000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = somali
-				size = 15000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = oromo
-				religion = animist
-				size = 1000
-			}
-		}
-		region_state:WSG = {
-			create_pop = {
-				culture = somali
-				size = 83676
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = somali
-				size = 7000
-			}
-		}
-		region_state:GLD = {
-			create_pop = {
-				culture = somali
-				size = 158000
-			}
-			create_pop = {
-				culture = oromo
-				religion = animist
-				size = 12000
-			}
-			create_pop = {
-				culture = swahili
-				size = 32000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = somali
-				size = 8280
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = oromo
-				religion = animist
-				size = 4000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = swahili
-				size = 8000
-			}
-		}
 		region_state:MJT = {
 			create_pop = {
 				culture = somali
