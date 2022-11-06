@@ -20,6 +20,10 @@
 			country = c:SIL
 			type = protectorate
 		}
+		create_diplomatic_pact = {
+			country = c:IRQ
+			type = dominion
+		}
 	}
 	c:GBR = {
 		create_diplomatic_pact = {
@@ -97,10 +101,6 @@
 			type = protectorate
 		}
 		create_diplomatic_pact = {
-			country = c:SER
-			type = protectorate
-		}
-		create_diplomatic_pact = {
 			country = c:PAN
 			type = protectorate
 		}
@@ -160,7 +160,19 @@
 			type = dominion
 		}
 		create_diplomatic_pact = {
+			country = c:SER
+			type = dominion
+		}
+	}
+
+	#东夷
+	c:TUR = {
+		create_diplomatic_pact = {
 			country = c:BUL
+			type = dominion
+		}
+		create_diplomatic_pact = {
+			country = c:SYR
 			type = dominion
 		}
 	}
