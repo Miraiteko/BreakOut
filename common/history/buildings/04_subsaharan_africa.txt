@@ -198,7 +198,7 @@
 		}
 	}
 	s:STATE_BORNU={
-		region_state:WAD={
+		region_state:SOK={
 			create_building={
 				building="building_millet_farm"
 				level=2

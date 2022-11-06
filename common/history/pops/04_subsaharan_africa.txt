@@ -497,7 +497,7 @@ POPS = {
 		}
 	}
 	s:STATE_BORNU = {
-		region_state:WAD = {
+		region_state:SOK = {
 			create_pop = {
 				culture = kanuri
 				size = 423988
