@@ -188,7 +188,7 @@ GRI = {
 }
 
 JAP = {
-	color = { 194 53 60 }
+	color = { 124  140  162 }
 	country_type = recognized
 	
 	tier = principality
@@ -2313,7 +2313,7 @@ ECU = {
 }
 
 PEU = {
-	color = { 124  140  162 }
+	color = { 194 53 60}
 	
 	country_type = colonial
 	

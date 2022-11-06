@@ -680,6 +680,7 @@ bankruptcy_check = {
 		}
 		set_country_type = unrecognized
 	}
+
 	#ai在资金过多的时候扩建建造部门
 	if = {
 		limit = {
@@ -690,10 +691,18 @@ bankruptcy_check = {
 			}
 			weekly_net_fixed_income >= 10000
 			construction_queue_duration > 30
+			
 		}
 		random_scope_state = {
 			limit = {
 				is_incorporated = yes
+				OR = {
+					NOT = { has_building = building_construction_sector }
+					any_scope_building = {
+						is_building_type = building_construction_sector
+						occupancy >= 0.9
+					}
+				}
 			}
 			start_building_construction = building_construction_sector
 		}
