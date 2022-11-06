@@ -769,7 +769,7 @@ POPS = {
 		}
 	}
 	s:STATE_ZANZIBAR = {
-		region_state:OMA = {
+		region_state:USA = {
 			create_pop = {
 				culture = swahili
 				size = 382800

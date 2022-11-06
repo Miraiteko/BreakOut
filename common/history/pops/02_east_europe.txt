@@ -1011,7 +1011,7 @@
 		}
 	}
 	s:STATE_NORTHERN_TRANSYLVANIA = {
-		region_state:AUS = {
+		region_state:ROM = {
 			create_pop = {
 				culture = hungarian
 				religion = protestant
