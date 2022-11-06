@@ -148,7 +148,7 @@
 		}
 	}
 	s:STATE_YEMEN = {
-		region_state:ZAI = {
+		region_state:OMA = {
 			create_pop = {
 				pop_type = slaves
 				culture = sudanese
@@ -175,8 +175,6 @@
 				religion = jewish
 				size = 16000
 			}
-		}
-		region_state:HDJ = {
 			create_pop = {
 				pop_type = slaves
 				culture = sudanese
@@ -203,8 +201,6 @@
 				religion = jewish
 				size = 2000
 			}
-		}
-		region_state:MAH = {
 			create_pop = {
 				culture = bedouin
 				size = 33000
@@ -216,48 +212,9 @@
 				size = 3200
 			}
 		}
-		region_state:KAT = {
-			create_pop = {
-				culture = bedouin
-				size = 39000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = sudanese
-				religion = animist
-				size = 4900
-			}
-		}
-		region_state:LAH = {
-			create_pop = {
-				culture = yemenite
-				religion = sunni
-				size = 44000
-			}
-			create_pop = {
-				culture = yemenite
-				religion = shiite
-				size = 8000
-			}
-			create_pop = {
-				culture = bedouin
-				religion = sunni
-				size = 12000
-			}
-			create_pop = {
-				culture = sephardic
-				size = 2000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = sudanese
-				religion = animist
-				size = 8100
-			}
-		}
 	}
 	s:STATE_HEDJAZ = {
-		region_state:HDJ = {
+		region_state:OMA = {
 			create_pop = {
 				culture = bedouin
 				religion = sunni
@@ -292,7 +249,7 @@
 		}
 	}
 	s:STATE_HAIL = {
-		region_state:JAB = {
+		region_state:NEJ = {
 			create_pop = {
 				culture = bedouin
 				size = 38496
@@ -312,8 +269,6 @@
 				culture = sudanese
 				size = 2300
 			}
-		}
-		region_state:NEJ = {
 			create_pop = {
 				culture = bedouin
 				size = 31000

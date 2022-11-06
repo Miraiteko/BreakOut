@@ -773,7 +773,7 @@
 		}
 	}
 	s:STATE_EASTERN_MALI = {
-		region_state:HAU = {
+		region_state:DAH = {
 			create_pop = {
 				culture = bambara
 				size = 435108

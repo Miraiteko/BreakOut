@@ -299,8 +299,6 @@
 		}
 	}
 	s:STATE_PASTAZA={
-		region_state:ECU={
-		}
 	}
 	s:STATE_TARAPACA={
 		region_state:PEU={

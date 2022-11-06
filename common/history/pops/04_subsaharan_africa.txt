@@ -1007,7 +1007,7 @@ POPS = {
 		}
 	}
 	s:STATE_GONDER = {
-		region_state:BGM = {
+		region_state:SHW = {
 			create_pop = {
 				culture = amhara
 				size = 522000
@@ -1027,8 +1027,6 @@ POPS = {
 				size = 77040
 				pop_type = slaves
 			}
-		}
-		region_state:WLO = {
 			create_pop = {
 				culture = amhara
 				size = 335200
@@ -1049,8 +1047,6 @@ POPS = {
 				culture = amhara
 				size = 26000
 			}
-		}
-		region_state:AWS = {
 			create_pop = {
 				culture = afar
 				size = 52000
@@ -1069,8 +1065,6 @@ POPS = {
 				size = 6694
 				pop_type = slaves
 			}
-		}
-		region_state:TGR = {
 			create_pop = {
 				culture = amhara
 				size = 260000
@@ -1089,8 +1083,6 @@ POPS = {
 				size = 64287
 				pop_type = slaves
 			}
-		}
-		region_state:GJM = {
 			create_pop = {
 				culture = amhara
 				size = 360200

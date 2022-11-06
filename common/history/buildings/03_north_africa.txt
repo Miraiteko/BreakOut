@@ -656,7 +656,7 @@
 		}
 	}
 	s:STATE_EASTERN_MALI={
-		region_state:HAU={
+		region_state:DAH={
 			create_building={
 				building="building_millet_farm"
 				level=2
