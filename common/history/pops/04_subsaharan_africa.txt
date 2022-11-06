@@ -1174,7 +1174,7 @@ POPS = {
 		}
 	}
 	s:STATE_SOUTH_MADAGASCAR = {
-		region_state:MAD = {
+		region_state:GBR = {
 			create_pop = {
 				culture = malagasy
 				size = 805196
@@ -1198,7 +1198,7 @@ POPS = {
 		}
 	}
 	s:STATE_NORTH_MADAGASCAR = {
-		region_state:MAD = {
+		region_state:GBR = {
 			create_pop = {
 				culture = malagasy
 				size = 900304
