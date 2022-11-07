@@ -699,6 +699,7 @@ bankruptcy_check = {
 	if = {
 		limit = {
 			is_ai = yes
+			has_wasted_construction = no
 			OR = {
 				gold_reserves > gold_reserves_limit
 				investment_pool > gold_reserves_limit
