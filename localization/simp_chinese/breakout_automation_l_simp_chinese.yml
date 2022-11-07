@@ -72,9 +72,9 @@
  pmg_internet_data_center:0 "数据中心"
  pm_internet_data_center:0 "数据中心"
  
- virtual_mine:0 "虚拟矿厂"
- pmg_virtual_mine:0 "虚拟矿厂"
- pm_virtual_mine:0 "虚拟矿厂"
+ virtual_mine:0 "数字金矿"
+ pmg_virtual_mine:0 "数字金矿"
+ pm_virtual_mine:0 "数字金矿"
  
  pmg_automation:0 "自动化"
  pm_manual_control:0 "手工操作"

@@ -654,7 +654,7 @@ resource_deplete_monthly_check = {
 bankruptcy_check = {
 	if = {
 		limit = {
-			NOT = { has_modifier = bankruptcy }
+			NOT = { exists = var:declaredbankruptcy }
 			has_modifier = declared_bankruptcy
 		}
 		every_scope_state = {
@@ -664,10 +664,10 @@ bankruptcy_check = {
 			remove_building = building_university
 			remove_building = building_construction_sector
 		}
-		add_modifier = {
-			name = bankruptcy
-			years = 10
-			is_decaying = yes
+		set_variable = {
+			name = declaredbankruptcy
+			days = 3650
+			value = 233
 		}
 		change_infamy = 300
 	}

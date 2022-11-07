@@ -5,7 +5,7 @@
 		goods = breed
 		weight = 5
 		max_weight = 35.0
-		min_weight = 0.1
+		min_weight = 1.0
 	}
 	
 	entry = {
@@ -44,7 +44,7 @@
 		goods = software
 		
 		weight = 5
-		max_weight = 30.0
+		max_weight = 20.0
 		min_weight = 0.0
 	}
 	
@@ -52,7 +52,7 @@
 		goods = computation
 		
 		weight = 5
-		max_weight = 30.0
+		max_weight = 20.0
 		min_weight = 0.0
 	}
 	
