@@ -124,7 +124,7 @@ pm_privately_owned_building_breed_center = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_breed_add = 1
+			building_input_breed_add = 2
 		}
 		level_scaled = {
 			building_employment_aristocrats_add = 50

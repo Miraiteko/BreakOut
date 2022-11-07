@@ -135,7 +135,7 @@ NEconomy = {
 	EMPLOYMENT_PROPORTIONALITY_LIMIT = 0.02		# A building cannot have a difference of ratio of full employment between any two professions greater than this limit
 	BUILDING_INIT_PROFIT_TARGET_MIN = 1 		# Minimum % income a building wants to have as profit during initialization (will decrease wages towards this)
 	BUILDING_INIT_PROFIT_TARGET_MAX = 2 		# Maximum % income a building wants to have as profit during initialization (will increase wages towards this)
-	BUILDING_PROFIT_TARGET_TO_RAISE_WAGES = 10	# Required profit margin raise wages no matter what, with BUILDING_WEEKS_BETWEEN_PAY_RAISES weeks cooldown
+	BUILDING_PROFIT_TARGET_TO_RAISE_WAGES = 1.0	# Required profit margin raise wages no matter what, with BUILDING_WEEKS_BETWEEN_PAY_RAISES weeks cooldown
 	BUILDING_WEEKS_BETWEEN_PAY_RAISES = 26		# Cooldown between pay raises no matter what
 	MIN_RAISE_TO_HIRE = 0.05					# The minimum required increase in wages for an employee to switch jobs (1.0 = +100% = x2)
 	STARTING_WAGE_RATE_MULTIPLIER = 2.0			# Starting wage rate is multiplied by this (for easy balancing)

@@ -174,7 +174,7 @@ pm_merchant_guilds_building_logging_camp = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_breed_add = 1
+			building_input_breed_add = 2
 		}
 		level_scaled = {
 			building_employment_shopkeepers_add = 500
@@ -200,7 +200,7 @@ pm_privately_owned_building_logging_camp = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_breed_add = 1
+			building_input_breed_add = 2
 		}
 		level_scaled = {
 			building_employment_capitalists_add = 100
@@ -443,7 +443,7 @@ pm_merchant_guilds_building_fishing_wharf = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_breed_add = 1
+			building_input_breed_add = 2
 		}
 		level_scaled = {
 			building_employment_shopkeepers_add = 500
@@ -468,7 +468,7 @@ pm_privately_owned_building_fishing_wharf = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_breed_add = 1
+			building_input_breed_add = 2
 		}
 		level_scaled = {
 			building_employment_capitalists_add = 100
@@ -680,7 +680,7 @@ pm_merchant_guilds_building_whaling_station = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_breed_add = 1
+			building_input_breed_add = 2
 		}
 		level_scaled = {
 			building_employment_shopkeepers_add = 500
@@ -705,7 +705,7 @@ pm_privately_owned_building_whaling_station = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_breed_add = 1
+			building_input_breed_add = 2
 		}
 		level_scaled = {
 			building_employment_capitalists_add = 100
