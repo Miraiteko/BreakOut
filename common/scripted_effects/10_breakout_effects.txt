@@ -707,4 +707,25 @@ bankruptcy_check = {
 			start_building_construction = building_construction_sector
 		}
 	}
+	#ai裁撤无能工厂，暂时做不到
+	if = {
+		limit = {
+			always = no
+			is_ai = yes
+			construction_queue_duration < 3
+		}
+		every_scope_state = {
+			limit = { market_access < 0.8 }
+			random_scope_building = {
+				limit = {
+					is_under_construction = no
+					cash_reserves_ratio < 0.01
+					occupancy < 0.01
+					weekly_profit < 0
+				}
+				save_scope_as = removed_building
+			}
+			#remove_building = scope:removed_building
+		}
+	}
 }
