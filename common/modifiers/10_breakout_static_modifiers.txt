@@ -14,17 +14,17 @@
 
 	country_revolution_secession_speed_add = 0.1
 	
-	state_education_access_wealth_add = 0.01
+	state_education_access_wealth_add = 0.02
 	
 	country_minting_add = 250
 
 	state_tax_capacity_add = 100
 	state_infrastructure_add = 10
 	
-	state_poor_expected_sol = 5
-	state_middle_expected_sol = 10
-	state_rich_expected_sol = 15
-	state_expected_sol_from_literacy = 5
+	state_poor_expected_sol = 0
+	state_middle_expected_sol = 5
+	state_rich_expected_sol = 10
+	state_expected_sol_from_literacy = 25
 	
 	character_health_add = 1
 	
