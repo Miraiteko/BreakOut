@@ -5,7 +5,7 @@
 	unemployment = yes
 	can_always_hire = no
 	start_quality_of_life = 5
-	wage_weight = 1
+	wage_weight = 0.8
 	dependent_wage = 0.5	# per year
 	
 	qualifications_growth_desc = "BK_LABORERS_QUALIFICATIONS_DESC"	
@@ -22,7 +22,7 @@
 				}
 			}
 			add = {
-				value = -5
+				value = -500
 				desc = "min_breeder_ratio"
 			}
 		}

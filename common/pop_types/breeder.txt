@@ -6,7 +6,7 @@
 	#can_always_hire = yes
 	start_quality_of_life = 5
 	subsistence_income = no
-	wage_weight = 1.0
+	wage_weight = 0.8
 	dependent_wage = 0.25
 	unemployment = yes
 	
@@ -26,13 +26,13 @@
 				}
 			}
 			add = {
-				value = -2
+				value = -100
 				desc = "max_breeder_ratio"
 			}
 		}
 		else = {
 			add = {
-				value = 3
+				value = 5
 				desc = "max_breeder_ratio"
 			}
 		}

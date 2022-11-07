@@ -45,13 +45,20 @@ breeder_ratio_monthly_check = {
 		}
 		set_variable = {
 			name = breeder_gain_other_qualifications_bonus
-			value = -5
+			value = -10
+		}
+		every_scope_pop = {
+			limit = {
+				NOT = { is_pop_type = breeder }
+				is_employed = no
+			}
+			change_poptype =  pop_type:breeder
 		}
 	}
 	else = {
 		set_variable = {
 			name = breeder_gain_other_qualifications_bonus
-			value = 0
+			value = 5
 		}
 	}
 	if = {
@@ -63,13 +70,20 @@ breeder_ratio_monthly_check = {
 		}
 		set_variable = {
 			name = other_gain_breeder_qualifications_bonus
-			value = -2
+			value = -10
+		}
+		every_scope_pop = {
+			limit = {
+				is_pop_type = breeder
+				is_employed = no
+			}
+			change_poptype =  pop_type:laborers
 		}
 	}
 	else = {
 		set_variable = {
 			name = other_gain_breeder_qualifications_bonus
-			value = 2
+			value = 5
 		}
 	}
 }

@@ -69,7 +69,7 @@
 				}
 			}
 			add = {
-				value = -5
+				value = -500
 				desc = "min_breeder_ratio"
 			}
 		}

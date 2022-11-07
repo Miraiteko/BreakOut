@@ -13,6 +13,7 @@ pm_tradition_breeder = {
 		}
 		unscaled = {
 			building_group_bg_base_education_access_throughput_mult = 0.3
+			#building_breeder_birthrate_mult = 1.0
 		}
 	}		
 	state_modifiers = {

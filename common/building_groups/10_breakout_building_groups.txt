@@ -27,7 +27,7 @@ bg_breed = {
 	always_possible = yes
 	
 	economy_of_scale = no
-	cash_reserves_max = 10000
+	cash_reserves_max = 2000
 	
 	default_building = breed_center
 	
