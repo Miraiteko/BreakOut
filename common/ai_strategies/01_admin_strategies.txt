@@ -6,6 +6,7 @@
 	wanted_construction_ratio = 900000
 
 	building_group_weights = {
+		bg_breed = 2.0
 		bg_agriculture = 2.0
 		bg_ranching = 2.0
 		bg_fishing = 1.5
@@ -14,6 +15,7 @@
 	}
 	
 	goods_stances = {
+		breed = {stance = wants_high_supply }
 		grain = { stance = wants_export }
 		meat = { stance = wants_export }
 		fish = { stance = wants_export }
@@ -106,6 +108,7 @@ ai_strategy_plantation_economy = {
 	wanted_construction_ratio = 900000
 	
 	goods_stances = {
+		breed = {stance = wants_high_supply }
 		fruit = { stance = wants_export }
 		fabric = { stance = wants_export }
 		sugar = { stance = wants_export }
@@ -118,6 +121,7 @@ ai_strategy_plantation_economy = {
 	}	
 
 	building_group_weights = {
+		bg_breed = 2.0
 		bg_plantations = 2.0
 		bg_manufacturing = 0.5
 	}
@@ -174,6 +178,7 @@ ai_strategy_resource_expansion = {
 	wanted_construction_ratio = 800000
 	
 	building_group_weights = {
+		bg_breed = 1.5
 		bg_rubber = 1.5
 		bg_oil_extraction = 1.5
 		bg_mining = 1.5
@@ -189,6 +194,9 @@ ai_strategy_resource_expansion = {
 	}
 	
 	goods_stances = {
+		breed = { 
+			stance = wants_high_supply 
+		}	
 		explosives = { 
 			stance = wants_high_supply 
 			trigger = {
@@ -302,6 +310,7 @@ ai_strategy_industrial_expansion = {
 	}
 	
 	goods_stances = {
+		breed = { stance = wants_high_supply }
 		electricity = { stance = wants_high_supply }
 		oil = { stance = wants_high_supply }
 		dye = { stance = wants_high_supply }
@@ -320,6 +329,7 @@ ai_strategy_industrial_expansion = {
 	}
 	
 	building_group_weights = {
+		bg_breed = 1.5
 		bg_manufacturing = 1.25
 		bg_rubber = 1.25
 		bg_oil_extraction = 1.25
@@ -389,6 +399,7 @@ ai_strategy_placate_population = {
 	min_tax_level = very_low
 
 	building_group_weights = {
+		bg_breed = 3.0
 		bg_agriculture = 2.0
 		bg_ranching = 2.0
 		bg_oil_extraction = 0.5
@@ -398,6 +409,7 @@ ai_strategy_placate_population = {
 	}
 	
 	goods_stances = {
+		breed = { stance = wants_high_supply }
 		grain = { stance = wants_high_supply }
 		meat = { stance = wants_high_supply }
 		fish = { stance = wants_high_supply }
