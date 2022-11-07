@@ -1,6 +1,6 @@
 ﻿breeder = {
 	texture = "gfx/interface/icons/pops_icons/breeder.dds"
-	color = { 237 75 193 }
+	color = { 220 75 210 }
 	strata = poor
 	#subsistence_income = yes
 	ignores_employment_proportionality = yes

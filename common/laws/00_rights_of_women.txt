@@ -11,7 +11,7 @@ law_no_womens_rights = {
 	}
 
 	modifier = {
-		country_breeder_pol_str_mult = -10.0
+		country_breeder_pol_str_mult = -1.0
 		building_group_bg_min_breeder_ratio_throughput_mult = 0.45
 		building_group_bg_max_breeder_ratio_throughput_mult = 0.55
 	}
