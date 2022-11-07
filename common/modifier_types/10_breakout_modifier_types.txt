@@ -23,8 +23,13 @@ building_output_oil_mult = {
 	good = yes
 	percent = yes
 }
+
 building_output_breed_add = {
 	good = yes
+	percent = no
+}
+building_input_breed_add = {
+	good = no
 	percent = no
 }
 building_input_services_add = {
