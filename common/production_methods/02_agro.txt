@@ -205,6 +205,9 @@ pm_privately_owned = {
 	}
 
 	building_modifiers = {
+		workforce_scaled = {
+			building_input_breed_add = 1
+		}
 		level_scaled = {
 			building_employment_aristocrats_add = 100
 		}

@@ -217,6 +217,9 @@ pm_merchant_guilds_building_food_industry = {
 	}
 
 	building_modifiers = {
+		workforce_scaled = {
+			building_input_breed_add = 1
+		}
 		level_scaled = {
 			building_employment_shopkeepers_add = 500
 		}
@@ -240,6 +243,9 @@ pm_privately_owned_building_food_industry = {
 	}
 
 	building_modifiers = {
+		workforce_scaled = {
+			building_input_breed_add = 1
+		}
 		level_scaled = {
 			building_employment_capitalists_add = 100
 		}
@@ -529,6 +535,9 @@ pm_merchant_guilds_building_textile_mills = {
 	}
 
 	building_modifiers = {
+		workforce_scaled = {
+			building_input_breed_add = 1
+		}
 		level_scaled = {
 			building_employment_shopkeepers_add = 500
 		}
@@ -553,6 +562,9 @@ pm_privately_owned_building_textile_mills = {
 	}
 
 	building_modifiers = {
+		workforce_scaled = {
+			building_input_breed_add = 1
+		}
 		level_scaled = {
 			building_employment_capitalists_add = 100
 		}
@@ -849,6 +861,9 @@ pm_merchant_guilds_building_furniture_manufacturies = {
 	}
 
 	building_modifiers = {
+		workforce_scaled = {
+			building_input_breed_add = 1
+		}
 		level_scaled = {
 			building_employment_shopkeepers_add = 500
 		}
@@ -872,6 +887,9 @@ pm_privately_owned_building_furniture_manufacturies = {
 	}
 
 	building_modifiers = {
+		workforce_scaled = {
+			building_input_breed_add = 1
+		}
 		level_scaled = {
 			building_employment_capitalists_add = 100
 		}
@@ -1135,6 +1153,9 @@ pm_merchant_guilds_building_glassworks = {
 	}
 
 	building_modifiers = {
+		workforce_scaled = {
+			building_input_breed_add = 1
+		}
 		level_scaled = {
 			building_employment_shopkeepers_add = 500
 		}
@@ -1159,6 +1180,9 @@ pm_privately_owned_building_glassworks = {
 	}
 
 	building_modifiers = {
+		workforce_scaled = {
+			building_input_breed_add = 1
+		}
 		level_scaled = {
 			building_employment_capitalists_add = 100
 		}
@@ -1386,6 +1410,9 @@ pm_merchant_guilds_building_tooling_workshops = {
 	}
 
 	building_modifiers = {
+		workforce_scaled = {
+			building_input_breed_add = 1
+		}
 		level_scaled = {
 			building_employment_shopkeepers_add = 500
 		}
@@ -1409,6 +1436,9 @@ pm_privately_owned_building_tooling_workshops = {
 	}
 
 	building_modifiers = {
+		workforce_scaled = {
+			building_input_breed_add = 1
+		}
 		level_scaled = {
 			building_employment_capitalists_add = 100
 		}
@@ -1621,6 +1651,9 @@ pm_merchant_guilds_building_paper_mills = {
 	}
 
 	building_modifiers = {
+		workforce_scaled = {
+			building_input_breed_add = 1
+		}
 		level_scaled = {
 			building_employment_shopkeepers_add = 500
 		}
@@ -1644,6 +1677,9 @@ pm_privately_owned_building_paper_mills = {
 	}
 
 	building_modifiers = {
+		workforce_scaled = {
+			building_input_breed_add = 1
+		}
 		level_scaled = {
 			building_employment_capitalists_add = 100
 		}
@@ -1919,6 +1955,9 @@ pm_privately_owned_industry = {
 	}
 
 	building_modifiers = {
+		workforce_scaled = {
+			building_input_breed_add = 1
+		}
 		level_scaled = {
 			building_employment_capitalists_add = 100
 		}
@@ -2535,6 +2574,9 @@ pm_merchant_guilds_building_shipyards = {
 	}
 
 	building_modifiers = {
+		workforce_scaled = {
+			building_input_breed_add = 1
+		}
 		level_scaled = {
 			building_employment_shopkeepers_add = 500
 		}
@@ -2559,6 +2601,9 @@ pm_privately_owned_building_shipyards = {
 	}
 
 	building_modifiers = {
+		workforce_scaled = {
+			building_input_breed_add = 1
+		}
 		level_scaled = {
 			building_employment_capitalists_add = 100
 		}
@@ -2934,6 +2979,9 @@ pm_merchant_guilds_building_arms_industry = {
 	}
 
 	building_modifiers = {
+		workforce_scaled = {
+			building_input_breed_add = 1
+		}
 		level_scaled = {
 			building_employment_shopkeepers_add = 500
 		}
@@ -2958,6 +3006,9 @@ pm_privately_owned_building_arms_industry = {
 	}
 
 	building_modifiers = {
+		workforce_scaled = {
+			building_input_breed_add = 1
+		}
 		level_scaled = {
 			building_employment_capitalists_add = 100
 		}

@@ -140,6 +140,9 @@ pm_privately_owned_building_railway = {
 	}
 	
 	building_modifiers = { 
+		workforce_scaled = {
+			building_input_breed_add = 1
+		}
 		level_scaled = {
 			building_employment_capitalists_add = 100
 		}
@@ -168,7 +171,6 @@ pm_publicly_traded_building_railway = {
 			building_employment_capitalists_add = 5
 		}
 		unscaled = {
-			building_throughput_mult = 0.20
 			building_capitalists_shares_add = 5
 		}
 	}
@@ -236,6 +238,9 @@ pm_trade_center_merchant_guilds = {
 	}
 	
 	building_modifiers = { 
+		workforce_scaled = {
+			building_input_breed_add = 1
+		}
 		level_scaled = {
 			building_employment_shopkeepers_add = 1000
 		}
@@ -255,6 +260,9 @@ pm_trade_center_privately_owned = {
 	}
 	
 	building_modifiers = { 
+		workforce_scaled = {
+			building_input_breed_add = 1
+		}
 		level_scaled = {
 			building_employment_clerks_add = 750
 			building_employment_capitalists_add = 250

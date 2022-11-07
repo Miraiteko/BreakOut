@@ -123,6 +123,9 @@ pm_privately_owned_building_breed_center = {
 	}
 
 	building_modifiers = {
+		workforce_scaled = {
+			building_input_breed_add = 1
+		}
 		level_scaled = {
 			building_employment_aristocrats_add = 50
 		}
@@ -149,8 +152,10 @@ pm_publicly_traded_building_breed_center = {
 	}
 
 	building_modifiers = {
-		level_scaled = {
+		workforce_scaled = {
 			building_input_investment_management_add = 1
+		}
+		level_scaled = {
 			building_employment_capitalists_add = 5
 		}
 		unscaled = {

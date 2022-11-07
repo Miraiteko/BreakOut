@@ -188,6 +188,9 @@ pm_merchant_guilds_building_coal_mine = {
 	}
 
 	building_modifiers = {
+		workforce_scaled = {
+			building_input_breed_add = 1
+		}
 		level_scaled = {
 			building_employment_shopkeepers_add = 500
 		}
@@ -210,6 +213,9 @@ pm_merchant_guilds_building_iron_mine = {
 	}
 
 	building_modifiers = {
+		workforce_scaled = {
+			building_input_breed_add = 1
+		}
 		level_scaled = {
 			building_employment_shopkeepers_add = 500
 		}
@@ -232,6 +238,9 @@ pm_merchant_guilds_building_lead_mine = {
 	}
 
 	building_modifiers = {
+		workforce_scaled = {
+			building_input_breed_add = 1
+		}
 		level_scaled = {
 			building_employment_shopkeepers_add = 500
 		}
@@ -254,6 +263,9 @@ pm_merchant_guilds_building_sulfur_mine = {
 	}
 
 	building_modifiers = {
+		workforce_scaled = {
+			building_input_breed_add = 1
+		}
 		level_scaled = {
 			building_employment_shopkeepers_add = 500
 		}
@@ -276,6 +288,9 @@ pm_merchant_guilds_building_gold_mine = {
 	}
 
 	building_modifiers = {
+		workforce_scaled = {
+			building_input_breed_add = 1
+		}
 		level_scaled = {
 			building_employment_shopkeepers_add = 500
 		}
@@ -300,6 +315,9 @@ pm_privately_owned_building_coal_mine = {
 	}
 
 	building_modifiers = {
+		workforce_scaled = {
+			building_input_breed_add = 1
+		}
 		level_scaled = {
 			building_employment_capitalists_add = 100
 		}
@@ -324,6 +342,9 @@ pm_privately_owned_building_iron_mine = {
 	}
 
 	building_modifiers = {
+		workforce_scaled = {
+			building_input_breed_add = 1
+		}
 		level_scaled = {
 			building_employment_capitalists_add = 100
 		}
@@ -348,6 +369,9 @@ pm_privately_owned_building_lead_mine = {
 	}
 
 	building_modifiers = {
+		workforce_scaled = {
+			building_input_breed_add = 1
+		}
 		level_scaled = {
 			building_employment_capitalists_add = 100
 		}
@@ -372,6 +396,9 @@ pm_privately_owned_building_sulfur_mine = {
 	}
 
 	building_modifiers = {
+		workforce_scaled = {
+			building_input_breed_add = 1
+		}
 		level_scaled = {
 			building_employment_capitalists_add = 100
 		}
@@ -396,6 +423,9 @@ pm_privately_owned_building_gold_mine = {
 	}
 
 	building_modifiers = {
+		workforce_scaled = {
+			building_input_breed_add = 1
+		}
 		level_scaled = {
 			building_employment_capitalists_add = 100
 		}
