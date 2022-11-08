@@ -84,7 +84,7 @@
         weight = {
             base = 0
             modifier = {
-                add = 10
+                add = 100
                 european_clothes_trigger = yes
                 politician_clothes_trigger = yes
                 armed_forces_clothes_trigger = no
@@ -104,7 +104,7 @@
         weight = {
             base = 0
             modifier = {
-                add = 1000
+                add = 100
                 OR = {
                     AND = {
                         exists = scope:pop
@@ -149,7 +149,7 @@
         weight = {
             base = 0
             modifier = {
-                add = 1000
+                add = 100
                 exists = scope:pop
                 scope:pop = {
                     religion = rel:sikh
@@ -415,7 +415,7 @@
         weight = {
             base = 0
             modifier = {
-                add = 1000
+                add = 100
                 german_clothes_pop_trigger = yes
                 officers_clothes_pop_trigger = yes
             }
@@ -434,7 +434,7 @@
         weight = {
             base = 0
             modifier = {
-                add = 1000
+                add = 100
                 ethiopian_clothes_trigger = yes
                 scope:character = {
                     is_ruler = yes
@@ -532,7 +532,7 @@
         weight = {
             base = 0
             modifier = {
-                add = 200
+                add = 100
                 AND = {
                     arabic_clothes_trigger = yes          
                 }
@@ -551,7 +551,7 @@
         weight = {
             base = 0
             modifier = {
-                add = 200
+                add = 100
                 AND = {
                     arabic_clothes_trigger = yes
                     arabic_fez_trigger = yes
@@ -825,7 +825,7 @@
         weight = {
             base = 0
             modifier = {
-                add = 1000
+                add = 100
                 ruler_clothes_trigger = yes
                 scope:character = {
                     is_ruler = yes
@@ -873,7 +873,7 @@
         weight = {
             base = 0
             modifier = {
-                add = 200
+                add = 100
                 arabic_military_fez_pop_trigger = yes
                 soldier_clothes_pop_trigger = yes
             }
@@ -893,7 +893,7 @@
         weight = {
             base = 0
             modifier = {
-                add = 200
+                add = 100
                 AND = {
                     peasants_clothes_pop_trigger = yes
                     european_clothes_pop_trigger = yes
@@ -913,7 +913,7 @@
     #    weight = {
     #        base = 0
     #        modifier = {
-    #            add = 200
+    #            add = 100
     #            academics_clothes_pop_trigger = yes
     #        }
     #    }

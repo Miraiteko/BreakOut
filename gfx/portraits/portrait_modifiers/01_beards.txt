@@ -1,4 +1,4 @@
-﻿beards = {
+beards = {
     	usage = game
     	selection_behavior = weighted_random
     	fallback = no_beard
@@ -129,7 +129,7 @@
         weight = {
             base = 0
             modifier = {
-                add = 1000
+                add = 100
                 OR = {
                     AND = {
                         european_clothes_trigger = yes # sanity check so that things aren't being applied in wildly edge case scenarios
