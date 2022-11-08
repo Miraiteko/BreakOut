@@ -150,7 +150,7 @@ LOU = {
 	
 	tier = principality
 	
-	cultures = { cajun}
+	cultures = { han }
 	capital = STATE_LOUISIANA
 }
 
@@ -204,7 +204,7 @@ ITA = {
 
 	tier = principality
 	
-	cultures = { north_italian}
+	cultures = { han }
 	capital = STATE_LAZIO
 }
 
@@ -216,7 +216,7 @@ KUK = {
 	tier = principality
 	
 	capital = STATE_CENTRAL_HUNGARY
-	cultures = { hungarian}
+	cultures = { han }
 }
 
 DEN = {
@@ -1286,7 +1286,7 @@ PER = {
 	
 	tier = principality
 	
-	cultures = { persian azerbaijani}
+	cultures = { han }
 	capital = STATE_IRAKAJEMI
 }
 
@@ -2076,7 +2076,7 @@ HAI = {
 	
 	tier = principality
 	
-	cultures = { afro_antillean  }
+	cultures = { han }
 	capital = STATE_HAITI
 }
 
@@ -2412,7 +2412,7 @@ UBD = {
 
 	tier = principality
 	
-	cultures = { latvian}
+	cultures = { han }
 	capital = STATE_LATVIA
 }
 
@@ -3338,7 +3338,7 @@ NGF = {
 
 	tier = principality
 
-	cultures = { north_german}
+	cultures = { han }
 	capital = STATE_BRANDENBURG
 }
 
@@ -3349,7 +3349,7 @@ SGF = {
 
 	tier = principality
 
-	cultures = { south_german}
+	cultures = { han }
 	capital = STATE_BAVARIA
 }
 
@@ -3480,7 +3480,7 @@ GUI = { #Guizhou
 	color = { 37 102 37 }
 	country_type = recognized
 	tier = principality
-	cultures = { han}
+	cultures = { han }
 	capital = STATE_GUIZHOU
 }
 
@@ -3488,7 +3488,7 @@ GNG = { #Guangxi
 	color = { 133 56 8 }
 	country_type = recognized
 	tier = principality
-	cultures = { han yue zhuang}
+	cultures = { han }
 	capital = STATE_GUANGXI
 }
 
@@ -3783,7 +3783,7 @@ SCH = {
 
 	tier = principality
 	
-	cultures = { north_german danish }
+	cultures = { han }
 	capital = STATE_SCHLESWIG_HOLSTEIN
 	is_named_from_capital = yes
 }
