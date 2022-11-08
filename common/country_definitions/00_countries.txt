@@ -248,7 +248,7 @@ NOR = {
 
 	tier = principality
 	
-	cultures= { norwegian }
+	cultures = { han }
 	capital = STATE_EASTERN_NORWAY
 }
 
