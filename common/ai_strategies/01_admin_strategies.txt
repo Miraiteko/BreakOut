@@ -6,7 +6,7 @@
 	wanted_construction_ratio = 900000
 
 	building_group_weights = {
-		bg_breed = 2.5
+		bg_breed = 6
 		bg_agriculture = 2.0
 		bg_ranching = 2.0
 		bg_fishing = 1.5
@@ -121,7 +121,7 @@ ai_strategy_plantation_economy = {
 	}	
 
 	building_group_weights = {
-		bg_breed = 2.5
+		bg_breed = 5
 		bg_plantations = 2.0
 		bg_manufacturing = 0.5
 	}
@@ -177,7 +177,7 @@ ai_strategy_resource_expansion = {
 	wanted_construction_ratio = 800000
 	
 	building_group_weights = {
-		bg_breed = 2.5
+		bg_breed = 5
 		bg_rubber = 1.5
 		bg_oil_extraction = 1.5
 		bg_mining = 1.5
@@ -326,7 +326,7 @@ ai_strategy_industrial_expansion = {
 	}
 	
 	building_group_weights = {
-		bg_breed = 2.0
+		bg_breed = 4
 		bg_manufacturing = 1.25
 		bg_rubber = 1.25
 		bg_oil_extraction = 1.25
@@ -396,7 +396,7 @@ ai_strategy_placate_population = {
 	min_tax_level = very_low
 
 	building_group_weights = {
-		bg_breed = 3.0
+		bg_breed = 6
 		bg_agriculture = 2.0
 		bg_ranching = 2.0
 		bg_oil_extraction = 0.5

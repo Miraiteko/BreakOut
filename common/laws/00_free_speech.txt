@@ -14,9 +14,9 @@ law_outlawed_dissent = {
 		country_suppression_ig_attraction_mult = -0.5
 		country_tech_spread_mult = -0.25
 		building_output_liquor_mult = -0.5
-		building_output_tobacco_mult = -0.6
-		building_output_gambling_mult = -0.6
-		building_output_opium_mult = -0.7
+		building_output_tobacco_mult = -0.5
+		building_output_gambling_mult = -0.7
+		building_output_opium_mult = -0.9
 		country_institution_social_climate_max_investment_add = 5
 	}
 	
@@ -48,8 +48,8 @@ law_censorship = {
 		country_suppression_ig_attraction_mult = -0.4
 		country_tech_spread_mult = -0.15
 		building_output_gambling_mult = -0.5
-		building_output_opium_mult = -0.6
-		country_institution_social_climate_max_investment_add = 3
+		building_output_opium_mult = -0.7
+		country_institution_social_climate_max_investment_add = 5
 	}
 	
 	institution = institution_social_climate
@@ -79,7 +79,7 @@ law_right_of_assembly = {
 		country_promotion_ig_attraction_mult = 0.3
 		country_suppression_ig_attraction_mult = -0.3
 		building_output_opium_mult = -0.5
-		country_institution_social_climate_max_investment_add = 1
+		country_institution_social_climate_max_investment_add = 5
 	}
 	
 	institution = institution_social_climate

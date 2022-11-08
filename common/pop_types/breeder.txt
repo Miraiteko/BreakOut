@@ -6,7 +6,7 @@
 	ignores_employment_proportionality = yes
 	start_quality_of_life = 5
 	subsistence_income = no
-	wage_weight = 0.8
+	wage_weight = 1.0
 	dependent_wage = 0.25
 	unemployment = yes
 	
