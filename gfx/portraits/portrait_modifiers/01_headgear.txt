@@ -716,8 +716,8 @@
                         exists = scope:pop
                         scope:pop = { 
                             OR = {
-                                culture = cu:cherokee 
-                                culture = cu:muskogean
+                                culture = cu:han 
+                                culture = cu:han
                             }
                         }
                     }
@@ -830,12 +830,12 @@
                 scope:character = {
                     is_ruler = yes
                     OR = {
-                        culture = cu:comanche
-                        culture = cu:paiute
-                        culture = cu:dakota
-                        culture = cu:cree
-                        culture = cu:nez_perce
-                        culture = cu:siouan
+                        culture = cu:han
+                        culture = cu:han
+                        culture = cu:han
+                        culture = cu:han
+                        culture = cu:han
+                        culture = cu:han
                     }
                 }
             }

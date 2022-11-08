@@ -101,7 +101,7 @@
                 AND = {
                     exists = scope:pop
                     scope:pop = {
-                        culture = cu:japanese
+                        culture = cu:han
                     }
                     poor_clothes_pop_trigger = no
                 }
@@ -146,7 +146,7 @@
                 AND = {
                     exists = scope:character
                     scope:character = {
-                        culture = cu:japanese
+                        culture = cu:han
                     }
                  OR = {
                         poor_clothes_pop_trigger = no

@@ -82,7 +82,7 @@
                         AND = {
                             exists = scope:pop
                             scope:pop = {
-                                NOT = { culture = cu:inuit }
+                                NOT = { culture = cu:han }
                             }
                         }
                     }
@@ -196,8 +196,8 @@
                             exists = scope:character
                             scope:character = {
                                 OR = {
-                                    culture = cu:cherokee
-                                    culture = cu:muskogean
+                                    culture = cu:han
+                                    culture = cu:han
                                 }
                             }
                         }
@@ -261,8 +261,8 @@
                         exists = scope:character
                         scope:character = {
                             OR = {
-                                culture = cu:cherokee
-                                culture = cu:muskogean
+                                culture = cu:han
+                                culture = cu:han
                             }
                         }
                     }
@@ -308,8 +308,8 @@
                             exists = scope:character
                             scope:character = {
                                 OR = {
-                                    culture = cu:cherokee
-                                    culture = cu:muskogean
+                                    culture = cu:han
+                                    culture = cu:han
                                 }
                             }
                         }
@@ -348,8 +348,8 @@
                             exists = scope:character
                             scope:character = {
                                 OR = {
-                                    culture = cu:cherokee
-                                    culture = cu:muskogean
+                                    culture = cu:han
+                                    culture = cu:han
                                 }
                             }
                         }
@@ -403,8 +403,8 @@
                         exists = scope:character
                         scope:character = {
                             OR = {
-                                culture = cu:cherokee
-                                culture = cu:muskogean
+                                culture = cu:han
+                                culture = cu:han
                             }
                         }
                     }
@@ -748,7 +748,7 @@
                  AND = {
                     exists = scope:pop
                     scope:pop = {
-                        culture = cu:japanese
+                        culture = cu:han
                     }
                     OR = {
                         soldier_clothes_pop_trigger = yes
@@ -853,8 +853,8 @@
                             exists = scope:character
                             scope:character = {
                                 OR = {
-                                    culture = cu:cherokee
-                                    culture = cu:muskogean
+                                    culture = cu:han
+                                    culture = cu:han
                                 }
                             }
                         }
@@ -1037,10 +1037,10 @@
                     scope:character = {
                         OR = {
                             AND = {
-                                has_culture = cu:japanese
+                                has_culture = cu:han
                                 monarchy_clothes_trigger = no
                             }
-                            has_culture = cu:ainu
+                            has_culture = cu:han
                         }
                     }
                 }
@@ -1066,7 +1066,7 @@
                 AND = {
                     exists = scope:pop
                     scope:pop = {
-                        culture = cu:korean
+                        culture = cu:han
                     }
                     OR = {
                         poor_clothes_pop_trigger = yes
@@ -1095,14 +1095,14 @@
                     AND = {
                         exists = scope:character
                         scope:character = {
-                            has_culture = cu:korean
+                            has_culture = cu:han
                             is_ruler = no
                         }
                     }
                     AND = {
                         exists = scope:pop
                         scope:pop = {
-                            culture = cu:korean
+                            culture = cu:han
                             is_pop_type = officers
                         }
 					}
@@ -1128,7 +1128,7 @@
                 AND = {
                     exists = scope:character
                     scope:character = {
-                        has_culture = cu:korean
+                        has_culture = cu:han
                         is_ruler = yes
                     }
                 }
@@ -1473,9 +1473,9 @@ indian_royal_clothes = {
                 exists = scope:character
                 scope:character = {
                     OR = {
-                        culture = cu:inuit
-                        culture = cu:siberian
-                        culture = cu:yakut
+                        culture = cu:han
+                        culture = cu:han
+                        culture = cu:han
                     }
                 }
             }
@@ -1515,7 +1515,7 @@ indian_royal_clothes = {
                 add = 100
                 exists = scope:character
                 scope:character = {
-                    culture = cu:sami
+                    culture = cu:han
                 }
             }
         }
@@ -2014,13 +2014,13 @@ chinese_upper_clothes = {
                     AND = {
                         exists = scope:pop
                         scope:pop = {
-                            culture = cu:berber
+                            culture = cu:han
                         }
                     }
                     AND = {
                         exists = scope:pop
                         scope:pop = {
-                            culture = cu:tuareg
+                            culture = cu:han
                         }
                     }
                 }
@@ -2151,8 +2151,8 @@ chinese_upper_clothes = {
                         exists = scope:pop
                         scope:pop = { 
                             OR = {
-                                culture = cu:cherokee 
-                                culture = cu:muskogean
+                                culture = cu:han 
+                                culture = cu:han
                             }
                         }
                         OR = {
@@ -2549,13 +2549,13 @@ chinese_upper_clothes = {
                         AND = {
                             exists = scope:pop
                             scope:pop = {
-                                culture = cu:berber
+                                culture = cu:han
                             }
                         }
                         AND = {
                             exists = scope:pop
                             scope:pop = {
-                                culture = cu:tuareg
+                                culture = cu:han
                             }
                         }
                     }
@@ -2585,13 +2585,13 @@ chinese_upper_clothes = {
                             AND = {
                                 exists = scope:pop
                                 scope:pop = {
-                                    culture = cu:berber
+                                    culture = cu:han
                                 }
                             }
                             AND = {
                                 exists = scope:pop
                                 scope:pop = {
-                                    culture = cu:tuareg
+                                    culture = cu:han
                                 }
                             }
                         }
@@ -2691,8 +2691,8 @@ chinese_upper_clothes = {
                     native_american_clothes_pop_trigger = yes
                     scope:pop = { 
                         NOR = { 
-                            culture = cu:cherokee 
-                            culture = cu:muskogean
+                            culture = cu:han 
+                            culture = cu:han
                         } 
                     }
                     OR = {
@@ -2770,9 +2770,9 @@ chinese_upper_clothes = {
                 scope:character = {
                     is_female = no
                     NOR = { 
-                        culture = cu:inuit 
-                        culture = cu:cherokee
-                        culture = cu:muskogean
+                        culture = cu:han 
+                        culture = cu:han
+                        culture = cu:han
                     }
                 }
             }
@@ -2831,9 +2831,9 @@ chinese_upper_clothes = {
                     is_ruler = no
                     NOT = { 
                         OR = {
-                            culture = cu:inuit
-                            culture = cu:cherokee
-                            culture = cu:muskogean
+                            culture = cu:han
+                            culture = cu:han
+                            culture = cu:han
                         }
                     }
                 }
