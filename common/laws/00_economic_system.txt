@@ -78,6 +78,7 @@ law_interventionism = {
 		bg_plantations
 		bg_ranching
 		bg_manufacturing
+		bg_urban_facilities
 		bg_mining
 		bg_logging
 		bg_rubber
@@ -170,6 +171,7 @@ law_laissez_faire = {
 
 	build_from_investment_pool = {
 		bg_manufacturing
+		bg_urban_facilities
 		bg_mining
 		bg_logging
 		bg_rubber
@@ -217,6 +219,7 @@ law_command_economy = {
 		bg_plantations
 		bg_ranching
 		bg_manufacturing
+		bg_urban_facilities
 		bg_mining
 		bg_logging
 		bg_rubber
