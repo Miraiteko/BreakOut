@@ -46,9 +46,9 @@
     }
     hair_color = {
         # Blonde
-        # 10 = { 0.25 0.2 0.75 0.55 }
+        10 = { 0.25 0.2 0.75 0.55 }
         # Brown
-        #2 = { 0.65 0.7 0.9 1.0 }
+        2 = { 0.65 0.7 0.9 1.0 }
         # # Red
         # 10 = { 0.85 0.0 1.0 0.5 }
         # Black
@@ -82,48 +82,8 @@
     gene_eye_angle = {
 
     
-        10 = { name = eye_angle    range = { 0.4 0.7 }    }
-
-  
-
-    }
-
-    gene_eye_depth = {
-
-       
-        25 = { name = eye_depth    range = { 0.25 0.35 }    }
-
-      
-
-    }
-
-    gene_eye_distance = {
-
-        1 = { name = eye_distance    range = { 0.4 0.6 }    }
- 
-     
-
-    }
-
-    gene_eye_height = {
-
-        10 = { name = eye_height    range = { 0.25 0.35}    }
-        0 = { name = eye_height    range = { 0.35 0.45}    }
-        0 = { name = eye_height    range = { 0.45 0.5 }    }
-        0 = { name = eye_height    range = { 0.5 0.55 }    }
-        0 = { name = eye_height    range = { 0.55 0.65}    }
-        0 = { name = eye_height    range = { 0.65 0.75}    }
-      
-
-    }
-
-    gene_eye_shut = {
-
+    
         
-   
-        20 = { name = eye_shut    range = { 0.4 0.7 }    }
-  
- 
 
     }
 
@@ -280,11 +240,7 @@
         84 = { name = mouth_lower_lip_size   range = { 0.5 0.6 }      }
 
 
-    }
 
-    gene_mouth_open = {
-
-        84 = { name = mouth_open   range = { 0.5 0.5 }      }
 
 
     }
@@ -376,29 +332,18 @@
 
         64 = { name = ear_lower_bend   range = { 0.5 0.5 }      }
   
-    }
-
+ 
     gene_ear_out = {
-
-
         64 = { name = ear_out   range = { 0.5 0.5 }      }
  
-
     }
-
     gene_ear_size = {
-
-
         84 = { name = ear_size   range = { 0.5 0.5 }      }
  
 
     }
-
     gene_ear_upper_bend = {
-
-
         84 = { name = ear_upper_bend   range = { 0.5 0.5 }      }
-
     }
 
     gene_eye_corner_def = {
@@ -468,13 +413,9 @@
 
    
         84 = { name = forehead_brow_inner_height   range = { 0.5 0.5 }      }
- 
 
     }
-
     gene_forehead_brow_outer_height = {
-
-
         84 = { name = forehead_brow_outer_height   range = { 0.5 0.5 }      }
  
 
@@ -684,7 +625,9 @@
     gene_nose_ridge_def = {
 
   
-        10 = {  name = nose_ridge_def             range = { 0.5 0.5 }     }
+        12 = {  name = nose_ridge_def             range = { 0.4 0.4 }     }
+        15 = {  name = nose_ridge_def             range = { 0.5 0.8 }     }
+        15 = {  name = nose_ridge_def            range = { 0.6 0.7 }     }
 
 
     }
@@ -719,7 +662,6 @@
 
         1 = { name = nose_tip_angle    range = { 0.2 0.4   }    }
 
-  
 
     }
 
@@ -738,7 +680,7 @@
 
     }
 
-    gene_bs_body_type = {
+	gene_bs_body_type = {
 
   
         20 = { name = body_fat_head_fat_low   range = { 0.5 0.5 }     }
@@ -752,100 +694,107 @@
         20 = { name = body_fat_head_fat_full   range = { 0.5 0.5 }      }
       
 
-    }
+	}
 
-    gene_height = {
+	gene_height = {
 
-        
+		
         84 = { name = normal_height   range = { 0.5 0.5 }      }
    
 
-    }
+	}
 
-    gene_old_eyes = {
+	gene_old_eyes = {
 
-        10 = { name = old_eyes_01   range = { 0 0 }      }
-        10 = { name = old_eyes_02   range = { 0 0 }      }
-        10 = { name = old_eyes_03   range = { 0 0 }      }
-    }
+		10 = { name = old_eyes_01   range = { 1.0 1.0 }      }
+		10 = { name = old_eyes_02   range = { 1.0 1.0 }      }
+		10 = { name = old_eyes_03   range = { 1.0 1.0 }      }
+	}
 
-    gene_old_forehead = {
+	gene_old_forehead = {
 
-        10 = { name = old_forehead_01   range = { 0 0 }      }
-        10 = { name = old_forehead_02   range = { 0 0 }      }
-        10 = { name = old_forehead_03   range = { 0 0 }      }
-    }
+		10 = { name = old_forehead_01   range = { 1.0 1.0 }      }
+		10 = { name = old_forehead_02   range = { 1.0 1.0 }      }
+		10 = { name = old_forehead_03   range = { 1.0 1.0 }      }
+	}
 
-    gene_old_mouth = {
+	gene_old_mouth = {
 
-        10 = { name = old_mouth_01   range = { 0.0 0.0 }      }
-        10 = { name = old_mouth_02   range = { 0.0 0.0 }      }
-        10 = { name = old_mouth_03   range = { 0.0 0.0 }      }
-    }
+		10 = { name = old_mouth_01   range = { 1.0 1.0 }      }
+		10 = { name = old_mouth_02   range = { 1.0 1.0 }      }
+		10 = { name = old_mouth_03   range = { 1.0 1.0 }      }
+	}
 
-    gene_complexion = {
+	gene_complexion = {
 
-        10 = { name = complexion_01   range = { 0 0 }      }
-        10 = { name = complexion_02   range = { 0 0 }      }
-        10 = { name = complexion_03   range = { 0 0 }      }
-    }
+		10 = { name = complexion_01   range = { 0.0 0.0 }      }
+		10 = { name = complexion_02   range = { 0.0 0.0 }      }
+		10 = { name = complexion_03   range = { 0.0 0.0 }      }
+	}
 
-    
+	
 
-    gene_crowfeet = {
+	gene_crowfeet = {
 
-        9 = { name = crowfeet_01   range = { 0.0 0.0 }      }
-        1 = { name = crowfeet_01   range = { 0.0 0.0 }      }
-        9 = { name = crowfeet_02   range = { 0.0 0.0 }      }
-        1 = { name = crowfeet_02   range = { 0.0 0.0 }      }
-        9 = { name = crowfeet_03   range = { 0.0 0 }        }
-        1 = { name = crowfeet_03   range = { 0.0 0.0 }      }
-    }
+		9 = { name = crowfeet_01   range = { 0.0 0.1 }      }
+		1 = { name = crowfeet_01   range = { 0.1 0.8 }      }
+		9 = { name = crowfeet_02   range = { 0.0 0.1 }      }
+		1 = { name = crowfeet_02   range = { 0.1 0.8 }      }
+		9 = { name = crowfeet_03   range = { 0.0 0.1 }      }
+		1 = { name = crowfeet_03   range = { 0.1 0.8 }      }
+	}
 
-    gene_frown = {
+	gene_frown = {
 
-        8 = { name = frown_01   range = { 0.0 0.0 }      }
-        2 = { name = frown_01   range = { 0.0 0.0 }      }
-        8 = { name = frown_02   range = { 0.0 0.0 }      }
-        2 = { name = frown_02   range = { 0.0 0.0 }      }
-        8 = { name = frown_03   range = { 0.0 0.1 }      }
-        2 = { name = frown_03   range = { 0.0 0.0 }      }
-    }
+		8 = { name = frown_01   range = { 0.0 0.1 }      }
+		2 = { name = frown_01   range = { 0.1 0.8 }      }
+		8 = { name = frown_02   range = { 0.0 0.1 }      }
+		2 = { name = frown_02   range = { 0.1 0.8 }      }
+		8 = { name = frown_03   range = { 0.0 0.1 }      }
+		2 = { name = frown_03   range = { 0.1 0.8 }      }
+	}
 
-    gene_surprise = {
+	gene_surprise = {
 
-        9 = { name = surprise_01   range = { 0.0 0.0 }      }
-        1 = { name = surprise_01   range = { 0.0 0.0 }      }
-        9 = { name = surprise_02   range = { 0.0 0.0 }      }
-        1 = { name = surprise_02   range = { 0.0 0.0 }      }
-        9 = { name = surprise_03   range = { 0.0 0.0 }      }
-        1 = { name = surprise_03   range = { 0.0 0.0 }      }
-    }
+		9 = { name = surprise_01   range = { 0.0 0.1 }      }
+		1 = { name = surprise_01   range = { 0.1 0.8 }      }
+		9 = { name = surprise_02   range = { 0.0 0.1 }      }
+		1 = { name = surprise_02   range = { 0.1 0.8 }      }
+		9 = { name = surprise_03   range = { 0.0 0.1 }      }
+		1 = { name = surprise_03   range = { 0.1 0.8 }      }
+	}
 
-
-
+   
     gene_eyebrows_shape = {
-        7 = {  name = avg_spacing_avg_thickness             range = { 0.5 1.0 }     }
-        5 = {  name = avg_spacing_high_thickness             range = { 0.5 1.0 }     }
-        10 = {  name = avg_spacing_low_thickness             range = { 0.5 1.0 }    }
+        10 = {  name = avg_spacing_avg_thickness             range = { 0.8 1.0 }     }
+        15 = {  name = avg_spacing_high_thickness             range = { 0.8 1.0 }     }
+        5 = {  name = avg_spacing_low_thickness             range = { 0.8 1.0 }    }
 
-        7 = {  name = far_spacing_avg_thickness             range = { 0.5 1.0 }     }
-        5 = {  name = far_spacing_high_thickness             range = { 0.5 0.5 }     }
-        10 = {  name = far_spacing_low_thickness             range = { 0.5 1.0 }    }
+        # 10 = {  name = far_spacing_avg_thickness             range = { 0.5 1.0 }     }
+        # 2 = {  name = far_spacing_high_thickness             range = { 0.5 1.0 }     }
+        # 10 = {  name = far_spacing_low_thickness             range = { 0.5 1.0 }    }
+        # 10 = {  name = far_spacing_lower_thickness             range = { 0.5 1.0 }    }
+
+        15 = {  name = close_spacing_avg_thickness             range = { 0.8 1.0 }     }
+        15 = {  name = close_spacing_high_thickness             range = { 0.8 1.0 }     }
+        15 = {  name = close_spacing_low_thickness             range = { 0.8 1.0 }    }
     }
 
     gene_eyebrows_fullness = {
         # 10 = {  name = layer_2_avg_thickness             range = { 0.25 0.5 }     }
-        15 = {  name = layer_2_avg_thickness             range = { 0.5 0.5 }     }
+        15 = {  name = layer_2_avg_thickness             range = { 0.5 1.0  }     }
         # 5 = {  name = layer_2_high_thickness             range = { 0.25 0.5 }     }
-        5 = {  name = layer_2_high_thickness             range = { 0.5 0.5 }     }
+        5 = {  name = layer_2_high_thickness             range = { 0.5 1.0  }     }
         # 10 = {  name = layer_2_low_thickness             range = { 0.25 0.5 }     }
-        15 = {  name = layer_2_low_thickness             range = { 0.5 0.5 }     }
+        # 15 = {  name = layer_2_low_thickness             range = { 0.5 0.75 }     }
+        # 10 = {  name = layer_2_lower_thickness             range = { 0.25 0.5 }     }
+        15 = {  name = layer_2_low_thickness             range = { 0.5 1.0  }     }
     }
 
-    hairstyles = {
-        10 = { name = east_asian_hairstyles         range = { 0 1 } }
-    }
+	hairstyles = {
+		10 = { name = european_hairstyles 		range = { 0.73 1.0 } }
+		
+	}
 
     beards = {
     
@@ -860,24 +809,22 @@
         8 = { name = no_mustache       range = { 0.0 1.0 } }
     }
 
-    # coats = {
-    #   10 = { name = prussian_coats        range = { 0.0 1.0 } }
-    # }
+	# epaulettes = {
+	# 	10 = { name = prussian_epaulettes		range = { 0.0 1.0 } }
+	# }
 
-    # epaulettes = {
-    #   10 = { name = prussian_epaulettes       range = { 0.0 1.0 } }
-    # }
+	# sashes = {
+	# 	10 = { name = prussian_sashes		range = { 0.0 1.0 } }
+	# }
 
-    # sashes = {
-    #   10 = { name = prussian_sashes       range = { 0.0 1.0 } }
-    # }
+	# medals = {
+	# 	10 = { name = all_medals		range = { 0.0 1.0 } }
+	# }
 
-    # medals = {
-    #   10 = { name = all_medals        range = { 0.0 1.0 } }
-    # }
+	# headgear = {
+	# 	10 = { name = generic_headgear		range = { 0.0 1.0 } }
+	# }
 
-    # headgear = {
-    #   10 = { name = generic_headgear      range = { 0.0 1.0 } }
-    # }
+	}
 
-    }
+	
