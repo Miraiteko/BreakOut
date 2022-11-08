@@ -5,7 +5,7 @@
 	
 	tier = principality
 	
-	cultures = { maghrebi }
+	cultures = { han }
 	
 	capital = STATE_CONSTANTINE
 }
@@ -17,7 +17,7 @@ EGY = {
 	
 	tier = principality
 	
-	cultures = { misri }
+	cultures = { han }
 	capital = STATE_LOWER_EGYPT
 }
 
@@ -28,7 +28,7 @@ ETH = {
 	
 	tier = principality
 	
-	cultures = { amhara oromo tigray }
+	cultures = { han }
 	capital = STATE_GONDER
 }
 
@@ -39,7 +39,7 @@ MAD = {
 	
 	tier = principality
 	
-	cultures = { malagasy }
+	cultures = { han }
 	capital = STATE_NORTH_MADAGASCAR
 }
 
@@ -50,7 +50,7 @@ LIB = {
 	
 	tier = principality
 	
-	cultures = { afro_american }
+	cultures = { han }
 	capital = STATE_LIBERIA
 	is_named_from_capital = yes
 }
@@ -62,7 +62,7 @@ MOR = {
 	
 	tier = principality
 	
-	cultures = { maghrebi berber }
+	cultures = { han }
 	capital = STATE_FEZ
 }
 
@@ -73,7 +73,7 @@ NAL = {
 	
 	tier = principality
 	
-	cultures = { boer }
+	cultures = { han }
 	capital = STATE_ZULULAND
 }
 
@@ -84,7 +84,7 @@ ORA = {
 	
 	tier = principality
 	
-	cultures = { boer }
+	cultures = { han }
 	capital = STATE_VRYSTAAT
 	is_named_from_capital = yes
 }
@@ -96,7 +96,7 @@ SAF = {
 	
 	tier = principality
 	
-	cultures = { british boer }
+	cultures = { han }
 	capital = STATE_CAPE_COLONY
 }
 
@@ -107,7 +107,7 @@ SOK = {
 	
 	tier = principality
 	
-	cultures = { hausa fulbe }
+	cultures = { han }
 	capital = STATE_HAUSALAND
 }
 
@@ -118,7 +118,7 @@ TRI = {
 	
 	tier = principality
 	
-	cultures = { maghrebi }
+	cultures = { han }
 	capital = STATE_TRIPOLI
 	is_named_from_capital = yes
 }
@@ -130,7 +130,7 @@ TRN = {
 	
 	tier = principality
 	
-	cultures = { boer }
+	cultures = { han }
 	capital = STATE_TRANSVAAL
 	is_named_from_capital = yes
 }
@@ -142,7 +142,7 @@ TUN = {
 	
 	tier = principality
 	
-	cultures = { maghrebi }
+	cultures = { han }
 	capital = STATE_TUNISIA
 	is_named_from_capital = yes
 }
@@ -154,7 +154,7 @@ ZAN = {
 	
 	tier = principality
 	
-	cultures = { swahili }
+	cultures = { han }
 	capital = STATE_ZANZIBAR
 	is_named_from_capital = yes
 }
@@ -166,7 +166,7 @@ ZUL = {
 	
 	tier = principality
 	
-	cultures = { zulu }
+	cultures = { han }
 	capital = STATE_ZULULAND
 	is_named_from_capital = yes
 }
@@ -178,7 +178,7 @@ SIL = {
 	
 	tier = principality
 	
-	cultures = { afro_caribbean }
+	cultures = { han }
 	capital = STATE_SIERRA_LEONE
 	is_named_from_capital = yes
 }
@@ -190,7 +190,7 @@ MTB = {
 	
 	tier = principality
 	
-	cultures = { nguni shona }
+	cultures = { han }
 	capital = STATE_ZAMBEZI
 }
 
@@ -201,7 +201,7 @@ MSH = {
 	
 	tier = principality
 	
-	cultures = { shona }
+	cultures = { han }
 	capital = STATE_ZAMBEZI
 }
 
@@ -212,7 +212,7 @@ MNC = {
 	
 	tier = principality
 	
-	cultures = { shona }
+	cultures = { han }
 	capital = STATE_ZAMBEZIA
 }
 
@@ -223,7 +223,7 @@ MSK = {
 	
 	tier = principality
 	
-	cultures = { shona }
+	cultures = { han }
 	capital = STATE_ZAMBEZIA
 }
 
@@ -234,7 +234,7 @@ NAM = {
 	
 	tier = principality
 	
-	cultures = { khoisan }
+	cultures = { han }
 	capital = STATE_NAMAQUALAND
 }
 
@@ -245,7 +245,7 @@ HRO = {
 	
 	tier = principality
 	
-	cultures = { herero khoisan }
+	cultures = { han }
 	capital = STATE_HEREROLAND
 }
 
@@ -256,7 +256,7 @@ LZO = {
 	
 	tier = principality
 	
-	cultures = { kavango_bantu }
+	cultures = { han }
 	capital = STATE_ZAMBIA
 }
 
@@ -267,7 +267,7 @@ TSW = {
 	
 	tier = principality
 	
-	cultures = { tswana }
+	cultures = { han }
 	capital = STATE_BOTSWANA
 }
 
@@ -278,7 +278,7 @@ WBL = {
 	
 	tier = principality
 	
-	cultures = { khoisan tswana }
+	cultures = { han }
 	capital = STATE_NORTHERN_CAPE
 }
 
@@ -289,7 +289,7 @@ KZM = {
 	
 	tier = principality
 	
-	cultures = { lunda }
+	cultures = { han }
 	capital = STATE_KAZEMBE
 }
 
@@ -300,7 +300,7 @@ BMB = {
 	
 	tier = principality
 	
-	cultures = { lacustrine_bantu }
+	cultures = { han }
 	capital = STATE_KAZEMBE
 }
 
@@ -311,7 +311,7 @@ KSN = {
 	
 	tier = principality
 	
-	cultures = { lunda ovimbundu }
+	cultures = { han }
 	capital = STATE_EAST_ANGOLA
 }
 
@@ -322,7 +322,7 @@ OVM = {
 	
 	tier = principality
 	
-	cultures = { ovimbundu }
+	cultures = { han }
 	capital = STATE_SOUTH_ANGOLA
 }
 
@@ -333,7 +333,7 @@ CHK = {
 	
 	tier = principality
 	
-	cultures = { lunda ovimbundu }
+	cultures = { han }
 	capital = STATE_EAST_ANGOLA
 }
 
@@ -344,7 +344,7 @@ LND = {
 	
 	tier = principality
 	
-	cultures = { lunda ovimbundu }
+	cultures = { han }
 	capital = STATE_EAST_ANGOLA
 }
 
@@ -355,7 +355,7 @@ KBA = {
 	
 	tier = principality
 	
-	cultures = { fluvian_bantu }
+	cultures = { han }
 	capital = STATE_KASAI
 }
 
@@ -366,7 +366,7 @@ MNB = {
 	
 	tier = principality
 	
-	cultures = { fluvian_bantu }
+	cultures = { han }
 	capital = STATE_CONGO_ORIENTALE
 }
 
@@ -377,7 +377,7 @@ NYM = {
 	
 	tier = principality
 	
-	cultures = { unyamwezi }
+	cultures = { han }
 	capital = STATE_TANGANYIKA
 }
 
@@ -388,7 +388,7 @@ HHE = {
 	
 	tier = principality
 	
-	cultures = { lacustrine_bantu }
+	cultures = { han }
 	capital = STATE_LINDI
 }
 
@@ -399,7 +399,7 @@ FTJ = {
 	
 	tier = principality
 	
-	cultures = { fulbe }
+	cultures = { han }
 	capital = STATE_GUINEA
 }
 
@@ -410,7 +410,7 @@ BUG = {
 	
 	tier = principality
 	
-	cultures = { baganda }
+	cultures = { han }
 	capital = STATE_UGANDA
 }
 
@@ -421,7 +421,7 @@ ASH = {
 	
 	tier = principality
 	
-	cultures = { akan }
+	cultures = { han }
 	capital = STATE_GHANA
 }
 
@@ -432,7 +432,7 @@ YKA = {
 	
 	tier = principality
 	
-	cultures = { bakongo lunda }
+	cultures = { han }
 	capital = STATE_BAS_CONGO
 }
 
@@ -445,7 +445,7 @@ KON = {
 
 	religion = catholic
 	
-	cultures = { bakongo }
+	cultures = { han }
 	capital = STATE_BAS_CONGO
 }
 
@@ -456,7 +456,7 @@ LNG = {
 	
 	tier = principality
 	
-	cultures = { bakongo }
+	cultures = { han }
 	capital = STATE_CONGO
 }
 
@@ -467,7 +467,7 @@ FNG = {
 	
 	tier = principality
 	
-	cultures = { fang }
+	cultures = { han }
 	capital = STATE_GABON
 }
 
@@ -489,7 +489,7 @@ BST = {
 	
 	tier = principality
 	
-	cultures = { sotho }
+	cultures = { han }
 	capital = STATE_ZULULAND
 }
 
@@ -500,7 +500,7 @@ TKE = {
 	
 	tier = principality
 	
-	cultures = { bakongo }
+	cultures = { han }
 	capital = STATE_CONGO
 }
 
@@ -511,7 +511,7 @@ BOB = {
 	
 	tier = principality
 	
-	cultures = { mongo bakongo }
+	cultures = { han }
 	capital = STATE_EQUATEUR
 }
 
@@ -522,7 +522,7 @@ LGA = {
 	
 	tier = principality
 	
-	cultures = { fluvian_bantu }
+	cultures = { han }
 	capital = STATE_CONGO_ORIENTALE
 }
 
@@ -533,7 +533,7 @@ HMB = {
 	
 	tier = principality
 	
-	cultures = { fluvian_bantu }
+	cultures = { han }
 	capital = STATE_CONGO_ORIENTALE
 }
 
@@ -544,7 +544,7 @@ LBA = {
 	
 	tier = principality
 	
-	cultures = { luba }
+	cultures = { han }
 	capital = STATE_KATANGA
 }
 
@@ -599,7 +599,7 @@ RWD = {
 	
 	tier = principality
 	
-	cultures = { ruanda }
+	cultures = { han }
 	capital = STATE_TANGANYIKA
 }
 
@@ -610,7 +610,7 @@ BRD = {
 	
 	tier = principality
 	
-	cultures = { rundi }
+	cultures = { han }
 	capital = STATE_TANGANYIKA
 }
 
@@ -621,7 +621,7 @@ MSI = {
 	
 	tier = principality
 	
-	cultures = { maasai }
+	cultures = { han }
 	capital = STATE_RIFT_VALLEY
 }
 
@@ -632,7 +632,7 @@ TRK = {
 	
 	tier = principality
 	
-	cultures = { nilotic maasai }
+	cultures = { han }
 	capital = STATE_RIFT_VALLEY
 }
 
@@ -643,7 +643,7 @@ LUO = {
 	
 	tier = principality
 	
-	cultures = { luo }
+	cultures = { han }
 	capital = STATE_RIFT_VALLEY
 }
 
@@ -654,7 +654,7 @@ GGO = {
 	
 	tier = principality
 	
-	cultures = { lacustrine_bantu }
+	cultures = { han }
 	capital = STATE_LINDI
 }
 
@@ -665,7 +665,7 @@ SNG = {
 	
 	tier = principality
 	
-	cultures = { lacustrine_bantu }
+	cultures = { han }
 	capital = STATE_LINDI
 }
 
@@ -676,7 +676,7 @@ KKY = {
 	
 	tier = principality
 	
-	cultures = { kikuyu }
+	cultures = { han }
 	capital = STATE_KENYA
 }
 
@@ -687,7 +687,7 @@ WSG = {
 	
 	tier = principality
 	
-	cultures = { somali }
+	cultures = { han }
 	capital = STATE_SOMALILAND
 }
 
@@ -698,7 +698,7 @@ GLD = {
 	
 	tier = principality
 	
-	cultures = { somali }
+	cultures = { han }
 	capital = STATE_SOMALILAND
 }
 
@@ -709,7 +709,7 @@ MJT = {
 	
 	tier = principality
 	
-	cultures = { somali }
+	cultures = { han }
 	capital = STATE_SOMALILAND
 }
 
@@ -720,7 +720,7 @@ DFR = {
 	
 	tier = principality
 	
-	cultures = { fur bedouin }
+	cultures = { han }
 	capital = STATE_DARFUR
 }
 
@@ -731,7 +731,7 @@ ISQ = {
 	
 	tier = principality
 	
-	cultures = { somali }
+	cultures = { han }
 	capital = STATE_SOMALILAND
 }
 
@@ -742,7 +742,7 @@ HOB = {
 	
 	tier = principality
 	
-	cultures = { somali }
+	cultures = { han }
 	capital = STATE_SOMALILAND
 }
 
@@ -764,7 +764,7 @@ ZND = {
 	
 	tier = principality
 	
-	cultures = { azande }
+	cultures = { han }
 	capital = STATE_CONGO_ORIENTALE
 }
 
@@ -786,7 +786,7 @@ DNK = {
 	
 	tier = principality
 	
-	cultures = { dinka }
+	cultures = { han }
 	capital = STATE_EQUATORIA
 }
 
@@ -797,7 +797,7 @@ NUE = {
 	
 	tier = principality
 	
-	cultures = { nuer }
+	cultures = { han }
 	capital = STATE_EQUATORIA
 }
 
@@ -808,7 +808,7 @@ TPS = {
 	
 	tier = principality
 	
-	cultures = { nilotic }
+	cultures = { han }
 	capital = STATE_EQUATORIA
 }
 
@@ -819,7 +819,7 @@ AWS = {
 	
 	tier = principality
 	
-	cultures = { afar tigray }
+	cultures = { han }
 	capital = STATE_GONDER
 }
 
@@ -830,7 +830,7 @@ SHW = {
 	
 	tier = principality
 	
-	cultures = { amhara oromo }
+	cultures = { han }
 	capital = STATE_OROMIA
 }
 
@@ -841,7 +841,7 @@ HAR = {
 	
 	tier = principality
 	
-	cultures = { somali amhara }
+	cultures = { han }
 	capital = STATE_OROMIA
 }
 
@@ -851,7 +851,7 @@ BRN = {
 	
 	tier = principality
 	
-	cultures = { oromo }
+	cultures = { han }
 	capital = STATE_AMHARA
 }
 
@@ -861,7 +861,7 @@ KFA = {
 	
 	tier = principality
 	
-	cultures = { sidama oromo }
+	cultures = { han }
 	capital = STATE_AMHARA
 }
 
@@ -871,7 +871,7 @@ SDM = {
 	
 	tier = principality
 	
-	cultures = { sidama oromo }
+	cultures = { han }
 	capital = STATE_AMHARA
 }
 
@@ -881,7 +881,7 @@ WLG = {
 	
 	tier = principality
 	
-	cultures = { oromo }
+	cultures = { han }
 	capital = STATE_AMHARA
 }
 	
@@ -901,7 +901,7 @@ GJM = {
 	
 	tier = principality
 	
-	cultures = { amhara oromo }
+	cultures = { han }
 	capital = STATE_AMHARA
 }
 
@@ -911,7 +911,7 @@ WLO = {
 	
 	tier = principality
 	
-	cultures = { amhara }
+	cultures = { han }
 	capital = STATE_AMHARA
 }
 
@@ -921,7 +921,7 @@ BGM = {
 	
 	tier = principality
 	
-	cultures = { amhara oromo tigray }
+	cultures = { han }
 	capital = STATE_AMHARA
 }
 
@@ -931,7 +931,7 @@ BOR = {
 	
 	tier = principality
 	
-	cultures = { kanuri }
+	cultures = { han }
 	capital = STATE_BORNU
 }
 
@@ -941,7 +941,7 @@ BGI = {
 	
 	tier = principality
 	
-	cultures = { baguirmi }
+	cultures = { han }
 	capital = STATE_WADDAI
 }
 
@@ -951,7 +951,7 @@ WAD = {
 	
 	tier = principality
 	
-	cultures = { fur }
+	cultures = { han }
 	capital = STATE_WADDAI
 }
 
@@ -961,7 +961,7 @@ AIR = {
 	
 	tier = principality
 	
-	cultures = { tuareg }
+	cultures = { han }
 	capital = STATE_NIGER
 }
 
@@ -971,7 +971,7 @@ MSN = {
 	
 	tier = principality
 	
-	cultures = { fulbe }
+	cultures = { han }
 	capital = STATE_EASTERN_MALI
 }
 
@@ -981,7 +981,7 @@ OYO = {
 	
 	tier = principality
 	
-	cultures = { yoruba }
+	cultures = { han }
 	capital = STATE_YORUBA_STATES
 }
 
@@ -991,7 +991,7 @@ BEN = {
 	
 	tier = principality
 	
-	cultures = { edo }
+	cultures = { han }
 	capital = STATE_BENIN
 }
 
@@ -1001,7 +1001,7 @@ CAY = {
 	
 	tier = principality
 	
-	cultures = { wolof }
+	cultures = { han }
 	capital = STATE_SENEGAL
 }
 
@@ -1011,7 +1011,7 @@ JLF = {
 	
 	tier = principality
 	
-	cultures = { wolof }
+	cultures = { han }
 	capital = STATE_SENEGAL
 }
 
@@ -1021,7 +1021,7 @@ FTR = {
 	
 	tier = principality
 	
-	cultures = { fulbe wolof }
+	cultures = { han }
 	capital = STATE_SENEGAL
 }
 
@@ -1031,7 +1031,7 @@ KNG = {
 	
 	tier = principality
 	
-	cultures = { dyula senufo }
+	cultures = { han }
 	capital = STATE_IVORY_COAST
 }
 
@@ -1041,7 +1041,7 @@ DAH = {
 	
 	tier = principality
 	
-	cultures = { fon }
+	cultures = { han }
 	capital = STATE_DAHOMEY
 }
 
@@ -1051,7 +1051,7 @@ MOS = {
 	
 	tier = principality
 	
-	cultures = { mossi }
+	cultures = { han }
 	capital = STATE_VOLTA
 }
 
@@ -1061,7 +1061,7 @@ KRT = {
 	
 	tier = principality
 	
-	cultures = { bambara }
+	cultures = { han }
 	capital = STATE_WESTERN_MALI
 }
 
@@ -1071,7 +1071,7 @@ SGU = {
 	
 	tier = principality
 	
-	cultures = { bambara }
+	cultures = { han }
 	capital = STATE_WESTERN_MALI
 }
 
@@ -1081,7 +1081,7 @@ TRZ = {
 	
 	tier = principality
 	
-	cultures = { maures }
+	cultures = { han }
 	capital = STATE_MAURITANIA
 }
 
@@ -1091,7 +1091,7 @@ KBU = {
 	
 	tier = principality
 	
-	cultures = { mande }
+	cultures = { han }
 	
 	religion = animist
 	
@@ -1104,7 +1104,7 @@ BND = {
 	
 	tier = principality
 	
-	cultures = { fulbe mande }
+	cultures = { han }
 	capital = STATE_GAMBIA
 }
 
@@ -1116,7 +1116,7 @@ SRR = {
 
 	religion = animist
 	
-	cultures = { mande }
+	cultures = { han }
 	capital = STATE_GAMBIA
 }
 
@@ -1126,7 +1126,7 @@ SSU = {
 	
 	tier = principality
 	
-	cultures = { mande }
+	cultures = { han }
 	capital = STATE_GUINEA
 }
 
@@ -1136,7 +1136,7 @@ MDK = {
 	
 	tier = principality
 	
-	cultures = { mande }
+	cultures = { han }
 	capital = STATE_GUINEA
 }
 
@@ -1146,7 +1146,7 @@ HAU = {
 	
 	tier = principality
 	
-	cultures = { hausa }
+	cultures = { han }
 	capital = STATE_OUTER_HAUSALAND
 }
 
@@ -1156,7 +1156,7 @@ BLE = {
 	
 	tier = principality
 	
-	cultures = { akan }
+	cultures = { han }
 	capital = STATE_WINDWARD_COAST
 }
 
@@ -1166,7 +1166,7 @@ KRU = {
 	
 	tier = principality
 	
-	cultures = { kru }
+	cultures = { han }
 	capital = STATE_WINDWARD_COAST
 }
 
@@ -1176,7 +1176,7 @@ KBD = {
 	
 	tier = principality
 	
-	cultures = { mande }
+	cultures = { han }
 	capital = STATE_WINDWARD_COAST
 }
 
@@ -1186,7 +1186,7 @@ AYI = {
 	
 	tier = principality
 	
-	cultures = { akan }
+	cultures = { han }
 	capital = STATE_IVORY_COAST
 }
 
@@ -1196,7 +1196,7 @@ EWE = {
 	
 	tier = principality
 	
-	cultures = { ewe }
+	cultures = { han }
 	capital = STATE_TOGO
 }
 
@@ -1206,7 +1206,7 @@ IBO = {
 	
 	tier = principality
 	
-	cultures = { ibo }
+	cultures = { han }
 	capital = STATE_NIGER_DELTA
 }
 
@@ -1216,7 +1216,7 @@ DLA = {
 	
 	tier = principality
 	
-	cultures = { equatorial_bantu }
+	cultures = { han }
 	capital = STATE_SOUTH_CAMEROON
 }
 
@@ -1226,7 +1226,7 @@ TBI = {
 	
 	tier = principality
 	
-	cultures = { teda }
+	cultures = { han }
 	capital = STATE_CHAD
 }
 
@@ -1236,7 +1236,7 @@ AHG = {
 	
 	tier = principality
 	
-	cultures = { tuareg }
+	cultures = { han }
 	capital = STATE_EAST_SAHARA
 }
 
@@ -1246,7 +1246,7 @@ TUA = {
 	
 	tier = principality
 	
-	cultures = { tuareg }
+	cultures = { han }
 	capital = STATE_SAHARA
 }
 
@@ -1256,7 +1256,7 @@ OUA = {
 	
 	tier = principality
 	
-	cultures = { maures }
+	cultures = { han }
 	capital = STATE_INNER_MAURITANIA
 }
 
@@ -1266,7 +1266,7 @@ ADG = {
 	
 	tier = principality
 	
-	cultures = { tuareg }
+	cultures = { han }
 	capital = STATE_TIMBUKTU
 }
 
@@ -1277,7 +1277,7 @@ BSS = { # Bassa
 	
 	tier = principality
 	
-	cultures = { bassa }
+	cultures = { han }
 	capital = STATE_LIBERIA
 }
 
@@ -1288,7 +1288,7 @@ TIR = { # Tiris
 	
 	tier = principality
 	
-	cultures = { haratin }
+	cultures = { han }
 	capital = STATE_MAURITANIA
 }
 
@@ -1299,7 +1299,7 @@ IBL = { # Ibibioland
 	
 	tier = principality
 	
-	cultures = { ibibio }
+	cultures = { han }
 	capital = STATE_NIGER_DELTA
 }
 
@@ -1310,7 +1310,7 @@ KSS = { # Kissi
 	
 	tier = principality
 	
-	cultures = { kissi }
+	cultures = { han }
 	capital = STATE_GUINEA
 }
 
@@ -1321,7 +1321,7 @@ GAO = { # Gao
 	
 	tier = principality
 	
-	cultures = { songhai }
+	cultures = { han }
 	capital = STATE_TIMBUKTU
 }
 
@@ -1332,7 +1332,7 @@ TIV = { # Tivland
 	
 	tier = principality
 	
-	cultures = { tiv }
+	cultures = { han }
 	capital = STATE_NIGERIA
 }
 
@@ -1343,7 +1343,7 @@ SRA = { # Sara
 	
 	tier = principality
 	
-	cultures = { sara }
+	cultures = { han }
 	capital = STATE_UBANGI_SHARI
 }
 
@@ -1354,7 +1354,7 @@ EQU = { # Equatoria
 	
 	tier = principality
 	
-	cultures = { nilotic }
+	cultures = { han }
 	capital = STATE_EQUATORIA
 }
 
@@ -1365,7 +1365,7 @@ BJA = { # Beja
 	
 	tier = principality
 	
-	cultures = { beja }
+	cultures = { han }
 	capital = STATE_DONGOLA
 }
 
@@ -1376,7 +1376,7 @@ NBA = { # Nuba
 	
 	tier = principality
 	
-	cultures = { nuba }
+	cultures = { han }
 	capital = STATE_EQUATORIA
 }
 
@@ -1387,7 +1387,7 @@ SUD = { # Sudanese
 	
 	tier = principality
 	
-	cultures = { sudanese beja bedouin }
+	cultures = { han }
 	capital = STATE_BLUE_NILE
 }
 
@@ -1398,7 +1398,7 @@ SKM = { # Sukuma
 	
 	tier = principality
 	
-	cultures = { sukuma }
+	cultures = { han }
 	capital = STATE_TANGANYIKA
 }
 
@@ -1409,7 +1409,7 @@ CHW = { # Chewa
 	
 	tier = principality
 	
-	cultures = { chewa }
+	cultures = { han }
 	capital = STATE_KAZEMBE
 }
 
@@ -1420,7 +1420,7 @@ LMW = { # Lomwe
 	
 	tier = principality
 	
-	cultures = { lomwe }
+	cultures = { han }
 	capital = STATE_MOCAMBIQUE
 }
 
@@ -1431,7 +1431,7 @@ MKU = { # Makua
 	
 	tier = principality
 	
-	cultures = { makua }
+	cultures = { han }
 	capital = STATE_MOCAMBIQUE
 }
 
@@ -1442,7 +1442,7 @@ SNA = { # Sena
 	
 	tier = principality
 	
-	cultures = { sena }
+	cultures = { han }
 	capital = STATE_MOCAMBIQUE
 }
 
@@ -1453,7 +1453,7 @@ BTG = { # Batonga
 	
 	tier = principality
 	
-	cultures = { tonga }
+	cultures = { han }
 	capital = STATE_LOURENCO_MARQUES
 }
 
@@ -1464,7 +1464,7 @@ XHO = { # Xhosa
 	
 	tier = principality
 	
-	cultures = { xhosa }
+	cultures = { han }
 	capital = STATE_EASTERN_CAPE
 }
 
@@ -1475,7 +1475,7 @@ UYA = { # Uyao
 	
 	tier = principality
 	
-	cultures = { yao }
+	cultures = { han }
 	capital = STATE_MOCAMBIQUE
 }
 
@@ -1502,7 +1502,7 @@ AFS = { #Dynamic African Free State
 	color = {130 23 47}
 	country_type = colonial
 	tier = principality
-	cultures = { bakongo }
+	cultures = { han }
 }
 
 SAH = { # Sahrawi
@@ -1511,6 +1511,6 @@ SAH = { # Sahrawi
 	
 	tier = principality
 	
-	cultures = { berber }
+	cultures = { han }
 	capital = STATE_WEST_SAHARA
 }

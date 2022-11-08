@@ -5,7 +5,7 @@
 
 	tier = principality
 	
-	cultures = { north_german }
+	cultures = { han }
 	capital = STATE_BRANDENBURG
 }
 
@@ -16,7 +16,7 @@ GBR = {
 
 	tier = kingdom	
 	
-	cultures = { british scottish }
+	cultures = { han }
 	capital = STATE_HOME_COUNTIES
 }
 
@@ -27,7 +27,7 @@ SCA = {
 
 	tier = principality
 	
-	cultures = { swedish }
+	cultures = { han }
 	capital = STATE_SVEALAND
 }
 
@@ -38,7 +38,7 @@ RUS = {
 
 	tier = principality
 	
-	cultures = { russian }
+	cultures = { han }
 	capital = STATE_INGRIA
 }
 
@@ -49,7 +49,7 @@ FRA = {
 
 	tier = principality
 	
-	cultures = { french }
+	cultures = { han }
 	capital = STATE_ILE_DE_FRANCE
 }
 
@@ -60,7 +60,7 @@ PRU = {
 
 	tier = principality
 	
-	cultures = { north_german }
+	cultures = { han }
 	capital = STATE_BRANDENBURG
 }
 
@@ -71,7 +71,7 @@ WES = {
 
 	tier = principality
 	
-	cultures = { north_german }
+	cultures = { han }
 	capital = STATE_WESTPHALIA
 	is_named_from_capital = yes
 }
@@ -83,7 +83,7 @@ POM = {
 
 	tier = principality
 	
-	cultures = { north_german }
+	cultures = { han }
 	capital = STATE_POMERANIA
 	is_named_from_capital = yes
 }
@@ -95,7 +95,7 @@ AUS = {
 
 	tier = principality
 	
-	cultures = { south_german }
+	cultures = { han }
 	capital = STATE_AUSTRIA
 }
 
@@ -106,7 +106,7 @@ USA = {
 	
 	tier = principality
 	
-	cultures = { dixie yankee }
+	cultures = { han }
 	capital = STATE_DISTRICT_OF_COLUMBIA
 }
 
@@ -117,7 +117,7 @@ CSA = {
 	
 	tier = principality
 	
-	cultures = { dixie }
+	cultures = { han }
 	capital = STATE_VIRGINIA
 }
 
@@ -128,7 +128,7 @@ FSA = {
 	
 	tier = principality
 	
-	cultures = { yankee }
+	cultures = { han }
 	capital = STATE_NEW_YORK
 }
 
@@ -139,7 +139,7 @@ ASA = {
 	
 	tier = principality
 	
-	cultures = { afro_american }
+	cultures = { han }
 	capital = STATE_GEORGIA
 }
 
@@ -161,7 +161,7 @@ AGJ = {
 	
 	tier = principality
 	
-	cultures = { afro_brazilian }
+	cultures = { han }
 	capital = STATE_PERNAMBUCO
 }
 
@@ -172,7 +172,7 @@ AMZ = {
 	
 	tier = principality
 	
-	cultures = { amazonian }
+	cultures = { han }
 	capital = STATE_AMAZONAS
 }
 
@@ -183,7 +183,7 @@ GRI = {
 	
 	tier = principality
 	
-	cultures = { guarani }
+	cultures = { han }
 	capital = STATE_AMAZONAS
 }
 
@@ -193,7 +193,7 @@ JAP = {
 	
 	tier = principality
 	
-	cultures = { japanese }
+	cultures = { han }
 	capital = STATE_KANSAI
 }
 
@@ -226,7 +226,7 @@ DEN = {
 
 	tier = principality
 	
-	cultures = { danish }
+	cultures = { han }
 	capital = STATE_ZEALAND
 }
 
@@ -237,7 +237,7 @@ FIN = {
 
 	tier = principality
 	
-	cultures = { finnish }
+	cultures = { han }
 	capital = STATE_SOUTHERN_FINLAND
 }
 
@@ -259,7 +259,7 @@ SWE = {
 
 	tier = principality
 	
-	cultures = { swedish }
+	cultures = { han }
 	capital = STATE_SVEALAND
 }
 
@@ -270,7 +270,7 @@ SCN = {
 
 	tier = principality
 	
-	cultures = { swedish }
+	cultures = { han }
 	capital = STATE_SCANIA
 	is_named_from_capital = yes
 }
@@ -282,7 +282,7 @@ BEL = {
 
 	tier = principality
 	
-	cultures = { flemish }	
+	cultures = { han }	
 	capital = STATE_FLANDERS
 }
 
@@ -293,7 +293,7 @@ CAT = {
 
 	tier = principality
 	
-	cultures = { catalan }
+	cultures = { han }
 	capital = STATE_CATALONIA
 	is_named_from_capital = yes
 }
@@ -306,7 +306,7 @@ FLA = {
 	tier = principality
 	
 	capital = STATE_FLANDERS
-	cultures = { flemish }
+	cultures = { han }
 	is_named_from_capital = yes
 }
 
@@ -317,7 +317,7 @@ IRE = {
 
 	tier = principality
 	
-	cultures = { irish }
+	cultures = { han }
 	capital = STATE_LEINSTER
 }
 
@@ -328,7 +328,7 @@ NET = {
 
 	tier = principality
 	
-	cultures = { dutch }
+	cultures = { han }
 	capital = STATE_HOLLAND
 }
 
@@ -339,7 +339,7 @@ POR = {
 
 	tier = principality
 	
-	cultures = { portuguese }
+	cultures = { han }
 	capital = STATE_ESTREMADURA
 }
 
@@ -350,7 +350,7 @@ SCO = {
 
 	tier = principality
 	
-	cultures = { scottish }
+	cultures = { han }
 	capital = STATE_LOWLANDS
 }
 
@@ -361,7 +361,7 @@ ENG = {
 
 	tier = principality
 	
-	cultures = { british }
+	cultures = { han }
 	capital = STATE_HOME_COUNTIES
 }
 
@@ -372,7 +372,7 @@ ULS = {
 
 	tier = principality
 	
-	cultures = { scottish irish }
+	cultures = { han }
 	religion = protestant
 	capital = STATE_ULSTER
 	is_named_from_capital = yes
@@ -385,7 +385,7 @@ WLS = {
 
 	tier = principality
 	
-	cultures = { welsh }
+	cultures = { han }
 	capital = STATE_WALES
 	is_named_from_capital = yes
 }
@@ -397,7 +397,7 @@ NAV = {
 
 	tier = principality
 	
-	cultures = { basque }
+	cultures = { han }
 	capital = STATE_NAVARRA
 	is_named_from_capital = yes
 }
@@ -409,7 +409,7 @@ SPA = {
 
 	tier = principality
 	
-	cultures = { spanish }
+	cultures = { han }
 	capital = STATE_TOLEDO
 }
 
@@ -420,7 +420,7 @@ WLL = {
 
 	tier = principality
 	
-	cultures = { wallonian }
+	cultures = { han }
 	capital = STATE_WALLONIA
 	is_named_from_capital = yes
 }
@@ -432,7 +432,7 @@ ANH = {
 
 	tier = principality
 	
-	cultures = { north_german }
+	cultures = { han }
 	capital = STATE_ANHALT
 	is_named_from_capital = yes
 }
@@ -444,7 +444,7 @@ BAD = {
 
 	tier = principality
 	
-	cultures = { south_german }
+	cultures = { han }
 	capital = STATE_BADEN
 	is_named_from_capital = yes
 }
@@ -456,7 +456,7 @@ BAV = {
 
 	tier = principality
 	
-	cultures = { south_german }
+	cultures = { han }
 	capital = STATE_BAVARIA
 	is_named_from_capital = yes
 }
@@ -468,7 +468,7 @@ BRA = {
 
 	tier = principality
 	
-	cultures = { north_german }
+	cultures = { han }
 	capital = STATE_BRUNSWICK
 	is_named_from_capital = yes
 }
@@ -480,7 +480,7 @@ BRE = {
 
 	tier = principality
 	
-	cultures = { north_german }
+	cultures = { han }
 	capital = STATE_ELBE
 }
 
@@ -491,7 +491,7 @@ DZG = {
 
 	tier = principality
 	
-	cultures = { north_german }
+	cultures = { han }
 	capital = STATE_WEST_PRUSSIA
 }
 
@@ -502,7 +502,7 @@ FRM = {
 
 	tier = principality
 	
-	cultures = { north_german }
+	cultures = { han }
 	capital = STATE_HESSE
 }
 
@@ -513,7 +513,7 @@ HAM = {
 
 	tier = principality
 	
-	cultures = { north_german }
+	cultures = { han }
 	capital = STATE_ELBE
 }
 
@@ -524,7 +524,7 @@ HAN = {
 
 	tier = principality
 	
-	cultures = { north_german }
+	cultures = { han }
 	capital = STATE_HANNOVER
 	is_named_from_capital = yes
 }
@@ -536,7 +536,7 @@ HES = {
 
 	tier = principality
 	
-	cultures = { north_german }
+	cultures = { han }
 	capital = STATE_HESSE
 	is_named_from_capital = yes
 }
@@ -548,7 +548,7 @@ HOL = {
 
 	tier = principality
 	
-	cultures = { north_german }
+	cultures = { han }
 	capital = STATE_SCHLESWIG_HOLSTEIN
 	is_named_from_capital = yes
 }
@@ -560,7 +560,7 @@ LUB = {
 
 	tier = principality
 	
-	cultures = { north_german }
+	cultures = { han }
 	capital = STATE_SCHLESWIG_HOLSTEIN
 }
 
@@ -571,7 +571,7 @@ LUX = {
 
 	tier = principality
 	
-	cultures = { wallonian }
+	cultures = { han }
 	capital = STATE_WALLONIA
 }
 
@@ -582,7 +582,7 @@ MEC = {
 
 	tier = principality
 	
-	cultures = { north_german }
+	cultures = { han }
 	capital = STATE_MECKLENBURG
 	is_named_from_capital = yes
 }
@@ -594,7 +594,7 @@ NAS = {
 
 	tier = principality
 	
-	cultures = { north_german }
+	cultures = { han }
 	capital = STATE_HESSE
 }
 
@@ -605,7 +605,7 @@ OLD = {
 
 	tier = principality
 	
-	cultures = { north_german }
+	cultures = { han }
 	capital = STATE_HANNOVER
 }
 
@@ -616,7 +616,7 @@ SAX = {
 
 	tier = principality
 	
-	cultures = { north_german }
+	cultures = { han }
 	capital = STATE_SAXONY
 	is_named_from_capital = yes
 }
@@ -628,7 +628,7 @@ WUR = {
 
 	tier = principality
 	
-	cultures = { south_german }
+	cultures = { han }
 	religion = protestant	
 	capital = STATE_WURTTEMBERG
 	is_named_from_capital = yes
@@ -641,7 +641,7 @@ LOM = {
 
 	tier = principality
 	
-	cultures = { north_italian }
+	cultures = { han }
 	capital = STATE_LOMBARDY
 	is_named_from_capital = yes
 }
@@ -653,7 +653,7 @@ LUC = {
 
 	tier = principality
 	
-	cultures = { north_italian }
+	cultures = { han }
 	capital = STATE_EMILIA
 }
 
@@ -664,7 +664,7 @@ MOD = {
 
 	tier = principality
 	
-	cultures = { north_italian }
+	cultures = { han }
 	capital = STATE_EMILIA
 }
 
@@ -675,7 +675,7 @@ PAP = {
 
 	tier = principality
 	
-	cultures = { south_italian }
+	cultures = { han }
 	capital = STATE_LAZIO
 }
 
@@ -686,7 +686,7 @@ PAR = {
 
 	tier = principality
 	
-	cultures = { north_italian }
+	cultures = { han }
 	capital = STATE_EMILIA
 }
 
@@ -697,7 +697,7 @@ PRA = { #Gao-Para
 
 	tier = principality
 	
-	cultures = { brazilian }
+	cultures = { han }
 	religion = catholic
 	capital = STATE_PARA
 }
@@ -709,7 +709,7 @@ SAR = {
 
 	tier = principality
 	
-	cultures = { north_italian }
+	cultures = { han }
 	capital = STATE_PIEDMONT
 	is_named_from_capital = yes
 }
@@ -721,7 +721,7 @@ SIC = {
 
 	tier = principality
 	
-	cultures = { south_italian }
+	cultures = { han }
 	capital = STATE_CAMPANIA
 }
 
@@ -732,7 +732,7 @@ TRE = {
 
 	tier = principality
 	
-	cultures = { north_italian }
+	cultures = { han }
 	capital = STATE_ISTRIA
 }
 
@@ -744,7 +744,7 @@ TUS = {
 	tier = principality
 	
 	capital = STATE_TUSCANY
-	cultures = { north_italian }
+	cultures = { han }
 	is_named_from_capital = yes
 }
 
@@ -755,7 +755,7 @@ VEN = {
 
 	tier = principality
 	
-	cultures = { north_italian }
+	cultures = { han }
 	capital = STATE_VENETIA
 	is_named_from_capital = yes
 }
@@ -767,7 +767,7 @@ BOH = {
 
 	tier = principality
 	
-	cultures = { czech }	
+	cultures = { han }	
 	capital = STATE_BOHEMIA
 	is_named_from_capital = yes
 }
@@ -780,7 +780,7 @@ KRA = {
 	tier = principality
 	
 	capital = STATE_WEST_GALICIA
-	cultures = { polish }
+	cultures = { han }
 }
 
 CRI = {
@@ -790,7 +790,7 @@ CRI = {
 	
 	tier = principality
 	
-	cultures = { tatar }
+	cultures = { han }
 	capital = STATE_CRIMEA
 	is_named_from_capital = yes
 }
@@ -802,7 +802,7 @@ EST = {
 
 	tier = principality
 	
-	cultures = { estonian }
+	cultures = { han }
 	capital = STATE_ESTONIA
 	is_named_from_capital = yes
 }
@@ -814,7 +814,7 @@ HUN = {
 
 	tier = principality
 	
-	cultures = { hungarian }
+	cultures = { han }
 	capital = STATE_CENTRAL_HUNGARY
 }
 
@@ -825,7 +825,7 @@ LIT = {
 
 	tier = principality
 	
-	cultures = { lithuanian }	
+	cultures = { han }	
 	capital = STATE_LITHUANIA
 	is_named_from_capital = yes
 }
@@ -837,7 +837,7 @@ LAT = {
 
 	tier = principality
 	
-	cultures = { latvian }	
+	cultures = { han }	
 	capital = STATE_LATVIA
 	is_named_from_capital = yes
 }
@@ -849,7 +849,7 @@ POL = {
 
 	tier = principality
 	
-	cultures = { polish }
+	cultures = { han }
 	capital = STATE_MAZOVIA
 }
 
@@ -860,7 +860,7 @@ GAL = {
 
 	tier = principality
 	
-	cultures = { ukrainian }
+	cultures = { han }
 	capital = STATE_EAST_GALICIA
 }
 
@@ -871,7 +871,7 @@ SLV = {
 
 	tier = principality
 	
-	cultures = { slovak }
+	cultures = { han }
 	capital = STATE_WEST_SLOVAKIA
 }
 
@@ -883,7 +883,7 @@ SWI = {
 	tier = principality
 	
 	capital = STATE_WEST_SWITZERLAND
-	cultures = { swiss }
+	cultures = { han }
 }
 
 TRS = {
@@ -893,7 +893,7 @@ TRS = {
 
 	tier = principality
 	
-	cultures = { hungarian }
+	cultures = { han }
 	capital = STATE_SOUTHERN_TRANSYLVANIA
 }
 
@@ -904,7 +904,7 @@ UKR = {
 
 	tier = principality
 	
-	cultures = { ukrainian }
+	cultures = { han }
 	capital = STATE_KIEV
 }
 
@@ -915,7 +915,7 @@ CZH = {
 
 	tier = principality
 	
-	cultures = { czech slovak }
+	cultures = { han }
 	capital = STATE_BOHEMIA
 }
 
@@ -926,7 +926,7 @@ ALB = {
 
 	tier = principality
 	 
-	cultures = { albanian }
+	cultures = { han }
 	capital = STATE_ALBANIA
 	is_named_from_capital = yes
 }
@@ -938,7 +938,7 @@ BOS = {
 
 	tier = principality
 	
-	cultures = { bosniak }
+	cultures = { han }
 	capital = STATE_BOSNIA	
 	is_named_from_capital = yes
 }
@@ -950,7 +950,7 @@ BUL = {
 
 	tier = principality
 	
-	cultures = { bulgarian }	
+	cultures = { han }	
 	capital = STATE_NORTHERN_THRACE
 }
 
@@ -961,7 +961,7 @@ CRE = {
 
 	tier = principality
 	
-	cultures = { greek }
+	cultures = { han }
 	capital = STATE_CRETE
 	is_named_from_capital = yes
 }
@@ -973,7 +973,7 @@ CRO = {
 
 	tier = principality
 	
-	cultures = { croat }
+	cultures = { han }
 	capital = STATE_CROATIA
 	is_named_from_capital = yes
 }
@@ -985,7 +985,7 @@ CYP = {
 
 	tier = principality
 	
-	cultures = { greek }
+	cultures = { han }
 	capital = STATE_CYPRUS
 	is_named_from_capital = yes
 }
@@ -997,7 +997,7 @@ GRE = {
 
 	tier = principality
 	
-	cultures = { greek }	
+	cultures = { han }	
 	capital = STATE_ATTICA
 }
 
@@ -1008,7 +1008,7 @@ ION = {
 
 	tier = principality
 	
-	cultures = { greek }	
+	cultures = { han }	
 	capital = STATE_IONIAN_ISLANDS
 	is_named_from_capital = yes
 }
@@ -1020,7 +1020,7 @@ MOL = {
 
 	tier = principality
 	
-	cultures = { romanian }
+	cultures = { han }
 	capital = STATE_MOLDAVIA
 	is_named_from_capital = yes
 }
@@ -1032,7 +1032,7 @@ MON = {
 
 	tier = principality
 	
-	cultures = { serb }
+	cultures = { han }
 	capital = STATE_MONTENEGRO
 	is_named_from_capital = yes
 }
@@ -1045,7 +1045,7 @@ ROM = {
 	tier = principality
 	
 	capital = STATE_WALLACHIA
-	cultures = { romanian }
+	cultures = { han }
 }
 
 SER = {
@@ -1055,7 +1055,7 @@ SER = {
 
 	tier = principality
 	
-	cultures = { serb }
+	cultures = { han }
 	capital = STATE_NORTHERN_SERBIA
 }
 
@@ -1066,7 +1066,7 @@ SLO = {
 
 	tier = principality
 	
-	cultures = { slovene }
+	cultures = { han }
 	capital = STATE_SLOVENIA
 	is_named_from_capital = yes
 }
@@ -1078,7 +1078,7 @@ TUR = {
 
 	tier = principality
 	
-	cultures = { turkish }
+	cultures = { han }
 	capital = STATE_EASTERN_THRACE
 }
 
@@ -1089,7 +1089,7 @@ WAL = {
 
 	tier = principality
 	
-	cultures = { romanian }
+	cultures = { han }
 	capital = STATE_WALLACHIA
 	is_named_from_capital = yes
 }
@@ -1102,7 +1102,7 @@ YUG = {
 	tier = principality
 	
 	capital = STATE_NORTHERN_SERBIA 
-	cultures = { serb }
+	cultures = { han }
 }
 
 ABU = {
@@ -1112,7 +1112,7 @@ ABU = {
 	
 	tier = principality
 	
-	cultures = { bedouin }
+	cultures = { han }
 	capital = STATE_ABU_DHABI
 	is_named_from_capital = yes
 }
@@ -1124,7 +1124,7 @@ AFG = {
 	
 	tier = principality
 	
-	cultures = { pashtun tajik }
+	cultures = { han }
 	capital = STATE_EASTERN_AFGHANISTAN
 }
 
@@ -1135,7 +1135,7 @@ ARM = {
 
 	tier = principality
 	
-	cultures = { armenian }
+	cultures = { han }
 	capital = STATE_ARMENIA
 	is_named_from_capital = yes
 }
@@ -1147,7 +1147,7 @@ DAG = {
 
 	tier = principality
 	
-	cultures = { north_caucasian }
+	cultures = { han }
 	capital = STATE_DAGESTAN
 	is_named_from_capital = yes
 }
@@ -1159,7 +1159,7 @@ AZB = {
 
 	tier = principality
 	
-	cultures = { azerbaijani }
+	cultures = { han }
 	capital = STATE_AZERBAIJAN
 	is_named_from_capital = yes
 }
@@ -1171,7 +1171,7 @@ BUK = {
 	
 	tier = principality
 	
-	cultures = { uzbek }
+	cultures = { han }
 	capital = STATE_UZBEKIA
 }
 
@@ -1182,7 +1182,7 @@ GEO = {
 
 	tier = principality
 	
-	cultures = { georgian }
+	cultures = { han }
 	capital = STATE_GREATER_CAUCASUS
 	is_named_from_capital = yes
 }
@@ -1195,7 +1195,7 @@ HDJ = {
 	tier = principality
 	religion = sunni
 	
-	cultures = { bedouin }
+	cultures = { han }
 	capital = STATE_HEDJAZ
 }
 
@@ -1206,7 +1206,7 @@ IRQ = {
 	
 	tier = principality
 	
-	cultures = { mashriqi }
+	cultures = { han }
 	capital = STATE_BAGHDAD
 }
 
@@ -1217,7 +1217,7 @@ KHI = {
 	
 	tier = principality
 	
-	cultures = { uzbek }
+	cultures = { han }
 	capital = STATE_KHIVA
 }
 
@@ -1228,7 +1228,7 @@ KOK = {
 	
 	tier = principality
 	
-	cultures = { kirgiz }
+	cultures = { han }
 	capital = STATE_KIRGHIZIA
 }
 
@@ -1239,7 +1239,7 @@ KAZ = {
 	
 	tier = principality
 	
-	cultures = { kazak }
+	cultures = { han }
 	capital = STATE_SEMIRECHE
 }
 
@@ -1250,7 +1250,7 @@ MUG = {
 	
 	tier = principality
 	
-	cultures = { avadhi }
+	cultures = { han }
 	capital = STATE_DELHI
 }
 
@@ -1261,7 +1261,7 @@ NEJ = {
 	
 	tier = principality
 	
-	cultures = { bedouin }
+	cultures = { han }
 	capital = STATE_NEJD
 	is_named_from_capital = yes
 }
@@ -1273,7 +1273,7 @@ OMA = {
 	
 	tier = principality
 	
-	cultures = { bedouin }
+	cultures = { han }
 	religion = shiite
 	capital = STATE_OMAN
 	is_named_from_capital = yes
@@ -1297,7 +1297,7 @@ JAB = {
 	
 	tier = principality
 	
-	cultures = { bedouin }
+	cultures = { han }
 	capital = STATE_HAIL
 }
 
@@ -1308,7 +1308,7 @@ YEM = {
 	
 	tier = principality
 	
-	cultures = { yemenite  }
+	cultures = { han }
 	capital = STATE_YEMEN
 	is_named_from_capital = yes
 }
@@ -1320,7 +1320,7 @@ MAH = {
 	
 	tier = principality
 	
-	cultures = { bedouin  }
+	cultures = { han }
 	capital = STATE_YEMEN
 }
 
@@ -1331,7 +1331,7 @@ KAT = {
 	
 	tier = principality
 	
-	cultures = { bedouin  }
+	cultures = { han }
 	capital = STATE_YEMEN
 }
 
@@ -1342,7 +1342,7 @@ ZAI = {
 	
 	tier = principality
 	
-	cultures = { yemenite }
+	cultures = { han }
 #   religion = Technically Sunni at game start, but if it re-emerges, it should be Shiite
 	capital = STATE_YEMEN
 }
@@ -1354,7 +1354,7 @@ LAH = {
 	
 	tier = principality
 	
-	cultures = { bedouin }
+	cultures = { han }
 	religion = sunni
 	capital = STATE_YEMEN
 }
@@ -1366,7 +1366,7 @@ BHN = {
 	
 	tier = principality
 	
-	cultures = { bedouin }
+	cultures = { han }
 	capital = STATE_ABU_DHABI
 }
 
@@ -1377,7 +1377,7 @@ HND = {
 	
 	tier = principality
 	
-	cultures = { kanauji }
+	cultures = { han }
 	capital = STATE_DELHI
 }
 
@@ -1388,7 +1388,7 @@ AWA = {
 	
 	tier = principality
 	
-	cultures = { avadhi }
+	cultures = { han }
 	capital = STATE_AWADH
 }
 
@@ -1399,7 +1399,7 @@ BAS = {
 	
 	tier = principality
 	
-	cultures = { telegu }
+	cultures = { han }
 	capital = STATE_NAGPUR
 }
 
@@ -1410,7 +1410,7 @@ BER = {
 	
 	tier = principality
 	
-	cultures = { gujarati }
+	cultures = { han }
 	capital = STATE_GUJARAT
 }
 
@@ -1421,7 +1421,7 @@ BHO = {
 	
 	tier = principality
 	
-	cultures = { marathi }
+	cultures = { han }
 	capital = STATE_CENTRAL_INDIA
 }
 
@@ -1432,7 +1432,7 @@ BIK = {
 	
 	tier = principality
 	
-	cultures = { rajput }
+	cultures = { han }
 	capital = STATE_RAJPUTANA
 }
 
@@ -1443,7 +1443,7 @@ BUN = {
 	
 	tier = principality
 	
-	cultures = { kanauji }
+	cultures = { han }
 	capital = STATE_CENTRAL_INDIA
 }
 
@@ -1454,7 +1454,7 @@ GWA = {
 	
 	tier = principality
 	
-	cultures = { marathi }
+	cultures = { han }
 	capital = STATE_CENTRAL_INDIA
 }
 
@@ -1465,7 +1465,7 @@ HYD = {
 	
 	tier = principality
 	
-	cultures = { avadhi }
+	cultures = { han }
 	capital = STATE_HYDERABAD
 	is_named_from_capital = yes
 }
@@ -1477,7 +1477,7 @@ BGL = {
 	
 	tier = principality
 	
-	cultures = { bengali }
+	cultures = { han }
 	capital = STATE_SOUTH_BENGAL
 }
 
@@ -1488,7 +1488,7 @@ IND = {
 	
 	tier = principality
 	
-	cultures = { marathi }
+	cultures = { han }
 	capital = STATE_CENTRAL_INDIA
 }
 
@@ -1499,7 +1499,7 @@ JAI = {
 	
 	tier = principality
 	
-	cultures = { rajput }
+	cultures = { han }
 	capital = STATE_RAJPUTANA
 }
 
@@ -1510,7 +1510,7 @@ JAS = {
 	
 	tier = principality
 	
-	cultures = { rajput }
+	cultures = { han }
 	capital = STATE_RAJPUTANA
 }
 
@@ -1521,7 +1521,7 @@ JOD = {
 	
 	tier = principality
 	
-	cultures = { rajput }
+	cultures = { han }
 	capital = STATE_RAJPUTANA
 }
 
@@ -1532,7 +1532,7 @@ KAL = {
 	
 	tier = principality
 	
-	cultures = { baluchi }
+	cultures = { han }
 	capital = STATE_BALUCHISTAN
 }
 
@@ -1543,7 +1543,7 @@ KAS = {
 	
 	tier = principality
 	
-	cultures = { kashmiri }
+	cultures = { han }
 	capital = STATE_KASHMIR
 }
 
@@ -1554,7 +1554,7 @@ KUT = {
 	
 	tier = principality
 	
-	cultures = { gujarati }
+	cultures = { han }
 	capital = STATE_GUJARAT
 }
 
@@ -1565,7 +1565,7 @@ LAD = {
 	
 	tier = principality
 	
-	cultures = { tibetan }
+	cultures = { han }
 	capital = STATE_KASHMIR
 }
 
@@ -1576,7 +1576,7 @@ MAK = {
 	
 	tier = principality
 	
-	cultures = { baluchi }
+	cultures = { han }
 	capital = STATE_BALUCHISTAN
 }
 
@@ -1587,7 +1587,7 @@ MEW = {
 	
 	tier = principality
 	
-	cultures = { rajput }
+	cultures = { han }
 	capital = STATE_RAJPUTANA
 }
 
@@ -1598,7 +1598,7 @@ MYS = {
 	
 	tier = principality
 	
-	cultures = { kannada }
+	cultures = { han }
 	capital = STATE_MYSORE
 	is_named_from_capital = yes
 }
@@ -1610,7 +1610,7 @@ NAG = {
 	
 	tier = principality
 	
-	cultures = { marathi }
+	cultures = { han }
 	capital = STATE_NAGPUR
 	is_named_from_capital = yes
 }
@@ -1622,7 +1622,7 @@ NEP = {
 	
 	tier = principality
 	
-	cultures = { nepali }
+	cultures = { han }
 	capital = STATE_HIMALAYAS
 }
 
@@ -1633,7 +1633,7 @@ ORI = {
 	
 	tier = principality
 	
-	cultures = { oriya }
+	cultures = { han }
 	capital = STATE_ORISSA
 	is_named_from_capital = yes
 }
@@ -1645,7 +1645,7 @@ PAN = {
 	
 	tier = principality
 	
-	cultures = { panjabi }
+	cultures = { han }
 	capital = STATE_PUNJAB
 	is_named_from_capital = yes
 }
@@ -1657,7 +1657,7 @@ SIK = {
 	
 	tier = principality
 	
-	cultures = { tibetan }
+	cultures = { han }
 	capital = STATE_HIMALAYAS
 }
 
@@ -1668,7 +1668,7 @@ SIN = {
 	
 	tier = principality
 	
-	cultures = { sindi }
+	cultures = { han }
 	capital = STATE_SINDH
 	is_named_from_capital = yes
 }
@@ -1681,7 +1681,7 @@ TRA = {
 	tier = principality
 	
 	capital = STATE_TRAVANCORE
-	cultures = { malayalam }
+	cultures = { han }
 	is_named_from_capital = yes
 }
 
@@ -1693,7 +1693,7 @@ ACE = {
 	tier = principality
 	
 	capital = STATE_ACEH
-	cultures = { sumatran }
+	cultures = { han }
 	is_named_from_capital = yes
 }
 
@@ -1704,7 +1704,7 @@ BAL = {
 	
 	tier = principality
 	
-	cultures = { balinese }
+	cultures = { han }
 	capital = STATE_SUNDA_ISLANDS
 }
 
@@ -1715,7 +1715,7 @@ BHU = {
 	
 	tier = principality
 	
-	cultures = { tibetan }
+	cultures = { han }
 	capital = STATE_HIMALAYAS
 }
 
@@ -1726,7 +1726,7 @@ LAN = {
 	
 	tier = principality
 	
-	cultures = { hakka }
+	cultures = { han }
 	capital = STATE_WEST_BORNEO
 }
 
@@ -1737,7 +1737,7 @@ BRU = {
 	
 	tier = principality
 	
-	cultures = { bornean }
+	cultures = { han }
 	capital = STATE_NORTH_BORNEO
 }
 
@@ -1748,7 +1748,7 @@ BUR = {
 	
 	tier = principality
 	
-	cultures = { burmese }
+	cultures = { han }
 	capital = STATE_BURMA
 }
 
@@ -1759,7 +1759,7 @@ CAM = {
 	
 	tier = principality
 	
-	cultures = { khmer }
+	cultures = { han }
 	capital = STATE_CAMBODIA
 }
 
@@ -1781,7 +1781,7 @@ DAI = {
 	
 	tier = principality
 	
-	cultures = { vietnamese }
+	cultures = { han }
 	capital = STATE_TONKIN
 }
 
@@ -1792,7 +1792,7 @@ JAV = {
 	
 	tier = principality
 	
-	cultures = { javan }
+	cultures = { han }
 	capital = STATE_WEST_JAVA
 	is_named_from_capital = yes
 }
@@ -1804,7 +1804,7 @@ KOR = {
 	
 	tier = principality
 	
-	cultures = { korean }
+	cultures = { han }
 	capital = STATE_SEOUL
 }
 
@@ -1815,7 +1815,7 @@ LAO = {
 	
 	tier = principality
 	
-	cultures = { lao }
+	cultures = { han }
 	capital = STATE_LAOS
 	is_named_from_capital = yes
 }
@@ -1827,7 +1827,7 @@ LUA = {
 	
 	tier = principality
 	
-	cultures = { lao }
+	cultures = { han }
 	capital = STATE_LAOS
 	
 }
@@ -1839,7 +1839,7 @@ CHP = {
 	
 	tier = principality
 	
-	cultures = { lao }
+	cultures = { han }
 	capital = STATE_LAOS
 }
 
@@ -1850,7 +1850,7 @@ VIE = {
 	
 	tier = principality
 	
-	cultures = { lao }
+	cultures = { han }
 	capital = STATE_LAOS
 }
 
@@ -1862,7 +1862,7 @@ JOH = {
 	tier = principality
 	
 	capital = STATE_MALAYA
-	cultures = { malay }
+	cultures = { han }
 }
 
 SIA = {
@@ -1872,7 +1872,7 @@ SIA = {
 	
 	tier = principality
 	
-	cultures = { thai }
+	cultures = { han }
 	capital = STATE_BANGKOK
 }
 
@@ -1883,7 +1883,7 @@ CMI = {
 	
 	tier = principality
 	
-	cultures = { thai shan }
+	cultures = { han }
 	capital = STATE_CHIANG_MAI
 }
 
@@ -1894,7 +1894,7 @@ TIB = {
 	
 	tier = principality
 	
-	cultures = { tibetan }
+	cultures = { han }
 	capital = STATE_LHASA
 }
 
@@ -1905,7 +1905,7 @@ MGL = {
 	
 	tier = principality
 	
-	cultures = { mongol }
+	cultures = { han }
 	capital = STATE_URGA
 }
 
@@ -1916,7 +1916,7 @@ XIN = {
 	
 	tier = principality
 	
-	cultures = { uighur }
+	cultures = { han }
 	capital = STATE_TIANSHAN
 }
 
@@ -1927,7 +1927,7 @@ PHI = {
 	
 	tier = principality
 	
-	cultures = { filipino }
+	cultures = { han }
 	capital = STATE_LUZON
 }
 
@@ -1938,7 +1938,7 @@ MCH = {
 	
 	tier = principality
 	
-	cultures = { manchu }
+	cultures = { han }
 	capital = STATE_SOUTHERN_MANCHURIA
 	is_named_from_capital = yes
 }
@@ -1950,7 +1950,7 @@ CAL = {
 	
 	tier = principality
 	
-	cultures = { yankee }
+	cultures = { han }
 	capital = STATE_CALIFORNIA
 }
 
@@ -1961,7 +1961,7 @@ CAN = {
 	
 	tier = principality
 	
-	cultures = { anglo_canadian }
+	cultures = { han }
 	capital = STATE_ONTARIO
 }
 
@@ -1972,7 +1972,7 @@ CHE = {
 	
 	tier = principality
 	
-	cultures = { cherokee }
+	cultures = { han }
 	capital = STATE_ARKANSAS
 }
 
@@ -1984,7 +1984,7 @@ COL = {
 	tier = principality
 	
 	capital = STATE_BRITISH_COLUMBIA
-	cultures = { british }
+	cultures = { han }
 }
 
 COS = {
@@ -1994,7 +1994,7 @@ COS = {
 	
 	tier = principality
 	
-	cultures = { central_american }
+	cultures = { han }
 	capital = STATE_COSTA_RICA
 	is_named_from_capital = yes
 }
@@ -2006,7 +2006,7 @@ CUB = {
 	
 	tier = principality
 	
-	cultures = { caribeno }
+	cultures = { han }
 	capital = STATE_CUBA
 	is_named_from_capital = yes
 }
@@ -2018,7 +2018,7 @@ DES = {
 	
 	tier = principality
 	
-	cultures = { yankee dixie }
+	cultures = { han }
 	capital = STATE_UTAH
 }
 
@@ -2029,7 +2029,7 @@ DOM = {
 	
 	tier = principality
 	
-	cultures = { caribeno }
+	cultures = { han }
 	capital = STATE_SANTO_DOMINGO
 	is_named_from_capital = yes
 }
@@ -2041,7 +2041,7 @@ ELS = {
 	
 	tier = principality
 	
-	cultures = { central_american }
+	cultures = { han }
 	capital = STATE_SAN_SALVADOR
 	is_named_from_capital = yes
 }
@@ -2053,7 +2053,7 @@ GUA = {
 	
 	tier = principality
 	
-	cultures = { central_american }
+	cultures = { han }
 	capital = STATE_GUATEMALA
 	is_named_from_capital = yes
 }
@@ -2065,7 +2065,7 @@ ALT = {
 	
 	tier = principality
 	
-	cultures = { central_american }
+	cultures = { han }
 	capital = STATE_GUATEMALA
 }
 
@@ -2089,7 +2089,7 @@ MEX = {
 
 	tier = principality
 	
-	cultures = { mexican }
+	cultures = { han }
 	capital = STATE_MEXICO
 	is_named_from_capital = yes
 }
@@ -2101,7 +2101,7 @@ MTC = {
 	
 	tier = principality
 	
-	cultures = { metis }
+	cultures = { han }
 	capital = STATE_MANITOBA
 }
 
@@ -2112,7 +2112,7 @@ HON = {
 	
 	tier = principality
 	
-	cultures = { central_american }
+	cultures = { han }
 	capital = STATE_HONDURAS
 	is_named_from_capital = yes
 }
@@ -2124,7 +2124,7 @@ NEN = {
 	
 	tier = principality
 	
-	cultures = { yankee }
+	cultures = { han }
 	capital = STATE_MASSACHUSETTS
 }
 
@@ -2135,7 +2135,7 @@ NEW = {
 	
 	tier = principality
 	
-	cultures = { anglo_canadian }
+	cultures = { han }
 	capital = STATE_NEWFOUNDLAND
 	is_named_from_capital = yes
 }
@@ -2147,7 +2147,7 @@ NIC = {
 	
 	tier = principality
 	
-	cultures = { central_american }
+	cultures = { han }
 	capital = STATE_NICARAGUA
 	is_named_from_capital = yes
 }
@@ -2159,7 +2159,7 @@ PNM = {
 	
 	tier = principality
 	
-	cultures = { central_american }
+	cultures = { han }
 	capital = STATE_PANAMA
 	is_named_from_capital = yes
 }
@@ -2171,7 +2171,7 @@ QUE = {
 	
 	tier = principality
 	
-	cultures = { franco_canadian }
+	cultures = { han }
 	capital = STATE_QUEBEC
 	
 	is_named_from_capital = yes
@@ -2184,7 +2184,7 @@ HBC = {
 	
 	tier = principality
 	
-	cultures = { anglo_canadian }
+	cultures = { han }
 	capital = STATE_MANITOBA
 }
 
@@ -2195,7 +2195,7 @@ ONT = {
 	
 	tier = principality
 	
-	cultures = { anglo_canadian }
+	cultures = { han }
 	capital = STATE_ONTARIO
 	is_named_from_capital = yes
 }
@@ -2207,7 +2207,7 @@ NBS = {
 	
 	tier = principality
 	
-	cultures = { anglo_canadian }
+	cultures = { han }
 	capital = STATE_NEW_BRUNSWICK
 }
 
@@ -2218,7 +2218,7 @@ NVS = {
 	
 	tier = principality
 	
-	cultures = { anglo_canadian }
+	cultures = { han }
 	capital = STATE_NEW_BRUNSWICK
 }
 
@@ -2229,7 +2229,7 @@ TEX = {
 	
 	tier = principality
 	
-	cultures = { dixie }
+	cultures = { han }
 	capital = STATE_TEXAS
 	is_named_from_capital = yes
 }
@@ -2242,7 +2242,7 @@ UCA = {
 	tier = principality
 	
 	capital = STATE_SAN_SALVADOR
-	cultures = { central_american }
+	cultures = { han }
 }
 
 ARG = {
@@ -2252,7 +2252,7 @@ ARG = {
 	
 	tier = principality
 	
-	cultures = { platinean }
+	cultures = { han }
 	capital = STATE_BUENOS_AIRES
 }
 
@@ -2263,7 +2263,7 @@ BOL = {
 	
 	tier = principality
 	
-	cultures = { south_andean }
+	cultures = { han }
 	capital = STATE_LA_PAZ
 }
 
@@ -2274,7 +2274,7 @@ BRZ = {
 	
 	tier = principality
 	
-	cultures = { brazilian }
+	cultures = { han }
 	capital = STATE_RIO_DE_JANEIRO
 }
 
@@ -2285,7 +2285,7 @@ CHL = {
 	
 	tier = principality
 	
-	cultures = { south_andean }
+	cultures = { han }
 	capital = STATE_SANTIAGO
 }
 
@@ -2296,7 +2296,7 @@ CLM = {
 	
 	tier = principality
 	
-	cultures = { north_andean }
+	cultures = { han }
 	capital = STATE_CUNDINAMARCA
 }
 
@@ -2307,7 +2307,7 @@ ECU = {
 	
 	tier = principality
 	
-	cultures = { north_andean }
+	cultures = { han }
 	capital = STATE_ECUADOR
 	is_named_from_capital = yes
 }
@@ -2319,7 +2319,7 @@ PEU = {
 	
 	tier = principality
 	
-	cultures = { south_andean }
+	cultures = { han }
 	capital = STATE_LIMA
 }
 
@@ -2330,7 +2330,7 @@ PRG = {
 	
 	tier = principality
 	
-	cultures = { platinean }
+	cultures = { han }
 	capital = STATE_BAJO_PARAGUAY
 }
 
@@ -2341,7 +2341,7 @@ URU = {
 	
 	tier = principality
 	
-	cultures = { platinean }
+	cultures = { han }
 	capital = STATE_URUGUAY
 	is_named_from_capital = yes
 }
@@ -2353,7 +2353,7 @@ VNZ = {
 	
 	tier = principality
 	
-	cultures = { north_andean }
+	cultures = { han }
 	capital = STATE_MIRANDA
 }
 
@@ -2364,7 +2364,7 @@ ISR = {
 	
 	tier = principality
 	
-	cultures = { ashkenazi }
+	cultures = { han }
 	religion = jewish
 	capital = STATE_PALESTINE
 }
@@ -2378,7 +2378,7 @@ BYZ = {
 
 	tier = principality
 	
-	cultures = { greek }	
+	cultures = { han }	
 	capital = STATE_EASTERN_THRACE
 }
 
@@ -2389,7 +2389,7 @@ ICL = {
 
 	tier = principality
 	
-	cultures = { icelandic }
+	cultures = { han }
 	capital = STATE_ICELAND
 	is_named_from_capital = yes
 }
@@ -2401,7 +2401,7 @@ ARA = {
 	
 	tier = principality
 	
-	cultures = { mashriqi }
+	cultures = { han }
 	capital = STATE_HEDJAZ
 }
 
@@ -2423,7 +2423,7 @@ BYE = {
 
 	tier = principality
 	
-	cultures = { byelorussian }
+	cultures = { han }
 	capital = STATE_MINSK
 }
 
@@ -2434,7 +2434,7 @@ PLC = {
 
 	tier = principality
 	
-	cultures = { polish lithuanian }
+	cultures = { han }
 	capital = STATE_WEST_GALICIA
 }
 
@@ -2445,7 +2445,7 @@ GCO = {
 
 	tier = principality
 	
-	cultures = { north_andean }
+	cultures = { han }
 	capital = STATE_CUNDINAMARCA
 }
 
@@ -2457,7 +2457,7 @@ JAN = {
 	tier = principality
 
 	capital = STATE_NORTHERN_NORWAY
-	cultures = { norwegian }
+	cultures = { han }
 }
 
 BIC = {
@@ -2467,7 +2467,7 @@ BIC = {
 	
 	tier = principality
 	
-	cultures = { british }
+	cultures = { han }
 	capital = STATE_SOUTH_BENGAL
 }
 
@@ -2478,7 +2478,7 @@ BRI = {
 
 	tier = principality
 	
-	cultures = { breton }
+	cultures = { han }
 	capital = STATE_BRITTANY
 	is_named_from_capital = yes
 }
@@ -2490,7 +2490,7 @@ PAT = {
 	
 	tier = principality
 	
-	cultures = { patagonian }
+	cultures = { han }
 	capital = STATE_PATAGONIA
 }
 
@@ -2501,7 +2501,7 @@ THL = {
 	
 	tier = principality
 	
-	cultures = { patagonian }
+	cultures = { han }
 	capital = STATE_PATAGONIA
 }
 
@@ -2512,7 +2512,7 @@ SLK = {
 	
 	tier = principality
 	
-	cultures = { patagonian }
+	cultures = { han }
 	capital = STATE_ARAUCANIA
 }
 
@@ -2523,7 +2523,7 @@ TNG = {
 	
 	tier = principality
 	
-	cultures = { polynesian }
+	cultures = { han }
 	capital = STATE_TONGA
 }
 
@@ -2534,7 +2534,7 @@ WIN = {
 	
 	tier = principality
 	
-	cultures = { afro_caribbean }
+	cultures = { han }
 	capital = STATE_WEST_INDIES
 }
 
@@ -2545,7 +2545,7 @@ MAY = {
 	
 	tier = principality
 	
-	cultures = { mayan }
+	cultures = { han }
 	capital = STATE_YUCATAN
 }
 
@@ -2556,7 +2556,7 @@ IBE = {
 
 	tier = principality
 	
-	cultures = { spanish }
+	cultures = { han }
 	capital = STATE_TOLEDO
 }
 
@@ -2567,7 +2567,7 @@ ORG = {
 	
 	tier = principality
 	
-	cultures = { yankee }
+	cultures = { han }
 	capital = STATE_OREGON
 }
 
@@ -2578,7 +2578,7 @@ COM = {
 
 	tier = principality
 	
-	cultures = { comanche }
+	cultures = { han }
 	capital = STATE_TEXAS
 }
 
@@ -2589,7 +2589,7 @@ SEQ = {
 
 	tier = principality
 	
-	cultures = { cherokee }
+	cultures = { han }
 	capital = STATE_OKLAHOMA
 }
 
@@ -2600,7 +2600,7 @@ DKT = {
 
 	tier = principality
 	
-	cultures = { dakota }
+	cultures = { han }
 	capital = STATE_MINNESOTA
 }
 
@@ -2611,7 +2611,7 @@ LKT = {
 
 	tier = principality
 	
-	cultures = { dakota }
+	cultures = { han }
 	capital = STATE_SOUTH_DAKOTA
 }
 
@@ -2622,7 +2622,7 @@ NVJ = {
 
 	tier = principality
 	
-	cultures = { navajo }
+	cultures = { han }
 	capital = STATE_ARIZONA
 }
 
@@ -2633,7 +2633,7 @@ ARP = {
 
 	tier = principality
 	
-	cultures = { siouan }
+	cultures = { han }
 	capital = STATE_COLORADO
 }
 
@@ -2644,7 +2644,7 @@ NZP = {
 
 	tier = principality
 	
-	cultures = { nez_perce }
+	cultures = { han }
 	capital = STATE_IDAHO
 }
 
@@ -2655,7 +2655,7 @@ ABS = {
 
 	tier = principality
 	
-	cultures = { siouan }
+	cultures = { han }
 	capital = STATE_MONTANA
 }
 
@@ -2666,7 +2666,7 @@ IRC = {
 
 	tier = principality
 	
-	cultures = { cree siouan }
+	cultures = { han }
 	capital = STATE_SASKATCHEWAN
 }
 
@@ -2677,7 +2677,7 @@ JAM = {
 	
 	tier = principality
 	
-	cultures = { afro_caribbean }
+	cultures = { han }
 	capital = STATE_JAMAICA
 }
 
@@ -2688,7 +2688,7 @@ BAH = {
 	
 	tier = principality
 	
-	cultures = { afro_caribbean }
+	cultures = { han }
 	capital = STATE_BAHAMAS
 	is_named_from_capital = yes
 }
@@ -2700,7 +2700,7 @@ PCO = {
 	
 	tier = principality
 	
-	cultures = { caribeno }
+	cultures = { han }
 	capital = STATE_PUERTO_RICO
 	is_named_from_capital = yes
 }
@@ -2712,7 +2712,7 @@ MKT = {
 	
 	tier = principality
 	
-	cultures = { miskito }
+	cultures = { han }
 	capital = STATE_NICARAGUA
 }
 
@@ -2723,7 +2723,7 @@ NAH = {
 	
 	tier = principality
 	
-	cultures = { nahua }
+	cultures = { han }
 	capital = STATE_MEXICO
 }
 
@@ -2734,7 +2734,7 @@ GRN = {
 	
 	tier = principality
 	
-	cultures = { danish inuit }
+	cultures = { han }
 	capital = STATE_GREENLAND
 	is_named_from_capital = yes
 }
@@ -2746,7 +2746,7 @@ ANL = {
 
 	tier = principality
 	
-	cultures = { spanish }
+	cultures = { han }
 	capital = STATE_ANDALUSIA
 	is_named_from_capital = yes
 }
@@ -2758,7 +2758,7 @@ CAS = {
 
 	tier = principality
 	
-	cultures = { spanish }
+	cultures = { han }
 	capital = STATE_TOLEDO
 	is_named_from_capital = yes
 }
@@ -2770,7 +2770,7 @@ SMI = { # Sapmi
 	
 	tier = principality
 	
-	cultures = { sami }
+	cultures = { han }
 	
 	capital = STATE_NORTHERN_NORWAY
 }
@@ -2782,7 +2782,7 @@ MLT = { # Malta
 	
 	tier = principality
 	
-	cultures = { maltese }
+	cultures = { han }
 	
 	capital = STATE_MALTA
 }
@@ -2794,7 +2794,7 @@ PRM = { # Perm
 	
 	tier = principality
 
-	cultures = { ugrian }
+	cultures = { han }
 	
 	capital = STATE_PERM
 }
@@ -2806,7 +2806,7 @@ HZJ = { # Hazarajat
 	
 	tier = principality
 
-	cultures = { hazara }
+	cultures = { han }
 
 	capital = STATE_WESTERN_AFGHANISTAN
 }
@@ -2818,7 +2818,7 @@ TRC = { # Turkmenia
 	
 	tier = principality
 
-	cultures = { turkmen }
+	cultures = { han }
 
 	capital = STATE_TURKMENIA
 }
@@ -2829,7 +2829,7 @@ SIB = { # Siberia
 	country_type = recognized
 
 	tier = principality
-	cultures = { yakut siberian inuit }
+	cultures = { han }
 	capital = STATE_TOMSK
 }
 
@@ -2840,7 +2840,7 @@ YAK = { # Yakutia
 	
 	tier = principality
 
-	cultures = { yakut }
+	cultures = { han }
 
 	capital = STATE_YAKUTSK
 }
@@ -2852,7 +2852,7 @@ ASM = { # Assam
 	
 	tier = principality
 	
-	cultures = { assamese }
+	cultures = { han }
 	
 	capital = STATE_ASSAM
 }
@@ -2864,7 +2864,7 @@ MNP = { # Manipur
 	
 	tier = principality
 	
-	cultures = { manipuri }
+	cultures = { han }
 	
 	capital = STATE_ASSAM
 }
@@ -2876,7 +2876,7 @@ TOB = { # Toba
 	
 	tier = principality
 	
-	cultures = { batak }
+	cultures = { han }
 	
 	capital = STATE_NORTH_SUMATRA
 }
@@ -2888,7 +2888,7 @@ KLT = { # Kalimantan
 	
 	tier = principality
 	
-	cultures = { bornean dayak }
+	cultures = { han }
 	
 	capital = STATE_WEST_BORNEO
 }
@@ -2900,7 +2900,7 @@ HTH = { # Hanthawaddy
 	
 	tier = principality
 	
-	cultures = { mon }
+	cultures = { han }
 	
 	capital = STATE_PEGU
 }
@@ -2912,7 +2912,7 @@ KRN = { # Karen
 	
 	tier = principality
 	
-	cultures = { karen }
+	cultures = { han }
 	
 	capital = STATE_PEGU
 }
@@ -2924,7 +2924,7 @@ KHM = { # Khmu
 	
 	tier = principality
 	
-	cultures = { khmu }
+	cultures = { han }
 	
 	capital = STATE_LAOS
 }
@@ -2936,7 +2936,7 @@ KHN = { # Kachin
 	
 	tier = principality
 	
-	cultures = { kachin }
+	cultures = { han }
 	
 	capital = STATE_KACHIN
 }
@@ -2948,7 +2948,7 @@ AIN = { # Ainu Mosir
 	
 	tier = principality
 	
-	cultures = { ainu }
+	cultures = { han }
 	
 	capital = STATE_HOKKAIDO
 }
@@ -2960,7 +2960,7 @@ EZO = { # Ezo
 	
 	tier = principality
 	
-	cultures = { japanese ainu }
+	cultures = { han }
 	
 	capital = STATE_HOKKAIDO
 }
@@ -2972,7 +2972,7 @@ QIA = { # Qian
 	
 	tier = principality
 	
-	cultures = { miao }
+	cultures = { han }
 	
 	capital = STATE_GUANGDONG
 }
@@ -2984,7 +2984,7 @@ FRS = { # Formosa
 	
 	tier = principality
 	
-	cultures = { min }
+	cultures = { han }
 	
 	capital = STATE_FORMOSA
 	is_named_from_capital = yes
@@ -2996,7 +2996,7 @@ YUN = { # Yunnan
 	
 	tier = principality
 	
-	cultures = { yi }
+	cultures = { han }
 	
 	capital = STATE_YUNNAN
 	is_named_from_capital = yes
@@ -3006,7 +3006,7 @@ YUE = { # Yue
 	color = { 89 113 223 }
 	country_type = recognized
 	tier = principality
-	cultures = { yue }
+	cultures = { han }
 	
 	capital = STATE_GUANGDONG
 }
@@ -3018,7 +3018,7 @@ OAX = { # Oaxaca
 	
 	tier = principality
 	
-	cultures = { zapotec mixtec }
+	cultures = { han }
 	
 	capital = STATE_OAXACA
 }
@@ -3030,7 +3030,7 @@ MCO = { # Michoacan
 	
 	tier = principality
 	
-	cultures = { tarascan }
+	cultures = { han }
 	
 	capital = STATE_JALISCO
 }
@@ -3042,7 +3042,7 @@ TWT = { # Tawantinsuyu
 	
 	tier = principality
 	
-	cultures = { quechua }
+	cultures = { han }
 	
 	capital = STATE_LIMA
 }
@@ -3054,7 +3054,7 @@ AYM = { # Aymara
 	
 	tier = principality
 	
-	cultures = { aimara }
+	cultures = { han }
 	
 	capital = STATE_LA_PAZ
 }
@@ -3066,7 +3066,7 @@ WYU = { # Wayuu
 	
 	tier = principality
 	
-	cultures = { guajiro }
+	cultures = { han }
 	
 	capital = STATE_ANTIOQUIA
 }
@@ -3078,7 +3078,7 @@ TPI = { # Tupinamba
 	
 	tier = principality
 	
-	cultures = { tupinamba }
+	cultures = { han }
 	
 	capital = STATE_BAHIA
 }
@@ -3090,7 +3090,7 @@ PUE = { # Pueblo
 	
 	tier = principality
 	
-	cultures = { pueblo }
+	cultures = { han }
 	
 	capital = STATE_NEW_MEXICO
 }
@@ -3102,7 +3102,7 @@ NNV = { # Nunavut
 	
 	tier = principality
 	
-	cultures = { inuit }
+	cultures = { han }
 	
 	capital = STATE_NUNAVUT
 }
@@ -3114,7 +3114,7 @@ NVL = { # Navajoland
 	
 	tier = principality
 	
-	cultures = { navajo }
+	cultures = { han }
 	
 	capital = STATE_ARIZONA
 }
@@ -3126,7 +3126,7 @@ ATB = { # Athabaska
 	
 	tier = principality
 	
-	cultures = { athabaskan }
+	cultures = { han }
 	
 	capital = STATE_NORTHWEST_TERRITORIES
 }
@@ -3138,7 +3138,7 @@ CSC = { # Cascadia
 	
 	tier = principality
 	
-	cultures = { salish }
+	cultures = { han }
 	
 	capital = STATE_BRITISH_COLUMBIA
 }
@@ -3150,7 +3150,7 @@ IRO = { # Haudenosaunee, archaically known as the Iroquois Confederacy
 	
 	tier = principality
 	
-	cultures = { iroquoian }
+	cultures = { han }
 	
 	capital = STATE_NEW_YORK
 }
@@ -3162,7 +3162,7 @@ CTF = { # the Council of Three Fires, Niswa-mishkodewinan
 	
 	tier = principality
 	
-	cultures = { algonquian }
+	cultures = { han }
 	
 	capital = STATE_MICHIGAN
 }
@@ -3174,7 +3174,7 @@ MSC = { # Muscogee
 	
 	tier = principality
 	
-	cultures = { caddoan }
+	cultures = { han }
 	
 	capital = STATE_FLORIDA
 }
@@ -3182,7 +3182,7 @@ MSC = { # Muscogee
 UTE = { # Ute
 	color = { 235 126 175 }
 	
-	cultures = { paiute }
+	cultures = { han }
 	
 	country_type = decentralized
 	
@@ -3194,7 +3194,7 @@ UTE = { # Ute
 PWN = { # Pawnee
 	color = { 252 84 118 }
 	
-	cultures = { caddoan }
+	cultures = { han }
 	
 	country_type = decentralized
 	
@@ -3206,7 +3206,7 @@ PWN = { # Pawnee
 APC = { # Apacheria
 	color = { 198 158 109 }
 	
-	cultures = { apache }
+	cultures = { han }
 	
 	country_type = decentralized
 	
@@ -3218,7 +3218,7 @@ APC = { # Apacheria
 BLF = { # Niitsitapi / Blackfoot Confederacy
 	color = hsv{ 0.63 0.68 0.60 }
 	
-	cultures = { siouan }
+	cultures = { han }
 	
 	country_type = decentralized
 	
@@ -3234,7 +3234,7 @@ CCM = { # O'odham Country
 	
 	tier = principality
 	
-	cultures = { oodham }
+	cultures = { han }
 	
 	capital = STATE_CHIHUAHUA
 }
@@ -3246,7 +3246,7 @@ ORN = { # Orinoco
 	
 	tier = principality
 	
-	cultures = { cariban }
+	cultures = { han }
 	
 	capital = STATE_MIRANDA
 }
@@ -3258,7 +3258,7 @@ MUI = { # Muisca
 	
 	tier = principality
 	
-	cultures = { muisca }
+	cultures = { han }
 	
 	capital = STATE_CUNDINAMARCA
 }
@@ -3270,7 +3270,7 @@ SRB = { # Sorbia
 	
 	tier = principality
 	
-	cultures = { sorb }
+	cultures = { han }
 	
 	capital = STATE_SAXONY
 }
@@ -3282,7 +3282,7 @@ YUC = {
 	
 	tier = principality
 	
-	cultures = { mexican }
+	cultures = { han }
 	capital = STATE_YUCATAN
 }
 
@@ -3293,7 +3293,7 @@ RIO = {
 	
 	tier = principality
 	
-	cultures = { mexican }
+	cultures = { han }
 	capital = STATE_RIO_GRANDE
 }
 
@@ -3304,7 +3304,7 @@ PNI = {
 	
 	tier = principality
 	
-	cultures = { brazilian }
+	cultures = { han }
 	capital = STATE_RIO_GRANDE_DO_SUL
 }
 
@@ -3315,7 +3315,7 @@ CEY = {
 	
 	tier = principality
 	
-	cultures = { sinhala }
+	cultures = { han }
 	capital = STATE_CEYLON
 }
 
@@ -3327,7 +3327,7 @@ BLH = {
 
 	tier = principality
 
-	cultures = { baluchi }
+	cultures = { han }
 	capital = STATE_BALUCHISTAN
 }
 
@@ -3357,7 +3357,7 @@ OCC = {
 	color = { 101 50 253 }
 	country_type = recognized
 	tier = principality
-	cultures = { occitan }
+	cultures = { han }
 	capital = STATE_ARMAGNAC
 
 }
@@ -3366,7 +3366,7 @@ TUV = {
 	color = { 68 242 236}
 	country_type = recognized
 	tier = principality
-	cultures = { tuvan }
+	cultures = { han }
 	capital = STATE_TUVA
 
 }
@@ -3375,7 +3375,7 @@ COR = {
 	color = { 68 242 236}
 	country_type = recognized
 	tier = principality
-	cultures = { corsican }
+	cultures = { han }
 	capital = STATE_CORSICA
 }
 
@@ -3383,7 +3383,7 @@ TNS = {
 	color = { 11 115 39 }
 	country_type = decentralized
 	tier = principality
-	cultures = { siberian }
+	cultures = { han }
 	capital = STATE_OKHOTSK
 }
 
@@ -3391,7 +3391,7 @@ FER = {
  	color = { 207 25 25 }
 	country_type = decentralized
 	tier = principality
-	cultures = { siberian inuit }
+	cultures = { han }
 	capital = STATE_OKHOTSK
 }
 
@@ -3399,7 +3399,7 @@ IUS = {
 	color = { 11 115 39 }
 	country_type = recognized
 	tier = principality
-	cultures = { russian tatar }
+	cultures = { han }
 	capital = STATE_KAZAN
 }
 
@@ -3407,7 +3407,7 @@ NCA = {
 	color = { 97 162 242 }
 	country_type = recognized
 	tier = principality
-	cultures = { north_caucasian }
+	cultures = { han }
 	capital = STATE_KAZAN
 }
 
@@ -3415,7 +3415,7 @@ DON = {
 	color = { 245 221 42 }
 	country_type = recognized
 	tier = principality
-	cultures = { russian ukrainian }
+	cultures = { han }
 	capital = STATE_ROSTOV
 }
 
@@ -3423,7 +3423,7 @@ SYR = {
 	color = { 241 245 240 }
 	country_type = recognized
 	tier = principality
-	cultures = { mashriqi }
+	cultures = { han }
 	religion = sunni
 	capital = STATE_SYRIA
 }
@@ -3432,7 +3432,7 @@ EOT = {
 	color = { 212 11 27 }
 	country_type = recognized
 	tier = principality
-	cultures = { mashriqi bedouin }
+	cultures = { han }
 	capital = STATE_TRANSJORDAN
 }
 
@@ -3440,7 +3440,7 @@ LEB = {
 	color = { 18 201 27 }
 	country_type = recognized
 	tier = principality
-	cultures = { mashriqi }
+	cultures = { han }
 	capital = STATE_LEBANON
 }
 
@@ -3512,7 +3512,7 @@ XIB = {
 	color = { 68 144 212 }
 	country_type = recognized
 	tier = principality
-	cultures = { han tibetan }
+	cultures = { han }
 	capital = STATE_NINGXIA
 }
 
@@ -3532,7 +3532,7 @@ GNI = {
 	
 	tier = principality
 	
-	cultures = { guarani }
+	cultures = { han }
 	capital = STATE_ALTO_PARAGUAY
 }
 
@@ -3543,7 +3543,7 @@ KUR = {
 	
 	tier = principality
 	
-	cultures = { kurdish }
+	cultures = { han }
 	capital = STATE_MOSUL
 }
 
@@ -3554,7 +3554,7 @@ GLI = {
 
 	tier = principality
 	
-	cultures = { galician }
+	cultures = { han }
 	capital = STATE_GALICIA
 }
 
@@ -3565,7 +3565,7 @@ PAL = {
 	
 	tier = principality
 	
-	cultures = { mashriqi }
+	cultures = { han }
 	religion = sunni
 	capital = STATE_PALESTINE
 }
@@ -3577,7 +3577,7 @@ TRH = { # Turkestan
 
 	tier = principality
 	
-	cultures = { uzbek kirgiz kazak turkmen tajik uighur }
+	cultures = { han }
 	capital = STATE_UZBEKIA
 }
 
@@ -3589,7 +3589,7 @@ COB = {
 	
 	tier = principality
 	
-	cultures = { north_german }
+	cultures = { han }
 	capital = STATE_SAXONY
 }
 
@@ -3601,7 +3601,7 @@ MEI = {
 	
 	tier = principality
 	
-	cultures = { north_german }
+	cultures = { han }
 	capital = STATE_SAXONY
 }
 
@@ -3613,7 +3613,7 @@ WEI = {
 	
 	tier = principality
 	
-	cultures = { north_german }
+	cultures = { han }
 	capital = STATE_SAXONY
 }
 
@@ -3625,7 +3625,7 @@ SCW = {
 	
 	tier = principality
 	
-	cultures = { north_german }
+	cultures = { han }
 	capital = STATE_SAXONY
 }
 
@@ -3637,7 +3637,7 @@ HEK = {
 
 	tier = principality
 	
-	cultures = { north_german }
+	cultures = { han }
 	capital = STATE_HESSE
 }
 
@@ -3649,7 +3649,7 @@ LIP = {
 
 	tier = principality
 	
-	cultures = { north_german }
+	cultures = { han }
 	capital = STATE_WESTPHALIA
 }
 
@@ -3661,7 +3661,7 @@ SCM = {
 
 	tier = principality
 	
-	cultures = { north_german }
+	cultures = { han }
 	capital = STATE_WESTPHALIA
 }
 
@@ -3673,7 +3673,7 @@ MST = {
 
 	tier = principality
 	
-	cultures = { north_german }
+	cultures = { han }
 	capital = STATE_MECKLENBURG
 }
 
@@ -3685,7 +3685,7 @@ HOH = {
 
 	tier = principality
 	
-	cultures = { south_german }
+	cultures = { han }
 	capital = STATE_WURTTEMBERG
 }
 
@@ -3697,7 +3697,7 @@ WLD = {
 
 	tier = principality
 	
-	cultures = { north_german }
+	cultures = { han }
 	capital = STATE_HESSE
 }
 
@@ -3709,7 +3709,7 @@ BHT = {
 
 	tier = principality
 	
-	cultures = { assamese avadhi baluchi bengali bihari gujarati kanauji kannada malayalam marathi oriya panjabi pashtun rajput sindi tamil telegu }
+	cultures = { han }
 	capital = STATE_DELHI
 }
 
@@ -3721,7 +3721,7 @@ UOM = {
 
 	tier = principality
 	
-	cultures = { yankee }
+	cultures = { han }
 	capital = STATE_MICHIGAN
 	is_named_from_capital = yes
 }
@@ -3735,7 +3735,7 @@ CIR = {
 
 	tier = principality
 	
-	cultures = { north_caucasian }
+	cultures = { han }
 	capital = STATE_KUBAN
 }
 
@@ -3747,7 +3747,7 @@ CHC = {
 
 	tier = principality
 	
-	cultures = { north_caucasian }
+	cultures = { han }
 	capital = STATE_DAGESTAN
 }
 
@@ -3759,7 +3759,7 @@ ASS = {
 	
 	tier = principality
 	
-	cultures = { assyrian }
+	cultures = { han }
 	capital = STATE_MOSUL
 }
 
@@ -3771,7 +3771,7 @@ KLM = {
 
 	tier = principality
 	
-	cultures = { kalmyk }
+	cultures = { han }
 	capital = STATE_ASTRAKHAN
 }
 

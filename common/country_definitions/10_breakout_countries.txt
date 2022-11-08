@@ -6,7 +6,7 @@ JIN = {
 	
 	tier = principality
 	
-	cultures = { dixie yankee }
+	cultures = { han }
 	capital = STATE_DISTRICT_OF_COLUMBIA
 }
 #晋国六卿
@@ -18,7 +18,7 @@ ZHH = {
 	
 	tier = principality
 	
-	cultures = { dixie yankee }
+	cultures = { han }
 	capital = STATE_TEXAS
 }
 
@@ -30,7 +30,7 @@ ZHI = {
 	
 	tier = principality
 	
-	cultures = { dixie yankee }
+	cultures = { han }
 	capital = STATE_FLORIDA
 }
 
@@ -43,7 +43,7 @@ FAN = {
 	
 	tier = principality
 	
-	cultures = { dixie yankee }
+	cultures = { han }
 	capital = STATE_MICHIGAN
 }
 
@@ -55,7 +55,7 @@ Zhao = {
 	
 	tier = principality
 	
-	cultures = { dixie yankee }
+	cultures = { han }
 	capital = STATE_EAST_ANGLIA
 }
 
@@ -67,7 +67,7 @@ WEI = {
 	
 	tier = principality
 	
-	cultures = { dixie yankee }
+	cultures = { han }
 	capital = STATE_NEW_YORK
 }
 
@@ -79,6 +79,6 @@ HAN = {
 	
 	tier = principality
 	
-	cultures = { dixie yankee }
+	cultures = { han }
 	capital = STATE_MISSISSIPPI
 }

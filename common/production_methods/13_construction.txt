@@ -12,7 +12,7 @@ pm_wooden_buildings = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_services_add = 3
+			building_input_services_add = 10
 			building_input_fabric_add = 25
 			building_input_wood_add = 75
 		}
@@ -46,7 +46,7 @@ pm_iron_frame_buildings = {
 	}
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_services_add = 3
+			building_input_services_add = 10
 			building_input_wood_add = 40
 			building_input_fabric_add = 20
 			building_input_iron_add = 50
@@ -83,7 +83,7 @@ pm_steel_frame_buildings = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_services_add = 3
+			building_input_services_add = 10
 			building_input_steel_add = 50
 			building_input_glass_add = 40
 			building_input_explosives_add = 10
@@ -120,7 +120,7 @@ pm_arc_welded_buildings = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_services_add = 3
+			building_input_services_add = 10
 			building_input_steel_add = 90
 			building_input_glass_add = 50
 			building_input_explosives_add = 20
