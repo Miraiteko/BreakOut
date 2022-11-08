@@ -1,4 +1,4 @@
-﻿wealth_1 = {	political_strength =	0.00 	goods = {	popneed_intoxicants = 1	popneed_heating = 10	popneed_basic_food = 31	popneed_simple_clothing = 5							}	}
+﻿wealth_1 = {	political_strength =	0.00 	goods = {	popneed_intoxicants = 1	popneed_heating = 1	popneed_basic_food = 1	popneed_simple_clothing = 1							}	}
 wealth_2 = {	political_strength =	0.01 	goods = {	popneed_intoxicants = 2	popneed_heating = 14	popneed_basic_food = 32	popneed_simple_clothing = 6							}	}
 wealth_3 = {	political_strength =	0.02 	goods = {	popneed_intoxicants = 7	popneed_heating = 15	popneed_basic_food = 34	popneed_simple_clothing = 7							}	}
 wealth_4 = {	political_strength =	0.05 	goods = {	popneed_intoxicants = 10	popneed_heating = 17	popneed_basic_food = 36	popneed_simple_clothing = 10							}	}

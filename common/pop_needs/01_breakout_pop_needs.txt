@@ -27,8 +27,8 @@
 	entry = {
 		goods = gambling
 		
-		weight = 2
-		max_weight = 15.0
+		weight = 3
+		max_weight = 20.0
 		min_weight = 0.1
 	}
 	
@@ -44,8 +44,8 @@
 		goods = software
 		
 		weight = 2
-		max_weight = 20.0
-		min_weight = 0.0
+		max_weight = 10.0
+		min_weight = 0.1
 	}
 	
 	entry = {
@@ -53,7 +53,7 @@
 		
 		weight = 2
 		max_weight = 20.0
-		min_weight = 0.0
+		min_weight = 0.1
 	}
 	
 }
