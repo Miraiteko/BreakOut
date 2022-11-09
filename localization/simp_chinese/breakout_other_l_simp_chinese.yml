@@ -1,7 +1,7 @@
 ﻿l_simp_chinese:
 
  #金融相关
- popneed_finance:0 "金融服务"
+ popneed_finance:0 "投资"
  pmg_ownership_capital:0 "所有权"
  pm_publicly_traded_industry:0 "公开交易"
  
@@ -11,11 +11,11 @@
  modifier_building_input_financing_service_add:0 "每级@financing_service!融资服务投入"
  modifier_building_input_financing_service_add_desc:0 "建筑投入的@financing_service!融资服务数量"
  
- investment_management:0 "投资管理"
- modifier_building_output_investment_management_add:0 "每级@investment_management!投资管理产出"
- modifier_building_output_investment_management_add_desc:0 "建筑产出的@investment_management!投资管理数量"
- modifier_building_input_investment_management_add:0 "每级@investment_management!投资管理投入"
- modifier_building_input_investment_management_add_desc:0 "建筑投入的@investment_management!投资管理数量"
+ investment_management:0 "金融服务"
+ modifier_building_output_investment_management_add:0 "每级@investment_management!金融服务产出"
+ modifier_building_output_investment_management_add_desc:0 "建筑产出的@investment_management!金融服务数量"
+ modifier_building_input_investment_management_add:0 "每级@investment_management!金融服务投入"
+ modifier_building_input_investment_management_add_desc:0 "建筑投入的@investment_management!金融服务数量"
  
  finance_power:0 "金融力量"
  modifier_building_output_finance_power_add:0 "每级@finance_power!金融力量产出"
