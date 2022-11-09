@@ -203,10 +203,10 @@ pm_privately_owned_building_logging_camp = {
 			building_input_breed_add = 2
 		}
 		level_scaled = {
-			building_employment_capitalists_add = 100
+			building_employment_shopkeepers_add = 100
 		}
 		unscaled = {
-			building_capitalists_shares_add = 5
+			building_shopkeepers_shares_add = 5
 		}
 	}
 }
@@ -233,10 +233,10 @@ pm_publicly_traded_building_logging_camp = {
 			building_input_investment_management_add = 1
 		}
 		level_scaled = {
-			building_employment_capitalists_add = 5
+			building_employment_shopkeepers_add = 5
 		}
 		unscaled = {
-			building_capitalists_shares_add = 5
+			building_shopkeepers_shares_add = 5
 		}
 	}
 }
@@ -471,10 +471,10 @@ pm_privately_owned_building_fishing_wharf = {
 			building_input_breed_add = 2
 		}
 		level_scaled = {
-			building_employment_capitalists_add = 100
+			building_employment_shopkeepers_add = 100
 		}
 		unscaled = {
-			building_capitalists_shares_add = 5
+			building_shopkeepers_shares_add = 5
 		}
 	}
 }
@@ -496,10 +496,10 @@ pm_publicly_traded_building_fishing_wharf = {
 			building_input_investment_management_add = 1
 		}
 		level_scaled = {
-			building_employment_capitalists_add = 5
+			building_employment_shopkeepers_add = 5
 		}
 		unscaled = {
-			building_capitalists_shares_add = 5
+			building_shopkeepers_shares_add = 5
 		}
 	}
 }
@@ -708,10 +708,10 @@ pm_privately_owned_building_whaling_station = {
 			building_input_breed_add = 2
 		}
 		level_scaled = {
-			building_employment_capitalists_add = 100
+			building_employment_shopkeepers_add = 100
 		}
 		unscaled = {
-			building_capitalists_shares_add = 5
+			building_shopkeepers_shares_add = 5
 		}
 	}
 }
@@ -733,10 +733,10 @@ pm_publicly_traded_building_whaling_station = {
 			building_input_investment_management_add = 1
 		}
 		level_scaled = {
-			building_employment_capitalists_add = 5
+			building_employment_shopkeepers_add = 5
 		}
 		unscaled = {
-			building_capitalists_shares_add = 5
+			building_shopkeepers_shares_add = 5
 		}
 	}
 }
@@ -891,10 +891,10 @@ pm_publicly_traded_building_oil_rig = {
 			building_input_investment_management_add = 1
 		}
 		level_scaled = {
-			building_employment_capitalists_add = 5
+			building_employment_shopkeepers_add = 5
 		}
 		unscaled = {
-			building_capitalists_shares_add = 5
+			building_shopkeepers_shares_add = 5
 		}
 	}
 }

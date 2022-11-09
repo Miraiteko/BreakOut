@@ -1,4 +1,4 @@
-﻿# group = this is the law_group a law belongs to
+# group = this is the law_group a law belongs to
 # icon = graphical icon shown in-game
 # modifier = {} modifier on country for having adopted this law
 
@@ -68,7 +68,8 @@ law_interventionism = {
 	
 	modifier = {
 		state_aristocrats_investment_pool_contribution_add = 0.05
-		state_capitalists_investment_pool_contribution_add = 0.50
+		state_shopkeepers_investment_pool_contribution_add = 0.2	
+		state_capitalists_investment_pool_contribution_add = 0.60
 			
 		country_subsidies_all = yes
 	}
@@ -110,7 +111,8 @@ law_agrarianism = {
 	}
 	
 	modifier = {
-		state_aristocrats_investment_pool_contribution_add = 0.25	
+		state_aristocrats_investment_pool_contribution_add = 0.25
+		state_shopkeepers_investment_pool_contribution_add = 0.1	
 		state_capitalists_investment_pool_contribution_add = 0.25
 		
 		country_subsidies_bg_agriculture = yes
@@ -163,7 +165,8 @@ law_laissez_faire = {
 	
 	modifier = {
 		country_loan_interest_rate_mult = -0.25
-		state_capitalists_investment_pool_contribution_add = 0.70	
+		state_shopkeepers_investment_pool_contribution_add = 0.4
+		state_capitalists_investment_pool_contribution_add = 0.75	
 		
 		country_subsidies_bg_infrastructure = yes
 		country_subsidies_bg_trade = yes
