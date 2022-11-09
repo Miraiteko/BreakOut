@@ -5,7 +5,7 @@
 		workforce_scaled = {
 			building_input_paper_add = 35 # 30
 			building_output_gambling_add = 10 #50
-			building_output_investment_management_add = 15 #100
+			building_output_investment_management_add = 20 #100
 		}	
 		level_scaled = {
 			building_employment_laborers_add = 2000
@@ -14,7 +14,7 @@
 		}
 		unscaled = {
 			building_capitalists_shares_add = 5
-			building_shopkeepers_shares_add = 2
+			building_shopkeepers_shares_add = 1
 		}
 	}		
 	state_modifiers = {
@@ -32,7 +32,7 @@ pm_fundbased_stock_exchange = {
 		workforce_scaled = {
 			building_input_telephones_add = 15 #70
 			building_output_gambling_add = 10 #50
-			building_output_investment_management_add = 25 #100
+			building_output_investment_management_add = 35 #100
 		}	
 		level_scaled = {
 			building_employment_clerks_add = 1750
