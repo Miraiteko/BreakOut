@@ -5,7 +5,7 @@ stock_exchange = {
 	#texture = "gfx/interface/icons/building_icons/stock_exchange.dds"
 	
 	unlocking_technologies = {
-		mutual_funds
+		stock_exchange
 	}
 
 	production_method_groups = {

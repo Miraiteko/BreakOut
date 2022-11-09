@@ -206,7 +206,7 @@ pm_privately_owned = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_breed_add = 2
+			
 		}
 		level_scaled = {
 			building_employment_aristocrats_add = 100
@@ -233,7 +233,7 @@ pm_publicly_traded = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_investment_management_add = 1
+			
 		}
 		level_scaled = {
 			building_employment_shopkeepers_add = 5

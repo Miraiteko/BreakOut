@@ -25,8 +25,9 @@
  
  stock_exchange:0 "证券交易所"
  pmg_stock_exchange:0 "证券交易"
- pm_stock_exchange:0 "散户交易"
- pm_fundbased_stock_exchange:0 "基金交易"
+ pm_base_stock_exchange:0 "银行家"
+ pm_pop_stock_exchange:0 "公众市场"
+ pm_fund_stock_exchange:0 "专业基金公司"
  
  fund_company:0 "基金公司"
  pmg_fund_company:0 "基金"

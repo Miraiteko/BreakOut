@@ -1,7 +1,8 @@
 ﻿pmg_stock_exchange = {
 	production_methods = {
-		pm_stock_exchange
-		pm_fundbased_stock_exchange
+		pm_base_stock_exchange
+		pm_pop_stock_exchange
+		pm_fund_stock_exchange
 	}
 }
 
