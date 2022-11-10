@@ -695,7 +695,7 @@
 		}
 	}
 	s:STATE_CEYLON = {
-		region_state:HND = {
+		region_state:USA = {
 			create_pop = {
 				culture = sinhala
 				size = 849208

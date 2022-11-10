@@ -459,7 +459,7 @@
 		}
 	}
 	s:STATE_LATVIA = {
-		region_state:RUS = {
+		region_state:BYE = {
 			create_pop = {
 				culture = latvian
 				size = 1047496
@@ -769,7 +769,7 @@
 		}
 	}
 	s:STATE_BEKES = {
-		region_state:ROM = {
+		region_state:HUN = {
 			create_pop = {
 				culture = hungarian
 				size = 189292
@@ -846,7 +846,7 @@
 		}
 	}
 	s:STATE_DELVIDEK = {
-		region_state:SER = {
+		region_state:HUN = {
 			create_pop = {
 				culture = south_german
 				size = 197200
@@ -874,7 +874,7 @@
 		}
 	}
 	s:STATE_BANAT = {
-		region_state:SER = {
+		region_state:HUN = {
 			create_pop = {
 				culture = south_german
 				size = 312640
@@ -1078,7 +1078,7 @@
 		}
 	}
 	s:STATE_WALLACHIA = {
-		region_state:ROM = {
+		region_state:BUL = {
 			create_pop = {
 				culture = romanian
 				size = 1094208
@@ -1090,7 +1090,7 @@
 		}
 	}
 	s:STATE_BESSARABIA = {
-		region_state:UKR = {
+		region_state:ROM = {
 			create_pop = {
 				culture = romanian
 				size = 808396

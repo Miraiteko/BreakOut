@@ -1174,7 +1174,7 @@ pm_first_aid = {
 	}
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_opium_add = 1
+			building_input_medicine_add = 1
 			building_input_fabric_add = 1
 		}
 
@@ -1191,7 +1191,7 @@ pm_field_hospitals = {
 	}
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_opium_add = 2
+			building_input_medicine_add = 2
 			building_input_fabric_add = 1
 			building_input_tools_add = 1
 		}

@@ -276,7 +276,7 @@
 		}
 	}
 	s:STATE_CYPRUS = {
-		region_state:TUR = {
+		region_state:ISR = {
 			create_pop = {
 				culture = turkish
 				size = 43764

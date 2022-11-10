@@ -713,7 +713,7 @@ POPS = {
 		}
 	}
 	s:STATE_AMAZONAS = {
-		region_state:BRZ = {
+		region_state:CLM = {
 			create_pop = {
 				culture = amazonian
 				size = 36800
@@ -733,16 +733,6 @@ POPS = {
 		}	
 	}
 	s:STATE_MATO_GROSSO = {
-		region_state:ARG = {
-			create_pop = {
-				culture = guarani
-				size = 38000
-			}
-			create_pop = {
-				culture = platinean
-				size = 4000
-			}
-		}
 		region_state:BRZ = {
 			create_pop = {
 				culture = brazilian

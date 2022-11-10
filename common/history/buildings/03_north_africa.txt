@@ -173,7 +173,11 @@
 		}
 	}
 	s:STATE_SINAI={
-		region_state:ISR={		
+		region_state:ISR={	
+			create_building={
+				building="building_suez_canal"
+				level=1
+			}	
 		}
 	}
 	s:STATE_ERITREA={
@@ -425,7 +429,7 @@
 		}
 	}
 	s:STATE_ALGIERS={
-		region_state:TUN={
+		region_state:MOR={
 			create_building={
 				building="building_fishing_wharf"
 				level=1
@@ -493,7 +497,7 @@
 		}
 	}
 	s:STATE_TLEMCEN={
-		region_state:TUN={
+		region_state:MOR={
 			create_building={
 				building="building_fishing_wharf"
 				level=1

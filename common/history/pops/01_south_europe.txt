@@ -102,7 +102,7 @@
 		}
 	}
 	s:STATE_SAVOY = {
-		region_state:ITA = {
+		region_state:FRA = {
 			create_pop = {
 				culture = french
 				size = 287600
@@ -353,7 +353,7 @@
 		}
 	}
 	s:STATE_ALENTEJO = {
-		region_state:POR = {
+		region_state:SPA = {
 			create_pop = {
 				culture = portuguese
 				size = 372508
@@ -749,7 +749,7 @@
 	}
 
 	s:STATE_EAST_AEGEAN_ISLANDS = {
-		region_state:GRE = {
+		region_state:TUR = {
 			create_pop = {
 				culture = turkish
 				size = 8992

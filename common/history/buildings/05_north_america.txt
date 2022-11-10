@@ -1442,7 +1442,7 @@
 		}
 	}
 	s:STATE_BRITISH_COLUMBIA={
-		region_state:CAN={
+		region_state:USA={
 			create_building={
 				building="building_logging_camp"
 				level=1
@@ -1478,7 +1478,7 @@
 		}
 	}
 	s:STATE_YUKON_TERRITORY={
-		region_state:CAN={
+		region_state:USA={
 		}
 	}
 	s:STATE_NORTHWEST_TERRITORIES={

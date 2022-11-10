@@ -214,7 +214,7 @@
 		}
 	}
 	s:STATE_GOTLAND={
-		region_state:SWE={
+		region_state:RUS={
 			create_building={
 				building="building_port"
 				level=1
@@ -554,12 +554,18 @@
 		}
 	}
 	s:STATE_ALAND={
-		region_state:FIN={
+		region_state:RUS={
 			create_building={
 				building="building_fishing_wharf"
 				level=1
 				reserves=1
 				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" "pm_merchant_guilds_building_fishing_wharf" }
+			}
+			create_building={
+				building="building_port"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
 			}
 		}
 	}

@@ -109,7 +109,7 @@
 		}
 	}
 	s:STATE_CYPRUS={
-		region_state:TUR={
+		region_state:ISR={
 			create_building={
 				building="building_wheat_farm"
 				level=1
