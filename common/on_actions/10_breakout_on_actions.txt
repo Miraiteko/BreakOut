@@ -10,6 +10,9 @@ breakout_on_monthly_pulse_country = {
 
 		#破产结算
 		bankruptcy_check = yes
+
+		#AI强化
+		breakout_AI = yes
 	}
 }
 on_yearly_pulse_country = {
@@ -19,6 +22,8 @@ on_yearly_pulse_country = {
 }
 breakout_on_yearly_pulse_country = {
 	effect = {
+		#过年测试
+		#sacrifice_festival_effect = yes
 	}
 }
 

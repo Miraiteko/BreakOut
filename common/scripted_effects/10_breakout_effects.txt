@@ -685,16 +685,9 @@ bankruptcy_check = {
 		}
 		change_infamy = 300
 	}
-	
-	#松散部落实现集权
-	if = {
-		limit = {
-			is_country_type = decentralized
-			has_technology_researched = centralization
-		}
-		set_country_type = unrecognized
-	}
 
+}
+breakout_AI = {
 	#ai在资金过多的时候扩建建造部门
 	if = {
 		limit = {
@@ -742,5 +735,13 @@ bankruptcy_check = {
 			}
 			#remove_building = scope:removed_building
 		}
+	}
+}
+#祭典节日
+sacrifice_festival_effect = {
+	add_modifier = {
+		name = sacrifice_festival_modifier
+		months = 1
+		is_decaying = yes
 	}
 }

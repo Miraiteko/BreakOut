@@ -332,7 +332,7 @@
 
         64 = { name = ear_lower_bend   range = { 0.5 0.5 }      }
   
- 
+    }
     gene_ear_out = {
         64 = { name = ear_out   range = { 0.5 0.5 }      }
  

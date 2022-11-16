@@ -112,8 +112,6 @@ NEconomy = {
 
 	#规模效应
 	ECONOMY_OF_SCALE_START_LEVEL = 2					# Level at which buildings start getting economy of scale bonuses. Levels lower than this value provide no bonus [>=1]
-	GOVERNMENT_BUILDING_STATE_ECONOMY_OF_SCALE_MULT = 1.25 # Multiply score by this if building uses economy of scale and it's already present in the state
-	PRODUCTION_BUILDING_ECONOMY_OF_SCALE_MULT = 1.25 # Multiply score by this if building uses economy of scale and it's already present in the state
 	TRADE_ROUTE_ECONOMY_OF_SCALE = 0.25					# Each level of trade route after the first adds this % to desired trade quantity
 	TRADE_ROUTE_ECONOMY_OF_SCALE_MAX_LEVEL = 20			# After this level, trade route economy of scale no longer increases the amount per level
 	
@@ -255,6 +253,13 @@ NAI = {
 	MONEY_SPENDING_MIN_GOLD_RESERVE_FRACTION_TO_ADD_WANTS_TO_HAVE = 0.1 # If we don't have at least this fraction of gold reserves, don't increase spending on a 'wants-to-have'
 	MONEY_SPENDING_MIN_GOLD_RESERVE_FRACTION_TO_ADD_NICE_TO_HAVE = 0.2 # If we don't have at least this fraction of gold reserves, don't increase spending on a 'nice-to-have'
 
-	#鼓励ai集中建造
-	PRODUCTION_BUILDING_ECONOMY_OF_SCALE_MULT = 5.0 # Multiply score by this if building uses economy of scale and it's already present in the state
+	#ai建造
+	# Below data is used to calculate how much weight the AI places on a production building
+	PRODUCTION_BUILDING_RANDOM_FACTOR = 10.0 # The higher this is, the more random AI construction will be
+	PRODUCTION_BUILDING_BASE_VALUE = 1000 # If no ai_value is scripted in the building
+	PRODUCTION_BUILDING_GOODS_PROFIT_FACTOR = 5000 # Per pound of predicted building profit (divided by employee count per level)
+	PRODUCTION_BUILDING_GOODS_DEFICIT_FACTOR = 20000 # Per pound of predicted building deficit (divided by employee count per level and multiplies a negative value)
+	PRODUCTION_BUILDING_MISSING_QUALIFICATIONS_MULT = 0.75 # Multiply score by this if there's not enough qualifications to staff the building (disabled for now)
+	PRODUCTION_BUILDING_MISSING_INFRASTRUCTURE_DIV = 0.25 # Divide score by ( 1 + this * number of missing infrastructure after adding this building )
+	PRODUCTION_BUILDING_ECONOMY_OF_SCALE_MULT = 10.0 # Multiply score by this if building uses economy of scale and it's already present in the state
 }
