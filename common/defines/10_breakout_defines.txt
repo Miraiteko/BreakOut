@@ -140,7 +140,8 @@ NEconomy = {
 	NORMAL_WAGE_RATE_FALLBACK = 50.0			# If it's impossible to compute a normal wage rate (e.g. if every incorporated pop works in government buildings) set it to this (weekly £ per POP_SIZE_PACKAGE employees)
 	MINIMUM_WAGE_RATE = 1.0					# The wage rate can never drop below this, no matter what (weekly £ per POP_SIZE_PACKAGE employees)
 	MAXIMUM_WAGE_RATE = 10000.0				# The absolute maximum that a building's wage rate can be increased to.
-
+	PEASANT_STARTING_WAGE_RATE_FACTOR = 0.5		# For the sake of calculating starting normal wages, treat peasants as having this pop type wage multiplier
+	
 	#解雇相关
 	BUILDING_LAYOFFS_MIN_WEEKS_BETWEEN = 2		# Minimum number of weeks between layoffs
 	BUILDING_LAYOFFS_DECREASE_BY = 0.05			# The ratio that layoffs will reduce employment by (e.g. 0.15 means if you're currently 57% employed, reduce that to 48.45%)
@@ -160,6 +161,7 @@ NEconomy = {
 	BUILDING_CASH_RESERVES_ALGO = 1					# Temporary. Algorithm to use when deciding how owners split profits between cash reserves and dividends. 1 = complex algo, 2 = simple one
 	
 	BUILDING_CASH_RESERVES_STATUS_QUO_THRESHOLD = 0.99	# If cash reserves are above this fraction of max, buildings won't try to reduce expenses even if they are losing money	
+	
 	#资源系统
 	BASE_RESOURCE_DISCOVER_CHANCE = 0.02 		# Per day (1.0 = 1%)
 	EMPLOYMENT_RESOURCE_DEPLETE_CHANCE = 0.001	# Multiplied by number of fully employed levels of the building
