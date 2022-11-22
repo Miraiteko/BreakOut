@@ -16,11 +16,13 @@ STATE_MICRONESIAN_SEA = {
 STATE_SOUTH_PACIFIC_LANE_1 = {
     id = 3003
     provinces = { "xA729A6" }
+    impassable = { "xA729A6" }
 }
 
 STATE_SOUTH_PACIFIC_LANE_2 = {
     id = 3004
     provinces = { "xE10DAD" }
+    impassable = { "xE10DAD" }
 }
 
 STATE_EASTER_ISLAND_LANE_1 = {
@@ -36,21 +38,25 @@ STATE_EASTER_ISLAND_LANE_2 = {
 STATE_EASTER_ISLAND_LANE_3 = {
     id = 3007
     provinces = { "xDB3C7F" }
+    impassable = { "xDB3C7F" }
 }
 
 STATE_PACIFIC_LANE_01 = {
     id = 3008
     provinces = { "xA685CF" }
+    impassable = { "xA685CF" }
 }
 
 STATE_PACIFIC_LANE_02 = {
     id = 3009
     provinces = { "x561AA0" }
+    impassable = { "x561AA0" }
 }
 
 STATE_PACIFIC_LANE_03 = {
     id = 3010
     provinces = { "xD26392" }
+    impassable = { "xD26392" }
 }
 
 STATE_PACIFIC_LANE_04 = {
@@ -397,11 +403,13 @@ STATE_NORTH_ATLANTIC_OCEAN_06 = {
 STATE_NORTH_ATLANTIC_01 = {
     id = 3076
     provinces = { "xC64499" }
+    impassable = { "xC64499" }
 }
 
 STATE_NORTH_ATLANTIC_02 = {
     id = 3077
     provinces = { "xDA6DF6" }
+    impassable = { "xDA6DF6" }
 }
 
 STATE_NORTH_ATLANTIC_03 = {
@@ -422,11 +430,13 @@ STATE_NORTH_ATLANTIC_05 = {
 STATE_NORTH_ATLANTIC_06 = {
     id = 3081
     provinces = { "xCF4DEF" }
+    impassable = { "xCF4DEF" }
 }
 
 STATE_NORTH_ATLANTIC_07 = {
     id = 3082
     provinces = { "x9F5EB0" }
+    impassable = { "x9F5EB0" }
 }
 
 STATE_ATLANTIC_OCEAN_01 = {
@@ -447,11 +457,13 @@ STATE_ATLANTIC_OCEAN_03 = {
 STATE_ATLANTIC_OCEAN_04 = {
     id = 3086
     provinces = { "x9F5EAE" }
+    impassable = { "x9F5EAE" }
 }
 
 STATE_ATLANTIC_OCEAN_05 = {
     id = 3087
     provinces = { "x9F5CAE" }
+    impassable = { "x9F5CAE" }
 }
 
 STATE_WEST_AFRICAN_COAST = {
@@ -514,6 +526,7 @@ STATE_SOUTH_ATLANTIC_OCEAN_06 = {
 STATE_SOUTH_ATLANTIC_SEA_LANE_01 = {
     id = 3098
     provinces = { "x8ADE90" }
+    impassable = { "x8ADE90" }
 }
 
 STATE_SOUTH_ATLANTIC_SEA_LANE_02 = {
@@ -524,6 +537,7 @@ STATE_SOUTH_ATLANTIC_SEA_LANE_02 = {
 STATE_SOUTH_ATLANTIC_SEA_LANE_05 = {
     id = 3102
     provinces = { "xB56DB4" }
+    impassable = { "xB56DB4" }
 }
 
 STATE_COAST_OF_SAINT_HELENA = {
@@ -810,6 +824,7 @@ STATE_NORTH_PHILIPPINES_SEA = {
 STATE_SOUTH_PHILIPPINES_SEA = {
     id = 3158
     provinces = { "xB6CECE" }
+    impassable = { "xB6CECE" }
 }
 
 STATE_PATAGONIAN_LAKES = {
