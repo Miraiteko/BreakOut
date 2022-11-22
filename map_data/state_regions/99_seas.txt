@@ -591,21 +591,25 @@ STATE_MASCARENES = {
 STATE_INDIAN_OCEAN_LANE_01 = {
     id = 3112
     provinces = { "x6F4CE0" }
+    impassable = { "x6F4CE0" }
 }
 
 STATE_INDIAN_OCEAN_LANE_02 = {
     id = 3113
     provinces = { "x924CE0" }
+    impassable = { "x924CE0" }
 }
 
 STATE_INDIAN_OCEAN_LANE_05 = {
     id = 3116
     provinces = { "xDB38A3" }
+    impassable = { "xDB38A3" }
 }
 
 STATE_INDIAN_OCEAN_LANE_06 = {
     id = 3117
     provinces = { "x6640E1" }
+    impassable = { "x6640E1" }
 }
 
 STATE_SEA_OF_OKHOTSK = {
@@ -695,11 +699,13 @@ STATE_NORTH_PACIFIC_OCEAN_04 = {
 STATE_NORTH_PACIFIC_OCEAN_05 = {
     id = 3134
     provinces = { "x6147C1" }
+    impassable = { "x6147C1" }
 }
 
 STATE_NORTH_PACIFIC_OCEAN_06 = {
     id = 3135
     provinces = { "xBD2C99" }
+    impassable = { "xBD2C99" }
 }
 
 STATE_NORTH_PACIFIC_OCEAN_07 = {
@@ -710,6 +716,7 @@ STATE_NORTH_PACIFIC_OCEAN_07 = {
 STATE_NORTH_PACIFIC_OCEAN_08 = {
     id = 3137
     provinces = { "x721B9A" }
+    impassable = { "x721B9A" }
 }
 
 STATE_NORTH_PACIFIC_OCEAN_09 = {

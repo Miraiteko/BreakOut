@@ -896,7 +896,7 @@ ISR = { #吴
 		}
 	}
 }
-PER = { #徐
+PER = { #钟吾
 	dynamic_country_name = {
 		name = GREAT_PER
 
@@ -920,7 +920,7 @@ PER = { #徐
 		}
 	}
 }
-TUR = { #越
+TUR = { #徐
 	dynamic_country_name = {
 		name = GREAT_TUR
 
@@ -944,7 +944,7 @@ TUR = { #越
 		}
 	}
 }
-EGY = { #钟吾
+EGY = { #越
 	dynamic_country_name = {
 		name = GREAT_EGY
 

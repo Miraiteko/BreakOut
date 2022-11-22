@@ -212,11 +212,11 @@ NWar = {
 }
 NAI = {
 	#宿敌花费
-	MONEY_SPENDING_LAND_THREAT_THRESHOLD = 1.5 # If a hostile country has a more than this much larger army than AI does, it wants to increase military spending
-	MONEY_SPENDING_NAVY_THREAT_THRESHOLD = 1.5 # If a hostile country has a more than this much larger navy than AI does, it wants to increase military spending
-	MONEY_SPENDING_PRESTIGE_RIVAL_THRESHOLD = 1.5 # If a rival has this much more prestige than AI does, it wants to increase spending on art academies
-	MONEY_SPENDING_TECH_RIVAL_THRESHOLD = 1.0 # If a rival has this much more weekly innovation than AI does, it wants to increase spending on universities
-
+	MONEY_SPENDING_LAND_THREAT_THRESHOLD = 0.30 # If a hostile country has a more than this much larger army than AI does, it wants to increase military spending
+	MONEY_SPENDING_NAVY_THREAT_THRESHOLD = 0.10 # If a hostile country has a more than this much larger navy than AI does, it wants to increase military spending
+	MONEY_SPENDING_PRESTIGE_RIVAL_THRESHOLD = 0.5 # If a rival has this much more prestige than AI does, it wants to increase spending on art academies
+	MONEY_SPENDING_TECH_RIVAL_THRESHOLD = 0.25 # If a rival has this much more weekly innovation than AI does, it wants to increase spending on universities
+	
 	#一般建设
 	CONSTRUCTION_MAX_NUM_NON_GOVERNMENT_CONSTRUCTIONS_BASE = 1 # If country has this number of non-government building constructions queued, don't add anymore (base)
 	CONSTRUCTION_MAX_NUM_NON_GOVERNMENT_CONSTRUCTIONS_SCALED = 0.05 # If country has this number of non-government building constructions queued, don't add anymore (scaled by construction production)
