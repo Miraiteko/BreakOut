@@ -265,14 +265,14 @@ production_exp_monthly_check = {
 		name = production_exp_change
 		value = {
 			value = infrastructure
-			multiply = 0.001
+			multiply = 0.0001
 		}
 	}
 	change_variable = { #衰退
 		name = production_exp_change
 		subtract = {
 			value = var:production_exp
-			multiply = var:production_exp
+			multiply = 0.083
 		}
 	}
 	change_variable = {

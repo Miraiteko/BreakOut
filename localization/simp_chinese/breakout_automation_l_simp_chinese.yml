@@ -2,13 +2,13 @@
  #生产经验相关
  concept_production_exp:0 "生产经验"
  concept_production_exp_desc:0 "生产经验能够减少原料的耗费。\n它会在生产实践中不断积累，直到达到由科技所决定的上限。"
- EXP_BAR:0 "[concept_production_exp](制作中)：[Building.GetModifier.GetValueFor('building_visualexpcount_mortality_mult')|3v%]/#maximum [Building.GetModifier.GetValueFor('building_visualexpcount_fertility_mult')|3%] #!" 
+ EXP_BAR:0 "[concept_production_exp](制作中)：[Building.GetModifier.GetValueFor('building_visualexpcount_mortality_mult')|1v%]/#maximum [Building.GetModifier.GetValueFor('building_visualexpcount_fertility_mult')|1%] #!" 
 #[Building.GetModifier.GetInvertedValueFor('building_input_mult')|0v%]
  TOOLTIP_BUILDING_EXP:0 "#header [concept_production_exp]#!\n数值：#v [Building.GetModifier.GetValueFor('building_visualexpcount_mortality_mult')|0v%] /#maximum [Building.GetModifier.GetValueFor('building_visualexpcount_fertility_mult')|0%]\n\n[concept_production_exp]表示了该产业对于生产工艺的技术积累，能够减少生产过程中的原料损耗。\n\n本地区的产业规模越大，[concept_production_exp]积累得就越快。\n\n[concept_production_exp]的上限受到[concept_technology]水平的制约，超出科技水平的生产经验无法得到利用，但是能为科研提供一些加成。"
  production_exp_modifier:0 "有效[concept_production_exp]"
  production_exp_over_cap_modifier:0 "超出上限的[concept_production_exp]"
  modifier_building_visualexpcount_mortality_mult:0 "[concept_production_exp]衰减"
- modifier_building_visualexpcount_mortality_mult_desc:0 "每季度自然损失的[concept_production_exp]"
+ modifier_building_visualexpcount_mortality_mult_desc:0 "每年自然损失的[concept_production_exp]"
  modifier_building_visualexpcount_fertility_mult:0 "[concept_production_exp]上限"
  modifier_building_visualexpcount_fertility_mult_desc:0 "[concept_technology]决定的[concept_production_exp]上限。\n超出上限的[concept_production_exp]不会减少原料投入，而是会驱动科技发展"
  modifier_building_visualexpcount_share_add:0 "[concept_technology]创新事件发生概率"

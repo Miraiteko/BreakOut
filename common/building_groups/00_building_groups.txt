@@ -1,6 +1,6 @@
 ﻿# parent_group = parent_group_key		If set, this group is considered a child of the specified group. Default no parent.
 # always_possible = yes/no				If yes, building types in this group are always permitted regardless of resources in state. Default no.
-# economy_of_scale = yes/no				If yes, any non-subsistence buildings in or underneath this group will get an economy of scale throughput modifier for each level > 1. Default no.
+# economy_of_scale = no/no				If yes, any non-subsistence buildings in or underneath this group will get an economy of scale throughput modifier for each level > 1. Default no.
 # is_subsistence = yes/no				If yes, buildings of types in this group are considered subsistence buildings that follow special rules. Default no.
 # default_building = building_type_key	Specifies the default building type that will be built unless the state specifies a different one. No default.
 # lens = lens_key						If specified, determines the lens buildings in this group will be sorted under. No default.
@@ -28,7 +28,7 @@ bg_manufacturing = {
 
 	always_possible = yes
 	
-	economy_of_scale = yes
+	economy_of_scale = no
 	
 	cash_reserves_max = 25000
 	
@@ -64,7 +64,7 @@ bg_agriculture = {
 	
 	lens = agriculture
 	
-	economy_of_scale = yes
+	economy_of_scale = no
 	
 	can_use_slaves = yes
 	
@@ -141,7 +141,7 @@ bg_ranching = {
 	
 	lens = agriculture
 	
-	economy_of_scale = yes
+	economy_of_scale = no
 	
 	can_use_slaves = yes
 	
@@ -185,7 +185,7 @@ bg_plantations = {
 
 	land_usage = rural
 	
-	economy_of_scale = yes
+	economy_of_scale = no
 	
 	lens = plantation
 	
@@ -260,7 +260,7 @@ bg_banana_plantations = {
 bg_mining = {
 	category = rural
 
-	economy_of_scale = yes
+	economy_of_scale = no
 	
 	capped_by_resources = yes
 	
@@ -339,7 +339,7 @@ bg_logging = {
 
 	capped_by_resources = yes
 	
-	economy_of_scale = yes
+	economy_of_scale = no
 	
 	can_use_slaves = yes
 	
@@ -362,7 +362,7 @@ bg_rubber = {
 	
 	capped_by_resources = yes
 	
-	economy_of_scale = yes
+	economy_of_scale = no
 	
 	discoverable_resource = yes
 	
@@ -389,7 +389,7 @@ bg_whaling = {
 
 	capped_by_resources = yes
 	
-	economy_of_scale = yes
+	economy_of_scale = no
 	
 	default_building = building_whaling_station
 	
@@ -410,7 +410,7 @@ bg_fishing = {
 
 	capped_by_resources = yes
 	
-	economy_of_scale = yes
+	economy_of_scale = no
 	
 	default_building = building_fishing_wharf
 	
@@ -433,7 +433,7 @@ bg_oil_extraction = {
 
 	capped_by_resources = yes
 	
-	economy_of_scale = yes
+	economy_of_scale = no
 	
 	discoverable_resource = yes
 	
@@ -476,7 +476,7 @@ bg_urban_facilities = {
 
 	always_possible = yes
 	
-	economy_of_scale = yes
+	economy_of_scale = no
 	
 	cash_reserves_max = 25000
 	
@@ -505,7 +505,7 @@ bg_government = {
 	
 	is_government_funded = yes
 	
-	economy_of_scale = yes
+	economy_of_scale = no
 	
 	lens = government
 	
