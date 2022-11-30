@@ -33,6 +33,7 @@
 	building_mobilization_cost_mult = 0.6
 	
 	building_economy_of_scale_level_cap_add = 20
+	building_vagrant_fertility_mult = 0.5
 
 }
 

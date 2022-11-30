@@ -1,0 +1,59 @@
+﻿#凑数显示用buff
+building_group_bg_base_education_access_throughput_mult = {
+	good = yes
+	percent = yes
+}
+building_group_bg_breed_power_throughput_mult = {
+	good = yes
+	percent = no
+	num_decimals = 0
+}
+building_group_bg_nuclear_holdings_throughput_mult = {
+	good = yes
+	percent = no
+}
+building_group_bg_nuclear_interception_throughput_mult = {
+	good = yes
+	percent = yes
+}
+building_group_bg_nuclear_penetration_throughput_mult = {
+	good = yes
+	percent = yes
+}
+
+building_group_bg_nuclear_impact_wave_throughput_mult = {
+	good = yes
+	percent = no
+}
+building_group_bg_nuclear_radiation_throughput_mult = {
+	good = yes
+	percent = no
+}
+building_group_bg_nuclear_pollution_throughput_mult = {
+	good = yes
+	percent = no
+}
+building_group_bg_nuclear_defence_throughput_mult = {
+	good = yes
+	percent = no
+}
+building_group_bg_min_breeder_ratio_throughput_mult = {
+	good = no
+	percent = yes
+}
+building_group_bg_max_breeder_ratio_throughput_mult = {
+	good = yes
+	percent = yes
+}
+building_group_bg_production_exp_decay_throughput_mult = {
+	good = no
+	percent = yes
+}
+building_vagrant_motality_mult = {
+	good = no
+	percent = yes
+}
+building_vagrant_fertility_mult = {
+	good = yes
+	percent = yes
+}

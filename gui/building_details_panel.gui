@@ -12,9 +12,9 @@
 template production_exp_tooltip
 {
 	tooltip = "TOOLTIP_BUILDING_EXP"
-	tooltipwidget = {
-		GraphTooltip_CashReserves = {} 
-	}
+	#tooltipwidget = {
+	#	GraphTooltip_CashReserves = {} 
+	#}
 }
 types building_panels
 {

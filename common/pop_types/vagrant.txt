@@ -1,4 +1,6 @@
-﻿vagrant = {
+﻿#曾经的城市游民职业，现在被用作给建筑计算生产经验
+
+vagrant = {
 	texture = "gfx/interface/icons/pops_icons/peasants.dds"
 	color = { 37 150 93 }
 	strata = poor

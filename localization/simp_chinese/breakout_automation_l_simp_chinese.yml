@@ -2,25 +2,12 @@
  #生产经验相关
  concept_production_exp:0 "生产经验"
  concept_production_exp_desc:0 "生产经验能够减少原料的耗费。\n它会在生产实践中不断积累，直到达到由科技所决定的上限。"
- EXP_BAR:0 "[concept_production_exp](制作中)：[Building.GetModifier.GetInvertedValueFor('building_input_mult')|0v%]" 
+ EXP_BAR:0 "[concept_production_exp](制作中)：[Building.GetModifier.GetValueFor('building_vagrant_motality_mult')|0v%]/#maximum [Building.GetModifier.GetValueFor('building_vagrant_fertility_mult')|0%] #!" 
 #[Building.GetModifier.GetInvertedValueFor('building_input_mult')|0v%]
- TOOLTIP_BUILDING_EXP:0 "#header [concept_production_exp]#!\n数值：#v [Building.GetCurrentCashReserves|D]#![GetTrendIcon(Building.GetCashReservesTrend)]/#maximum [Building.GetMaxCashReserves|k]#!\n\n[concept_cash_reserves_desc]"
- production_exp_modifier_00:0 "[concept_production_exp]#v 0%#!"
- production_exp_modifier_05:0 "[concept_production_exp]#v 5%#!"
- production_exp_modifier_10:0 "[concept_production_exp]#v 10%#!"
- production_exp_modifier_15:0 "[concept_production_exp]#v 15%#!"
- production_exp_modifier_20:0 "[concept_production_exp]#v 20%#!"
- production_exp_modifier_25:0 "[concept_production_exp]#v 25%#!"
- production_exp_modifier_30:0 "[concept_production_exp]#v 30%#!"
- production_exp_modifier_35:0 "[concept_production_exp]#v 35%#!"
- production_exp_modifier_40:0 "[concept_production_exp]#v 40%#!"
- production_exp_modifier_45:0 "[concept_production_exp]#v 45%#!"
- production_exp_modifier_50:0 "[concept_production_exp]#v 50%#!"
- production_exp_modifier_55:0 "[concept_production_exp]#v 55%#!"
- production_exp_modifier_60:0 "[concept_production_exp]#v 60%#!"
- production_exp_modifier_65:0 "[concept_production_exp]#v 65%#!"
- production_exp_modifier_70:0 "[concept_production_exp]#v 70%#!"
- production_exp_modifier_75:0 "[concept_production_exp]#v 75%#!"
+ TOOLTIP_BUILDING_EXP:0 "#header [concept_production_exp]#!\n数值：#v [Building.GetModifier.GetValueFor('building_vagrant_motality_mult')|0v%] /#maximum [Building.GetModifier.GetValueFor('building_vagrant_fertility_mult')|0%]\n\n[concept_production_exp]表示了该产业对于生产工艺的技术积累，能够减少生产过程中的原料损耗。\n\n本地区的产业规模越大，[concept_production_exp]积累得就越快。\n\n[concept_production_exp]的上限受到[concept_technology]水平的制约，超出科技水平的生产经验无法得到利用，但是能为科研提供一些加成。"
+ production_exp_modifier:0 "[concept_production_exp]"
+ modifier_building_group_bg_production_exp_decay_throughput_mult:0 "[concept_production_exp]衰减"
+ modifier_building_group_bg_production_exp_decay_throughput_mult_desc:0 "每季度自然损失的[concept_production_exp]"
 
  
  #半导体相关
