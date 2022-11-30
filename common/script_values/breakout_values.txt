@@ -12,7 +12,11 @@ base_education_access_mod = {
 }
 production_exp_mod = {
     value = var:production_exp
-    multiply = 0.01
+    multiply = 1
+}
+production_exp_over_cap_mod = {
+    value = var:production_exp
+    multiply = 0.5
 }
 coal_resource_difficulty = {
     value = var:depleted_coal_resource

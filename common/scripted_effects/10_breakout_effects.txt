@@ -250,7 +250,10 @@ production_exp_monthly_check = {
 
 	if = {
 		limit = { 
-			NOT = { has_variable = production_exp }
+			OR = {
+				NOT = { has_variable = production_exp }
+				var:production_exp < 0
+			}
 		}
 		set_variable = {
 			name = production_exp
@@ -262,16 +265,20 @@ production_exp_monthly_check = {
 		name = production_exp_change
 		value = {
 			value = infrastructure
-			multiply = 0.01
+			multiply = 0.001
 		}
 	}
 	change_variable = { #衰退
 		name = production_exp_change
 		subtract = {
 			value = var:production_exp
-			multiply = 0.05
+			multiply = var:production_exp
 		}
 	}
+	change_variable = {
+		name = production_exp
+		add = var:production_exp_change
+	}		
 	change_variable = {
 		name = production_exp
 		add = var:production_exp_change
@@ -286,6 +293,11 @@ production_exp_monthly_check = {
 		add_modifier = {
 			name = production_exp_modifier
 			multiplier = PREV.production_exp_mod
+		}
+		remove_modifier = production_exp_over_cap_modifier
+		add_modifier = {
+			name = production_exp_over_cap_modifier
+			multiplier = PREV.production_exp_over_cap_mod
 		}
 	}
 }

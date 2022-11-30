@@ -24,5 +24,10 @@ oil_extraction_deplete_modifier = {
 production_exp_modifier = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
 	building_input_mult = -0.1
-	building_vagrant_motality_mult = 0.1
+	building_visualexpcount_mortality_mult = 0.1
+}
+production_exp_over_cap_modifier = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+	building_visualexpcount_share_add = 0.1
+	building_visualexpcount_mortality_mult = 0.1
 }
