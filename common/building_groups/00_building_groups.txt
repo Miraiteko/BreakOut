@@ -21,7 +21,13 @@
 # proportionality_limit = X				How high is the building's tolerance for pop types being out of proportion? default NDefines::NEconomy::EMPLOYMENT_PROPORTIONALITY_LIMIT)
 # hires_unemployed_only = yes			If yes, buildings in this group may only hire from the unemployment pool. Default no.
 
-# Manufacturing
+#工业
+##民生工业
+##材料工业
+##机械工业
+##石油工业
+##能源工业
+##电子工业
 
 bg_manufacturing = {
 	category = urban
@@ -36,7 +42,6 @@ bg_manufacturing = {
 		default_auto_expand_rule = yes
 	}
 }
-
 bg_light_industry = {
 	parent_group = bg_manufacturing
 
@@ -45,8 +50,39 @@ bg_light_industry = {
 	urbanization = 40
 	infrastructure_usage_per_level = 2
 }
+bg_material_industry = {
+	parent_group = bg_manufacturing
 
-bg_heavy_industry = {
+	lens = heavy_industry
+	
+	urbanization = 60
+	infrastructure_usage_per_level = 3
+}
+bg_machine_industry = {
+	parent_group = bg_manufacturing
+
+	lens = heavy_industry
+	
+	urbanization = 60
+	infrastructure_usage_per_level = 3
+}
+bg_petroleum_industry = {
+	parent_group = bg_manufacturing
+
+	lens = heavy_industry
+	
+	urbanization = 60
+	infrastructure_usage_per_level = 3
+}
+bg_energy_industry = {
+	parent_group = bg_manufacturing
+
+	lens = heavy_industry
+	
+	urbanization = 60
+	infrastructure_usage_per_level = 3
+}
+bg_electronic_industry = {
 	parent_group = bg_manufacturing
 
 	lens = heavy_industry
@@ -55,7 +91,10 @@ bg_heavy_industry = {
 	infrastructure_usage_per_level = 3
 }
 
-# Agriculture
+#农业
+##自给农业
+##种植业
+##牧业
 
 bg_agriculture = {
 	category = rural
@@ -75,184 +114,58 @@ bg_agriculture = {
 		default_auto_expand_rule = yes
 	}
 }
-
-bg_rye_farms = {
+bg_subsistence = {
 	parent_group = bg_agriculture
+}
+bg_subsistence_agriculture = {
+	parent_group = bg_subsistence
+
+	always_possible = yes
 	
-	default_building = building_rye_farm
+	auto_place_buildings = yes
+
+	is_subsistence = yes
 	
-	cash_reserves_max = 25000
+	default_building = building_subsistence_farms
+	
+	fired_pops_become_radical = no
+	
+	hires_unemployed_only = yes
+}
+bg_subsistence_ranching = {
+	parent_group = bg_subsistence
+
+	always_possible = yes
+	
+	auto_place_buildings = yes
+
+	is_subsistence = yes
+	
+	default_building = building_subsistence_pastures
+	
+	fired_pops_become_radical = no
+	
+	hires_unemployed_only = yes
 }
 
-bg_wheat_farms = {
+bg_farms = {
 	parent_group = bg_agriculture
 	
 	default_building = building_wheat_farm
 	
 	cash_reserves_max = 25000
 }
-
-bg_rice_farms = {
+bg_ranches = {
 	parent_group = bg_agriculture
-	
-	default_building = building_rice_farm
-	
-	cash_reserves_max = 25000
-}
-
-bg_maize_farms = {
-	parent_group = bg_agriculture
-	
-	default_building = building_maize_farm
-	
-	cash_reserves_max = 25000
-}
-
-bg_millet_farms = {
-	parent_group = bg_agriculture
-	
-	default_building = building_millet_farm
-	
-	cash_reserves_max = 25000
-}
-
-bg_subsistence_agriculture = {
-	parent_group = bg_agriculture
-
-	always_possible = yes
-	
-	auto_place_buildings = yes
-
-	is_subsistence = yes
-	
-	default_building = building_subsistence_farms
-	
-	fired_pops_become_radical = no
-	
-	hires_unemployed_only = yes
-}
-
-# Ranching
-
-bg_ranching = {
-	category = rural
-
-	land_usage = rural
-	
-	lens = agriculture
-	
-	economy_of_scale = no
-	
-	can_use_slaves = yes
-	
-	urbanization = 20
-	infrastructure_usage_per_level = 1
-	
-	should_auto_expand = { 
-		default_auto_expand_rule = yes
-	}
-}
-
-bg_livestock_ranches = {
-	parent_group = bg_ranching
 	
 	default_building = building_livestock_ranch
-	
 	cash_reserves_max = 25000
 }
-
-bg_subsistence_ranching = {
-	parent_group = bg_ranching
-
-	always_possible = yes
-	
-	auto_place_buildings = yes
-
-	is_subsistence = yes
-	
-	default_building = building_subsistence_farms
-	
-	fired_pops_become_radical = no
-	
-	hires_unemployed_only = yes
-}
-
-
-# Plantations
-
 bg_plantations = {
-	category = rural
-
-	land_usage = rural
-	
-	economy_of_scale = no
-	
-	lens = plantation
-	
-	can_use_slaves = yes
-	cash_reserves_max = 25000
-	
-	urbanization = 20
-	infrastructure_usage_per_level = 1
-	
-	should_auto_expand = { 
-		default_auto_expand_rule = yes
-	}
-}
-
-bg_coffee_plantations = {
-	parent_group = bg_plantations
-	
-	default_building = building_coffee_plantation
-}
-
-
-bg_cotton_plantations = {
-	parent_group = bg_plantations
+	parent_group = bg_agriculture
 	
 	default_building = building_cotton_plantation
-}
-
-bg_silk_plantations = {
-	parent_group = bg_plantations
-	
-	default_building = building_silk_plantation
-}
-
-bg_dye_plantations = {
-	parent_group = bg_plantations
-	
-	default_building = building_dye_plantation
-}
-
-bg_opium_plantations = {
-	parent_group = bg_plantations
-	
-	default_building = building_opium_plantation
-}
-
-bg_tea_plantations = {
-	parent_group = bg_plantations
-	
-	default_building = building_tea_plantation
-}
-
-bg_tobacco_plantations = {
-	parent_group = bg_plantations
-	
-	default_building = building_tobacco_plantation
-}
-
-bg_sugar_plantations = {
-	parent_group = bg_plantations
-	
-	default_building = building_sugar_plantation
-}
-
-bg_banana_plantations = {
-	parent_group = bg_plantations
-	
-	default_building = building_banana_plantation
+	cash_reserves_max = 25000
 }
 
 # Mining

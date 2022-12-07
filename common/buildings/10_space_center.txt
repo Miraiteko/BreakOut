@@ -1,5 +1,5 @@
 ﻿rocket_plant = {
-	building_group = bg_heavy_industry	
+	building_group = bg_machine_industry	
 	texture = "gfx/interface/icons/building_icons/rocket_plant.dds"
 	
 	unlocking_technologies = {
@@ -14,7 +14,7 @@
 	required_construction = construction_cost_medium
 }
 space_center = {
-	building_group = bg_heavy_industry	
+	building_group = bg_machine_industry	
 	texture = "gfx/interface/icons/building_icons/space_center.dds"
 	
 	unlocking_technologies = {
@@ -29,7 +29,7 @@ space_center = {
 	required_construction = construction_cost_medium
 }
 lunar_mine = {
-	building_group = bg_heavy_industry	
+	building_group = bg_machine_industry	
 	texture = "gfx/interface/icons/building_icons/lunar_mine.dds"
 	
 	unlocking_technologies = {
@@ -45,7 +45,7 @@ lunar_mine = {
 }
 
 space_elevator = {
-	building_group = bg_heavy_industry	
+	building_group = bg_machine_industry	
 	texture = "gfx/interface/icons/building_icons/space_elevator.dds"
 	
 	unlocking_technologies = {

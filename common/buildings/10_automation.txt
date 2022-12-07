@@ -1,6 +1,6 @@
 ﻿#晶圆厂
 wafer_plant = {
-	building_group = bg_heavy_industry	
+	building_group = bg_machine_industry	
 	texture = "gfx/interface/icons/building_icons/wafer_plant.dds"
 	
 	unlocking_technologies = {
@@ -17,7 +17,7 @@ wafer_plant = {
 }
 #软件园
 software_park = {
-	building_group = bg_heavy_industry	
+	building_group = bg_machine_industry	
 	texture = "gfx/interface/icons/building_icons/software_park.dds"
 	
 	unlocking_technologies = {
@@ -33,7 +33,7 @@ software_park = {
 }
 #数据中心
 internet_data_center = {
-	building_group = bg_heavy_industry	
+	building_group = bg_machine_industry	
 	texture = "gfx/interface/icons/building_icons/internet_data_center.dds"
 	
 	unlocking_technologies = {
@@ -49,7 +49,7 @@ internet_data_center = {
 }
 #虚拟矿场
 virtual_mine = {
-	building_group = bg_heavy_industry	
+	building_group = bg_machine_industry	
 	texture = "gfx/interface/icons/building_icons/virtual_mine.dds"
 	
 	unlocking_technologies = {

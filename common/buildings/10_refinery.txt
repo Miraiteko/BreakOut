@@ -1,6 +1,6 @@
 ﻿#炼油厂
 refinery = {
-	building_group = bg_heavy_industry	
+	building_group = bg_machine_industry	
 	texture = "gfx/interface/icons/building_icons/refinery.dds"
 	
 	unlocking_technologies = {
@@ -16,7 +16,7 @@ refinery = {
 }
 #塑料厂
 plastics_plant = {
-	building_group = bg_heavy_industry	
+	building_group = bg_machine_industry	
 	texture = "gfx/interface/icons/building_icons/plastics_plant.dds"
 	
 	unlocking_technologies = {
@@ -33,7 +33,7 @@ plastics_plant = {
 }
 #药厂
 pharmaceutical_mill = {
-	building_group = bg_heavy_industry	
+	building_group = bg_machine_industry	
 	texture = "gfx/interface/icons/building_icons/pharmaceutical_mill.dds"
 	
 	unlocking_technologies = {
@@ -50,7 +50,7 @@ pharmaceutical_mill = {
 }
 #人工固碳
 carbon_sequestration = {
-	building_group = bg_heavy_industry	
+	building_group = bg_machine_industry	
 	texture = "gfx/interface/icons/building_icons/carbon_sequestration.dds"
 	
 	unlocking_technologies = {
