@@ -72,8 +72,8 @@
  
  
  #出生率修正相关
- concept_breed_power:0 "@breed!劳动力再生产能力"
- concept_breed_power_desc:0 "劳动力再生产能力表示了该地区能够培养的下一代劳动者的规模。自给建筑和居民区可以提供劳动力再生产能力。\n劳动力再生产能力越高，该地区的出生数量就越多。"
+ concept_breed_power:0 "@breed!抚育能力"
+ concept_breed_power_desc:0 "抚育能力表示了该地区能够培养的下一代劳动者的规模。自给建筑和居民区可以提供劳动力再生产能力。\n抚育能力不足时，该地区的出生率将下降；同时由于儿童减少，劳动力比例将有所提升。"
  modifier_building_group_bg_breed_power_throughput_mult:0 "@breed!劳动力再生产"
  modifier_building_group_bg_breed_power_throughput_mult_desc:0 "该建筑为所在地区提供的[concept_breed_power]"
  concept_breed_power_ratio:0 "@breed!劳动力再生产效率"

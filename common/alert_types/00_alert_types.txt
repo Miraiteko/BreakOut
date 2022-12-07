@@ -398,7 +398,6 @@ insufficient_tax_capacity_alert = {
 	script_context = player_state
 
 	valid = {
-		always = no
 		tax_capacity < tax_capacity_usage
 		is_incorporated = yes
 	}

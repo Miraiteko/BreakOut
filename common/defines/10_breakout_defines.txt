@@ -3,7 +3,7 @@
 	END_DATE = "2236.1.1" 
 }
 
-@breakout_pop_growth = 0.0025	#基础出生率
+@breakout_pop_growth = 0.006	#基础出生率
 @breakout_max_mortality = 0.00333 #基础死亡率 #4%，成人平均寿命25
 
 #各分段关键点死亡率
@@ -62,7 +62,7 @@ NPops = {
 	MIN_CONVERSION = 1000							# If there is any conversion at least this many people will convert
 	
 	#劳动力比例
-	WORKING_ADULT_RATIO_BASE = 0.50				# Base ratio of working adults to dependents, this can be overridden by pop type definition and country modifiers.
+	WORKING_ADULT_RATIO_BASE = 0.40				# Base ratio of working adults to dependents, this can be overridden by pop type definition and country modifiers.
 	WORKING_ADULT_RATIO_SKEW_MAXIMUM = 2.0		# When the ratio of working adults to dependents is skewed, it tends to correct itself, this value clamps the maximum effect of this
 	DEPENDENT_CONSUMPTION_RATIO = 0.8			# Dependents consume this multiple of Needs compared to Working Adults
 	SUBSISTENCE_DIVIDENDS_MULT = 0.5

@@ -241,11 +241,11 @@ state_breed_monthly_check = {
 	}
 
 	#按照比例决定生育率buff
-	remove_modifier = breed_ratio_modifier
-	add_modifier = {
-		name = breed_ratio_modifier
-		multiplier = breed_ratio_mod
-	}
+	#remove_modifier = breed_ratio_modifier
+	#add_modifier = {
+	#	name = breed_ratio_modifier
+	#	multiplier = breed_ratio_mod
+	#}
 	#计算基础受教育机会
 	set_variable = {
 		name = base_education_access

@@ -17,8 +17,6 @@
 	state_education_access_wealth_add = 0.02
 	
 	country_minting_add = 1000
-
-	state_tax_capacity_add = 100
 	state_infrastructure_add = 10
 	
 	state_poor_expected_sol = 0
@@ -111,9 +109,10 @@ high_pop_state = {
 # Insufficient BUR reduces tax collected by 100% at 2x usage to production
 administrative_overburden = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
-	state_tax_capacity_mult = -1.00
+	state_tax_waste_add = 1.00
 }
 insufficient_tax_capacity = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
-	state_tax_collection_mult = -1
+	state_birth_rate_mult = -1
+	state_working_adult_ratio_add = 0.15
 }

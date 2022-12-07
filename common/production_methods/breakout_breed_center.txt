@@ -18,7 +18,8 @@ pm_tradition_breeder = {
 	}		
 	state_modifiers = {
 		workforce_scaled = {
-			building_group_bg_breed_power_throughput_mult = 42000
+			state_tax_capacity_add = 1.4
+			#building_group_bg_breed_power_throughput_mult = 42000
 		}	
 	}	
 }	
@@ -47,7 +48,8 @@ pm_elite_breeder = {
 	}		
 	state_modifiers = {
 		workforce_scaled = {
-			building_group_bg_breed_power_throughput_mult = 30000
+			state_tax_capacity_add = 1
+			#building_group_bg_breed_power_throughput_mult = 30000
 		}	
 	}		
 }
