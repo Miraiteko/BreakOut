@@ -1087,8 +1087,8 @@
  concept_religious_trait_desc:2 "[concept_religion]的特性，例如其主要宗教组。[Concept('concept_country','$concept_country_possessive$')][concept_state_religion]与一个[concept_pop]所信奉的$concept_religion$间在$concept_religious_traits$上的相似性，以及$concept_country$现行[SelectLocalization(GetPlayer.IsValid,'concept_religious_trait_desc_added','教会与国家')][concept_law]，决定了该$concept_pop$是否被[Concept('concept_discrimination','$concept_discriminated_against$')]。"
  concept_religious_trait_desc_added:0 "[GetLawType('law_state_religion').GetGroup.GetName]"
  
- concept_investment_pool:0 "投资池"
- concept_investment_pool_desc:2 "拥有[Concept('concept_ownership_share','$concept_ownership_shares$')]的[Concept('concept_pop','$concept_pops$')]获得的部分[concept_dividends]会存入$concept_investment_pool$中，[Concept('concept_construction','$concept_construct$')][Concept('concept_country','$concept_country_possessive$')]现行[SelectLocalization(GetPlayer.IsValid,'concept_investment_pool_desc_added','经济体制')][concept_law]允许的[Concept('concept_building','$concept_buildings$')]时可以使用这些资金。这些$concept_buildings$在[Concept('concept_construction','建造')]时，建造所需资金会从$concept_investment_pool$中扣除，并作为[concept_budget_investment_income]存入[concept_treasury]中。"
+ concept_investment_pool:0 "君主私产"
+ concept_investment_pool_desc:2 "君主认可臣民的资产所有权，作为交换，拥有[Concept('concept_ownership_share','$concept_ownership_shares$')]的臣民将获得的部分[concept_dividends]上供，这部分资金不会进入[concept_treasury]而是会放入$concept_investment_pool$中。\n这些资金会被用于祭祀活动，或是在现行[SelectLocalization(GetPlayer.IsValid,'concept_investment_pool_desc_added','投资方针')][concept_law]允许的范围内，可以使用这些资金[Concept('concept_construction','$concept_construct$')]$concept_buildings$。这些$concept_buildings$在[Concept('concept_construction','建造')]时，建造所需资金会从$concept_investment_pool$中扣除，并作为[concept_budget_investment_income]转入[concept_treasury]中。"
  concept_investment_pool_desc_added:0 "[GetLawType('law_traditionalism').GetGroup.GetName]"
 
  concept_pop_income:0 "人群收入"
@@ -1176,7 +1176,7 @@
  concept_budget_income_taxes:0 "所得税"
  concept_budget_income_taxes_desc:1 "一种[Concept('concept_taxes','$concept_tax$')]，征收自向[concept_workforce]支付的[Concept('concept_building_wage','$concept_building_wages$')]。"
 
- concept_budget_investment_income:1 "投资池划转"
+ concept_budget_investment_income:1 "君主赞助"
  concept_budget_investment_income_desc:2 "根据[Concept('concept_country','$concept_country_possessive$')]现行[SelectLocalization(GetPlayer.IsValid,'concept_budget_investment_income_desc_added','经济体制')][concept_law]，如果[concept_treasury]的[concept_money]被用于[Concept('concept_construction','建造')][Concept('concept_building','$concept_buildings$')]时可以从[concept_investment_pool]获得资助，$concept_investment_pool$就会划转等额资金补偿$concept_treasury$。"
  concept_budget_investment_income_desc_added:0 "[GetLawType('law_traditionalism').GetGroup.GetName]"
 
