@@ -362,7 +362,7 @@ decree_encourage_agricultural_industry = {
 	modifier = {
 		building_group_bg_agriculture_throughput_mult = 0.2
 		building_group_bg_ranching_throughput_mult = 0.2
-		building_group_bg_plantations_throughput_mult = 0.2
+		building_group_bg_fabric_plantations_throughput_mult = 0.2
 	}
 	cost = 100
 	
@@ -374,7 +374,7 @@ decree_encourage_agricultural_industry = {
 					OR = {
 						is_building_group = bg_agriculture
 						is_building_group = bg_ranching
-						is_building_group = bg_plantations
+						is_building_group = bg_fabric_plantations
 					}				
 				}
 			}
@@ -386,7 +386,7 @@ decree_encourage_agricultural_industry = {
 					OR = {
 						is_building_group = bg_agriculture
 						is_building_group = bg_ranching
-						is_building_group = bg_plantations
+						is_building_group = bg_fabric_plantations
 					}
 					count >= 3
 				}		
@@ -399,7 +399,7 @@ decree_encourage_agricultural_industry = {
 					OR = {
 						is_building_group = bg_agriculture
 						is_building_group = bg_ranching
-						is_building_group = bg_plantations
+						is_building_group = bg_fabric_plantations
 					}	
 					count >= 5
 				}			

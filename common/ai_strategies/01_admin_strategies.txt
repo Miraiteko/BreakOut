@@ -10,7 +10,7 @@
 		bg_agriculture = 2.0
 		bg_ranching = 2.0
 		bg_fishing = 1.5
-		bg_plantations = 1.5
+		bg_fabric_plantations = 1.5
 		bg_manufacturing = 0.5
 	}
 	
@@ -122,7 +122,7 @@ ai_strategy_plantation_economy = {
 
 	building_group_weights = {
 		bg_breed = 5
-		bg_plantations = 2.0
+		bg_fabric_plantations = 2.0
 		bg_manufacturing = 0.5
 	}
 

@@ -1,7 +1,7 @@
 ﻿############# FARMING & RANCHING
 
 building_rye_farm = {
-	building_group = bg_farms
+	building_group = bg_grain_plantations
 	
 	texture = "gfx/interface/icons/building_icons/rye_farm.dds"
 
@@ -25,7 +25,7 @@ building_rye_farm = {
 }
 
 building_wheat_farm = {
-	building_group = bg_farms
+	building_group = bg_grain_plantations
 	
 	texture = "gfx/interface/icons/building_icons/wheat_farm.dds"
 
@@ -49,7 +49,7 @@ building_wheat_farm = {
 }
 
 building_rice_farm = {
-	building_group = bg_farms
+	building_group = bg_grain_plantations
 	
 	texture = "gfx/interface/icons/building_icons/rice_farm.dds"
 
@@ -73,7 +73,7 @@ building_rice_farm = {
 }
 
 building_maize_farm = {
-	building_group = bg_farms
+	building_group = bg_grain_plantations
 	
 	texture = "gfx/interface/icons/building_icons/maize_farm.dds"
 
@@ -97,7 +97,7 @@ building_maize_farm = {
 }
 
 building_millet_farm = {
-	building_group = bg_farms
+	building_group = bg_grain_plantations
 	
 	texture = "gfx/interface/icons/building_icons/millet_farm.dds"
 

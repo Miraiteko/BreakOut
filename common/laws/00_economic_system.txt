@@ -76,7 +76,7 @@ law_interventionism = {
 
 	build_from_investment_pool = {
 		bg_agriculture
-		bg_plantations
+		bg_fabric_plantations
 		bg_ranching
 		bg_manufacturing
 		bg_urban_facilities
@@ -117,14 +117,14 @@ law_agrarianism = {
 		
 		country_subsidies_bg_agriculture = yes
 		country_subsidies_bg_ranching = yes
-		country_subsidies_bg_plantations = yes
+		country_subsidies_bg_fabric_plantations = yes
 		country_subsidies_bg_infrastructure = yes
 		country_subsidies_bg_trade = yes
 	}
 
 	build_from_investment_pool = {
 		bg_agriculture
-		bg_plantations
+		bg_fabric_plantations
 		bg_ranching
 		bg_infrastructure
 	}
@@ -219,7 +219,7 @@ law_command_economy = {
 	
 	build_from_investment_pool = {
 		bg_agriculture
-		bg_plantations
+		bg_fabric_plantations
 		bg_ranching
 		bg_manufacturing
 		bg_urban_facilities

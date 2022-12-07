@@ -1,7 +1,7 @@
 ﻿############# SUBSISTENCE
 
 building_subsistence_farms = {
-	building_group = bg_subsistence_agriculture
+	building_group = bg_subsistence
 	texture = "gfx/interface/icons/building_icons/building_subsistence_farm.dds"
 
 	production_method_groups = {
@@ -19,7 +19,7 @@ building_subsistence_farms = {
 }
 
 building_subsistence_orchards = {
-	building_group = bg_subsistence_agriculture
+	building_group = bg_subsistence
 	texture = "gfx/interface/icons/building_icons/building_subsistence_farm.dds"
 
 	production_method_groups = {
@@ -37,7 +37,7 @@ building_subsistence_orchards = {
 }
 
 building_subsistence_pastures = {
-	building_group = bg_subsistence_ranching
+	building_group = bg_subsistence
 	texture = "gfx/interface/icons/building_icons/building_subsistence_farm.dds"
 
 	production_method_groups = {
