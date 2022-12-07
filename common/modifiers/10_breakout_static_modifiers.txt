@@ -34,7 +34,10 @@
 	building_visualexpcount_fertility_mult = 0.5
 
 }
-
+capital_state = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	state_pop_pol_str_mult = 0.25
+}
 coastal_state = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
 	building_economy_of_scale_level_cap_add = 10
