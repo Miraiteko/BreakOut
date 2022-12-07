@@ -151,7 +151,11 @@ bg_ranches = {
 	cash_reserves_max = 25000
 }
 
-# Mining
+#矿业
+##铜矿
+##铁矿
+##煤矿
+##铀矿
 
 bg_mining = {
 	category = rural
@@ -172,26 +176,18 @@ bg_mining = {
 	}
 }
 
-bg_gold_fields = {
+
+bg_copper_mining = {
 	parent_group = bg_mining
-
-	auto_place_buildings = yes
-
-	discoverable_resource = yes
 	
-	depletable_resource = yes
-	
-	pays_taxes = no
+	default_building = building_lead_mine
 
-	default_building = building_gold_fields
-	
-	fired_pops_become_radical = no
+	can_use_slaves = yes
 }
-
-bg_gold_mining = {
+bg_iron_mining = {
 	parent_group = bg_mining
 	
-	default_building = building_gold_mine
+	default_building = building_iron_mine
 
 	can_use_slaves = yes
 }
@@ -204,23 +200,8 @@ bg_coal_mining = {
 	can_use_slaves = yes
 }
 
-bg_iron_mining = {
-	parent_group = bg_mining
-	
-	default_building = building_iron_mine
 
-	can_use_slaves = yes
-}
-
-bg_lead_mining = {
-	parent_group = bg_mining
-	
-	default_building = building_lead_mine
-
-	can_use_slaves = yes
-}
-
-bg_sulfur_mining = {
+bg_uranium_mining = {
 	parent_group = bg_mining
 	
 	default_building = building_sulfur_mine
@@ -534,4 +515,27 @@ bg_skyscraper = {
 
 bg_monuments_hidden = {
 	always_possible = yes
+}
+bg_gold_fields = {
+	parent_group = bg_mining
+
+	auto_place_buildings = yes
+
+	discoverable_resource = yes
+	
+	depletable_resource = yes
+	
+	pays_taxes = no
+
+	default_building = building_gold_fields
+	
+	fired_pops_become_radical = no
+}
+
+bg_gold_mining = {
+	parent_group = bg_mining
+	
+	default_building = building_gold_mine
+
+	can_use_slaves = yes
 }

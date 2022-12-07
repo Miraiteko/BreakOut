@@ -40,7 +40,7 @@ building_iron_mine = {
  }
 
 building_lead_mine = {
-	building_group = bg_lead_mining
+	building_group = bg_copper_mining
 	texture = "gfx/interface/icons/building_icons/lead_mine.dds"
 	city_type = mine
 	levels_per_mesh = 5
@@ -60,7 +60,7 @@ building_lead_mine = {
  }
 
 building_sulfur_mine = {
-	building_group = bg_sulfur_mining
+	building_group = bg_uranium_mining
 	texture = "gfx/interface/icons/building_icons/sulfur_mine.dds"
 	city_type = mine
 	levels_per_mesh = 5

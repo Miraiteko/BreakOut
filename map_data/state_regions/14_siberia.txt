@@ -13,7 +13,7 @@
     capped_resources = {
         bg_coal_mining = 84
         bg_iron_mining = 96
-        bg_lead_mining = 81
+        bg_copper_mining = 81
         bg_logging = 13
     }
 }
@@ -242,7 +242,7 @@ STATE_TRANS_BAIKAL = {
     capped_resources = {
         bg_coal_mining = 80
         bg_iron_mining = 33
-        bg_sulfur_mining = 44
+        bg_uranium_mining = 44
         bg_logging = 13
     }
     resource = {

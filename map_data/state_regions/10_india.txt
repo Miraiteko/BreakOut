@@ -213,7 +213,7 @@ STATE_SINDH = {
     arable_land = 116
     arable_resources = { "bg_grain_plantations" "bg_ranches" "bg_fabric_plantations" "bg_fabric_plantations" "bg_fabric_plantations" "bg_fabric_plantations" "bg_fabric_plantations" "bg_fabric_plantations" }
     capped_resources = {
-        bg_sulfur_mining = 40
+        bg_uranium_mining = 40
         bg_fishing = 6
     }
     naval_exit_id = 3048
@@ -230,8 +230,8 @@ STATE_RAJPUTANA = {
     arable_land = 542
     arable_resources = { "bg_grain_plantations" "bg_ranches" "bg_fabric_plantations" "bg_fabric_plantations" "bg_fabric_plantations" "bg_fabric_plantations" "bg_fabric_plantations" "bg_fabric_plantations" "bg_fabric_plantations" }
     capped_resources = {
-        bg_lead_mining = 24
-        bg_sulfur_mining = 40
+        bg_copper_mining = 24
+        bg_uranium_mining = 40
     }
 }
 
@@ -289,7 +289,7 @@ STATE_ORISSA = {
     arable_resources = { "bg_grain_plantations" "bg_ranches" "bg_fabric_plantations" "bg_fabric_plantations" "bg_fabric_plantations" "bg_fabric_plantations" "bg_fabric_plantations" "bg_fabric_plantations" "bg_fabric_plantations" "bg_fabric_plantations" }
     capped_resources = {
         bg_iron_mining = 30
-        bg_lead_mining = 45
+        bg_copper_mining = 45
         bg_fishing = 7
     }
     naval_exit_id = 3050

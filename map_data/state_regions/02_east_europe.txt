@@ -440,8 +440,8 @@ STATE_SILESIA = {
     capped_resources = {
         bg_coal_mining = 120
         bg_iron_mining = 60
-        bg_lead_mining = 54
-        bg_sulfur_mining = 40
+        bg_copper_mining = 54
+        bg_uranium_mining = 40
         bg_logging = 14
     }
 }
@@ -475,7 +475,7 @@ STATE_LESSER_POLAND = {
     arable_resources = { "bg_grain_plantations" "bg_ranches" }
     capped_resources = {
         bg_coal_mining = 84
-        bg_lead_mining = 60
+        bg_copper_mining = 60
         bg_logging = 13
     }
 }
@@ -493,7 +493,7 @@ STATE_WEST_PRUSSIA = {
     arable_land = 54
     arable_resources = { "bg_grain_plantations" "bg_ranches" }
     capped_resources = {
-        bg_sulfur_mining = 40
+        bg_uranium_mining = 40
         bg_logging = 8
         bg_fishing = 10
     }
@@ -691,7 +691,7 @@ STATE_EAST_SLOVAKIA = {
     arable_resources = { "bg_grain_plantations" "bg_ranches" }
     capped_resources = {
         bg_coal_mining = 92
-        bg_lead_mining = 33
+        bg_copper_mining = 33
         bg_logging = 15
     }
 }
@@ -708,7 +708,7 @@ STATE_SOUTHERN_TRANSYLVANIA = {
     arable_resources = { "bg_grain_plantations" "bg_ranches" }
     capped_resources = {
         bg_iron_mining = 45
-        bg_lead_mining = 45
+        bg_copper_mining = 45
         bg_logging = 17
     }
 }

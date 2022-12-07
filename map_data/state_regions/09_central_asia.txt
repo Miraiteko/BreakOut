@@ -30,7 +30,7 @@ STATE_KUBAN = {
     arable_resources = { "bg_grain_plantations" "bg_ranches" "bg_fabric_plantations" "bg_fabric_plantations" "bg_fabric_plantations" }
     capped_resources = {
         bg_coal_mining = 32
-        bg_lead_mining = 27
+        bg_copper_mining = 27
         bg_logging = 6
         bg_fishing = 7
     }
@@ -53,7 +53,7 @@ STATE_ARMENIA = {
     arable_resources = { "bg_grain_plantations" "bg_ranches" "bg_fabric_plantations" }
     capped_resources = {
         bg_iron_mining = 27
-        bg_lead_mining = 21
+        bg_copper_mining = 21
         bg_logging = 2
     }
 }
@@ -70,7 +70,7 @@ STATE_AZERBAIJAN = {
     arable_land = 36
     arable_resources = { "bg_grain_plantations" "bg_ranches" "bg_fabric_plantations" "bg_fabric_plantations" "bg_fabric_plantations" "bg_fabric_plantations" }
     capped_resources = {
-        bg_lead_mining = 18
+        bg_copper_mining = 18
         bg_logging = 6
     }
     resource = {
@@ -94,7 +94,7 @@ STATE_GREATER_CAUCASUS = {
     capped_resources = {
         bg_coal_mining = 40
         bg_iron_mining = 24
-        bg_lead_mining = 24
+        bg_copper_mining = 24
         bg_logging = 8
     }
     naval_exit_id = 3036
@@ -265,7 +265,7 @@ STATE_TURKMENIA = {
     arable_land = 52
     arable_resources = { "bg_grain_plantations" "bg_ranches" "bg_fabric_plantations" "bg_fabric_plantations" }
     capped_resources = {
-        bg_sulfur_mining = 40
+        bg_uranium_mining = 40
         bg_logging = 2
     }
     resource = {
@@ -386,7 +386,7 @@ STATE_BALUCHISTAN = {
     arable_resources = { "bg_grain_plantations" "bg_ranches" "bg_fabric_plantations" "bg_fabric_plantations" "bg_fabric_plantations" }
     capped_resources = {
         bg_iron_mining = 24
-        bg_lead_mining = 18
+        bg_copper_mining = 18
         bg_logging = 2
         bg_fishing = 5
     }

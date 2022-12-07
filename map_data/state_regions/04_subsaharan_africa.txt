@@ -63,7 +63,7 @@ STATE_SENEGAL = {
     arable_resources = { "bg_grain_plantations" "bg_ranches" "bg_fabric_plantations" "bg_fabric_plantations" }
     capped_resources = {
         bg_iron_mining = 30
-        bg_sulfur_mining = 40
+        bg_uranium_mining = 40
         bg_fishing = 6
     }
     resource = {
@@ -309,7 +309,7 @@ STATE_NIGERIA = {
     arable_resources = { "bg_grain_plantations" "bg_ranches" "bg_fabric_plantations" "bg_fabric_plantations" "bg_fabric_plantations" "bg_fabric_plantations" "bg_fabric_plantations" "bg_fabric_plantations" }
     capped_resources = {
         bg_iron_mining = 45
-        bg_lead_mining = 45
+        bg_copper_mining = 45
         bg_logging = 20
     }
     resource = {
@@ -400,7 +400,7 @@ STATE_TOGO = {
     arable_land = 80
     arable_resources = { "bg_grain_plantations" "bg_ranches" "bg_fabric_plantations" "bg_fabric_plantations" "bg_fabric_plantations" "bg_fabric_plantations" "bg_fabric_plantations" "bg_fabric_plantations" }
     capped_resources = {
-        bg_sulfur_mining = 44
+        bg_uranium_mining = 44
         bg_logging = 11
         bg_fishing = 12
     }
@@ -1021,7 +1021,7 @@ STATE_EAST_ANGOLA = {
     arable_resources = { "bg_grain_plantations" "bg_ranches" "bg_fabric_plantations" "bg_fabric_plantations" "bg_fabric_plantations" }
     capped_resources = {
         bg_coal_mining = 80
-        bg_lead_mining = 27
+        bg_copper_mining = 27
         bg_logging = 11
     }
     resource = {
@@ -1091,7 +1091,7 @@ STATE_ZAMBIA = {
     arable_resources = { "bg_grain_plantations" "bg_ranches" "bg_fabric_plantations" "bg_fabric_plantations" "bg_fabric_plantations" "bg_fabric_plantations" }
     capped_resources = {
         bg_coal_mining = 36
-        bg_lead_mining = 33
+        bg_copper_mining = 33
         bg_logging = 17
     }
     resource = {
