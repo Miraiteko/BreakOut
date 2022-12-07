@@ -208,8 +208,76 @@ bg_uranium_mining = {
 
 	can_use_slaves = yes
 }
+#渔业
 
-# Logging
+bg_whaling = {
+	category = rural
+
+	capped_by_resources = yes
+	
+	economy_of_scale = no
+	
+	default_building = building_whaling_station
+	
+	lens = fishing
+	
+	cash_reserves_max = 25000
+	
+	urbanization = 20
+	infrastructure_usage_per_level = 1
+	
+	should_auto_expand = { 
+		default_auto_expand_rule = yes
+	}
+}
+
+bg_fishing = {
+	category = rural
+
+	capped_by_resources = yes
+	
+	economy_of_scale = no
+	
+	default_building = building_fishing_wharf
+	
+	lens = fishing
+	
+	cash_reserves_max = 25000
+	
+	urbanization = 20
+	infrastructure_usage_per_level = 1
+	
+	should_auto_expand = { 
+		default_auto_expand_rule = yes
+	}
+}
+
+#石油
+
+bg_oil_extraction = {
+	category = rural
+
+	capped_by_resources = yes
+	
+	economy_of_scale = no
+	
+	discoverable_resource = yes
+	
+	default_building = building_oil_rig
+	
+	lens = mine
+	
+	cash_reserves_max = 25000
+	
+	urbanization = 30
+	infrastructure_usage_per_level = 2
+	
+	should_auto_expand = { 
+		default_auto_expand_rule = yes
+	}
+}
+
+#林业
 
 bg_logging = {
 	category = rural
@@ -259,76 +327,13 @@ bg_rubber = {
 	}
 }
 
-# Fishing
 
-bg_whaling = {
-	category = rural
-
-	capped_by_resources = yes
-	
-	economy_of_scale = no
-	
-	default_building = building_whaling_station
-	
-	lens = fishing
-	
-	cash_reserves_max = 25000
-	
-	urbanization = 20
-	infrastructure_usage_per_level = 1
-	
-	should_auto_expand = { 
-		default_auto_expand_rule = yes
-	}
-}
-
-bg_fishing = {
-	category = rural
-
-	capped_by_resources = yes
-	
-	economy_of_scale = no
-	
-	default_building = building_fishing_wharf
-	
-	lens = fishing
-	
-	cash_reserves_max = 25000
-	
-	urbanization = 20
-	infrastructure_usage_per_level = 1
-	
-	should_auto_expand = { 
-		default_auto_expand_rule = yes
-	}
-}
-
-# Oil Extraction
-
-bg_oil_extraction = {
-	category = rural
-
-	capped_by_resources = yes
-	
-	economy_of_scale = no
-	
-	discoverable_resource = yes
-	
-	default_building = building_oil_rig
-	
-	lens = mine
-	
-	cash_reserves_max = 25000
-	
-	urbanization = 30
-	infrastructure_usage_per_level = 2
-	
-	should_auto_expand = { 
-		default_auto_expand_rule = yes
-	}
-}
-
-# Service
+#服务业
+##城市中心
+##城市设施
+##人口
+##基础设施
+##政府机关
 
 bg_service = {
 	category = urban
@@ -344,6 +349,23 @@ bg_service = {
 	default_building = building_urban_center
 	
 	cash_reserves_max = 25000
+}
+bg_illegal = {
+	category = urban
+	lens = urban
+	land_usage = urban
+	default_building = casino
+
+	always_possible = yes	
+	auto_place_buildings = yes	
+	
+	economy_of_scale = no
+	cash_reserves_max = 1000
+	
+	#pays_taxes = no
+	can_use_slaves = yes
+	#fired_pops_become_radical = no
+	hires_unemployed_only = yes
 }
 
 bg_urban_facilities = {
@@ -373,6 +395,106 @@ bg_power = {
 	parent_group = bg_urban_facilities
 }
 
+#居民区
+bg_breed = {
+	parent_group = bg_infrastructure
+	
+	category = urban
+	lens = plantation
+	
+	always_possible = yes
+	
+	economy_of_scale = no
+	cash_reserves_max = 2000
+	
+	default_building = breed_center
+	
+	urbanization = 50
+	infrastructure_usage_per_level = 1
+
+}
+
+#贸易
+bg_trade = {
+	category = urban
+
+	always_possible = yes	
+	
+	created_by_trade_routes = yes
+	
+	auto_place_buildings = yes
+	
+	hiring_rate = 1.0
+	proportionality_limit = 1.0
+	
+	economy_of_scale = no
+	
+	default_building = building_trade_center
+	
+	cash_reserves_max = 5000	
+	
+	urbanization = 20
+	
+	fired_pops_become_radical = no
+}
+
+#基建
+
+bg_infrastructure = {
+	category = development
+
+	always_possible = yes
+	
+	lens = infrastructure
+	
+	stateregion_max_level = yes
+}
+#铁路现在占用耕地面积
+bg_private_infrastructure = {
+	parent_group = bg_infrastructure
+	land_usage = rural
+	
+	is_government_funded = no
+	subsidized = yes
+	
+	cash_reserves_max = 10000
+	
+	urbanization = 20
+}
+#港口和地铁不占用，但是需要科技等级
+bg_public_infrastructure = {
+	parent_group = bg_infrastructure
+	
+	is_government_funded = yes
+	
+	urbanization = 20
+}
+bg_construction = {
+	parent_group = bg_public_infrastructure
+
+	lens = government
+
+	is_government_funded = yes
+	
+	can_use_slaves = yes
+	
+	urbanization = 20
+}
+
+bg_canals = {
+	parent_group = bg_infrastructure
+	lens = special
+	inheritable_construction = yes
+	
+	urbanization = 100
+}
+
+bg_monuments = {
+	parent_group = bg_government
+	lens = special
+	inheritable_construction = yes
+}
+
 # Government
 
 bg_government = {
@@ -397,87 +519,6 @@ bg_technology = {
 bg_bureaucracy = {
 	parent_group = bg_government
 }
-
-bg_trade = {
-	category = urban
-
-	always_possible = yes	
-	
-	created_by_trade_routes = yes
-	
-	auto_place_buildings = yes
-	
-	hiring_rate = 1.0
-	proportionality_limit = 1.0
-	
-	economy_of_scale = no
-	
-	default_building = building_trade_center
-	
-	cash_reserves_max = 5000	
-	
-	urbanization = 20
-	
-	fired_pops_become_radical = no
-}
-
-# Infrastructure
-
-bg_infrastructure = {
-	category = development
-
-	always_possible = yes
-	
-	lens = infrastructure
-	
-	stateregion_max_level = yes
-}
-
-bg_public_infrastructure = {
-	parent_group = bg_infrastructure
-	
-	is_government_funded = yes
-	
-	urbanization = 20
-}
-
-bg_construction = {
-	parent_group = bg_public_infrastructure
-
-	lens = government
-
-	is_government_funded = yes
-	
-	can_use_slaves = yes
-	
-	urbanization = 20
-}
-
-bg_private_infrastructure = {
-	parent_group = bg_infrastructure
-	
-	is_government_funded = no
-	subsidized = yes
-	
-	cash_reserves_max = 25000
-	
-	urbanization = 20
-}
-
-bg_canals = {
-	parent_group = bg_infrastructure
-	lens = special
-	inheritable_construction = yes
-	
-	urbanization = 100
-}
-
-bg_monuments = {
-	parent_group = bg_government
-	lens = special
-	inheritable_construction = yes
-}
-
 # Military
 
 bg_military = {
