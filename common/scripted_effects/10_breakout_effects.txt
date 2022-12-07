@@ -36,54 +36,75 @@ breeder_ratio_monthly_check = {
 		name = max_breeder_ratio
 		value = 0.55
 	}
-	if = {	
-		limit = {
-			pop_type_percent_country = {
-				pop_type = breeder
-				percent < var:min_breeder_ratio
-			}
-		}
+
+	#结算
+	every_scope_state = {
+		#最小抚育者比例决定抚育者获得其他职业的资质
 		set_variable = {
 			name = breeder_gain_other_qualifications_bonus
-			value = -10
+			value = 0
 		}
-		every_scope_pop = {
+		if = {	
 			limit = {
-				NOT = { is_pop_type = breeder }
-				is_employed = no
+				has_variable = breed_ratio
 			}
-			change_poptype =  pop_type:breeder
+			change_variable = {
+				name = breeder_gain_other_qualifications_bonus
+				add = var:breed_ratio
+			}
 		}
-	}
-	else = {
-		set_variable = {
+		change_variable = {
 			name = breeder_gain_other_qualifications_bonus
-			value = 5
-		}
-	}
-	if = {
-		limit = {
-			pop_type_percent_country = {
-				pop_type = breeder
-				percent > var:max_breeder_ratio
+			subtract = {
+				value = scope:checked_country.var:min_breeder_ratio
+				multiply = 3 #1个抚育者能产生6抚育能力，抚育者人口比例100%时候，抚育能力为300%
 			}
 		}
-		set_variable = {
-			name = other_gain_breeder_qualifications_bonus
-			value = -10
-		}
-		every_scope_pop = {
+		if = {	
 			limit = {
-				is_pop_type = breeder
-				is_employed = no
+				var:breeder_gain_other_qualifications_bonus < 0
 			}
-			change_poptype =  pop_type:laborers
+			every_scope_pop = {
+				limit = {
+					NOT = { is_pop_type = breeder }
+					is_employed = no
+				}
+				change_poptype =  pop_type:breeder
+			}
 		}
-	}
-	else = {
+
+		#最大抚育者比例影响其他职业获得抚育者的资质
 		set_variable = {
 			name = other_gain_breeder_qualifications_bonus
-			value = 5
+			value = 0
+		}
+		if = {
+			limit = {
+				has_variable = breed_ratio
+			}
+			change_variable = {
+				name = other_gain_breeder_qualifications_bonus
+				subtract = var:breed_ratio
+			}
+		}
+		change_variable = {
+			name = other_gain_breeder_qualifications_bonus
+			add = {
+				value = scope:checked_country.var:max_breeder_ratio
+				multiply = 3 #1个抚育者能产生6抚育能力，抚育者人口比例100%时候，抚育能力为300%
+			}
+		}
+		if = {	
+			limit = {
+				var:other_gain_breeder_qualifications_bonus < 0
+			}
+			every_scope_pop = {
+				limit = {
+					is_pop_type = breeder
+					is_employed = no
+				}
+				change_poptype =  pop_type:laborers
+			}
 		}
 	}
 }
@@ -113,13 +134,14 @@ state_breed_monthly_check = {
 				OR = { #农奴制
 					has_active_production_method = pm_serfdom 
 					has_active_production_method = pm_serfdom_building_subsistence_pastures
+					has_active_production_method = pm_serfdom_building_subsistence_orchards
 				}
 			}
 			scope:checked_state = {
 				change_variable = {
 					name = breed_power
 					add = {
-						value = 85000 #农奴制一级提供85000再生产
+						value = 84000 #农奴制一级提供84000再生产
 						multiply = PREV.occupancy
 						multiply = PREV.level
 					}
@@ -127,7 +149,7 @@ state_breed_monthly_check = {
 				change_variable = {
 					name = breed_quality
 					add = {
-						value = 851 #农奴制一级提供850质量，为了避免显示为0，设定成851
+						value = 841 #农奴制一级提供840质量，为了避免显示为0，设定成841
 						multiply = PREV.occupancy
 						multiply = PREV.level
 					}
