@@ -5286,7 +5286,7 @@
  QUALIFICATIONS_CULTURAL_RELIGIOUS_ACCEPTANCE:0 "来自[concept_accepted_culture]（[Pop.GetCulture.GetName]）和[concept_accepted_religion]（[Pop.GetReligion.GetName]）"
  QUALIFICATIONS_INSUFFICIENT_LITERACY_DECAY:0 "来自[concept_literacy]不足（[Pop.GetLiteracyRate|v0%]）"
  QUALIFICATIONS_INSUFFICIENT_WEALTH_DECAY:0 "来自[concept_wealth]不足（[Pop.GetCurrentWealth|v0]）"
- QUALIFICATIONS_PEASANTS_UNDER_SERFDOM:0 "来自是[GetLawType('law_serfdom').GetName]下的[Pop.GetPopType.GetName]"
+ QUALIFICATIONS_PEASANTS_UNDER_SERFDOM:0 "来自[Pop.GetPopType.GetName]职业"
  QUALIFICATIONS_WORKFORCE_FACTOR:0 "#b ×$WORKFORCE_FACTOR|v2$#!，来自[Pop.GetNumWorkforce|vD]劳动力"
 
  QUALIFICATIONS_OFFICERS_PEASANT_LEVIES:0 "来自[GetLawType('law_peasant_levies').GetName]"

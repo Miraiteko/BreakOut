@@ -61,7 +61,7 @@
 				add = {
 					value = literacy_rate
 					subtract = 0.8
-					multiply = 2
+					multiply = 5
 					desc = "QUALIFICATIONS_LITERACY_FACTOR"
 				}
 				if = {
@@ -76,7 +76,7 @@
 			}
 			else_if = {
 				limit = { 
-					OR = {
+					NOR = {
 						is_pop_type = capitalists
 						is_pop_type = academics
 					}
