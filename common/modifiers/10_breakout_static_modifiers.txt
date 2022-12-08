@@ -117,5 +117,5 @@ administrative_overburden = {
 insufficient_tax_capacity = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
 	state_birth_rate_mult = -1
-	state_working_adult_ratio_add = 0.15
+	state_working_adult_ratio_add = 0.2
 }
