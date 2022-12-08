@@ -8,13 +8,13 @@
 			building_output_investment_management_add = 15 #100
 		}	
 		level_scaled = {
-			building_employment_clerks_add = 500
-			building_employment_shopkeepers_add = 400
+			building_employment_clerks_add = 200
 			building_employment_capitalists_add = 100
+			building_employment_clergymen_add = 700
 		}
 		unscaled = {
-			building_capitalists_shares_add = 5
-			building_shopkeepers_shares_add = 1
+			building_clergymen_shares_add = 5
+			building_capitalists_shares_add = 1
 		}
 	}		
 	state_modifiers = {
@@ -35,13 +35,13 @@ pm_pop_stock_exchange = {
 			building_output_investment_management_add = 20 #100
 		}	
 		level_scaled = {
-			building_employment_clerks_add = 600
-			building_employment_shopkeepers_add = 200
+			building_employment_clerks_add = 400
 			building_employment_capitalists_add = 200
+			building_employment_clergymen_add = 400
 		}
 		unscaled = {
-			building_capitalists_shares_add = 5
-			building_shopkeepers_shares_add = 1
+			building_clergymen_shares_add = 5
+			building_capitalists_shares_add = 1
 		}
 	}		
 	state_modifiers = {
@@ -62,11 +62,13 @@ pm_fund_stock_exchange = {
 			building_output_investment_management_add = 35 #100
 		}	
 		level_scaled = {
-			building_employment_clerks_add = 700
+			building_employment_clerks_add = 600
 			building_employment_capitalists_add = 300
+			building_employment_clergymen_add = 100
 		}
 		unscaled = {
-			building_capitalists_shares_add = 5
+			building_clergymen_shares_add = 5
+			building_capitalists_shares_add = 1
 		}
 	}		
 	state_modifiers = {
