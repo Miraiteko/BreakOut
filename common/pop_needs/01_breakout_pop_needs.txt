@@ -68,7 +68,7 @@ popneed_services = {
 	}
 }
 
-popneed_finance = {
+popneed_influence = {
 	default = religion_service
 
 	entry = {
@@ -77,14 +77,6 @@ popneed_finance = {
 		weight = 10
 		max_weight = 50.0
 		min_weight = 1
-	}
-	
-	entry = {
-		goods = gambling
-		
-		weight = 1
-		max_weight = 1.0
-		min_weight = 0.0
 	}
 	entry = {
 		goods = breed
