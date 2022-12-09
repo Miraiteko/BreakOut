@@ -2,10 +2,10 @@
 	texture = "gfx/interface/icons/pops_icons/peasants.dds"
 	color = hsv{ 0.58 0.338 0.812 }
 	strata = poor
+
 	subsistence_income = yes
-	
 	start_quality_of_life = 5
-	wage_weight = 0.1
+	wage_weight = 1.0
 	consumption_mult = 0.1 	# The portion of Peasant buy packages that are added as state region consumption
 	dependent_wage = 0.25	# per year
 	unemployment = no

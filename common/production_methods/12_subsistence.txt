@@ -16,7 +16,7 @@ default_building_subsistence_farms = {
 		
 		unscaled = {
 			building_aristocrats_shares_add = 5
-			building_subsistence_output_add = 2
+			building_subsistence_output_add = 1
 		}
 	}
 }
@@ -66,7 +66,7 @@ pm_serfdom_no = {
 			building_employment_breeder_add = 10000
 		}			
 		workforce_scaled = {
-			building_output_breed_add = 0.5
+			building_output_breed_add = 0.2
 		}	
 		unscaled = {
 			building_subsistence_output_add = 0.5
@@ -127,7 +127,7 @@ default_building_subsistence_orchards = {
 		
 		unscaled = {
 			building_aristocrats_shares_add = 5
-			building_subsistence_output_add = 2
+			building_subsistence_output_add = 1.5
 		}
 	}
 }
@@ -162,6 +162,9 @@ pm_home_workshops_building_subsistence_orchards = {
 }
 pm_serfdom_building_subsistence_orchards = {
 	texture = "gfx/interface/icons/production_method_icons/serfdom.dds"		
+	unlocking_laws = {
+		law_serfdom
+	}				
 	building_modifiers = {
 		workforce_scaled = {
 			building_output_fruit_add = 0.5
@@ -201,7 +204,7 @@ default_building_subsistence_pastures = {
 		
 		unscaled = {
 			building_aristocrats_shares_add = 5
-			building_subsistence_output_add = 2
+			building_subsistence_output_add = 1.5
 		}
 	}
 }

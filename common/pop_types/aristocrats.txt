@@ -2,8 +2,10 @@
 	texture = "gfx/interface/icons/pops_icons/aristocrats.dds"
 	color = hsv{ 0.60 0.58 0.46 }
 	strata = rich
+
+	subsistence_income = yes
 	start_quality_of_life = 20
-	wage_weight = 15
+	wage_weight = 20
 	literacy_target = 0.60
 	dependent_wage = 0.0	# per year
 	unemployment = yes
