@@ -69,10 +69,10 @@ popneed_services = {
 }
 
 popneed_finance = {
-	default = investment_management
+	default = religion_service
 
 	entry = {
-		goods = investment_management
+		goods = religion_service
 		
 		weight = 10
 		max_weight = 50.0

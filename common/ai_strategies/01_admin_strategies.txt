@@ -323,7 +323,7 @@ ai_strategy_industrial_expansion = {
 		sugar = { stance = wants_high_supply }
 		explosives = { stance = wants_export }	
 		fertilizer = { stance = wants_export }
-		investment_management = { stance = wants_export }
+		religion_service = { stance = wants_export }
 	}
 	
 	building_group_weights = {

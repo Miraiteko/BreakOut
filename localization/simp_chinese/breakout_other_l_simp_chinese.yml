@@ -11,11 +11,11 @@
  modifier_building_input_financing_service_add:0 "每级@financing_service!融资服务投入"
  modifier_building_input_financing_service_add_desc:0 "建筑投入的@financing_service!融资服务数量"
  
- investment_management:0 "宗教"
- modifier_building_output_investment_management_add:0 "每级@investment_management!宗教信仰产出"
- modifier_building_output_investment_management_add_desc:0 "建筑产出的@investment_management!宗教信仰数量"
- modifier_building_input_investment_management_add:0 "每级@investment_management!宗教信仰投入"
- modifier_building_input_investment_management_add_desc:0 "建筑投入的@investment_management!宗教信仰数量"
+ religion_service:0 "宗教服务"
+ modifier_building_output_religion_service_add:0 "每级@religion_service!$religion_service$产出"
+ modifier_building_output_religion_service_add_desc:0 "建筑产出的@religion_service!$religion_service$数量"
+ modifier_building_input_religion_service_add:0 "每级@religion_service!$religion_service$投入"
+ modifier_building_input_religion_service_add_desc:0 "建筑投入的@religion_service!$religion_service$数量"
  
  finance_power:0 "金融力量"
  modifier_building_output_finance_power_add:0 "每级@finance_power!金融力量产出"
@@ -24,10 +24,10 @@
  modifier_building_input_finance_power_add_desc:0 "建筑投入的@finance_power!金融力量数量"
  
  stock_exchange:0 "宗庙"
- pmg_stock_exchange:0 "证券交易"
- pm_base_stock_exchange:0 "银行家"
- pm_pop_stock_exchange:0 "公众市场"
- pm_fund_stock_exchange:0 "专业基金公司"
+ pmg_stock_exchange:0 "祭祀团队"
+ pm_base_stock_exchange:0 "世袭贞人"
+ pm_pop_stock_exchange:0 "册命贞人"
+ pm_fund_stock_exchange:0 "宗室成员"
  
  fund_company:0 "基金公司"
  pmg_fund_company:0 "基金"

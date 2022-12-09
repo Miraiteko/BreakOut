@@ -45,13 +45,13 @@
  modifier_building_group_bg_min_breeder_ratio_throughput_mult_desc:0 "当$breeder$人口占比低于这个比例的时候，$breeder$不能获得其他职业的资质。\n变更[GetLawGroup('lawgroup_rights_of_women').GetName]可以改变最小$breeder$比例。"
 
  #抚育商品相关
- breed:0 "抚育"
- modifier_building_output_breed_add:0 "每级@breed!抚育产出"
- modifier_building_output_breed_add_desc:0 "建筑产出的@breed!抚育数量"
- modifier_building_input_breed_add:0 "每级@breed!抚育投入"
- modifier_building_input_breed_add_desc:0 "建筑投入的@breed!抚育数量"
- modifier_building_input_services_add:0 "每级@services!服务投入"
- modifier_building_input_services_add_desc:0 "建筑投入的@services!服务数量"
+ breed:0 "抚育服务"
+ modifier_building_output_breed_add:0 "每级@breed!$breed$产出"
+ modifier_building_output_breed_add_desc:0 "建筑产出的@breed!$breed$数量"
+ modifier_building_input_breed_add:0 "每级@breed!$breed$投入"
+ modifier_building_input_breed_add_desc:0 "建筑投入的@breed!$breed$数量"
+ modifier_building_input_services_add:0 "每级@services!劳务投入"
+ modifier_building_input_services_add_desc:0 "建筑投入的@services!劳务数量"
  
  breed_center:0 "居民区"
  pmg_breed_methods:0 "劳动力"

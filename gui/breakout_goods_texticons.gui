@@ -54,9 +54,9 @@ texticon = {
 	}
 }
 texticon = {
-	icon = investment_management
+	icon = religion_service
 	iconsize = {
-		texture = "gfx/interface/icons/goods_icons/investment_management.dds"
+		texture = "gfx/interface/icons/goods_icons/religion_service.dds"
 		size = { 25 25 }
 		offset = { 0 7 }
 		fontsize = 18

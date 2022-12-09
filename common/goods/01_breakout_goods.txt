@@ -59,8 +59,8 @@ financing_service = {
 	prestige_factor = 3
 }
 #投资管理
-investment_management = {
-	texture = "gfx/interface/icons/goods_icons/investment_management.dds"
+religion_service = {
+	texture = "gfx/interface/icons/goods_icons/religion_service.dds"
 	cost = 100
 	category = industrial
 	tradeable = yes
