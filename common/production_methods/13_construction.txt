@@ -18,7 +18,7 @@ pm_wooden_buildings = {
 		}
 
 		level_scaled = {
-			building_employment_bureaucrats_add = 500
+			building_employment_academics_add = 500
 			building_employment_clerks_add = 500
 			building_employment_laborers_add = 1000
 		}
@@ -54,7 +54,7 @@ pm_iron_frame_buildings = {
 		}
 
 		level_scaled = {
-			building_employment_bureaucrats_add = 500
+			building_employment_academics_add = 500
 			building_employment_clerks_add = 500
 			building_employment_machinists_add = 250
 			building_employment_laborers_add = 750
@@ -91,7 +91,7 @@ pm_steel_frame_buildings = {
 		}
 
 		level_scaled = {
-			building_employment_bureaucrats_add = 500
+			building_employment_academics_add = 500
 			building_employment_clerks_add = 500
 			building_employment_machinists_add = 750
 			building_employment_laborers_add = 250
@@ -129,7 +129,7 @@ pm_arc_welded_buildings = {
 		} 
 
 		level_scaled = {
-			building_employment_bureaucrats_add = 500
+			building_employment_academics_add = 500
 			building_employment_clerks_add = 500
 			building_employment_engineers_add = 250
 			building_employment_machinists_add = 750

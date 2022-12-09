@@ -605,10 +605,10 @@ pm_government_run_building_coal_mine = {
 	
 	building_modifiers = {
 		level_scaled = {
-			building_employment_bureaucrats_add = 150
+			building_employment_academics_add = 150
 		}
 		unscaled = {
-			building_bureaucrats_shares_add = 5
+			building_academics_shares_add = 5
 		}
 	}
 }
@@ -628,10 +628,10 @@ pm_government_run_building_iron_mine = {
 
 	building_modifiers = {
 		level_scaled = {
-			building_employment_bureaucrats_add = 150
+			building_employment_academics_add = 150
 		}
 		unscaled = {
-			building_bureaucrats_shares_add = 5
+			building_academics_shares_add = 5
 		}
 	}
 }
@@ -651,10 +651,10 @@ pm_government_run_building_lead_mine = {
 
 	building_modifiers = {
 		level_scaled = {
-			building_employment_bureaucrats_add = 150
+			building_employment_academics_add = 150
 		}
 		unscaled = {
-			building_bureaucrats_shares_add = 5
+			building_academics_shares_add = 5
 		}
 	}
 }
@@ -674,10 +674,10 @@ pm_government_run_building_sulfur_mine = {
 
 	building_modifiers = {
 		level_scaled = {
-			building_employment_bureaucrats_add = 150
+			building_employment_academics_add = 150
 		}
 		unscaled = {
-			building_bureaucrats_shares_add = 5
+			building_academics_shares_add = 5
 		}
 	}
 }
@@ -697,10 +697,10 @@ pm_government_run_building_gold_mine = {
 
 	building_modifiers = {
 		level_scaled = {
-			building_employment_bureaucrats_add = 150
+			building_employment_academics_add = 150
 		}
 		unscaled = {
-			building_bureaucrats_shares_add = 5
+			building_academics_shares_add = 5
 		}
 	}
 }

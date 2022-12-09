@@ -255,10 +255,10 @@ pm_government_run_building_logging_camp = {
 	
 	building_modifiers = {
 		level_scaled = {
-			building_employment_bureaucrats_add = 150
+			building_employment_academics_add = 150
 		}
 		unscaled = {
-			building_bureaucrats_shares_add = 5
+			building_academics_shares_add = 5
 		}
 	}
 }
@@ -517,10 +517,10 @@ pm_government_run_building_fishing_wharf = {
 	
 	building_modifiers = {
 		level_scaled = {
-			building_employment_bureaucrats_add = 150
+			building_employment_academics_add = 150
 		}
 		unscaled = {
-			building_bureaucrats_shares_add = 5
+			building_academics_shares_add = 5
 		}
 	}
 }
@@ -754,10 +754,10 @@ pm_government_run_building_whaling_station = {
 	
 	building_modifiers = {
 		level_scaled = {
-			building_employment_bureaucrats_add = 150
+			building_employment_academics_add = 150
 		}
 		unscaled = {
-			building_bureaucrats_shares_add = 5
+			building_academics_shares_add = 5
 		}
 	}
 }

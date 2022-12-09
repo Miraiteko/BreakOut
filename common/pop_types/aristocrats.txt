@@ -3,7 +3,7 @@
 	color = hsv{ 0.60 0.58 0.46 }
 	strata = rich
 	start_quality_of_life = 20
-	wage_weight = 10
+	wage_weight = 15
 	literacy_target = 0.60
 	dependent_wage = 0.0	# per year
 	unemployment = yes

@@ -213,7 +213,7 @@ law_command_economy = {
 	modifier = {
 		country_mandate_subsidies = yes
 		country_authority_mult = 0.25	
-		state_bureaucrats_investment_pool_contribution_add = 0.8							
+		state_academics_investment_pool_contribution_add = 0.8							
 	}
 	
 	build_from_investment_pool = {

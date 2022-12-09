@@ -1,11 +1,11 @@
-﻿laborers = {
+laborers = {
 	texture = "gfx/interface/icons/pops_icons/laborers.dds"
 	color = hsv{ 0.02 0.38 0.37 }
 	strata = poor
 	unemployment = yes
 	can_always_hire = no
 	start_quality_of_life = 5
-	wage_weight = 0.7
+	wage_weight = 0.8
 	dependent_wage = 0.5	# per year
 	
 	qualifications_growth_desc = "BK_LABORERS_QUALIFICATIONS_DESC"	

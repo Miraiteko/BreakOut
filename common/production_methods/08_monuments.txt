@@ -81,7 +81,7 @@ pm_default_building_forbidden_city = {
 		#}
 
 		level_scaled = {
-			building_employment_bureaucrats_add = 800
+			building_employment_academics_add = 800
 			building_employment_clerks_add = 200
 		}
 	}
@@ -162,7 +162,7 @@ pm_default_building_statue_of_liberty = {
 		#}
 
 		level_scaled = {
-			building_employment_bureaucrats_add = 100
+			building_employment_academics_add = 100
 		}
 	}
 }
@@ -181,7 +181,7 @@ pm_default_building_taj_mahal = {
 		#}
 
 		level_scaled = {
-			building_employment_bureaucrats_add = 100
+			building_employment_academics_add = 100
 		}
 	}
 }
@@ -230,7 +230,7 @@ pm_default_building_white_house = {
 
 	building_modifiers = {
 		level_scaled = {
-			building_employment_bureaucrats_add = 500
+			building_employment_academics_add = 500
 		}
 	}
 }
