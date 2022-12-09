@@ -48,7 +48,7 @@
 			}
 			add = {
 				value = -500
-				desc = "min_breeder_ratio"
+				desc = "QUALIFICATIONS_MIN_BREEDER_RATIO"
 			}
 		}
 		else_if = {

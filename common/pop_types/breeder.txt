@@ -26,14 +26,14 @@
 				}
 			}
 			add = {
-				value = -100
-				desc = "max_breeder_ratio"
+				value = -10
+				desc = "QUALIFICATIONS_MAX_BREEDER_RATIO"
 			}
 		}
 		else = {
 			add = {
 				value = 5
-				desc = "max_breeder_ratio"
+				desc = "QUALIFICATIONS_BASE"
 			}
 		}
 	}
