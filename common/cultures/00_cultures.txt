@@ -10344,7 +10344,7 @@ han={
 	religion = mahayana
 	traits = { sinosphere han_chinese east_asian_heritage }
 	obsessions = {
-		breed
+		#breed
 	}
 	male_common_first_names={
 		dan##亶##

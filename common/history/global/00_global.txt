@@ -7,7 +7,12 @@ GLOBAL = {
 			}
 			create_building={
 				building="breed_center"
-				level = 5
+				level = 8
+				reserves=1
+			}
+			create_building={
+				building="stock_exchange"
+				level = 1
 				reserves=1
 			}
 		}
@@ -17,7 +22,17 @@ GLOBAL = {
 			}
 			create_building={
 				building="breed_center"
-				level = 2
+				level = 3
+				reserves=1
+			}
+		}
+		else_if = {
+			limit = {
+				total_urbanization > 100
+			}
+			create_building={
+				building="breed_center"
+				level = 1
 				reserves=1
 			}
 		}

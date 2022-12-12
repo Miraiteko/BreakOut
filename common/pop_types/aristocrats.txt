@@ -3,7 +3,7 @@
 	color = hsv{ 0.60 0.58 0.46 }
 	strata = rich
 
-	subsistence_income = yes
+	ignores_employment_proportionality = yes
 	start_quality_of_life = 20
 	wage_weight = 20
 	literacy_target = 0.60
@@ -54,12 +54,12 @@
 		else_if = {
 			limit = {
 				is_peasant_under_serfdom = no
-				wealth > 10
+				wealth > 20
 			}
 			# baseline: ( wealth - 10 ) / 10 + literacy, norm 1.5 for Wealth 20 and Literacy 50%
 			add = {
 				value = wealth
-				subtract = 10
+				subtract = 20
 				divide = 5
 				desc = "QUALIFICATIONS_WEALTH_FACTOR"
 			}
