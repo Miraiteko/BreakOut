@@ -520,7 +520,7 @@ types building_panels
 							blockoverride "values" {
 								min = 0
 								max = 1
-								value = "[Building.GetModifier.GetValueFor('building_visualexpcount_mortality_mult')]"
+								value = "[Building.GetState.MakeScope.GetVariable('base_coal_resource').GetValue]"
 							}
 						}
 

@@ -49,15 +49,3 @@ building_group_bg_production_exp_decay_throughput_mult = {
 	good = no
 	percent = yes
 }
-building_visualexpcount_mortality_mult = {
-	good = no
-	percent = yes
-}
-building_visualexpcount_fertility_mult = {
-	good = yes
-	percent = yes
-}
-building_visualexpcount_share_add = {
-	good = yes
-	percent = yes
-}
