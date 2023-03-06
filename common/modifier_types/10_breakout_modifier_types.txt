@@ -191,6 +191,10 @@ building_group_bg_illegal_throughput_mult = {
 
 
 #劳动力
+building_employment_breeders_add = {
+	good = no
+	percent = no
+}
 building_employment_laborers_mult = {
 	good = no
 	percent = yes
