@@ -37,11 +37,11 @@ building_group_bg_nuclear_defence_throughput_mult = {
 	good = yes
 	percent = no
 }
-building_group_bg_min_breeder_ratio_throughput_mult = {
+building_group_bg_min_breeders_ratio_throughput_mult = {
 	good = no
 	percent = yes
 }
-building_group_bg_max_breeder_ratio_throughput_mult = {
+building_group_bg_max_breeders_ratio_throughput_mult = {
 	good = yes
 	percent = yes
 }

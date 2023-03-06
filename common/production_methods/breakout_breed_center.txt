@@ -9,11 +9,11 @@ pm_tradition_breeder = {
 			
 		}	
 		level_scaled = {
-			building_employment_breeder_add = 7000
+			building_employment_breeders_add = 7000
 		}
 		unscaled = {
 			building_group_bg_base_education_access_throughput_mult = 0.3
-			#building_breeder_birthrate_mult = 1.0
+			#building_breeders_birthrate_mult = 1.0
 		}
 	}		
 	state_modifiers = {
@@ -40,7 +40,7 @@ pm_elite_breeder = {
 		level_scaled = {
 			building_employment_academics_add = 200
 			building_employment_clerks_add = 800
-			building_employment_breeder_add = 5000
+			building_employment_breeders_add = 5000
 		}
 		unscaled = {
 			building_group_bg_base_education_access_throughput_mult = 0.5
@@ -198,7 +198,7 @@ pm_worker_cooperative_building_breed_center = {
 			building_employment_clerks_add = 100
 		}
 		unscaled = {
-			building_breeder_shares_add = 1 
+			building_breeders_shares_add = 1 
 			building_academics_shares_add = 1
 			building_clerks_shares_add = 1
 			building_laborers_shares_add = 1

@@ -39,13 +39,13 @@ bg_nuclear_defence = {
 	parent_group = bg_visual_modifier
 }
 
-bg_min_breeder_ratio = {
+bg_min_breeders_ratio = {
 	parent_group = bg_visual_modifier
 }
-bg_max_breeder_ratio = {
+bg_max_breeders_ratio = {
 	parent_group = bg_visual_modifier
 }
-bg_max_breeder_ratio = {
+bg_max_breeders_ratio = {
 	parent_group = bg_visual_modifier
 }
 bg_production_exp_decay = {

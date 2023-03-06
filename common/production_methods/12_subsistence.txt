@@ -63,7 +63,7 @@ pm_serfdom_no = {
 	}
 	building_modifiers = {	
 		level_scaled = {
-			building_employment_breeder_add = 10000
+			building_employment_breeders_add = 10000
 		}			
 		workforce_scaled = {
 			building_output_breed_add = 0.2
@@ -95,7 +95,7 @@ pm_serfdom = {
 
 		level_scaled = {
 			building_employment_peasants_add = 5000
-			building_employment_breeder_add = 14000
+			building_employment_breeders_add = 14000
 		}			
 		unscaled = {
 			building_group_bg_base_education_access_throughput_mult = 0.01
@@ -174,7 +174,7 @@ pm_serfdom_building_subsistence_orchards = {
 
 		level_scaled = {
 			building_employment_peasants_add = 5000
-			building_employment_breeder_add = 14000
+			building_employment_breeders_add = 14000
 		}			
 		unscaled = {
 			building_group_bg_base_education_access_throughput_mult = 0.01
@@ -248,7 +248,7 @@ pm_serfdom_building_subsistence_pastures = {
 		}	
 		level_scaled = {
 			building_employment_peasants_add = 5000
-			building_employment_breeder_add = 14000
+			building_employment_breeders_add = 14000
 		}			
 		unscaled = {
 			building_group_bg_base_education_access_throughput_mult = 0.01
@@ -295,7 +295,7 @@ pm_worker_cooperative_building_subsistence = {
 		}
 		unscaled = {
 			building_peasants_shares_add = 1
-			building_breeder_shares_add = 1
+			building_breeders_shares_add = 1
 		}
 	}
 }

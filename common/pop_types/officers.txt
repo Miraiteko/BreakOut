@@ -35,9 +35,9 @@
 				is_pop_type = breeder 
 				trigger_if = {
 					limit = {
-						state = { has_variable = breeder_gain_other_qualifications_bonus }
+						state = { has_variable = breeders_gain_other_qualifications_bonus }
 					}
-					state.var:breeder_gain_other_qualifications_bonus < 0
+					state.var:breeders_gain_other_qualifications_bonus < 0
 				}
 				trigger_else = {
 					always = yes
@@ -45,7 +45,7 @@
 			}
 			add = {
 				value = -500
-				desc = "QUALIFICATIONS_MIN_BREEDER_RATIO"
+				desc = "QUALIFICATIONS_MIN_BREEDERS_RATIO"
 			}
 		}
 		else_if = {

@@ -1,4 +1,4 @@
-﻿base_values = {
+base_values = {
 	country_weekly_innovation_add = 50
 	country_weekly_innovation_max_add = 100
 	country_tech_spread_add = 25
@@ -31,7 +31,6 @@
 	building_mobilization_cost_mult = 0.6
 	
 	building_economy_of_scale_level_cap_add = 20
-	building_visualexpcount_fertility_mult = 0.5
 
 }
 capital_state = {

@@ -211,11 +211,11 @@ country_institution_social_climate_max_investment_add  = {
 }
 
 #死亡率
-building_breeder_mortality_mult = {
+building_breeders_mortality_mult = {
 	good = no
 	percent = yes
 }
-building_breeder_birthrate_mult = {
+building_breeders_birthrate_mult = {
 	good = yes
 	percent = yes
 }

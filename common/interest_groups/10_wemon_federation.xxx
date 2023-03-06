@@ -49,10 +49,10 @@
 		}			
 	
 		add = {
-			desc = "POP_BREEDER"
+			desc = "POP_BREEDERS"
 			if = {
 				limit = { 
-					is_pop_type = breeder
+					is_pop_type = breeders
 				}
 				value = 100
 			}

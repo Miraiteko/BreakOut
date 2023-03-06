@@ -1,5 +1,5 @@
 ﻿#出生抚育者比例结算
-breeder_ratio_monthly_check = {
+breeders_ratio_monthly_check = {
 	save_scope_as = checked_country
 	
 	#计算抚育者资质参数
@@ -7,33 +7,33 @@ breeder_ratio_monthly_check = {
 	if = {
 		limit = { has_law = law_type:law_no_womens_rights }
 		set_variable = {
-			name = min_breeder_ratio
+			name = min_breeders_ratio
 			value = 0.45
 		}
 	}
 	else_if = {
 		limit = { has_law = law_type:law_women_own_property }
 		set_variable = {
-			name = min_breeder_ratio
+			name = min_breeders_ratio
 			value = 0.40
 		}
 	}
 	else_if = {
 		limit = { has_law = law_type:law_women_in_the_workplace }
 		set_variable = {
-			name = min_breeder_ratio
+			name = min_breeders_ratio
 			value = 0.25
 		}
 	}
 	else = {
 		set_variable = {
-			name = min_breeder_ratio
+			name = min_breeders_ratio
 			value = 0.10
 		}
 	}
 	#上限
 	set_variable = {
-		name = max_breeder_ratio
+		name = max_breeders_ratio
 		value = 0.55
 	}
 
@@ -41,7 +41,7 @@ breeder_ratio_monthly_check = {
 	every_scope_state = {
 		#最小抚育者比例决定抚育者获得其他职业的资质
 		set_variable = {
-			name = breeder_gain_other_qualifications_bonus
+			name = breeders_gain_other_qualifications_bonus
 			value = 0
 		}
 		if = {	
@@ -49,20 +49,20 @@ breeder_ratio_monthly_check = {
 				has_variable = breed_ratio
 			}
 			change_variable = {
-				name = breeder_gain_other_qualifications_bonus
+				name = breeders_gain_other_qualifications_bonus
 				add = var:breed_ratio
 			}
 		}
 		change_variable = {
-			name = breeder_gain_other_qualifications_bonus
+			name = breeders_gain_other_qualifications_bonus
 			subtract = {
-				value = scope:checked_country.var:min_breeder_ratio
+				value = scope:checked_country.var:min_breeders_ratio
 				multiply = 3 #1个抚育者能产生6抚育能力，抚育者人口比例100%时候，抚育能力为300%
 			}
 		}
 		if = {	
 			limit = {
-				var:breeder_gain_other_qualifications_bonus < 0
+				var:breeders_gain_other_qualifications_bonus < 0
 			}
 			every_scope_pop = {
 				limit = {
@@ -75,7 +75,7 @@ breeder_ratio_monthly_check = {
 
 		#最大抚育者比例影响其他职业获得抚育者的资质
 		set_variable = {
-			name = other_gain_breeder_qualifications_bonus
+			name = other_gain_breeders_qualifications_bonus
 			value = 0
 		}
 		if = {
@@ -83,20 +83,20 @@ breeder_ratio_monthly_check = {
 				has_variable = breed_ratio
 			}
 			change_variable = {
-				name = other_gain_breeder_qualifications_bonus
+				name = other_gain_breeders_qualifications_bonus
 				subtract = var:breed_ratio
 			}
 		}
 		change_variable = {
-			name = other_gain_breeder_qualifications_bonus
+			name = other_gain_breeders_qualifications_bonus
 			add = {
-				value = scope:checked_country.var:max_breeder_ratio
+				value = scope:checked_country.var:max_breeders_ratio
 				multiply = 3 #1个抚育者能产生6抚育能力，抚育者人口比例100%时候，抚育能力为300%
 			}
 		}
 		if = {	
 			limit = {
-				var:other_gain_breeder_qualifications_bonus < 0
+				var:other_gain_breeders_qualifications_bonus < 0
 			}
 			every_scope_pop = {
 				limit = {

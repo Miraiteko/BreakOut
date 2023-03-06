@@ -44,5 +44,5 @@
 	# expandable = no
 	# downsizeable = no
 	
-	# slaves_role = breeder
+	# slaves_role = breeders
 # }
