@@ -130,17 +130,22 @@ NEconomy = {
 	MAX_WAGE_STEP_CHANGE = 0.1					# Wage rates can change at most this much each week
 	SUBSIDIES_MIN_GAIN = 100						# If a building is subsidized, it will always collect enough subsidies to ensure at least this weekly cash reserve growth
 	HIRING_RATE = 0.1 							# Max number of laborers we’re allowed a building to hire or fire each market update
-	EMPLOYMENT_PROPORTIONALITY_LIMIT = 0.02		# A building cannot have a difference of ratio of full employment between any two professions greater than this limit
-	BUILDING_INIT_PROFIT_TARGET_MIN = 1 		# Minimum % income a building wants to have as profit during initialization (will decrease wages towards this)
-	BUILDING_INIT_PROFIT_TARGET_MAX = 2 		# Maximum % income a building wants to have as profit during initialization (will increase wages towards this)
-	BUILDING_PROFIT_TARGET_TO_RAISE_WAGES = 1.0	# Required profit margin raise wages no matter what, with BUILDING_WEEKS_BETWEEN_PAY_RAISES weeks cooldown
-	BUILDING_WEEKS_BETWEEN_PAY_RAISES = 52		# Cooldown between pay raises no matter what
-	MIN_RAISE_TO_HIRE = 0.01					# The minimum required increase in wages for an employee to switch jobs (1.0 = +100% = x2)
+	
+	BUILDING_RAISE_WAGES_MIN_RELEVANT_POP_SIZE = 50 # Pops with less workforce than this are ignored when checking whether a profitable building should raise wages because of radicalizing workers
+	BUILDING_RAISE_WAGES_DISCRIMINATION_FACTOR = 0.1 # Profitable buildings only care to raise wages for discriminated pops if their wealth to expected SoL ratio is less than this
+	BUILDING_LOWER_WAGES_TARGET_WEALTH_MULT = 1.00 # Buildings will consider lowering wages if all significant pops working in them have this * the target wealth to expected SoL ratio
+	BUILDING_PROFIT_TARGET_TO_RAISE_WAGES = 0.3	# Required profit margin to consider raising wages for SoL or employment reasons, with BUILDING_WEEKS_BETWEEN_PAY_CHANGES weeks cooldown
+	BUILDING_PROFIT_TARGET_TO_LOWER_WAGES = 0.15	# If profit margin is this or below, consider lowering wages for SoL or employment reasons, with BUILDING_WEEKS_BETWEEN_PAY_CHANGES weeks cooldown
+	
+	BUILDING_MAX_EMPLOYMENT_FRACTION_TO_RAISE_WAGES = 0.5 # If the employment fraction of a building is above this, don't raise wages just to try and snipe employees from other buildings
+	BUILDING_WEEKS_BETWEEN_PAY_CHANGES = 12		# Cooldown between changes in pay and firing staff, so buildings don't overcompensate for a temporary change in circumstances
+	
+	MIN_RAISE_TO_HIRE = 0.1					# The minimum required increase in wages for an employee to switch jobs (1.0 = +100% = x2)
+	PEASANT_STARTING_WAGE_RATE_FACTOR = 0.5		# For the sake of calculating starting normal wages, treat peasants as having this pop type wage multiplier
 	STARTING_WAGE_RATE_MULTIPLIER = 2.0			# Starting wage rate is multiplied by this (for easy balancing)
 	NORMAL_WAGE_RATE_FALLBACK = 50.0			# If it's impossible to compute a normal wage rate (e.g. if every incorporated pop works in government buildings) set it to this (weekly £ per POP_SIZE_PACKAGE employees)
 	MINIMUM_WAGE_RATE = 1.0					# The wage rate can never drop below this, no matter what (weekly £ per POP_SIZE_PACKAGE employees)
 	MAXIMUM_WAGE_RATE = 10000.0				# The absolute maximum that a building's wage rate can be increased to.
-	PEASANT_STARTING_WAGE_RATE_FACTOR = 0.5		# For the sake of calculating starting normal wages, treat peasants as having this pop type wage multiplier
 	
 	#解雇相关
 	BUILDING_LAYOFFS_MIN_WEEKS_BETWEEN = 2		# Minimum number of weeks between layoffs
@@ -183,7 +188,7 @@ NEconomy = {
 
 
 	#航运系统
-	SHIPPING_LANE_CONVOY_COST_SCALING = 0.01			# The cost for a shipping lane for each node beyond the first. So at 0.1 it goes 1.0, 1.1, 1.2 and so on.
+	SHIPPING_LANE_CONVOY_COST_SCALING = 0.05			# The cost for a shipping lane for each node beyond the first. So at 0.1 it goes 1.0, 1.1, 1.2 and so on.
 	GOODS_DEFAULT_CONVOY_COST_MULTIPLIER = 1			# The convoy cost of shipping a single unit of goods (can be overriden in defines)
 
 }
@@ -199,16 +204,6 @@ NFrontend = {
 	CAMERA_START_X = 200.0						# Initial position in main menu
 	CAMERA_START_Y = 2400							# Y is height
 	CAMERA_START_Z = 2000.0
-}
-#防止AI一直不议和
-NWar = {
-	DEVASTATION_MAX = 100.0
-	DEVASTATION_INCREASE_RATE = 0.01 # Per day, scales with level of occupation
-	DEVASTATION_DECAY_RATE = -0.1 # Per day, when there are no occupations
-	DEVASTATION_FROM_BATTLES = 1.0 # For each battle
-
-	AUTO_CAPITULATE_WAR_SUPPORT = 0 # When war support is this low, the country will auto capitulate
-	DAYS_BETWEEN_WAR_EXHAUSTION = 20 # Every this many days war support will be reduced by the war exhaustion formula
 }
 NAI = {
 	#宿敌花费
