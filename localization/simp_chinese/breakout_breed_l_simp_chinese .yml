@@ -12,7 +12,7 @@
  QUALIFICATIONS_BASE:0 "基础"
  QUALIFICATIONS_GENDER_DISCRIMINATION:0 "性别歧视"
  HAS_FEMINISM:0 "#v $feminism$#![concept_technology]已解锁"
- POP_BREEDER_STATE_RELIGION:0 "[concept_state_religion]$breeders$"
+ POP_BREEDERS_STATE_RELIGION:0 "[concept_state_religion]$breeders$"
  modifier_building_employment_breeders_add:0 "$breeders$/级"
  modifier_building_employment_breeders_add_desc:0 "增加建筑每等级可以雇佣的抚育者数量"
  modifier_building_employment_breeders_mult:0 "$modifier_building_employment_breeders_add$"

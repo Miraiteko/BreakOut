@@ -1,5 +1,5 @@
 ﻿#基础方式
-pm_tradition_breeder = {
+pm_tradition_breed = {
 	texture = "gfx/interface/icons/production_method_icons/scholastic_education.dds"
 		
 	building_modifiers = {
@@ -24,7 +24,7 @@ pm_tradition_breeder = {
 	}	
 }	
 
-pm_elite_breeder = {
+pm_elite_breed = {
 	texture = "gfx/interface/icons/production_method_icons/philosophy_dept.dds"
 	
 	unlocking_technologies = {

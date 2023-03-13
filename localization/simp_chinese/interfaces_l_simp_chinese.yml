@@ -5592,7 +5592,7 @@
  QUEUE_CONSTRUCTION_POINTS_SUMMARY_TOOLTIP:0 "#header 预计建造时间#!\n[Country.GetName]的[concept_construction_queue]完工大致需要[Country.EstimatedConstructionQueueDuration|v]周\n$TOOLTIP_DELIMITER$\n[concept_government_construction]队列[Country.EstimatedGovernmentConstructionQueueDuration|v]周\n[concept_private_construction]队列[Country.EstimatedPrivateConstructionQueueDuration|v]周"
 
  QUALIFICATIONS_BASE:0 "基础"
- QUALIFICATIONS_MAX_BREEDER_RATIO:0 "由于当地的抚育者过多"
+ QUALIFICATIONS_MAX_BREEDERS_RATIO:0 "由于当地的抚育者过多"
  QUALIFICATIONS_MIN_BREEDERS_RATIO:0 "由于当地的抚育者过少"
  QUALIFICATIONS_LITERACY_FACTOR:0 "由于[Pop.GetLiteracyRate|v0%]的[concept_literacy]"
  QUALIFICATIONS_WEALTH_FACTOR:0 "由于[Pop.GetCurrentWealth|v0]的[concept_wealth]"

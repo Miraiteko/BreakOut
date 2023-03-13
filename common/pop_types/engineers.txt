@@ -37,7 +37,7 @@
 		#Miraiteko
 		if = {
 			limit = { 
-				is_pop_type = breeder 
+				is_pop_type = breeders 
 				trigger_if = {
 					limit = {
 						state = { has_variable = breeders_gain_other_qualifications_bonus }

@@ -1,7 +1,7 @@
-﻿pmg_breed_methods = {
+pmg_breed_methods = {
 	production_methods = {
-		pm_tradition_breeder
-		pm_elite_breeder
+		pm_tradition_breed
+		pm_elite_breed
 	}
 }
 pmg_breed_center_space_use = {

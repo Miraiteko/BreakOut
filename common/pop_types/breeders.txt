@@ -25,7 +25,7 @@
 			}
 			add = {
 				value = -10
-				desc = "QUALIFICATIONS_MAX_BREEDER_RATIO"
+				desc = "QUALIFICATIONS_MAX_BREEDERS_RATIO"
 			}
 		}
 		else = {
