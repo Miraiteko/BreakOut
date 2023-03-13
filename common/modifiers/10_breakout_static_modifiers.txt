@@ -13,15 +13,15 @@ base_values = {
 
 	country_revolution_secession_speed_add = 0.1
 	
-	state_education_access_wealth_add = 0.005
+	state_education_access_wealth_add = 0.01
 	
 	country_minting_add = 1000
 	state_infrastructure_add = 10
 	
-	state_poor_expected_sol = 0
+	state_poor_expected_sol = 1
 	state_middle_expected_sol = 5
 	state_rich_expected_sol = 10
-	state_expected_sol_from_literacy = 15
+	state_expected_sol_from_literacy = 25
 	
 	state_farmers_investment_pool_contribution_add = 0.05
 	state_shopkeepers_investment_pool_contribution_add = 0.05

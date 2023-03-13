@@ -338,12 +338,12 @@ ai_strategy_default = {
 		
 		add = {
 			value = gdp
-			divide = 2000000 # 1 construction sector per 2 million gdp								
+			divide = 1000000 # 1 construction sector per 2 million gdp								
 		}	
 
 		add = {
 			value = total_population
-			divide = 2000000 # 1 construction sector per 2 million pop					
+			divide = 1000000 # 1 construction sector per 2 million pop					
 		}	
 		
 		if = {
@@ -374,12 +374,7 @@ ai_strategy_default = {
 		if = {
 			limit = { has_strategy = ai_strategy_placate_population }
 			multiply = 0.5		
-		}
-		
-		if = {
-			limit = { has_strategy = ai_strategy_maintain_mandate_of_heaven }
-			multiply = 0.1		
-		}		
+		}	
 
 		min = 1
 		max = 100

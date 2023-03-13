@@ -62,14 +62,14 @@ breeders_ratio_monthly_check = {
 		}
 		if = {	
 			limit = {
-				var:breeders_gain_other_qualifications_bonus < 0
+				var:breeders_gain_other_qualifications_bonus < 0 
 			}
 			every_scope_pop = {
 				limit = {
 					NOT = { is_pop_type = breeders }
 					is_employed = no
 				}
-				change_poptype =  pop_type:breeder
+				change_poptype =  pop_type:breeders
 			}
 		}
 

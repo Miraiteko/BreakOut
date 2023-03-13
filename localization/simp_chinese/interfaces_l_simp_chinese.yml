@@ -15,7 +15,7 @@
  LOBBYVIEW_NO_CROSSPLAY_TOOLTIP:0 "只允许你当前平台的玩家加入"
  JOIN_MULTIPLAYER_PASTE_SERVER_ID:0 "粘贴服务器ID"
  
- CONSTRUCTION_CURRENT_PAGE:1 "[ProductionMethodsPanel.AccessCurrentConstructionQueuePage(GetMetaPlayer.GetPlayedOrObservedCountry)]/[ProductionMethodsPanel.GetNumConstructionQueuePages(GetMetaPlayer.GetPlayedOrObservedCountry)]页"
+ CONSTRUCTION_CURRENT_PAGE:1 "[ProductionMethodsPanel.AccessCurrentGovernmentConstructionQueuePage(GetMetaPlayer.GetPlayedOrObservedCountry)]/[ProductionMethodsPanel.GetNumGovernmentConstructionQueuePages(GetMetaPlayer.GetPlayedOrObservedCountry)]页"
  CONSTRUCTION_CURRENT_PAGE_PRIVATE:0 "第[ProductionMethodsPanel.AccessCurrentPrivateConstructionQueuePage(GetMetaPlayer.GetPlayedOrObservedCountry)]/[ProductionMethodsPanel.GetNumPrivateConstructionQueuePages(GetMetaPlayer.GetPlayedOrObservedCountry)]页"
  CONSTRUCTION_NEXT_PAGE:0 "下一页"
  CONSTRUCTION_PREVIOUS_PAGE:0 "上一页"
@@ -1801,7 +1801,7 @@
  CULTURE_TYPE_DESCRIPTION:0 "文化，时代[Era.GetNumber]"
  ALREADY_ACQUIRED_BUTTON:0 "查看已知的科技"
 
- TECHNOLOGY_AQUIRED_POPUP_HEADER:1 "#header [Notification.GetScopeTechnology.GetName]解锁#!"
+ TECHNOLOGY_AQUIRED_POPUP_HEADER:1 "#header [PlayerMessageItem.GetScopeTechnology.GetName]解锁#!"
  TECHNOLOGY_UNLOCKS_TEXT:0 "[Technology.GetTooltipWithoutRequirements(GetPlayer.Self)]"
  TECHNOLOGY_LORE_TEXT:0 "#lore [Technology.GetDesc]#!"
  NA:0 "不可用"
