@@ -1354,7 +1354,7 @@
  
  TAX_CAPACITY_USAGE:1 "#header [concept_breed_power]上限#!\n[State.GetName]的[concept_breed_power]上限为$USAGE|1v$\n$TOOLTIP_DELIMITER$\n每$POPS_PER_CAPACITY|vK$[Concept('concept_pop', '人口')]提供一点[concept_breed_power]上限，[State.GetName]总人口为$TOTAL_POPS|vK$"
  STATE_TAX_CAPACITY:2 "[concept_breed_power]\n$STATE_TAX_CAPACITY_CONDENSED$"
- STATE_TAX_CAPACITY_DESC:3 "#header [concept_breed_power]#!\n[State.GetName]还需要[Abs_CFixedPoint(State.CalcTaxCapacityBalance)|1v]的[concept_breed_power]\n$TOOLTIP_DELIMITER$\n[concept_breed_power]：#tooltippable #tooltip:[State.GetTooltipTag],STATE_TAX_CAPACITY_TOOLTIP [State.CalcTaxCapacity|1+]#!#!\n[concept_breed_power]上限：#tooltippable #tooltip:[State.GetTooltipTag],STATE_TAX_CAPACITY_USAGE_TOOLTIP [State.CalcTaxCapacityUsage|1-]#!#![SelectLocalization(GreaterThan_CFixedPoint(State.CalcTaxCapacityUsage,State.CalcTaxCapacity), 'STATE_TAX_CAPACITY_INSUFFICIENT_LONG', '')]"
+ STATE_TAX_CAPACITY_DESC:3 "#header [concept_breed_power]#!\n[State.GetName]还可以容纳[Abs_CFixedPoint(State.CalcTaxCapacityBalance)|1v]的[concept_breed_power]\n$TOOLTIP_DELIMITER$\n[concept_breed_power]：#tooltippable #tooltip:[State.GetTooltipTag],STATE_TAX_CAPACITY_TOOLTIP [State.CalcTaxCapacity|1+]#!#!\n[concept_breed_power]上限：#tooltippable #tooltip:[State.GetTooltipTag],STATE_TAX_CAPACITY_USAGE_TOOLTIP [State.CalcTaxCapacityUsage|1-]#!#![SelectLocalization(GreaterThan_CFixedPoint(State.CalcTaxCapacityUsage,State.CalcTaxCapacity), 'STATE_TAX_CAPACITY_INSUFFICIENT_LONG', '')]"
  STATE_TAX_CAPACITY_USAGE_TOOLTIP:0 "[State.GetTaxCapacityUsageDesc]"
  STATE_TAX_CAPACITY_TOOLTIP:1 "#header [concept_breed_power]#!\n[State.GetName]拥有[State.CalcTaxCapacity|+0][concept_breed_power]\n$TOOLTIP_DELIMITER$\n[State.GetTaxCapacityDesc]"
  STATE_TAX_CAPACITY_INSUFFICIENT:0 "\n[State.GetTaxCapacityEffectsDesc]"
@@ -6960,7 +6960,7 @@
  STATE_TURMOIL_CONDENSED:0 "#b [State.CalcTurmoil|%1-]#!"
  STATE_DEVASTATION_CONDENSED:0 "#b [State.GetStateRegion.GetDevastationLevel|%R1]#!"
  STATE_INFRASTRUCTURE_CONDENSED:0 "[SelectLocalization(GreaterThan_CFixedPoint(State.GetInfrastructureUsage,State.GetInfrastructure), 'WARNING', '')]#tooltippable #tooltip:[State.GetTooltipTag],STATE_INFRASTRUCTURE_USAGE_TOOLTIP [State.GetInfrastructureUsage|0v]#!#!/#tooltippable #tooltip:[State.GetTooltipTag],STATE_INFRASTRUCTURE_TOOLTIP [State.GetInfrastructure|0v]#!#!"
- STATE_TAX_CAPACITY_CONDENSED:0 "[AddLocalizationIf(GreaterThan_CFixedPoint(State.CalcTaxCapacityUsage,State.CalcTaxCapacity), 'WARNING')]#tooltippable #tooltip:[State.GetTooltipTag],STATE_TAX_CAPACITY_USAGE_TOOLTIP [State.CalcTaxCapacityUsage|0v]#!#!/#tooltippable #tooltip:[State.GetTooltipTag],STATE_TAX_CAPACITY_TOOLTIP [State.CalcTaxCapacity|0v]#!#![AddLocalizationIf(GreaterThan_CFixedPoint(State.CalcTaxCapacityUsage, State.CalcTaxCapacity), 'STATE_TAX_CAPACITY_INSUFFICIENT')]"
+ STATE_TAX_CAPACITY_CONDENSED:0 "[AddLocalizationIf(LessThan_CFixedPoint(State.CalcTaxCapacityUsage,State.CalcTaxCapacity), 'WARNING')]#tooltippable #tooltip:[State.GetTooltipTag],STATE_TAX_CAPACITY_USAGE_TOOLTIP [State.CalcTaxCapacity|0v]#!#!/#tooltippable #tooltip:[State.GetTooltipTag],STATE_TAX_CAPACITY_TOOLTIP [State.CalcTaxCapacityUsage|0v]#!#![AddLocalizationIf(GreaterThan_CFixedPoint(State.CalcTaxCapacityUsage, State.CalcTaxCapacity), 'STATE_TAX_CAPACITY_INSUFFICIENT')]"
  STATE_MARKET_CAPITAL_STATUS_CONDENSED:0 "[State.GetMarket.GetName]\n[State.GetMarketAccess|%v0]"
 
  CASUALTY_DEBUG_CASUALTIES_HEADER:0 "伤亡人数："

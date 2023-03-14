@@ -416,7 +416,7 @@
 		}
 	}
 	s:STATE_PUNJAB={
-		region_state:HND={
+		region_state:PAN={
 			create_building={
 				building="building_government_administration"
 				level=10
@@ -644,7 +644,7 @@
 		}
 	}
 	s:STATE_SINDH={
-		region_state:PAN={
+		region_state:HND={
 			create_building={
 				building="building_fishing_wharf"
 				level=1

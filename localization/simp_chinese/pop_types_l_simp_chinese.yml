@@ -12,7 +12,7 @@
  #上层国人
  capitalists:0 "@capitalists!$capitalists_no_icon$"
  capitalists_only_icon:0 "@capitalists!"
- capitalists_no_icon:0 "贵族"
+ capitalists_no_icon:0 "世族"
  capitalists_desc:0 "受到君主封赏的并效忠于君主的人群，通常是君主的远近亲属。作为城邑中各类建筑以及城邑周围的农场的所有者，他们会将一部分利润上供到[concept_investment_pool]。他们在政治利益上的代表是宗族。"
  clergymen:0 "@clergymen!$clergymen_no_icon$"
  clergymen_only_icon:0 "@clergymen!"
