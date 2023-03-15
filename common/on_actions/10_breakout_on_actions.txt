@@ -37,7 +37,7 @@ breakout_on_monthly_pulse_state = {
 		#出生率结算
 		state_breed_monthly_check = yes
 		#生产经验结算
-		production_exp_monthly_check = yes
+		#production_exp_monthly_check = no
 		#资源枯竭结算
 		resource_deplete_monthly_check = yes
 	}

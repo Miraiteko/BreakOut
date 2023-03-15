@@ -188,7 +188,7 @@ NEconomy = {
 
 
 	#航运系统
-	SHIPPING_LANE_CONVOY_COST_SCALING = 0.05			# The cost for a shipping lane for each node beyond the first. So at 0.1 it goes 1.0, 1.1, 1.2 and so on.
+	SHIPPING_LANE_CONVOY_COST_SCALING = 0.1			# The cost for a shipping lane for each node beyond the first. So at 0.1 it goes 1.0, 1.1, 1.2 and so on.
 	GOODS_DEFAULT_CONVOY_COST_MULTIPLIER = 1			# The convoy cost of shipping a single unit of goods (can be overriden in defines)
 
 }

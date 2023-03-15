@@ -470,7 +470,7 @@ resource_deplete_monthly_check = {
 			limit = { NOT = { has_variable = base_oil_resource }}
 			set_variable = {
 				name = base_oil_resource
-				value = 1000000
+				value = 100000
 			}
 		}
 		if = {
