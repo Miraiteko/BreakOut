@@ -294,8 +294,7 @@ pm_worker_cooperative_building_subsistence = {
 			building_employment_peasants_add = 250
 		}
 		unscaled = {
-			building_peasants_shares_add = 1
-			building_breeders_shares_add = 1
+			building_workforce_shares_add = 1
 		}
 	}
 }

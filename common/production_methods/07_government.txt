@@ -1,5 +1,4 @@
-﻿#港口建筑
-pm_anchorage = {
+﻿pm_anchorage = {
 	texture = "gfx/interface/icons/production_method_icons/anchorage.dds"
 	
 	low_pop_method = yes # AI will activate this method for states with low population
@@ -9,16 +8,18 @@ pm_anchorage = {
 			building_output_transportation_add = 10
 		}
 		level_scaled = {
-			building_employment_laborers_add = 750
+			building_employment_laborers_add = 500
 			building_employment_clerks_add = 350
+			building_employment_bureaucrats_add = 150
 		}
 	}
 	
 	country_modifiers = {
 		workforce_scaled = {
-			country_convoys_capacity_add = 10
+			country_convoys_capacity_add = 40
 		}
-	}	
+	}
+	
 	state_modifiers = {
 		workforce_scaled = {
 			state_infrastructure_add = 5
@@ -37,8 +38,9 @@ pm_basic_port = {
 			building_output_transportation_add = 100
 		}
 		level_scaled = {
-			building_employment_laborers_add = 4000
+			building_employment_laborers_add = 3000
 			building_employment_clerks_add = 1500
+			building_employment_bureaucrats_add = 500
 		}
 	}
 
@@ -68,15 +70,16 @@ pm_industrial_port = {
 			building_output_transportation_add = 350
 		}
 		level_scaled = {
-			building_employment_laborers_add = 2500
-			building_employment_machinists_add = 1000
+			building_employment_laborers_add = 2000
+			building_employment_machinists_add = 500
 			building_employment_clerks_add = 1000
+			building_employment_bureaucrats_add = 500
 		}
 	}
 
 	country_modifiers = {
 		workforce_scaled = {
-			country_convoys_capacity_add = 350
+			country_convoys_capacity_add = 400
 		}
 	}
 	state_modifiers = {
@@ -99,15 +102,16 @@ pm_modern_port = {
 			building_output_transportation_add = 500
 		}
 		level_scaled = {
-			building_employment_laborers_add = 1250
-			building_employment_machinists_add = 750
+			building_employment_laborers_add = 750
+			building_employment_machinists_add = 250
 			building_employment_clerks_add = 500
+			building_employment_bureaucrats_add = 500
 		}
 	}
 
 	country_modifiers = {
 		workforce_scaled = {
-			country_convoys_capacity_add = 500
+			country_convoys_capacity_add = 800
 		}
 	}
 	state_modifiers = {
@@ -115,7 +119,7 @@ pm_modern_port = {
 			state_infrastructure_add = 100
 		}
 	}
-}					
+}				
 
 pm_simple_organization = {
 	texture = "gfx/interface/icons/production_method_icons/simple_organization.dds"
@@ -221,7 +225,7 @@ pm_switch_boards = {
 
 		level_scaled = {
 			building_employment_clerks_add = 2500
-			building_employment_academics_add = 2500
+			building_employment_bureaucrats_add = 2500
 		}
 	}	
 }
@@ -235,39 +239,54 @@ pm_hereditary_bureaucrats = {
 	
 	building_modifiers = {
 		level_scaled = {
-			building_employment_capitalists_add = 1000
+			building_employment_aristocrats_add = 250
+			building_employment_bureaucrats_add = 250
 		}
 	}			
 }
 
-pm_elective_bureaucrats = {
-	texture = "gfx/interface/icons/production_method_icons/ownership_bureacrats.dds"
-	
-	unlocking_laws = {
-		law_appointed_bureaucrats
-	}
-	
-	building_modifiers = {
-		level_scaled = {
-			building_employment_capitalists_add = 500
-			building_employment_academics_add = 500
-		}
-	}			
-}
 pm_professional_bureaucrats = {
 	texture = "gfx/interface/icons/production_method_icons/professional_bureaucrats.dds"
 	
-	unlocking_laws = {
-		law_elected_bureaucrats
+	disallowing_laws = {
+		law_hereditary_bureaucrats
 	}	
 	
 	building_modifiers = {
 		level_scaled = {
-			building_employment_academics_add = 1000
+			building_employment_bureaucrats_add = 500
 		}
 	}			
 }	
 
+pm_secular_bureaucrats = {
+	texture = "gfx/interface/icons/production_method_icons/ownership_bureacrats.dds"
+	
+	disallowing_laws = {
+		law_state_religion
+	}
+	
+	building_modifiers = {
+		level_scaled = {
+			building_employment_bureaucrats_add = 500
+		}
+	}			
+}
+
+pm_religious_bureaucrats = {
+	texture = "gfx/interface/icons/production_method_icons/ownership_clergy.dds"
+	
+	disallowing_laws = {
+		law_total_separation
+	}	
+	
+	building_modifiers = {
+		level_scaled = {
+			building_employment_clergymen_add = 250
+			building_employment_bureaucrats_add = 250
+		}
+	}			
+}					
 
 pm_scholastic_education = {
 	texture = "gfx/interface/icons/production_method_icons/scholastic_education.dds"
@@ -381,7 +400,7 @@ pm_religious_academia = {
 	
 	building_modifiers = {
 		level_scaled = {
-			building_employment_clerks_add = 1000
+			building_employment_clergymen_add = 1000
 			building_employment_academics_add = 1000
 		}
 	}			
@@ -404,7 +423,29 @@ pm_skyscraper_bureaucratic_nexus = {
 		level_scaled = {
 			building_employment_laborers_add = 1000
 			building_employment_clerks_add = 2500
-			building_employment_academics_add = 1500
+			building_employment_bureaucrats_add = 1500
+		}
+	}
+}
+		
+pm_skyscraper_trade_nexus = {
+	texture = "gfx/interface/icons/production_method_icons/skyscraper_trade_nexus.dds"
+	
+	country_modifiers = {
+		workforce_scaled = {
+			country_trade_route_quantity_mult = 0.25
+		}
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_paper_add = 25
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1000
+			building_employment_clerks_add = 2500
+			building_employment_bureaucrats_add = 1500
 		}
 	}
 }
