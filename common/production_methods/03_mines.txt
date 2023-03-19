@@ -1,6 +1,8 @@
 ﻿pm_picks_and_shovels_building_coal_mine = {
 	texture = "gfx/interface/icons/production_method_icons/picks_and_shovels.dds"
-
+	unlocking_technologies = {
+		railways
+	}
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods

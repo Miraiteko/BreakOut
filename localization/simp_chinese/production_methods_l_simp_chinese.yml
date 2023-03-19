@@ -93,6 +93,7 @@
  pm_no_passenger_trains:0 "优先货物"
  pm_wooden_passenger_carriages:0 "木制乘客车厢"
  pm_steel_passenger_carriages:0 "钢制乘客车厢"
+ pm_human_trains:0 "人力机车"
  pm_steam_trains:0 "蒸汽机车"
  pm_electric_trains:0 "电力机车"
  pm_diesel_trains:0 "内燃机车"

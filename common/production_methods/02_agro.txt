@@ -9,7 +9,7 @@
 		level_scaled = {
 			building_employment_laborers_add = 4000
 			building_employment_farmers_add = 600
-			building_employment_clergymen_add = 300
+			building_employment_clerks_add = 300
 		}
 	}
 }
@@ -34,7 +34,7 @@ pm_soil_enriching_farming = {
 			# earnings														
 			building_employment_laborers_add = 3800
 			building_employment_farmers_add = 800
-			building_employment_clergymen_add = 300
+			building_employment_clerks_add = 300
 		}
 	}
 }
@@ -59,7 +59,7 @@ pm_fertilization = {
 			# earnings														
 			building_employment_laborers_add = 3600
 			building_employment_farmers_add = 1000
-			building_employment_clergymen_add = 300
+			building_employment_clerks_add = 300
 		}
 	}
 }
@@ -82,7 +82,7 @@ pm_chemical_fertilizer = {
 			# earnings														
 			building_employment_laborers_add = 3400
 			building_employment_farmers_add = 1200
-			building_employment_clergymen_add = 300
+			building_employment_clerks_add = 300
 		}
 	}
 }			
@@ -311,7 +311,7 @@ pm_simple_farming_building_rice_farm = {
 		level_scaled = {
 			building_employment_laborers_add = 4000
 			building_employment_farmers_add = 600
-			building_employment_clergymen_add = 300
+			building_employment_clerks_add = 300
 		}
 	}
 }
@@ -336,7 +336,7 @@ pm_soil_enriching_farming_building_rice_farm = {
 			# earnings												
 			building_employment_laborers_add = 3800
 			building_employment_farmers_add = 800
-			building_employment_clergymen_add = 300
+			building_employment_clerks_add = 300
 		}
 	}
 }
@@ -361,7 +361,7 @@ pm_fertilization_building_rice_farm = {
 			# earnings																									
 			building_employment_laborers_add = 3700
 			building_employment_farmers_add = 1000
-			building_employment_clergymen_add = 300
+			building_employment_clerks_add = 300
 		}
 	}
 }
@@ -384,7 +384,7 @@ pm_chemical_fertilizer_building_rice_farm = {
 			# earnings														
 			building_employment_laborers_add = 3500
 			building_employment_farmers_add = 1200
-			building_employment_clergymen_add = 300
+			building_employment_clerks_add = 300
 		}
 	}
 }
@@ -424,7 +424,7 @@ pm_simple_ranch = {
 		level_scaled = {
 			building_employment_laborers_add = 4000
 			building_employment_farmers_add = 700
-			building_employment_clergymen_add = 200
+			building_employment_clerks_add = 200
 		}
 	}
 }
@@ -448,7 +448,7 @@ pm_intensive_grazing_ranch = {
 		level_scaled = {
 			building_employment_laborers_add = 3900
 			building_employment_farmers_add = 900
-			building_employment_clergymen_add = 200
+			building_employment_clerks_add = 200
 		}
 	}
 }

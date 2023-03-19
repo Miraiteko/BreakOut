@@ -116,13 +116,13 @@ NEconomy = {
 	TRADE_ROUTE_ECONOMY_OF_SCALE_MAX_LEVEL = 20			# After this level, trade route economy of scale no longer increases the amount per level
 	
 	#商品供需系统	
-	MIN_GOODS_PRICE	= 0.1							# A good cannot have a lower base price than this
-	PRICE_RANGE = 0.90   						# min price of a good is base * (1 - PRICE_RANGE), Max price is base * (1 + PRICE_RANGE), PRICE_RANGE is locked to [0-1]
-	BUY_SELL_DIFF_AT_MAX_FACTOR = 3				# the difference between buy/consumption and sell/production at min/max pricing, e.g. if set to 4 then if buy orders are 4x sell orders price is maxed
-	GOODS_SHORTAGE_PENALTY_THRESHOLD = 0.30		# If supply / demand is lower than this, start applying output penalties, by default this should be ( 1 / BUY_SELL_DIFF_AT_MAX_FACTOR )
+	MIN_GOODS_PRICE	= 0.01							# A good cannot have a lower base price than this
+	PRICE_RANGE = 0.95   						# min price of a good is base * (1 - PRICE_RANGE), Max price is base * (1 + PRICE_RANGE), PRICE_RANGE is locked to [0-1]
+	BUY_SELL_DIFF_AT_MAX_FACTOR = 2				# the difference between buy/consumption and sell/production at min/max pricing, e.g. if set to 4 then if buy orders are 4x sell orders price is maxed
+	GOODS_SHORTAGE_PENALTY_THRESHOLD = 0.75		# If supply / demand is lower than this, start applying output penalties, by default this should be ( 1 / BUY_SELL_DIFF_AT_MAX_FACTOR )
 	GOODS_SHORTAGE_PENALTY_INCREASE_SPEED = 0.01  	# Goods shortage penalty increases by this fraction of the target each day
     GOODS_SHORTAGE_PENALTY_DECREASE_SPEED = 0.02  	# Goods shortage penalty goes down by this fraction of GOODS_SHORTAGE_PENALTY_MAX each day
-    GOODS_SHORTAGE_PENALTY_MIN = 0.05			# Goods shortage penalty can't be lower than this if there is any shortage
+    GOODS_SHORTAGE_PENALTY_MIN = 0.01			# Goods shortage penalty can't be lower than this if there is any shortage
 	GOODS_SHORTAGE_PENALTY_MAX = 0.99			# Goods shortage penalty can't be higher than this
 	
 	#尝试修改工资系统，没有成功
@@ -182,7 +182,8 @@ NEconomy = {
 	DECLARE_BANKRUPTCY_PENALTY_DURATION_YEARS = 10		# How many years does it take for penalties from declaring bankruptcy to fully decay
 	DECLARE_BANKRUPTCY_RADICALIZATION_SHARES_FACTOR = 0.9 # For each per-pop shares in their building, radicalize this percentage of a pop on 
 
-	#参考了licy18的《贸易收入下降时贸易路线不会升级》，为贸易路线等级添加了阻尼
+	#贸易路线
+	TRADE_ROUTE_MAX_LEVEL = 1000	
 	TRADE_ROUTE_AUTO_INCREASE_ACCEPTABLE_REVENUE_DIFFERENCE = 1.0 # Multiply revenue of new trade route level by this for the purpose of considering whether it's OK to auto-increase level
 	TRADE_ROUTE_AUTO_REDUCTION_ACCEPTABLE_REVENUE_DIFFERENCE = 1.01 # Multiply revenue of current trade route level by this for the purpose of considering whether we should auto-decrease level 
 
@@ -190,9 +191,20 @@ NEconomy = {
 	#航运系统
 	SHIPPING_LANE_CONVOY_COST_SCALING = 0.1			# The cost for a shipping lane for each node beyond the first. So at 0.1 it goes 1.0, 1.1, 1.2 and so on.
 	GOODS_DEFAULT_CONVOY_COST_MULTIPLIER = 1			# The convoy cost of shipping a single unit of goods (can be overriden in defines)
-
 }
-
+NMilitary = {
+	CONVOY_RAIDING_NUM_POSSIBLE_ATTACK_NODES = 5			# How many sea zones will be shown as possible attack sites for convoy raided player
+	CONVOY_RAIDING_DELAY_BASE_DAYS = 5						# atleast this many days between each admiral raiding attempt
+	CONVOY_RAIDING_DELAY_MAX_RANDOM_DAYS_FACTOR = 10		# up to this many extra days between each admiral raiding attempt
+	CONVOY_RAIDING_CONVOY_ATTACK_CHANCE = 1.0				# Chance each attempt that convoy raiders find convoys to attack from each country along the shipping lane (1 = 100%)
+	CONVOY_RAIDING_STRENGTH_MULT = 0.5						# How strong each Convoy raiding point is ( num flotillas * ce offense )
+	CONVOY_RAIDING_DAYS_UNTIL_DECAY = 28					# How many days it takes for convoy raiding effect to decay fully 
+}
+#降低科技时代惩罚
+NTechnology = {
+	#TECH_SPREAD_RANDOM_RANGE = 0.5 # How much can distribution of tech spread vary each week
+	TECH_AHEAD_OF_TIME_PENALTY_FACTOR = 0.05	# For every tech in a previous era not already researched in this category, take this multiple of the cost as an additional penalty (multiplied by number of eras between the techs)
+}
 NPolitics = {
 	STATE_BUREAUCRACY_BASE_COST = 10		# The base cost per incorporated state
 	STATE_BUREAUCRACY_POP_BASE_COST = 2		# The base BUR multiplier per population multiple
@@ -259,4 +271,6 @@ NAI = {
 	PRODUCTION_BUILDING_MISSING_QUALIFICATIONS_MULT = 0.75 # Multiply score by this if there's not enough qualifications to staff the building (disabled for now)
 	PRODUCTION_BUILDING_MISSING_INFRASTRUCTURE_DIV = 0.25 # Divide score by ( 1 + this * number of missing infrastructure after adding this building )
 	PRODUCTION_BUILDING_ECONOMY_OF_SCALE_MULT = 10.0 # Multiply score by this if building uses economy of scale and it's already present in the state
+	PRODUCTION_BUILDING_REDUCE_SHORTAGE_MULT = 50 # Multiply score by this if we're reducing the state region's shortages
+	PRODUCTION_BUILDING_INCREASE_SHORTAGE_MULT = 0.01 # Multiply score by this if we're increasing the state region's shortages
 }

@@ -42,7 +42,7 @@ building_railway = {
 	texture = "gfx/interface/icons/building_icons/building_railway.dds"
 	
 	unlocking_technologies = {
-		railways
+		
 	}
 
 	production_method_groups = {

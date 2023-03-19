@@ -4,7 +4,7 @@
 	type = diplomatic
 	
 	wanted_army_ratio = {
-		value = 200000
+		value = 2000000
 	}
 	
 	wanted_navy_ratio = {
@@ -126,7 +126,7 @@ ai_strategy_territorial_expansion = {
 	type = diplomatic
 	
 	wanted_army_ratio = {
-		value = 150000
+		value = 1500000
 	}
 	
 	wanted_navy_ratio = {
@@ -245,7 +245,7 @@ ai_strategy_colonial_expansion = {
 	type = diplomatic
 	
 	wanted_army_ratio = {
-		value = 200000
+		value = 2000000
 	}
 	
 	wanted_navy_ratio = {
@@ -449,7 +449,7 @@ ai_strategy_armed_isolationism = {
 	type = diplomatic
 	
 	wanted_army_ratio = {
-		value = 150000
+		value = 1500000
 	}
 	
 	wanted_navy_ratio = {
@@ -545,7 +545,7 @@ ai_strategy_economic_imperialism = {
 	type = diplomatic
 	
 	wanted_army_ratio = {
-		value = 200000
+		value = 2000000
 	}
 	
 	wanted_navy_ratio = {

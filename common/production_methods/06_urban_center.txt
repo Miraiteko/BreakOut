@@ -187,7 +187,7 @@ pm_state_urban_clergy = {
 	
 	building_modifiers = {
 		level_scaled = {
-			building_employment_clergymen_add = 200
+			building_employment_clerks_add = 200
 		}		
 		
 		unscaled = {
@@ -206,7 +206,7 @@ pm_free_urban_clergy = {
 	building_modifiers = {
 		level_scaled = {
 			building_employment_clerks_add = 50
-			building_employment_clergymen_add = 150
+			building_employment_clerks_add = 150
 		}	
 
 		unscaled = {

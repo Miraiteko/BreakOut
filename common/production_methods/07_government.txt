@@ -282,7 +282,7 @@ pm_religious_bureaucrats = {
 	
 	building_modifiers = {
 		level_scaled = {
-			building_employment_clergymen_add = 250
+			building_employment_clerks_add = 250
 			building_employment_bureaucrats_add = 250
 		}
 	}			
@@ -400,7 +400,7 @@ pm_religious_academia = {
 	
 	building_modifiers = {
 		level_scaled = {
-			building_employment_clergymen_add = 1000
+			building_employment_clerks_add = 1000
 			building_employment_academics_add = 1000
 		}
 	}			
