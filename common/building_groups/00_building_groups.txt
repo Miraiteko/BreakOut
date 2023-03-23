@@ -47,7 +47,7 @@ bg_light_industry = {
 
 	lens = light_industry
 	
-	urbanization = 40
+	urbanization = 10
 	infrastructure_usage_per_level = 2
 }
 bg_material_industry = {
@@ -55,7 +55,7 @@ bg_material_industry = {
 
 	lens = heavy_industry
 	
-	urbanization = 60
+	urbanization = 10
 	infrastructure_usage_per_level = 3
 }
 bg_machine_industry = {
@@ -63,7 +63,7 @@ bg_machine_industry = {
 
 	lens = heavy_industry
 	
-	urbanization = 60
+	urbanization = 10
 	infrastructure_usage_per_level = 3
 }
 bg_petroleum_industry = {
@@ -71,7 +71,7 @@ bg_petroleum_industry = {
 
 	lens = heavy_industry
 	
-	urbanization = 60
+	urbanization = 10
 	infrastructure_usage_per_level = 3
 }
 bg_energy_industry = {
@@ -79,7 +79,7 @@ bg_energy_industry = {
 
 	lens = heavy_industry
 	
-	urbanization = 60
+	urbanization = 10
 	infrastructure_usage_per_level = 3
 }
 bg_electronic_industry = {
@@ -87,7 +87,7 @@ bg_electronic_industry = {
 
 	lens = heavy_industry
 	
-	urbanization = 60
+	urbanization = 10
 	infrastructure_usage_per_level = 3
 }
 
@@ -108,7 +108,7 @@ bg_agriculture = {
 	
 	can_use_slaves = yes
 	
-	urbanization = 20
+	urbanization = 5
 	infrastructure_usage_per_level = 1
 	
 	should_auto_expand = { 
@@ -168,7 +168,7 @@ bg_mining = {
 	
 	cash_reserves_max = 25000
 	
-	urbanization = 20
+	urbanization = 5
 	infrastructure_usage_per_level = 2
 	
 	should_auto_expand = { 
@@ -223,7 +223,7 @@ bg_whaling = {
 	
 	cash_reserves_max = 25000
 	
-	urbanization = 20
+	urbanization = 5
 	infrastructure_usage_per_level = 1
 	
 	should_auto_expand = { 
@@ -244,7 +244,7 @@ bg_fishing = {
 	
 	cash_reserves_max = 25000
 	
-	urbanization = 20
+	urbanization = 5
 	infrastructure_usage_per_level = 1
 	
 	should_auto_expand = { 
@@ -269,7 +269,7 @@ bg_oil_extraction = {
 	
 	cash_reserves_max = 25000
 	
-	urbanization = 30
+	urbanization = 10
 	infrastructure_usage_per_level = 2
 	
 	should_auto_expand = { 
@@ -294,7 +294,7 @@ bg_logging = {
 	
 	cash_reserves_max = 25000
 	
-	urbanization = 20
+	urbanization = 5
 	infrastructure_usage_per_level = 1
 	
 	should_auto_expand = { 
@@ -319,7 +319,7 @@ bg_rubber = {
 	
 	cash_reserves_max = 25000 
 	
-	urbanization = 20
+	urbanization = 5
 	infrastructure_usage_per_level = 1
 	
 	should_auto_expand = { 
@@ -344,7 +344,7 @@ bg_service = {
 	
 	auto_place_buildings = yes	
 	
-	economy_of_scale = no
+	economy_of_scale = yes
 	
 	default_building = building_urban_center
 	
@@ -379,7 +379,7 @@ bg_urban_facilities = {
 	
 	cash_reserves_max = 25000
 	
-	urbanization = 40
+	urbanization = 15
 	infrastructure_usage_per_level = 2
 	
 	should_auto_expand = { 
@@ -409,7 +409,7 @@ bg_breed = {
 	
 	default_building = breed_center
 	
-	urbanization = 50
+	urbanization = 15
 	infrastructure_usage_per_level = 1
 
 }
@@ -459,7 +459,7 @@ bg_private_infrastructure = {
 	
 	cash_reserves_max = 10000
 	
-	urbanization = 20
+	urbanization = 30
 }
 #港口和地铁不占用，但是需要科技等级
 bg_public_infrastructure = {
@@ -467,7 +467,7 @@ bg_public_infrastructure = {
 	
 	is_government_funded = yes
 	
-	urbanization = 20
+	urbanization = 30
 }
 bg_construction = {
 	parent_group = bg_public_infrastructure
@@ -478,7 +478,7 @@ bg_construction = {
 	
 	can_use_slaves = yes
 	
-	urbanization = 20
+	urbanization = 10
 }
 
 bg_canals = {
@@ -508,7 +508,7 @@ bg_government = {
 	
 	lens = government
 	
-	urbanization = 40
+	urbanization = 10
 	infrastructure_usage_per_level = 1
 }
 

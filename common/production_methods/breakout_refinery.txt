@@ -97,8 +97,8 @@ pm_fiber_polymerization = {
 	building_modifiers = {
 		workforce_scaled = {						
 			building_input_oil_add = 20 #40
-			building_output_fabric_add = 60 #20
-			building_output_silk_add = 10 #40
+			building_output_fabric_add = 40 #20
+			building_output_silk_add = 230 #40
 			building_output_wood_add = 10 #20		
 		}
 

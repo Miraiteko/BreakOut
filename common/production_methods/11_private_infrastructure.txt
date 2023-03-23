@@ -4,7 +4,7 @@
 
 	building_modifiers = {
 		workforce_scaled = {
-			building_output_transportation_add = 25
+			building_output_transportation_add = 50
 		}
 		level_scaled = {
 			building_employment_laborers_add = 15000
@@ -13,7 +13,6 @@
 
 	state_modifiers = {
 		workforce_scaled = {
-			state_infrastructure_add = 20
 		}
 	}
 }
@@ -26,7 +25,7 @@ pm_steam_trains = {
 		workforce_scaled = {
 			building_input_engines_add = 10
 			building_input_coal_add = 10
-			building_output_transportation_add = 50
+			building_output_transportation_add = 100
 		}
 		level_scaled = {
 			building_employment_laborers_add = 3000
@@ -37,7 +36,6 @@ pm_steam_trains = {
 
 	state_modifiers = {
 		workforce_scaled = {
-			state_infrastructure_add = 20
 		}
 	}
 }
@@ -54,7 +52,7 @@ pm_electric_trains = {
 		workforce_scaled = {
 			building_input_engines_add = 15
 			building_input_electricity_add = 15
-			building_output_transportation_add = 75
+			building_output_transportation_add = 150
 		}
 		level_scaled = {
 			building_employment_laborers_add = 2000
@@ -65,7 +63,6 @@ pm_electric_trains = {
 
 	state_modifiers = {
 		workforce_scaled = {
-			state_infrastructure_add = 30
 		}
 	}
 }
@@ -82,7 +79,7 @@ pm_diesel_trains = {
 		workforce_scaled = {
 			building_input_engines_add = 20
 			building_input_oil_add = 20
-			building_output_transportation_add = 100
+			building_output_transportation_add = 200
 		}
 		level_scaled = {
 			building_employment_laborers_add = 1500
