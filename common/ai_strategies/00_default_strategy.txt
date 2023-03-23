@@ -81,7 +81,7 @@ ai_strategy_default = {
 	# How many barracks relative to incorporated population should the AI have
 	# Using a different value in a strategy will override this value
 	wanted_army_ratio = {
-		value = 2000000 # 1 barrack per 200k incorporated population
+		value = 400000 # 1 barrack per 200k incorporated population
 	}
 	
 	# How many naval bases relative to incorporated coastal population should the AI have
@@ -387,9 +387,8 @@ ai_strategy_default = {
 	# Which buildings should the AI subsidize
 	# Using a different value in a strategy will override this value
 	subsidies = {
-		building_power_plant = should_have
-		building_railway = should_have
-		building_trade_center = should_have		
+		building_power_plant = nice_to_have
+		building_trade_center = nice_to_have		
 	}
 	
 	# Specifying values here will override subsidy priorities while at war

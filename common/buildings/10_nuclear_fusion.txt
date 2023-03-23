@@ -3,9 +3,6 @@
 	texture = "gfx/interface/icons/building_icons/nuclear_fusion.dds"
 	levels_per_mesh = 5
 	
-	can_build = {
-	}
-	
 	unlocking_technologies = { 
 		controlable_nuclear_fusion 
 	}

@@ -4,7 +4,7 @@
 	type = diplomatic
 	
 	wanted_army_ratio = {
-		value = 2000000
+		value = 400000
 	}
 	
 	wanted_navy_ratio = {
@@ -126,7 +126,7 @@ ai_strategy_territorial_expansion = {
 	type = diplomatic
 	
 	wanted_army_ratio = {
-		value = 1500000
+		value = 200000
 	}
 	
 	wanted_navy_ratio = {
@@ -207,7 +207,7 @@ ai_strategy_territorial_expansion = {
 	}
 
 	building_group_weights = {
-		bg_army = 1.5
+		bg_army = 1.0
 	}
 	
 	secret_goal_weights = {
@@ -245,7 +245,7 @@ ai_strategy_colonial_expansion = {
 	type = diplomatic
 	
 	wanted_army_ratio = {
-		value = 2000000
+		value = 400000
 	}
 	
 	wanted_navy_ratio = {
@@ -449,7 +449,7 @@ ai_strategy_armed_isolationism = {
 	type = diplomatic
 	
 	wanted_army_ratio = {
-		value = 1500000
+		value = 400000
 	}
 	
 	wanted_navy_ratio = {
@@ -489,7 +489,7 @@ ai_strategy_armed_isolationism = {
 	}
 	
 	building_group_weights = {
-		bg_army = 1.5
+		bg_army = 1.0
 	}
 	
 	secret_goal_weights = {
@@ -545,7 +545,7 @@ ai_strategy_economic_imperialism = {
 	type = diplomatic
 	
 	wanted_army_ratio = {
-		value = 2000000
+		value = 400000
 	}
 	
 	wanted_navy_ratio = {

@@ -21,7 +21,7 @@ building_port = {
 	ai_value = 2500 # Ports are important
 	terrain_manipulator = urban_port
 	
-	can_build = {
+	possible ={
 		error_check = {
 			severity = fail
 			is_coastal = yes

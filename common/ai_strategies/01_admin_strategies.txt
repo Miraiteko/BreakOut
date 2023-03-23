@@ -387,6 +387,9 @@ ai_strategy_placate_population = {
 	max_tax_level = medium
 	min_tax_level = very_low
 
+	subsidies = {
+		breed_center =  nice_to_have
+	}
 	building_group_weights = {
 		bg_breed = 6
 		bg_agriculture = 2.0
@@ -405,7 +408,7 @@ ai_strategy_placate_population = {
 		fruit = { stance = wants_high_supply }
 		fabric = { stance = wants_high_supply }
 		wood = { stance = wants_high_supply }
-		opium = { stance = does_not_want }
+		opium = { stance = wants_high_supply }
 	}
 
 	possible = {
@@ -415,32 +418,19 @@ ai_strategy_placate_population = {
 	weight = {
 		value = 10
 		
-		if = {
-			limit = { is_country_type = unrecognized }
-			add = 20
-		}
-		
 		if = { 
-			limit = { literacy_rate < 0.25 }
-			multiply = 1.5
-		}
-		
-		if = { 
-			limit = { literacy_rate < 0.35 }
-			multiply = 1.5
-		}
-
-		if = { 
-			limit = { literacy_rate >= 0.50 }
-			multiply = 0.5
-		}	
-
-		if = {
 			limit = {
-				has_technology_researched = railways
+				radical_fraction = { value >= 0.30 }
 			}
-			multiply = 0.5
-		}		
+			multiply = 1.5
+		}
+		
+		if = { 
+			limit = {
+				radical_fraction = { value >= 0.50 }
+			}
+			multiply = 1.5
+		}
 		
 		if = {
 			limit = { 

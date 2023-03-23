@@ -8,6 +8,16 @@
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			}
 			create_building={
+				building="building_motor_industry"
+				level=10
+				reserves=1
+			}
+			create_building={
+				building="building_arms_industry"
+				level=10
+				reserves=1
+			}
+			create_building={
 				building="building_construction_sector"
 				level=2
 				reserves=1

@@ -168,7 +168,7 @@ pm_no_public_transport = {
 	texture = "gfx/interface/icons/production_method_icons/no_public_transport.dds"
 	building_modifiers = {
 		level_scaled = {
-			building_employment_laborers_add = 6000
+			building_employment_laborers_add = 8000
 		}
 	}
 }
@@ -182,16 +182,17 @@ pm_public_trams = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_transportation_add = 15
+			building_input_transportation_add = 25
 			#building_output_services_mult = 0.01
 			#building_input_transportation_mult = 0.01
+			building_economy_of_scale_level_cap_add = 0.5
 		}
 
 		level_scaled = {
-			building_employment_laborers_add = 3000
+			building_employment_laborers_add = 4000
 		}
 		unscaled ={
-			building_economy_of_scale_level_cap_add = 30
+			#building_economy_of_scale_level_cap_add = 30
 		}
 	}
 	
@@ -207,12 +208,13 @@ pm_public_motor_carriages = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_transportation_add = 30
+			building_input_transportation_add = 50
 			#building_output_services_mult = 0.02
 			#building_input_transportation_mult = 0.02
+			building_economy_of_scale_level_cap_add = 1
 		}
 		unscaled ={
-			building_economy_of_scale_level_cap_add = 60
+			#building_economy_of_scale_level_cap_add = 60
 		}
 	}
 }
