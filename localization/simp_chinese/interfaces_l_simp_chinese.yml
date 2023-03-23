@@ -6960,7 +6960,7 @@
  STATE_TURMOIL_CONDENSED:0 "#b [State.CalcTurmoil|%1-]#!"
  STATE_DEVASTATION_CONDENSED:0 "#b [State.GetStateRegion.GetDevastationLevel|%R1]#!"
  STATE_INFRASTRUCTURE_CONDENSED:0 "[SelectLocalization(GreaterThan_CFixedPoint(State.GetInfrastructureUsage,State.GetInfrastructure), 'WARNING', '')]#tooltippable #tooltip:[State.GetTooltipTag],STATE_INFRASTRUCTURE_USAGE_TOOLTIP [State.GetInfrastructureUsage|0v]#!#!/#tooltippable #tooltip:[State.GetTooltipTag],STATE_INFRASTRUCTURE_TOOLTIP [State.GetInfrastructure|0v]#!#!"
- STATE_TAX_CAPACITY_CONDENSED:0 "[AddLocalizationIf(LessThan_CFixedPoint(State.CalcTaxCapacityUsage,State.CalcTaxCapacity), 'WARNING')]#tooltippable #tooltip:[State.GetTooltipTag],STATE_TAX_CAPACITY_USAGE_TOOLTIP [State.CalcTaxCapacity|0v]#!#!/#tooltippable #tooltip:[State.GetTooltipTag],STATE_TAX_CAPACITY_TOOLTIP [State.CalcTaxCapacityUsage|0v]#!#![AddLocalizationIf(GreaterThan_CFixedPoint(State.CalcTaxCapacityUsage, State.CalcTaxCapacity), 'STATE_TAX_CAPACITY_INSUFFICIENT')]"
+ STATE_TAX_CAPACITY_CONDENSED:0 "[AddLocalizationIf(LessThan_CFixedPoint(State.CalcTaxCapacityUsage,State.CalcTaxCapacity), 'WARNING')]#tooltippable #tooltip:[State.GetTooltipTag],STATE_TAX_CAPACITY_TOOLTIP [State.CalcTaxCapacity|0v]#!#!/#tooltippable #tooltip:[State.GetTooltipTag],STATE_TAX_CAPACITY_USAGE_TOOLTIP [State.CalcTaxCapacityUsage|0v]#!#![AddLocalizationIf(GreaterThan_CFixedPoint(State.CalcTaxCapacityUsage, State.CalcTaxCapacity), 'STATE_TAX_CAPACITY_INSUFFICIENT')]"
  STATE_MARKET_CAPITAL_STATUS_CONDENSED:0 "[State.GetMarket.GetName]\n[State.GetMarketAccess|%v0]"
 
  CASUALTY_DEBUG_CASUALTIES_HEADER:0 "伤亡人数："

@@ -13523,7 +13523,7 @@ han={
 	  dynn_xin327"##虞
 	}
 	ethnicities = {
-		5 = asian
+		10 = asian
 		1 = central_asian
 		1 = native_american
 	}

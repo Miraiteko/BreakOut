@@ -70,7 +70,6 @@ pm_serfdom_no = {
 		}	
 		unscaled = {
 			building_subsistence_output_add = 0.5
-			building_group_bg_base_education_access_throughput_mult = 0.05
 		}
 	}
 	state_modifiers = {
@@ -98,7 +97,6 @@ pm_serfdom = {
 			building_employment_breeders_add = 14000
 		}			
 		unscaled = {
-			building_group_bg_base_education_access_throughput_mult = 0.01
 		}		
 	}
 	state_modifiers = {
@@ -177,7 +175,6 @@ pm_serfdom_building_subsistence_orchards = {
 			building_employment_breeders_add = 14000
 		}			
 		unscaled = {
-			building_group_bg_base_education_access_throughput_mult = 0.01
 		}				
 	}
 	state_modifiers = {
@@ -251,7 +248,6 @@ pm_serfdom_building_subsistence_pastures = {
 			building_employment_breeders_add = 14000
 		}			
 		unscaled = {
-			building_group_bg_base_education_access_throughput_mult = 0.01
 		}			
 	}
 	state_modifiers = {

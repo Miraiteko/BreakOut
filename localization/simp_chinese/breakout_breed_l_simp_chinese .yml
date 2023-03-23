@@ -55,8 +55,8 @@
  
  breed_center:0 "居民区"
  pmg_breed_methods:0 "劳动力"
- pm_tradition_breeders:0 "多子多福"
- pm_elite_breeders:0 "优生优育"
+ pm_tradition_breed:0 "多子多福"
+ pm_elite_breed:0 "优生优育"
  
  pmg_breed_center_space_use:0 "楼间空地"
  pm_breed_center_park:0 "公园"

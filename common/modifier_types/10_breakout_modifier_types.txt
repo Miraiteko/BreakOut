@@ -23,6 +23,10 @@ building_output_oil_mult = {
 	good = yes
 	percent = yes
 }
+building_output_grain_mult = {
+	good = yes
+	percent = yes
+}
 
 building_output_breed_add = {
 	good = yes

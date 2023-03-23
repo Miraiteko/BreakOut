@@ -16,7 +16,7 @@
 
 fiber_polymerization = {
 	building_group = bg_light_industry	
-	texture = "gfx/interface/icons/building_icons/logging_camp.dds"
+	texture = "gfx/interface/icons/building_icons/fiber_polymerization.dds"
 	
 	unlocking_technologies = {
 		plastics

@@ -12,8 +12,6 @@ pm_tradition_breed = {
 			building_employment_breeders_add = 7000
 		}
 		unscaled = {
-			building_group_bg_base_education_access_throughput_mult = 0.3
-			#building_breeders_birthrate_mult = 1.0
 		}
 	}		
 	state_modifiers = {
@@ -43,7 +41,6 @@ pm_elite_breed = {
 			building_employment_breeders_add = 5000
 		}
 		unscaled = {
-			building_group_bg_base_education_access_throughput_mult = 0.5
 		}
 	}		
 	state_modifiers = {

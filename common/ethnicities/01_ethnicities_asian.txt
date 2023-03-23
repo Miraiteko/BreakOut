@@ -34,11 +34,11 @@
 @blend3min = 0.5
 @blend3max = 0.8
 
-    asian = {
+asian = {
     template = "ethnicity_template"
 
     skin_color = {
-        10 = { 0.2 0.3 0.2 0.3 }
+        100 = { 0.9 0.1 0.9 0.1 }
     }
     eye_color = {
         # Brown
@@ -281,7 +281,7 @@
     ### Blend shape genes ###
     gene_cheek_fat = {
 
-        15 = {  name = cheek_fat             range = { 0.5 0.9 }     }
+        15 = {  name = cheek_fat             range = { 0.4 0.7 }     }
 
 
 
@@ -289,7 +289,7 @@
 
     gene_cheek_forward = {
 
-        84 = { name = cheek_forward   range = { 0.5 0.9 }      }
+        84 = { name = cheek_forward   range = { 0.4 0.7 }      }
 
     }
 

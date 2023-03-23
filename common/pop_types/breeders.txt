@@ -4,7 +4,7 @@
 	strata = poor
 	#subsistence_income = yes
 	start_quality_of_life = 5
-	wage_weight = 1.0
+	wage_weight = 1.2
 	dependent_wage = 0.25
 	unemployment = yes
 	
