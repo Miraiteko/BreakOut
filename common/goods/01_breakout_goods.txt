@@ -148,3 +148,14 @@ computation = {
 	prestige_factor = 5
 	convoy_cost_multiplier = 0.01
 }
+#服务
+services = {
+	texture = "gfx/interface/icons/goods_icons/services.dds"
+	cost = 25
+	category = staple
+	tradeable = yes
+	
+	prestige_factor = 3
+	
+	consumption_tax_cost = 200
+}

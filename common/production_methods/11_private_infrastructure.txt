@@ -224,13 +224,13 @@ pm_worker_cooperative_building_railway = {
 	}
 }
 
-#贸易中心消耗运力
 pm_trade_center = {
 	texture = "gfx/interface/icons/production_method_icons/trade_center.dds"
 	
 	building_modifiers = {
 		workforce_scaled = {	
-			building_input_transportation_add = 1
+			#building_input_transportation_add = 20
+			#building_output_services_add = 25
 		}
 		level_scaled = {
 			building_employment_laborers_add = 50

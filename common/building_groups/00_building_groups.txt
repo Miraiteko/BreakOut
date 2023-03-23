@@ -433,7 +433,7 @@ bg_trade = {
 	
 	cash_reserves_max = 5000	
 	
-	urbanization = 20
+	urbanization = 30
 	
 	fired_pops_become_radical = no
 }
