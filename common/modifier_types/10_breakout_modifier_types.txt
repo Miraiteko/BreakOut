@@ -28,6 +28,14 @@ building_output_grain_mult = {
 	percent = yes
 }
 
+building_output_services_mult = {
+	good = yes
+	percent = yes
+}
+building_input_transportation_mult = {
+	good = no
+	percent = yes
+}
 building_output_breed_add = {
 	good = yes
 	percent = no

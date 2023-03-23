@@ -52,7 +52,10 @@
  modifier_building_input_breed_add_desc:0 "建筑投入的@breed!$breed$数量"
  modifier_building_input_services_add:0 "每级@services!劳务投入"
  modifier_building_input_services_add_desc:0 "建筑投入的@services!劳务数量"
- 
+ modifier_building_output_services_mult:0 "每级@services!劳务产出"
+ modifier_building_output_services_mult_desc:0 "建筑产出的@services!劳务数量"
+ modifier_building_input_transportation_mult:0 "每级@transportation!运力投入"
+ modifier_building_input_transportation_mult_desc:0 "建筑投入的@transportation!运力数量"
  breed_center:0 "居民区"
  pmg_breed_methods:0 "劳动力"
  pm_tradition_breed:0 "多子多福"
