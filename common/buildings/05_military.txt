@@ -21,18 +21,6 @@ building_barracks = {
 		pmg_specialist_companies
 		pmg_medical_aid
 	}
-	
-	possible ={
-		error_check = {
-			severity = fail
-			NOT = {
-				any_scope_building = {
-					is_building_type = building_barracks
-					building_has_goods_shortage = yes
-				}
-			} 
-		}
-	}
 	required_construction = construction_cost_very_low
 }
 
@@ -86,12 +74,6 @@ building_naval_base = {
 		error_check = {
 			severity = fail
 			is_coastal = yes
-			NOT = {
-				any_scope_building = {
-					is_building_type = building_naval_base
-					building_has_goods_shortage = yes
-				}
-			} 
 		}
 	}
 }

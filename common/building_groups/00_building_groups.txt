@@ -354,10 +354,10 @@ bg_illegal = {
 	category = urban
 	lens = urban
 	land_usage = urban
-	default_building = casino
+	#default_building = casino
 
-	always_possible = yes	
-	auto_place_buildings = yes	
+	always_possible = no	
+	#auto_place_buildings = yes	
 	
 	economy_of_scale = no
 	cash_reserves_max = 1000

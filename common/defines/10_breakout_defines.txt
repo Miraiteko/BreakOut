@@ -118,8 +118,8 @@ NEconomy = {
 	#商品供需系统	
 	MIN_GOODS_PRICE	= 0.01							# A good cannot have a lower base price than this
 	PRICE_RANGE = 0.95   						# min price of a good is base * (1 - PRICE_RANGE), Max price is base * (1 + PRICE_RANGE), PRICE_RANGE is locked to [0-1]
-	BUY_SELL_DIFF_AT_MAX_FACTOR = 2				# the difference between buy/consumption and sell/production at min/max pricing, e.g. if set to 4 then if buy orders are 4x sell orders price is maxed
-	GOODS_SHORTAGE_PENALTY_THRESHOLD = 0.75		# If supply / demand is lower than this, start applying output penalties, by default this should be ( 1 / BUY_SELL_DIFF_AT_MAX_FACTOR )
+	BUY_SELL_DIFF_AT_MAX_FACTOR = 3				# the difference between buy/consumption and sell/production at min/max pricing, e.g. if set to 4 then if buy orders are 4x sell orders price is maxed
+	GOODS_SHORTAGE_PENALTY_THRESHOLD = 0.5		# If supply / demand is lower than this, start applying output penalties, by default this should be ( 1 / BUY_SELL_DIFF_AT_MAX_FACTOR )
 	GOODS_SHORTAGE_PENALTY_INCREASE_SPEED = 0.01  	# Goods shortage penalty increases by this fraction of the target each day
     GOODS_SHORTAGE_PENALTY_DECREASE_SPEED = 0.02  	# Goods shortage penalty goes down by this fraction of GOODS_SHORTAGE_PENALTY_MAX each day
     GOODS_SHORTAGE_PENALTY_MIN = 0.01			# Goods shortage penalty can't be lower than this if there is any shortage
@@ -224,7 +224,7 @@ NAI = {
 
 	# Below data is used to calculate how much weight the AI places on specific subsidies
 	SUBSIDIZE_BASE_VALUE = 1000
-	SUBSIDIZE_SHARE_OF_INFRA_FACTOR = 1000		# How highly is subsidization of a building valued if it provides 100% of the infrastructure in the state region
+	SUBSIDIZE_SHARE_OF_INFRA_FACTOR = 200		# How highly is subsidization of a building valued if it provides 100% of the infrastructure in the state region
 	SUBSIDIZE_SHARE_OF_SUPPLY_FACTOR = 2000		# How highly is subsidization of a building valued if it provides 100% of the sell orders for a good in the market
 	SUBSIDIZE_FAVORED_GOODS_MULT = 1.5 			# Share of supply factor is multiplied by this for a good that the AI wants a high supply of
 	SUBSIDIZE_DISFAVORED_GOODS_MULT = 0.75 		# Share of supply factor is multiplied by this for a good that the AI disfavors

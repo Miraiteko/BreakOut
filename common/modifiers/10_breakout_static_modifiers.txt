@@ -63,7 +63,7 @@ modifier_overlord = {
 	country_prestige_add = 500
 }
 country_gdp = {
-	country_minting_add = 0.2
+	country_minting_add = 1
 }
 state_region_devastation = {
 	state_infrastructure_mult = -1.0
