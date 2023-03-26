@@ -5,11 +5,11 @@
  pmg_ownership_capital:0 "所有权"
  pm_publicly_traded_industry:0 "公开交易"
  
- financing_service:0 "融资服务"
- modifier_building_output_financing_service_add:0 "每级@financing_service!融资服务产出"
- modifier_building_output_financing_service_add_desc:0 "建筑产出的@financing_service!融资服务数量"
- modifier_building_input_financing_service_add:0 "每级@financing_service!融资服务投入"
- modifier_building_input_financing_service_add_desc:0 "建筑投入的@financing_service!融资服务数量"
+ investment_management:0 "金融服务"
+ modifier_building_output_investment_management_add:0 "每级@investment_management!金融服务产出"
+ modifier_building_output_investment_management_add_desc:0 "建筑产出的@investment_management!金融服务数量"
+ modifier_building_input_investment_management_add:0 "每级@investment_management!金融服务投入"
+ modifier_building_input_investment_management_add_desc:0 "建筑投入的@investment_management!金融服务数量"
  
  religion_service:0 "宗教服务"
  modifier_building_output_religion_service_add:0 "每级@religion_service!$religion_service$产出"

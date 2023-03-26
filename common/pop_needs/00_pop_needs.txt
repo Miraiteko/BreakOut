@@ -383,7 +383,7 @@ popneed_art = {
 	}
 
 	entry = {
-		goods = religion_service
+		goods = investment_management
 		
 		weight = 10
 		max_weight = 50.0

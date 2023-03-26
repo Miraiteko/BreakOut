@@ -94,20 +94,20 @@ building_input_spaceflight_add = {
 }
 
 
-building_output_financing_service_add = {
+building_output_investment_management_add = {
 	good = yes
 	percent = no
 }
-building_input_financing_service_add = {
+building_input_investment_management_add = {
 	good = no
 	percent = no
 }
 
-building_output_religion_service_add = {
+building_output_investment_management_add = {
 	good = yes
 	percent = no
 }
-building_input_religion_service_add = {
+building_input_investment_management_add = {
 	good = no
 	percent = no
 }

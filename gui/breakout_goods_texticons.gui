@@ -45,9 +45,9 @@ texticon = {
 }
 
 texticon = {
-	icon = financing_service
+	icon = investment_management
 	iconsize = {
-		texture = "gfx/interface/icons/goods_icons/financing_service.dds"
+		texture = "gfx/interface/icons/goods_icons/investment_management.dds"
 		size = { 25 25 }
 		offset = { 0 7 }
 		fontsize = 18

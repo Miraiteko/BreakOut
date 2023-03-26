@@ -8,6 +8,8 @@ breed = {
 	prestige_factor = 5
 	
 	obsession_chance = 1.0
+	
+	consumption_tax_cost = 100
 }
 #博彩
 gambling = {
@@ -19,11 +21,13 @@ gambling = {
 	prestige_factor = 0
 	
 	obsession_chance = 1.0
+
+	consumption_tax_cost = 300
 }
 #电力调度
 dispatching = {
 	texture = "gfx/interface/icons/goods_icons/dispatching.dds"
-	cost = 30
+	cost = 50
 	category = industrial
 	tradeable = no
 	
@@ -50,13 +54,14 @@ spaceflight = {
 	prestige_factor = 10
 }
 #融资服务
-financing_service = {
-	texture = "gfx/interface/icons/goods_icons/financing_service.dds"
+investment_management = {
+	texture = "gfx/interface/icons/goods_icons/investment_management.dds"
 	cost = 100
 	category = industrial
 	tradeable = yes
 	
 	prestige_factor = 3
+	consumption_tax_cost = 1000
 }
 #投资管理
 religion_service = {
@@ -66,6 +71,7 @@ religion_service = {
 	tradeable = yes
 	
 	prestige_factor = 5
+	consumption_tax_cost = 1000
 }
 #金融力量
 finance_power = {
@@ -75,6 +81,7 @@ finance_power = {
 	tradeable = no
 	
 	prestige_factor = 15
+	consumption_tax_cost = 1000
 }
 
 #原油
@@ -97,6 +104,7 @@ medicine = {
 	
 	prestige_factor = 3
 	convoy_cost_multiplier = 0.5
+	consumption_tax_cost = 300
 }
 #医疗护理
 medical_care = {
@@ -107,6 +115,7 @@ medical_care = {
 	
 	prestige_factor = 2
 	convoy_cost_multiplier = 2
+	consumption_tax_cost = 500
 }
 #晶圆
 wafer = {
@@ -137,6 +146,7 @@ software = {
 	
 	prestige_factor = 5
 	convoy_cost_multiplier = 0.01
+	consumption_tax_cost = 300
 }
 #算力
 computation = {
@@ -147,6 +157,7 @@ computation = {
 	
 	prestige_factor = 5
 	convoy_cost_multiplier = 0.01
+	consumption_tax_cost = 300
 }
 #服务
 services = {

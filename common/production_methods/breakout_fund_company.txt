@@ -5,7 +5,7 @@
 		workforce_scaled = {
 			building_input_paper_add = 30 # 30
 			building_output_gambling_add = 5 #50
-			building_output_religion_service_add = 15 #100
+			building_output_investment_management_add = 15 #100
 		}	
 		level_scaled = {
 			building_employment_clerks_add = 200
@@ -32,7 +32,7 @@ pm_pop_stock_exchange = {
 		workforce_scaled = {
 			building_input_paper_add = 35 # 30
 			building_output_gambling_add = 10 #50
-			building_output_religion_service_add = 20 #100
+			building_output_investment_management_add = 20 #100
 		}	
 		level_scaled = {
 			building_employment_clerks_add = 400
@@ -59,7 +59,7 @@ pm_fund_stock_exchange = {
 		workforce_scaled = {
 			building_input_telephones_add = 15 #70
 			building_output_gambling_add = 10 #50
-			building_output_religion_service_add = 35 #100
+			building_output_investment_management_add = 35 #100
 		}	
 		level_scaled = {
 			building_employment_clerks_add = 600
