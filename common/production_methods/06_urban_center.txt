@@ -208,7 +208,7 @@ pm_public_motor_carriages = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_transportation_add = 50
+			building_input_transportation_add = 25
 			#building_output_services_mult = 0.02
 			#building_input_transportation_mult = 0.02
 			building_economy_of_scale_level_cap_add = 1

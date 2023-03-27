@@ -932,7 +932,7 @@ pm_rail_transport_mine = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods					
-			building_input_transportation_add = 5
+			building_input_services_add = 5
 		}
 
 		level_scaled = {

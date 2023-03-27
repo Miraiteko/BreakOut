@@ -567,7 +567,7 @@ pm_refrigerated_rail_cars_building_livestock_ranch = {
 	building_modifiers = {
 		workforce_scaled = {
 			building_input_electricity_add = 4
-			building_input_transportation_add = 3
+			building_input_services_add = 3
 		}
 
 		level_scaled = {

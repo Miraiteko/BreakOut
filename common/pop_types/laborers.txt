@@ -32,7 +32,7 @@ laborers = {
 		else = {
 			#生活水平越高，越不想成为劳工
 			add = {
-				value = 15
+				value = 200
 				divide = wealth
 				desc = "QUALIFICATIONS_WEALTH_FACTOR"
 			}
