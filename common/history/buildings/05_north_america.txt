@@ -73,17 +73,12 @@
 				reserves=1
 			}
 			create_building={
-				building="software_park"
+				building="computer_plant"
 				level=6
 				reserves=1
 			}
 			create_building={
-				building="internet_data_center"
-				level=6
-				reserves=1
-			}
-			create_building={
-				building="virtual_mine"
+				building="theater"
 				level=6
 				reserves=1
 			}

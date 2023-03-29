@@ -33,7 +33,17 @@ pmg_urban_clergy = {
 		pm_free_urban_clergy
 	}
 }
+pmg_theater = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
 
+	production_methods = {
+		pm_show
+		pm_novel
+		pm_vedio_show
+		pm_vedio_game
+	}
+}
 pmg_base_building_arts_academy = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive

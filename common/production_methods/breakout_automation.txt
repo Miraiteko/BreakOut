@@ -78,15 +78,16 @@ pm_lithography = { #光刻
 	}	
 }	
 
-#软件园
-pm_software_park = {
+#智能设备厂
+pm_computer_plant = {
 	texture = "gfx/interface/icons/production_method_icons/trains_electric.dds"
 		
 	building_modifiers = {
 		workforce_scaled = {
 			building_input_telephones_add = 20 #70
 			building_input_electricity_add = 30 #30
-			building_output_software_add = 70 #50
+			#building_output_software_add = 70 #50
+			building_output_computer_add = 35 #100
 		}	
 		level_scaled = {
 			building_employment_machinists_add = 5000

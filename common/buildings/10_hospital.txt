@@ -1,7 +1,7 @@
 ﻿#医院
 hospital = {
 	building_group = bg_light_industry	
-	texture = "gfx/interface/icons/building_icons/white_house.dds"
+	texture = "gfx/interface/icons/building_icons/hospital.dds"  
 	
 	unlocking_technologies = {
 	}

@@ -15,17 +15,17 @@ wafer_plant = {
 
 	required_construction = construction_cost_medium
 }
-#软件园
-software_park = {
+#智能设备厂
+computer_plant = {
 	building_group = bg_machine_industry	
-	texture = "gfx/interface/icons/building_icons/software_park.dds"
+	texture = "gfx/interface/icons/building_icons/computer_plant.dds"
 	
 	unlocking_technologies = {
 		radio
 	}
 
 	production_method_groups = {
-		pmg_software_park
+		pmg_computer_plant
 		pmg_ownership_capital
 	}
 

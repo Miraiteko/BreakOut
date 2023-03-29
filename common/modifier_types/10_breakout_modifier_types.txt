@@ -174,11 +174,19 @@ building_input_software_add = {
 	percent = no
 }
 
-building_output_computation_add = {
+building_output_computer_add = {
 	good = yes
 	percent = no
 }
-building_input_computation_add = {
+building_input_computer_add = {
+	good = no
+	percent = no
+}
+building_output_popular_art_add = {
+	good = yes
+	percent = no
+}
+building_input_popular_art_add = {
 	good = no
 	percent = no
 }

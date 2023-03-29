@@ -168,6 +168,35 @@ law_women_in_the_workplace = {
 				}
 				value = 0.1
 			}
+			if = {
+				limit = {
+					owner = {
+						OR = {
+							has_law = law_type:law_no_womens_rights
+							has_law = law_type:law_women_own_property
+						}
+					}
+					is_pop_type = breeders
+					is_employed = no
+				}
+				value = 10.0
+			}
+			if = {
+				limit = {
+					is_pop_type = breeders
+					owner = {
+						OR = {
+							has_law = law_type:law_no_womens_rights
+							has_law = law_type:law_women_own_property
+						}
+					}
+					state = {
+						turmoil > 0.25
+					}
+				}
+				value = 10.0
+			}
+			
 		}
 	}
 	
@@ -235,6 +264,30 @@ law_womens_suffrage = {
 					}
 				}
 				value = 0.1
+			}
+			if = {
+				limit = {
+					owner = {
+						has_technology_researched = feminism
+						has_technology_researched = political_agitation
+					}
+					is_pop_type = breeders
+					is_employed = no
+				}
+				value = 10.0
+			}
+			if = {
+				limit = {
+					is_pop_type = breeders
+					owner = {
+						has_technology_researched = feminism
+						has_technology_researched = political_agitation
+					}
+					state = {
+						turmoil > 0.25
+					}
+				}
+				value = 10.0
 			}
 		}
 	}

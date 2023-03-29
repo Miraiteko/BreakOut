@@ -1,0 +1,43 @@
+﻿breakout_nuke = {
+	scope = state
+	effect = {
+		owner = {
+			save_scope_as = defender
+		}
+		every_country = {
+			limit = {
+				is_local_player = yes
+				exists = ruler
+			}
+			ruler = {
+				kill_character = yes
+			}
+			save_scope_as = attacker
+		}
+		if = {
+			limit = { exists = scope:attacker }
+			state_region = {
+				add_devastation = 100
+				add_pollution = 255
+			}
+			every_scope_pop = {
+				set_pop_wealth = {
+					wealth_distribution = {
+						value = 1
+					}
+					update_loyalties = yes
+				}
+			}
+		}
+	}
+	is_shown = {
+		owner = {
+			is_local_player = no
+		}
+	}
+	is_valid = {
+		owner = {
+			is_local_player = no
+		}
+	}
+}

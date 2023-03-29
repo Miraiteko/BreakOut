@@ -125,7 +125,7 @@ wafer = {
 	tradeable = yes
 	
 	prestige_factor = 2
-	convoy_cost_multiplier = 2
+	convoy_cost_multiplier = 0.5 
 }
 #芯片
 chip = {
@@ -148,8 +148,8 @@ software = {
 	convoy_cost_multiplier = 0.01
 	consumption_tax_cost = 300
 }
-#算力
-computation = {
+#智能设备
+computer = {
 	texture = "gfx/interface/icons/goods_icons/computation.dds"
 	cost = 100
 	category = industrial
@@ -158,6 +158,17 @@ computation = {
 	prestige_factor = 5
 	convoy_cost_multiplier = 0.01
 	consumption_tax_cost = 300
+}
+#市井艺术，与高端的fine_art对应
+popular_art = {
+	texture = "gfx/interface/icons/goods_icons/popular_art.dds" #暂时借用舰娘mod的本子图标
+	cost = 50
+	category = staple
+	
+	obsession_chance = 1.0
+	prestige_factor = 5
+	
+	traded_quantity = 2
 }
 #服务
 services = {

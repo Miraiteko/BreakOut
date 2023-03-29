@@ -256,6 +256,63 @@ pm_free_urban_clergy = {
 	}			
 }			
 
+pm_show = {
+	texture = "gfx/interface/icons/production_method_icons/traditional_art.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			building_output_popular_art_add = 2 # 100 - profit of 100
+		}
+	}
+}
+
+pm_novel = {
+	texture = "gfx/interface/icons/production_method_icons/realist_art.dds"
+
+	unlocking_technologies = {
+		realism
+	}
+
+	building_modifiers = {		
+	
+		workforce_scaled = {
+			building_input_paper_add = 5 # 150
+			building_output_popular_art_add = 6 # 300 - profit of 150
+		}				
+	}
+}
+
+pm_vedio_show = {
+	texture = "gfx/interface/icons/production_method_icons/photographic_art.dds"
+
+	unlocking_technologies = {
+		camera
+	}
+	
+	building_modifiers = {		
+	
+		workforce_scaled = {
+			building_input_telephones_add = 3 #210
+			building_output_popular_art_add = 8 # 400 - profit of 190
+		}					
+	}
+}
+
+pm_vedio_game = {
+	texture = "gfx/interface/icons/production_method_icons/film_art.dds"
+
+	unlocking_technologies = {
+		film
+	}
+
+	building_modifiers = {	
+		workforce_scaled = {
+			building_input_computer_add = 3 #300			
+			building_output_popular_art_add = 12 # 600 - profit of 300
+		}					
+	}
+}	
+
 pm_traditional_art = {
 	texture = "gfx/interface/icons/production_method_icons/traditional_art.dds"
 	

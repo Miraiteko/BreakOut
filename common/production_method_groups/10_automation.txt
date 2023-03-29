@@ -18,9 +18,9 @@ pmg_chip_plant = {
 		pm_lithography
 	}
 }
-pmg_software_park = {
+pmg_computer_plant = {
 	production_methods = {
-		pm_software_park
+		pm_computer_plant
 	}
 }
 pmg_internet_data_center = {

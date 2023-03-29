@@ -44,6 +44,23 @@ building_arts_academy = {
 
 	required_construction = construction_cost_high
 }
+theater = {
+	building_group = bg_arts
+
+	city_type = none
+
+	unlocking_technologies = {
+	}
+
+	production_method_groups = {
+		pmg_theater
+		pmg_ownership_building_arts_academy
+	}
+	
+	texture = "gfx/interface/icons/building_icons/theater.dds"
+
+	required_construction = construction_cost_low
+}
 
 building_power_plant = {
 	building_group = bg_power

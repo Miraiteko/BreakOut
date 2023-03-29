@@ -20,6 +20,8 @@
  miners:0 "建筑师"
  
  #半导体相关
+ #设计思路：基础供应自动化需求，中间发展期要靠市井艺术来支撑，最后引发人工智能革命
+
  wafer:0 "晶圆"
  modifier_building_output_wafer_add:0 "每级@wafer!晶圆产出"
  modifier_building_output_wafer_add_desc:0 "建筑产出的@wafer!晶圆数量"
@@ -29,52 +31,65 @@
  wafer_plant:0 "晶圆厂"
  pmg_wafer_plant:0 "晶圆"
  pm_wafer_plant:0 "晶圆"
- 
- chip:0 "芯片"
- modifier_building_output_chip_add:0 "每级@chip!芯片产出"
- modifier_building_output_chip_add_desc:0 "建筑产出的@chip!芯片数量"
- modifier_building_input_chip_add:0 "每级@chip!晶圆投入"
- modifier_building_input_chip_add_desc:0 "建筑投入的@chip!芯片数量"
- 
- chip_plant:0 "芯片厂"
+
  pmg_chip_plant:0 "芯片"
  pm_transistor:0 "晶体管"
  pm_chemical_etching:0 "化学刻蚀"
  pm_lithography:0 "光刻"
  
- computer:0 "计算机"
- modifier_building_output_computer_add:0 "每级@computer!计算机产出"
- modifier_building_output_computer_add_desc:0 "建筑产出的@computer!计算机数量"
- modifier_building_input_computer_add:0 "每级@computer!计算机投入"
- modifier_building_input_computer_add_desc:0 "建筑投入的@computer!计算机数量"
+ computer:0 "智能设备"
+ computer_plant:0 "智能设备厂"
+ pmg_computer_plant:0 "智能设备"
+ pm_computer_plant:0 "智能设备"
+ modifier_building_output_computer_add:0 "每级@computer!$computer$产出"
+ modifier_building_output_computer_add_desc:0 "建筑产出的@computer!$computer$数量"
+ modifier_building_input_computer_add:0 "每级@computer!$computer$投入"
+ modifier_building_input_computer_add_desc:0 "建筑投入的@computer!$computer$数量"
  
- software:0 "软件"
- modifier_building_output_software_add:0 "每级@software!软件产出"
- modifier_building_output_software_add_desc:0 "建筑产出的@software!软件数量"
- modifier_building_input_software_add:0 "每级@software!软件投入"
- modifier_building_input_software_add_desc:0 "建筑投入的@software!软件数量"
+ theater:0 "剧院"
+ pmg_theater:0 "剧院"
+ pm_show:0 "杂耍班子"
+ pm_novel:0 "通俗小说"
+ pm_vedio_show:0 "电影"
+ pm_vedio_game:0 "电子游戏"
  
- software_park:0 "软件园"
- pmg_software_park:0 "软件园"
- pm_software_park:0 "软件园"
+ popular_art:0 "市井文艺"
+ modifier_building_output_popular_art_add:0 "每级@popular_art!$popular_art$产出"
+ modifier_building_output_popular_art_add_desc:0 "建筑产出的@popular_art!$popular_art$数量"
+ modifier_building_input_popular_art_add:0 "每级@popular_art!$popular_art$投入"
+ modifier_building_input_popular_art_add_desc:0 "建筑投入的@popular_art!$popular_art$数量"
  
- computation:0 "算力"
- modifier_building_output_computation_add:0 "每级@computation!算力产出"
- modifier_building_output_computation_add_desc:0 "建筑产出的@computation!算力数量"
- modifier_building_input_computation_add:0 "每级@computation!算力投入"
- modifier_building_input_computation_add_desc:0 "建筑投入的@computation!算力数量"
- 
- internet_data_center:0 "数据中心"
- pmg_internet_data_center:0 "数据中心"
- pm_internet_data_center:0 "数据中心"
- 
- virtual_mine:0 "数字金矿"
- pmg_virtual_mine:0 "数字金矿"
- pm_virtual_mine:0 "数字金矿"
- 
+
  pmg_automation:0 "自动化"
  pm_manual_control:0 "手工操作"
  pm_proportional_integral_control:0 "控制电路"
  pm_reinforcement_learning_control:0 "数字化控制"
  pm_quantum_ergodic_control:0 "人工智能"
+ 
+
+ #以下内容废弃
+ 
+ modifier_building_output_chip_add:0 "每级@chip!芯片产出"
+ modifier_building_output_chip_add_desc:0 "建筑产出的@chip!芯片数量"
+ modifier_building_input_chip_add:0 "每级@chip!晶圆投入"
+ modifier_building_input_chip_add_desc:0 "建筑投入的@chip!芯片数量"
+ software:0 "软件"
+ modifier_building_output_software_add:0 "每级@software!软件产出"
+ modifier_building_output_software_add_desc:0 "建筑产出的@software!软件数量"
+ modifier_building_input_software_add:0 "每级@software!软件投入"
+ modifier_building_input_software_add_desc:0 "建筑投入的@software!软件数量"
+ internet_data_center:0 "数据中心"
+ pmg_internet_data_center:0 "数据中心"
+ pm_internet_data_center:0 "数据中心" 
+ computation:0 "算力"
+ modifier_building_output_computation_add:0 "每级@computation!算力产出"
+ modifier_building_output_computation_add_desc:0 "建筑产出的@computation!算力数量"
+ modifier_building_input_computation_add:0 "每级@computation!算力投入"
+ modifier_building_input_computation_add_desc:0 "建筑投入的@computation!算力数量"
+ virtual_mine:0 "数字金矿"
+ pmg_virtual_mine:0 "数字金矿"
+ pm_virtual_mine:0 "数字金矿"
+ virtual_mine:0 "数字金矿"
+ pmg_virtual_mine:0 "数字金矿"
+ pm_virtual_mine:0 "数字金矿"
  

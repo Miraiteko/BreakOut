@@ -6,7 +6,7 @@
  DATE_AD_YEAR:0 "羲和$YEAR$"
  DATE_BC_YEAR:0 "羲和前$YEAR$"
  DATE_FORMATTING_LONG:0 "羲和历$YEAR$年$MONTH$$DAY$日"
- CLOCK_TEXT:0 "#BOLD 羲和历[TimeKeeper.GetCurrentDate.Format('y年 wm月 d日')]#!"
+ CLOCK_TEXT:0 "#BOLD 羲和历[TimeKeeper.GetCurrentDate.Format('y年wmw d日')]#!"
  CLOCK_DEBUG_TEXT:0 "[TimeKeeper.GetDayOfWeek][TimeKeeper.GetTimeOfDay]"
  
  CW_DATE_January:0 "立春"
@@ -55,3 +55,5 @@
  modifier_building_group_bg_infrastructure_throughput_mult_desc:0 "对基础设施的吞吐量的修正"
  modifier_building_group_bg_military_throughput_mult:0 "军事建筑吞吐量"
  modifier_building_group_bg_military_throughput_mult_desc:0 "对军事建筑的吞吐量的修正"
+
+ telephones:0 "电器"
