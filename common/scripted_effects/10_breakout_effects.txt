@@ -607,3 +607,43 @@ sacrifice_festival_effect = {
 		is_decaying = yes
 	}
 }
+#技术突破
+eurika = {
+	#输入以下参数：目标科技TECHNOLOGY,难度DIFFICULTY,技术突破产品STRENGTH_GOOD,技术突破强度STRENGTH
+	random_list = {
+		$DIFFICULTY$ = {
+
+		}
+		0 = {
+			modifier = {
+				$STRENGTH_GOOD$ = {
+					add = market_goods_sell_orders
+				}
+			}
+			save_scope_as = current_country_scope
+			$STRENGTH_GOOD$ = {
+				goods = {
+					save_scope_as = current_good_scope
+				}
+			}
+			set_variable = {
+				name = recent_eurika_size
+				value = $EURIKA_SIZE$ 
+			}
+			set_variable = {
+				name = recent_eurika_technology
+				value = $TECHNOLOGY$
+			}
+			add_technology_progress = { 
+				progress = $EURIKA_SIZE$ 
+				technology = $TECHNOLOGY$
+			}
+
+			
+			$TECHNOLOGY$ = {
+				save_scope_as = current_technology_scope
+			}
+			post_notification = eurika_notification
+		}
+	}
+}

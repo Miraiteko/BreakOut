@@ -14,6 +14,14 @@
  exp_bonus:0 "[concept_technology]创新事件发生概率"
  exp_bonus_desc:0 "超出上限的[concept_production_exp]不会减少原料投入，而是会驱动科技发展。"
 
+ eurika_notification:0 "技术突破"
+ eurika_notification_group:0 "技术突破"
+ notification_eurika_notification_name:0 "技术突破"
+ notification_eurika_notification_desc:0 "由于[SCOPE.sCountry('current_country_scope').GetCapital.GetMarket.GetName]的[SCOPE.sGoods('current_good_scope').GetName]生产，[SCOPE.sT('technology').GetName]发生了技术突破，获得了[SCOPE.sCountry('current_country_scope').MakeScope.GetVariable('recent_eurika_size').GetValue|v0]点进展。"
+ #notification_eurika_notification_tooltip:0 "#header $notification_eurika_notification_name$#!\n$TOOLTIP_DELIMITER$\n$notification_eurika_notification_desc$"
+ notification_eurika_notification_tooltip:0 "技术突破TT"
+#科技无法传入GUI
+
  carpenters:0 "育种师"
  cooks:0 "软件师"
  goldsmiths:0 "冶金师"
@@ -46,10 +54,10 @@
  modifier_building_input_computer_add:0 "每级@computer!$computer$投入"
  modifier_building_input_computer_add_desc:0 "建筑投入的@computer!$computer$数量"
  
- theater:0 "剧院"
- pmg_theater:0 "剧院"
+ theater:0 "茶楼"
+ pmg_theater:0 "茶楼"
  pm_show:0 "杂耍班子"
- pm_novel:0 "通俗小说"
+ pm_novel:0 "评书"
  pm_vedio_show:0 "电影"
  pm_vedio_game:0 "电子游戏"
  
@@ -58,6 +66,8 @@
  modifier_building_output_popular_art_add_desc:0 "建筑产出的@popular_art!$popular_art$数量"
  modifier_building_input_popular_art_add:0 "每级@popular_art!$popular_art$投入"
  modifier_building_input_popular_art_add_desc:0 "建筑投入的@popular_art!$popular_art$数量"
+ modifier_building_output_popular_art_mult:0 "建筑@popular_art!$popular_art$产出"
+ modifier_building_output_popular_art_mult_desc:0 "对建筑产出的@popular_art!$popular_art$数量的增益或惩罚"
  
 
  pmg_automation:0 "自动化"

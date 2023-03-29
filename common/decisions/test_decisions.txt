@@ -7,7 +7,11 @@
 	}
 	
 	when_taken = {
-		every_scope_pop = {
+		eurika = {
+			TECHNOLOGY = controlable_nuclear_fusion
+			DIFFICULTY = 10
+			STRENGTH_GOOD = market.mg:computer 
+			EURIKA_SIZE = 100
 		}
 	}
 	ai_chance = {

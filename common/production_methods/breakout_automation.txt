@@ -84,13 +84,14 @@ pm_computer_plant = {
 		
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_telephones_add = 20 #70
-			building_input_electricity_add = 30 #30
-			#building_output_software_add = 70 #50
-			building_output_computer_add = 35 #100
+			building_input_telephones_add = 20 #70,1400
+			building_input_electricity_add = 30 #30,900
+			building_input_wafer_add = 20 #50,1000
+			building_output_computer_add = 35 #100,3500
 		}	
 		level_scaled = {
-			building_employment_machinists_add = 5000
+			building_employment_laborers_add = 3000
+			building_employment_machinists_add = 3000
 			building_employment_engineers_add = 1000
 		}
 	}		
@@ -141,7 +142,7 @@ pm_proportional_integral_control = {
 	texture = "gfx/interface/icons/production_method_icons/mechanized_looms.dds"
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_telephones_add = 4 #70
+			building_input_telephones_add = 8 #70
 		}	
 		level_scaled = {
 			building_employment_laborers_add = -750
@@ -152,7 +153,7 @@ pm_reinforcement_learning_control = {
 	texture = "gfx/interface/icons/production_method_icons/automatic_power_looms.dds"
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_software_add = 10 #50
+			building_input_computer_add = 10 #100
 		}	
 		level_scaled = {
 			building_employment_laborers_add = -1000
@@ -164,7 +165,7 @@ pm_quantum_ergodic_control = {
 	texture = "gfx/interface/icons/production_method_icons/automatic_power_looms.dds"
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_computation_add = 10 #100
+			building_input_computer_add = 20 #100
 		}
 		level_scaled = {
 			building_employment_laborers_add = -1250

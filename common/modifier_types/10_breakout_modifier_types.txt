@@ -7,6 +7,10 @@ building_output_tobacco_mult = {
 	good = yes
 	percent = yes
 }
+building_output_popular_art_mult = {
+	good = yes
+	percent = yes
+}
 building_output_gambling_mult = {
 	good = yes
 	percent = yes

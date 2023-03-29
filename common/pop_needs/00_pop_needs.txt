@@ -236,6 +236,13 @@ popneed_luxury_items = {
 		min_weight = 0.1
 	}
 	entry = {
+		goods = computer
+		
+		weight = 1
+		max_weight = 4.0 # Maxes out at 40% of supply share
+		min_weight = 0.1
+	}
+	entry = {
 		goods = automobiles
 		
 		weight = 1
