@@ -308,7 +308,7 @@ pm_vedio_game = {
 	building_modifiers = {	
 		workforce_scaled = {
 			building_input_computer_add = 3 #300			
-			building_output_popular_art_add = 14 # 700 - profit of 400
+			building_output_popular_art_add = 15 # 750 - profit of 450
 		}					
 	}
 }	

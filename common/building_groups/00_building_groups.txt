@@ -34,7 +34,7 @@ bg_manufacturing = {
 
 	always_possible = yes
 	
-	economy_of_scale = no
+	economy_of_scale = yes
 	
 	cash_reserves_max = 25000
 	
@@ -104,7 +104,7 @@ bg_agriculture = {
 	
 	lens = agriculture
 	
-	economy_of_scale = no
+	economy_of_scale = yes
 	
 	can_use_slaves = yes
 	
@@ -160,7 +160,7 @@ bg_ranches = {
 bg_mining = {
 	category = rural
 
-	economy_of_scale = no
+	economy_of_scale = yes
 	
 	capped_by_resources = yes
 	
@@ -215,7 +215,7 @@ bg_whaling = {
 
 	capped_by_resources = yes
 	
-	economy_of_scale = no
+	economy_of_scale = yes
 	
 	default_building = building_whaling_station
 	
@@ -236,7 +236,7 @@ bg_fishing = {
 
 	capped_by_resources = yes
 	
-	economy_of_scale = no
+	economy_of_scale = yes
 	
 	default_building = building_fishing_wharf
 	
@@ -259,7 +259,7 @@ bg_oil_extraction = {
 
 	capped_by_resources = yes
 	
-	economy_of_scale = no
+	economy_of_scale = yes
 	
 	discoverable_resource = yes
 	
@@ -284,7 +284,7 @@ bg_logging = {
 
 	capped_by_resources = yes
 	
-	economy_of_scale = no
+	economy_of_scale = yes
 	
 	can_use_slaves = yes
 	
@@ -307,7 +307,7 @@ bg_rubber = {
 	
 	capped_by_resources = yes
 	
-	economy_of_scale = no
+	economy_of_scale = yes
 	
 	discoverable_resource = yes
 	
@@ -375,7 +375,7 @@ bg_urban_facilities = {
 
 	always_possible = yes
 	
-	economy_of_scale = no
+	economy_of_scale = yes
 	
 	cash_reserves_max = 25000
 	

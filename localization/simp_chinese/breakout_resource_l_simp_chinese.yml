@@ -88,6 +88,7 @@
  pmg_psychedelic_drugs:0 "致幻剂"
  pm_no_psychedelic_drugs:0 "查禁致幻剂"
  pm_psychedelic_drugs:0 "致幻剂许可"
+ pm_chemical_bliss:0 "化学极乐"
  
  hospital:0 "医院"
  pmg_hospital:0 "医院"
