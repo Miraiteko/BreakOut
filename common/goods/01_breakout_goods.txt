@@ -160,8 +160,8 @@ computer = {
 	consumption_tax_cost = 300
 }
 #市井艺术，与高端的fine_art对应
-popular_art = {
-	texture = "gfx/interface/icons/goods_icons/popular_art.dds" #暂时借用舰娘mod的本子图标
+entertainment = {
+	texture = "gfx/interface/icons/goods_icons/entertainment.dds" #暂时借用舰娘mod的本子图标
 	cost = 50
 	category = staple
 	

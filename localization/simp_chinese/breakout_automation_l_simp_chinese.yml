@@ -61,13 +61,13 @@
  pm_vedio_show:0 "电影"
  pm_vedio_game:0 "电子游戏"
  
- popular_art:0 "市井文艺"
- modifier_building_output_popular_art_add:0 "每级@popular_art!$popular_art$产出"
- modifier_building_output_popular_art_add_desc:0 "建筑产出的@popular_art!$popular_art$数量"
- modifier_building_input_popular_art_add:0 "每级@popular_art!$popular_art$投入"
- modifier_building_input_popular_art_add_desc:0 "建筑投入的@popular_art!$popular_art$数量"
- modifier_building_output_popular_art_mult:0 "建筑@popular_art!$popular_art$产出"
- modifier_building_output_popular_art_mult_desc:0 "对建筑产出的@popular_art!$popular_art$数量的增益或惩罚"
+ entertainment:0 "娱乐"
+ modifier_building_output_entertainment_add:0 "每级@entertainment!$entertainment$产出"
+ modifier_building_output_entertainment_add_desc:0 "建筑产出的@entertainment!$entertainment$数量"
+ modifier_building_input_entertainment_add:0 "每级@entertainment!$entertainment$投入"
+ modifier_building_input_entertainment_add_desc:0 "建筑投入的@entertainment!$entertainment$数量"
+ modifier_building_output_entertainment_mult:0 "建筑@entertainment!$entertainment$产出"
+ modifier_building_output_entertainment_mult_desc:0 "对建筑产出的@entertainment!$entertainment$数量的增益或惩罚"
  
 
  pmg_automation:0 "自动化"

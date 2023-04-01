@@ -7,7 +7,7 @@ building_output_tobacco_mult = {
 	good = yes
 	percent = yes
 }
-building_output_popular_art_mult = {
+building_output_entertainment_mult = {
 	good = yes
 	percent = yes
 }
@@ -186,11 +186,11 @@ building_input_computer_add = {
 	good = no
 	percent = no
 }
-building_output_popular_art_add = {
+building_output_entertainment_add = {
 	good = yes
 	percent = no
 }
-building_input_popular_art_add = {
+building_input_entertainment_add = {
 	good = no
 	percent = no
 }

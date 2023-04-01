@@ -344,7 +344,7 @@ popneed_intoxicants = {
 	}
 	
 	entry = {
-		goods = popular_art
+		goods = entertainment
 		
 		weight = 10
 		max_weight = 30.0
