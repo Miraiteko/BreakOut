@@ -124,7 +124,7 @@
 			25 = { set_strategy = ai_strategy_resource_expansion }
 			25 = { set_strategy = ai_strategy_plantation_economy }
 		}		
-		set_strategy = ai_strategy_economic_imperialism
+		set_strategy = ai_strategy_unify_world
 		set_strategy = ai_strategy_conservative_agenda
 	}
 	c:EGY = {
@@ -140,8 +140,7 @@
 			75 = { set_strategy = ai_strategy_placate_population }
 			25 = { set_strategy = ai_strategy_agricultural_expansion }
 		}			
-		set_strategy = ai_strategy_armed_isolationism
-		set_strategy = ai_strategy_maintain_mandate_of_heaven
+		set_strategy = ai_strategy_unify_world
 	}
 	c:JAP = {
 		random_list = {	

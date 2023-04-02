@@ -7,14 +7,14 @@
 	}
 	
 	when_taken = {
-		if = {
+		every_scope_character = {
 			limit = {
-				is_banning_goods = g:entertainment
+				OR = {
+					has_role = general
+					has_role = admiral
+				}
 			}
-			remove_banned_goods = g:entertainment
-		}
-		else = {
-			add_banned_goods = g:entertainment
+			set_character_busy = no
 		}
 	}
 	ai_chance = {

@@ -13,7 +13,8 @@
       "common/buildings",
       "common/production_method_groups",
       "common/production_methods",
-      
+
+      "common/decisions",      
       "common/history",
       "common/history/buildings",
       "common/journal_entries",

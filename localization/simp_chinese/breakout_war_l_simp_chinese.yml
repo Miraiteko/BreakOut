@@ -84,3 +84,7 @@
  
  #战役相关
  MAJOR_BATTLE_SIZE_COMBAT_WIDTH:0 "已达到最大战场宽度"
+
+ #AI战略
+ ai_strategy_unify_world:0 "扫清六合"
+ ai_strategy_unify_world_desc:0 "[COUNTRY.GetName]希望将全世界统一在他们的旗帜下。"
