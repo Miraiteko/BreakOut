@@ -26,7 +26,7 @@ law_ethnostate = {
 		country_authority_add = 200
 		state_radicals_from_sol_change_accepted_culture_mult = -0.2
 		state_loyalists_from_sol_change_accepted_culture_mult = 0.2			
-		country_bureaucracy_investment_cost_factor_mult = -0.20
+		country_bureaucracy_investment_cost_factor_mult = -0.80
 	}
 	
 	possible_political_movements = {
@@ -60,7 +60,8 @@ law_national_supremacy = {
 	modifier = {
 		country_authority_add = 150
 		state_radicals_from_sol_change_accepted_culture_mult = -0.15
-		state_loyalists_from_sol_change_accepted_culture_mult = 0.15			
+		state_loyalists_from_sol_change_accepted_culture_mult = 0.15		
+		country_bureaucracy_investment_cost_factor_mult = -0.6	
 	}
 	
 	possible_political_movements = {
@@ -91,8 +92,8 @@ law_racial_segregation = {
 	modifier = {
 		country_authority_add = 100
 		state_radicals_from_sol_change_accepted_culture_mult = -0.1
-		state_loyalists_from_sol_change_accepted_culture_mult = 0.1		
-		country_bureaucracy_investment_cost_factor_mult = 0.10
+		state_loyalists_from_sol_change_accepted_culture_mult = 0.1			
+		country_bureaucracy_investment_cost_factor_mult = -0.4
 	}
 	
 	possible_political_movements = {
@@ -147,7 +148,7 @@ law_cultural_exclusion = {
 		country_authority_add = 50
 		state_radicals_from_sol_change_accepted_culture_mult = -0.05
 		state_loyalists_from_sol_change_accepted_culture_mult = 0.05		
-		country_bureaucracy_investment_cost_factor_mult = 0.25
+		country_bureaucracy_investment_cost_factor_mult = -0.2
 	}
 	
 	possible_political_movements = {
@@ -202,7 +203,6 @@ law_multicultural = {
 	}
 	
 	modifier = {
-		country_bureaucracy_investment_cost_factor_mult = 0.40
 	}
 	
 	possible_political_movements = {

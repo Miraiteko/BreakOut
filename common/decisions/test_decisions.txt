@@ -7,11 +7,14 @@
 	}
 	
 	when_taken = {
-		eurika = {
-			TECHNOLOGY = controlable_nuclear_fusion
-			DIFFICULTY = 10
-			STRENGTH_GOOD = market.mg:computer 
-			EURIKA_SIZE = 100
+		if = {
+			limit = {
+				is_banning_goods = g:entertainment
+			}
+			remove_banned_goods = g:entertainment
+		}
+		else = {
+			add_banned_goods = g:entertainment
 		}
 	}
 	ai_chance = {
