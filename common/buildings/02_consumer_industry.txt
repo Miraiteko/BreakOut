@@ -1,5 +1,35 @@
 ﻿# MANUFACTURING INDUSTRIES
+hydroponics_farm = {
+	building_group = bg_light_industry	
+	texture = "gfx/interface/icons/building_icons/hydroponics_farm.dds"
+	
+	unlocking_technologies = {
+		nitrogen_fixation
+	}
 
+	production_method_groups = {
+		pmg_hydroponics_farm
+		pmg_ownership_capital
+	}
+
+	required_construction = construction_cost_medium
+}
+
+fiber_polymerization = {
+	building_group = bg_light_industry	
+	texture = "gfx/interface/icons/building_icons/fiber_polymerization.dds"
+	
+	unlocking_technologies = {
+		plastics
+	}
+
+	production_method_groups = {
+		pmg_fiber_polymerization
+		pmg_ownership_capital
+	}
+
+	required_construction = construction_cost_medium
+}
 building_food_industry = {
 	building_group = bg_light_industry
 	texture = "gfx/interface/icons/building_icons/food_industry.dds"
@@ -246,24 +276,7 @@ building_war_machine_industry = {
 	required_construction = construction_cost_very_high
 }
 
-building_electrics_industry = {
-	building_group = bg_machine_industry
-	texture = "gfx/interface/icons/building_icons/electrics_industry.dds"
-	city_type = city
-	levels_per_mesh = 5
-	
-	unlocking_technologies = {
-		telephone
-	}
 
-	production_method_groups = {
-		pmg_telephones_category
-		pmg_radios_category
-		pmg_ownership_capital_building_electrics_industry
-	}
-	
-	required_construction = construction_cost_very_high
-}
 
 building_arms_industry = {
 	building_group = bg_light_industry

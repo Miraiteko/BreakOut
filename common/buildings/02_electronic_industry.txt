@@ -1,4 +1,5 @@
-﻿#晶圆厂
+﻿
+#晶圆厂
 wafer_plant = {
 	building_group = bg_machine_industry	
 	texture = "gfx/interface/icons/building_icons/wafer_plant.dds"
@@ -14,6 +15,25 @@ wafer_plant = {
 	}
 
 	required_construction = construction_cost_medium
+}
+#电子厂
+building_electrics_industry = {
+	building_group = bg_machine_industry
+	texture = "gfx/interface/icons/building_icons/electrics_industry.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	unlocking_technologies = {
+		telephone
+	}
+
+	production_method_groups = {
+		pmg_telephones_category
+		pmg_radios_category
+		pmg_ownership_capital_building_electrics_industry
+	}
+	
+	required_construction = construction_cost_very_high
 }
 #智能设备厂
 computer_plant = {
