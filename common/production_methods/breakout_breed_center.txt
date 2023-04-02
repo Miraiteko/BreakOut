@@ -76,7 +76,7 @@ pm_breed_center_shop = {
 		level_scaled = {
 			building_employment_laborers_add = 350
 			building_employment_clerks_add = 300
-			building_employment_capitalists_add = 200
+			building_employment_capitalists_add = 20
 		}
 		unscaled = {
 		}

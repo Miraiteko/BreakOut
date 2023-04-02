@@ -12,7 +12,7 @@
 	}
 	c:FRA = {
 		add_modifier = { name = modifier_overlord }
-		effect_starting_politics_reactionary = yes
+		effect_starting_politics_liberal = yes
 		add_era_researched = era_1
 		add_era_researched = era_2
 		add_era_researched = era_3
@@ -27,7 +27,7 @@
 	}
 	c:GBR = {
 		add_modifier = { name = modifier_emperor }
-		effect_starting_politics_conservative = yes
+		effect_starting_politics_liberal = yes
 		add_era_researched = era_1
 		add_era_researched = era_2
 		add_era_researched = era_3

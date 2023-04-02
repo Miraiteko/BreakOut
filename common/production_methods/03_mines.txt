@@ -303,7 +303,7 @@ pm_privately_owned_building_coal_mine = {
 
 	building_modifiers = {
 		level_scaled = {
-			building_employment_capitalists_add = 100
+			building_employment_capitalists_add = 10
 		}
 		unscaled = {
 			building_capitalists_shares_add = 10
@@ -327,7 +327,7 @@ pm_privately_owned_building_iron_mine = {
 
 	building_modifiers = {
 		level_scaled = {
-			building_employment_capitalists_add = 100
+			building_employment_capitalists_add = 10
 		}
 		unscaled = {
 			building_capitalists_shares_add = 10
@@ -351,7 +351,7 @@ pm_privately_owned_building_lead_mine = {
 
 	building_modifiers = {
 		level_scaled = {
-			building_employment_capitalists_add = 100
+			building_employment_capitalists_add = 10
 		}
 		unscaled = {
 			building_capitalists_shares_add = 10
@@ -375,7 +375,7 @@ pm_privately_owned_building_sulfur_mine = {
 
 	building_modifiers = {
 		level_scaled = {
-			building_employment_capitalists_add = 100
+			building_employment_capitalists_add = 10
 		}
 		unscaled = {
 			building_capitalists_shares_add = 10
@@ -399,7 +399,7 @@ pm_privately_owned_building_gold_mine = {
 
 	building_modifiers = {
 		level_scaled = {
-			building_employment_capitalists_add = 100
+			building_employment_capitalists_add = 10
 		}
 		unscaled = {
 			building_capitalists_shares_add = 10
@@ -427,7 +427,7 @@ pm_publicly_traded_building_coal_mine = {
 
 	building_modifiers = {
 		level_scaled = {
-			building_employment_capitalists_add = 150
+			building_employment_capitalists_add = 15
 		}
 		unscaled = {
 			building_capitalists_shares_add = 10
@@ -455,7 +455,7 @@ pm_publicly_traded_building_iron_mine = {
 
 	building_modifiers = {
 		level_scaled = {
-			building_employment_capitalists_add = 150
+			building_employment_capitalists_add = 15
 		}
 		unscaled = {
 			building_capitalists_shares_add = 10
@@ -483,7 +483,7 @@ pm_publicly_traded_building_lead_mine = {
 
 	building_modifiers = {
 		level_scaled = {
-			building_employment_capitalists_add = 150
+			building_employment_capitalists_add = 15
 		}
 		unscaled = {
 			building_capitalists_shares_add = 10
@@ -511,7 +511,7 @@ pm_publicly_traded_building_sulfur_mine = {
 
 	building_modifiers = {
 		level_scaled = {
-			building_employment_capitalists_add = 150
+			building_employment_capitalists_add = 15
 		}
 		unscaled = {
 			building_capitalists_shares_add = 10
@@ -539,7 +539,7 @@ pm_publicly_traded_building_gold_mine = {
 
 	building_modifiers = {
 		level_scaled = {
-			building_employment_capitalists_add = 150
+			building_employment_capitalists_add = 15
 		}
 		unscaled = {
 			building_capitalists_shares_add = 10

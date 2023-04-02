@@ -135,7 +135,7 @@ bg_subsistence = {
 bg_grain_plantations = {
 	parent_group = bg_agriculture
 	
-	default_building = building_rice_farm
+	default_building = building_wheat_farm
 	
 	cash_reserves_max = 25000
 }

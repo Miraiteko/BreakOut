@@ -197,7 +197,7 @@ pm_privately_owned_building_logging_camp = {
 
 	building_modifiers = {
 		level_scaled = {
-			building_employment_capitalists_add = 100
+			building_employment_capitalists_add = 10
 		}
 		unscaled = {
 			building_capitalists_shares_add = 10
@@ -224,7 +224,7 @@ pm_publicly_traded_building_logging_camp = {
 
 	building_modifiers = {
 		level_scaled = {
-			building_employment_capitalists_add = 150
+			building_employment_capitalists_add = 15
 		}
 		unscaled = {
 			building_capitalists_shares_add = 10
@@ -474,7 +474,7 @@ pm_privately_owned_building_fishing_wharf = {
 
 	building_modifiers = {
 		level_scaled = {
-			building_employment_capitalists_add = 100
+			building_employment_capitalists_add = 10
 		}
 		unscaled = {
 			building_capitalists_shares_add = 10
@@ -501,7 +501,7 @@ pm_publicly_traded_building_fishing_wharf = {
 
 	building_modifiers = {
 		level_scaled = {
-			building_employment_capitalists_add = 150
+			building_employment_capitalists_add = 15
 		}
 		unscaled = {
 			building_capitalists_shares_add = 10
@@ -725,7 +725,7 @@ pm_privately_owned_building_whaling_station = {
 
 	building_modifiers = {
 		level_scaled = {
-			building_employment_capitalists_add = 100
+			building_employment_capitalists_add = 10
 		}
 		unscaled = {
 			building_capitalists_shares_add = 10
@@ -752,7 +752,7 @@ pm_publicly_traded_building_whaling_station = {
 
 	building_modifiers = {
 		level_scaled = {
-			building_employment_capitalists_add = 150
+			building_employment_capitalists_add = 15
 		}
 		unscaled = {
 			building_capitalists_shares_add = 10
@@ -901,7 +901,7 @@ pm_publicly_traded_building_oil_rig = {
 
 	building_modifiers = {
 		level_scaled = {
-			building_employment_capitalists_add = 150
+			building_employment_capitalists_add = 15
 		}
 		unscaled = {
 			building_capitalists_shares_add = 10
