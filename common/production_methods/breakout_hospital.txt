@@ -5,6 +5,7 @@
 		workforce_scaled = {
 			building_input_medicine_add = 30 #50
 			building_output_medical_care_add = 30 #80
+			building_output_gene_add = 5 #100
 		}	
 		level_scaled = {
 			building_employment_laborers_add = 1000

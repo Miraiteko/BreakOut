@@ -1,6 +1,6 @@
 ﻿l_simp_chinese:
  bg_manufacturing:0 "制造业"
-    bg_light_industry:0 "民生轻工业"
+    bg_consumer_industry:0 "民生工业"
       building_chemical_plants:0 "化工厂"
       building_chemical_plants_lens_option:0 "扩建$building_chemical_plants$"
       building_food_industry:0 "食品厂"

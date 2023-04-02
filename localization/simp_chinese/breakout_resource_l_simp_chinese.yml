@@ -80,6 +80,11 @@
  modifier_building_output_medical_care_add_desc:0 "建筑产出的@medical_care!医疗数量"
  modifier_building_input_medical_care_add:0 "每级@medical_care!医疗投入"
  modifier_building_input_medical_care_add_desc:0 "建筑投入的@medical_care!医疗数量"
+ gene:0 "基因工程"
+ modifier_building_output_gene_add:0 "每级@gene!$gene$产出"
+ modifier_building_output_gene_add_desc:0 "建筑产出的@gene!$gene$数量"
+ modifier_building_input_gene_add:0 "每级@gene!$gene$投入"
+ modifier_building_input_gene_add_desc:0 "建筑投入的@gene!$gene$数量"
  
  
  pharmaceutical_mill:0 "制药厂"

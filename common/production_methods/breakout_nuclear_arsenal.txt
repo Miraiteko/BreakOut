@@ -16,6 +16,7 @@ pm_atomic_bomb = {
 			building_employment_officers_add = 500
 			building_employment_academics_add = 500
 			building_employment_soldiers_add = 2000
+			building_training_rate_add = 20
 		}
 		unscaled = {
 			building_group_bg_nuclear_impact_wave_throughput_mult = 50
@@ -47,6 +48,7 @@ pm_hydrogen_bomb = {
 			building_employment_officers_add = 500
 			building_employment_academics_add = 500
 			building_employment_soldiers_add = 2000
+			building_training_rate_add = 20
 		}
 		unscaled = {
 			building_group_bg_nuclear_impact_wave_throughput_mult = 500
@@ -72,6 +74,7 @@ pm_neutron_bomb = {
 			building_input_sulfur_add = 150
 			building_input_explosives_add = 50
 			building_group_bg_nuclear_holdings_throughput_mult = 1
+			building_training_rate_add = 20
 		}	
 		level_scaled = {
 			building_employment_officers_add = 500

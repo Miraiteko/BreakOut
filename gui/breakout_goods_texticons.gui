@@ -99,6 +99,15 @@ texticon = {
 	}
 }
 texticon = {
+	icon = gene
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/gene.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+texticon = {
 	icon = wafer
 	iconsize = {
 		texture = "gfx/interface/icons/goods_icons/wafer.dds" 

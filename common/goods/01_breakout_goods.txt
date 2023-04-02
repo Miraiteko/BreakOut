@@ -117,6 +117,17 @@ medical_care = {
 	convoy_cost_multiplier = 2
 	consumption_tax_cost = 500
 }
+#基因工程
+gene = {
+	texture = "gfx/interface/icons/goods_icons/gene.dds"
+	cost = 100
+	category = industrial
+	tradeable = yes
+	
+	prestige_factor = 2
+	convoy_cost_multiplier = 0.5
+	consumption_tax_cost = 500
+}
 #晶圆
 wafer = {
 	texture = "gfx/interface/icons/goods_icons/wafer.dds"

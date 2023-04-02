@@ -1,6 +1,6 @@
 ﻿# MANUFACTURING INDUSTRIES
 hydroponics_farm = {
-	building_group = bg_light_industry	
+	building_group = bg_consumer_industry	
 	texture = "gfx/interface/icons/building_icons/hydroponics_farm.dds"
 	
 	unlocking_technologies = {
@@ -16,7 +16,7 @@ hydroponics_farm = {
 }
 
 fiber_polymerization = {
-	building_group = bg_light_industry	
+	building_group = bg_consumer_industry	
 	texture = "gfx/interface/icons/building_icons/fiber_polymerization.dds"
 	
 	unlocking_technologies = {
@@ -31,7 +31,7 @@ fiber_polymerization = {
 	required_construction = construction_cost_medium
 }
 building_food_industry = {
-	building_group = bg_light_industry
+	building_group = bg_consumer_industry
 	texture = "gfx/interface/icons/building_icons/food_industry.dds"
 	city_type = city
 	levels_per_mesh = 5
@@ -53,7 +53,7 @@ building_food_industry = {
 }
 
 building_textile_mills = {
-	building_group = bg_light_industry
+	building_group = bg_consumer_industry
 	texture = "gfx/interface/icons/building_icons/textile_industry.dds"
 	city_type = city
 	levels_per_mesh = 5
@@ -73,7 +73,7 @@ building_textile_mills = {
 }
 
 building_furniture_manufacturies = {
-	building_group = bg_light_industry
+	building_group = bg_consumer_industry
 	texture = "gfx/interface/icons/building_icons/furniture_manufacturies.dds"
 	city_type = city
 	levels_per_mesh = 5
@@ -93,7 +93,7 @@ building_furniture_manufacturies = {
 }
 
 building_glassworks = {
-	building_group = bg_light_industry
+	building_group = bg_consumer_industry
 	texture = "gfx/interface/icons/building_icons/glassworks.dds"
 	city_type = city
 	levels_per_mesh = 5
@@ -113,7 +113,7 @@ building_glassworks = {
 }
 
 building_tooling_workshops = {
-	building_group = bg_light_industry
+	building_group = bg_consumer_industry
 	texture = "gfx/interface/icons/building_icons/tooling_workshops.dds"
 	
 	unlocking_technologies = {
@@ -135,7 +135,7 @@ building_tooling_workshops = {
 }
 
 building_paper_mills = {
-	building_group = bg_light_industry
+	building_group = bg_consumer_industry
 	texture = "gfx/interface/icons/building_icons/paper_mills.dds"
 	
 	unlocking_technologies = {
@@ -233,7 +233,7 @@ building_motor_industry = {
 }
 
 building_shipyards = {
-	building_group = bg_light_industry
+	building_group = bg_consumer_industry
 	texture = "gfx/interface/icons/building_icons/shipyards.dds"
 	city_type = port
 	
@@ -279,7 +279,7 @@ building_war_machine_industry = {
 
 
 building_arms_industry = {
-	building_group = bg_light_industry
+	building_group = bg_consumer_industry
 	texture = "gfx/interface/icons/building_icons/arms_industry.dds"
 	city_type = city
 	levels_per_mesh = 5

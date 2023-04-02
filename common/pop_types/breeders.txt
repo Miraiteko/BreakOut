@@ -4,8 +4,8 @@
 	strata = poor
 	#subsistence_income = yes
 	start_quality_of_life = 5
-	wage_weight = 1.2
-	dependent_wage = 0.25
+	wage_weight = 1.5
+	dependent_wage = 0.5
 	unemployment = yes
 	
 	qualifications_growth_desc = "BREEDERS_QUALIFICATIONS_DESC"

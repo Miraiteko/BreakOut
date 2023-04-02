@@ -150,6 +150,14 @@ building_input_medical_care_add = {
 	good = no
 	percent = no
 }
+building_output_gene_add = {
+	good = yes
+	percent = no
+}
+building_input_gene_add = {
+	good = no
+	percent = no
+}
 
 building_output_wafer_add = {
 	good = yes

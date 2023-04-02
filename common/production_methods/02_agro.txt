@@ -3,7 +3,7 @@
 	building_modifiers = {
 		workforce_scaled = {
 			# output goods													
-			building_output_grain_add = 30
+			building_output_grain_add = 10
 		}
 
 		level_scaled = {
@@ -27,7 +27,7 @@ pm_soil_enriching_farming = {
 			building_input_fertilizer_add = 5				
 			
 			# output goods													
-			building_output_grain_add = 50				
+			building_output_grain_add = 30				
 		}
 
 		level_scaled = {
@@ -52,7 +52,7 @@ pm_fertilization = {
 			building_input_fertilizer_add = 15				
 			
 			# output goods												   
-			building_output_grain_add = 90				
+			building_output_grain_add = 50				
 		}
 
 		level_scaled = {
@@ -75,7 +75,7 @@ pm_chemical_fertilizer = {
 			building_input_fertilizer_add = 40				
 			
 			# output goods												   
-			building_output_grain_add = 140				
+			building_output_grain_add = 90				
 		}
 
 		level_scaled = {

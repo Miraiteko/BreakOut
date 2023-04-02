@@ -22,12 +22,13 @@
 # hires_unemployed_only = yes			If yes, buildings in this group may only hire from the unemployment pool. Default no.
 
 #工业
-##民生工业
-##材料工业
-##机械工业
-##石油工业
-##能源工业
-##电子工业
+##消费品工业→工艺师
+##材料工业→冶金师
+##机械工业→
+##石油工业→药剂师
+##能源工业→
+##信息工业→算法师
+##生物工业→育种师
 
 bg_manufacturing = {
 	category = urban
@@ -42,7 +43,7 @@ bg_manufacturing = {
 		default_auto_expand_rule = yes
 	}
 }
-bg_light_industry = {
+bg_consumer_industry = {
 	parent_group = bg_manufacturing
 
 	lens = light_industry
@@ -134,7 +135,7 @@ bg_subsistence = {
 bg_grain_plantations = {
 	parent_group = bg_agriculture
 	
-	default_building = building_wheat_farm
+	default_building = building_rice_farm
 	
 	cash_reserves_max = 25000
 }
@@ -329,11 +330,11 @@ bg_rubber = {
 
 
 #服务业
-##城市中心
-##城市设施
-##人口
+##城市中心→店主
+##城市设施→艺术家
+##人口→抚育者
 ##基础设施
-##政府机关
+##政府机关→官僚
 
 bg_service = {
 	category = urban

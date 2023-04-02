@@ -15,6 +15,12 @@ nuclear_arsenal = {
 	}
 
 	required_construction = construction_cost_very_low
+	possible ={
+		error_check = {
+			severity = fail
+			always = no
+		}
+	}
 }
 
 building_barracks = {

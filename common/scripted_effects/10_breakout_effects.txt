@@ -555,10 +555,7 @@ breakout_AI = {
 			is_ai = yes
 			has_wasted_construction = no
 			is_construction_paused = no
-			OR = {
-				gold_reserves > gold_reserves_limit
-				investment_pool > gold_reserves_limit
-			}
+			gold_reserves > gold_reserves_limit
 			weekly_net_fixed_income >= 10000
 			construction_queue_government_duration > 10
 			

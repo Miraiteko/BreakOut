@@ -4,11 +4,12 @@
 
 	building_modifiers = {
 		workforce_scaled = {					
+			building_input_gene_add = 10 #100
 			building_input_electricity_add = 40	#30   
 			building_input_fertilizer_add = 60 #30											   
 			building_output_grain_add = 150	#20
-			building_output_fruit_add = 20 #30
-			building_output_sugar_add = 10 #30		
+			building_output_fruit_add = 50 #30
+			building_output_sugar_add = 50 #30		
 		}
 
 		level_scaled = {								

@@ -1,6 +1,6 @@
 ﻿#证券交易所
 stock_exchange = {
-	building_group = bg_light_industry	
+	building_group = bg_consumer_industry	
 	texture = "gfx/interface/icons/building_icons/fund_company.dds"
 	#texture = "gfx/interface/icons/building_icons/stock_exchange.dds"
 	

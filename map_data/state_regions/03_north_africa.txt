@@ -1,4 +1,4 @@
-﻿STATE_LOWER_EGYPT = {
+STATE_LOWER_EGYPT = {
     id = 175
     subsistence_building = "building_subsistence_farms"
     provinces = { "x2050A0" "x409060" "x48E2A5" "x5011E0" "x50D0E0" "x6F13AD" "x7ABE4B" "xA0D020" "xC09060" "xC37990" "xD050E0" "xF47AAA" }
@@ -180,7 +180,7 @@ STATE_DARFUR = {
     mine = "xF0883A"
     wood = "x3B2BDC"
     arable_land = 20
-    arable_resources = { "bg_ranches" "bg_skyscraper" }
+    arable_resources = { "bg_ranches" }
     resource = {
         type = "bg_oil_extraction"
         undiscovered_amount = 10
