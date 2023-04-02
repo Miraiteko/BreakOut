@@ -914,6 +914,7 @@
 
  troop_name_regular:0 "常备部队"
  troop_name_conscript:0 "征召部队"
+ troop_name_flotilla:0 "舰队"
 
  combat_unit_regular:1 "常备营队"
  combat_unit_conscript:1 "征召营队"

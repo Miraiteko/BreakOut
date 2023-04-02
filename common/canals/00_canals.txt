@@ -1,0 +1,60 @@
+﻿canal_suez = {
+	texture = "gfx/interface/icons/building_icons/suez_canal.dds"
+
+	possible = {
+		has_technology_researched = colonization
+		owns_treaty_port_in = STATE_SINAI
+		custom_tooltip = {
+			text = suez_survey_complete_tooltip
+			#has_variable = suez_survey_complete
+		}
+		
+	}
+
+	state_region = STATE_SINAI
+}
+
+canal_panama = {
+	texture = "gfx/interface/icons/building_icons/panama_canal.dds"
+
+	possible = {
+		has_technology_researched = civilizing_mission
+		owns_treaty_port_in = STATE_PANAMA
+
+		custom_tooltip = {
+			text = panama_survey_complete_tooltip
+			#has_variable = panama_survey_complete
+		}
+	}
+
+	state_region = STATE_PANAMA
+}
+
+canal_melaka = {
+	texture = "gfx/interface/icons/building_icons/panama_canal.dds"
+
+	possible = {
+		owns_treaty_port_in = STATE_MALAYA
+	}
+
+	state_region = STATE_MALAYA
+}
+
+canal_sunda = {
+	texture = "gfx/interface/icons/building_icons/panama_canal.dds"
+
+	possible = {
+		owns_treaty_port_in = STATE_SOUTH_SUMATRA
+	}
+
+	state_region = STATE_SOUTH_SUMATRA
+}
+canal_gibraltar = {
+	texture = "gfx/interface/icons/building_icons/panama_canal.dds"
+
+	possible = {
+		owns_treaty_port_in = STATE_GRANADA
+	}
+
+	state_region = STATE_GRANADA
+}

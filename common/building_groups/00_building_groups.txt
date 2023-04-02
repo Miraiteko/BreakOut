@@ -488,7 +488,11 @@ bg_canals = {
 	
 	urbanization = 100
 }
-
+bg_straits = {
+	parent_group = bg_navy
+	urbanization = 0
+	lens = special
+}
 bg_monuments = {
 	parent_group = bg_government
 	lens = special

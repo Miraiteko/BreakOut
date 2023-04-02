@@ -352,6 +352,16 @@
 		}
 	}
 	s:STATE_SOUTH_SUMATRA = {
+		region_state:USA = {
+			create_pop = {
+				culture = dutch
+				size = 300
+			}
+			create_pop = {
+				culture = yue
+				size = 3400
+			}
+		}
 		region_state:DEI = {
 			create_pop = {
 				culture = sumatran
