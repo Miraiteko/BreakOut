@@ -54,8 +54,8 @@
  modifier_building_input_computer_add:0 "每级@computer!$computer$投入"
  modifier_building_input_computer_add_desc:0 "建筑投入的@computer!$computer$数量"
  
- theater:0 "茶楼"
- pmg_theater:0 "茶楼"
+ theater:0 "极乐广场"
+ pmg_theater:0 "极乐广场"
  pm_show:0 "杂耍班子"
  pm_novel:0 "评书"
  pm_vedio_show:0 "电影"

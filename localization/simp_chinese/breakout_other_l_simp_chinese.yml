@@ -64,3 +64,7 @@
  #debug
  breakout_test_decision:0 "【大秦东出】测试用决议"
  breakout_test_decision_desc:0 "开发测试时使用"
+
+ building_canal_melaka:0 "马六甲海峡要塞"
+ building_canal_sunda:0 "巽他海峡要塞"
+ building_canal_gibraltar:0 "直布罗陀海峡要塞"

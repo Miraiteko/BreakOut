@@ -15,6 +15,7 @@
       "common/production_methods",
       
       "common/history",
+      "common/history/buildings",
       "common/journal_entries",
       "events"
     ]
