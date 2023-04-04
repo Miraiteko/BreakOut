@@ -879,9 +879,21 @@ ai_strategy_unify_world = {
 	wargoal_scores = {
 		conquer_state = {
 			add = 100
+			if = {
+				limit = {
+					NOT = { has_strategic_adjacency = scope:target_state }	
+				}
+				multiply = 0
+			}
 		}
 		return_state = {
 			value = 100
+			if = {
+				limit = {
+					NOT = { has_strategic_adjacency = scope:target_state }	
+				}
+				multiply = 0
+			}
 		}		
 		unification_leadership = {
 			value = 1000
@@ -891,9 +903,21 @@ ai_strategy_unify_world = {
 	secret_goal_scores = {
 		protect = {		
 			add = 1000
+			if = {
+				limit = {
+					NOT = { has_strategic_adjacency = scope:target_country }	
+				}
+				multiply = 0
+			}
 		}		
 		dominate = {		
 			add = 1000
+			if = {
+				limit = {
+					NOT = { has_strategic_adjacency = scope:target_country }	
+				}
+				multiply = 0
+			}
 		}
 		conquer = {				
 			add = 100	
