@@ -9,6 +9,7 @@
 		pm_trench_infantry
 		pm_squad_infantry
 		pm_mechanized_infantry
+		pm_dragon_army
 	}
 }
 

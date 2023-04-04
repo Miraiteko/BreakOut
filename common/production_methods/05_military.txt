@@ -220,7 +220,47 @@ pm_mechanized_infantry = {
 		pm_offense_defense_readjustment
 	}
 }
+pm_dragon_army = {
+	texture = "gfx/interface/icons/production_method_icons/armored_division.dds"
+	unlocking_technologies = {
+		mobile_armor
+	}
+	disallowing_laws = {
+		law_peasant_levies
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_dragon_add = 1
+			building_input_radios_add = 1
+		}
 
+		level_scaled = {
+			building_employment_soldiers_add = 750
+			building_employment_officers_add = 250
+			building_training_rate_add = 30
+		}
+
+		throughput_scaled = {
+			unit_offense_add = 150
+			unit_defense_add = 150
+		}
+
+		unscaled = {
+			unit_morale_loss_add = 1
+			unit_provinces_captured_mult = 1.0
+			unit_devastation_mult = 0.5
+			# should add Battle Condition chance
+		}
+	}
+	country_modifiers = {
+		workforce_scaled = {
+			country_army_power_projection_add = 15
+		}
+	}
+	timed_modifiers = {
+		#pm_offense_defense_readjustment
+	}
+}
 pm_no_artillery = {
 	texture = "gfx/interface/icons/production_method_icons/no_artillery.dds"
 }

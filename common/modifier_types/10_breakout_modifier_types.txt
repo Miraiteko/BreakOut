@@ -202,6 +202,14 @@ building_input_entertainment_add = {
 	good = no
 	percent = no
 }
+building_output_dragon_add = {
+	good = yes
+	percent = no
+}
+building_input_dragon_add = {
+	good = no
+	percent = no
+}
 
 #吞吐
 building_group_bg_government_throughput_mult = {

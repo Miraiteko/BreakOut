@@ -2627,6 +2627,32 @@ pm_tank_production = {
 	}
 }
 
+pm_dragon_production = {
+	texture = "gfx/interface/icons/production_method_icons/tanks.dds"
+
+	unlocking_technologies = {
+		mobile_armor
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			building_input_gene_add = 10
+			building_input_meat_add = 20
+			building_input_computer_add = 10
+			building_output_aeroplanes_add = -10
+
+			# output goods
+			building_output_dragon_add = 25
+		}
+		
+		level_scaled = {
+			# employment
+			building_employment_engineers_add = 500
+		}
+	}
+}
+
 pm_telephones = {
 	texture = "gfx/interface/icons/production_method_icons/telephones.dds"
 	building_modifiers = {

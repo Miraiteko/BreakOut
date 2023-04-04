@@ -829,18 +829,6 @@ ai_strategy_unify_world = {
 
 	obligation_value = {
 		value = 0
-	
-		if = {
-			limit = { 
-				scope:target_country = {			
-					OR = {
-						country_has_primary_culture = cu:north_german
-						country_has_primary_culture = cu:south_german
-					}
-				}
-			}
-			add = 25
-		}
 	}	
 
 	recklessness = {
@@ -890,10 +878,10 @@ ai_strategy_unify_world = {
 	
 	wargoal_scores = {
 		conquer_state = {
-			add = 1000
+			add = 100
 		}
 		return_state = {
-			value = 1000
+			value = 100
 		}		
 		unification_leadership = {
 			value = 1000
@@ -908,7 +896,7 @@ ai_strategy_unify_world = {
 			add = 1000
 		}
 		conquer = {				
-			add = 1000	
+			add = 100	
 		}
 	}	
 

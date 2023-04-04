@@ -228,4 +228,7 @@ NAI = {
 	SUBSIDIZE_SHARE_OF_SUPPLY_FACTOR = 2000		# How highly is subsidization of a building valued if it provides 100% of the sell orders for a good in the market
 	SUBSIDIZE_FAVORED_GOODS_MULT = 1.5 			# Share of supply factor is multiplied by this for a good that the AI wants a high supply of
 	SUBSIDIZE_DISFAVORED_GOODS_MULT = 0.75 		# Share of supply factor is multiplied by this for a good that the AI disfavors
+
+	#恶名
+	AI_AGGRESSION_MAX_ACCEPTABLE_INFAMY = 10000
 }

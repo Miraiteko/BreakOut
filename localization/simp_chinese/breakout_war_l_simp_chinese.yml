@@ -13,6 +13,14 @@
  modifier_building_input_spaceflight_add:0 "每级@spaceflight!航天运力投入"
  modifier_building_input_spaceflight_add_desc:0 "建筑投入的@spaceflight!航天运力数量"
  
+ dragon:0 "龙"
+ modifier_building_output_dragon_add:0 "每级@dragon!$dragon$产出"
+ modifier_building_output_dragon_add_desc:0 "建筑产出的@dragon!$dragon$数量"
+ modifier_building_input_dragon_add:0 "每级@dragon!$dragon$投入"
+ modifier_building_input_dragon_add_desc:0 "建筑投入的@dragon!$dragon$数量"
+ pm_dragon_production:0 "生物兵器"
+ pm_dragon_army:0 "御龙军团"
+ 
  rocket_plant:0 "火箭工厂"
  pmg_rocket_plant:0 "火箭"
  pm_rocket_plant:0 "火箭"
@@ -30,6 +38,7 @@
  pm_space_elevator:0 "太空电梯"
  
  #核武器相关
+ NUKE_THIS_STATE:0 "#nuke 执行核打击#!"
  concept_nuclear_weapon:0 "核武器"
  concept_nuclear_weapon_desc:0 "核武器是利用能自持进行的原子核裂变或核聚变反应瞬时释放的巨大的能量，产生爆炸作用，并具有大规模毁伤破坏效应的武器。使用核武器能够有效地摧毁城市，使敌对国家承受重大损失。"
  

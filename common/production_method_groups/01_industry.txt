@@ -388,6 +388,7 @@ pmg_tanks = {
 	production_methods = {
 		pm_no_tank_production
 		pm_tank_production
+		pm_dragon_production
 	}
 }
 

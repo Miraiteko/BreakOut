@@ -172,7 +172,7 @@ computer = {
 }
 #市井艺术，与高端的fine_art对应
 entertainment = {
-	texture = "gfx/interface/icons/goods_icons/entertainment.dds" #暂时借用舰娘mod的本子图标
+	texture = "gfx/interface/icons/goods_icons/entertainment.dds"
 	cost = 50
 	category = staple
 	
@@ -186,6 +186,18 @@ services = {
 	texture = "gfx/interface/icons/goods_icons/services.dds"
 	cost = 25
 	category = staple
+	tradeable = yes
+	
+	prestige_factor = 3
+	
+	consumption_tax_cost = 200
+}
+
+#龙
+dragon = {
+	texture = "gfx/interface/icons/goods_icons/dragon.dds"
+	cost = 200
+	category = military
 	tradeable = yes
 	
 	prestige_factor = 3
