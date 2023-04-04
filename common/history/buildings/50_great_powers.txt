@@ -13,14 +13,31 @@
 				reserves=1
 			}
 			create_building={
+				building="pharmaceutical_mill"
+				level=10
+				reserves=1
+			}
+			create_building={
+				building="hospital"
+				level=10
+				reserves=1
+			}
+			create_building={
+				building="building_war_machine_industry"
+				level=10
+				activate_production_methods={ "pm_dragon_production" }
+				reserves=1
+			}
+			create_building={
 				building="wafer_plant"
 				level=6
 				reserves=1
 			}
 			create_building={
 				building="building_electrics_industry"
-				level=6
+				level=8
 				reserves=1
+				activate_production_methods={ "pm_radios" }
 			}
 			create_building={
 				building="computer_plant"
@@ -118,15 +135,15 @@
 			}
 			create_building={
 				building="building_naval_base"
-				level=25
+				level=70
 				reserves=1
-				activate_production_methods={ "pm_man_o_wars" "pm_frigates" "pm_commerce_raider" "pm_power_of_the_purse" }
+				activate_production_methods={ "pm_man_o_wars" "pm_frigates" "pm_commerce_raider" "pm_battlefleet_tactics" }
 			}
 			create_building={
 				building="building_barracks"
-				level=15
+				level= 80
 				reserves=1
-				activate_production_methods={ "pm_no_artillery" "pm_wound_dressing" "pm_cavalry_scouts" "pm_no_specialists" "pm_irregular_infantry" }
+				activate_production_methods={ "pm_no_artillery" "pm_wound_dressing" "pm_cavalry_scouts" "pm_no_specialists" "pm_dragon_army" }
 			}	
 			create_building={
 				building="building_port"

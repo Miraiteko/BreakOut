@@ -230,8 +230,8 @@ pm_dragon_army = {
 	}
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_dragon_add = 1
-			building_input_radios_add = 1
+			building_input_dragon_add = 2
+			#building_input_radios_add = 1
 		}
 
 		level_scaled = {

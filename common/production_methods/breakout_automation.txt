@@ -87,7 +87,7 @@ pm_computer_plant = {
 			building_input_telephones_add = 20 #70,1400
 			building_input_electricity_add = 30 #30,900
 			building_input_wafer_add = 20 #50,1000
-			building_output_computer_add = 40 #100,4000
+			building_output_computer_add = 50 #100,5000
 		}	
 		level_scaled = {
 			building_employment_laborers_add = 2000

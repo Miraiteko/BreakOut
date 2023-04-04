@@ -196,11 +196,12 @@ services = {
 #龙
 dragon = {
 	texture = "gfx/interface/icons/goods_icons/dragon.dds"
-	cost = 200
+	cost = 1000
 	category = military
 	tradeable = yes
 	
 	prestige_factor = 3
 	
+	convoy_cost_multiplier = 10
 	consumption_tax_cost = 200
 }
