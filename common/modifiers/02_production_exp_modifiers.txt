@@ -23,8 +23,12 @@ oil_extraction_deplete_modifier = {
 #生产经验
 production_exp_modifier = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
-	building_input_mult = -0.1
+	building_input_mult = -1
+	building_production_exp_decay_add = 0.1
 }
 production_exp_over_cap_modifier = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+	building_input_mult = 1
+	building_production_exp_over_cap_bonus_add = 1
+	building_production_exp_decay_add = 0.5
 }

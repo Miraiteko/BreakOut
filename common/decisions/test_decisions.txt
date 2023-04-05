@@ -8,7 +8,6 @@
 	
 	when_taken = {
 		add_treasury = market_capital.state_population
-		add_treasury = market_capital.breed_ratio_mod
 	}
 	ai_chance = {
          base = 0

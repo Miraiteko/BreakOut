@@ -1,7 +1,4 @@
 l_english:
- #生产经验相关
- EXP_BAR:0 "生产经验(制作中)：#v 50#! / #maximum 100#!"
- TOOLTIP_BUILDING_EXP:0 "#BOLD #V [Building.GetName] 生产经验#!#!\n当前生产经验: #variable 50#! / #maximum 100 #! \n$TOOLTIP_DELIMITER$\n本季度变化：+10\n$TOOLTIP_DELIMITER$\n提升到下一级所需经验：70"
  
  #抚育者相关
  breeders:0 "$breeders_only_icon$ $breeders_no_icon$"

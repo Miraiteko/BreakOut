@@ -45,7 +45,19 @@ state_max_breeders_ratio_add = {
 	good = yes
 	percent = yes
 }
-building_production_exp_decay_mult = {
+building_production_exp_decay_add = {
 	good = no
+	percent = yes
+}
+building_production_exp_over_cap_bonus_add = {
+	good = yes
+	percent = yes
+}
+building_production_exp_cap_add = {
+	good = yes
+	percent = yes
+}
+building_production_exp_growth_add = {
+	good = yes
 	percent = yes
 }

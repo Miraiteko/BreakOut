@@ -6,12 +6,13 @@ pm_tradition_breed = {
 		workforce_scaled = {
 			building_input_services_add = 2 #30
 			building_output_breed_add = 6 #50
-			
+			building_production_exp_growth_add = 0.001
 		}	
 		level_scaled = {
 			building_employment_breeders_add = 7000
 		}
 		unscaled = {
+			building_production_exp_cap_add = 0.2
 		}
 	}		
 	state_modifiers = {

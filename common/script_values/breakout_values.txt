@@ -1,28 +1,32 @@
-﻿building_exp = 70
-breed_ratio_mod = { 
-    every_scope_pop = {
-        limt = { is_pop_type = breeders }
-        add = size
+﻿production_exp = {
+    value = 0
+    add = modifier:building_production_exp_decay_add
+    subtract = {
+        value = modifier:building_production_exp_over_cap_bonus_add
+        multiply = 0.5
     }
-    divide = {
-        value = state_population
-        add = 1
-    }
+    multiply = 10
 }
-base_education_access_mod = {
-    value = var:breed_quality
-    divide = {
-        value = var:breed_power
-        add = 1
-    }
+production_exp_cap = {
+    value = 0
+    add = modifier:building_production_exp_cap_add
 }
-production_exp_mod = {
-    value = var:production_exp
-    multiply = 1
+production_exp_decay = {
+    value = 0
+    add = modifier:building_production_exp_decay_add
 }
-production_exp_over_cap_mod = {
-    value = var:production_exp
-    multiply = 0.5
+production_exp_growth = {
+    value = 0
+    add = modifier:building_production_exp_growth_add
+}
+new_production_exp = {
+    value = 0
+    add = var:building_production_exp
+}
+new_production_exp_over_cap = {
+    value = 0
+    add = var:building_production_exp
+    subtract = var:building_production_exp_cap
 }
 coal_resource_difficulty = {
     value = var:depleted_coal_resource

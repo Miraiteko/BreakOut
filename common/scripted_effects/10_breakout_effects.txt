@@ -70,64 +70,100 @@ breeders_ratio_monthly_check = {
 }
 
 #生产经验结算
-production_exp_monthly_check = {
-	save_scope_as = checked_state
-	#建筑暂时不能储存变量，储存在地区上进行测试
-
-	if = {
-		limit = { 
-			OR = {
-				NOT = { has_variable = production_exp }
-				var:production_exp < 0
-			}
-		}
-		set_variable = {
-			name = production_exp
-			value = 0
-		}
-	}
-	#计算增长
-	set_variable = { #来自于基建的增长
-		name = production_exp_change
-		value = {
-			value = infrastructure
-			multiply = 0.0001
-		}
-	}
-	change_variable = { #衰退
-		name = production_exp_change
-		subtract = {
-			value = var:production_exp
-			multiply = 0.083
-		}
-	}
-	change_variable = {
-		name = production_exp
-		add = var:production_exp_change
-	}		
-	change_variable = {
-		name = production_exp
-		add = var:production_exp_change
-	}		
-	
-	
-	
-	#根据生产经验给buff
+production_exp_monthly_check = {	
 	every_scope_building = {
 		limit = { always = yes }
+		save_scope_as = checked_building
+		#储存老变量
+		state = {
+			set_variable = {
+				name = building_production_exp
+				value = scope:checked_building.production_exp
+			}
+			set_variable = {
+				name = building_production_exp_cap
+				value = scope:checked_building.production_exp_cap
+			}
+			set_variable = {
+				name = building_production_exp_growth
+				value = scope:checked_building.production_exp_growth
+			}
+			set_variable = {
+				name = building_production_exp_decay
+				value = scope:checked_building.production_exp_decay
+			}
+		}
+		#计算新变量
+		state = {
+			change_variable = {
+				name = building_production_exp
+				subtract = var:building_production_exp_decay
+			}
+			change_variable = {
+				name = building_production_exp
+				add = var:building_production_exp_growth
+			}
+		}
 		remove_modifier = production_exp_modifier
 		add_modifier = {
 			name = production_exp_modifier
-			multiplier = PREV.production_exp_mod
+			multiplier = new_production_exp
 		}
+		#计算是否溢出
 		remove_modifier = production_exp_over_cap_modifier
-		add_modifier = {
-			name = production_exp_over_cap_modifier
-			multiplier = PREV.production_exp_over_cap_mod
+		if = {
+			limit = {
+				state = {
+					var:building_production_exp > var:building_production_exp_cap
+				}
+			}
+			add_modifier = {
+				name = production_exp_over_cap_modifier
+				multiplier = new_production_exp_over_cap
+			}
 		}
 	}
 }
+#技术突破
+eurika = {
+	#输入以下参数：目标科技TECHNOLOGY,难度DIFFICULTY,技术突破产品STRENGTH_GOOD,技术突破强度STRENGTH
+	random_list = {
+		$DIFFICULTY$ = {
 
+		}
+		0 = {
+			modifier = {
+				$STRENGTH_GOOD$ = {
+					add = market_goods_sell_orders
+				}
+			}
+			save_scope_as = current_country_scope
+			$STRENGTH_GOOD$ = {
+				goods = {
+					save_scope_as = current_good_scope
+				}
+			}
+			set_variable = {
+				name = recent_eurika_size
+				value = $EURIKA_SIZE$ 
+			}
+			set_variable = {
+				name = recent_eurika_technology
+				value = $TECHNOLOGY$
+			}
+			add_technology_progress = { 
+				progress = $EURIKA_SIZE$ 
+				technology = $TECHNOLOGY$
+			}
+
+			
+			$TECHNOLOGY$ = {
+				save_scope_as = current_technology_scope
+			}
+			post_notification = eurika_notification
+		}
+	}
+}
 #资源枯竭结算
 resource_deplete_monthly_check = {
 	save_scope_as = checked_state
@@ -422,45 +458,5 @@ sacrifice_festival_effect = {
 		name = sacrifice_festival_modifier
 		months = 1
 		is_decaying = yes
-	}
-}
-#技术突破
-eurika = {
-	#输入以下参数：目标科技TECHNOLOGY,难度DIFFICULTY,技术突破产品STRENGTH_GOOD,技术突破强度STRENGTH
-	random_list = {
-		$DIFFICULTY$ = {
-
-		}
-		0 = {
-			modifier = {
-				$STRENGTH_GOOD$ = {
-					add = market_goods_sell_orders
-				}
-			}
-			save_scope_as = current_country_scope
-			$STRENGTH_GOOD$ = {
-				goods = {
-					save_scope_as = current_good_scope
-				}
-			}
-			set_variable = {
-				name = recent_eurika_size
-				value = $EURIKA_SIZE$ 
-			}
-			set_variable = {
-				name = recent_eurika_technology
-				value = $TECHNOLOGY$
-			}
-			add_technology_progress = { 
-				progress = $EURIKA_SIZE$ 
-				technology = $TECHNOLOGY$
-			}
-
-			
-			$TECHNOLOGY$ = {
-				save_scope_as = current_technology_scope
-			}
-			post_notification = eurika_notification
-		}
 	}
 }
