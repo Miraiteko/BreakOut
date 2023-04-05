@@ -14,8 +14,8 @@ law_no_womens_rights = {
 
 	modifier = {
 		country_breeders_pol_str_mult = -1.0
-		building_group_bg_min_breeders_ratio_throughput_mult = 0.45
-		building_group_bg_max_breeders_ratio_throughput_mult = 0.55
+		state_min_breeders_ratio_add = 0.45
+		state_max_breeders_ratio_add = 0.55
 	}
 	
 	possible_political_movements = {
@@ -47,8 +47,8 @@ law_women_own_property = {
 
 	modifier = {
 		country_breeders_pol_str_mult = -0.95
-		building_group_bg_min_breeders_ratio_throughput_mult = 0.40
-		building_group_bg_max_breeders_ratio_throughput_mult = 0.55
+		state_min_breeders_ratio_add = 0.40
+		state_max_breeders_ratio_add = 0.55
 	}
 	
 	possible_political_movements = {
@@ -119,8 +119,8 @@ law_women_in_the_workplace = {
 
 	modifier = {
 		country_breeders_pol_str_mult = -0.6
-		building_group_bg_min_breeders_ratio_throughput_mult = 0.25
-		building_group_bg_max_breeders_ratio_throughput_mult = 0.55
+		state_min_breeders_ratio_add = 0.25
+		state_max_breeders_ratio_add = 0.55
 	}
 	
 	possible_political_movements = {
@@ -236,8 +236,8 @@ law_womens_suffrage = {
 	}
 
 	modifier = {
-		building_group_bg_min_breeders_ratio_throughput_mult = 0.10
-		building_group_bg_max_breeders_ratio_throughput_mult = 0.55
+		state_min_breeders_ratio_add = 0.10
+		state_max_breeders_ratio_add = 0.55
 	}
 	
 	possible_political_movements = {

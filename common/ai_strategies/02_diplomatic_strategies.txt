@@ -925,8 +925,7 @@ ai_strategy_unify_world = {
 	}	
 
 	possible = {
-		country_rank = rank_value:great_power
-		gold_reserves > 0
+		always = no
 		
 	}
 

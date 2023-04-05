@@ -2,6 +2,8 @@
 	texture = "gfx/interface/icons/pops_icons/breeders.dds"
 	color = { 220 75 210 }
 	strata = poor
+	#can_always_hire = yes
+	ignores_employment_proportionality = yes
 	#subsistence_income = yes
 	start_quality_of_life = 5
 	wage_weight = 1.5

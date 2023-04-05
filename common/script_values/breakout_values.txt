@@ -1,7 +1,13 @@
 ﻿building_exp = 70
 breed_ratio_mod = { 
-    value = var:breed_ratio
-    subtract = 1
+    every_scope_pop = {
+        limt = { is_pop_type = breeders }
+        add = size
+    }
+    divide = {
+        value = state_population
+        add = 1
+    }
 }
 base_education_access_mod = {
     value = var:breed_quality

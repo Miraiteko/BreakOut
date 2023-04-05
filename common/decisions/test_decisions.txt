@@ -7,15 +7,8 @@
 	}
 	
 	when_taken = {
-		every_scope_character = {
-			limit = {
-				OR = {
-					has_role = general
-					has_role = admiral
-				}
-			}
-			set_character_busy = no
-		}
+		add_treasury = market_capital.state_population
+		add_treasury = market_capital.breed_ratio_mod
 	}
 	ai_chance = {
          base = 0

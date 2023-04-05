@@ -75,7 +75,7 @@ pm_serfdom_no = {
 	state_modifiers = {
 		workforce_scaled = {
 			state_tax_capacity_add = 2
-			#building_group_bg_breed_power_throughput_mult = 60000
+			#building_breed_power_add = 60000
 		}	
 	}
 }
@@ -101,7 +101,7 @@ pm_serfdom = {
 	state_modifiers = {
 		workforce_scaled = {
 			state_tax_capacity_add = 2.8
-			#building_group_bg_breed_power_throughput_mult = 84000
+			#building_breed_power_add = 84000
 		}	
 	}
 }		
@@ -176,7 +176,7 @@ pm_serfdom_building_subsistence_orchards = {
 	state_modifiers = {
 		workforce_scaled = {
 			state_tax_capacity_add = 2.8
-			#building_group_bg_breed_power_throughput_mult = 84000
+			#building_breed_power_add = 84000
 		}	
 	}
 }		
@@ -248,7 +248,7 @@ pm_serfdom_building_subsistence_pastures = {
 	state_modifiers = {
 		workforce_scaled = {
 			state_tax_capacity_add = 2.8
-			#building_group_bg_breed_power_throughput_mult = 84000
+			#building_breed_power_add = 84000
 		}	
 	}
 }	

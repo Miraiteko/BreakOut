@@ -3,38 +3,14 @@ breeders_ratio_monthly_check = {
 	save_scope_as = checked_country
 	
 	#计算抚育者资质参数
-	#下限
-	if = {
-		limit = { has_law = law_type:law_no_womens_rights }
-		set_variable = {
-			name = min_breeders_ratio
-			value = 0.45
-		}
-	}
-	else_if = {
-		limit = { has_law = law_type:law_women_own_property }
-		set_variable = {
-			name = min_breeders_ratio
-			value = 0.40
-		}
-	}
-	else_if = {
-		limit = { has_law = law_type:law_women_in_the_workplace }
-		set_variable = {
-			name = min_breeders_ratio
-			value = 0.25
-		}
-	}
-	else = {
-		set_variable = {
-			name = min_breeders_ratio
-			value = 0.10
-		}
+	set_variable = {
+		name = min_breeders_ratio
+		value = scope:checked_country.modifier:state_min_breeders_ratio_add
 	}
 	#上限
 	set_variable = {
 		name = max_breeders_ratio
-		value = 0.55
+		value = scope:checked_country.modifier:state_max_breeders_ratio_add
 	}
 	#如果抚育者人口比例低于下限
 	if = {	
@@ -90,162 +66,6 @@ breeders_ratio_monthly_check = {
 				value = 1
 			}
 		}
-	}
-}
-#出生率结算
-state_breed_monthly_check = {
-	#计算各个地区的劳动力再生产能力
-	save_scope_as = checked_state
-	#计算劳动力再生产能力
-	set_variable = {
-		name = breed_power
-		value = 0
-	}
-	set_variable = {
-		name = breed_quality
-		value = 0
-	}
-	every_scope_building = {
-		limit = {
-			OR = { #自给农业
-				is_building_type = building_subsistence_farms
-				is_building_type = building_subsistence_orchards
-				is_building_type = building_subsistence_pastures
-			}
-		}
-		if = {
-			limit = { 
-				OR = { #农奴制
-					has_active_production_method = pm_serfdom 
-					has_active_production_method = pm_serfdom_building_subsistence_pastures
-					has_active_production_method = pm_serfdom_building_subsistence_orchards
-				}
-			}
-			scope:checked_state = {
-				change_variable = {
-					name = breed_power
-					add = {
-						value = 84000 #农奴制一级提供84000再生产
-						multiply = PREV.occupancy
-						multiply = PREV.level
-					}
-				}
-				change_variable = {
-					name = breed_quality
-					add = {
-						value = 841 #农奴制一级提供840质量，为了避免显示为0，设定成841
-						multiply = PREV.occupancy
-						multiply = PREV.level
-					}
-				}
-			}
-		}
-		else = {
-			scope:checked_state = {
-				change_variable = {
-					name = breed_power
-					add = {
-						value = 60000 #自耕农一级提供60000再生产
-						multiply = PREV.occupancy
-						multiply = PREV.level
-					}
-				}
-				change_variable = {
-					name = breed_quality
-					add = {
-						value = 3001 #自耕农一级提供3000质量
-						multiply = PREV.occupancy
-						multiply = PREV.level
-					}
-				}
-			}
-		}
-	}
-	every_scope_building = {
-		limit = {
-			OR = { #居民区
-				is_building_type = breed_center
-			}
-		}
-		if = {
-			limit = { has_active_production_method = pm_tradition_breed } #多子多福
-			scope:checked_state = {
-				change_variable = {
-					name = breed_power
-					add = {
-						value = 42000 #多子多福一级提供42000
-						multiply = PREV.occupancy
-						multiply = PREV.level
-					}
-				}
-				change_variable = {
-					name = breed_quality
-					add = {
-						value = 12600 #多子多福一级提供12600质量
-						multiply = PREV.occupancy
-						multiply = PREV.level
-					}
-				}
-			}
-		}
-		else = {
-			scope:checked_state = {
-				change_variable = {
-					name = breed_power
-					add = {
-						value = 30000 #优生优育一级提供30000
-						multiply = PREV.occupancy
-						multiply = PREV.level
-					}
-				}
-				#change_variable = {
-					name = breed_quality
-					add = {
-						value = 15000 #优生优育一级提供15000质量
-						multiply = PREV.occupancy
-						multiply = PREV.level
-					}
-				#}
-			}
-		}
-	}
-	
-	#计算劳动力再生产能力
-	set_variable = {
-		name = breed_ratio
-		value = var:breed_power
-	}
-	
-	change_variable = {
-		name = breed_ratio
-		divide = {
-			value = state_population
-			min = 1
-		}
-	}
-
-	#按照比例决定生育率buff
-	#remove_modifier = breed_ratio_modifier
-	#add_modifier = {
-	#	name = breed_ratio_modifier
-	#	multiplier = breed_ratio_mod
-	#}
-	#计算基础受教育机会
-	set_variable = {
-		name = base_education_access
-		value = var:breed_quality
-	}
-	change_variable = {
-		name = base_education_access
-		divide = {
-			value = var:breed_power
-			min = 1
-		}
-	}
-	remove_modifier = base_education_access_modifier
-	add_modifier = {
-		name = base_education_access_modifier
-		multiplier = base_education_access_mod
 	}
 }
 
@@ -544,7 +364,7 @@ bankruptcy_check = {
 			days = 3650
 			value = 233
 		}
-		change_infamy = 300
+		change_infamy = 100
 	}
 
 }
