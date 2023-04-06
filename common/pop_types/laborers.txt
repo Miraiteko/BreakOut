@@ -3,9 +3,9 @@ laborers = {
 	color = hsv{ 0.02 0.38 0.37 }
 	strata = poor
 	unemployment = yes
-	can_always_hire = yes
+	can_always_hire = no
 	start_quality_of_life = 5
-	wage_weight = 0.2
+	wage_weight = 0.5
 	dependent_wage = 0.5	# per year
 	
 	qualifications_growth_desc = "BK_LABORERS_QUALIFICATIONS_DESC"	
@@ -32,7 +32,7 @@ laborers = {
 		else = {
 			#生活水平越高，越不想成为劳工
 			add = {
-				value = 200
+				value = 100
 				divide = wealth
 				desc = "QUALIFICATIONS_WEALTH_FACTOR"
 			}
