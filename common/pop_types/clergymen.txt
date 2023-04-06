@@ -56,13 +56,14 @@
 					OR = {
 						is_pop_type = capitalists
 						is_pop_type = academics
+						is_pop_type = aristocrats
 					}
 					literacy_rate > 0.8
 				}
 				add = {
 					value = literacy_rate
 					subtract = 0.8
-					multiply = 5
+					multiply = 50
 					desc = "QUALIFICATIONS_LITERACY_FACTOR"
 				}
 				if = {

@@ -133,7 +133,7 @@ NEconomy = {
 	
 	BUILDING_RAISE_WAGES_MIN_RELEVANT_POP_SIZE = 50 # Pops with less workforce than this are ignored when checking whether a profitable building should raise wages because of radicalizing workers
 	BUILDING_RAISE_WAGES_DISCRIMINATION_FACTOR = 0.1 # Profitable buildings only care to raise wages for discriminated pops if their wealth to expected SoL ratio is less than this
-	BUILDING_LOWER_WAGES_TARGET_WEALTH_MULT = 1.00 # Buildings will consider lowering wages if all significant pops working in them have this * the target wealth to expected SoL ratio
+	BUILDING_LOWER_WAGES_TARGET_WEALTH_MULT = 1.05 # Buildings will consider lowering wages if all significant pops working in them have this * the target wealth to expected SoL ratio
 	BUILDING_PROFIT_TARGET_TO_RAISE_WAGES = 0.3	# Required profit margin to consider raising wages for SoL or employment reasons, with BUILDING_WEEKS_BETWEEN_PAY_CHANGES weeks cooldown
 	BUILDING_PROFIT_TARGET_TO_LOWER_WAGES = 0.15	# If profit margin is this or below, consider lowering wages for SoL or employment reasons, with BUILDING_WEEKS_BETWEEN_PAY_CHANGES weeks cooldown
 	

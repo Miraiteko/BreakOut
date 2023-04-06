@@ -36,6 +36,22 @@ law_ethnostate = {
 
 	pop_support = {
 		value = 0
+		add = {
+			desc = "POP_PRIMARY_CULTURE"
+			if = {
+				limit = { 
+					pop_has_primary_culture = yes
+				}
+				add = 0.5				
+				
+				if = {
+					limit = { 
+						standard_of_living <= 10
+					}
+					add = 0.5
+				}	
+			}			
+		}
 	}
 }
 
@@ -71,6 +87,46 @@ law_national_supremacy = {
 
 	pop_support = {
 		value = 0
+		add = {
+			desc = "POP_PRIMARY_CULTURE"
+			if = {
+				limit = { 
+					pop_has_primary_culture = yes
+					owner = { 
+						NOT = { has_law = law_type:law_ethnostate } 
+					}
+				}
+				add = 0.5				
+				
+				if = {
+					limit = { 
+						standard_of_living <= 10
+					}
+					add = 0.5
+				}	
+			}			
+		}
+		add = {
+			desc = "POP_DISCRIMINATED"
+			if = {
+				limit = { 
+					culture_accepted = no
+					owner = { 
+						NOT = { has_law = law_type:law_multicultural } 
+						NOT = { has_law = law_type:law_cultural_exclusion } 
+						NOT = { has_law = law_type:law_racial_segregation } 
+					}
+				}
+				add = 0.5				
+				
+				if = {
+					limit = { 
+						standard_of_living <= 10
+					}
+					add = 0.5
+				}	
+			}			
+		}
 	}
 }
 
@@ -105,13 +161,36 @@ law_racial_segregation = {
 		value = 0
 		
 		add = {
+			desc = "POP_PRIMARY_CULTURE"
+			if = {
+				limit = { 
+					pop_has_primary_culture = yes
+					owner = { 
+						NOT = { has_law = law_type:law_ethnostate } 
+						NOT = { has_law = law_type:law_national_supremacy } 
+					}
+				}
+				add = 0.5				
+				
+				if = {
+					limit = { 
+						standard_of_living <= 10
+					}
+					add = 0.5
+				}	
+			}			
+		}
+		add = {
 			desc = "POP_DISCRIMINATED"
 			if = {
 				limit = { 
 					culture_accepted = no
-					owner = { has_law = law_type:law_national_supremacy }
+					owner = { 
+						NOT = { has_law = law_type:law_multicultural } 
+						NOT = { has_law = law_type:law_cultural_exclusion } 
+					}
 				}
-				add = 0.5
+				add = 0.5				
 				
 				if = {
 					limit = { 
@@ -159,6 +238,27 @@ law_cultural_exclusion = {
 	pop_support = {
 		value = 0
 		
+		add = {
+			desc = "POP_PRIMARY_CULTURE"
+			if = {
+				limit = { 
+					pop_has_primary_culture = yes
+					owner = { 
+						NOT = { has_law = law_type:law_ethnostate } 
+						NOT = { has_law = law_type:law_national_supremacy } 
+						NOT = { has_law = law_type:law_racial_segregation }
+					}
+				}
+				add = 0.5				
+				
+				if = {
+					limit = { 
+						standard_of_living <= 10
+					}
+					add = 0.5
+				}	
+			}			
+		}
 		add = {
 			desc = "POP_DISCRIMINATED"
 			if = {

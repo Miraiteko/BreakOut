@@ -28,7 +28,7 @@
  modifier_country_expenses_add_desc:0 "政府支出的加算增益或惩罚。"
  modifier_state_tax_waste_add:1 "税收浪费"
  modifier_state_tax_waste_add_desc:1 "对[Concept('concept_state', '$concept_states$')][concept_tax_waste]的增益或惩罚"
- modifier_state_tax_capacity_add:0 "@breed!抚育能力"
+ modifier_state_tax_capacity_add:0 "@breed!地区抚育能力"
  modifier_state_tax_capacity_add_desc:0 "对[Concept('concept_state', '$concept_states$')][concept_tax_capacity]的增益或惩罚"
  modifier_state_tax_capacity_mult:0 "$modifier_state_tax_capacity_add$"
  modifier_state_tax_capacity_mult_desc:0 "$modifier_state_tax_capacity_add_desc$"

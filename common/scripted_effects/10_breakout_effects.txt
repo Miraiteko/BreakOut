@@ -25,6 +25,10 @@ breeders_ratio_monthly_check = {
 				name = breeders_gain_other_qualifications_bonus
 				value = -1
 			}
+			set_variable = {
+				name = other_gain_breeders_qualifications_bonus
+				value = 1
+			}
 			random_scope_pop = {
 				limit = {
 					NOT = { is_pop_type = breeders }
@@ -45,6 +49,10 @@ breeders_ratio_monthly_check = {
 			set_variable = {
 				name = other_gain_breeders_qualifications_bonus
 				value = -1
+			}
+			set_variable = {
+				name = breeders_gain_other_qualifications_bonus
+				value = 1
 			}
 			random_scope_pop = {
 				limit = {
