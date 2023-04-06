@@ -898,7 +898,7 @@ STATES = {
 	}
 	s:STATE_GALICIA = {
 		create_state = {
-			country = c:SPA
+			country = c:POR
 			owned_provinces = { "x0EA604" "x167F12" "x33F984" "x50E040" "x583E92" "xB85939" "xD03554" "xD0E040" }
 		}
 		
@@ -2631,7 +2631,7 @@ STATES = {
 	}
 	s:STATE_WEST_SWITZERLAND = {
 		create_state = {
-			country = c:SWI
+			country = c:FRA
 			owned_provinces = { xEBF5B1 xE51E78 x508060 xED07F7 x9080E0 xD08060 xA042B5 x117FE0 x7ACC0B x9041E0 }
 		}
 		
@@ -5006,7 +5006,7 @@ STATES = {
 	}
 	s:STATE_CROATIA = {
 		create_state = {
-			country = c:CRO
+			country = c:ITA
 			owned_provinces = { x71A041 x70DF00 x6D8BC6 xF021C0 x71A0C0 xB39050 xB339EC x458E4C }
 		}
 		
@@ -5046,7 +5046,7 @@ STATES = {
 	}
 	s:STATE_LOMBARDY = {
 		create_state = {
-			country = c:ITA
+			country = c:SWI
 			owned_provinces = { x3F1E38 xD04060 x9AC196 x867A90 xA40CE9 x50C060 x70B8A9 x4713EE }
 		}
 		
@@ -5102,7 +5102,7 @@ STATES = {
 	}
 	s:STATE_SOUTH_TYROL = {
 		create_state = {
-			country = c:ITA
+			country = c:GER
 			owned_provinces = { xD0BF60 x1120FF xD040E0 x039D0F }
 		}
 		
@@ -5270,7 +5270,7 @@ STATES = {
 	}
 	s:STATE_PIEDMONT = {
 		create_state = {
-			country = c:ITA
+			country = c:FRA
 			owned_provinces = { xD080E0 xAA6958 xDA86EA xA9397D x90C060 x1140E0 xF00544 xACB500 x11C061 x904061 x54728A x5F6BAA }
 		}
 		

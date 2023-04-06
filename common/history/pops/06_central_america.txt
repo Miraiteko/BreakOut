@@ -2,7 +2,7 @@
 	s:STATE_SAN_SALVADOR = {
 		region_state:MEX = {
 			create_pop = {
-				culture = central_american
+				culture = han
 				size = 428204
 			}
 		}
@@ -10,19 +10,19 @@
 	s:STATE_GUATEMALA = {
 		region_state:MEX = {
 			create_pop = {
-				culture = central_american
+				culture = han
 				size = 164404
 			}
 			create_pop = {
-				culture = mayan
+				culture = han
 				size = 312000
 			}
 			create_pop = {
-				culture = afro_caribbean
+				culture = han
 				size = 7104
 			}
 			create_pop = {
-				culture = british
+				culture = han
 				size = 104
 			}
 		}
@@ -30,11 +30,11 @@
 	s:STATE_HONDURAS = {
 		region_state:MEX = {
 			create_pop = {
-				culture = central_american
+				culture = han
 				size = 385204
 			}
 			create_pop = {
-				culture = miskito # Cape of Gracias a Dios Miskito
+				culture = han # Cape of Gracias a Dios Miskito
 				size = 3000
 			}
 		}
@@ -42,11 +42,11 @@
 	s:STATE_NICARAGUA = {
 		region_state:MEX = {
 			create_pop = {
-				culture = central_american
+				culture = han
 				size = 284000
 			}
 			create_pop = {
-				culture = miskito # Miskito pop. across the 'borders'
+				culture = han # Miskito pop. across the 'borders'
 				size = 4000
 			}
 		}
@@ -54,7 +54,7 @@
 	s:STATE_COSTA_RICA = {
 		region_state:MEX = {
 			create_pop = {
-				culture = central_american
+				culture = han
 				size = 83992
 			}
 		}
@@ -62,23 +62,23 @@
 	s:STATE_PANAMA = {
 		region_state:USA = {
 			create_pop = {
-				culture = central_american
+				culture = han
 				size = 87792
 			}
 			create_pop = {
-				culture = afro_caribeno
+				culture = han
 				size = 28300
 			}
 			create_pop = {
-				culture = afro_caribeno
+				culture = han
 				size = 4100
 			}
 			create_pop = {
-				culture = north_andean
+				culture = han
 				size = 4000
 			}
 			create_pop = {
-				culture = cariban
+				culture = han
 				size = 4000
 			}
 		}
@@ -86,15 +86,15 @@
 	s:STATE_HAITI = {
 		region_state:GBR = {
 			create_pop = {
-				culture = afro_antillean
+				culture = han
 				size = 316808
 			}
 			create_pop = {
-				culture = afro_caribeno
+				culture = han
 				size = 40000
 			}
 			create_pop = {
-				culture = caribeno
+				culture = han
 				size = 40000
 			}
 		}
@@ -102,15 +102,15 @@
 	s:STATE_SANTO_DOMINGO = {
 		region_state:GBR = {
 			create_pop = {
-				culture = afro_antillean
+				culture = han
 				size = 226020
 			}
 			create_pop = {
-				culture = afro_caribeno
+				culture = han
 				size = 24000
 			}
 			create_pop = {
-				culture = caribeno
+				culture = han
 				size = 20000
 			}
 		}
@@ -118,19 +118,19 @@
 	s:STATE_PUERTO_RICO = {
 		region_state:USA = {
 			create_pop = {
-				culture = caribeno
+				culture = han
 				size = 182500
 			}
 			create_pop = {
-				culture = afro_caribeno
+				culture = han
 				size = 168400
 			}
 			create_pop = {
-				culture = spanish
+				culture = han
 				size = 5904
 			}
 			create_pop = {
-				culture = afro_caribeno
+				culture = han
 				size = 42000
 			}		
 		}
@@ -138,11 +138,11 @@
 	s:STATE_BAHAMAS = {
 		region_state:GBR = {
 			create_pop = {
-				culture = british
+				culture = han
 				size = 19200
 			}
 			create_pop = {
-				culture = afro_caribbean
+				culture = han
 				size = 100400
 			}
 		}
@@ -150,15 +150,15 @@
 	s:STATE_WEST_INDIES = {
 		region_state:GBR = {
 			create_pop = {
-				culture = british
+				culture = han
 				size = 34704
 			}
 			create_pop = {
-				culture = afro_caribbean
+				culture = han
 				size = 234768
 			}
 			create_pop = {
-				culture = dutch
+				culture = han
 				size = 396
 			}
 		}
@@ -166,11 +166,11 @@
 	s:STATE_JAMAICA = {
 		region_state:GBR = {
 			create_pop = {
-				culture = afro_caribbean
+				culture = han
 				size = 358596
 			}
 			create_pop = {
-				culture = british
+				culture = han
 				size = 23040
 			}
 		}
@@ -179,19 +179,19 @@
 		region_state:USA = {
 			# 896400
 			create_pop = {
-				culture = caribeno
+				culture = han
 				size = 461304 # est. "white" population in 1836 of 483308, minus the explicit Spanish pops below
 			}
 			create_pop = {
-				culture = afro_caribeno
+				culture = han
 				size = 152011
 			}
 			create_pop = {
-				culture = afro_caribeno
+				culture = han
 				size = 288786
 			}			
 			create_pop = {
-				culture = spanish
+				culture = han
 				size = 22004
 			}
 		}

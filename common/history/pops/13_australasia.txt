@@ -2,15 +2,15 @@
 	s:STATE_NEW_SOUTH_WALES = {
 		region_state:AST = {
 			create_pop = {
-				culture = aborigine
+				culture = han
 				size = 63200
 			}
 			create_pop = {
-				culture = australian
+				culture = han
 				size = 101384
 			}
 			create_pop = {
-				culture = irish
+				culture = han
 				size = 16080
 			}
 		}
@@ -18,11 +18,11 @@
 	s:STATE_VICTORIA = {
 		region_state:AST = {
 			create_pop = {
-				culture = aborigine
+				culture = han
 				size = 31118
 			}
 			create_pop = {
-				culture = australian
+				culture = han
 				size = 24676
 			}
 		}
@@ -31,11 +31,11 @@
 	s:STATE_TASMANIA = {
 		region_state:AST = {
 			create_pop = {
-				culture = aborigine
+				culture = han
 				size = 12208
 			}
 			create_pop = {
-				culture = australian
+				culture = han
 				size = 11319
 			}
 		}
@@ -43,11 +43,11 @@
 	s:STATE_QUEENSLAND = {
 		region_state:AST = {
 			create_pop = {
-				culture = aborigine
+				culture = han
 				size = 59200
 			}
 			create_pop = {
-				culture = australian
+				culture = han
 				size = 4000
 			}
 		}
@@ -55,11 +55,11 @@
 	s:STATE_SOUTH_AUSTRALIA = {
 		region_state:AST = {
 			create_pop = {
-				culture = australian
+				culture = han
 				size = 10500
 			}		
 			create_pop = {
-				culture = aborigine
+				culture = han
 				size = 32000
 			}
 		}
@@ -67,15 +67,15 @@
 	s:STATE_WESTERN_AUSTRALIA = {
 		region_state:AST = {
 			create_pop = {
-				culture = aborigine
+				culture = han
 				size = 47500
 			}
 			create_pop = {
-				culture = australian
+				culture = han
 				size = 3004
 			}
 			create_pop = {
-				culture = aborigine
+				culture = han
 				size = 21100
 			}
 		}
@@ -83,7 +83,7 @@
 	s:STATE_NORTHERN_TERRITORY = {
 		region_state:AST = {
 			create_pop = {
-				culture = aborigine
+				culture = han
 				size = 31804
 			}
 		}
@@ -91,24 +91,24 @@
 	s:STATE_NORTH_ISLAND = {
 		region_state:NZL = {
 			create_pop = {
-				culture = maori
-				religion = protestant
+				culture = han
+				religion = mahayana
 				size = 30000
 			}
 			create_pop = {
-				culture = maori
+				culture = han
 				size = 25000
 			}
 			create_pop = {
-				culture = maori
+				culture = han
 				size = 5000
 			}
 			create_pop = {
-				culture = australian
+				culture = han
 				size = 1004
 			}
 			create_pop = {
-				culture = maori
+				culture = han
 				size = 32000
 			}
 		}
@@ -116,15 +116,15 @@
 	s:STATE_SOUTH_ISLAND = {
 		region_state:NZL = {
 			create_pop = {
-				culture = australian
+				culture = han
 				size = 428
 			}
 			create_pop = {
-				culture = maori
+				culture = han
 				size = 12000
 			}
 			create_pop = {
-				culture = maori
+				culture = han
 				size = 64000
 			}
 		}

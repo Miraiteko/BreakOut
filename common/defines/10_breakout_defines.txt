@@ -200,6 +200,15 @@ NMilitary = {
 	CONVOY_RAIDING_STRENGTH_MULT = 0.5						# How strong each Convoy raiding point is ( num flotillas * ce offense )
 	CONVOY_RAIDING_DAYS_UNTIL_DECAY = 28					# How many days it takes for convoy raiding effect to decay fully 
 }
+NBattle = {
+	CASUALTY_MAJORITY_CULTURE_WEIGHT = 1.5			# Majority culture pops will be weighted to take 1.5x more casualties
+	CASUALTY_ROLL_MIN = 50							# min ...
+	CASUALTY_ROLL_MAX = 200							# max amount of casualties a unit can take each roll when applying casualties to units
+	SURVIVAL_RATE = 0.1
+	DEPENDENTS_ROLL_MIN_PERCENT = 0.0				# min ...
+	DEPENDENTS_ROLL_MAX_PERCENT = 0.1				# max percentage of Pops Size it can take as Dependents each roll
+	MIN_DEPENDENTS_PER_ROLL = 25					# Minimum amount of dependents to added to a random pop
+}
 #降低科技时代惩罚
 NTechnology = {
 	#TECH_SPREAD_RANDOM_RANGE = 0.5 # How much can distribution of tech spread vary each week

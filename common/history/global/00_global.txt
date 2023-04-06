@@ -36,16 +36,5 @@ GLOBAL = {
 				reserves=1
 			}
 		}
-
-	}
-	every_country = {
-		save_scope_as = target_country
-		random_primary_culture = { save_scope_as = target_culture }
-		every_scope_state = { 
-			convert_population = { target = scope:target_country.religion value = 1.0 }
-			every_scope_pop = {
-				change_pop_culture = { target = scope:target_culture value = 1.0 }
-			} 
-		}
 	}
 }

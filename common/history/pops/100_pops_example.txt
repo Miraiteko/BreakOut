@@ -3,46 +3,46 @@ POPS = {
 	#s:STATE_MINSK = {
 	#	region_state:BYE = {
 	#		create_pop = {
-	#			culture = byelorussian
+	#			culture = han
 	#			size = 176925
 	#		}
 	#
 	#		create_pop = {
-	#			culture = ukrainian
+	#			culture = han
 	#			size = 24700
 	#		}
 	#
 	#		create_pop = {
-	#			culture = ashkenazi
-	#			religion = jewish
+	#			culture = han
+	#			religion = mahayana
 	#			size = 26100
 	#		}
 	#
 	#		create_pop = {
-	#			culture = polish
+	#			culture = han
 	#			size = 29783
 	#		}
 	#
 	#		create_pop = {
-	#			culture = lithuanian
+	#			culture = han
 	#			size = 1002
 	#		}
 	#
 	#		create_pop = {
-	#			culture = russian
+	#			culture = han
 	#			size = 2034
 	#		}
 	#
 	#		create_pop = {
 	#			pop_type = aristocrats
-	#			culture = polish
-	#			religion = catholic
+	#			culture = han
+	#			religion = mahayana
 	#			size = 5200
 	#		}
 	#
 	#		# NOTE: This isn't accurate, it's here as an example
 	#		create_pop = {
-	#			culture = polish
+	#			culture = han
 	#			split_religion = {
 	#				polish = {
 	#					catholic = 0.5
@@ -75,13 +75,13 @@ POPS = {
 	#
 	#		# literacy example, not accurate
 	#		create_pop = {
-	#			culture = polish
+	#			culture = han
 	#			literacy_rate = 0.2
 	#		}
 	#
 	#		# working adult ratio example, not accurate
 	#		create_pop = {
-	#			culture = polish
+	#			culture = han
 	#			working_adult_ratio = 0.1	# note that the ratio is wa/total, overrides the value chosen according to pop type and country modifiers
 	#		}
 	#	}
