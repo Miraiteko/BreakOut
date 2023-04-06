@@ -93,7 +93,7 @@ production_exp_monthly_check = {
 				value = scope:checked_building.production_exp_decay
 			}
 		}
-		#计算新变量
+		#计算新生产经验
 		state = {
 			change_variable = {
 				name = building_production_exp
@@ -105,11 +105,14 @@ production_exp_monthly_check = {
 			}
 		}
 		remove_modifier = production_exp_modifier
-		add_modifier = {
-			name = production_exp_modifier
-			multiplier = new_production_exp
+		if = {
+			limit = { state.var:building_production_exp > 0  }
+			add_modifier = {
+				name = production_exp_modifier
+				multiplier = new_production_exp
+			}
 		}
-		#计算是否溢出
+		#计算溢出上限部分
 		remove_modifier = production_exp_over_cap_modifier
 		if = {
 			limit = {

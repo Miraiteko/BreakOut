@@ -34,6 +34,7 @@ pm_elite_breed = {
 			building_input_paper_add = 1 #30
 			building_input_services_add = 4 #30
 			building_output_breed_add = 12 #50
+			building_production_exp_growth_add = 0.0015
 			
 		}	
 		level_scaled = {
@@ -42,6 +43,7 @@ pm_elite_breed = {
 			building_employment_breeders_add = 5000
 		}
 		unscaled = {
+			building_production_exp_cap_add = 0.4
 		}
 	}		
 	state_modifiers = {
