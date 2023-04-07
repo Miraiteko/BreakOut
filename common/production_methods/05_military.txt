@@ -247,7 +247,7 @@ pm_dragon_army = {
 
 		unscaled = {
 			unit_morale_loss_add = 1
-			unit_provinces_captured_mult = 1.0
+			unit_provinces_captured_mult = 5.0
 			unit_devastation_mult = 0.5
 			# should add Battle Condition chance
 		}

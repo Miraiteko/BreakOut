@@ -1,4 +1,73 @@
-﻿pm_market_stalls = { #基础城市中心不再消耗木材
+﻿#劳工营地
+pm_no_train = {
+	texture = "gfx/interface/icons/production_method_icons/simple_forestry.dds"
+	
+	building_modifiers = { 
+		workforce_scaled = {
+			building_output_laborforce_add = 50
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 5000
+			building_employment_shopkeepers_add = 100
+		}
+		
+		unscaled = {
+			building_shopkeepers_shares_add = 10
+		}
+	}
+}	
+pm_simple_train = {
+	texture = "gfx/interface/icons/production_method_icons/saw_mills.dds"
+	
+	building_modifiers = { 
+		workforce_scaled = {
+			building_output_laborforce_add = 65
+			building_input_tools_add = 5
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 5000
+			building_employment_shopkeepers_add = 100
+		}
+		
+		unscaled = {
+			building_shopkeepers_shares_add = 10
+		}
+	}
+}		
+#外包机制
+pm_no_outsoucing = {
+	texture = "gfx/interface/icons/production_method_icons/simple_forestry.dds"
+}
+pm_casual_laborer = {
+	texture = "gfx/interface/icons/production_method_icons/saw_mills.dds"
+	
+	building_modifiers = { 
+		workforce_scaled = {
+			building_input_laborforce_add = 10
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -1000
+		}
+	}
+}
+pm_massive_outsoucing = {
+	texture = "gfx/interface/icons/production_method_icons/electric_saw_mills.dds"
+	
+	building_modifiers = { 
+		workforce_scaled = {
+			building_input_laborforce_add = 20
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -2000
+		}
+	}
+}
+#集市
+pm_market_stalls = { #基础城市中心不再消耗木材
 	texture = "gfx/interface/icons/production_method_icons/market_stalls.dds"
 	
 	building_modifiers = { 

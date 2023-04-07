@@ -8,6 +8,7 @@
 
 	production_method_groups = {
 		pmg_rocket_plant
+		pmg_labor_outsoucing
 		pmg_ownership_capital
 	}
 
@@ -23,6 +24,7 @@ space_center = {
 
 	production_method_groups = {
 		pmg_space_center
+		pmg_labor_outsoucing
 		pmg_ownership_capital
 	}
 
@@ -38,6 +40,7 @@ lunar_mine = {
 
 	production_method_groups = {
 		pmg_lunar_mine
+		pmg_labor_outsoucing
 		pmg_ownership_capital
 	}
 
@@ -54,6 +57,7 @@ space_elevator = {
 
 	production_method_groups = {
 		pmg_space_elevator
+		pmg_labor_outsoucing
 		pmg_ownership_capital
 	}
 

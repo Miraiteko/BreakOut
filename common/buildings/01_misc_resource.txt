@@ -11,6 +11,7 @@
 		pmg_hardwood
 		pmg_equipment
 		pmg_transportation_building_logging_camp
+		pmg_labor_outsoucing
 		pmg_ownership_capital_building_logging_camp
 	}
 }
@@ -45,6 +46,7 @@ building_fishing_wharf = {
 	production_method_groups = {
 		pmg_base_building_fishing_wharf
 		pmg_refrigeration_building_fishing_wharf
+		pmg_labor_outsoucing
 		pmg_ownership_capital_building_fishing_wharf
 	}
 	
@@ -69,6 +71,7 @@ building_whaling_station = {
 	production_method_groups = {
 		pmg_base_building_whaling_station
 		pmg_refrigeration_building_whaling_station
+		pmg_labor_outsoucing
 		pmg_ownership_capital_building_whaling_station
 	}
 	
@@ -95,6 +98,7 @@ building_oil_rig = {
 	production_method_groups = {
 		pmg_base_building_oil_rig
 		pmg_transportation_building_oil_rig
+		pmg_labor_outsoucing
 		pmg_ownership_capital_building_oil_rig
 	}
 }

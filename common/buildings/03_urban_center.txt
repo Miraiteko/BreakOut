@@ -23,7 +23,27 @@ building_urban_center = {
 	
 	terrain_manipulator = urban_city
 }
-
+building_laborer_camp = {
+	building_group = bg_laborforce
+	texture = "gfx/interface/icons/building_icons/urban_center.dds"
+	city_type = none
+	#residence_points_per_level = 0
+	
+	unlocking_technologies = { 
+		urbanization
+	}
+	
+	production_method_groups = {
+		pmg_laborer_camp
+	}
+	
+	buildable = no
+	expandable = no
+	downsizeable = no	
+	
+	#terrain_manipulator = urban_city
+	slaves_role = laborers
+}
 building_arts_academy = {
 	building_group = bg_arts
 
@@ -89,6 +109,7 @@ hospital = {
 
 	production_method_groups = {
 		pmg_hospital
+		pmg_labor_outsoucing
 		pmg_ownership_capital
 	}
 

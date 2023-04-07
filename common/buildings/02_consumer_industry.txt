@@ -9,6 +9,7 @@ hydroponics_farm = {
 
 	production_method_groups = {
 		pmg_hydroponics_farm
+		pmg_labor_outsoucing
 		pmg_ownership_capital
 	}
 
@@ -25,6 +26,7 @@ fiber_polymerization = {
 
 	production_method_groups = {
 		pmg_fiber_polymerization
+		pmg_labor_outsoucing
 		pmg_ownership_capital
 	}
 
@@ -45,6 +47,7 @@ building_food_industry = {
 		pmg_canning
 		pmg_distillery
 		pmg_automation_building_food_industry
+		pmg_labor_outsoucing
 		pmg_ownership_capital_building_food_industry
 	}
 
@@ -66,6 +69,7 @@ building_textile_mills = {
 		pmg_base_building_textile_mills
 		pmg_luxury_building_textile_mills
 		pmg_automation_building_textile_mills
+		pmg_labor_outsoucing
 		pmg_ownership_capital_building_textile_mills
 	}
 	
@@ -86,6 +90,7 @@ building_furniture_manufacturies = {
 		pmg_base_building_furniture_manufacturies
 		pmg_luxury_building_furniture_manufacturies
 		pmg_automation_building_furniture_manufacturies
+		pmg_labor_outsoucing
 		pmg_ownership_capital_building_furniture_manufacturies
 	}
 
@@ -106,6 +111,7 @@ building_glassworks = {
 		pmg_base_building_glassworks
 		pmg_luxury_building_glassworks
 		pmg_glassblowing
+		pmg_labor_outsoucing
 		pmg_ownership_capital_building_glassworks
 	}
 	
@@ -126,6 +132,7 @@ building_tooling_workshops = {
 	production_method_groups = {
 		pmg_base_building_tooling_workshops
 		pmg_automation_building_tooling_workshops
+		pmg_labor_outsoucing
 		pmg_ownership_capital_building_tooling_workshops
 	}
 
@@ -148,6 +155,7 @@ building_paper_mills = {
 	production_method_groups = {
 		pmg_base_building_paper_mills
 		pmg_automation_building_paper_mills
+		pmg_labor_outsoucing
 		pmg_ownership_capital_building_paper_mills
 	}
 	
@@ -168,6 +176,7 @@ building_chemical_plants = {
 	production_method_groups = {
 		pmg_fertilizer_production
 		pmg_explosives_building_chemical_plants
+		pmg_labor_outsoucing
 		pmg_ownership_capital_building_chemical_plants
 	}
 
@@ -187,6 +196,7 @@ building_synthetics_plants = {
 	production_method_groups = {
 		pmg_synthetic_dyes
 		pmg_synthetic_silk
+		pmg_labor_outsoucing
 		pmg_ownership_capital_building_synthetics_plants
 	}
 	
@@ -206,6 +216,7 @@ building_steel_mills = {
 	production_method_groups = {
 		pmg_steelmaking_process
 		pmg_automation_building_steel_mills
+		pmg_labor_outsoucing
 		pmg_ownership_capital_building_steel_mills
 	}
 	
@@ -226,6 +237,7 @@ building_motor_industry = {
 		pmg_base_building_motor_industry
 		pmg_automobile_production
 		pmg_automation_building_motor_industry
+		pmg_labor_outsoucing
 		pmg_ownership_capital_building_motor_industry
 	}
 	
@@ -244,6 +256,7 @@ building_shipyards = {
 	production_method_groups = {
 		pmg_base_building_shipyards
 		pmg_military_base
+		pmg_labor_outsoucing
 		pmg_ownership_capital_building_shipyards
 	}
 
@@ -270,6 +283,7 @@ building_war_machine_industry = {
 	production_method_groups = {
 		pmg_aeroplanes
 		pmg_tanks
+		pmg_labor_outsoucing
 		pmg_ownership_capital_building_war_machine_industry
 	}
 	
@@ -291,6 +305,7 @@ building_arms_industry = {
 	production_method_groups = {
 		pmg_firearms_manufacturing
 		pmg_foundries
+		pmg_labor_outsoucing
 		pmg_ownership_capital_building_arms_industry
 	}
 	
@@ -309,6 +324,7 @@ building_munition_plants = {
 
 	production_method_groups = {
 		pmg_base_building_munition_plants
+		pmg_labor_outsoucing
 		pmg_ownership_capital_building_munition_plants
 	}
 	

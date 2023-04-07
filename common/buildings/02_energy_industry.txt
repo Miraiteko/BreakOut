@@ -9,6 +9,7 @@
 
 	production_method_groups = {
 		pmg_base_building_power_plant
+		pmg_labor_outsoucing
 		pmg_ownership_capital_building_power_plant
 	}
 	
@@ -25,6 +26,7 @@ nuclear_fusion = {
 
 	production_method_groups = {
 		pmg_nuclear_fusion
+		pmg_labor_outsoucing
 		pmg_ownership_capital
 	}
 
@@ -41,6 +43,7 @@ photovoltaic_plant = {
 
 	production_method_groups = {
 		pmg_photovoltaic_plant
+		pmg_labor_outsoucing
 		pmg_ownership_capital
 	}
 

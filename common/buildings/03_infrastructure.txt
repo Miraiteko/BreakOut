@@ -13,6 +13,7 @@ building_port = {
 
 	production_method_groups = {
 		pmg_base_building_port
+		pmg_labor_outsoucing
 		pmg_ownership_capital_building_railway
 	}
 
@@ -48,6 +49,7 @@ building_railway = {
 	production_method_groups = {
 		pmg_base_building_railway
 		pmg_passenger_trains
+		pmg_labor_outsoucing
 		pmg_ownership_capital_building_railway
 	}
 

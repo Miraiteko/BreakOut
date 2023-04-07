@@ -11,6 +11,7 @@ wafer_plant = {
 	production_method_groups = {
 		pmg_wafer_plant
 		pmg_automation
+		pmg_labor_outsoucing
 		pmg_ownership_capital
 	}
 
@@ -30,6 +31,7 @@ building_electrics_industry = {
 	production_method_groups = {
 		pmg_telephones_category
 		pmg_radios_category
+		pmg_labor_outsoucing
 		pmg_ownership_capital_building_electrics_industry
 	}
 	
@@ -47,6 +49,7 @@ computer_plant = {
 	production_method_groups = {
 		pmg_computer_plant
 		pmg_automation
+		pmg_labor_outsoucing
 		pmg_ownership_capital
 	}
 

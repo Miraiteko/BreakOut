@@ -351,6 +351,22 @@ bg_service = {
 	
 	cash_reserves_max = 25000
 }
+bg_laborforce = {
+	category = urban
+	
+	land_usage = urban
+
+	always_possible = yes	
+	
+	auto_place_buildings = yes	
+	
+	economy_of_scale = no
+	
+	default_building = building_laborer_camp
+	
+	can_use_slaves = yes
+	cash_reserves_max = 25000
+}
 bg_illegal = {
 	category = urban
 	lens = urban

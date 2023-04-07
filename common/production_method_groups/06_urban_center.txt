@@ -33,6 +33,21 @@ pmg_urban_clergy = {
 		pm_free_urban_clergy
 	}
 }
+pmg_laborer_camp = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_no_train
+		pm_simple_train
+	}
+}
+pmg_labor_outsoucing = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_no_outsoucing
+		pm_casual_laborer
+		pm_massive_outsoucing
+	}
+}
 pmg_theater = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive

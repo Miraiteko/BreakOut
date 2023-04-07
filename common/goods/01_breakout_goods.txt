@@ -11,6 +11,15 @@ breed = {
 	
 	consumption_tax_cost = 100
 }
+#劳力
+laborforce = {
+	texture = "gfx/interface/icons/goods_icons/religion_service.dds"
+	cost = 25
+	category = industrial
+	tradeable = yes
+	
+	prestige_factor = 1
+}
 #博彩
 gambling = {
 	texture = "gfx/interface/icons/goods_icons/gambling.dds"

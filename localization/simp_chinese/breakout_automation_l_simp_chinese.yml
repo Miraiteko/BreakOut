@@ -86,6 +86,21 @@
  pm_reinforcement_learning_control:0 "数字化控制"
  pm_quantum_ergodic_control:0 "人工智能"
  
+ #劳工营地
+ laborforce:0 "劳力"
+ building_laborer_camp:0 "劳工营地"
+ pmg_laborer_camp:0 "劳工营地"
+ pm_no_train:0 "苦工"
+ pm_simple_train:0 "简易培训"
+ modifier_building_output_laborforce_add:0 "每级@laborforce!$laborforce$产出"
+ modifier_building_output_laborforce_add_desc:0 "建筑产出的@laborforce!$laborforce$数量"
+ modifier_building_input_laborforce_add:0 "每级@laborforce!$laborforce$投入"
+ modifier_building_input_laborforce_add_desc:0 "建筑投入的@laborforce!$laborforce$数量"
+
+ pmg_labor_outsoucing:0 "劳务外包"
+ pm_no_outsoucing:0 "无外包"
+ pm_casual_laborer:0 "临时工"
+ pm_massive_outsoucing:0 "大规模外包"
 
  #以下内容废弃
  

@@ -132,6 +132,14 @@ building_input_gambling_add = {
 	good = no
 	percent = no
 }
+building_output_laborforce_add = {
+	good = yes
+	percent = no
+}
+building_input_laborforce_add = {
+	good = no
+	percent = no
+}
 
 building_output_medicine_add = {
 	good = yes
