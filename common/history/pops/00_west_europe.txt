@@ -866,7 +866,7 @@
 		}
 	}
 	s:STATE_SOUTH_TYROL = {
-		region_state:GER = {
+		region_state:SWI = {
 			create_pop = {
 				culture = han
 				size = 174100

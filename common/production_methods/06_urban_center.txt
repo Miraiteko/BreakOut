@@ -5,6 +5,7 @@ pm_no_train = {
 	building_modifiers = { 
 		workforce_scaled = {
 			building_output_laborforce_add = 50
+			building_production_exp_growth_add = 0.001
 		}
 
 		level_scaled = {
@@ -14,6 +15,7 @@ pm_no_train = {
 		
 		unscaled = {
 			building_shopkeepers_shares_add = 10
+			building_production_exp_cap_add = 0.5
 		}
 	}
 }	
@@ -22,8 +24,9 @@ pm_simple_train = {
 	
 	building_modifiers = { 
 		workforce_scaled = {
-			building_output_laborforce_add = 65
+			building_output_laborforce_add = 70
 			building_input_tools_add = 5
+			building_production_exp_growth_add = 0.002
 		}
 
 		level_scaled = {
@@ -33,6 +36,7 @@ pm_simple_train = {
 		
 		unscaled = {
 			building_shopkeepers_shares_add = 10
+			building_production_exp_cap_add = 0.8
 		}
 	}
 }		

@@ -5102,7 +5102,7 @@ STATES = {
 	}
 	s:STATE_SOUTH_TYROL = {
 		create_state = {
-			country = c:GER
+			country = c:SWI
 			owned_provinces = { xD0BF60 x1120FF xD040E0 x039D0F }
 		}
 		

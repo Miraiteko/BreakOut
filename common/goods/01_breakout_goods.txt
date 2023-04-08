@@ -14,7 +14,7 @@ breed = {
 #劳力
 laborforce = {
 	texture = "gfx/interface/icons/goods_icons/religion_service.dds"
-	cost = 25
+	cost = 20
 	category = industrial
 	tradeable = yes
 	
