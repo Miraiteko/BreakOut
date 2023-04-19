@@ -38,7 +38,7 @@
  pm_space_elevator:0 "太空电梯"
  
  #核武器相关
- NUKE_THIS_STATE:0 "#nuke 执行核打击#!"
+ NUKE_THIS_STATE:0 "#nuke 执行核打击#!\n$TOOLTIP_DELIMITER$\n[GetScriptedGui('breakout_nuke').ExecuteTooltip( GuiScope.SetRoot(StatesPanel.GetState.MakeScope).End)]" 
  concept_nuclear_weapon:0 "核武器"
  concept_nuclear_weapon_desc:0 "核武器是利用能自持进行的原子核裂变或核聚变反应瞬时释放的巨大的能量，产生爆炸作用，并具有大规模毁伤破坏效应的武器。使用核武器能够有效地摧毁城市，使敌对国家承受重大损失。"
  

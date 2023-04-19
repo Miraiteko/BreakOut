@@ -266,7 +266,7 @@ types state_panel_types
 					visible = "[ScriptedGui.IsShown(GuiScope.SetRoot(StatesPanel.GetState.MakeScope).End)]"
 					onclick = "[ScriptedGui.Execute(GuiScope.SetRoot(StatesPanel.GetState.MakeScope).End)]"
 					enabled = "[ScriptedGui.IsValid(GuiScope.SetRoot(StatesPanel.GetState.MakeScope).End)]"
-					tooltip = "NUKE_THIS_STATE"
+					tooltip = "NUKE_THIS_STATE" 
 					texture = "gfx/interface/icons/generic_icons/nuke.dds"
 					parentanchor = left|up
 					position = { 120 30 }

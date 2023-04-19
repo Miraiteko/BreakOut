@@ -19,15 +19,6 @@
 NPops = {
 	#以下数值的单位均为月，而游戏中显示的是年
 
-	POP_GROWTH_MAX_BIRTHRATE = @breakout_pop_growth				
-	#基础出生率
-	POP_GROWTH_BIRTHRATE_AT_DELTA_CAP = @[breakout_pop_growth*0.99]
-	#拐点出生率
-	POP_GROWTH_MIN_BIRTHRATE = @[breakout_pop_growth*0.98]			
-	#饱和点出生率
-	POP_GROWTH_BIRTHRATE_REDUCTION_PER_SOL = 0
-	#出生率下降斜率
-
 	POP_GROWTH_MAX_MORTALITY = @breakout_max_mortality
 	#基础死亡率
 
@@ -53,6 +44,15 @@ NPops = {
 	#饱和点
 	POP_GROWTH_MIN_MORTALITY = @breakout_mortality_at_cap				
 	#保和点死亡率
+
+	POP_GROWTH_MAX_BIRTHRATE = @breakout_pop_growth				
+	#基础出生率
+	POP_GROWTH_BIRTHRATE_AT_DELTA_CAP = @[breakout_pop_growth*0.99]
+	#拐点出生率
+	POP_GROWTH_MIN_BIRTHRATE = @[breakout_pop_growth*0.98]			
+	#饱和点出生率
+	POP_GROWTH_BIRTHRATE_REDUCTION_PER_SOL = 0
+	#出生率下降斜率
 	
 	
 	#物种改造系统暂时取消

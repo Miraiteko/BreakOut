@@ -7,7 +7,9 @@
 	}
 	
 	when_taken = {
-		add_treasury = market_capital.state_population
+		random_scope_building = {
+			eurika_controlable_nuclear_fusion = yes
+		}
 	}
 	ai_chance = {
          base = 0
