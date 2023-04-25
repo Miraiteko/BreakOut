@@ -57,6 +57,15 @@ ironclads = {
 # STAPLE #
 ##########
 
+porcelain = {
+	texture = "gfx/interface/icons/goods_icons/porcelain.dds"
+	cost = 40
+	category = stable
+	
+	prestige_factor = 5
+	convoy_cost_multiplier = 0.75
+}
+
 grain = {
 	texture = "gfx/interface/icons/goods_icons/grain.dds"
 	cost = 20
@@ -214,7 +223,7 @@ iron = {
 	prestige_factor = 5
 }
 
-lead = {
+tungsten = {
 	texture = "gfx/interface/icons/goods_icons/lead.dds"
 	cost = 40
 	category = industrial
@@ -308,15 +317,6 @@ explosives = {
 # LUXURY #
 ##########
 
-porcelain = {
-	texture = "gfx/interface/icons/goods_icons/porcelain.dds"
-	cost = 70
-	category = luxury
-	
-	obsession_chance = 1.0
-	prestige_factor = 5
-	convoy_cost_multiplier = 0.75
-}
 
 meat = {
 	texture = "gfx/interface/icons/goods_icons/meat.dds"

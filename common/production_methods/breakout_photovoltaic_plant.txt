@@ -4,7 +4,7 @@
 	
 	building_modifiers = { 
 		workforce_scaled = {
-			building_input_glass_add = 15
+			building_input_porcelain_add = 15
 			building_input_dispatching_add = 10
 			building_output_electricity_add = 100
 		}

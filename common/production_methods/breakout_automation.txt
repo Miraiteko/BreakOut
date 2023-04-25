@@ -4,7 +4,7 @@ pm_wafer_plant = {
 		
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_glass_add = 15 #40
+			building_input_porcelain_add = 15 #40
 			building_input_electricity_add = 15 #30
 			building_input_fertilizer_add = 10 #30
 			building_output_wafer_add = 50 #50
@@ -25,7 +25,7 @@ pm_transistor = { #晶体管
 	building_modifiers = {
 		workforce_scaled = {
 			building_input_tools_add = 10 #40
-			building_input_glass_add = 30 #40
+			building_input_porcelain_add = 30 #40
 			building_input_tungsten_add = 15 #40
 			building_output_telephones_add = 50 #70
 		}	
@@ -45,7 +45,7 @@ pm_chemical_etching = { #化学刻
 		workforce_scaled = {
 			building_input_wafer_add = 30 #50
 			building_input_fertilizer_add = 15 #30
-			building_input_glass_add = 15 #40
+			building_input_porcelain_add = 15 #40
 			building_input_rubber_add = 15 #40
 			building_output_telephones_add = 70 #70
 		}	

@@ -164,7 +164,7 @@ pm_patent_stills = {
 		workforce_scaled = {
 			# input goods
 			building_input_sugar_add = 25				# x30 =   750
-			building_input_glass_add = 10				# x40 =   400
+			building_input_porcelain_add = 10				# x40 =   400
 			
 			# output goods
 			building_output_liquor_add = 100			# x30 =  3000
@@ -936,7 +936,7 @@ pm_forest_glass = {
 			building_input_wood_add = 30
 			
 			# output goods
-			building_output_glass_add = 30
+			building_output_porcelain_add = 30
 		}
 
 		level_scaled = {
@@ -960,7 +960,7 @@ pm_leaded_glass = {
 			building_input_tungsten_add = 10
 			
 			# output goods
-			building_output_glass_add = 40
+			building_output_porcelain_add = 40
 		}
 
 		level_scaled = {
@@ -984,7 +984,7 @@ pm_crystal_glass = {
 			building_input_tungsten_add = 35
 			
 			# output goods
-			building_output_glass_add = 70
+			building_output_porcelain_add = 70
 		}
 
 		level_scaled = {
@@ -1010,7 +1010,7 @@ pm_houseware_plastics = {
 			building_input_tungsten_add = 35
 			
 			# output goods
-			building_output_glass_add = 110
+			building_output_porcelain_add = 110
 		}
 
 		level_scaled = {
@@ -1034,7 +1034,7 @@ pm_ceramics = {
 			building_input_dye_add = 15
 
 			# output goods
-			building_output_glass_add = -20
+			building_output_porcelain_add = -20
 			building_output_porcelain_add = 25
 		}
 		
@@ -1057,7 +1057,7 @@ pm_bone_china = {
 			building_input_dye_add = 30
 			
 			# output goods
-			building_output_glass_add = -20
+			building_output_porcelain_add = -20
 			building_output_porcelain_add = 40
 		}
 		

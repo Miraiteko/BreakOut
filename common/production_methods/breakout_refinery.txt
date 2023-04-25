@@ -82,7 +82,7 @@ pm_plastics_plant = {
 			building_input_oil_add = 30	#40 	
 			building_input_sulfur_add = 10	#50
 			building_output_rubber_add = 30 #40
-			building_output_glass_add = 85 #40
+			building_output_porcelain_add = 85 #40
 		}
 
 		level_scaled = {						

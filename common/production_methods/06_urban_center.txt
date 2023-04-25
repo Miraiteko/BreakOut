@@ -103,7 +103,7 @@ pm_market_squares = {
 	building_modifiers = {
 		workforce_scaled = {
 			building_input_wood_add = 5
-			building_input_glass_add = 5
+			building_input_porcelain_add = 5
 			building_output_services_add = 75
 		}
 
@@ -132,7 +132,7 @@ pm_covered_markets = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_glass_add = 8
+			building_input_porcelain_add = 8
 			building_input_steel_add = 8
 			building_output_services_add = 100
 		}
@@ -162,7 +162,7 @@ pm_arcades = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_glass_add = 10
+			building_input_porcelain_add = 10
 			building_input_steel_add = 10
 			building_output_services_add = 125
 		}
