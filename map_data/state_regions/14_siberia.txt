@@ -13,7 +13,7 @@
     capped_resources = {
         bg_coal_mining = 84
         bg_iron_mining = 96
-        bg_copper_mining = 81
+        bg_tungsten_mining = 81
         bg_logging = 13
     }
 }

@@ -355,7 +355,7 @@ STATE_POTOSI = {
     arable_land = 16
     arable_resources = { "bg_grain_plantations" "bg_ranches" "bg_fabric_plantations" }
     capped_resources = {
-        bg_copper_mining = 12
+        bg_tungsten_mining = 12
         bg_logging = 9
         bg_gold_mining = 4
     }
@@ -406,7 +406,7 @@ STATE_LIMA = {
     capped_resources = {
         bg_gold_mining = 6
         bg_iron_mining = 21
-        bg_copper_mining = 30
+        bg_tungsten_mining = 30
         bg_uranium_mining = 28
         bg_logging = 11
         bg_whaling = 5
@@ -493,7 +493,7 @@ STATE_JUJUY = {
     arable_resources = { "bg_grain_plantations" "bg_ranches" "bg_fabric_plantations" }
     capped_resources = {
         bg_iron_mining = 36
-        bg_copper_mining = 18
+        bg_tungsten_mining = 18
         bg_logging = 8
     }
 }
@@ -668,7 +668,7 @@ STATE_TUCUMAN = {
     arable_resources = { "bg_grain_plantations" "bg_ranches" "bg_fabric_plantations" }
     capped_resources = {
         bg_iron_mining = 39
-        bg_copper_mining = 15
+        bg_tungsten_mining = 15
         bg_gold_mining = 3
         bg_logging = 6
     }
@@ -729,7 +729,7 @@ STATE_LOS_RIOS = {
     arable_resources = { "bg_grain_plantations" "bg_ranches" "bg_fabric_plantations"  }
     capped_resources = {
         bg_coal_mining = 60
-        bg_copper_mining = 24
+        bg_tungsten_mining = 24
         bg_uranium_mining = 32
         bg_logging = 11
         bg_whaling = 3
@@ -1035,7 +1035,7 @@ STATE_MINAS_GERAIS = {
     capped_resources = {
         bg_gold_mining = 2
         bg_iron_mining = 45
-        bg_copper_mining = 30
+        bg_tungsten_mining = 30
         bg_logging = 24
     }
     resource = {
@@ -1087,7 +1087,7 @@ STATE_BAHIA = {
     arable_land = 74
     arable_resources = { "bg_grain_plantations" "bg_ranches" "bg_fabric_plantations" }
     capped_resources = {
-        bg_copper_mining = 30
+        bg_tungsten_mining = 30
         bg_logging = 18
         bg_fishing = 8
     }

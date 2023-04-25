@@ -39,7 +39,7 @@ pm_lunar_mine = {
 			building_input_spaceflight_add = 60 #120
 			building_output_iron_add = 75 #40
 			building_output_sulfur_add = 15 #50
-			building_output_lead_add = 15 #40
+			building_output_tungsten_add = 15 #40
 		}	
 		level_scaled = {
 			building_employment_machinists_add = 1500

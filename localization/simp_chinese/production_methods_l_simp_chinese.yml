@@ -282,7 +282,7 @@
   # Mines
  pmg_mining_equipment_building_coal_mine:0 "采矿设备"
  pmg_mining_equipment_building_iron_mine:0 "采矿设备"
- pmg_mining_equipment_building_lead_mine:0 "采矿设备"
+ pmg_mining_equipment_building_tungsten_mine:0 "采矿设备"
  pmg_mining_equipment_building_sulfur_mine:0 "采矿设备"
  pmg_mining_equipment_building_gold_mine:0 "采矿设备"
 
@@ -290,13 +290,13 @@
 
  pm_picks_and_shovels_building_coal_mine:0 "镐和铲"
  pm_picks_and_shovels_building_iron_mine:0 "镐和铲"
- pm_picks_and_shovels_building_lead_mine:0 "镐和铲"
+ pm_picks_and_shovels_building_tungsten_mine:0 "镐和铲"
  pm_picks_and_shovels_building_sulfur_mine:0 "镐和铲"
  pm_picks_and_shovels_building_gold_mine:0 "镐和铲"
 
  pm_atmospheric_engine_pump_building_coal_mine:0 "大气蒸汽机泵"
  pm_atmospheric_engine_pump_building_iron_mine:0 "大气蒸汽机泵"
- pm_atmospheric_engine_pump_building_lead_mine:0 "大气蒸汽机泵"
+ pm_atmospheric_engine_pump_building_tungsten_mine:0 "大气蒸汽机泵"
  pm_atmospheric_engine_pump_building_sulfur_mine:0 "大气蒸汽机泵"
  pm_atmospheric_engine_pump_building_gold_mine:0 "大气蒸汽机泵"
 
@@ -307,7 +307,7 @@
 
  pmg_explosives_building_coal_mine:0 "炸药"
  pmg_explosives_building_iron_mine:0 "炸药"
- pmg_explosives_building_lead_mine:0 "炸药"
+ pmg_explosives_building_tungsten_mine:0 "炸药"
  pmg_explosives_building_sulfur_mine:0 "炸药"
  pmg_explosives_building_gold_mine:0 "炸药"
 
@@ -315,13 +315,13 @@
 
  pm_nitroglycerin_building_coal_mine:0 "硝化甘油"
  pm_nitroglycerin_building_iron_mine:0 "硝化甘油"
- pm_nitroglycerin_building_lead_mine:0 "硝化甘油"
+ pm_nitroglycerin_building_tungsten_mine:0 "硝化甘油"
  pm_nitroglycerin_building_sulfur_mine:0 "硝化甘油"
  pm_nitroglycerin_building_gold_mine:0 "硝化甘油"
 
  pm_dynamite_building_coal_mine:0 "黄色炸药"
  pm_dynamite_building_iron_mine:0 "黄色炸药"
- pm_dynamite_building_lead_mine:0 "黄色炸药"
+ pm_dynamite_building_tungsten_mine:0 "黄色炸药"
  pm_dynamite_building_sulfur_mine:0 "黄色炸药"
  pm_dynamite_building_gold_mine:0 "黄色炸药"
 
@@ -330,13 +330,13 @@
 
  pm_condensing_engine_pump_building_coal_mine:0 "冷凝蒸汽机泵"
  pm_condensing_engine_pump_building_iron_mine:0 "冷凝蒸汽机泵"
- pm_condensing_engine_pump_building_lead_mine:0 "冷凝蒸汽机泵"
+ pm_condensing_engine_pump_building_tungsten_mine:0 "冷凝蒸汽机泵"
  pm_condensing_engine_pump_building_sulfur_mine:0 "冷凝蒸汽机泵"
  pm_condensing_engine_pump_building_gold_mine:0 "冷凝蒸汽机泵"
 
  pm_diesel_pump_building_coal_mine:0 "柴油泵"
  pm_diesel_pump_building_iron_mine:0 "柴油泵"
- pm_diesel_pump_building_lead_mine:0 "柴油泵"
+ pm_diesel_pump_building_tungsten_mine:0 "柴油泵"
  pm_diesel_pump_building_sulfur_mine:0 "柴油泵"
  pm_diesel_pump_building_gold_mine:0 "柴油泵"
 
@@ -508,14 +508,14 @@
  pmg_steam_automation:0 "蒸汽自动化"
  pmg_steam_automation_building_coal_mine:1 "$pmg_steam_automation$"
  pmg_steam_automation_building_iron_mine:1 "$pmg_steam_automation$"
- pmg_steam_automation_building_lead_mine:1 "$pmg_steam_automation$"
+ pmg_steam_automation_building_tungsten_mine:1 "$pmg_steam_automation$"
  pmg_steam_automation_building_sulfur_mine:1 "$pmg_steam_automation$"
  pmg_steam_automation_building_gold_mine:1 "$pmg_steam_automation$"
 
  pmg_train_automation:0 "列车自动化"
  pmg_train_automation_building_coal_mine:1 "$pmg_train_automation$"
  pmg_train_automation_building_iron_mine:1 "$pmg_train_automation$"
- pmg_train_automation_building_lead_mine:1 "$pmg_train_automation$"
+ pmg_train_automation_building_tungsten_mine:1 "$pmg_train_automation$"
  pmg_train_automation_building_sulfur_mine:1 "$pmg_train_automation$"
  pmg_train_automation_building_gold_mine:1 "$pmg_train_automation$"
  pmg_train_automation_building_coffee_plantation:1 "$pmg_train_automation$"
@@ -539,7 +539,7 @@
  pm_rail_transport_mine:1 "$pm_rail_transport$"
  pm_rail_transport_building_logging_camp:1 "$pm_rail_transport$"
  pm_rail_transport_building_oil_rig:1 "$pm_rail_transport$"
- pm_rail_transport_building_lead_mine:1 "$pm_rail_transport$"
+ pm_rail_transport_building_tungsten_mine:1 "$pm_rail_transport$"
  pm_rail_transport_building_coal_mine:1 "$pm_rail_transport$"
  
  pm_log_carts:0 "轨道原木车"
@@ -658,7 +658,7 @@
  pmg_ownership_capital_building_power_plant:1 "$pmg_ownership$"
  pmg_ownership_capital_building_coal_mine:1 "$pmg_ownership$"
  pmg_ownership_capital_building_iron_mine:1 "$pmg_ownership$"
- pmg_ownership_capital_building_lead_mine:1 "$pmg_ownership$"
+ pmg_ownership_capital_building_tungsten_mine:1 "$pmg_ownership$"
  pmg_ownership_capital_building_sulfur_mine:1 "$pmg_ownership$"
  pmg_ownership_capital_building_gold_mine:1 "$pmg_ownership$"
  pmg_ownership_capital_building_logging_camp:1 "$pmg_ownership$"
@@ -701,7 +701,7 @@
  pm_merchant_guilds_building_whaling_station:1 "$pm_merchant_guilds$"
  pm_merchant_guilds_building_coal_mine:1 "$pm_merchant_guilds$"
  pm_merchant_guilds_building_iron_mine:1 "$pm_merchant_guilds$"
- pm_merchant_guilds_building_lead_mine:1 "$pm_merchant_guilds$"
+ pm_merchant_guilds_building_tungsten_mine:1 "$pm_merchant_guilds$"
  pm_merchant_guilds_building_sulfur_mine:1 "$pm_merchant_guilds$"
  pm_merchant_guilds_building_gold_mine:1 "$pm_merchant_guilds$"
  
@@ -710,7 +710,7 @@
  pm_privately_owned:0 "私人所有"
  pm_privately_owned_building_coal_mine:1 "$pm_privately_owned$"
  pm_privately_owned_building_iron_mine:1 "$pm_privately_owned$"
- pm_privately_owned_building_lead_mine:1 "$pm_privately_owned$"
+ pm_privately_owned_building_tungsten_mine:1 "$pm_privately_owned$"
  pm_privately_owned_building_sulfur_mine:1 "$pm_privately_owned$"
  pm_privately_owned_building_gold_mine:1 "$pm_privately_owned$"
  pm_privately_owned_building_food_industry:1 "$pm_privately_owned$"
@@ -747,7 +747,7 @@
  pm_publicly_traded_building_oil_rig:1 "$pm_publicly_traded$"
  pm_publicly_traded_building_coal_mine:1 "$pm_publicly_traded$"
  pm_publicly_traded_building_iron_mine:1 "$pm_publicly_traded$"
- pm_publicly_traded_building_lead_mine:1 "$pm_publicly_traded$"
+ pm_publicly_traded_building_tungsten_mine:1 "$pm_publicly_traded$"
  pm_publicly_traded_building_sulfur_mine:1 "$pm_publicly_traded$"
  pm_publicly_traded_building_gold_mine:1 "$pm_publicly_traded$"
  pm_publicly_traded_building_chemical_plants:0 "$pm_publicly_traded$"
@@ -778,7 +778,7 @@
  pm_government_run_industry:1 "$pm_government_run$"
  pm_government_run_building_coal_mine:1 "$pm_government_run$"
  pm_government_run_building_iron_mine:1 "$pm_government_run$"
- pm_government_run_building_lead_mine:1 "$pm_government_run$"
+ pm_government_run_building_tungsten_mine:1 "$pm_government_run$"
  pm_government_run_building_sulfur_mine:1 "$pm_government_run$"
  pm_government_run_building_gold_mine:1 "$pm_government_run$"
  
@@ -804,7 +804,7 @@
  pm_worker_cooperative_farm:1 "$pm_worker_cooperative$"
  pm_worker_cooperative_building_coal_mine:1 "$pm_worker_cooperative$"
  pm_worker_cooperative_building_iron_mine:1 "$pm_worker_cooperative$"
- pm_worker_cooperative_building_lead_mine:1 "$pm_worker_cooperative$"
+ pm_worker_cooperative_building_tungsten_mine:1 "$pm_worker_cooperative$"
  pm_worker_cooperative_building_sulfur_mine:1 "$pm_worker_cooperative$"
  pm_worker_cooperative_building_gold_mine:1 "$pm_worker_cooperative$"
  

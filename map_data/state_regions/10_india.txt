@@ -230,7 +230,7 @@ STATE_RAJPUTANA = {
     arable_land = 542
     arable_resources = { "bg_grain_plantations" "bg_ranches" "bg_fabric_plantations"}
     capped_resources = {
-        bg_copper_mining = 24
+        bg_tungsten_mining = 24
         bg_uranium_mining = 40
     }
 }
@@ -289,7 +289,7 @@ STATE_ORISSA = {
     arable_resources = { "bg_grain_plantations" "bg_ranches" "bg_fabric_plantations" }
     capped_resources = {
         bg_iron_mining = 30
-        bg_copper_mining = 45
+        bg_tungsten_mining = 45
         bg_fishing = 7
     }
     naval_exit_id = 3050

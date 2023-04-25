@@ -42,7 +42,7 @@
  pm_automatic_power_looms:0 "自动化动力织机"
 
   # Glassworks
- pm_leaded_glass:0 "含铅玻璃"
+ pm_leaded_glass:0 "含钨玻璃"
  pm_manual_glassblowing:0 "手工吹制玻璃"
 
   # Chemical Plants

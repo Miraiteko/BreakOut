@@ -11,7 +11,7 @@
     arable_resources = { "bg_grain_plantations" "bg_ranches" "bg_fabric_plantations" }
     capped_resources = {
         bg_coal_mining = 32
-        bg_copper_mining = 24
+        bg_tungsten_mining = 24
         bg_logging = 17
         bg_fishing = 10
     }
@@ -68,7 +68,7 @@ STATE_WEST_BORNEO = {
     arable_land = 36
     arable_resources = { "bg_grain_plantations" "bg_ranches" "bg_fabric_plantations" }
     capped_resources = {
-        bg_copper_mining = 30
+        bg_tungsten_mining = 30
         bg_logging = 17
         bg_fishing = 7
     }
@@ -599,7 +599,7 @@ STATE_KANAK = {
     arable_land = 8
     arable_resources = { "bg_grain_plantations" "bg_fabric_plantations"}
     capped_resources = {
-        bg_copper_mining = 8
+        bg_tungsten_mining = 8
         bg_logging = 2
         bg_fishing = 3
     }

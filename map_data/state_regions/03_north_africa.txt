@@ -101,7 +101,7 @@ STATE_SINAI = {
     capped_resources = {
         bg_fishing = 3
         bg_iron_mining = 24
-        bg_copper_mining = 24
+        bg_tungsten_mining = 24
     }
     naval_exit_id = 3047
 }
@@ -271,7 +271,7 @@ STATE_INNER_MOROCCO = {
     arable_resources = { "bg_ranches" }
     capped_resources = {
         bg_iron_mining = 30
-        bg_copper_mining = 30
+        bg_tungsten_mining = 30
         bg_fishing = 4
     }
     naval_exit_id = 3089
@@ -290,7 +290,7 @@ STATE_ALGIERS = {
     arable_resources = { "bg_grain_plantations" "bg_ranches" "bg_fabric_plantations" }
     capped_resources = {
         bg_iron_mining = 21
-        bg_copper_mining = 27
+        bg_tungsten_mining = 27
         bg_logging = 6
         bg_fishing = 8
     }
@@ -346,7 +346,7 @@ STATE_TUNISIA = {
     arable_land = 72
     arable_resources = { "bg_grain_plantations" "bg_ranches" "bg_fabric_plantations"  }
     capped_resources = {
-        bg_copper_mining = 15
+        bg_tungsten_mining = 15
         bg_uranium_mining = 48
         bg_logging = 9
         bg_fishing = 7
@@ -573,7 +573,7 @@ STATE_NIGER = {
     arable_resources = { "bg_ranches" }
     capped_resources = {
         bg_coal_mining = 36
-        bg_copper_mining = 18
+        bg_tungsten_mining = 18
         bg_uranium_mining = 24
     }
     resource = {

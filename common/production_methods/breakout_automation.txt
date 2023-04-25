@@ -26,7 +26,7 @@ pm_transistor = { #晶体管
 		workforce_scaled = {
 			building_input_tools_add = 10 #40
 			building_input_glass_add = 30 #40
-			building_input_lead_add = 15 #40
+			building_input_tungsten_add = 15 #40
 			building_output_telephones_add = 50 #70
 		}	
 		level_scaled = {

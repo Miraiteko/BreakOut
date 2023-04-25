@@ -178,10 +178,10 @@ bg_mining = {
 }
 
 
-bg_copper_mining = {
+bg_tungsten_mining = {
 	parent_group = bg_mining
 	
-	default_building = building_lead_mine
+	default_building = building_tungsten_mine
 
 	can_use_slaves = yes
 }

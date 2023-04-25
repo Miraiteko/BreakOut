@@ -12,7 +12,7 @@
     arable_resources = { "bg_grain_plantations" "bg_ranches" }
     capped_resources = {
         bg_iron_mining = 36
-        bg_copper_mining = 18
+        bg_tungsten_mining = 18
         bg_logging = 23
         bg_fishing = 11
     }
@@ -352,7 +352,7 @@ STATE_LANCASHIRE = {
     capped_resources = {
         bg_coal_mining = 100
         bg_iron_mining = 60
-        bg_copper_mining = 45
+        bg_tungsten_mining = 45
         bg_logging = 9
         bg_fishing = 15
     }
@@ -398,7 +398,7 @@ STATE_YORKSHIRE = {
     capped_resources = {
         bg_coal_mining = 100
         bg_iron_mining = 75
-        bg_copper_mining = 27
+        bg_tungsten_mining = 27
         bg_logging = 6
         bg_fishing = 7
     }
@@ -543,7 +543,7 @@ STATE_MUNSTER = {
     arable_land = 174
     arable_resources = { "bg_grain_plantations" "bg_ranches" }
     capped_resources = {
-        bg_copper_mining = 24
+        bg_tungsten_mining = 24
         bg_logging = 4
         bg_fishing = 12
     }
@@ -563,7 +563,7 @@ STATE_LEINSTER = {
     arable_resources = { "bg_grain_plantations" "bg_ranches" }
     capped_resources = {
         bg_iron_mining = 33
-        bg_copper_mining = 27
+        bg_tungsten_mining = 27
         bg_logging = 6
         bg_fishing = 6
     }
@@ -678,7 +678,7 @@ STATE_RHONE = {
     capped_resources = {
         bg_coal_mining = 100
         bg_iron_mining = 36
-        bg_copper_mining = 36
+        bg_tungsten_mining = 36
         bg_logging = 14
     }
 }
@@ -871,7 +871,7 @@ STATE_AUVERGNE = {
     arable_land = 86
     arable_resources = { "bg_grain_plantations" "bg_ranches" }
     capped_resources = {
-        bg_copper_mining = 45
+        bg_tungsten_mining = 45
         bg_uranium_mining = 40
         bg_logging = 17
     }
@@ -985,7 +985,7 @@ STATE_WALLONIA = {
     capped_resources = {
         bg_coal_mining = 80
         bg_iron_mining = 60
-        bg_copper_mining = 30
+        bg_tungsten_mining = 30
         bg_logging = 17
     }
 }
@@ -1073,7 +1073,7 @@ STATE_STYRIA = {
     capped_resources = {
         bg_coal_mining = 40
         bg_iron_mining = 24
-        bg_copper_mining = 24
+        bg_tungsten_mining = 24
         bg_logging = 8
     }
 }
@@ -1168,7 +1168,7 @@ STATE_EAST_SWITZERLAND = {
     arable_resources = { "bg_grain_plantations" "bg_ranches" }
     capped_resources = {
         bg_iron_mining = 30
-        bg_copper_mining = 30
+        bg_tungsten_mining = 30
         bg_logging = 17
     }
 }
@@ -1187,7 +1187,7 @@ STATE_WEST_SWITZERLAND = {
     capped_resources = {
         bg_coal_mining = 48
         bg_iron_mining = 24
-        bg_copper_mining = 24
+        bg_tungsten_mining = 24
         bg_logging = 6
     }
 }
@@ -1242,7 +1242,7 @@ STATE_RHINELAND = {
     arable_resources = { "bg_grain_plantations" "bg_ranches" }
     capped_resources = {
         bg_coal_mining = 60
-        bg_copper_mining = 30
+        bg_tungsten_mining = 30
         bg_logging = 11
     }
 }
@@ -1371,7 +1371,7 @@ STATE_BRUNSWICK = {
     capped_resources = {
         bg_coal_mining = 40
         bg_iron_mining = 45
-        bg_copper_mining = 45
+        bg_tungsten_mining = 45
         bg_logging = 6
     }
 }
@@ -1390,7 +1390,7 @@ STATE_BAVARIA = {
     capped_resources = {
         bg_coal_mining = 60
         bg_iron_mining = 30
-        bg_copper_mining = 30
+        bg_tungsten_mining = 30
         bg_logging = 23
     }
 }
