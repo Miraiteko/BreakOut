@@ -93,16 +93,6 @@ finance_power = {
 	consumption_tax_cost = 1000
 }
 
-#原油
-crude_oil = {
-	texture = "gfx/interface/icons/goods_icons/crude_oil.dds"
-	cost = 20
-	category = industrial
-	tradeable = yes
-	
-	prestige_factor = 2
-	convoy_cost_multiplier = 0.5
-}
 
 #药物
 medicine = {
@@ -146,27 +136,6 @@ wafer = {
 	
 	prestige_factor = 2
 	convoy_cost_multiplier = 0.5 
-}
-#芯片
-chip = {
-	texture = "gfx/interface/icons/goods_icons/chip.dds"
-	cost = 50
-	category = industrial
-	tradeable = yes
-	
-	prestige_factor = 2
-	convoy_cost_multiplier = 0.5
-}
-#软件
-software = {
-	texture = "gfx/interface/icons/goods_icons/software.dds"
-	cost = 50
-	category = industrial
-	tradeable = yes
-	
-	prestige_factor = 5
-	convoy_cost_multiplier = 0.01
-	consumption_tax_cost = 300
 }
 #智能设备
 computer = {
@@ -212,5 +181,17 @@ dragon = {
 	prestige_factor = 3
 	
 	convoy_cost_multiplier = 10
+	consumption_tax_cost = 200
+}
+
+#燃油
+fuel = {
+	texture = "gfx/interface/icons/goods_icons/fuel.dds"
+	cost = 50
+	category = industrial
+	tradeable = yes
+	
+	prestige_factor =5
+	
 	consumption_tax_cost = 200
 }

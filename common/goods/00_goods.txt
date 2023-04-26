@@ -247,9 +247,9 @@ rubber = {
 	prestige_factor = 5
 }
 
-oil = {
+crude_oil = {
 	texture = "gfx/interface/icons/goods_icons/oil.dds"
-	cost = 40
+	cost = 20
 	category = industrial
 	
 	prestige_factor = 5

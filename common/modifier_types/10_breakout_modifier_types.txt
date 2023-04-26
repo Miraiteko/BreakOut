@@ -23,7 +23,7 @@ building_output_coal_mult = {
 	good = yes
 	percent = yes
 }
-building_output_oil_mult = {
+building_output_crude_oil_mult = {
 	good = yes
 	percent = yes
 }
@@ -49,10 +49,6 @@ building_input_breed_add = {
 	percent = no
 }
 building_input_services_add = {
-	good = no
-	percent = no
-}
-building_input_liquor_add = {
 	good = no
 	percent = no
 }
@@ -107,14 +103,6 @@ building_input_investment_management_add = {
 	percent = no
 }
 
-building_output_investment_management_add = {
-	good = yes
-	percent = no
-}
-building_input_investment_management_add = {
-	good = no
-	percent = no
-}
 building_output_finance_power_add = {
 	good = yes
 	percent = no
