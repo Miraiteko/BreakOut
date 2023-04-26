@@ -81,6 +81,14 @@ building_input_crude_oil_add = {
 	good = no
 	percent = no
 }
+building_output_tungsten_add = {
+	good = yes
+	percent = no
+}
+building_input_tungsten_add = {
+	good = no
+	percent = no
+}
 
 
 
