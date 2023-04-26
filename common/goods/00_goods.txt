@@ -6,8 +6,7 @@
 # MILITARY #
 ############
 
-
-ammunition = {#需要使用钨或者贫铀进行合成
+ammunition = {
 	texture = "gfx/interface/icons/goods_icons/ammunition.dds"
 	cost = 50
 	category = military
@@ -43,6 +42,26 @@ tanks = {
 	convoy_cost_multiplier = 2.0
 }
 
+aeroplanes = {
+	texture = "gfx/interface/icons/goods_icons/aeroplanes.dds"
+	cost = 80
+	category = military
+	
+	prestige_factor = 10
+	traded_quantity = 3
+	convoy_cost_multiplier = 2.0
+}
+
+manowars = {
+	texture = "gfx/interface/icons/goods_icons/man_o_wars.dds"
+	cost = 70
+	category = military
+	
+	prestige_factor = 5
+	traded_quantity = 2.5
+	convoy_cost_multiplier = 0.5
+}
+
 ironclads = {
 	texture = "gfx/interface/icons/goods_icons/ironclads.dds"
 	cost = 80
@@ -57,15 +76,6 @@ ironclads = {
 # STAPLE #
 ##########
 
-porcelain = {
-	texture = "gfx/interface/icons/goods_icons/porcelain.dds"
-	cost = 40
-	category = stable
-	
-	prestige_factor = 5
-	convoy_cost_multiplier = 0.75
-}
-
 grain = {
 	texture = "gfx/interface/icons/goods_icons/grain.dds"
 	cost = 20
@@ -79,6 +89,18 @@ grain = {
 	consumption_tax_cost = 500
 }
 
+fish = {
+	texture = "gfx/interface/icons/goods_icons/fish.dds"
+	cost = 20
+	category = staple
+	
+	prestige_factor = 3
+	
+	traded_quantity = 10
+	convoy_cost_multiplier = 0.25
+	
+	consumption_tax_cost = 300
+}
 
 fabric = {
 	texture = "gfx/interface/icons/goods_icons/fabric.dds"
@@ -158,6 +180,17 @@ paper = {
 	consumption_tax_cost = 200
 }
 
+services = {
+	texture = "gfx/interface/icons/goods_icons/services.dds"
+	cost = 30
+	category = staple
+	tradeable = no
+	
+	prestige_factor = 3
+	
+	consumption_tax_cost = 200
+}
+
 transportation = {
 	texture = "gfx/interface/icons/goods_icons/transportation.dds"
 	cost = 30
@@ -184,6 +217,16 @@ electricity = {
 # INDUSTRIAL #
 ##############
 
+clippers = {
+	texture = "gfx/interface/icons/goods_icons/clippers.dds"
+	cost = 60
+	category = industrial
+	
+	prestige_factor = 5
+	traded_quantity = 3.5
+	convoy_cost_multiplier = 0.25
+}
+
 steamers = {
 	texture = "gfx/interface/icons/goods_icons/steamers.dds"
 	cost = 70
@@ -192,6 +235,22 @@ steamers = {
 	prestige_factor = 5
 	traded_quantity = 3.5
 	convoy_cost_multiplier = 0.25
+}
+
+silk = {
+	texture = "gfx/interface/icons/goods_icons/silk.dds"
+	cost = 40
+	category = industrial
+	
+	prestige_factor = 5
+}
+
+dye = {
+	texture = "gfx/interface/icons/goods_icons/dye.dds"
+	cost = 40
+	category = industrial
+	
+	prestige_factor = 5
 }
 
 sulfur = {
@@ -223,7 +282,7 @@ iron = {
 	prestige_factor = 5
 }
 
-tungsten = {
+lead = {
 	texture = "gfx/interface/icons/goods_icons/lead.dds"
 	cost = 40
 	category = industrial
@@ -247,9 +306,9 @@ rubber = {
 	prestige_factor = 5
 }
 
-crude_oil = {
+oil = {
 	texture = "gfx/interface/icons/goods_icons/oil.dds"
-	cost = 20
+	cost = 40
 	category = industrial
 	
 	prestige_factor = 5
@@ -317,6 +376,15 @@ explosives = {
 # LUXURY #
 ##########
 
+porcelain = {
+	texture = "gfx/interface/icons/goods_icons/porcelain.dds"
+	cost = 70
+	category = luxury
+	
+	obsession_chance = 1.0
+	prestige_factor = 5
+	convoy_cost_multiplier = 0.75
+}
 
 meat = {
 	texture = "gfx/interface/icons/goods_icons/meat.dds"

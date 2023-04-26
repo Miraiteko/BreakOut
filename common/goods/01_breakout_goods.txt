@@ -195,3 +195,32 @@ fuel = {
 	
 	consumption_tax_cost = 200
 }
+
+#钨
+tungsten = {
+	texture = "gfx/interface/icons/goods_icons/lead.dds"
+	cost = 40
+	category = industrial
+	
+	prestige_factor = 5
+}
+
+#瓷器
+porcelain = {
+	texture = "gfx/interface/icons/goods_icons/porcelain.dds"
+	cost = 40
+	category = stable
+	
+	prestige_factor = 5
+	convoy_cost_multiplier = 0.75
+}
+#原油
+crude_oil = {
+	texture = "gfx/interface/icons/goods_icons/oil.dds"
+	cost = 20
+	category = industrial
+	
+	prestige_factor = 5
+	
+	consumption_tax_cost = 200
+}	
