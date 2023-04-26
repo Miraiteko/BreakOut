@@ -186,7 +186,7 @@ dragon = {
 #燃油
 fuel = {
 	texture = "gfx/interface/icons/goods_icons/fuel.dds"
-	cost = 50
+	cost = 40
 	category = industrial
 	
 	prestige_factor = 5

@@ -485,7 +485,13 @@ ai_strategy_default = {
 			trigger = {
 				has_technology_researched = electrical_generation
 			}
-		}			
+		}				
+		crude_oil = { 
+			stance = wants_high_supply
+			trigger = {
+				has_technology_researched = pumpjacks
+			}
+		}		
 		coal = { 
 			stance = wants_high_supply
 			trigger = {

@@ -810,7 +810,7 @@ pm_steam_derricks = {
 			building_input_coal_add = 10
 			
 			# output goods
-			building_output_crude_oil_add = 120
+			building_output_crude_oil_add = 240
 		}
 
 		level_scaled = {
@@ -836,7 +836,7 @@ pm_combustion_derricks = {
 			building_input_engines_add = 10
 			
 			# output goods
-			building_output_crude_oil_add = 200
+			building_output_crude_oil_add = 400
 		}
 
 		level_scaled = {
