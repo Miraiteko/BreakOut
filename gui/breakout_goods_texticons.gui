@@ -117,24 +117,6 @@ texticon = {
 	}
 }
 texticon = {
-	icon = chip
-	iconsize = {
-		texture = "gfx/interface/icons/goods_icons/chip.dds"
-		size = { 25 25 }
-		offset = { 0 7 }
-		fontsize = 18
-	}
-}
-texticon = {
-	icon = software
-	iconsize = {
-		texture = "gfx/interface/icons/goods_icons/software.dds"
-		size = { 25 25 }
-		offset = { 0 7 }
-		fontsize = 18
-	}
-}
-texticon = {
 	icon = computation
 	iconsize = {
 		texture = "gfx/interface/icons/goods_icons/computation.dds"
@@ -170,3 +152,22 @@ texticon = {
 		fontsize = 18
 	}
 }
+texticon = {
+	icon = fuel
+	iconsize = { 
+		texture = "gfx/interface/icons/goods_icons/fuel.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+texticon = {
+	icon = tungsten
+	iconsize = { 
+		texture = "gfx/interface/icons/goods_icons/lead.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+

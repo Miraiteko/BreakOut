@@ -186,7 +186,7 @@ pm_compression_ignition_tractors = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods								
-			building_input_oil_add = 3
+			building_input_fuel_add = 3
 			building_input_engines_add = 2
 		}
 

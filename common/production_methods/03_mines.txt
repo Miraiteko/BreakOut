@@ -79,7 +79,7 @@ pm_diesel_pump_building_coal_mine = {
 		workforce_scaled = {
 			# input goods
 			building_input_tools_add = 15
-			building_input_oil_add = 5
+			building_input_fuel_add = 5
 			
 			# output goods
 			building_output_coal_add = 180
@@ -835,7 +835,7 @@ pm_diesel_pump_building_iron_mine = {
 		workforce_scaled = {
 			# input goods
 			building_input_tools_add = 15
-			building_input_oil_add = 5
+			building_input_fuel_add = 5
 			
 			# output goods
 			building_output_iron_add = 70
@@ -1022,7 +1022,7 @@ pm_diesel_pump_building_tungsten_mine = {
 		workforce_scaled = {
 			# input goods
 			building_input_tools_add = 15
-			building_input_oil_add = 5
+			building_input_fuel_add = 5
 			
 			# output goods
 			building_output_tungsten_add = 70
@@ -1168,7 +1168,7 @@ pm_diesel_pump_building_sulfur_mine = {
 		workforce_scaled = {
 			# input goods
 			building_input_tools_add = 15
-			building_input_oil_add = 5
+			building_input_fuel_add = 5
 			
 			# output goods
 			building_output_sulfur_add = 80
@@ -1333,7 +1333,7 @@ pm_diesel_pump_building_gold_mine = {
 		workforce_scaled = {
 			# input goods
 			building_input_tools_add = 15
-			building_input_oil_add = 5
+			building_input_fuel_add = 5
 			
 			# output goods
 			building_output_gold_add = 40

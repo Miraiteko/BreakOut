@@ -3,8 +3,8 @@
 		
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_coal_add = 30
-			building_output_oil_add = 30
+			building_input_crude_oil_add = 30
+			building_output_fuel_add = 30
 		}	
 		level_scaled = {
 			building_employment_laborers_add = 4000
@@ -23,7 +23,7 @@ pm_carbon_dioxide = {
 	building_modifiers = {
 		workforce_scaled = {					
 			building_input_electricity_add = 500	#30   
-			building_output_oil_add = 50 #40		
+			building_output_fuel_add = 50 #40		
 		}
 
 		level_scaled = {					
@@ -42,7 +42,7 @@ pm_liquor_carbon = {
 		workforce_scaled = {					
 			building_input_electricity_add = 400	#30   
 			building_input_liquor_add = 50	#30   
-			building_output_oil_add = 50 #40		
+			building_output_fuel_add = 50 #40		
 		}
 
 		level_scaled = {							
@@ -68,7 +68,7 @@ pm_wood_carbonization = {
 		workforce_scaled = {					
 			building_input_electricity_add = -100 #30
 			building_input_hardwood_add	= 50 #40
-			building_output_oil_add = -10 #40	
+			building_output_fuel_add = -10 #40	
 			building_output_coal_add = 65 #30		
 		}
 	}
@@ -79,7 +79,7 @@ pm_plastics_plant = {
 		
 	building_modifiers = {
 		workforce_scaled = {					
-			building_input_oil_add = 30	#40 	
+			building_input_fuel_add = 30	#40 	
 			building_input_sulfur_add = 10	#50
 			building_output_rubber_add = 30 #40
 			building_output_porcelain_add = 85 #40
@@ -96,7 +96,7 @@ pm_fiber_polymerization = {
 	texture = "gfx/interface/icons/production_method_icons/pulp_pressing.dds"
 	building_modifiers = {
 		workforce_scaled = {						
-			building_input_oil_add = 20 #40
+			building_input_fuel_add = 20 #40
 			building_output_fabric_add = 40 #20
 			building_output_silk_add = 230 #40
 			building_output_wood_add = 10 #20		
@@ -114,7 +114,7 @@ pm_pharmaceutical_mill = {
 		
 	building_modifiers = {
 		workforce_scaled = {					
-			building_input_oil_add = 20	#40 	
+			building_input_fuel_add = 20	#40 	
 			building_input_fertilizer_add = 10	#30
 			building_output_medicine_add = 50 #50
 		}

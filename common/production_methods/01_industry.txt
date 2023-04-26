@@ -110,7 +110,7 @@ pm_vacuum_canning = {
 			building_input_grain_add = -30		# x20 = -600
 			building_input_fish_add = 60		# x20 = 1200
 			building_input_iron_add = 10		# x40 =  400
-			building_input_oil_add = 5 		# x40 =  200
+			building_input_fuel_add = 5 		# x40 =  200
 			
 			# output goods
 			building_output_groceries_add = 60	# x30 = 1800
@@ -806,7 +806,7 @@ pm_assembly_lines_building_furniture_manufacturies = {
 		workforce_scaled = {
 			# input goods
 			building_input_tools_add = 5
-			building_input_oil_add = 5
+			building_input_fuel_add = 5
 			building_input_electricity_add = 5
 		}
 
@@ -1006,7 +1006,7 @@ pm_houseware_plastics = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			building_input_oil_add = 25
+			building_input_fuel_add = 25
 			building_input_tungsten_add = 35
 			
 			# output goods
@@ -1083,7 +1083,7 @@ pm_automatic_bottle_blowers = {
 		workforce_scaled = {
 			# input goods
 			building_input_tools_add = 5
-			building_input_oil_add = 10
+			building_input_fuel_add = 10
 		}
 
 		level_scaled = {
@@ -1322,7 +1322,7 @@ pm_assembly_lines_building_tooling_workshops = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_oil_add = 10
+			building_input_fuel_add = 10
 			building_input_electricity_add = 5
 		}
 
@@ -1729,7 +1729,7 @@ pm_nitrogen_fixation = {
 		workforce_scaled = {
 			# input goods
 			building_input_sulfur_add = 40
-			building_input_oil_add = 20
+			building_input_fuel_add = 20
 			building_input_iron_add = 30
 
 			# output goods
@@ -2167,7 +2167,7 @@ pm_diesel_engines = {
 		workforce_scaled = {
 			# input goods
 			building_input_steel_add = 50
-			building_input_oil_add = 50
+			building_input_fuel_add = 50
 			
 			# output goods
 			building_output_engines_add = 120
@@ -2198,7 +2198,7 @@ pm_automobile_production = {
 			# input goods
 			building_output_engines_add = -20
 			building_input_rubber_add = 10
-			building_input_oil_add = 20
+			building_input_fuel_add = 20
 
 			# output goods
 			building_output_automobiles_add = 25
@@ -2270,7 +2270,7 @@ pm_assembly_lines_building_motor_industry = {
 		workforce_scaled = {
 			# input goods
 			building_input_tools_add = 5
-			building_input_oil_add = 5
+			building_input_fuel_add = 5
 			building_input_electricity_add = 5
 		}
 
@@ -2582,7 +2582,7 @@ pm_aeroplane_production = {
 			building_input_engines_add = 10
 			building_input_hardwood_add = 20
 			building_input_fabric_add = 20
-			building_input_oil_add = 20
+			building_input_fuel_add = 20
 
 			# output goods
 			building_output_aeroplanes_add = 50
@@ -2613,7 +2613,7 @@ pm_tank_production = {
 			# input goods
 			building_input_engines_add = 10
 			building_input_steel_add = 20
-			building_input_oil_add = 10
+			building_input_fuel_add = 10
 			building_output_aeroplanes_add = -10
 
 			# output goods
@@ -2782,7 +2782,7 @@ pm_bolt_action_rifles = {
 			building_input_steel_add = 20
 			building_input_hardwood_add = 10
 			building_input_tools_add = 20
-			building_input_oil_add = 10
+			building_input_fuel_add = 10
 			
 			# output goods
 			building_output_small_arms_add = 75
@@ -2903,7 +2903,7 @@ pm_assembly_lines_building_arms_industry = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_oil_add = 10
+			building_input_fuel_add = 10
 			building_input_electricity_add = 5
 		}
 
@@ -3108,7 +3108,7 @@ pm_assembly_lines_building_munition_plants = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_oil_add = 10
+			building_input_fuel_add = 10
 			building_input_electricity_add = 5
 		}
 

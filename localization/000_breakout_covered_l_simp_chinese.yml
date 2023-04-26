@@ -42,12 +42,10 @@
  CW_DATE_Nov:0 "大雪"
  CW_DATE_Dec:0 "小寒"
  
- URBAN_CENTER:0 "城镇化建筑"
  concept_urban_center:0 "城镇化建筑"
  concept_urban_centers:1 "城镇化建筑"
  concept_urban_center_desc:0 "城镇化建筑是[concept_urbanization]创建的一种特殊[concept_building]，主要包括了#v $building_urban_center$#!与#v $bg_illegal$#!。"
  building_urban_center:0 "集市"
- TOTAL_URBAN_CENTERS:0 "#v $building_urban_center$#!规模："
  declared_bankruptcy:0 "宣布破产"
  modifier_building_group_bg_government_throughput_mult:0 "政府建筑吞吐量" 
  modifier_building_group_bg_government_throughput_mult_desc:0 "对政府建筑的吞吐量的修正"

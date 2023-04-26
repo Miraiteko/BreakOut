@@ -78,7 +78,7 @@ pm_diesel_trains = {
 	building_modifiers = {
 		workforce_scaled = {
 			building_input_engines_add = 20
-			building_input_oil_add = 20
+			building_input_fuel_add = 20
 			building_output_transportation_add = 200
 		}
 		level_scaled = {

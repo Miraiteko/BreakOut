@@ -189,7 +189,7 @@ pm_mechanized_infantry = {
 			building_input_small_arms_add = 1
 			building_input_ammunition_add = 3
 			building_input_tanks_add = 1
-			building_input_oil_add = 1
+			building_input_fuel_add = 1
 			building_input_radios_add = 1
 		}
 
@@ -452,7 +452,7 @@ pm_motorized_recon = {
 	building_modifiers = {
 		workforce_scaled = {
 			building_input_automobiles_add = 1
-			building_input_oil_add = 1
+			building_input_fuel_add = 1
 		}
 
 		throughput_scaled = {
@@ -486,7 +486,7 @@ pm_aerial_recon = {
 	building_modifiers = {
 		workforce_scaled = {
 			building_input_aeroplanes_add = 1
-			building_input_oil_add = 1
+			building_input_fuel_add = 1
 		}
 
 		throughput_scaled = {
@@ -589,7 +589,7 @@ pm_flamethrower_company = {
 	building_modifiers = {
 		workforce_scaled = {
 			building_input_small_arms_add = 1
-			building_input_oil_add = 1
+			building_input_fuel_add = 1
 		}
 		throughput_scaled = {
 			unit_offense_add = 20
@@ -623,7 +623,7 @@ pm_chemical_weapons_specialists = {
 	building_modifiers = {
 		workforce_scaled = {
 			building_input_artillery_add = 1
-			building_input_oil_add = 1
+			building_input_fuel_add = 1
 		}
 		throughput_scaled = {
 			unit_offense_add = 50
@@ -820,7 +820,7 @@ pm_mechanized_infantry_conscription = {
 			building_input_small_arms_add = 1
 			building_input_ammunition_add = 3
 			building_input_tanks_add = 1
-			building_input_oil_add = 1
+			building_input_fuel_add = 1
 			building_input_radios_add = 1
 		}
 
@@ -1024,7 +1024,7 @@ pm_motorized_recon_conscription = {
 	building_modifiers = {
 		workforce_scaled = {
 			building_input_automobiles_add = 1
-			building_input_oil_add = 1
+			building_input_fuel_add = 1
 		}
 
 		throughput_scaled = {
@@ -1054,7 +1054,7 @@ pm_aerial_recon_conscription = {
 	building_modifiers = {
 		workforce_scaled = {
 			building_input_aeroplanes_add = 1
-			building_input_oil_add = 1
+			building_input_fuel_add = 1
 		}
 
 		throughput_scaled = {
@@ -1148,7 +1148,7 @@ pm_flamethrower_company_conscription = {
 	building_modifiers = {
 		workforce_scaled = {
 			building_input_small_arms_add = 1
-			building_input_oil_add = 1
+			building_input_fuel_add = 1
 		}
 		throughput_scaled = {
 			unit_offense_add = 20
@@ -1178,7 +1178,7 @@ pm_chemical_weapons_specialists_conscription = {
 	building_modifiers = {
 		workforce_scaled = {
 			building_input_artillery_add = 1
-			building_input_oil_add = 1
+			building_input_fuel_add = 1
 		}
 		throughput_scaled = {
 			unit_offense_add = 50
