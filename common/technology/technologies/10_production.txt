@@ -579,13 +579,12 @@ threshing_machine = {
 pumpjacks = {
 	# Unlocks possibility to discover Oil (to build Oil Rigs)
 	# Unlocks Oil Rig building
-	era = era_3
+	era = era_2
 	texture = "gfx/interface/icons/invention_icons/pumpjacks.dds"
 	category = production
 	
 	unlocking_technologies = {	
-		steam_donkey
-		dynamite
+		shaft_mining
 	}
 	
 	ai_weight = {

@@ -181,7 +181,6 @@ dragon = {
 	prestige_factor = 3
 	
 	convoy_cost_multiplier = 10
-	consumption_tax_cost = 200
 }
 
 #燃油
@@ -189,16 +188,13 @@ fuel = {
 	texture = "gfx/interface/icons/goods_icons/fuel.dds"
 	cost = 50
 	category = industrial
-	tradeable = yes
 	
-	prestige_factor =5
-	
-	consumption_tax_cost = 200
+	prestige_factor = 5
 }
 
 #钨
 tungsten = {
-	texture = "gfx/interface/icons/goods_icons/lead.dds"
+	texture = "gfx/interface/icons/goods_icons/tungsten.dds"
 	cost = 40
 	category = industrial
 	
@@ -209,18 +205,15 @@ tungsten = {
 porcelain = {
 	texture = "gfx/interface/icons/goods_icons/porcelain.dds"
 	cost = 40
-	category = stable
+	category = staple
 	
 	prestige_factor = 5
-	convoy_cost_multiplier = 0.75
 }
 #原油
 crude_oil = {
-	texture = "gfx/interface/icons/goods_icons/oil.dds"
+	texture = "gfx/interface/icons/goods_icons/crude_oil.dds"
 	cost = 20
 	category = industrial
 	
 	prestige_factor = 5
-	
-	consumption_tax_cost = 200
 }	
