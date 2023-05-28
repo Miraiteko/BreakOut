@@ -3,13 +3,17 @@
 		
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_crude_oil_add = 30
+			building_input_crude_oil_add = 40
 			building_output_fuel_add = 50
+			building_production_exp_growth_add = 0.003
 		}	
 		level_scaled = {
 			building_employment_laborers_add = 4000
 			building_employment_machinists_add = 750
 			building_employment_engineers_add = 150
+		}
+		unscaled = {
+			building_production_exp_cap_add = 0.6
 		}
 	}		
 	state_modifiers = {

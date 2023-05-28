@@ -5,19 +5,11 @@
 
 popneed_heating = {
 	default = wood
-
-	entry = {
-		goods = wood
-		
-		weight = 1
-		max_weight = 3.0 # Maxes out at 60% of supply share
-		min_weight = 0.0
-	}
 	
 	entry = {
 		goods = fabric
 		
-		weight = 0.5
+		weight = 0.3
 		max_weight = 3.0 # Maxes out at 60% of supply share
 		min_weight = 0.0
 	}	
@@ -25,9 +17,16 @@ popneed_heating = {
 	entry = {
 		goods = crude_oil
 		
-		weight = 0.5
+		weight = 0.3
 		max_weight = 3.0 # Maxes out at 60% of supply share
-		min_weight = 0.1
+		min_weight = 0.0
+	}
+	entry = {
+		goods = wood
+		
+		weight = 1
+		max_weight = 3.0 # Maxes out at 60% of supply share
+		min_weight = 0.0
 	}
 	entry = {
 		goods = coal
@@ -145,7 +144,7 @@ popneed_simple_clothing = {
 		min_weight = 0.1
 	}
 }
-popneed_standard_clothing = {
+popneed_luxury_clothing = {
 	default = clothes
 	
 	entry = {
@@ -195,8 +194,7 @@ popneed_household_items = {
 		weight = 0.1
 		max_weight = 2.0 # Maxes out at 40% of supply share
 		min_weight = 0.0
-	}
-	
+	}	
 }
 
 

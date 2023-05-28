@@ -4,6 +4,7 @@ refinery = {
 	texture = "gfx/interface/icons/building_icons/refinery.dds"
 	
 	unlocking_technologies = {
+		fractional_distillation
 	}
 
 	production_method_groups = {

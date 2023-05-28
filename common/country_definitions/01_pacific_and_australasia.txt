@@ -156,14 +156,15 @@ NRU = { # Nauru
 	capital = STATE_NAURU
 }
 
-PLY = { # Polynesia
+PLY = { # Tahiti
 	color = { 176 62 136 }
 	
-	country_type = decentralized
+	country_type = unrecognized
 
 	tier = principality
 	
 	cultures = { han }
+	religion = protestant
 	capital = STATE_TAHITI
 }
 
@@ -245,6 +246,18 @@ NNG = { # Noongar
 	
 	cultures = { han }
 	capital = STATE_WESTERN_AUSTRALIA
+}
+
+KAU = { # Kaurna
+
+	color = { 245 212 134 }
+	
+	country_type = unrecognized
+
+	tier = principality
+	
+	cultures = { han }
+	capital = STATE_SOUTH_AUSTRALIA
 }
 
 GML = { # Gamilaraay
@@ -493,4 +506,26 @@ MGD = {
 	
 	cultures = { han }
 	capital = STATE_MINDANAO
+}
+
+YUZ = { # Yuanzhumin
+	color = { 97 44 96 }
+	
+	country_type = unrecognized
+
+	tier = principality
+	
+	cultures = { han }
+	capital = STATE_FORMOSA
+}
+
+PNS = { # Polynesia
+	color = { 244 140 30 }
+	
+	country_type = unrecognized
+
+	tier = principality
+	
+	cultures = { han }
+	capital = STATE_HAWAIIAN_ISLANDS
 }

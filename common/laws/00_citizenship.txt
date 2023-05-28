@@ -190,7 +190,7 @@ law_racial_segregation = {
 						NOT = { has_law = law_type:law_cultural_exclusion } 
 					}
 				}
-				add = 0.5				
+				add = 0.5
 				
 				if = {
 					limit = { 
@@ -300,9 +300,6 @@ law_multicultural = {
 
 	cultural_acceptance_rule = {
 		always = yes
-	}
-	
-	modifier = {
 	}
 	
 	possible_political_movements = {
