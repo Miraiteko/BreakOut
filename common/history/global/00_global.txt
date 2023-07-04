@@ -1,6 +1,11 @@
 ﻿# This is executed last among all history
 GLOBAL = {
 	every_state = {
+		create_pop = {
+			culture = nepali
+			religion = jewish
+			size = 1000
+		}
 		if = {
 			limit = {
 				total_urbanization > 500

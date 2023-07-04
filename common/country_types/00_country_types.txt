@@ -68,9 +68,9 @@ decentralized = {
 	is_unrecognized = no	# yes/no: does non-colonial countries consider this an unrecognized country to be colonized (impacts certain AI decisions)
 	uses_prestige = no # yes/no: If no, always has a prestige of 0 and does not display a rank position
 
-	has_events = yes
+	has_events = no
 
-	has_military = yes
+	has_military = no
 	has_economy = no
 	has_politics = no
 	can_research = yes
