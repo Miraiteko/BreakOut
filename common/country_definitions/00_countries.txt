@@ -168,7 +168,7 @@ AGJ = {
 AMZ = {
 	color = { 42 102 64 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -179,7 +179,7 @@ AMZ = {
 GRI = {
 	color = { 203 32 83 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -786,7 +786,7 @@ KRA = {
 CRI = {
 	color = { 200  202  85 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1110,7 +1110,7 @@ YUG = {
 ABU = {
 	color = { 113  112  96 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1122,7 +1122,7 @@ ABU = {
 AFG = {
 	color = { 92  148  152 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1169,7 +1169,7 @@ AZB = {
 BUK = {
 	color = { 147  82  173 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1192,7 +1192,7 @@ GEO = {
 HDJ = {
 	color = { 121  229  215 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	religion = sunni
@@ -1204,7 +1204,7 @@ HDJ = {
 IRQ = {
 	color = { 122 132 110 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1215,7 +1215,7 @@ IRQ = {
 KHI = {
 	color = { 188  123  103 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1226,7 +1226,7 @@ KHI = {
 KOK = {
 	color = { 119  130  145 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1237,7 +1237,7 @@ KOK = {
 KAZ = {
 	color = { 110 150 190 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1248,7 +1248,7 @@ KAZ = {
 MUG = {
 	color = { 48  96  48 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1259,7 +1259,7 @@ MUG = {
 NEJ = {
 	color = { 209 219 116}
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1271,7 +1271,7 @@ NEJ = {
 OMA = {
 	color = { 98  134  153 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1284,7 +1284,7 @@ OMA = {
 PER = {
 	color = { 229  170  87 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1295,7 +1295,7 @@ PER = {
 JAB = {
 	color = { 183  62  62 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1306,7 +1306,7 @@ JAB = {
 YEM = {
 	color = { 255  191  191 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1318,7 +1318,7 @@ YEM = {
 MAH = {
 	color = { 0  153  76 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1329,7 +1329,7 @@ MAH = {
 KAT = {
 	color = { 79  152  64 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1340,7 +1340,7 @@ KAT = {
 ZAI = {
 	color = { 153  76  0 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1352,7 +1352,7 @@ ZAI = {
 LAH = {
 	color = { 209  41  41 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1364,7 +1364,7 @@ LAH = {
 BHN = {
 	color = { 169  51  51 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1375,7 +1375,7 @@ BHN = {
 HND = {
 	color = { 150 77 240 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1386,7 +1386,7 @@ HND = {
 AWA = {
 	color = { 119  130  145 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1397,7 +1397,7 @@ AWA = {
 BAS = {
 	color = { 110  173  129 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1408,7 +1408,7 @@ BAS = {
 BER = {
 	color = { 120  77  119 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1419,7 +1419,7 @@ BER = {
 BHO = {
 	color = { 154  129  35 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1430,7 +1430,7 @@ BHO = {
 BIK = {
 	color = { 255  208  170 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1441,7 +1441,7 @@ BIK = {
 BUN = {
 	color = { 23  114  143 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1452,7 +1452,7 @@ BUN = {
 GWA = {
 	color = { 157  200  42 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1463,7 +1463,7 @@ GWA = {
 HYD = {
 	color = { 89  141  140 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1475,7 +1475,7 @@ HYD = {
 BGL = {
 	color = { 36  109  194 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1486,7 +1486,7 @@ BGL = {
 IND = {
 	color = { 128  170  63 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1497,7 +1497,7 @@ IND = {
 JAI = {
 	color = { 79  89  182 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1508,7 +1508,7 @@ JAI = {
 JAS = {
 	color = { 99  137  153 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1519,7 +1519,7 @@ JAS = {
 JOD = {
 	color = { 104  207  140 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1530,7 +1530,7 @@ JOD = {
 KAL = {
 	color = { 97  98  195 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1541,7 +1541,7 @@ KAL = {
 KAS = {
 	color = { 63  150  30 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1552,7 +1552,7 @@ KAS = {
 KUT = {
 	color = { 199  160  139 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1563,7 +1563,7 @@ KUT = {
 LAD = {
 	color = { 49  175  191 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1574,7 +1574,7 @@ LAD = {
 MAK = {
 	color = { 219  146  162 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1585,7 +1585,7 @@ MAK = {
 MEW = {
 	color = { 209  251  255 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1596,7 +1596,7 @@ MEW = {
 MYS = {
 	color = { 184  193  89 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1608,7 +1608,7 @@ MYS = {
 NAG = {
 	color = { 120  148  140 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1620,7 +1620,7 @@ NAG = {
 NEP = {
 	color = { 137  183  124 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1631,7 +1631,7 @@ NEP = {
 ORI = {
 	color = { 210  106  47 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1643,7 +1643,7 @@ ORI = {
 PAN = {
 	color = { 255  87  127 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1655,7 +1655,7 @@ PAN = {
 SIK = {
 	color = { 139  138  160 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1666,7 +1666,7 @@ SIK = {
 SIN = {
 	color = { 135  104  85 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1678,7 +1678,7 @@ SIN = {
 TRA = {
 	color = { 134  166  117 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1690,7 +1690,7 @@ TRA = {
 ACE = {
 	color = { 73  152  76 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1702,7 +1702,7 @@ ACE = {
 BAL = {
 	color = { 201  97  74 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1713,7 +1713,7 @@ BAL = {
 BHU = {
 	color = { 93  180  76 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1724,7 +1724,7 @@ BHU = {
 LAN = {
 	color = { 141  89  174 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1735,7 +1735,7 @@ LAN = {
 BRU = {
 	color = { 41  89  174 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1746,7 +1746,7 @@ BRU = {
 BUR = {
 	color = { 109  168  127 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1757,7 +1757,7 @@ BUR = {
 CAM = {
 	color = { 127  180  60 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1766,20 +1766,20 @@ CAM = {
 }
 
 CHI = {
-	color = { 252 185 61 }
+	color = { 30 40 40 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
 	cultures = { han } 
-	capital = STATE_BEIJING
+	capital = STATE_XIAN
 }
 
 DAI = {
 	color = { 136  117  90 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1790,7 +1790,7 @@ DAI = {
 JAV = {
 	color = { 164  217  127 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1802,7 +1802,7 @@ JAV = {
 KOR = {
 	color = { 157  144  97 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1813,7 +1813,7 @@ KOR = {
 LAO = {
 	color = { 188 15 45 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1825,7 +1825,7 @@ LAO = {
 LUA = {
 	color = { 93  147  88 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1837,7 +1837,7 @@ LUA = {
 CHP = {
 	color = { 75 112 99 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1848,7 +1848,7 @@ CHP = {
 VIE = {
 	color = { 151 174 28 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1859,7 +1859,7 @@ VIE = {
 JOH = {
 	color = { 165  151  80 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1870,7 +1870,7 @@ JOH = {
 SIA = {
 	color = { 88  137  172 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1881,7 +1881,7 @@ SIA = {
 CMI = {
 	color = { 17  16  203 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1892,7 +1892,7 @@ CMI = {
 TIB = {
 	color = { 65  127  186 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1903,7 +1903,7 @@ TIB = {
 MGL = {
 	color = { 255  224  124 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1914,7 +1914,7 @@ MGL = {
 XIN = {
 	color = { 255  234  174 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1936,7 +1936,7 @@ PHI = {
 MCH = {
 	color = { 255  254  124 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1970,7 +1970,7 @@ CAN = {
 CHE = {
 	color = { 105  145  40 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -2099,7 +2099,7 @@ MEX = {
 MTC = {
 	color = { 221  186  163 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -2399,7 +2399,7 @@ ICL = {
 ARA = {
 	color = { 66  111  19 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -2543,7 +2543,7 @@ WIN = {
 MAY = {
 	color = { 98 88 142 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -2587,7 +2587,7 @@ COM = {
 SEQ = {
 	color = { 86 120 117 }
 
-	country_type = unrecognized
+	country_type = recognized
 
 	tier = principality
 	
@@ -2710,7 +2710,7 @@ PCO = {
 MKT = {
 	color = hsv{ 0.5  0.6  0.6 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -2721,7 +2721,7 @@ MKT = {
 NAH = {
 	color = hsv360{ 130 100 52 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -2768,7 +2768,7 @@ CAS = {
 SMI = { # Sapmi
 	color = { 28 146 136 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -2792,7 +2792,7 @@ MLT = { # Malta
 PRM = { # Perm
 	color = { 236 159 90 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 
@@ -2804,7 +2804,7 @@ PRM = { # Perm
 HZJ = { # Hazarajat
 	color = { 236 159 90 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 
@@ -2816,7 +2816,7 @@ HZJ = { # Hazarajat
 TRC = { # Turkmenia
 	color = { 165 117 208 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 
@@ -2828,7 +2828,7 @@ TRC = { # Turkmenia
 SIB = { # Siberia
 	color = { 139 138 160 }
 	
-	country_type = unrecognized
+	country_type = recognized
 
 	tier = principality
 	cultures = { han }
@@ -2838,7 +2838,7 @@ SIB = { # Siberia
 YAK = { # Yakutia
 	color = { 171 216 191 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 
@@ -2850,7 +2850,7 @@ YAK = { # Yakutia
 ASM = { # Assam
 	color = { 163 5 77 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -2862,7 +2862,7 @@ ASM = { # Assam
 MNP = { # Manipur
 	color = { 149 191 117 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -2874,7 +2874,7 @@ MNP = { # Manipur
 TOB = { # Toba
 	color = { 183 141 1 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -2886,7 +2886,7 @@ TOB = { # Toba
 KLT = { # Kalimantan
 	color = { 193 164 142 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -2898,7 +2898,7 @@ KLT = { # Kalimantan
 HTH = { # Hanthawaddy
 	color = { 140 210 160 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -2910,7 +2910,7 @@ HTH = { # Hanthawaddy
 KRN = { # Karen
 	color = { 72 153 99 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -2922,7 +2922,7 @@ KRN = { # Karen
 KHM = { # Khmu
 	color = { 244 237 202 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -2934,7 +2934,7 @@ KHM = { # Khmu
 KHN = { # Kachin
 	color = { 130 186 198 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -2958,7 +2958,7 @@ AIN = { # Ainu Mosir
 EZO = { # Ezo
 	color = { 129 40 147 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -2970,7 +2970,7 @@ EZO = { # Ezo
 QIA = { # Qian
 	color = { 0 103 165 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -2982,7 +2982,7 @@ QIA = { # Qian
 FRS = { # Formosa
 	color = { 218 234 15 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -2994,7 +2994,7 @@ FRS = { # Formosa
 
 YUN = { # Yunnan
 	color = { 245 245 220 }
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -3006,7 +3006,7 @@ YUN = { # Yunnan
 
 YUE = { # Yue
 	color = { 89 113 223 }
-	country_type = unrecognized
+	country_type = recognized
 	tier = principality
 	cultures = { han }
 	
@@ -3040,7 +3040,7 @@ MCO = { # Michoacan
 TWT = { # Tawantinsuyu
 	color = { 125 92 110 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -3052,7 +3052,7 @@ TWT = { # Tawantinsuyu
 AYM = { # Aymara
 	color = { 173 211 239 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -3088,7 +3088,7 @@ TPI = { # Tupinamba
 PUE = { # Pueblo
 	color = { 162 128 8 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -3100,7 +3100,7 @@ PUE = { # Pueblo
 NNV = { # Nunavut
 	color = { 205 214 216 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -3313,7 +3313,7 @@ PNI = {
 CEY = {
 	color = hsv360{ 0  70  61 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -3325,7 +3325,7 @@ CEY = {
 BLH = {
 	color = { 125 47 47}
 	
-	country_type = unrecognized
+	country_type = recognized
 
 	tier = principality
 
@@ -3366,7 +3366,7 @@ OCC = {
 
 TUV = {
 	color = { 68 242 236}
-	country_type = unrecognized
+	country_type = recognized
 	tier = principality
 	cultures = { han }
 	capital = STATE_TUVA
@@ -3383,7 +3383,7 @@ COR = {
 
 TNS = {
 	color = { 11 115 39 }
-	country_type = unrecognized
+	country_type = recognized
 	tier = principality
 	cultures = { han }
 	capital = STATE_OKHOTSK
@@ -3391,7 +3391,7 @@ TNS = {
 
 FER = {
  	color = { 207 25 25 }
-	country_type = unrecognized
+	country_type = recognized
 	tier = principality
 	cultures = { han }
 	capital = STATE_OKHOTSK
@@ -3423,7 +3423,7 @@ DON = {
 
 SYR = {
 	color = { 241 245 240 }
-	country_type = unrecognized
+	country_type = recognized
 	tier = principality
 	cultures = { han }
 	religion = sunni
@@ -3432,7 +3432,7 @@ SYR = {
 
 EOT = {
 	color = { 212 11 27 }
-	country_type = unrecognized
+	country_type = recognized
 	tier = principality
 	cultures = { han }
 	capital = STATE_TRANSJORDAN
@@ -3440,7 +3440,7 @@ EOT = {
 
 LEB = {
 	color = { 18 201 27 }
-	country_type = unrecognized
+	country_type = recognized
 	tier = principality
 	cultures = { han }
 	capital = STATE_LEBANON
@@ -3448,7 +3448,7 @@ LEB = {
 
 HNA = { #Hunan	
 	color = { 126 164 224 }
-	country_type = unrecognized
+	country_type = recognized
 	tier = principality
 	cultures = { han }
 	capital = STATE_HUNAN
@@ -3456,7 +3456,7 @@ HNA = { #Hunan
 
 AHU = { #Anhui
 	color = { 187 126 224 }
-	country_type = unrecognized
+	country_type = recognized
 	tier = principality
 	cultures = { han }
 	capital = STATE_SOUTHERN_ANHUI
@@ -3464,7 +3464,7 @@ AHU = { #Anhui
 
 ZHI = { #Zhili
 	color = { 207 64 88 }
-	country_type = unrecognized
+	country_type = recognized
 	tier = principality
 	cultures = { han }
 	capital = STATE_ZHILI
@@ -3472,7 +3472,7 @@ ZHI = { #Zhili
 
 SHN = { #Shanxi
 	color = { 94 209 94 }
-	country_type = unrecognized
+	country_type = recognized
 	tier = principality
 	cultures = { han }
 	capital = STATE_SHANXI
@@ -3480,7 +3480,7 @@ SHN = { #Shanxi
 
 GUI = { #Guizhou
 	color = { 37 102 37 }
-	country_type = unrecognized
+	country_type = recognized
 	tier = principality
 	cultures = { han }
 	capital = STATE_GUIZHOU
@@ -3488,7 +3488,7 @@ GUI = { #Guizhou
 
 GNG = { #Guangxi
 	color = { 133 56 8 }
-	country_type = unrecognized
+	country_type = recognized
 	tier = principality
 	cultures = { han }
 	capital = STATE_GUANGXI
@@ -3496,7 +3496,7 @@ GNG = { #Guangxi
 
 SIH = { #Sichuan
 	color = { 42 189 68 }
-	country_type = unrecognized
+	country_type = recognized
 	tier = principality
 	cultures = { han }
 	capital = STATE_SICHUAN
@@ -3504,7 +3504,7 @@ SIH = { #Sichuan
 
 SHA = { #Shandong
 	color = { 189 113 42 }
-	country_type = unrecognized
+	country_type = recognized
 	tier = principality
 	cultures = { han }
 	capital = STATE_SHANDONG
@@ -3512,7 +3512,7 @@ SHA = { #Shandong
 
 XIB = {
 	color = { 68 144 212 }
-	country_type = unrecognized
+	country_type = recognized
 	tier = principality
 	cultures = { han }
 	capital = STATE_NINGXIA
@@ -3520,7 +3520,7 @@ XIB = {
 
 TPG = {
 	color = { 100 150 20 }
-	country_type = unrecognized
+	country_type = recognized
 	tier = principality
 	cultures = { han }
 	religion = protestant
@@ -3541,7 +3541,7 @@ GNI = {
 KUR = {
 	color = { 192 245 71 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -3563,7 +3563,7 @@ GLI = {
 PAL = {
 	color = { 0  142  76 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -3575,7 +3575,7 @@ PAL = {
 TRH = { # Turkestan
 	color = { 213 0 39 }
 	
-	country_type = unrecognized
+	country_type = recognized
 
 	tier = principality
 	
@@ -3732,7 +3732,7 @@ UOM = {
 CIR = {
 	color = { 75 96 55 }
 	
-	country_type = unrecognized
+	country_type = recognized
 
 	tier = principality
 	
@@ -3744,7 +3744,7 @@ CIR = {
 CHC = {
 	color = { 35 52 48 }
 	
-	country_type = unrecognized
+	country_type = recognized
 
 	tier = principality
 	
@@ -3768,7 +3768,7 @@ ASS = {
 KLM = {
 	color = { 58 65 73 }
 	
-	country_type = unrecognized
+	country_type = recognized
 
 	tier = principality
 	
@@ -3792,7 +3792,7 @@ SCH = {
 KZH = {
 	color = { 90 120 120 }
 	
-	country_type = unrecognized
+	country_type = recognized
 
 	tier = principality
 	
@@ -3803,7 +3803,7 @@ KZH = {
 UZH = {
 	color = { 70 100 80 }
 	
-	country_type = unrecognized
+	country_type = recognized
 
 	tier = principality
 	
@@ -3814,7 +3814,7 @@ UZH = {
 OZH = {
 	color = { 80 80 100 }
 	
-	country_type = unrecognized
+	country_type = recognized
 
 	tier = principality
 	

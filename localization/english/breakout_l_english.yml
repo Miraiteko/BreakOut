@@ -58,44 +58,6 @@ l_english:
  pm_worker_cooperative_building_breed_center:0 "居民委员会"
  
  
- 
- #出生率修正相关
- breeders_ratio_modifier_00:0 "抚育者占比0%"
- breeders_ratio_modifier_05:0 "抚育者占比5%"
- breeders_ratio_modifier_10:0 "抚育者占比10%"
- breeders_ratio_modifier_15:0 "抚育者占比15%"
- breeders_ratio_modifier_20:0 "抚育者占比20%"
- breeders_ratio_modifier_25:0 "抚育者占比25%"
- breeders_ratio_modifier_30:0 "抚育者占比30%"
- breeders_ratio_modifier_35:0 "抚育者占比35%"
- breeders_ratio_modifier_40:0 "抚育者占比40%"
- breeders_ratio_modifier_45:0 "抚育者占比45%"
- breeders_ratio_modifier_50:0 "抚育者占比50%"
- breeders_ratio_modifier_55:0 "抚育者占比55%"
- breeders_ratio_modifier_60:0 "抚育者占比60%"
- breeders_ratio_modifier_65:0 "抚育者占比65%"
- breeders_ratio_modifier_70:0 "抚育者占比70%"
- breeders_ratio_modifier_75:0 "抚育者占比75%"
- 
- #妇联相关
- ig_wemen_federation:0 "妇联"
- ig_wemen_federation_desc:0 "妇女们团结起来，呼吁提高家庭抚育者的待遇，并为下一代创造更好的成长环境。"
- ig_variant_wemen_federation:0 "[GetInterestGroupVariant('ig_wemen_federation',GetPlayer).GetNameWithCountryVariant]"
- modifier_interest_group_ig_wemen_federation_approval_add:1 "$ig_variant_wemen_federation$ [concept_ig_approval]"
- modifier_interest_group_ig_wemen_federation_approval_add_desc:1 "$ig_variant_wemen_federation$ [concept_interest_group]的总[concept_ig_approval]的修正"
- modifier_interest_group_ig_wemen_federation_pol_str_mult:1 "$ig_variant_wemen_federation$ [concept_pol_str]"
- modifier_interest_group_ig_wemen_federation_pol_str_mult_desc:1 "$ig_variant_wemen_federation$[concept_interest_group]的总[concept_pol_str]的修正"
- modifier_interest_group_ig_wemen_federation_pop_attraction_mult:1 "$ig_variant_wemen_federation$ 移民吸引力"
- modifier_interest_group_ig_wemen_federation_pop_attraction_mult_desc:1 "$ig_variant_wemen_federation$ [concept_interest_group] 对移民吸引力的修正"
- ideology_feminist_breakout:0 "女权主义者"
- ideology_feminist_breakout_desc:0 "#lore 这个集团相信女性和男性是平等的，并争取扩大她们的公民权利。#!"
- ig_trait_flower_power:0 "花朵力量"
- ig_trait_flower_power_desc:0 "我们相信我们生活在一个博爱、宽容、善良的社会，能够让下一代在幸福中成长。"
- ig_trait_harmony:0 "家庭和睦"
- ig_trait_harmony_desc:0 "一个和谐的家庭，足以摆平生活中的诸多压力。"
- ig_trait_irrational_fist:0 "拳法无章"
- ig_trait_irrational_fist_desc:0 "父权主义者把控着社会的方方面面，想尽一切办法压迫我们。作为回应，我们应该时时刻刻准备还击。"
- 
  #博彩商品相关
  gambling:0 "博彩"
  modifier_building_output_gambling_add:0 "每级@gambling!博彩产出"

@@ -1,7 +1,7 @@
 #丶未来科技丿
 #大秦东出MOD
 #交流群：946040397
-version="0.2.1"
+version="0.2.2"
 tags={
 	"Gameplay" 
 	"Total Conversion"

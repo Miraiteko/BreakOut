@@ -13,15 +13,26 @@
       "common/buildings",
       "common/production_method_groups",
       "common/production_methods",
-
-      "common/decisions",      
+ 
       "common/history",
+      "common/history/ai",
       "common/history/buildings",
-      "common/history/countries",
-      "common/history/population",
       "common/history/characters",
+      "common/history/conscription",
+      "common/history/countries",
+      "common/history/diplomacy",
+      "common/history/diplomatic_plays",
+      "common/history/global",
+      "common/history/governments",
+      "common/history/interests",
+      "common/history/pops",
+      "common/history/population",
+      "common/history/production_methods",
+      "common/history/states",
+      "common/history/trade_routes",
       
       "common/journal_entries",
+      "common/decisions",     
       "events"
     ]
   }
