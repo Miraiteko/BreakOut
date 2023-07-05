@@ -1,10 +1,20 @@
 ﻿# This is executed last among all history
 GLOBAL = {
 	every_state = {
-		create_pop = {
-			culture = nepali
-			religion = jewish
-			size = 1000
+		if = {
+			limit = {
+				owner = { this = c:FJI }
+			}
+			create_pop = {
+				culture = nepali
+				size = 100000
+			}
+		}
+		else = {
+			create_pop = {
+				culture = han
+				size = 250000
+			}
 		}
 		if = {
 			limit = {

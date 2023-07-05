@@ -107,7 +107,7 @@ FJI = { # Fiji
 
 	tier = principality
 	
-	cultures = { han }
+	cultures = { nepali }
 	capital = STATE_FIJI
 }
 

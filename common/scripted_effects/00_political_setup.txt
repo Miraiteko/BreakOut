@@ -7,14 +7,14 @@ effect_starting_politics_liberal = {
 	activate_law = law_type:law_proportional_taxation
 	activate_law = law_type:law_elected_bureaucrats
 	activate_law = law_type:law_private_schools
-	activate_law = law_type:law_serfdom_banned
+	activate_law = law_type:law_tenant_farmers
 	activate_law = law_type:law_right_of_assembly
 	activate_law = law_type:law_laissez_faire
 	activate_law = law_type:law_protectionism	
 	activate_law = law_type:law_racial_segregation
 	activate_law = law_type:law_professional_army
 	activate_law = law_type:law_no_migration_controls
-	activate_law = law_type:law_professional_army
+	activate_law = law_type:law_colonial_resettlement
 }
 
 effect_starting_politics_conservative = {
@@ -28,11 +28,11 @@ effect_starting_politics_conservative = {
 	activate_law = law_type:law_national_supremacy
 	activate_law = law_type:law_interventionism
 	activate_law = law_type:law_mercantilism
-	activate_law = law_type:law_serfdom_banned
+	activate_law = law_type:law_tenant_farmers
 	activate_law = law_type:law_censorship
 	activate_law = law_type:law_professional_army
 	activate_law = law_type:law_no_migration_controls
-	activate_law = law_type:law_professional_army
+	activate_law = law_type:law_colonial_resettlement
 }
 
 effect_starting_politics_reactionary = {
@@ -45,11 +45,11 @@ effect_starting_politics_reactionary = {
 	activate_law = law_type:law_national_supremacy
 	activate_law = law_type:law_interventionism
 	activate_law = law_type:law_mercantilism
-	activate_law = law_type:law_serfdom_banned
+	activate_law = law_type:law_tenant_farmers
 	activate_law = law_type:law_censorship
 	activate_law = law_type:law_professional_army
 	activate_law = law_type:law_no_migration_controls
-	activate_law = law_type:law_professional_army
+	activate_law = law_type:law_colonial_resettlement
 }
 
 effect_starting_politics_traditional = {
@@ -62,13 +62,14 @@ effect_starting_politics_traditional = {
 	activate_law = law_type:law_right_of_assembly
 	activate_law = law_type:law_peasant_levies	
 	activate_law = law_type:law_no_migration_controls
+	activate_law = law_type:law_colonial_resettlement
 	if = {
 		limit = {
 			is_country_type = decentralized
 		}
 		activate_law = law_type:law_chiefdom
 		activate_law = law_type:law_isolationism
-		activate_law = law_type:law_serfdom_banned
+		activate_law = law_type:law_tenant_farmers
 	}
 	else = {
 		activate_law = law_type:law_monarchy

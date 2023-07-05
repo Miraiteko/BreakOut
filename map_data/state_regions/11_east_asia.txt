@@ -283,6 +283,7 @@ STATE_SHANXI = {
         bg_iron_mining = 96
         bg_uranium_mining = 48
         bg_logging = 7
+        bg_oil_extraction = 10
     }
     resource = {
         type = "bg_oil_extraction"
@@ -336,6 +337,7 @@ STATE_XIAN = {
         bg_coal_mining = 72
         bg_uranium_mining = 60
         bg_logging = 9
+        bg_iron_mining = 5
     }
     resource = {
         type = "bg_oil_extraction"

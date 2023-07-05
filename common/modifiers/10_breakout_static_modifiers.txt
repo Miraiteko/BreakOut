@@ -99,7 +99,6 @@ bankruptcy = {
 country_literacy_rate = {
 	country_weekly_innovation_max_add = 500
 	country_tech_spread_add = 300
-	#state_colony_growth_creation_mult = 0.2
 }
 
 

@@ -32,8 +32,12 @@
       "common/history/trade_routes",
       
       "common/journal_entries",
-      "common/decisions",     
-      "events"
+      "common/decisions",    
+
+      "events",
+      "events/american_civil_war",
+      "events/expedition_events",
+      "events/tech_events"      
     ]
   }
 }
