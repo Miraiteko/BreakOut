@@ -5,7 +5,7 @@ pm_tradition_breed = {
 	building_modifiers = {
 		workforce_scaled = {
 			building_input_services_add = 2 #30
-			building_output_breed_add = 6 #50
+			building_output_breed_add = 9 #50
 			building_production_exp_growth_add = 0.001
 		}	
 		level_scaled = {
@@ -33,7 +33,7 @@ pm_elite_breed = {
 		workforce_scaled = {
 			building_input_paper_add = 1 #30
 			building_input_services_add = 4 #30
-			building_output_breed_add = 12 #50
+			building_output_breed_add = 18 #50
 			building_production_exp_growth_add = 0.0015
 			
 		}	
